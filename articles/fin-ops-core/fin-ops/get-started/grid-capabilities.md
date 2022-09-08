@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: See artikkel kirjeldab mitut ruudustiku juhtelemendi võimast funktsiooni. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258943"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405461"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -178,20 +178,22 @@ Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval ots
 
 See funktsioon algas vaikimisi versioonis 10.0.21. See on mõeldud kohustuslikuks muutumist 2022. aasta oktoobers.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
+## <a name="developer-topics"></a>Arendaja teemad
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
 Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
 
 ```this.forceLegacyGrid();```
 
 Pärandruudustiku juhtelemendi eemaldamiseks on API lõpuks mittetaunitav. Kuid see jääb alles vähemalt 12 kuuks pärast selle amortiseerumist. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lehe sundimine kasutama uut ruudustikku pärast ruudustikust varem loobumist
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lehe sundimine kasutama uut ruudustikku pärast ruudustikust varem loobumist
 Kui olete uue ruudustiku kasutamisest loobunud, võite soovida hiljem uue ruudustiku uuesti lubada pärast põhiprobleemide lahendamist. Selleks peate lihtsalt eemaldama kutse üksusesse `forceLegacyGrid()`. Muudatus ei jõustub enne, kui toimub üks järgmisest:
 
 - **Keskkonna ümberpaigutamine**: kui keskkonda värskendatakse ja juurutatakse uuesti, siis tühjendatakse automaatselt tabel, mis talletab lehed, mis on uuest ruudustikust (FormControlReactGridState) automaatselt loobunud.
 - **Tabeli käsitsi tühjendamine**: juurutamisstsenaariumide jaoks, kui teil tuleb kasutada SQL-i FormControlReactGridState tabeli tühjendamiseks ja seejärel taaskäivitada AOS. See tegevuste kombinatsioon lähtestab uuest ruudustikust keeldunud lehekülgede vahemälustuse.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Arendaja] Üksikute ruudustike tippimine süsteemivõimalustest ees
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Arendaja] Üksikute ruudustike tippimine süsteemivõimalustest ees
 Mõned stsenaariumid on tekkinud, mis ei laena *end* ruudustiku süsteemivõimalustest ette tippimiseks. (Näiteks mõni kood, mis käivitatakse, kui rida kinnitatakse, käivitab andmeallika uuringute käivitamise ja uurimine võib seejärel rikkuda olemasolevate ridade kinnitamata redigeerimisi.) Kui teie organisatsioon avastab sellise stsenaariumi, on saadaval API, mis võimaldab arendajal asünkroonsest rea kinnitamisest individuaalse ruudustiku valida ja pärandkäitumise taastada.
 
 Kui asünkroonne rea kinnitamine on ruudustikus keelatud, ei saa kasutajad uut rida luua ega teisaldada ruudustikus muule olemasolevale reale, kui praeguses reas on kinnitamisprobleeme. Selle tegevuse kõrval ei saa tabeleid Excelist finantsidesse ja toimingute ruudustikes kleepida.
@@ -204,13 +206,18 @@ Kui asünkroonne rea kinnitamine on ruudustikus keelatud, ei saa kasutajad uut r
 > - Seda kutset tuleks kutsuda ainult erandlikel juhtudel ja see ei tohiks olla kõigi ruudustike norm.
 > - Me ei soovita seda API-d pärast vormi koormamist käitusajal sisse lülitada.
 
-## <a name="developer-size-to-available-width-columns"></a>[Arendajale] Saadaoleva laiusega veerud
+### <a name="developer-size-to-available-width-columns"></a>[Arendajale] Saadaoleva laiusega veerud
 Kui arendaja seab uue ruudustiku veergude puhul atribuudi **WidthMode** väärtuseks **SizeToAvailable**, on neil veergudel esialgu sama laius, mis neil oleks siis, kui atribuudi väärtuseks oleks seatud **SizeToContent**. Sellest hoolimata venitatakse neid, et kasutada ruudustikus saadaolevat lisalaiust. Kui atribuudi väärtuseks on seatud **SizeToAvailable** mitme veeru puhul, jagavad kõik need veerud ruudustikus saadaolevat lisalaiust. Kui kasutaja muudab ühe sellise veeru suurust aga käsitsi, muutub veerg staatiliseks. Selle laius jääb samaks ja seda ei venitata, et kasutada ruudustikus saadaolevat lisalaiust.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Arendaja] Veeru määramine, mis võtab vastu algse fookuse uute ridade loomisel alla-noole klahviga
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Arendaja] Veeru määramine, mis võtab vastu algse fookuse uute ridade loomisel alla-noole klahviga
 [Nagu](#differences-when-entering-data-ahead-of-the-system) on süsteemijaost ees andmeid sisestades esitatud erinevustes, siis kui võimalus "Süsteemist ette tippimine" **on** lubatud ja kasutaja loob allanooleklahvi abil uue rea, on vaikekäitumine panna fookus uue rea esimesse veergu. See kogemus võib erineda pärandruudustiku kogemusest või kui **valitakse** nupp Uus.
 
 Kasutajad ja organisatsioonid saavad luua andmesisestustele optimeeritud salvestatud vaateid. (Näiteks saate veerge ümber järjestada nii, et esimene veerg on see, kuhu soovite andmeid sisestada.) Lisaks saab organisatsioonid versiooni 10.0.29 **kohaselt seda käitumist korrigeerida meetodiga selectedControlOnCreate(**). See meetod võimaldab arendajal määrata veeru, mis peaks saama algse fookuse uue rea loomisel alla-noole **klahvi** abil. Sisendina võtab see API juhtelemendi ID, mis vastab veerule, mis peaks vastu võtma algse fookuse.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Arendaja] Ruudustike käsitsemine mitteaktivavate juhtelementide abil
+Ruudustiku laadimisel, kui süsteem esineb laiendatava juhtelemendiga, mis ei põhine Uuesti, siis sunnib süsteem pärandruudustikku selle asemel renderdama. Kui kasutaja esimest korda sellises olukorras tuleb värskendada, kuvatakse teade, et lehekülge tuleb värskendada. Pärast laadib see leht pärandruudustiku automaatselt ilma edasise teatiseta kasutajatele kuni järgmise süsteemi värskendamiseni. 
+
+Selle olukorra lahendamiseks saavad laiendatavad kontrolli autorid luua ruudustikus kasutamiseks juhtelemendi uuesti versiooni.  Kui see on välja töötatud, võib juhtelemendi X++ **klassi kogumi luua atribuudiga FormReactControlAttribute**, et määrata kogumi Reaktiveerimise asukoht selle juhtelemendi laadimiseks. `SegmentedEntryControl` Vt näidet klassist.  
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit.
@@ -218,9 +225,12 @@ See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit
 ### <a name="open-issues"></a>Lahendamata probleemid
 - Pärast funktsiooni **Uus ruudustiku juhtelement** kasutatakse mõnel lehel jätkuvalt olemasolevat ruudustiku juhtelementi. See juhtub järgmistes olukordades.
  
-    - Lehel on kaardiloend, mida renderdatakse mitmes veerus.
-    - Lehel on rühmitatud kaartide loend.
-    - Ruudustiku veerus on mittereageeriv laiendatav juhtelement.
+    - [Lahendatud] Lehel on olemas kaardiloend, mida renderdatakse mitmes veerus.
+        - Seda tüüpi kaardiloendit toetab uus ruudustiku **juhtelement, alustades** versioonis 10.0.30. Kõiki forceLegacyGrid() kasutusi saab selleks otstarbeks eemaldada. 
+    - [Lahendatud] Lehel on olemas grupeeritud kaardiloend.
+        - Grupeeritud kaardiloendeid toetab uus ruudustiku **juhtelement, alustades** versioonist 10.0.30. Kõiki forceLegacyGrid() kasutusi saab selleks otstarbeks eemaldada. 
+    - [Lahendatud] Mitteaktivtava juhtelemendiga ruudustikuveerg.
+        - Laiendatavad juhtelemendid saavad anda oma juhtelemendi reakt versiooni, mida laaditakse ruudustikku asetamisel ja korrigeerige nende juhtelemendi määratlust ruudustikus kasutamisel selle juhtelemendi laadimiseks. Lisateavet vaadake vastavast arendajajadast. 
 
     Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.
 

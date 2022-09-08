@@ -2,7 +2,7 @@
 title: Kiirklahvid
 description: See artikkel annab ülevaate kiirklahvide kombinatsioonidest, mida saate kasutada finantside ja toimingute rakendustega töötamisel.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357573"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405433"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,12 +88,14 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Filtripaani avamine (või fookuse nihutamine filtripaani ja põhivormi vahel, kui filtripaan on juba avatud) | Alt + M, F või Ctrl + F3       |
 | Filtripaani sulgemine (fookusega filtripaanil)                                                               | Esc-klahv                      |
 | Täpsema filtreerimise/sortimise avamine                                                                                        | Ctrl + Shift + F3            |
+| Rakenda kiirfilter (kui fookus on kiirfiltris)                                                              | Sisestusklahv                    |
+| Rakenda tabelifilter (kui fookus on veerupäise filtriväljal)                                             | Sisestusklahv                    |
 
 ## <a name="form-shortcuts"></a>Vormi kiirklahvid
 
-| Toiming                                    | Klahv või klahvikombinatsioon             |
+| Toiming                                    | Vajutage nuppu              |
 |-----------------------------------------------|-------------------|
-| Uue kirje loomine                           | Alt + N             |
+| Loo uus kirje                           | Alt + N             |
 | Kirje kustutamine                               | Alt + Del või Alt + F9. |
 | Kirje salvestamine                                   | ALT + S või Ctrl + S   |
 | Ennistamine (taastamine)                              | Ctrl + Shift + F5     |
@@ -160,9 +163,10 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Toiming                                                                   | Vajutage nuppu                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Hüperlingi avamine                                                           | Ctrl + Enter                    |
+| Hüperlingi avamine (kui fookus on kirjutuskaitstud juhtelemendil)<br><br>**Märkus: seda** otseteed rakendatakse ainult siis, kui liitboksi **ja otsingu juhtelementide funktsiooni standardiseeri klaviatuuri interaktsioon** on lubatud.                   | Sisestusklahv    |
 | Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                             |
 | Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                             |
-| Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi avamine                         | Alt + allanool                |
+| Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi avamine                         | Alt + allanool<br><br>Sisestage (kui **liitboksi ja otsingu juhtelementide funktsiooni standardiseeri klaviatuuri interaktsioon** on lubatud)                |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi sulgemine                        | Esc-klahv                           |
 | Fookuse nihutamine otsingule (kui otsing on juba avatud)                   | Alt + allanool                |
 | Juhtelemendi täiustatud eelvaate avamine                                          | Alt + ülesnool                  |

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306314"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423565"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigureerimine
 
@@ -303,13 +303,13 @@ Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu ei *pea 
 
 Enamasti ei ole vaba kaubavaru päring üksnes kõrgeimal "kogusumma" tasemel. Selle asemel võite soovida näha tulemusi, mis on laodimensioonide alusel koondatud.
 
-Varude nähtavus pakub paindlikkust, võimaldades teil seadistada _indekseid_. Need indeksid põhinevad dimensioonil või dimensioonide kombinatsioonil. Indeks koosneb *määratud numbrist*, *dimensioonist* ja *hierarhiast*, nii nagu määratletud järgmises tabelis.
+Varude nähtavus pakub paindlikkust, lubades teil seadistada _indekseid_ päringute jõudluse parandamiseks. Need indeksid põhinevad dimensioonil või dimensioonide kombinatsioonil. Indeks koosneb *määratud numbrist*, *dimensioonist* ja *hierarhiast*, nii nagu määratletud järgmises tabelis.
 
 | Nimi | Kirjeldus |
 |---|---|
 | Komplekti number | Samasse komplekti (indeksisse) kuuluvad dimensioonid grupeeritakse kokku ja neile eraldatakse sama komplekti number. |
 | Dimensioon | Põhidimensioonid, mille põhjal päringu tulemus koondatakse. |
-| Hierarhia | Hierarhiat kasutatakse toetatud dimensioonikombinatsioonide määratlemiseks, mille kohta saab päringu esitada. Näiteks seadistate dimensioonikomplekti, mille hierarhia järjestus on `(ColorId, SizeId, StyleId)` Sel juhul toetab süsteem nelja dimensioonikombinatsiooni päringuid. Esimene kombinatsioon on tühi, teine on `(ColorId)`, kolmas on `(ColorId, SizeId)` ja neljas on `(ColorId, SizeId, StyleId)`. Teisi kombinatsioone ei toetata. Lisateavet vt järgmistest näitest. |
+| Hierarhia | Hierarhia võimaldab teil suurendada kindlate dimensioonikombinatsioonide jõudlust, kui seda kasutatakse päringu ja grupeerimise parameetrites. Näiteks kui seadistate dimensioonikogumi `(ColorId, SizeId, StyleId)` hierarhiaseeriaga, saab süsteem nelja dimensioonikombinatsiooniga seotud päringuid kiiremini töödelda. Esimene kombinatsioon on tühi, teine on `(ColorId)`, kolmas on `(ColorId, SizeId)` ja neljas on `(ColorId, SizeId, StyleId)`. Muid kombinatsioone ei saa kokku võtta. Filtrid ei ole tellimusega piiratud, vaid need peavad nende dimensioonide sees olema, kui soovite nende jõudlust parandada. Lisateavet vt järgmistest näitest. |
 
 Tootehierarhia indeksi seadistamiseks toimige järgmiselt.
 
@@ -319,14 +319,13 @@ Tootehierarhia indeksi seadistamiseks toimige järgmiselt.
 1. Vaikimisi antakse indeksite loend. Olemasoleva indeksi muutmiseks valige vastava indeksi jaotisest **Redigeeri** või **Lisa**. Uue indeksikomplekti loomiseks valige suvand **Uus indeksikomplekt**. Iga indeksikomplekti iga rea jaoks valige väljal **Dimensioon** põhidimensioonide loendi hulgast. Järgmiste väljade väärtused luuakse automaatselt.
 
     - **Komplekti number** - samasse gruppi (indeksisse) kuuluvad dimensioonid grupeeritakse kokku ja neile eraldatakse sama komplekti number.
-    - **Hierarhia** – hierarhiat kasutatakse toetatud dimensioonikombinatsioonide määratlemiseks, mille kohta saab dimensioonigrupis (indeksis) päringu esitada. Näiteks kui seadistate dimensioonigrupi, mille *hierarhiajärjestus on Stiil*, *·* *Värv ja Suurus*, toetab süsteem kolme päringugrupi tulemust. Esimene grupp on ainult stiil. Teine grupp on stiili ja värvi kombinatsioon. Ja kolmas grupp on stiili, värvi ja suuruse kombinatsioon. Teisi kombinatsioone ei toetata.
+    - **Hierarhia** – hierarhia parandab kindlate dimensioonikombinatsioonide jõudlust, kui seda kasutatakse päringu parameetrites filtreerimiseks ja grupeerimiseks.
 
 > [!TIP]
 > Siin on mõned vihjed, mida indeksihierarhia seadistamisel silmas pidada.
 >
 > - Sektsiooni konfiguratsioonis määratletud põhidimensioone ei pea indeksikonfiguratsioonides määratlema. Kui indeksikonfiguratsioonis on baasdimensioon uuesti määratletud, ei saa te selle indeksi alusel päringuid esitada.
 > - Kui teil on vaja teha päringuid ainult kõigi dimensioonide kombinatsioonidega liidetud varude kohta, siis seadistage üksik indeks, mis sisaldab baasdimensiooni `Empty`.
-> - Teil peab olema vähemalt üks indeksihierarhia (`Empty` näiteks põhidimensiooni sisaldav), vastasel juhul nurjuvad päringud tõrkega "Indekshierarhiat pole seatud."
 
 ### <a name="example"></a>Näide
 

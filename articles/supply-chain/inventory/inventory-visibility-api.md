@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357637"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423591"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility avalikud API-d
 
@@ -41,6 +41,8 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Postita | [Vabade kaubavarude koguste seadistamine/ülekirjutamine](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Postita | [Ühe reserveerimissündmuse loomine](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Postita | [Mitme reserveerimissündmuse loomine](#create-multiple-reservation-events) |
+| /API/keskkond/{environmentId}/töötlemata/mittereservee | Sisesta | [Tühista üks reserveerimissündmus](#reverse-one-reservation-event) |
+| /API/keskkond/{environmentId}/töötlemata/reservee/hulgi | Sisesta | [Mitme reserveerimissündmuse stornatsioon](#reverse-multiple-reservation-events) |
 | /API/keskkond/{environmentId}/eelnevalt/muudatused ule | Sisesta | [Ühe plaanitud vaba kaubavaru muudatuse loomine](inventory-visibility-available-to-promise.md) |
 | /API/keskkond/{environmentId}/eelnevalt/muudatused ule/hulgi | Sisesta | [Mitme plaanitud vaba kaubavaru muudatuste loomine](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Sisesta | [Päring sisestamismeetodi abil](#query-with-post-method) |
@@ -56,7 +58,7 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 > 
 > Hulgi-API saab tagastada maksimaalselt 512 kirjet iga taotluse kohta.
 
-Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
@@ -83,7 +85,7 @@ Regiooni lühinime leiate rakenduse Microsoft Dynamics Lifecycle Services (LCS) 
 | Lõuna-Brasiilia        | sbr               |
 | Kesk-USA lõunaosa    | scus              |
 
-Saare number on see, kus teie LCS keskkond on rakendusele Service Fabric juurutatud. Praegu puudub viis selle teabe hankimiselt kasutaja poolelt.
+Saare number on see, kus teie LCS keskkond on rakendusele Service Fabric juurutatud. Praegu pole võimalik seda teavet kasutajapoolsest teabest saada.
 
 Microsoft on loonud kasutajaliidese (UI) rakendustekomplekti Power Apps, et saaksite mikroteenuse täieliku lõpp-punkti. Lisateavet vt jaotisest [Teenuse lõpp-punkti leidmine](inventory-visibility-configuration.md#get-service-endpoint).
 
@@ -170,7 +172,7 @@ Järgmine tabel võtab kokku JSON-i sisu iga välja tähenduse.
 
 | Välja kood | Kirjeldus |
 |---|---|
-| `id` | Konkreetse muudatuse sündmuse kordumatu ID. Seda ID-d kasutatakse tagamaks, et kui suhtlus teenusega nurjub sisestamise ajal, ei loetaks sama sündmust süsteemis kahekordselt, kui see uuesti sisestatakse. |
+| `id` | Konkreetse muudatuse sündmuse kordumatu ID. Kui taasedastamise põhjus on teenuse tõrge, kasutatakse seda ID-d selleks, et tagada sama sündmuse kaks korda arvestamist süsteemis. |
 | `organizationId` | Sündmusega lingitud organisatsiooni identifikaator. See väärtus vastendatakse organisatsiooniga või andmepiirkonna ID-ga rakenduses Supply Chain Management. |
 | `productId` | Toote ID. |
 | `quantities` | Kogus, mille võrra vaba kaubavaru kogust tuleb muuta. Näiteks kui riiulile lisatakse 10 uut raamatut, on selleks väärtuseks `quantities:{ shelf:{ received: 10 }}`. Kui kolm raamatut riiulilt eemaldatakse või müüakse, on selleks väärtuseks `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ Järgmine tabel võtab kokku JSON-i sisu iga välja tähenduse.
 | `dimensions` | Dünaamiline võtme-väärtuse paar. Väärtused vastendatakse mõnede rakenduse Supply Chain Management dimensioonidega. Kuid te saate lisada ka kohandatud dimensioone (nt _Allikas_), et näidata, kas sündmus tuleb rakendusest Supply Chain Management või välisest süsteemist. |
 
 > [!NOTE]
-> Sektsiooni `SiteId` ja `LocationId` parameetrid konstrueerivad [partitsiooni konfiguratsioon](inventory-visibility-configuration.md#partition-configuration). Seetõttu peate need dimensioonides määrama, kui loote vaba kaubavaru muutuse sündmusi, seadistate või alistate vaba kaubavaru kogused või loote reserveerimissündmused.
+> Sektsiooni `siteId` ja `locationId` parameetrid konstrueerivad [partitsiooni konfiguratsioon](inventory-visibility-configuration.md#partition-configuration). Seetõttu peate need dimensioonides määrama, kui loote vaba kaubavaru muutuse sündmusi, seadistate või alistate vaba kaubavaru kogused või loote reserveerimissündmused.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Ühe vabade kaubavarude muutmise sündmuse loomine
 
@@ -216,14 +218,14 @@ Järgmises näites on toodud näidissisu. Selles näites sisestate toote *T-sär
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Järgmises näites on toodud näidissisu ilma `dimensionDataSource`. Sel juhul, 
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Järgmises näites on toodud näidissisu.
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Järgmises näites on toodud näidissisu.
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Järgmises näites on toodud näidissisu. Selle API käitumine erineb [API-de k�
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Järgmises näites on toodud näidissisu. Selle API käitumine erineb [API-de k�
 
 ## <a name="create-reservation-events"></a>Reserveerimissündmuste loomine
 
-API *Reserveerimine* kasutamiseks peate avama reserveerimisfunktsiooni ja viima lõpuni reserveerimise konfiguratsiooni. Lisateavet vt teemast [Reserveerimise konfigureerimine (valikuline)](inventory-visibility-configuration.md#reservation-configuration).
+Reservi API kasutamiseks *peate* sisse lülitama reserveerimise funktsiooni ja lõpule täitma reserveerimise konfiguratsiooni. Lisateavet vt teemast [Reserveerimise konfigureerimine (valikuline)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Ühe reserveerimissündmuse loomine
 
@@ -389,7 +391,7 @@ Reserveerida saab erinevate andmeallikate sätete suhtes. Seda tüüpi reserveer
 
 Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
 
-Kui soovite tühistada reserveeringu või määratud laokogused reserveerimata, määrake koguseks negatiivne väärtus ja seadke `ifCheckAvailForReserv` parameetrile kinnitus `False` vahele jätmiseks.
+Kui soovite tühistada reserveeringu või määratud laokogused reserveerimata, määrake koguseks negatiivne väärtus ja seadke parameetrile kinnitus `ifCheckAvailForReserv``False` vahele jäetud. Sama otstarbel on olemas ka sihtotstarbeline mittereserveentide API. Erinevus seisneb ainult selles, kuidas kahte API-d kutsutakse. Konkreetse reserveeringusündmuse tagasipööramine on lihtsam, kui kasutate `reservationId` seda *reserveerimata API-ga*. Lisateavet vt jaotisest Reserveerimata [_üks reserveerimissündmus_](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Järgmises näites on toodud näidissisu.
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+Järgmine näide näitab edukat vastust.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Mitme reserveerimissündmuse loomine
 
-See API on [üksiksündmuse API](#create-one-reservation-event).
+See API on [üksiksündmuse API](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Tühista reserveerimissündmused
+
+Reserveerimata *API on* reserveerimise sündmuste tühistamistoiming [*·*](#create-reservation-events). See võimaldab tühistada reserveerimissündmuse, mille on määranud `reservationId` või vähendada reserveerimiskogust.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a> Tühista üks reserveerimissündmus
+
+Reserveeringu loomisel kaasatakse `reservationId` see vastuse kehaosasse. Peate sisestama sama reserveerimise `reservationId` tühistamiseks ja kaasama sama ja seda `organizationId` kasutatakse `dimensions` reserveerimise API kutses. Lõpuks määrake väärtus `OffsetQty`, mis näitab eelmisest reserveeringust vabastatavate kaupade arvu. Reserveerimise saab määratud aja järgi kas täielikult või osaliselt tühistada `OffsetQty`. Näiteks kui reserveeriti *100* kaubaühikut, `OffsetQty: 10`*saate algsest reserveeritud summast 10* reserveerimata määrata.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+Järgmine kood näitab kehasisu näidet.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+Järgmine kood näitab eduka vastuse keha näidet.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Vastuse kehas, kui `OffsetQty` see on reserveeringu kogusest väiksem või sellega võrdne, `processingStatus` on "*edukas*" `totalInvalidOffsetQtyByReservId` ja on *0*.
+>
+> Kui `OffsetQty` see on suurem kui reserveeritud summa, `processingStatus` on see "*partialSuccess*" `totalInvalidOffsetQtyByReservId` ja on reserveeritud `OffsetQty` summa vahe.
+>
+>Näiteks kui reserveeringu kogus on *10* ja `OffsetQty`*selle väärtus on 12*, `totalInvalidOffsetQtyByReservId` oleks *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a> Mitme reserveerimissündmuse stornatsioon
+
+See API on [üksiksündmuse API](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Vaba kaubavaru päring
 
-Kasutage päringu _vaba laoseisu_ API-d oma toodetele praeguste vaba kaubavaru andmete toomiseks. API toetab praegu päringuid kuni 100 üksiku üksuse kohta väärtuse `ProductID` alusel. Iga `SiteID` päringu `LocationID` puhul saab määrata ka mitu väärtust. Maksimaalne limiit on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Kasutage päringu *vaba laoseisu* API-d oma toodetele praeguste vaba kaubavaru andmete toomiseks. API toetab praegu päringuid kuni 5000 üksiku üksuse kohta väärtuse `productID` alusel. Iga `siteID` päringu `locationID` puhul saab määrata ka mitu väärtust. Maksimumlimiidi määratleb järgmine võrrand:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Päring sisestusmeetodi abil
 
@@ -517,7 +629,7 @@ Taotluse kehaosa, `dimensionDataSource` on siiski valikuline parameeter. Kui see
 - `productId` võib sisaldada üht või enamat väärtust. Kui see on tühi massiiv, tagastatakse kõik tooted.
 - `siteId` ja `locationId` kasutatakse rakenduses Inventory Visibility sektsioonimiseks. Saate päringu *Vaba kaubavaru* nõudes määrata rohkem kui ühe `siteId` ja `locationId` väärtuse. Praeguses väljalaskes tuleb määrata nii `siteId` väärtused kui ka `locationId` väärtused.
 
-Parameeter `groupByValues` peaks järgima indekseerimiseks teie konfiguratsiooni. Lisateavet leiate teemast [Tooteindeksi hierarhia konfiguratsioon](./inventory-visibility-configuration.md#index-configuration).
+Soovitame kasutada parameetrit indekseerimisel `groupByValues` konfiguratsiooni järgimiseks. Lisateavet leiate teemast [Tooteindeksi hierarhia konfiguratsioon](./inventory-visibility-configuration.md#index-configuration).
 
 Parameeter `returnNegative` kontrollib, kas tulemused sisaldavad negatiivseid kandeid.
 
@@ -530,13 +642,13 @@ Järgmises näites on toodud näidissisu.
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Järgmine näide näitab, kuidas teha päringuid kõigi toodete kohta konkreetse
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -574,10 +686,10 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis varem antud sisestamise näide.
+Siin on url-i näidis. See hankimise taotlus on täpselt sama, mis varem antud sisestamise näide.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Lubaduse andmiseks saadaval

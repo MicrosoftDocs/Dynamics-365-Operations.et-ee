@@ -2,7 +2,7 @@
 title: Varude sätete rakendamine
 description: See artikkel katab varude sätted ja kirjeldab nende rakendumist Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287588"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405316"
 ---
 # <a name="apply-inventory-settings"></a>Varude sätete rakendamine
 
@@ -51,12 +51,12 @@ Commerce'is määratletakse varude sätted saidiehitajas jaotises **Saidi sätte
     > [!IMPORTANT] 
     > Seade **Mitme lao laotase** on saadaval alates äriversiooni versioonist 10.0.19. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Tooteloendi lehtede laosätted** see säte määrab, kuidas laost väljas valmistatud tooted kuvatakse tootekogumite ja otsingutulemuste moodulites renderdatavates tooteloendites. Saadaolevad väärtused on **kuva tellimisjärjekorras teiste toodetega**, **peida otsas laotooted loendist** ja **kuva otsas laotooted loendi lõpus**. Selle sätte kasutamiseks peate esmalt konfigureerima mõned eeltingimuste sätted Commerce Headquarters`is. Lisateavet vt [luba laovarude otsing tulemuste mooduli jaoks](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Tooteloendi lehtede laosätted** see säte määrab, kuidas laost väljas valmistatud tooted kuvatakse tootekogumite ja otsingutulemuste moodulites renderdatavates tooteloendites. Saadaolevad väärtused on **kuva tellimisjärjekorras teiste toodetega**, **peida otsas laotooted loendist** ja **kuva otsas laotooted loendi lõpus**. Selle sätte kasutamiseks peate esmalt konfigureerima mõned eeltingimuste sätted Commerce Headquarters`is. Lisateavet vt varudest teadmise [tooteloendist](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > Seade **Varude seaded tootedete loendi lehtedel** on saadaval alates Commerce versioonis 10.0.20 väljalaskest. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Varude vahemikud** – säte määratleb varude vahemikud, mille kohta kuvatakse saidi moodulites teade. See on kohaldatav vaid juhul, kui sätte **Varude taseme alus** jaoks valitakse väärtus **Kokku saadaval** või väärtus **Füüsiliselt saadaval**. Saadaolevad väärtused on **Kõik**, **Varud madalad ja laost otsas** ja **Laost otsas**.
+- **Laovahemikud** – see säte määrab laoala moodulites kuvatavad laovahemiku teated. See on kohaldatav vaid juhul, kui sätte **Varude taseme alus** jaoks valitakse väärtus **Kokku saadaval** või väärtus **Füüsiliselt saadaval**. Saadaolevad väärtused on **Kõik**, **Varud madalad ja laost otsas** ja **Laost otsas**.
 
     - Suvandi **Kõik** valimisel kuvatakse kõik varude vahemikud, alates olemasolevast (teade „olemas“) ja lõpetades väärtusega laost otsas (teade „Laost otsas“).
     - Suvandi **Varud madalad ja laost otsas** valimisel kuvatakse kõik varude vahemikud, v.a väärtus olemasolev (teade „olemas“).

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114931"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423955"
 ---
 # <a name="process-automation"></a>Protsessi automatiseerimine
 
@@ -29,6 +29,8 @@ Protsessi automatiseerimine võimaldab pakktöötlusserveris käivitatavate prot
 ## <a name="administration"></a>Haldus
 
 Kõigi protsessi automatiseerimiste keskse halduse lehe leiate süsteemihalduse mooduli menüü jaotisest **Häälestus**. Sellel lehel loetletakse kõik süsteemis seadistatud automatiseeritud protsessid (seeriad). Saate lisada ka uusi protsessi automatiseerimisi otse sellelt lehelt. Pärast seeria seadistamist saate selle loendi kaudu hallata kõiki seeriaid. Saate redigeerida tervet seeriat, seda kustutada, vaadata loendivaatest kõiki esinemisi või keelata seeria, kui soovite plaanitud töö mõneks ajaks peatada. 
+
+Kasutage vahekaarti **Taustaprotsessid** sellel lehel mis tahes taustaprotsesside haldamiseks, mis teie keskkonnas töötavad. Valige **muuda**, et teha ajakava mis tahes taustaprotsessile muudatusi. Need muudatused võivad hõlmata ajaperioodi, mis põhjustab protsessi olekuks "pause running for specified period each day". Valige **iga taustaprotsessi käivitamise** tulemuste vaatamiseks viimatised tulemused.
 
 Funktsioonihalduses keelatud protsesse ei näidata, kui funktsioon on keelatud. Lisaks ei ajasta protsessi automatiseerimise ajastamise mootor keelatud funktsiooni jaoks ühtegi esinemiskorda ega taustaprotsessi. Funktsiooni uuesti lubamisel käivitatakse kohe varem ajastatud esinemiskorrad või taustaprotsessid. Protsessi automatiseerimise plaanimise mootor põhineb süsteemi pakett-tööl **Protsessi automatiseerimise pollimissüsteemi töö** käitamisel. Tööd ei tohi suvalisel ajal muuta ega sellega manipuleerida. Kui see pakett-töö ei tööta või on see tõrke olekus, valige pakett-töö **lähtestamiseks** suvand Lähtesta protsessi automatiseerimine. See lähtestamine tagab kõigi rakenduse uuemas versioonis väljastatud uute automatiseerimiste lähtestamise. 
 

@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124292"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423850"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Õppekataloog Dynamics 365 Supply Chain Managementi kasutajatele
 
@@ -25,11 +25,10 @@ Kas saite just kasutamiseks uue rakenduse?
 
 Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka süvatasemel. Kui sisu on mitmes vormingus, anname teile sellest teada, et saaksite valida koolitusvormingu, mis vastab teie vajadustele kõige paremini.
 
-## <a name="get-started"></a>Alustamine<a name="get-started"></a>
+## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
 | Sisu | Kirjeldus | Vorming | Pikkus |
 |---------|-------------|--------|--------|
-| [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 8 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
 | [Alustage finantside ja toimingute rakendustega](/learn/paths/get-started-finance-operations/) | Vaadake, kuidas finantsid ja toimingute rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tegevus äriprotsesside ja sujuvate tarneahelate haldamiseks, et volitada inimesi tegema kiireid, teavitatud otsuseid. Esimese sammuna finantside ja toimingute rakendustega töötamise karjääri jooksul peate tutvuma selle funktsioonide ja funktsioonidega, olenemata sellest, milline on teie soovitud roll. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Alustage Dynamics 365 Supply Chain Managementis varahalduse kasutamist](/learn/modules/get-started-asset-management/index) | Varahaldus on moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management. Varahaldus võimaldab teil tõhusalt hallata ja täita ülesandeid, mis on seotud paljude eri tüüpi seadmete, näiteks masinate, tootmisseadmete ja sõidukite, haldamise ja hooldamisega teie ettevõttes. Varahaldus toetab lahendusi paljudes tööstusharudes. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |

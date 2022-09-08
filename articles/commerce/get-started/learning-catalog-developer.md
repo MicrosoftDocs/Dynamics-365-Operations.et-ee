@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 048d46fa5504f7249f310da2d2ff4be05e88b3fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0d1b018557cb576f8cc50000b86c5baabc738e44
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291505"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423908"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Õppekataloog Dynamics 365 Commerce'i arendajatele
 
@@ -29,18 +29,15 @@ Teavet teiste finantside ja toimingute rakendustega ühiskasutuses funktsioonide
 
 ## <a name="get-started"></a>Alustage<a name="get-started"></a>
 
-| Sisu  | Kirjeldus  | Vorming  | Pikkus    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Selle õppeprotsessi käigus näitame teile, kuidas digitaalne teisendus ja ärirakenduste võimsus võivad teie ettevõtet muuta. Kirjeldame seda, kuidas Dynamics 365 ja Power Platform aitavad teil teha teie organisatsiooni vajadustest ja eesmärkidest lähtuvaid teadlikke otsuseid digitaalse teisenduse nelja elemendi kaudu: tänapäevane, ühtlustatud, intelligentne ja kohandatav.                                                                    | Tasuta iseläbitav internetipõhine õppetee | 6.5 tundi |
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Dynamics 365 Commercei kasutamise alustamine](/learn/paths/get-started-dynamics-365-commerce/)                                                              | Teenuse Dynamics 365 Retail tõestatud funktsioonidel põhinev Dynamics 365 Commerce pakub ulatuslikku mitmekanalilist lahendust, mis ühendab endas kontori-, poe-, kõnekeskuse ja digifunktsionaalsuse. Dynamics 365 Commerce võimaldab teil klientide isikustatud kaasamise kaudu tootemargi lojaalsust luua, töötajate suurenenud produktiivsuse tõttu tulu suurendada, optimeerida toiminguid kulude vähendamiseks ja juhtida tarneahela efektiivsust, mis viib lõpuks paremate äritulemusteni. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi   |
 | [Dynamics 365 Fraud Protectioni kasutamise alustamine](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection on pilvepõhine lahendus, mis on mõeldud e-kaubanduse, füüsiliste kaupluste ja omnikanali kaupmeeste jaoks, et aidata kaitsta nende tulu ning mainet, pakkudes tööriistu ja võimalusi pettuste ning kuritarvitamise vähendamiseks, tegevuskulude langetamiseks ja nõustumismäärade suurendamiseks, kaitstes samal ajal kasutajakontosid pettuste eest. | Tasuta iseläbitav internetipõhine õppetee | 35 minutit |
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Sisu  | Kirjeldus  | Vorming  | Pikkus    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Dynamics 365 Commerce'i juurutamine ja laiendamine](/learn/paths/deploy-dynamics-365-commerce/) | Selles õppetees kirjeldatakse, kuidas juurutada Dynamics 365 Commerce'i keskkondasid ja toimida pärast ettevalmistust, et Commerce saaks edukalt juurutatud, kasutades iga jaemüüja ärivajaduste jaoks õiget topoloogiat. | Tasuta iseläbitav internetipõhine õppetee | 5 tundi |
 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

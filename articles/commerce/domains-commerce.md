@@ -4,22 +4,17 @@ description: See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dyna
 author: BrianShook
 ms.date: 08/19/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
-ms.search.validFrom: ''
-ms.dyn365.ops.version: Release 10.0.12
-ms.search.industry: retail
-ms.search.form: ''
-ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337216"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405492"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -110,10 +105,10 @@ Kohandatud domeenide seadistamiseks sisenemispunkti teenuse või CDN-i abil on t
 
 - Saate seadistada sisenemispunkti teenuse (nt Azure Front Door) eesserveri liikluse käsitlemiseks ja oma Commerce'i keskkonnaga ühenduse loomiseks. See tagab suurema kontrolli domeeni- ja serdihalduse ning täpsemate turbepoliitikate üle.
 
+- Saate kasutada Commerce'i esitatud Azure'i sisenemispunkti eksemplari. Selleks on vaja koordineerida tegevust teenuse Dynamics 365 Commerce töörühmaga domeeni kinnitamiseks ja teie tootmise domeeni SSL-i sertide hankimiseks.
+
 > [!NOTE]
 > Kui kasutate välist CDN-i või esikaaneteenust, veenduge, et taotlus on Äriportaalis äriportaali hostinimega, kuid X-Hosti (XFH) päisega \<custom-domain\>. Näiteks kui teie rakenduse Commerce lõpp-punkt `xyz.dynamics365commerce.ms``www.fabrikam.com` on ja kohandatud domeen on, `xyz.dynamics365commerce.ms` peaks edastatava nõude hostipäis olema ja olema XFH-päis `www.fabrikam.com`.
-
-- Saate kasutada Commerce'i esitatud Azure'i sisenemispunkti eksemplari. Selleks on vaja koordineerida tegevust teenuse Dynamics 365 Commerce töörühmaga domeeni kinnitamiseks ja teie tootmise domeeni SSL-i sertide hankimiseks.
 
 Lisateavet CDN-i teenuse otseseadistamise kohta leiate teemast [Sisu edastamise võrgu (CDN) toe lisamine](add-cdn-support.md).
 

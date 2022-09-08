@@ -2,7 +2,7 @@
 title: Otsingutulemuste moodul
 description: See artikkel katab otsingutulemuste moodulid ja kirjeldab, kuidas lisada neid saidi lehtedele moodulis Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286806"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405289"
 ---
 # <a name="search-results-module"></a>Otsingutulemuste moodul
 
@@ -86,48 +86,16 @@ Otsingutulemuste mooduli lisamiseks saidikonstruktori kategoorialehele, järgige
 1. Vaadake **jaotises Ülevaade ja lõpetamine** üle lehe konfiguratsioon. Kui teil on vaja lehekülje teavet redigeerida, valige **Tagasi**. Kui lehekülje teave on õige, valige Loo **leht**.
 1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Lubage otsingutulemuste mooduli jaoks varude teadlikkus
+## <a name="inventory-aware-search-results-module"></a>Laoseisule teadliku otsingutulemuste moodul
 
-Kliendid eeldavad üldiselt, et e-äri veebisait on laost kursis kogu sirvimise kogemuse jooksul, nii et nad saavad otsustada, mida teha, kui tootel varusid pole. Otsingutulemuste moodulit saab konfigureerida nii, et see hõlmaks laoandmeid ja pakkuda järgmisi kogemused:
+Otsingutulemuste moodulit saab konfigureerida nii, et see hõlmaks laoandmeid ja pakkuda järgmisi kogemused:
 
-- Saate kuvada varude saadavuse sildi koos tootega.
+- Kuvab kaubavaru taseme sildid koos toodetega.
 - Laost väljas toodete peitmine tooteloendist
-- Näitab tooteloendi lõppu laost väljas valmistatud tooteid.
-- Filtreerige tooted otsingutulemuste alusel laovarude taseme alusel.
+- Kuvab tooteloendi lõpus laost väljas tooted.
+- Toetab laopõhise toote filtreerimist.
 
-Nende kogemuste lubamiseks peate esmalt lubama **täiustatud e-commerce’i** tootetuvastuse varudele vastavalt funktsioonihalduse **tööruumis**.
-
-> [!NOTE]
-> **Täiustatud e-commerce’i tootetuvastuse** varudest teadmise funktsioon on saadaval commerce version 10.0.20 väljaandes ja hilisemates versioonides.
-
-Laoseisust teadmise tooteotsing kasutab tooteatribuudiid varude saadavusteabe saamiseks. Funktsiooni eeltingimusena tuleb luua sihtotstarbelised tooteatribuudid, varude andmed tuleb nende jaoks sisestada ja need tuleb lisada võrgukanalile. 
-
-Selleks, et luua sihtotstarbelised tooteatribuudid varudele teadmise otsingutulemuste mooduli toetamiseks, järgige neid samme.
-
-1. Minge peakontoris jaemüügi ja rakenduse **Commerce Retail ja Commerce \> IT Products ja \> varudesse**.
-1. Valige ja avage **asusta tooteatribuudid laotasemega**.
-1. Sisestage dialoogiboksis järgmine teave:
-
-    1. Määrake toote **atribuudi ja tüübi nime** väljal sihtotstarbeline tooteatribuudi nimi, mis luuakse varude andmete hõivamiseks.
-    1. Väljal Varude **saadavus valige** koguse tüüp, mis peaks laovarude taseme arvutamine põhinema (nt Füüsiline **saadavus**). 
-
-1. Saate töö taustal käivitada. Kuna toote laovaru muudatusi luhkavas keskkonnas, soovitame tungivalt selle töö pakktöötlusena planeerida.
-
-> [!NOTE]
-> Oma e-äri veebisaidi lehtede ja moodulite ühtse laotaseme arvutamiseks valige kindlasti sama kogusetüüp nii varude saadavuse puhul kui **ka** Commerce headquartersis **ja Ärisaidi koostajas sättel põhinev** varude tase. Saidiehitaja kohta lisateabe saamiseks vt teemat [Varude sätete rakendamine](inventory-settings.md).
-
-Võrgukanali toote atribuutide konfigureerimiseks järgige neid samme. 
-
-1. Minge peakontoris jaemüügi ja **ärikanali häälestuse \> kanali kategooriatesse \> ja toote atribuutidesse**.
-1. Valige võrgukanal, et lubada laoteadpõhise otsingu tulemuste moodul.
-1. Valige ja avage seostatud atribuudigrupp ning seejärel lisage vastloodud toote atribuut.
-1. Commerce’i versioonide puhul enne 10.0.27 väljalaset valige suvand Atribuudi metaandmete määramine, valige uuesti lisatud tooteatribuut ja seejärel lülitage sisse kanali atribuut Näita, **Toomine**, **·** **Saab** muuta ja neid saab **päringusse** teha.**·**
-1. Minge jaemüügi **ja rakenduse Commerce \> Retail ja Commerce IT jaotusgraafikusse \>** ja käitage **1150-töö** (kataloog). Kui planeerite **tooteatribuudid** laotaseme tööga pakktöötlusena, on soovitatav planeerida 1150-töö ka pakett-tööna, mis töötab samas sageduses.
-
-> [!NOTE]
-> Toodete puhul, mida näidatakse otsingutulemuste moodulis, kuvatakse varude tase üksiku varianditaseme asemel põhitoote tasemel. Sellel on ainult kaks võimalikku väärtust: "saadaval" ja "laost otsas". Väärtuse tegelik silt tuuakse laotaseme profiili [määratlusest](inventory-buffers-levels.md). Meistritoode loetakse laost lõppenuks ainult siis, kui kõik selle variandid on otsas.
-
-Kui kõik eelnevad konfiguratsioonietapid on lõpule viidud, kuvavad otsingutulemuste lehtede täpsustajad varudepõhist filtrit ja otsingutulemuste moodul hangib laoandmed kulisside taga. Seejärel saate Commerce saidi koostajas konfigureerida sätte **Tooteloendi lehtede laosätted**, et juhtida seda, kuidas otsingutulemuste moodul kuvab laost otsas tooteid. Lisateavet vt teemast [Varude sätete rakendamine](inventory-settings.md).
+Nende kogemuste lubamiseks peate esmalt **lubama täiustatud e-commerce’i** tootetuvastuse varude teadmise funktsioonina ja seejärel konfigureerima mõned eeltingimuste sätted Commerce Headquartersis. Lisateavet vt varudest teadmise [tooteloendist](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

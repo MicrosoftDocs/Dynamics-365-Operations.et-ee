@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334771"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.28. (august 2022)?
 
@@ -50,7 +50,7 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 | Varude ja laohaldus | (India) Üleviimise hinnareeglite puhul ignoreerige asukohta, kui "Lao koodist" on seatud väärtusele "Kõik" | <p>See funktsioon kehtib ainult India lokaliseerimise puhul. See muudab laoülekannete ülekandehindade seadistamise intuitiivsemaks.</p><p>Te seadistate ülekande hinnad, konfigureerides iga kaupa ülekande hinnakujunduse reeglitega. Üks võimalus seda konfiguratsiooni teha on kaasata reegli rida, kus **välja Laost kood** väärtuseks on määratud *Kõik*. See säte näitab, et rea määratletud ülekande hind peaks rakenduma sõltumata laost, millelt kaup komplekteeritud on. Kui see funktsioon on lubatud, eiravad ülekande **hinnareeglid**, kus väli Laost koodi väli on *seadistatud* sättele Kõik, asukoha **sätet**. Seetõttu rakendub reegel sõltumata üleviimistellimusel määratud asukohast. Selline käitumine on eeldatav, sest asukoht on laoala dimensiooni hierarhias laost allpool.</p><p>Ilma selle funktsioonita kohaldab süsteem seda tüüpi reegleid ainult siis, kui üleviimistellimuse asukoht ühtib täpselt reegli jaoks seadistatud asukohaga. (Kui reegli jaoks on tühi asukoht määratud, rakendab süsteem reeglit ainult üleviimistellimustele, mille asukoha väärtus on samuti tühi.)</p> |
 | Varude ja laohaldus | Laoseisu aruande andmete puhastamine | See funktsioon võimaldab puhastada andmeid, mida kasutatakse laoseisu *aruande ladustamisaruannete loomiseks*. |
 | Tootmise juhtimine | Määrake projektitegevused teenuseleppe ja teenusetellimuse ridadele | See funktsioon lisab välja nimega Projekti **tegevus** teenuselepingule ja teenusetellimuse ridadele, nii et saate nende jaoks seada projekti tegevuse. See funktsioon aitab vältida blokeerimisvigu, kui sisestate teenusehalduse projektitöölehti, mis nõuavad projekti tegevuse seadistamist.  |
-| Laohaldus | Käsitsi ülekanderea komplekteerimise teenus administraatorile või sarnastele usaldusväärsetele kasutajatele | See funktsioon võimaldab administraatoril käsitsi komplekteeritud laokandeid, mis on seotud üleviimisridadega. Need read sisaldavad juba lattu väljastatud ridu. Administraatorid peaksid seda komplekteerimist tegema ainult erandlikel juhtudel, näiteks siis, kui süsteem on rikutud olekus. |
+| Laohaldus | Käsitsi ülekanderea komplekteerimise teenus administraatorile või sarnastele usaldusväärsetele kasutajatele | See funktsioon võimaldab administraatoril käsitsi komplekteeritud laokandeid, mis on seotud üleviimisridadega. Need read sisaldavad juba lattu väljastatud ridu. Administraatorid peaksid seda komplekteerimist tegema ainult erandlikel juhtudel, näiteks siis, kui süsteem on rikutud olekus. Lisateavet vt müügi ja [rea komplekteerimise erandite käsitsi käsitsemisest](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 

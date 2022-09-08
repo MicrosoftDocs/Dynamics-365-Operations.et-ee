@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306050"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388536"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja häälestamine
 
@@ -56,7 +56,9 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 1. Kerige keskkonna lehel alla, kuni leiate jaotise **Keskkonna lisandmoodulid**, mis asub jaotises **Power Platformi integratsioon**. Siit leiate Dataverse'i keskkonna nime. Veenduge, et Dataverse keskkonna nimi oleks see, mida soovite varude nähtavuse jaoks kasutada.
 
     > [!NOTE]
-    > Praegu toetatakse ainult LCS abil loodud Dataverse'i keskkondi. Kui teie Dataverse'i keskkond loodi mõnel muul viisil (näiteks Power Apps halduskeskuse abil) ja kui see on seotud teie rakenduse Supply Chain Management keskkonnaga, peate esmalt vastendamise probleemi lahendamiseks kontakteeruma varude nähtavuse tootemeeskonnaga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com). Seejärel saate Varude nähtavuse installida.
+    > Praegu toetatakse ainult LCS abil loodud Dataverse'i keskkondi. Kui teie Dataverse keskkond loodi mõnel muul viisil (PowerApps nt halduskeskuse abil) ja kui see on seotud teie tarneahela halduskeskkonnaga, peate vastendamise probleemi enne varude nähtavuse lisandmooduli installimist lahendama.
+    >
+    > Võimalik, et teie topeltkirjutuskeskkond on ühendatud eksemplariga Dataverse, kui LCS ei ole häälestatud integreerimiseks Power Platform. Selline seostatav lahknevus võib põhjustada ootamatut käitumist. Soovitame LCS-i keskkonna üksikasjad ühtima sellega, millega olete topeltkirjutuses ühendatud, et sama ühendust saaks kasutada ärisündmustes, virtuaaltabelites ja lisandmoodulites. Vt [vastendamise probleemi lahendamise](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) kohta lisateavet seostamise lahknevuse kohta. Kui vastendamisprobleem on lahendatud, saate jätkata varude nähtavuse installimist.
 
 1. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 
@@ -140,11 +142,11 @@ Varude nähtavuse lisandmooduli desinstallimiseks järgige neid samme.
 1. Valige **navigeerimisribal** keskkond.
 1. Valige keskkond Dataverse, mis on seotud teie LCS-keskkonnaga.
 1. Minge lahendustesse **ja** kustutage järgmised lahendused järgmises järjekorras:
-    1. Inventory Visibility rakenduse ankurlahendus Dynamics 365 lahendustes
-    1. Dynamics 365 FNO SCM-i Varude nähtavuse rakenduste lahendus
-    1. Laoteenuse konfiguratsioon
-    1. Eraldiseisev Varude nähtavus
-    1. Dynamics 365 FNO SCM-i Varude nähtavuse põhilahendus
+    1. Dynamics 365 varude nähtavus – ankur
+    1. Dynamics 365 varude nähtavus – rakendus
+    1. Dynamics 365 varude nähtavus – juhtelemendid
+    1. Dynamics 365 varude nähtavus – Outlooki
+    1. Dynamics 365 varude nähtavus – alus
 
     Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
 

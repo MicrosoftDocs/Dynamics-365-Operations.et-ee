@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313879"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410446"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 
@@ -32,6 +32,20 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnilistest [viitearuannetest](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on igas finantsi ja toimingute rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Finance'i väljalaskest 10.0.30 eemaldatud või aegunud funktsioonid
+
+### <a name="revenue-recognition"></a>Tulu tuvastamine
+
+[Tulu tuvastamine](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Aegumise/eemaldamise põhjus** |Asendatud täiustatud funktsioonidega, kordustellimuse [arveldamine](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad** | Avaldus |
+| **Juurutamissuvand** | Kõik |
+| **Olek** | Taunitud: pärast 2023. aasta aprillini ei saa Dynamics 365 Financei tulu tuvastamise funktsioon enam vigaparanduste tuge. Klientidel palutakse kasutada täiustatud funktsioone, kordustellimuse [arveldust](../../finance/accounts-receivable/subscription-billing-summary.md). 2023. aasta oktoobers pole tulu tuvastamise funktsioon enam saadaval. Klientidel palutakse liikuda täiustatud kordustellimuse arveldusfunktsiooni juurde.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance'i väljalaskest 10.0.29 eemaldatud või aegunud funktsioonid
 
