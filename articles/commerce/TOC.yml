@@ -8,10 +8,12 @@
           items:
             - name: Mis on uut või mida on muudetud finants- ja äritoimingute rakendustes?
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/commerce
-            - name: Mis on uut või mida on muudetud Commerce’is?
+            - name: Mis on Commerce’is uut või mida on muudetud?
               items:
-                - name: Mis on uut või mida on muudetud Commerce’i avalehel?
+                - name: Mis on Commerce’i avalehel uut või mida on muudetud?
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (november 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (oktoober 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (juuli 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanalipõhiste allahindluste määratlemine
                   href: define-channel-specific-discounts.md
-                - name: Valikud jaetoodete allahindluse takistamiseks
-                  href: prevent-discounts.md
                 - name: Maksevahendil põhinevad allahindlused
                   href: tender_based_discounts.md
                 - name: Saatmise allahindlus
                   href: shipping-discount.md
                 - name: Ostuga kaasneva kingituse kampaaniate konfigureerimine
                   href: gift-with-purchase.md
-                - name: Kupongide häälestamine
-                  href: retail-coupons.md
-                - name: Allahindluste näitamine kassas
-                  href: discounts-pos.md
+                - name: Kupongid
+                  href: coupons.md
+                - name: Hinnakirjasätted
+                  href: price-settings.md
                 - name: Hinnaaruanded
                   href: price-report.md
                 - name: Kanalipõhiste kaubanduslepete loomine
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Varudest otsingu toiming kassas
                       href: pos-inventory-lookup-operation.md
+                    - name: Varudest teadlikud tootekirjed
+                      href: inventory-aware-product-listing.md
                 - name: Ostutellimused
                   items:
                     - name: Ostutellimuse ülevaade

@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Mis on uut või mida on muudetud platvormivärskendustes?
               items:
-                - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
+                - name: Mis on platvormivärskenduste avalehel uut või mida on muudetud?
                   href: get-started/whats-new-home-page.md
+                - name: Versiooni 10.0.30 platvormivärskendused (november 2022)
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Versiooni 10.0.29 platvormivärskendused (oktoober 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Versiooni 10.0.28 platvormivärskendused (august 2022)

@@ -3411,15 +3411,13 @@
                       href: warehousing/packing-containers.md
                     - name: Väljaminevate konteinerite pakkimise ja saadetiste töötlemise pakkimistöö
                       href: warehousing/packing-work.md
-                    - name: Kiirelt komplekteeritava kauba ümberjaotamise häälestus
+                    - name: Kiirelt komplekteeritava kauba ümberjaotamise häälestamine
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Laotöö tühistamine erandi käitlemiseks
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Süsteemi suunatud tööde järjestus
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Komplekteerimisridade grupeerimine
                       href: warehousing/pick-line-grouping.md
-                    - name: Laoruumi leidmine
+                    - name: Laos ruumi leidmine
                       href: warehousing/warehouse-slotting.md
                     - name: Asukohakorralduse varude komplekteerimise ajaline jaotus
                       href: warehousing/location-directive-inventory-picking-aging.md
@@ -3427,10 +3425,14 @@
                       href: warehousing/anchoring.md
                     - name: Väljastuste sortimine
                       href: warehousing/outbound-sorting.md
-                    - name: Pane seinale – pane kauplusesse
+                    - name: Seinale panek – kauplusesse panek
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Väljamineva töökoormuse visualiseerimine
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Müügi- ja üleviimisrea komplekteerimise erandite käitlemine käsitsi
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Laotöö tühistamine erandite käitlemiseks
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Täiendamine
                   items:
                     - name: Täiendamise ülevaade
