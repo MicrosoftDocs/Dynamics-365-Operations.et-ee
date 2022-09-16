@@ -1,5 +1,5 @@
 ---
-title: Puhverreeglid ja tasemed
+title: Puhvri profiil ja tasemed
 description: See artikkel annab teavet puhverprofiilide ja tasemete kohta, mis määravad minimaalsed ja maksimaalsed laotasemed, mida tuleb iga dekodeerimispunkti puhul säilitada.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186566"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428140"
 ---
-# <a name="buffer-profile-and-levels"></a>Puhverreeglid ja tasemed
+# <a name="buffer-profile-and-levels"></a>Puhvri profiil ja tasemed
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
@@ -77,6 +77,14 @@ Eelmise näite korral, kui täna on 11. juuni hommikul, on eelmise kolme päeva 
 
 - **ADU (minevikus)** = (29 + 11 + 23) ÷ 3 = 21
 
+Keskmise päevase kasutuse (möödunud) arvutamisel võetakse arvesse järgmisi kandeid:
+
+- Kanded, mis vähendavad kauba kogust (tabelis `inventtrans`, kus kogus on väiksem kui null)
+- Kanded olekuga Tellimusel *, Reserveeritud* *tellitud, Füüsiliselt* *reserveeritud*, Komplekteeritud *·*, *Maha* arvatud või *Müüdud*
+- Kanded, mille kuupäev jääb valitud tagasisuunas perioodi (keskmine igapäevane kasutus möödunud perioodiks)
+- Kanded, mis pole laotöö, vahelaod, müügipakkumised või väljavõtted (`WHSWork`, `WHSQuarantine``SalesQuotation` või`Statement`)
+- Kanded, mis ei ole üleviimistöölehed, mis on samas laovarude dimensioonis
+
 ### <a name="average-daily-usage-forward"></a>Keskmine igapäevane kasutus (edasi)
 
 Uue toote puhul ei pruugi teil olla möödunud kasutusandmeid. Seetõttu võite selle asemel kasutada prognoositud ADU-d, mis läheb edasi (nt prognoositud nõudluse alusel). Järgnev näide näitab, kuidas selline lähenemine toimib, kui arvutus ilmub kolm päeva ette (kaasa arvatud täna).
@@ -86,6 +94,11 @@ Uue toote puhul ei pruugi teil olla möödunud kasutusandmeid. Seetõttu võite 
 Eelmise näite korral, kui täna on 11. juuni hommikul, on järgmise kolme päeva (11. juuni, 12. ja 13. juuni) ADU 21,66.
 
 - **ADU (edasi)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Keskmise päevase kasutuse (edasi) arvutamisel võetakse arvesse järgmisi kandeid:
+
+- Eelarvekanded selle kauba kohta, mille eelarve on koondplaanil valitud
+- Kanded, mille kuupäev jääb valitud tähtpäeva perioodi (keskmine päevane kasutus edasisuunas periood)
 
 ### <a name="average-daily-usage-blended"></a>Keskmine igapäevane kasutus (kombineeritud)
 
@@ -169,7 +182,7 @@ Järgige neid samme, et seadistada dekodeerimispunkti puhverväärtused.
 
 1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
 1. Valige vabastatud kaup, mis on seadistatud dekodeerimispunktina. (Lisateavet vt teemast [Lao paigutamine](ddmrp-inventory-positioning.md).)
-1. Valige tegevuspaani vahekaardil **Plaan** kauba **laovarud**.
+1. Valige tegevuspaani vahekaardil **Plaan kauba laovarud** **.**
 1. Kauba laovarude **lehel** valige kauba laovarude kirje, mis loob dekodeerimispunkti. (Kirje näitab nende laovarude grupi nime, mis on seadistatud looma dekodeerimispunkte.)
 1. Valige vahekaart **Üldine**.
 1. Kui soovite, et süsteem arvutaks puhverväärtused iga päev või iga nädal ümber, võttes aluseks teie müügiajaloo, eelarved ja laovarude grupi sätted, järgige neid samme.
@@ -244,7 +257,7 @@ Kui olete DDMRP sätted täielikult seadistanud ja kinnitanud, et need töötava
 
 Automaatsete puhvriväärtuse arvutuste plaanimiseks järgige neid samme.
 
-1. Minge koondplaneerimise koondplaneerimise **\> DDMRP arvutama puhverväärtused \>\>.**
+1. Minge koondplaneerimise **koondplaneerimise \>\> DDMRP arvutama puhverväärtused \>**.
 1. Seadke dialoogiboksis **Puhverväärtuste** arvutamine järgmised väljad:
 
     - **Arvutage keskmine igapäevane** kasutus: *seadke* see valik valikule Jah, et arvutada uuesti dekodeerimise punktis kaupade adu iga kord, kui töö käitatakse. Kui soovite arvutuse vahele jätta *,* määrake selle välja väärtuseks Ei. Tavaliselt tuleks selle suvandi väärtuseks seada *Jah*.

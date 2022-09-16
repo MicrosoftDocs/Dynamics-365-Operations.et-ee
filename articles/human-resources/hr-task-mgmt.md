@@ -2,7 +2,7 @@
 title: Ülesande haldus
 description: See artikkel selgitab Microsoftis saadaolevaid ülesandehalduse funktsioone Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897860"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445890"
 ---
 # <a name="task-management"></a>Ülesande haldus
 
@@ -43,7 +43,7 @@ Iga Ameerika Ühendriikidesse palgatud töötaja peab täitma selliseid ülesand
 
 **Näide 2**
 
-Ettevõttes on nii hooajalisi kui ka regulaarseid täiskohaga töötajaid. Kuigi teatud tööülesanded (nt uue töötaja saabumise aja kontrollimine) rakenduvad mõlemat tüüpi töötajatele, rakenduvad mõned lisaülesanded ainult regulaarsetele täiskohaga töötajatele. Sel juhul saate luua kaks kontroll-loendit. Mõlemad kontroll-loendid hõlmavad nii hooajalisi kui ka regulaarseid täistööajaga töötajate ülesandeid, kuid ainult üks kontroll-loend sisaldab seda, et regulaarsetele täiskohaga töötajatele omased ülesanded.
+Ettevõttes on nii hooajalisi kui ka regulaarseid täiskohaga töötajaid. Kuigi teatud tööülesanded (nt uue töötaja saabumise aja kontrollimine) rakenduvad mõlemat tüüpi töötajatele, rakenduvad mõned lisaülesanded ainult regulaarsetele täiskohaga töötajatele. Sel juhul saate luua kaks kontroll-loendit. Mõlemad kontroll-loendid sisaldavad ülesandeid, mis kehtivad nii hooajaliste kui ka regulaarsete täiskohaga töötajate puhul, kuid ainult üks kontroll-loend sisaldab regulaarsetele täiskohaga töötajatele omast ülesannet.
 
 ## <a name="task-management-workspace"></a>Ülesannete halduse tööruum
 
@@ -69,7 +69,13 @@ Kõigil kolmel vahekaardil saavad personali abistajad ja haldurid sooritada jär
 
 Saate ülesandeid luua ükshaaval ja seejärel taaskasutada neid mitmes kontroll-loendis. Ülesande loomiseks tehke lehel Põhiseadistus vahekaardil Ülesanded valik **Uus**.**·** **·**
 
+Loodud ülesande saate määrata mitmele kontroll-loendile, **valides ülesande ja valides seejärel menüü valiku Rakenda kontroll-loenditele**.
+
 Võite ülesandeid lisada ka otse kontroll-loendisse. Ülesande lisamiseks kontroll-loendile, **·** **on sisseostmise seadistuse lehel vahekaardil Kontroll-loend** looge uus kontroll-loend, et ülesanne lisada või lisage ülesanne olemasolevasse kontroll-loendisse.
+
+Ülesande redigeerimiseks teeki valige ülesandeteegi **menüüst** Redigeeri. Kui ülesanne on seotud mis tahes kontroll-loendiga, kuvatakse need kontroll-loendid lehel Ülesande **redigeerimine**. Kui soovite kontroll-loendite ülesandeid uuendada redigeerimistega, valige need kontroll-loendid **jaotises Rakenda kontroll-loenditele**.
+
+Ülesannete kustutamiseks teeki valige suvand **Kustuta**. Kui ülesanne on seotud mõne kontroll-loendiga, ei kustutata seda toimingut sellest kontroll-loendist. Ülesanne tuleb kontroll-loendist eemaldada eraldi tegevusena.
 
 > [!NOTE]
 > Kui lisate ülesande otse kontroll-loendisse, ei saa te seda teistes kontroll-loendites taaskasutada.
@@ -133,7 +139,15 @@ Kompleksülesanded võivad nõuda mitut sammu või võib isikul, kes ülesannet 
 
 ## <a name="setting-up-checklists"></a>Kontroll-loendite seadistamine
 
-Kontroll-loend on ülesannete grupp. Saate luua nii palju kontroll-loendeid, kui vaja ja saate määrata samad ülesanded mitmele kontroll-loendile. Kontroll-loendi loomisel määrate omaniku ja kalendri.
+Kontroll-loend on ülesannete grupp. Saate luua nii palju kontroll-loendeid, kui vaja ja saate määrata samad ülesanded mitmele kontroll-loendile.
+
+Uue ülesande loomiseks kontroll-loendis valige menüüribal **Ülesanded** **suvand** Uus. Uue ülesande loomisel saate valida selle ülesandeteeki lisamise nii, et seda saab jagada mitme kontroll-loendi vahel. Ülesande saate teeki lisada ainult juhul, kui toimingu **teegile rakendumiseks on** seatud väärtusele **Jah**. Ülesande ülesandeteegile **lisamisel saate selle lisada ka teistele kontroll-loenditele, valides need kontroll-loendid jaotises Kontroll-loendite** haldamine. Kui te ülesannet teeki ei lisa, on see olemas ainult kontroll-loendis, kus te selle loote.
+
+Ülesande redigeerimiseks kontroll-loendis valige käsk **Redigeeri**. Kui ülesanne on seotud mis tahes kontroll-loendiga, kuvatakse need kontroll-loendid lehel Ülesande **redigeerimine**. Kui soovite, et teistes kontroll-loendites soovitud ülesandeid uuendatakse redigeerimistega, **valige need kontroll-loendid jaotises Rakenda kontroll-loenditele**.
+
+Ülesannete eemaldamiseks kontroll-loendist valige käsk **Eemalda**. Selle toiminguga eemaldatakse vaid kontroll-loendi tööülesanded. See ei kustuta neid ülesandeteegist. Ülesande kustutamiseks teeki minge ülesandeteegi lehele ja valige käsk **Kustuta**.
+
+Kontroll-loendi loomisel määrate omaniku ja kalendri.
 
 Kui ülesande **määrangu** tüübi **väli** on seatud väärtusele Positsioon, **·** **Juhataja või Grupp**, kuid määramise tüübist ei saa konkreetset töötajat tuletada, määratakse ülesanne kontroll-loendi omanikule. Siin on mõned näited olukorrast, kus ülesanded määratakse kontroll-loendi omanikule:
 
@@ -166,7 +180,7 @@ Kui määrangugrupp on loodud, on see saadaval valiku jaoks ülesande loomisel. 
 
 Põhi-, offboarding või siirde protsess võib sisaldada palju ülesandeid. Kõigi nõutud ülesannete kontroll-loendile määramise hõlbustamiseks saate luua valikulisi ülesandegruppe seotud ülesannete kategoriseerimiseks. Näiteks inimressursside, IT ja palgaosakonnad peavad uue töötaja palkamiseks täitma kõik konkreetsed ülesanded. Seetõttu loote järgmised ülesandegrupid: **HR**, **IT** ja **Palk**. Seejärel saate ülesande loomisel seostada sellega ühe neist ülesandegruppidest.
 
-Kui soovite lisada ülesande kontroll-loendisse, saate filtreerida ülesannete loendit ülesandegrupi järgi, millele on määratud soovitud ülesanne. Näiteks kontroll-loendi malli loomisel saate loendit filtreerida nii, et kuvatakse ainult IT-ülesandegrupile **määratud IT-toimingud**. Seega saate tagada, et valitakse ainult asjakohased IT-toimingud.
+Kui soovite lisada ülesande kontroll-loendisse, saate filtreerida ülesannete loendit ülesandegrupi järgi, millele on määratud soovitud ülesanne. Näiteks kontroll-loendi malli loomisel saate loendit filtreerida nii, et kuvataks ainult IT-ülesandegrupile **määratud IT-toimingud**. Seega saate tagada, et valitakse ainult asjakohased IT-toimingud.
 
 ## <a name="using-checklists"></a>Kontroll-loendite kasutamine
 

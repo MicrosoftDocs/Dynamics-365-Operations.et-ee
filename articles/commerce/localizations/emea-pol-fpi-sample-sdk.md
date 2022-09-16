@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: b19c8d7a80ac772ae238191d1285a1ad80e6f611
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337217"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473954"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Fiskaalprinteri integratsiooni näidise juurutuse juhised Poola jaoks (pärand)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Järgige selle artikli juhiseid ainult juhul, kui kasutate versiooni Microsoft Dynamics 365 Commerce 10.0.28 või varasemat versiooni. Äriversiooni 10.0.29 kohaselt on Poola fiskaalprinteri integratsiooni näidis saadaval Commerce’i tarkvara arenduskomplektis (SDK). Lisateavet vt kanali komponentide [konfigureerimine](./emea-pol-fpi-sample.md#configure-channel-components).
@@ -61,7 +60,7 @@ Laienduskomponendid CRT on kaasatud retail SDK-sse. Järgmiste protseduuride soo
 
 ### <a name="hardware-station-extension-components"></a>Riistvarajaama laienduse komponendid
 
-Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln\\**.
+Riistvarajaama laienduse komponendid on kaasatud Jaemüügi SDK-sse. Järgmiste protseduuride sooritamiseks avage **RetailSdk** SampleExtensions **HardwareStationis\\ konfiguratsioonilahendusHardwareStations.sln \\**.
 
 1. Leidke projekt **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** ja koostage see.
 2. Leidke kaustast Extension.Posnet.UuendavFiscalPrinterSample **bin\\ Silumine\\** assemblerifail Contoso.Commerce.HardwareStation.PosnetThermalFFiscalPrinterSample.dll **·**.

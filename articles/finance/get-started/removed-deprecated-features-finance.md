@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410446"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462297"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
 
@@ -45,7 +45,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad** | Avaldus |
 | **Juurutamissuvand** | Kõik |
-| **Olek** | Taunitud: pärast 2023. aasta aprillini ei saa Dynamics 365 Financei tulu tuvastamise funktsioon enam vigaparanduste tuge. Klientidel palutakse kasutada täiustatud funktsioone, kordustellimuse [arveldust](../../finance/accounts-receivable/subscription-billing-summary.md). 2023. aasta oktoobers pole tulu tuvastamise funktsioon enam saadaval. Klientidel palutakse liikuda täiustatud kordustellimuse arveldusfunktsiooni juurde.|
+| **Olek** | Taunitud: pärast 2023. aasta aprillini ei saa Dynamics 365 Financei tulu tuvastamise funktsioon enam vigaparanduste tuge. Klientidel palutakse kasutada täiustatud funktsioone, kordustellimuse [arveldust](../../finance/accounts-receivable/subscription-billing-summary.md). 2023. aasta oktoobers pole tulu tuvastamise funktsioon enam saadaval. Klientidel palutakse liikuda täiustatud kordustellimuse arveldusfunktsiooni juurde. Kogumifunktsiooni puhul, mis on tulu tuvastamise osa, ei ole praegu planeeritud asendusfunktsioone.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance'i väljalaskest 10.0.29 eemaldatud või aegunud funktsioonid
 

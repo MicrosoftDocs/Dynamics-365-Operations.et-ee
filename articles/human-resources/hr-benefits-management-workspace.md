@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337284"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472709"
 ---
 # <a name="benefits-management-workspace"></a>Soodustuse halduse tööruum
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 See artikkel kirjeldab soodustuste **halduse tööruumi** moodulis Dynamics 365 Human Resources.
-
-> [!NOTE]
-> **Soodustuste halduse** tööruumi vaatamiseks peate esmalt funktsioonihalduse kaudu lubama funktsiooni **(Eelversioon) Soodustuste halduse tööruum**. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).<br><br>![Soodustuste halduse tööruumi lubamine.](./media/hr-benefits-management-workspace-enable.png)
 
 **Soodustuste halduse** tööruum annab teile kiiresti ülevaate soodustustest, mis nõuavad teie tähelepanu. Sellel lehel näete järgmist teavet:
 

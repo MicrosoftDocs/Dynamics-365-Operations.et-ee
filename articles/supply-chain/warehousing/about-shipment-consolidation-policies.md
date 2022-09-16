@@ -1,5 +1,5 @@
 ---
-title: Saadetise konsolideerimispoliitikad
+title: Saadetise konsolideerimispoliitikate ülevaade
 description: See artikkel annab ülevaate funktsioonidest, mis pakub saadetise konsolideerimispoliitikate paindlikku konfiguratsiooni.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903894"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427924"
 ---
-# <a name="shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikad
+# <a name="shipment-consolidation-policies-overview"></a>Saadetise konsolideerimispoliitikate ülevaade
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Enne saadetise konsolideerimispoliitikate kasutuselevõttu oli konsolideerimise 
 
 Kehtiva saadetise konsolideerimispoliitika määratlemiseks kasutatakse päringuid ja seejärel määrab redigeeritavate väljade kogum, kuidas koormuse ridu grupeeritakse saadetise tasemel. (See meenutab mustrit, mida kasutavad voo mallid.) Lisaks on igasse poliitikasse lisatud suvand **Konsolideeri olemasolevate saadetistega**. Kui see suvand on sisse lülitatud, otsib protseduur *Lattu väljastamine* konsolideerimiseks saadetisi, otsides olemasolevate saadetiste hulgast, mis loodi sama konsolideerimispoliitika alusel. Sellisel juhul valib süsteem uue saadetise või koormuse loomise asemel olemasoleva. Kuid süsteem konsolideerib ainult olemasolevate saadetistega, mille olek on *Avatud*, voo vabastamisse olekuga *Vabastatud* või kõrgemasse kuuluvaid saadetisi, ei peeta konsolideerimise sihtmärkideks.
 
-Kui saadetise konsolideerimispoliitikad tehakse saadavaks, peidetakse säte **Saadetise konsolideerimine lattu väljastamisel**, mis oli varasemalt saadaval seadistuse lehel **Laod**. Uuele saadetise konsolideerimise funktsioonile ülemineku hõlbustamiseks, loob leht **Saadetise konsolideerimispoliitikad** vaikepoliitika, mis sisaldab automaatselt olemasolevate ladude vana sätet. Kui see vaikepoliitika on loodud, ei võeta enam arvesse sätet **Saadetise konsolideerimine lattu väljastamisel** seadistuse lehel **Laod**.
+Kui saadetise *konsolideerimispoliitika* funktsioon on teie süsteemi jaoks sisse lülitatud, on konsolideerimine **saadetis lattu vabastamisel,** mis oli **varem saadaval lao häälestuslehel**, peidetud. Selleks, et aidata teil uuele saadetise konsolideerimisfunktsioonile üle minna, võimaldab **saadetise** konsolideerimispoliitikate lehel funktsioon luua vaikepoliitika, mis sisaldab automaatselt olemasolevate ladude vana sätet. Kui see vaikepoliitika on loodud, ei võeta enam arvesse sätet **Saadetise konsolideerimine lattu väljastamisel** seadistuse lehel **Laod**. Lisateavet vt saadetise konsolideerimispoliitikate [konfigureerimine](configure-shipment-consolidation-policies.md).
 
 Saate kasutada lehte **Lattu väljastamine** vastava konsolideerimispoliitika käsitsi alistamiseks, nagu ka saate alistada täitmise poliitikaid.
 

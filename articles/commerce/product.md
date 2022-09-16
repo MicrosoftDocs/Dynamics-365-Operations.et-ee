@@ -2,7 +2,7 @@
 title: Tootesoovituste lisamine kassas
 description: See artikkel kirjeldab tootesoovituste kasutamist müügikoha (POS) seadmes.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872795"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460052"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Tootesoovituste lisamine kassas
 
@@ -37,7 +37,7 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
 
 1. Lehel **Toote üksikasjad** toimub järgmine.
 
-    - Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
+    - Kui kaupluse seostamine külastab **toote** üksikasjade lehte, kui ta otsib erinevaid kanaleid eelmistest kannetest, soovitab soovituste teenus lisaüksusi, mida tõenäoliselt koos ostetakse. Sõltuvalt teenuse lisandmoodulitest saavad jaemüüjad kuvada oste sarnase välja näeb ja osta toodete kohta sarnaseid kirjelduse soovitusi, lisaks isikupärastatud soovitustele kasutajatele, kellel **on** **eelmine** ostuajalugu.
 
     [![Soovitused lehel Toote üksikasjad.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
 
     [![Soovitused lehel Kande lehel.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce’i konfigureerimine kassasoovituste kuvamiseks
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce’i konfigureerimine kassasoovituste kuvamiseks 
 
-Tootesoovituste seadistamiseks läbige need etapid.
+Tootesoovituste häälestamiseks kinnitage, et olete commerce’i tootesoovituste jaoks lõpule viinud, järgides jaotises Luba tootesoovitused [toodud etappe](../commerce/enable-product-recommendations.md). Vaikimisi ilmuvad soovitused nii toote **üksikasjade** **lehel kui ka kliendi üksikasjade lehel pärast seda, kui olete läbinud sätted ja andmed on** edukalt läbinud. 
 
-1. Veenduge, **et teie teenus on uuendatud 10.0.6 järgule.**
-2. Järgige juhiseid, kuidas [lubada toote soovitusi](../commerce/enable-product-recommendations.md) oma ettevõttele.
-3. Valikuline: soovituste kuvamiseks kande ekraanil minge jaotisse **Ekraanipaigutus**, valige ekraanipaigutus, käivitage **Ekraanipaigutuse kujundaja** ja paigutage siis **soovituste juhtelement** vajalikku kohta.
-4. Avage **Kaubanduse parameetrid**, valige **Masinõpe** ja valige **Jah** jaotises **Luba kassasoovitused**.
-5. Soovituste nägemiseks kassal käivitage globaalne konfigureerimistöö **1110**. Kassa ekraanipaigutuse kujundajas tehtud muudatuste kajastamiseks käivitage kanali konfigureerimistöö **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Soovituste lisamine kandeekraanile
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Tõrkeotsing, kui tootesoovitused on juba lubatud
+1. Soovituste lisamiseks kande kuvale järgige kande ekraanile [soovituste lisamise samme](add-recommendations-control-pos-screen.md).
+1. Kassa ekraani paigutuse kujundajas tehtud muudatuste kajastamiseks käivitage kanali konfiguratsioonitöö **1070 rakenduses** Commerce Headquarters.
 
-- Liikuge kohta **Commerce’o parameetrid** \> **Soovituste loendid** \> **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö \[9999\]**. 
-- Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see.
-- Kui teil on lisaküsimusi, vaadake teemat [Tootesoovituste KKK](../commerce/faq-recommendations.md).
+> [!NOTE] 
+> Kui soovite lubada müügikoha soovitused, kasutades RecoM csv-faili, peate enne paigutusehalduri konfigureerimist juurutama CSV-faili Microsoft Dynamics elutsükli teenuste (LCS) varateeki. Kui kasutate RecoM csv-faili, ei pea te soovitusi lubama. CSV-fail on saadaval ainult demo eesmärgil. See on soovitatav klientidele või lahenduse arhitektidele, kes soovivad soovitamisloendite ilmet demo eesmärgil kasutada ilma lisa varudearvestusühikut (SKU) ostmata.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -2,7 +2,7 @@
 title: Soovituste loomine demoandmetega
 description: See artikkel annab juhiseid selle kohta, kuidas võimendada menüü-kanali tootesoovitusi Tier-1 ühe boksi keskkondades, kasutades eelasustatavaid, kohandatavaid demoandmeid.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e3df414b3c16c28b6f5ca04f765d91c1312ada4
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874891"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459964"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Soovituste loomine demoandmetega
 
@@ -45,7 +45,7 @@ Need andmed on liigendatud järgmiste veergude alusel.
 
 | Veeru nimi         | Kohustuslik          | Kirjeldus                                                                                                                                 | Võimalikud väärtused                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| RecoList            | :heavy_check_mark: | Konkreetse tootesoovituse loenditüüp, mille demoandmefail loob.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
+| RecoList            | :heavy_check_mark: | Konkreetse tootesoovituse loenditüüp, mille demoandmefail loob.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li><li>Vali uuesti</li><li>RecoSimilarVisual</li><li>RecoSimilarTextual</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Konkreetse tööüksuse number, mille puhul eeldatakse tootesoovituste esitamist.                                        |                                                                              |
 | Kategooria            |                    |    Kategooria, mille jaoks tuleks kindel loend tagastada. Kui kategooriat pole määratud, on loend ainult navigeerimise hierarhia tipu jaoks.    |                                                                              |
 | SeedItemId          |                    |    Lähteväärtusi nõudvate loendite puhul (RecoPeopleAlsoBuy ja RecoCart) peaksid need loendid näitama lisatooteid.            |                                                                              |

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287924"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476797"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -137,7 +137,29 @@ Järgmisel joonisel on näidatud seda tüüpi avaldised. (Näitena on kasutatud 
 > 
 > Vastavalt sellele seadistusele sisaldab iga deeboitori makse (XML-elemendi **Ustrd**) jaoks loodud sõnum kas maksemärkmete teksti või sellise teksti puudumisel komaga eraldatud arve numbreid, mida kasutatakse makse arveldamiseks.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Konfigureeritud valemite valideerimine
+## <a name="assistance-in-formulas-writing"></a>Abi valemite kirjutamisel
+
+### <a name="data-sources-navigator"></a>Andmeallikate navigeerija
+
+Saate muuta valemit, mis esindab struktureeritud andmeallika elementi. Kui konfigureerisite ER-parameetrid [...](relative-path-data-bindings-er-models-format.md), et esitada tee struktureeritud andmeallika elemendile suhtelise teena, näidatakse valemis märki "at" (@) [kasutatava](er-formula-language.md#relative-path) hierarhilise puustruktuuri absoluutse tee ülejäänud osa asemel. See absoluutne tee ülejäänud osa on suunatud redigeeritava tee emaelemendile. Finantsversiooni 10.0.30 ja hilisemate kuupäevade kujundaja lehel Andmeallikate paanil saate valida suvandi Mine kohta @**, et asetada andmeallikate puu kursor elemendile,** mis **on** **redigeeritava** elemendi ema.**·** Kõigi ahendatud kasvavate elementide struktuur laiendatakse vajadusel automaatselt ja rekursiivselt. See laiendus aitab teil kiiresti visualiseerida redigeeritava põhielementi, jälgida andmeallikate puus redigeeritava elemendi vendi ja kasutada kõiki neid vajadusel redigeeritavas valemis.
+
+![Kasutage suvandit Mine @, et asetada andmeallikate puu kursor elemendi juurde, mis on redigeeritava elemendi ema valemikujundaja lehel.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Andmeallikate valija
+
+**Valige valemikoosturi** lehel **vasakul** andmeallikate paanil üks andmeallika element, mille soovite toimetatavasse valemisse tuua. Seejärel valige **suvand Lisa andmeallikas**. Pange tähele, et valitud element lisatakse redigeeritava valemi tekstile.
+
+> [!TIP]
+> Kui kasutate vaikevalemiredaktoris **valikut** Lisa andmeallikat, lisatakse valitud element alati valemiteksti lõppu. Kui teete seda sama täpsemas [valemiredaktoris](er-advanced-formula-editor.md), lisatakse valitud element valemitekstile kursori praeguses asukohas.
+
+### <a name="built-in-functions-picker"></a>Integreeritud funktsioonide valija
+
+Valige valemi **kujundaja** lehe parempoolsel **paanil** Funktsioonid ER-i sisseehitatud funktsioon, mille soovite lisada redigeeritavasse valemisse. Seejärel valige lisa **funktsioon**. Pange tähele, et valitud funktsioon lisatakse redigeeritava valemi tekstile.
+
+> [!TIP]
+> Kui kasutate vaikevalemiredaktoris **funktsiooni** Lisa funktsioon, lisatakse valitud funktsioon alati valemi teksti lõppu. Kui teete seda sama täpsemas [valemiredaktoris](er-advanced-formula-editor.md), lisatakse valitud funktsioon valemitekstile kursori praeguses asukohas.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Konfigureeritud valemite valideerimine
 
 Lehel **Valemi kujundaja** valige suvand **Katse**, et valideerida konfigureeritud valemi töötamisviis.
 

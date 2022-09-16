@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228564"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475518"
 ---
 # <a name="human-resources-home-page"></a>Personaliosakonna kodulehekülg
 
@@ -40,7 +40,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Kompensatsiooni haldamine](hr-compensation-overview.md)
 - [Töötajate areng](hr-develop-performance-management-overview.md)
 - [Õpe](hr-learning-courses.md)
-- [Töövoo süsteem]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [Töövoo süsteem](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources ühendab inimesed ja tööandmed, et aidata teil optimeerida tööjõukulusid ja hoolitseda oma töövõtjate eest.
 
@@ -51,7 +51,8 @@ Teavet Dynamics 365 Finance kohta vt finantside [kodulehelt](../finance/index.md
 ## <a name="additional-resources"></a>Lisaressursid
 
 ### <a name="elearning-courses"></a>E-õppe kursused
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
+
+Veebikursustele ja koolitustele väljaregistreerimine [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Videod
 

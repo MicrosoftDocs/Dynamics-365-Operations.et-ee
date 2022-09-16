@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334741"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427870"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 eelversioon (oktoober 2022)
 
@@ -38,8 +38,8 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Varud ja logistika | [Sujuvamaks laoseisu loendite eellaadimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Peagi tulekul | Vaikimisi lubatud |
 | Tellimuspõhise tarne automatiseerimine | [Tellimuspõhise tarne automatiseerimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tellimuspõhise tarne automatiseerimine](../master-planning/make-to-order-supply-automation.md) | Funktsioonihaldus:<br>*Tellimuspõhise tarne automatiseerimine* |
 | Planeerimine | [Vaadake ja rakendage üksikasjalikke vihjeid DDMRP-le.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |
-| Tootmise juhtimine | [Saate lõpetatud kaubad enne töölehtedele sisestamist füüsiliselt kättesaadavaks teha.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Saate lõpetatud kaubad enne töölehtedele sisestamist füüsiliselt kättesaadavaks teha.](../production-control/deferred-posting.md) | Funktsioonihaldus:<br>*(Eelversioon) Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine* |
-| Laohaldus | [Vastavate andmete otsige lao mobiilsest rakendusest.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Laohalduse mobiilirakenduse dekooste päringuandmed](../warehousing/warehouse-app-data-inquiry.md) | Funktsioonihaldus:<br>*Warehouse managementi rakenduse andmepäringu voog* |
+| Tootmise juhtimine | [Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine](../production-control/deferred-posting.md) | Funktsioonihaldus:<br>*(Eelversioon) Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine* |
+| Laohaldus | [Vastavate andmete otsige lao mobiilsest rakendusest.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Andmepäringud Warehouse Managementi mobiilirakenduse kõrvalepõigete kaudu](../warehousing/warehouse-app-data-inquiry.md) | Funktsioonihaldus:<br>*Warehouse managementi rakenduse andmepäringu voog* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
@@ -64,7 +64,7 @@ Oleme hiljuti lisanud või oluliselt värskendanud järgmised spikriartiklid. Ne
 |---|---|
 | Koondplaneerimine, CTP | [Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
 | Koondplaneerimine, DDMRP | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md)<br>[Lülitage süsteemi jaoks sisse DDMRP-funktsioon](../master-planning/planning-optimization/ddmrp-enable.md)<br>[Varude paigutamine](../master-planning/planning-optimization/ddmrp-inventory-positioning.md)<br>[Puhvri profiil ja tasemed](../master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md)<br>[Nõudlusepõhine planeerimine](../master-planning/planning-optimization/ddmrp-planning.md)<br>[Visuaalne ja koostööd võimaldav täitmine](../master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md) |
-| Laohaldus | [Pakkekonteinerid lähetamiseks](../warehousing/packing-containers.md)<br>[Väljaminevate konteinerite ja saadetiste töötlemise pakketöö](../warehousing/packing-work.md) |
+| Laohaldus | [Saadetise konteinerite pakkimine](../warehousing/packing-containers.md)<br>[Väljaminevate konteinerite pakkimise ja saadetiste töötlemise pakkimistöö](../warehousing/packing-work.md) |
 
 ## <a name="feature-state-changes-in-this-release"></a>Funktsiooni oleku muudatused selles väljalaskes
 
@@ -205,7 +205,7 @@ Tabelis loetletakse ka funktsioonid, mis olid eelnevalt avalikus eelvaates, kuid
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.29 sisaldab platvormivärskendusi. Lisateavet leiate finantside ja [toimingute rakenduste versiooni 10.0.29 platvormi värskendustest (juuni 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md) <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.29 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.29 Finance and Operations rakendustest (oktoober 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

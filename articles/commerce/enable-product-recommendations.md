@@ -2,7 +2,7 @@
 title: Luba tootesoovitused
 description: See artikkel selgitab, kuidas teha klientidele kättesaadavaks microsofti teabel põhinevad tootesoovitused (AI-ARVUTI Microsoft Dynamics 365 Commerce).
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892067"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460017"
 ---
 # <a name="enable-product-recommendations"></a>Luba tootesoovitused
 
@@ -36,12 +36,19 @@ See artikkel selgitab, kuidas teha klientidele kättesaadavaks microsofti teabel
 1. Kinnitage, et Azure AD identiteedi konfiguratsioon sisaldab kirjet üksuse Soovitused jaoks. Lisateavet selle tegevuse kohta leiate altpoolt.
 1. Veenduge, et üksuse kaupluse päevane värskendus Azure Data Lake Storage Gen2-sse on plaanitud. Lisateabe saamiseks vt [Veenduge, et üksuse kaupluse värskendamine oleks automatiseeritud](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Luba üksuselao RetailSale'i mõõtmised. Selle seadistamisprotsessi kohta lisateabe saamiseks vt [Mõõtudega töötamine](/dynamics365/ai/customer-insights/pm-measures).
+1. Veenduge, et teie keskkond on konfigureerinud kättesaavad ja toetatud regioonid praegu toetatud regioonides järgmiselt:
+
+    - **Toetatud regioonid:** EL/US/CA/AU.
+    - **Toetatud regioonid:** US/CA/AU. Kui teenimispiirkond ei vasta ühele olemasolevatest toetatud regioonidest, valib soovituste teenus kõige lähema toetatud teeninduspiirkonna.
 
 Pärast ülaltoodud sammude täitmist olete soovituste lubamiseks valmis.
 
+> [!NOTE]
+> On teada probleem, mille puhul soovitused ei ilmu pärast järgmiste sammude lõpuleviimist. Selle probleemi põhjuseks on andmevoo probleemid keskkonnas. Kui teie keskkonnas ei näidata soovitamise tulemusi, [konfigureerige soovituste teenuse alternatiivsed andmed, järgides soovituste jaoks alternatiivse andmevoo häälestamise samme](set-up-alternate-data-flow.md). Teil peavad nende sammude lõpuleviimiseks olema Azure’i administraatori õigused. Kui vajate abi, võtke ühendust oma FastTracki esindajaga.
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD identiteedi konfiguratsioon
 
-See etapp on nõutav kõigil klientidel, kes kasutavad konfiguratsiooni infrastruktuur teenusena (IaaS). Azure AD Identiteedi konfiguratsioon on klientidele automaatne, kuid soovitatav on kontrollida, et Azure Service Fabric säte on konfigureeritud nii, nagu peaks.
+See samm on vajalik ainult klientidele, kes käitavad infrastruktuuri teenusena (IaaS) konfiguratsioonina. Azure AD Identiteedi konfiguratsioon on automaatne klientide puhul, kes töös Azure Service Fabric jooksevad, kuid soovitame kontrollida, et säte on konfigureeritud nii, nagu oodatud.
 
 ### <a name="setup"></a>Häälestus
 
@@ -92,11 +99,13 @@ Lisateavet isikupärastatud soovituste kohta vaadake jaotisest [Isikupärastatud
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
+[Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
-[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
+[Soovituste alternatiivse andmevoo häälestamine](set-up-alternate-data-flow.md)
 
-[„Sarnaste toodete vaatamise” soovituste lubamine](shop-similar-looks.md)
+[Luba isikupärastatud soovitused](personalized-recommendations.md)
+
+[Luba "osta sarnaseid" soovitused](shop-similar-looks.md)
 
 [Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Lisateavet isikupärastatud soovituste kohta vaadake jaotisest [Isikupärastatud
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
 
 
 

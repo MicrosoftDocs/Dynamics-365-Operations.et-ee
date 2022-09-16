@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893174"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428032"
 ---
 # <a name="release-to-warehouse"></a>Lattu väljastamine
 
@@ -34,7 +34,7 @@ Lattu välja saatmine on varude lähetuseks valmis panemise protsess. Kui vabast
 
 Lao *töö* on iga laotöö, mida teostab laotöötaja. Tavaliselt koosnevad lao töö toimingud vähemalt paarist tegevusest: laotöötaja komplekteerib ühes kohas vaba kaubavaru ja viib komplekteeritud kaubavarud teise kohta.
 
-Kui tellimused lattu väljastatakse, loob süsteem *koormaread* ja rühmitab need saadetisteks. Saadetise konsolideerimisprotsess võimaldab lattu vabastamise protsessis automatiseeritud saadetise konsolideerimist. Lisateabe saamiseks vt [Saadetiste konsolideerimise poliitikad](about-shipment-consolidation-policies.md).
+Kui tellimused lattu väljastatakse, loob süsteem *koormaread* ja rühmitab need saadetisteks. Saadetise konsolideerimisprotsess võimaldab lattu vabastamise protsessis automatiseeritud saadetise konsolideerimist. Lisateavet vt saadetise konsolideerimispoliitikate [ülevaatest](about-shipment-consolidation-policies.md).
 
 Süsteem kasutab *laineid* komplekteerimistöö ja saadetise koormate loomiseks. *Voomall* peab olema saadaval seda tüüpi voo jaoks, mida soovite luua ja tellimuse rea lao jaoks. Müügitellimuste ja ülekandekorralduste esemete *Saatmiseks* kasutage saatmistüübi laine malli.
 

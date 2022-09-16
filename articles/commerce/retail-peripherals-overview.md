@@ -2,7 +2,7 @@
 title: Välisseadmed
 description: See artikkel selgitab Commerce Peripheralsiga seotud mõisteid.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880077"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459988"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -59,11 +59,11 @@ Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need
 
 ### <a name="hardware-station"></a>Riistvarajaam
 
-Navigeerimine: minge jaemüügi ja **äri kanalite kauplustesse \>\> Kõik \> kauplused**. Valige kauplus ja seejärel valige kiirkaart **Riistvara kiirkaart**. Säte **Riistvarajaam** on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmidesse Windowsile ja Androidile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
+Navigeerimine: minge jaemüügi ja **äri kanalite kauplustesse \>\> Kõik \> kauplused**. Valige kauplus ja seejärel valige kiirkaart **Riistvara kiirkaart**. Säte **Riistvarajaam** on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmidesse Windowsile ja Androidile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb selleni võrgu kaudu.
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: minge jaemüügi ja **ärikanali häälestamise \> kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: minge jaemüügi ja ärikanali häälestamise **kassa häälestuse \>\> kassaprofiilide \> riistvaraprofiilidele \>.** Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
@@ -123,12 +123,12 @@ Selleks, et Commerce’iga saaks kasutada suurimat seadmevalikut, on valdkonna s
 
 ### <a name="windows"></a>Windows
 
-Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt palju kiirem kui Windowsi kaudu printimine. Seega tasub OPOS-i kasutada, eelkõige keskkondades, kus prinditakse 40 veerust koosnevaid kviitungeid ja kande aeg peab olema lühike. Enamiku seadmete puhul kasutatakse OPOS-i juhtelemente. Kuid mõned OPOS-i kviitungiprinterid toetavad ka Windowsi draivereid. Windowsi draiverit kasutades pääsete juurde uusimatele fontidele ja esimese võrgu printerile mitme registri puhul. Kuid Windowsi draiverite kasutamisel on miinuseid. Siin on mõned näited neist miinustest.
+Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt palju kiirem kui Windowsi kaudu printimine. Seega tasub OPOS-i kasutada, eelkõige keskkondades, kus prinditakse 40 veerust koosnevaid kviitungeid ja kande aeg peab olema lühike. Enamiku seadmete puhul saate kasutada OPOS-juhtelemente. Kuid mõned OPOS-i kviitungiprinterid toetavad ka Windowsi draivereid. Windowsi draiverit kasutades pääsete juurde uusimatele fontidele ja esimese võrgu printerile mitme registri puhul. Kuid Windowsi draiverite kasutamisel on miinuseid. Siin on mõned näited neist miinustest.
 
 -   Windowsi draiverite kasutamisel esitatakse pildid enne printimist. Seega kipub printimine olema aeglasem kui OPOS-i juhtelementidega printeritel.
 -   Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada. Näiteks ei pruugi sularahasahtel avatud olla või ei pruugi kviitungiprinter nii, nagu te eeldate.
 -   OPOS toetab alati ulatuslikumat kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.
--   Windowsi printereid IIS-i riistvarajaama kaudu ei toetata. 
+-   Windowsi printereid ei toetata IIS-i riistvarajaama kaudu. 
 
 Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Commerce’iga õigesti töötama.
 
@@ -142,9 +142,12 @@ Modern POS toetab UWP MSR-e ja skannereid. Seega, kui Modern POS on valmis ühe 
 
 Windowsile lisatakse kassaseadmete lisaklasse, nt sularahasahtlite ja kviitungiprinterite klassid. Nende uute seadmeklasside tugi Modern POS-is on ootel.
 
+> [!NOTE] 
+> Teatud USB-seadmed võivad muutuda mitterespondiivseks või ebausaldusväärseks, kui seda haldab Windows 10 võimsushalduse funktsioon nimega [USB Selective Suspend](/windows-hardware/drivers/usbcon/usb-selective-suspend). Kui USB-välisseade ei reageeri, võib olla vajalik keelata selle seadme valikuline peatamine. Lisateavet vt Valikulise peatamise [lubamine](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
+
 ### <a name="keyboard-wedge"></a>Klaviatuurikiil
 
-Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme. Seega käsitsetakse andmeid õigesti. Kuid kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
+Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtudel on kassas loogika, mis määrab, kas skannitud või läbi kantud andmed on vöötkood või kaardi tõmmake. Seega käsitsetakse andmeid õigesti. Kuid kui seadmed on seadistatud OPOS-ina klaviatuuri wedge seadmete asemel, on kontrollitav, kuidas nende seadmete andmeid saab tarbida, sest on teada rohkem "tuntud" seadme kohta, kust andmed pärinevad. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
 
 > [!NOTE]
 > Kui müügikohas kasutatakse klaviatuuri kiiluskannereid, peavad need olema programmeeritud saatma veotagastuse või **Enteri** sündmuse pärast viimast skannitud märki. Kui see konfiguratsioon pole tehtud, ei tööta klaviatuuri kiiluskannerid korralikult. Lisateavet tagasisõidusündmuse lisamise kohta leiate seadme tootja dokumentatsioonist.  
@@ -176,7 +179,7 @@ Vahel nimetatakse ka "IIS" riistvarajaamaks, "IIS", mis viitab sellele, et kassa
 
 Ühiskasutatava riistvarajaama abil saab lubada mitmele müügikliendile välisseadmeid jagada või hallata ühe müügipunkti kooskõlastatud seadmete kogumeid. 
 
-Kui riistvarajaama kasutatakse mitme kassa kliendi vahel välisseadmete jagamise toetamiseks, tuleks kasutada ainult sularahasahtleid, kviitungiprintereid ja makseterminale. Võimalik on ühendada otse autonoomsed vöötkoodiskannerid, MSR-id, ridade kuvarid, kaalud või muud seadmed. Muidu tekivad konfliktid, kui mitu kassaseadet püüab korraga neid välisseadmeid kätte saada. Toetatud seadmete konflikte käsitletakse järgmiselt.
+Kui riistvarajaama kasutatakse mitme kassa kliendi vahel välisseadmete jagamise toetamiseks, tuleks kasutada ainult sularahasahtleid, kviitungiprintereid ja makseterminale. Võimalik on ühendada otse autonoomsed vöötkoodiskannerid, MSR-id, ridade kuvarid, kaalud või muud seadmed. Muidu tekivad konfliktid, kui mitu kassaseadet püüab korraga neid välisseadmeid kätte saada. Toetatud seadmete konfliktide haldamine toimub siin:
 
 -   **Sularahasahtel** – sularahasahtel avatakse seadmesse saadetava sündmuse kaudu. Probleemid võivad ilmneda, kui sularahasahtlit kutsutakse ajal, kui sahtel on juba avatud. Ühises riistvarajaama konfiguratsioonis kasutatav sularahasahtel tuleks riistvaraprofiilis **seada** väärtusele Ühiskasutuses. Selle sätte korral ei kontrolli kassa avamiskäsu saatmisel, kas sularahasahtel on juba lahti.
 -   **Kviitungiprinter** – kui korraga saadetakse riistvarajaama kaks kviitungi printimise käsku, võib seadmest olenevalt üks käsk kaotsi minna. Mõne seadme sisemälu või ühendamine võib seda probleemi vältida. Kui printimiskäsk ei õnnestu, saab kassapidaja tõrketeate ja võib printimiskäsku kassas uuesti proovida.
@@ -530,7 +533,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel 
 10. Käivitage toiming **Riistvarajaamade haldamine**.
 11. Valige **suvand Haldamine**.
 12. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-13. Valige kasutamiseks riistvarajaam ja seejärel paar **.**
+13. Valige kasutamiseks riistvarajaam ja seejärel **paar**.
 14. Kui riistvarajaam on ühendatud, valige **sule**.
 15. Riistvarajaama valikulehel valige viimati valitud riistvarajaam, et see aktiivseks muuta.
 
@@ -559,7 +562,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
 
 12. Valige **suvand Haldamine**.
 13. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-14. Valige kasutamiseks riistvarajaam ja seejärel paar **.**
+14. Valige kasutamiseks riistvarajaam ja seejärel **paar**.
 15. Korrake toimingut 14 iga riistvarajaamaga, mida Modern POS kasutab.
 16. Kui kogu nõutav riistvara on ühendatud, valige suvand **Sule**.
 17. Riistvarajaama valikulehel valige viimati valitud riistvarajaam, et see aktiivseks muuta. 
@@ -597,7 +600,7 @@ Vaikimisi on SSL ja kõik TLS-i versioonid (v.a TLS 1.2) keelatud. Nende väärt
         -   SSL 3.0Client:Enabled=0
         -   SSL 2.0Server:Enabled=0
         -   SSL 2.0Client:Enabled=0
--   Rohkem ei tohi olla lahti ühtegi võrguporti, kui neid pole teadaolevatel, määratud põhjustel vaja.
+-   Rohkem võrguporte ei tohi avada, välja arvatud juhul, kui need on nõutavad teadaolevatel põhjustel.
 -   Ressursside ühiskasutus lähtekohtade lõikes peab olema keelatud ja peab määratlema aktsepteeritavad lubatud lähtekohad.
 -   Riistvarajaama käitavatel arvutitel kasutatavate sertide hankimiseks tuleb kasutada ainult usaldusväärseid sertifitseerimisasutusi.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878899"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460544"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
@@ -85,7 +85,14 @@ Toote tuvastamiseks topeltkasutusega kaubana ja sellele topeltkasutuse kategoori
 1. Määrake kiirkaardi **Väliskaubandus** suvandi **Topeltkasutusega tooted** väärtuseks **Jah**, et tuvastada praegust toodet topeltkasutusega kaubana.
 1. Määrake väljale **Topeltkasutuse kood** praegusele tootele kehtiv kood. (Määratlesite selle koodi lehel **Topeltkasutuse kategooriad**.)
 
-Seda seadistust kontrollitakse müügitellimuse loomisel.
+> [!NOTE]
+>
+> Süsteem teeb müügikinnituse loomisel järgmised topelt kasutusega tšekid:
+>
+> 1. Kas tellimus sisaldab topelt kasutuses tud kaupu?
+> 1. Kui jah, kas sihtriik nõuab topelt kasutusega serte?
+> 1. Kui jah, siis kas igale topelt-kasutuskoha riigile on olemas sertifikaadid, ning kas need sertifikaadid kehtivad kinnitatud lähetuskuupäevade puhul?
+> 1. Kui vastused 1. ja 2. küsimustele on "Jah" ja vastus küsimusele 3 on "Ei", kuvab süsteem hoiatuse, mis teavitab kasutajat, et müügitellimuses on ühe või mitme topeltkasutajaga kauba kohta puudu kaksi kasutuses tunnistusi. Ilmselt peaks kasutaja nõutavad sertifikaadid saama ja uuesti proovima, kuid saab selle asemel hoiatuse alistada ning soovi korral müügikinnitusega jätkata.
 
 ## <a name="set-up-dual-use-certificates"></a>Topeltkasutuse sertifikaatide häälestamine
 

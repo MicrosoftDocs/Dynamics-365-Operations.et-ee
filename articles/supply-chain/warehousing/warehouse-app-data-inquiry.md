@@ -1,5 +1,5 @@
 ---
-title: Laohalduse mobiilirakenduse dekooste päringuandmed
+title: Andmepäringud Warehouse Managementi mobiilirakenduse kõrvalepõigete kaudu
 description: See artikkel kirjeldab, kuidas konfigureerida andmepäringu mobiilse seadme menüü-üksuseid ja kasutada neid dekrüptimisosana.
 author: perlynne
 ms.date: 08/09/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336601"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427844"
 ---
-# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Laohalduse mobiilirakenduse dekooste päringuandmed
+# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Andmepäringud Warehouse Managementi mobiilirakenduse kõrvalepõigete kaudu
 
 [!include [banner](../includes/banner.md)]
 
@@ -163,7 +163,7 @@ Järgmiste sammude **abil looge tänase menüü üksuse** jaoks valik Otsi POS-i
     - **Kuva väli 4:** *DlvMode*
     - **Kuva väli 5:** *DlvTerm*
     - **Kuva väli 6:** *OrderAccount*
-    - **Kuva väli 7:** *VendorName()* (See väärtus on kuvamismeetod, nagu lõpus näitab "()".
+    - **Kuva väli 7:** *VendorName()* (See väärtus on kuvamismeetod, nagu lõpus näitab "()".)
 
 1. Valige toimingupaanil nupp **Salvesta**. Seejärel sulgege leht.
 
@@ -268,6 +268,6 @@ Järgige neid samme, et testida oma uut mobiilirakenduse häälestust.
     ![Ostu vastuvõtmine ostutellimuse otsingu kaudu hankija kaupa, näide 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Ostu vastuvõtmine ostutellimuse otsingu kaudu hankija järgi, näide 2")
 
 > [!TIP]
-> **Selle** asemel, et käivitada vastuvõtuvoog ostu vastuvõtu menüükäsu kaudu, saate alustada päringuvoost (**\>\> Peamine päring POS-ide otsimine hankija** alusel) ja kutsuda soovitud voo käivitamiseks deebeti, valides loendist ühe kaardi. Selle lähenemise kasutamiseks saate määrata deritta mobiilse seadme sammude lehel, mille sammu ID **väärtus** on **·** *GenericDataInquiryList*. Kuna see voog on tagasijuhtimise voog, ei saa te sellest rohkem de lisadendusi kutsuda. Seetõttu ei ole kaubakoodi sisestamise ekraanil otsing saadaval, kuna süsteem toetab praegu ainult üht de lisade taset.
+> **Selle** asemel, et käivitada vastuvõtuvoog ostu vastuvõtu menüükäsu kaudu, saate alustada päringuvoost (**\>\> Peamine päring POS-ide otsimine hankija** alusel) ja kutsuda soovitud voo käivitamiseks deebeti, valides loendist ühe kaardi. Selle lähenemise kasutamiseks saate määrata deritta mobiilse seadme sammude lehel, mille sammu ID **väärtus** on **·** *GenericDataInquiryList*. [*Kui laohalduse mobiilirakenduse mitmetasemeline dekrüptimine*](warehouse-app-detours.md) on teie süsteemi jaoks sisse lülitatud, saate vajadusel lisada ka täiendava lahtiütlemise (see funktsioon lisab toe kuni kahele eemaldamistasemele ja seda saab kohandada lisatasemete toetamiseks).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Ennetavad kvaliteediuuendused
+title: Ennetavad kvaliteedivärskendused
 description: See artikkel annab teavet kvaliteediuuenduste ennetava tarne kohta.
 author: rashmansur
-ms.date: 08/23/2022
+ms.date: 09/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,14 +11,14 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9d81cb15e9a127e7bea7ad9b5e0f50a1ee543f71
-ms.sourcegitcommit: 78e85ad49634cd31459fdb7325cb273352bf1501
+ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
+ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9338132"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473601"
 ---
-# <a name="proactive-quality-updates"></a>Ennetavad kvaliteediuuendused
+# <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
 [!include[banner](../includes/banner.md)]
 
@@ -58,12 +58,67 @@ Protsessimuudatuste kogum rakendatakse enne enne kvaliteedivärskenduse juurutam
 - **Aktiivsete muudatuste** muutumine on juba täiendav protsessisamm, et kinnitada muudatused kvaliteedivärskendusse kaasamise jaoks. Regressioone võimalike vähendamiseks suurendatakse lisasammide edasist haldust. Kvaliteediuuenduste puhul pole katkestatud muudatused lubatud ja suurenenud muudatus aitab tagada, et vastame sellele sihile.
 - **Nähtavus** – me saadame teatised meili ja elutsükli teenuste (LCS) kaudu eesseisva ennetava kvaliteediuuenduse jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
 - **Versiooni varuversioon** – lennuteed kasutatakse kõikide muutuste grupeerimiseks proaktiivses kvaliteedivärskenduses. Kui tagasipöördumine on vajalik pärast ennetavat juurutamist, saab seda teha lennusüsteemi kaudu.
-- **Windowsi sünkroonimise määramine** – vähem kui 20%-l klientidest on täna mitu ruutu ja ühe boksi juurutamiseks on versiooni vastendamise tootmisse juurutatud, et aidata teil tõrkeotsingut. Tulevikus tutvustame klientidele võimalust määrata sisendkausta keskkond, mis ei peaks saama ennetavat kvaliteedivärskenduse juurutamist koos teiste kaustadega, kuid see peaks selle saama hiljem koos tootmiskeskkonnaga. Pange tähele, et kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see kastist uuema versiooni kvaliteediuuendused.
-- 
-## <a name="when-will-proactive-quality-updates-start"></a>Millal käivitatakse ennetavad kvaliteediuuendused?
+- **Windowsi sünkroonimise määramine** – vähem kui 20%-l klientidest on täna mitu ruutu ja ühe boksi juurutamiseks on versiooni vastendamise tootmisse juurutatud, et aidata teil tõrkeotsingut. Kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see märkeruut kvaliteediuuendused uuemale versioonile.
+
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Mis on kvaliteediuuenduste jaoks pöördumine?
 
 Ennetava kvaliteediuuenduste jaotus sisendkausta keskkondades peaks eeldatavasti algama septembri lõpus või septembril 2022 Azure’i avaliku pilve klientidele. Proovikeskkonnad hakkavad saama ka sel ajal ennetavat uuendamist. Septembris saadetakse kliendile teatis, mis teavitab neid eeldatavast keskkonnagraafikust. Ennetava värskendatud jaotusprotsessi erandid on lubatud ainult FDA-ga reguleeritud klientide puhul. Töötame endiselt selles, kuidas hallatakse reguleeritud keskkondi ja ande- ja valitsuse pilve kliente.
 
 Järgmise kuue kuu jooksul suurendame järk-järgult märkeruutukeskkondade protsenti, mis saavad ennetavad uuendused, kuni kõik määratud keskkonnad on kaasatud ja edenemine tootmiskeskkondade uuendamisel. Kogu perioodi jooksul jälgime, kindlustamaks, et juurutusprotsess on tõrgeteta ja et me saada kätte meie mitteladustavate lastide sihtmärgi.
 
 Kuna kliendid saavad regulaarselt väiksemaid töökoormusi, eeldame, et praegused täitjad muutuvad lihtsamaks. Korrigeerime juurutamise uuendamise sagedust vastavalt võimele protsessi käivitada katkestuseta. See protsess töötab juba tõhusalt meie platvormi ja Dataverse rakenduste jaoks ning pakub teenuse kvaliteedi eeldatavat parendust. Soovitame teha sama sammu edasi finants- ja operatsioonide rakenduste puhul.
+
+## <a name="when-will-quality-updates-start-for-production-environments"></a>Millal käivitatakse kvaliteediuuendused tootmiskeskkondades?
+Praegu on kvaliteediuuendused suunatud ainult boksidele. Tootmiskeskkondade uuendused algavad pärast 2022. aasta novembrit.
+
+## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Mis on selle kausta kvaliteediuuenduste graafik?
+Lisateavet iga piirkonna tumetundide kohta vt "Mis [on proaktiivsete kvaliteediuuenduste graafik?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)
+
+## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Kuidas käsitsetakse tume tunde klientide puhul, mil on üks finantside ja toimingute rakenduste eksemplar, kuid mis on aktiivsed mitmes ajavööndis? 
+Väljaspool tumedaid tunde, kus finantside ja toimingute rakenduste eksemplar on olemas, ei ole spetsiaalseid ajakavasid, [kuna plaanime minimaalselt katkestava ja nZDT-ga kvaliteediuuendusi välja võtta](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Kuidas tagab Microsoft nende uuenduste kvaliteedi?
+Microsoft püüab hoida vabastusvõimaluste tõhusust, et tagada väikeste lastide tarnimine, et hoida kinnitamiskulu madal. Iga kvaliteedivärskenduse parandus läbib erakordse ja turvalise juurutusprotsessi, mis aitab parandada kvaliteeti ja usaldusväärsust, vähendades nii klientide mõju. Juurutamine toimub esmalt koostekausta keskkondades etappidena, millele järgneb tootmine. Etapiviisiline juurutamine võimaldab korrektset jälgimist, et määratleda, kas edasine juurutamine on turvaline. Peatame väljamineku, kui tuvastatakse probleemid iga juurutatud klientide grupiga, ja tagame, et igal sammul on piisavalt aega probleemide lahendamiseks. Iga eesse tulevase kvaliteediuuenduse jaoks kasutame ajakava nähtavust avaliku dokumentatsiooni ja e-kirjade uuenduse kaudu, et kliendid saaksid seda planeerida.
+
+## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Kas kliendid saavad kvaliteedi uuendamist edasi lükata, ümber planeerida või peatada?
+Ei. Kvaliteediuuenduste peamine eesmärk on tagada, et turvalisus, privaatsus, usaldusväärsust, kättesaadavust ja jõudlust täiustatakse pidevalt meie klientide puhul. Värskendamise, turvalisuse, kättesaadavuse ja usaldusväärsuse edasilükkamine või selle edasilükkamine on riskiks.
+
+## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Kuidas saab teada muudatuste komplekti, mis läks kvaliteedivärskenduse töökoormusse?
+Kvaliteedivärskenduse lehel **liikumine** võimaldab LCS-i **keskkonna üksikasjade lehel vaadata kõiki kvaliteedivärskenduse teabebaasi artikleid**. 
+
+## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Mis on protsess, kui pärast kvaliteedi uuendamist leitakse kriitiline probleem?
+Kriitiline väljaminek või regressioon on üks või mitu sündmust, mis tavaliselt põhjustavad mitmele kliendile alandatud kogemuse ühe või mitme meie teenusega. Need probleemid võivad põhjustada plaanimata töötunde, sealhulgas kättesaamatust, jõudluse käiku ja sekkumise teenusehaldust. Kui selliste regressioonide tõttu on kliendil lai mõju, peatame kvaliteedivärskenduse väljastamise, kuni saame ühendust pidada ja probleemi lahendada. Tavaliselt on järgmisel kvaliteedivärskendustel vajalik parandus, et jätkata väljapööramist.
+
+Kui mõjutatakse ühte kliendi keskkonda, pöörduge pileti avamiseks Microsofti toe poole. Põhjenduse põhjal peatame kvaliteedivärskenduse väljapööramise selles projektis kõigisse muudesse keskkondades, kuni probleem lahendatakse.
+
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Kas kliendid saavad LCS-i kiirparanduse värskendusi siiski käsitsi rakendada?
+Jah. Et tagada pidev paarsus selle abil, kuidas kiirparandused töötavad, saab kiirparanduse värskendusi siiski rakendada LCS-i kliendi keskkondadele. Siiski on oluline märkida, et osana kvaliteedivärskendusest juurutatud kiirparandused läbivad standardse SDP enne värskenduse juurutamist. See vähendab kõrgemast kvaliteedist põhjustatud regressioonide riski. Soovitame teil valida kvaliteedivärskendus kiirparandused käsitsi kohaldada suuremale usaldusväärsusele.
+
+## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Kas kliendid saavad kvaliteetvärskenduse ise installida graafikust ette?
+Jah. Saate installida kvaliteedivärskenduse ennetavalt. Microsoft jätab värskenduse vahele, kui keskkonna praegune järguversioon on kõnealuse kvaliteedivärskendusega võrdne või sellest kõrgem.
+
+## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Kui keskkonnas on eesseisev planeeritud igakuine teenuse värskendus nädala jooksul, kas see saab siiski kvaliteediuuendusi?
+- Kvaliteediuuendusi ei rakendata, kui eelseisva teenuse värskendus plaanitakse nädala jooksul alates kvaliteediuuenduse plaanist.
+- Kui tolle keskkonnal on sama või kõrgem versiooni versioon kui eelseisval kvaliteedivärskendustel, jäetakse see vahele.
+- Kui tootmiskeskkonnal on sama või kõrgem versiooni versioon kui eelseisval kvaliteedivärskendustel, jäetakse see vahele.
+- Kui eboksil on kvaliteedi uuendamise või tootmise käsitsi uuendamise tõttu sama või kõrgem koosteversioon, saab tootmine ikkagi igakuiste teenusvärskenduste planeeritud versiooni. Kui te ei soovi, et plaanitud tootmiskeskkond uuendaks teenuse värskendusversiooni, saate teenuse värskenduse LCS-i kaudu peatada. 
+- Soovitame kasutada uusimat kvaliteedivärskenduse koostet, et katsetada eesseinud teenusevärskenduse muutusi parema stabiilsuse ja tulemuste saavutamiseks.
+
+## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Kas keskkonna saab tagasi tuua oma eelnevasse olekusse, kui kvaliteedivärskenduse rakendamist on küsimusi?
+Pärast kvaliteedi värskenduse rakendamist ei ole mingites olukordades tagasipööramist. Probleemide lahendamiseks on saadaval ainult paiga edasised suvandid.
+
+## <a name="what-about-fda-regulation-and-gpx"></a>Kuidas on FDA-määrusega jaGPX-iga?
+FDA kinnitamist ja korrastamist vajav klientide plaan on endiselt läbirnitud. Ootab varsti rohkem uuendusi selles ruumis. Kõik need kliendid on praegu kvaliteediuuendustest vabastatud.
+
+## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Millised teenusevärskenduste versioonid on nende kvaliteediuuenduste puhul toetatud?
+Kliente, kes on madalamates versioonides kui N-2 ei saa kvaliteedivärskendusi. 
+
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Finantside ja toimingute rakenduste juurutused jaemüügikomponentidega nõuavad tavaliselt lisaks MPOS-i uuesti juurutamiseks täiendavat tööd. Kuidas need kvaliteediuuendused Mõjutavad RetailSDK-d? 
+Kuna kiirparanduste enda olemus ei muuda kvaliteedivärskenduste töökoormust, ei eelda me praegu jaemüügi komponentidega seotud lisamõju.
+
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Kas see mõjub pilve majutatud keskkondadele (CHE)? ? 
+Ei.
+
+## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Kas on olemas integratsiooniprobleeme Microsoft Dataverse? 
+Ei.
+

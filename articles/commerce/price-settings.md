@@ -1,5 +1,5 @@
 ---
-title: Hinnakujunduse sätted
+title: Hinnakirjasätted
 description: See artikkel kirjeldab peakontoris hinnakujunduse ja allahindluse halduse erinevaid Microsoft Dynamics 365 Commerce sätteid.
 author: boycez
 ms.date: 09/06/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-11
-ms.openlocfilehash: 4bc8cb16e7960d26adbb9590b4ad83cf46b02838
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 79130e0ef285d6bd5e544f2d6a6368c0393fa7fa
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410471"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474038"
 ---
-# <a name="pricing-settings"></a>Hinnakujunduse sätted
+# <a name="pricing-settings"></a>Hinnakirjasätted
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 See artikkel kirjeldab peakontoris hinnakujunduse ja allahindluse halduse erinevaid Microsoft Dynamics 365 Commerce sätteid. Need sätted võimaldavad organisatsioonidel määrata hinnakujunduse käitumise ärilahenduses, mis vastab konkreetsetele ärivajadustele.
 

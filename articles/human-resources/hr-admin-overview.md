@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027132"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475634"
 ---
 # <a name="administration-overview"></a>Halduse ülevaade
 
@@ -46,10 +46,10 @@ See artikkel annab spikriteemade loendi ja muud ressursid häälestamiseks, hald
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
   - Office'iga integreerimine
-    - [Office’i integreerimise õppetükk](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Üksuseandmete värskendamine Excelis](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Excelis avamise kogemuste loomine](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Office'i integreerimise tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office’i integreerimise õppetükk](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Üksuseandmete värskendamine Excelis](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Excelis avamise kogemuste loomine](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office'i integreerimise tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
 
@@ -100,7 +100,7 @@ See artikkel annab spikriteemade loendi ja muud ressursid häälestamiseks, hald
 ## <a name="additional-resources"></a>Lisaressursid
 
 ### <a name="elearning-courses"></a>E-õppe kursused
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Veebikursustele ja koolitustele väljaregistreerimine [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Videod
 

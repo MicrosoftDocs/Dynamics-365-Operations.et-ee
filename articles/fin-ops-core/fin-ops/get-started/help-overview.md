@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305220"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462353"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -40,18 +40,18 @@ Kõigis neis rakendustes pääsete tootepõhisele spikrile juurde paanilt **Spik
 
 ![Spikripaan.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
+## <a name="help-on-microsoft-docs"></a>Microsoft Dok’ide spikker
 
-Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) on ülaltoodud rakenduste vaikimisi tootedokumentide allikas. See sait pakub järgmisi funktsioone.
+[Microsoft Dynamics Microsoft Docsi (365 dokumentatsioon](/dynamics365/)) on eelnevalt loetletud rakenduste tootedokumentatsiooni vaikeallikas. See sait pakub järgmisi funktsioone.
 
 - **Juurdepääs kõige ajakohasemale sisule** – sait annab Microsoftile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu tagab see teile hõlpsat juurdepääsu uusimale tehnilisele teabele.
 - **Asjatundjate kirjutatud sisu** – saidi sisu saavad täiendada kogukonna liikmed nii Microsofti siseselt kui ka väljastpoolt.
 
-Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt **sait:docs.microsoft.com dynamics 365 „otsingusõna”**.
+Microsoft Doki sisu leiate mis tahes otsingumootori abil. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt **sait:docs.microsoft.com dynamics 365 „otsingusõna”**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Muudatuste kohta teatiste saamine RSS-kanali kaudu
 
-RAKENDUSES JA operatsioonide rakendustes sisule docs.microsoft.com uuenduste tellimiseks kasutage järgmist linki:
+ET tellida KOOSTE-kanaliga kõiki Microsofti tehnilise dokumentatsiooni sisule tehtud uuendusi finantside ja toimingute rakendustes, kasutage järgmist linki:
 
 [RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks valige ar
 
 Video [Kuidas panustada Microsoft Dynamics 365 dokumenti](https://youtu.be/m5djioozRbg) (vt eespool) on vaadatav Microsoft Dynamics 365 kanalist YouTube'is.
 
-Lugege lisateavet teemast [Dokumentide kaasautori juhend](/contribute), mille avaldajaks on saidi docs.microsoft.com loonud meeskond.
+Lisateavet vt Microsofti dokumendi [juhendist Microsoft Docs,](/contribute) mille avaldatakse Microsofti dokumendisaidi loonud meeskond.
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsesse sisusse.
@@ -168,11 +168,11 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 
 | Sait | Kirjeldus |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | See sait majutab või lingib kõiki Dynamics 365 tootedokumente. |
+| [Microsoft Dynamics 365 dokumentatsioon](/dynamics365/) | See sait majutab või lingib kõiki Dynamics 365 tootedokumente. |
 | [Microsoft Learn](/learn/) | See Microsofti tasuta e-õppe sait. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | See sait pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning toiminguteni. See on abiks kõigis juurutamise faasides. |
 | [Toe ajaveeb](https://aka.ms/AXSupportBlog) | See sait annab vihjeid ja näpunäiteid, mida sisestab tugiteenuse töörühm. |
-| [Docs.microsoft.com/previous versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
+| [Eelmised versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
 
@@ -180,4 +180,3 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

@@ -2,7 +2,7 @@
 title: Maksuarvutuse ülevaade
 description: See artikkel selgitab maksuarvutuse võimaluse üldist ulatust ja funktsioone.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295987"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465162"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -74,18 +74,10 @@ Soovitame teil importida ja seadistada oma maksuarvestuse konfiguratsioon versio
 
 | Finants- või tarneahela halduse versioon | Maksu konfiguratsiooni versioon               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Maksu konfiguratsioon - Euroopa 30.12.82     |
-| 10.0.19         | Maksu arvutamise konfiguratsioon 36.38.193 |
-| 10.0.20         | Maksu arvutamise konfiguratsioon 40.43.208 |
-| 10.0.21         | Maksu arvutamise konfiguratsioon 40.48.215 |
-| 10.0.22         | Maksu arvutamise konfiguratsioon 40.48.215 |
-| 10.0.23         | Maksu arvutamise konfiguratsioon 40.50.221 |
-| 10.0.24         | Maksu arvutamise konfiguratsioon 40.50.225 |
-| 10.0.25         | Maksu arvutamise konfiguratsioon 40.50.225 |
-| 10.0.26         | Maksu arvutamise konfiguratsioon 40.54.234 |
-| 10.0.27         | Maksu arvutamise konfiguratsioon 40.54.234 |
-| 10.0.28         | Maksu arvutamise konfiguratsioon 40.54.234 |
+| 10.0.30         | Maksu arvutamise konfiguratsioon 40.55.239 |
 | 10.0.29         | Maksu arvutamise konfiguratsioon 40.55.236 |
+| 10.0.28         | Maksu arvutamise konfiguratsioon 40.54.234 |
+| 10.0.27         | Maksu arvutamise konfiguratsioon 40.54.234 |
 
 
 ## <a name="data-flow"></a>Andmevoog
@@ -104,120 +96,27 @@ Siin on maksuarvestuse andmevoo protsessi liigendus.
 
 Maksu arvutuse saab lubada kannetega. 
 
-Finantsversioonis 10.0.21 toetatakse järgmisi kandeid: 
+Järgmises tabelis loetletakse vastavas versioonis toetatud kanded.
 
-- Müük
-
-    - Müügipakkumine
-    - Müügitellimus
-    - Kinnitus
-    - Komplekteerimisleht
-    - Saateleht
-    - Müügiarve
-    - Kreeditarve
-    - Tagastustellimus
-    - Mitmesugused tasude päis
-    - Mitmesuguste kulude rida
-
-- Ost
-
-    - Ostutellimus
-    - Kinnitus
-    - Saabunud kaupade loend
-    - Toote sissetulek
-    - Ostuarve
-    - Mitmesugused tasude päis
-    - Mitmesuguste kulude rida
-    - Kreeditarve
-    - Tagastustellimus
-    - Ostutaotlus
-    - Ostutaotluse rea lisakulud
-    - Pakkumiskutse
-    - Pakkumispäise lisakulunõue
-    - Pakkumisrea lisakulunõue
-
-- Varud
-
-    - Kandetellimus-- lähetus
-    - Kandetellimus-- kättesaamine
-
-Finantsversioonis 10.0.23 toetatakse järgmisi kandeid: 
-
-- Vabas vormis arve
-
-Finantsversioonis 10.0.26 toetatakse järgmisi kandeid: 
-
-- Päevaraamatud
-- Hankijaarvete tööleht
-
-Finantsversioonis 10.0.28 toetatakse järgmisi kandeid: 
-
-- Hankija maksetööleht
-- Kliendimaksete tööleht
-
-Finantsversioonis 10.0.29 toetatakse järgmisi kandeid: 
-
-
-- Perioodilised töölehed
+| Versioon | Kanded |
+|---------|--------------|
+| 10.0.29 | Perioodilised töölehed |
+| 10.0.28 | Hankija maksetööleht<br> Kliendimaksete tööleht | 
+| 10.0.26 | Päevaraamatud<br> Hankijaarvete tööleht |
+| 10.0.23 | Vabas vormis arve |
+| 10.0.21| Müük<br><ul><li>Müügipakkumine</li><li>Müügitellimus</li><li>Kinnitus</li><li>Komplekteerimisleht</li><li>Saateleht</li><li>Müügiarve</li><li>Kreeditarve</li><li>Tagastustellimus</li><li>Mitmesugused tasude päis</li><li>Mitmesuguste kulude rida</li></ul>Ost<br><ul><li>Ostutellimus</li><li>Kinnitus</li><li>Saabunud kaupade loend</li><li>Toote sissetulek</li><li>Ostuarve</li><li>Mitmesugused tasude päis</li><li>Mitmesuguste kulude rida</li><li>Kreeditarve</li><li>Tagastustellimus</li><li>Ostutaotlus</li><li>Ostutaotluse rea lisakulud</li><li>Pakkumiskutse</li><li>Pakkumispäise lisakulunõue</li><li>Pakkumisrea lisakulunõue</li></ul>Varud<ul><li>Kandetellimus-- lähetus</li><li>Kandetellimus-- kättesaamine</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Toetatud riigid/regioonid
 
-Maksuarvutust saab käitada juriidilise isiku esmase aadressi järgmistes riikides/regioonides toetatud lokaliseerimisfunktsiooniga: 
+Maksu arvutamise saab käivitada toetatud lokaliseerimisfunktsiooniga. Järgmine tabel loendab riigid/regioonid juriidilise isiku esmase aadressi jaoks.
 
-Versioonis 10.0.21 toetatud:
-
-- Austria
-- Belgia
-- Taani
-- Eesti
-- Soome
-- Prantsusmaa
-- Saksamaa
-- Ungari
-- Island
-- Iirimaa
-- Itaalia
-- Läti
-- Leedu
-- Holland
-- Norra
-- Poola
-- Rootsi
-- Šveits
-- Ühendkuningriik
-- Ameerika Ühendriigid
-
-Versioonis 10.0.22 toetatud:
-
-- Austraalia
-- Bahrein
-- Kanada
-- Egiptus
-- Hong Kongi EHP
-- Kuveit
-- Uus-Meremaa
-- Omaan
-- Katar
-- Saudi Araabia
-- Lõuna-Aafrika Vabariik
-- Araabia Ühendemiraadid
-
-Versioonis 10.0.23 toetatud:
-
-- Tai
-- Jaapan
-- Malaisia
-- Singapur
-
-Versioonis 10.0.24 toetatud:
-
-- Mehhiko
-
-Versioonis 10.0.26 toetatud:
-
-- Hiina
-- Tšehhi Vabariik
-- Hispaania
+| Versioon | Riik/regioon |
+|---------|----------------|
+| 10.0.26 | – Hiina <br>– Tšehhi Vabariik<br>– Hispaania |
+| 10.0.24 | Mehhiko |
+| 10.0.23 | – Tai <br>– Jaapan <br>– Malaisia <br>– Singapur |
+| 10.0.22 | – Austraalia<br>– Bahrein <br>– Kanada<br>– Egiptus <br>– Hong Kongi EHI <br>– Kuveit <br>– Uus-Meremaa <br>– Omaan <br>– Katar <br>– Saudi Araabia <br>– Lõuna-Aafrika <br>- Araabia Ühendemiraadid |
+| 10.0.21 | – Austria <br>– Belgia <br>– Taani <br>- Eesti <br>– Soome <br>– Prantsusmaa <br>– Saksamaa <br>- Ungari <br>- – Island <br>– Iirimaa <br>– Itaalia <br>– Läti <br>– Leedu <br>– Holland <br>– Norra <br>– Poola <br>– Rootsi <br>– Šveits <br>– Ühendkuningriik <br>– USA |
 
 Mis tahes Riigi/regiooni puhul, mida Microsoft ei lokaliseeri, saab maksuarvutust lubada ja käitada teiste globaalsete funktsioonidega.
 

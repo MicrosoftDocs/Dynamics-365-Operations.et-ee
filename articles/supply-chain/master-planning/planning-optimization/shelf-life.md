@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337356"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428217"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Piiratud kõlblikkusajaga toodete koondplaneerimine
 
@@ -298,8 +298,6 @@ Järgmine näide näitab selle näite ajajoont.
 ![Näide 4: Simple FEFO, periood, täitmisaeg sõltub kogusest.](media/fefo-example-4.png "Näide 4: Simple FEFO, periood, täitmisaeg sõltub kogusest")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Näide 5: Simple FEFO, nõue, 10 negatiivset päeva
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 See näide näitab, kuidas toimib kõlblikkusiga, kui kaubale lisatakse suur arv negatiivseid päevi. Negatiivsed päevad on päevade arv, mille võrra soovite oodata, enne kui tellite negatiivse laovaruga kauba varude täiendamist. Süsteem ei loo tarnet, kui negatiivsete päevade arv ei ole ületatud.
 

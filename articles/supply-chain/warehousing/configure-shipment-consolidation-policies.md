@@ -2,7 +2,7 @@
 title: Saadetise konsolideerimispoliitikate konfigureerimine
 description: See artikkel selgitab, kuidas seadistada saadetise vaike- ja kohandatud konsolideerimispoliitikaid.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336488"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427978"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -28,75 +28,49 @@ Saadetise konsolideerimisprotsess, mis kasutab saadetise konsolideerimispoliitik
 
 Selles artiklis esitatud stsenaariumid näitavad, kuidas seadistada vaike- ja kohandatud saadetise konsolideerimispoliitikaid.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Saadetise konsolideerimispoliitikate funktsiooni sisselülitamine
+> [!WARNING]
+> Kui täiendate Microsofti Dynamics 365 Supply Chain Management süsteemi, kus olete kasutanud pärandsaadetiste konsolideerimise funktsiooni, võib konsolideerimine lõpetada töötamise nii, nagu te eeldate, kui te ei järgi siin antud soovitust.
+>
+> Tarneahela halduse installides, kus *saadetise* konsolideerimispoliitika funktsioon on välja lülitatud, lubate saadetise konsolideerimise **,** kasutades iga üksiku lao puhul sätet Konsolideeri saadetis vabastamisel lattu. See funktsioon on kohustuslik versiooni 10.0.29 puhul. Kui see on sisse lülitatud, **·** *muutub* säte Konsolideeri saadetis lattu vabastamisel peidetud ja funktsioon asendatakse selles artiklis kirjeldatud saadetise konsolideerimispoliitikatega. Iga poliitika kehtestab konsolideerimisreeglid ja sisaldab päringut selle poliitika rakendumise juhtimise kohta. Kui lülitate funktsiooni esimest korda sisse, ei määratleta saadetise konsolideerimispoliitikaid saadetise **konsolideerimispoliitikate lehel**. Kui poliitikaid pole määratletud, kasutab süsteem pärandkäitumist. Seetõttu järgib iga olemasolev ladu lao sätet **Konsolideeri saadetis lattu** vabastamisel, kuigi see säte on nüüd peidetud. Kuid pärast vähemalt ühe saadetise konsolideerimispoliitika loomist ei **ole laosätetes saadetise konsolideerimine enam mõjul ja poliitikad kontrollivad täielikult konsolideerimisfunktsioone**.
+>
+> Kui olete määratlenud vähemalt ühe saadetise konsolideerimispoliitika, kontrollib süsteem konsolideerimispoliitikaid iga kord, kui tellimus lattu välja lastakse. Süsteem töötleb poliitikaid, kasutades iga poliitika poliitika järjestamise väärtusega määratud **reitingut**. See rakendab esimest poliitikat, kus päring vastab uuele tellimusele. Kui ükski päringu ei ühti tellimusega, loob iga tellimuse rida eraldi saadetise, mis omab ühte koormarida. Seetõttu soovitame varuna luua vaikepoliitika, mis rakendub kõikidele ladudele ja gruppidele tellimuse numbri järgi. Andke sellele varupoliitikale kõrgeim **poliitika järjestuse** väärtus, nii et seda viimati töödeldakse.
+>
+> Pärandkäitumise loomiseks peate looma poliitika, mis ei grupeeri tellimuse numbri järgi ja sellel on päringukriteeriumid, mis hõlmavad kõiki asjakohaseid ladusid.
 
-> [!IMPORTANT]
-> Esimeses stsenaariumis [,](#scenario-1) mida kirjeldatakse selles artiklis, seadistate esmalt lao nii, et see kasutab varasemat saadetise konsolideerimise funktsiooni. Seejärel teete saadetise konsolideerimispoliitikad kättesaadavaks. Sedasi saate proovida, kuidas täiendamise stsenaarium töötab. Kui kavatsete kasutada esimese stsenaariumi läbimiseks demoandmete keskkonda, ärge lülitage funktsiooni enne stsenaariumi tegemist sisse.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Saadetise konsolideerimispoliitikate funktsiooni sisselülitamine
 
 Saadetise konsolideerimispoliitika *funktsiooni kasutamiseks* peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis *on*[vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse või välja lülitada, otsides Funktsioonihalduse tööruumis saadetise konsolideerimispoliitika](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funktsiooni.
 
-## <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a> Algsete konsolideerimispoliitikate häälestamine
 
-Iga selle artikli stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad Microsofti standardsetes demoandmetes Dynamics 365 Supply Chain Management. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks **USMF**.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>1. stsenaarium: saadetise vaikimisi konsolideerimispoliitikate konfigureerimine
-
-Pärast funktsiooni *Saadetise konsolideerimispoliitika* sisselülitamist peate konfigureerima minimaalse arvu vaikepoliitikaid kahel juhul.
-
-- Keskkonna täiendamisel, mis juba sisaldab andmeid.
-- Täiesti uue keskkonna seadistamisel.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Keskkonna uuendamine, kus laod on juba konfigureeritud risttellimuste konsolideerimiseks
-
-Selle protseduuri käivitamisel peaks funktsioon *Saadetise konsolideerimispoliitika* olema välja lülitatud, et simuleerida keskkonda, kus on juba üldist risttellimuste konsolideerimise funktsiooni kasutatud. Seejärel saate kasutada funktsioonihaldust selle funktsiooni sisselülitamiseks, et saaksite teada, kuidas häälestada saadetise konsolideerimispoliitikaid pärast täiendust.
-
-Järgige neid etappe vaikimisi saadetiste konsolideerimispoliitikate seadistamiseks keskkonnas, kus laod on juba konfigureeritud risttellimuste konsolideerimiseks.
-
-1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
-1. Otsige loendist üles ja avage soovitud lao kirje (nt ladu *24* demoandmetes **USMF**).
-1. Valige Toimingupaanil nupp **Redigeeri**.
-1. Määrake kiirkaardil **Ladu** suvandi **Konsolideeri saadetis lattu väljastamisel** väärtuseks *Jah*.
-1. Korrake etappe 2– 4 kõigi teiste ladude puhul, kus konsolideerimist nõutakse.
-1. Sulgege leht.
-1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**. Pärast funktsiooni sisselülitamist uue menüükäsu **Saadetise konsolideerimispoliitikad** kuvamiseks peate tõenäoliselt värskendama oma brauserit.
-1. Järgmiste poliitikate loomiseks valige Toimingupaanil **Loo vaikeseadistus**.
-
-    - Poliitika **CrossOrder** poliitika tüübi *Müügitellimused* jaoks (eeldusel, et teil on vähemalt üks ladu, mis on seadistatud varasema konsolideerimisfunktsiooni kasutamiseks)
-    - Poliitika **Vaikimisi** poliitika tüübi *Müügitellimused* jaoks
-    - Poliitika **Vaikimisi** poliitika tüübi *Edastuse väljaminek* jaoks
-    - Poliitika **CrossOrder** poliitika tüübi *Edastuse väljaminek* jaoks (eeldusel, et teil on vähemalt üks ladu, mis on seadistatud varasema konsolideerimisfunktsiooni kasutamiseks)
-
-    > [!NOTE]
-    > - Mõlemad poliitikad **CrossOrder** kasutavad sama väljade kogumit varasema loogikana, välja arvatud tellimuse numbri välja. (Seda välja kasutatakse ridade konsolideerimiseks saadetisteks, mis põhinevad sellistel teguritel, nagu ladu, transpordiliik ja aadress.)
-    > - Mõlemad poliitikad **Vaikimisi** kasutavad sama väljade kogumit varasema loogikana, sealhulgas tellimuse numbri välja. (Seda välja kasutatakse ridade konsolideerimiseks saadetisteks, mis põhinevad sellistel teguritel, nagu tellimuse number, ladu, tarne transpordiviis ja aadress.)
-
-1. Valige poliitika **CrossOrder** poliitika tüübi *Müügitellimused* jaoks ja seejärel valige Toimingupaanil käsk **Päringu redigeerimine**.
-1. Kontrollige, kas päringuredaktori dialoogiboksi loendis on laod, mille suvandi **Konsolideeri saadetis lattu vabastamisel** väärtuseks on seatud *Jah*. Sellisel juhul need kaasatakse päringusse.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Uue keskkonna vaikepoliitikate loomine
-
-Järgige neid etappe uues keskkonnas saadetise vaikimisi konsolideerimispoliitikate seadistamiseks.
+Kui töötate uue süsteemi või süsteemiga, kus te olete saadetise *konsolideerimispoliitika* funktsiooni esmakordselt sisse lülitanud, järgige neid samme algse saadetise konsolideerimispoliitikate häälestamiseks.
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Järgmiste poliitikate loomiseks valige Toimingupaanil **Loo vaikeseadistus**.
 
-    - Poliitika **Vaikimisi** poliitika tüübi *Müügitellimused* jaoks
-    - Poliitika **Vaikimisi** poliitika tüübi *Edastuse väljaminek* jaoks
+    - Poliitika, mille nimi *on Müügitellimuste* poliitika *tüübi vaikeväärtus*.
+    - Poliitika, mille nimi on vaikimisi *probleemi* ülekandmise *poliitika* tüübi jaoks.
+    - Poliitika, mille nimi on Üleviimise *väljaminek poliitika* tüübi *crossOrder*. (See poliitika luuakse ainult siis, kui teil oli vähemalt üks ladu, kus pärand **Konsolideeri saadetis lattu vabastamise sätte** lubamisel.)
+    - Müügitellimuse poliitikatüübi jaoks *poliitika, mille nimi* on *CrossOrder*. (See poliitika luuakse ainult siis, kui teil oli vähemalt üks ladu, kus pärand **Konsolideeri saadetis lattu vabastamise sätte** lubamisel.)
 
     > [!NOTE]
-    > Mõlemad poliitikad **Vaikimisi** kasutavad sama väljade kogumit varasema loogikana, sealhulgas tellimuse numbri välja. (Seda välja kasutatakse ridade konsolideerimiseks saadetisteks, mis põhinevad sellistel teguritel, nagu tellimuse number, ladu, tarne transpordiviis ja aadress.)
+    > - Mõlemad *CrossOrderi* poliitikad peavad sama väljade komplekti kui varasemat loogikat. Samas arvestavad nad ka tellimuse numbri välja. (Seda välja kasutatakse ridade konsolideerimiseks saadetisteks, mis põhinevad sellistel teguritel, nagu ladu, transpordiliik ja aadress.)
+    > - Mõlemad *vaikepoliitikad* peavad sama väljade komplekti kui varasemat loogikat. Samas arvestavad nad ka tellimuse numbri välja. (Seda välja kasutatakse ridade konsolideerimiseks saadetisteks, mis põhinevad sellistel teguritel, nagu tellimuse number, ladu, tarne transpordiviis ja aadress.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>2. stsenaarium: saadetise kohandatud konsolideerimispoliitikate konfigureerimine
+1. Kui süsteem on *loonud müügitellimuste poliitika* *tüübile crossOrderi* poliitika, valige see ja seejärel valige tegevuspaanil suvand Redigeeri **päringut**. Päringuredaktoris näete, milliste ladude puhul oli eelnevalt lubatud säte Konsolideeri saadetis **lattu** vabastamisel. Seetõttu kordab see poliitika teie eelnevaid sätteid nende ladude jaoks.
+1. Kohandage uusi vaikepoliitikaid vastavalt vajadusele, lisades või eemaldades välju ja/või redigeerides päringuid. Saate lisada ka nii palju uusi poliitikaid, kui vaja. Näiteid, mis näitavad, kuidas oma poliitikaid kohandada ja konfigureerida, vaadake näite stsenaariumi selles artiklis allpool.
 
-Selles stsenaariumis näidatakse, kuidas seadistada saadetise kohandatud konsolideerimispoliitikaid. Kohandatud poliitikad toetavaid keerukaid ärivajadusi, kus saadetise konsolideerimine sõltub mitmest tingimusest. Selles stsenaariumis on hiljem iga näidispoliitika kohta toodud selle ärijuhtumi lühikirjeldus. Need näidispoliitikad tuleks seadistada sellises järjestuses, mis tagab päringute püramiidilaadse hindamise. (Teisisõnu, poliitikaid, millel on kõige rohkem tingimusei, tuleb hinnata kõrgeima prioriteediga.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Stsenaarium: kohandatud saadetise konsolideerimispoliitikate konfigureerimine
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Funktsiooni sisselülitamine ja stsenaariumi jaoks koondandmete ettevalmistamine
+See stsenaarium annab näite, mis näitab, kuidas seadistada kohandatud saadetise konsolideerimispoliitikaid ja seejärel katsetada neid demoandmete abil. Kohandatud poliitikad toetavaid keerukaid ärivajadusi, kus saadetise konsolideerimine sõltub mitmest tingimusest. Selles stsenaariumis on hiljem iga näidispoliitika kohta toodud selle ärijuhtumi lühikirjeldus. Need näidispoliitikad tuleks seadistada sellises järjestuses, mis tagab päringute püramiidilaadse hindamise. (Teisisõnu, poliitikaid, millel on kõige rohkem tingimusei, tuleb hinnata kõrgeima prioriteediga.)
 
-Enne, kui saate selle stsenaariumi harjutusi läb teha, peate selle funktsiooni sisse lülitama ja valmistama ette koondandmed, mida on vaja filtreerimiseks, vastavalt järgmistes alamjaotistes kirjeldatule. (Need eeltingimused kehtivad teemas [Saadetise konsolideerimispoliitikate kasutamise näidisstsenaariumid](#example-scenarios) loetletud stsenaariumitele.)
+### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Funktsiooni sisselülitamine ja vaikepoliitikate loomine
+See stsenaarium viitab väärtustele ja kirjetele, mis sisalduvad tarneahela [halduses](../../fin-ops-core/fin-ops/get-started/demo-data.md) antud standardsetes demoandmetes. Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks *USMF*.
 
-Saate kasutada funktsioonihaldust funktsiooni sisselülitamiseks, kui te pole seda veel sisse lülitanud ja luua [stsenaariumis 1](#scenario-1) kirjeldatud vaikimisi konsolideerimispoliitikaid.
+### <a name="prepare-master-data-for-this-scenario"></a>Valmista selle stsenaariumi jaoks ette koondandmed
+
+Enne kui saate selles stsenaariumis teostada koormusi, peate valmistama ette koondandmed, mis on filtreerimiseks vajalikud, nagu kirjeldatud järgmistes alamjaotistes. (Need eeltingimused kehtivad ka stsenaariumide puhul, mis on loetletud [Näide stsenaariumid saadetise konsolideerimispoliitikate jaotise kasutamise](#example-scenarios) kohta.)
 
 #### <a name="create-two-new-product-filter-codes"></a>Kahe uue tootefiltri koodi loomine
 
@@ -152,7 +126,7 @@ Saate kasutada funktsioonihaldust funktsiooni sisselülitamiseks, kui te pole se
 1. Avage jaotis **Müük ja turundus \> Kliendid \> Kõik kliendid**.
 1. Avage klient, kelle konto number on *US-003*.
 1. Määrake kiirkaardi **Müügitellimuse vaikendmed** väljale **Müügitellimuste kaust** äsja loodud tellimuse kaust.
-1. Sulgege leht ja seejärel korrake etappe 4 ja 5 kliendi puhul, kelle konto number on *US-004*.
+1. Sulgege leht ja korrake seejärel samme 4 ja 5 kliendi puhul, kelle kontonumber on *US-004*.
 
 ### <a name="create-example-policy-1"></a>Näidispoliitika 1 loomine
 
@@ -300,7 +274,7 @@ Selles näites loote poliitika *Konsolideerimist lubavad laod*, mida saab kasuta
 - Avatud saadetistega konsolideerimine on välja lülitatud.
 - Konsolideerimine toimub kõigis tellimustes väljade abil, mille valis vaikimisi poliitika CrossOrder (varasema märkeruudu **Konsolideeri saadetis lattu väljastamisel** kopeerimiseks).
 
-Tavaliselt saab seda ärijuhtumit lahendada [stsenaariumis 1](#scenario-1) loodud vaikepoliitikate abil. Kuid saate järgmiste etappide abil sarnaseid poliitikaid ka käsitsi luua.
+Tavaliselt saab seda ärijuhtumi käsitleda, kasutades vaikepoliitikaid [, mille lõite oma algse konsolideerimispoliitikate häälestamisel](#initial-policies). Kuid saate järgmiste etappide abil sarnaseid poliitikaid ka käsitsi luua.
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
@@ -345,7 +319,7 @@ Järgmised stsenaariumid illustreerivad, kuidas kasutada saadetise konsolideerim
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Saadetise konsolideerimispoliitikad](about-shipment-consolidation-policies.md)
+- [Saadetise konsolideerimispoliitikate ülevaade](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

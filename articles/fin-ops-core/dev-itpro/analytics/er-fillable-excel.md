@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280920"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476813"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -186,6 +186,9 @@ Kui komponent **Lahter** konfigureeritakse sisestama väärtust Exceli pilti, sa
 
 > [!NOTE]
 > Kõik Exceli pildid ja kujundid on mõeldud kindla Exceli lahtri või vahemiku vasakusse ülanurka ankurdamiseks. Kui soovite Exceli pilti või kujundit kopeerida, peate konfigureerima lahtri või vahemiku, millele see on ankurdatud, kopeeritud lahtri või vahemikuna.
+
+> [!TIP]
+> Kui plaanite käitusajal kasutada kohandatud skaleerimise ja kuvasuhtega pilti, on soovitatav seadistada exceli emafaili komponendi piltide skaleerimise valikuks Jah, **·**[...](#excel-file-component)**et** rakendada skaleerimise ja kuvasuhet selle pildi kohatäitena Exceli mallis, mida kasutate.
 
 Lisateavet piltide ja kujundite manustamise kohta leiate teemast [Piltide ja kujundite manustamine ER-i abil loodud dokumentidesse](electronic-reporting-embed-images-shapes.md).
 

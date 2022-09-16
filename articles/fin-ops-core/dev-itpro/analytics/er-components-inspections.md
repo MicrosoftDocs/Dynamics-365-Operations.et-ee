@@ -2,7 +2,7 @@
 title: Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 description: See artikkel selgitab, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente käitusajaprobleemide vältimiseks, mis võivad ilmneda.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277846"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476850"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -243,6 +243,15 @@ Järgmises tabelis antakse ülevaade ER-i pakutavate kontrollide ülevaade. Nend
 <td>
 <p>Funktsiooni ORDERBY loendiavaldis ei ole päringuobjektiks sobilik.</p>
 <p><b>Käitusaja tõrge:</b> sortimist ei toetata. Kontrollige konfiguratsiooni, et saada selle kohta lisateavet.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Aegunud rakendusartifakte</a></td>
+<td>Andmete terviklikkus</td>
+<td>Hoiatus</td>
+<td>
+<p>Elemendi &lt; tee&gt; on märgitud aegunuks.<br>või<br>Elemendi &lt; tee on märgitud aegunuks teate tekstiga&gt;&lt;.&gt;</p>
+<p><b>Käitusaja tõrke näidis:</b> klassi&lt; "teed&gt;" ei leitud.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Arvutatud väljatüübi **pesastatud** **·** **välja lisamise asemel hankija a
 #### <a name="option-2"></a>Suvand 2
 
 Muuda andmeallika **FilteredVendors** avaldise lähtekohaks `ORDERBY("Query", Vendor, Vendor.AccountNum)``ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Me ei soovita muuta avaldist tabeli puhul, kus on suur andmemaht (kandetabel), sest kõik kirjed laaditakse ja nõutud kirjed tellitakse mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a> Aegunud rakendusartifakte
+
+Kui kujundate ER-mudeli vastendamise komponenti või ER-vormingu komponenti, saate konfigureerida ER-avaldise, et kutsuda rakendusartifakte ER-s, nt andmebaasitabelis, klassi meetodis jne. Finantsversioonis 10.0.30 ja uuemates versioonides võite sundida ER-i hoiatama, et viidatud rakendusartifakt on lähtekoodis aegunuks märgitud. See hoiatus võib olla kasulik, kuna tavaliselt eemaldatakse aegunud artefaktid lõpuks lähtekoodist. Teavitatud artefakti olekust saab peatada aegunud artefakti kasutamise redigeeritavas ER-komponendis enne selle lähtekoodist eemaldamist, aidates ennetada tõrgeteta rakendusartifaktide kutsumist ER-i komponendist käitusajal.
+
+Lubage funktsioonihalduse **tööruumis** **funktsioonihalduse** funktsiooni andmeallikate aegunud elementide valideerimine, et alustada rakendusartikleid aegunud atribuudi hindamist redigeeritava ER-komponendi kontrollimise ajal. Aegunud atribuuti hinnatakse praegu järgmiste rakendusartifikaatorite tüüpide puhul:
+
+- Andmebaasitabel
+    - Tabeli väli
+    - Tabeli meetod
+- Rakenduse klass
+    - Klassi meetod
+
+> [!NOTE]
+> Redigeeritava ER-komponendi kontrollimisel ilmneb hoiatus andmeallikale, mis viitab aegunud artefaktile ainult siis, kui seda andmeallikat kasutatakse vähemalt ühes selle ER-komponendi sidumises.
+
+> [!TIP]
+> [Kui klassi SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) kasutatakse kompilaatorit vigade asemel hoiatusteadete väljastamisest teavitama, **·** **·** **esitatakse** kontrollhoiatus lähtekoodi hoiatuses mudeli vastenduse kujundaja või vormingukujundaja lehe kiirkaardi üksikasjade kiirkaardi kujundamisel.
+
+Järgmine näide näitab kinnitushoiatust `DEL_Email``CompanyInfo`, mis ilmneb, kui rakenduse tabeli aegunud väli on konfigureeritud `company` andmeallika abil andmemudeli väljaga seotud.
+
+![Vaadake kinnitushoiatused üle üksikasjade kiirkaardil mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Automaatne lahendamine
+
+Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
+
+### <a name="manual-resolution"></a>Käsitsi lahendamine
+
+Muutke konfigureeritud mudeli vastendamist või vormingut, eemaldades kõik seosed andmeallikalt, mis viitab aegunud rakendusartifaktile.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

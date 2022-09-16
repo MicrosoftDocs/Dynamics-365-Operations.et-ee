@@ -2,19 +2,19 @@
 title: Domeenid Dynamics 365 Commerce'is
 description: See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405492"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465189"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -144,9 +144,9 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
 
 - **Võimalus 1** – Saate kasutada oma DNS-i pakkujat, et suunata tippdomeen ümber "www"-domeeni. Näiteks suunab fabrikam.com ümber saidile `www.fabrikam.com`, kus `www.fabrikam.com` on kirje CNAME, mis osutab Commerce'i hostitud Azure'i sisenemispunkti eksemplarile.
 
-- **Valik 2** – kui teie DNS-i pakkuja toetab ALIAS-kirjeid, saate määrata eesmise ukse lõpp-punktiks apex-domeeni. See tagab, et eesmise ukse lõpp-punkti IP-muudatus kajastub.
+- **Valik 2** – kui teie DNS-i pakkuja toetab ALIAS-kirjeid, saate osutada domeenile Azure Front Ukse lõpp-punkt, mis tagab IP muudatuse lõpp-punkti kaudu. Teil tuleb hostida Azure Front Ukse eksemplari ise.
   
-- **Valik 3** : kui teie DNS-i pakkuja ei toeta ALIAS-kirjeid, peate häälestama oma eestoe või CDN-i eksemplari, et hostida apex-domeeni.
+- **Valik 3** – kui teie DNS-i pakkuja ei toeta ALIAS-kirjeid, siis peate dns-i pakkuja muutma teenuse Azure DNS-iks ja hostima nii Azure DNS-i kui ka Azure Front Doori eksemplari ise.
 
 > [!NOTE]
 > Kui kasutate Azure'i sisenemispunkti, peate samas tellimuses seadistama ka Azure'i DNS-i. Azure'i DNS-is majutatud tippdomeen võib osutada teie Azure'i sisenemispunktile pseudonüümi kirjena. See on ainus võimalus, sest tippdomeenid peavad alati osutama IP-aadressile.
