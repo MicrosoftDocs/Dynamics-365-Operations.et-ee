@@ -12,6 +12,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (november 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (oktoober 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (august 2022)
@@ -1719,11 +1721,33 @@
                   href: inventory/inventory-visibility-api.md
                 - name: Inventory Visibility nõuanded
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: Sensor Data Intelligence’i avaleht
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Sensor Data Intelligence’i sisselülitamine süsteemi jaoks
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: IoT-lahenduse juurutamine Azure’is
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Sensor Data Intelligence’i parameetrid
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Simuleeritud anduri seadistamine testimiseks
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Vara seisakuaja stsenaarium
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Vara hoolduse stsenaarium
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Arvuti oleku stsenaarium
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Tootekvaliteedi stsenaarium
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Tootmise viivituste stsenaarium
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT iseõppimisvõime
           items:
             - name: IoT iseõppimisvõime avaleht
               href: iot/iot-intelligence-home-page.md
-            - name: Azure'i ressursside häälestamine
+            - name: Azure’i ressursside häälestamine
               href: iot/iot-azure-setup.md
             - name: Sõnumiskeemivormingud IoT-keskuse jaoks
               href: iot/iot-schema-format.md
@@ -1940,7 +1964,7 @@
                 - name: Kulude juhtimine
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Kulude haldus
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Vaba kaubavaru
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Arve kinnitamised
@@ -1948,11 +1972,11 @@
                 - name: Minu töörühm
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Projecti mobiilirakenduste ülevaade
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Projekti ajakirje
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Ostutellimuse heakskiitmine
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Müügitellimused
@@ -3463,7 +3487,7 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Saadetise konsolideerimispoliitikad
                   items:
-                    - name: Saadetise konsolideerimispoliitikad
+                    - name: Saadetise konsolideerimispoliitikate ülevaade
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Saadetise konsolideerimispoliitikate konfigureerimine
                       href: warehousing/configure-shipment-consolidation-policies.md

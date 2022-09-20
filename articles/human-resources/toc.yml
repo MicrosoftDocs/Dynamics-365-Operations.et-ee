@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mida on muudetud rakenduses Human Resources?
               items:
+                - name: Human Resources 10.0.30 (ühendatud taristu)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (ühendatud taristu)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (ühendatud taristu)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Sujuvam töövõtjate sisestamine
               href: stream-employee-entry.md
+            - name: Päise juhtelementide isikupärastamine
+              href: hr-worker-header-control.md
             - name: Töötaja andmete sisestamine
               href: hr-personnel-enter-worker-information.md
             - name: Töösuhteta töötajad

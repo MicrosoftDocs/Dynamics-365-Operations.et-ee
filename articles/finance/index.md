@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887886"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475578"
 ---
 # <a name="finance-home-page"></a>Finance'i avaleht
 
@@ -41,7 +41,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
         - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Finantsaruandlus](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Finantsaruandlus](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Põhivarad](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Pearaamat ja finantsaruandlus](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
-Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Lisateabe saamiseks riigi-/regioonipõhise funktsionaalsuse kohta, vt [Lokaliseerimine ja regulatiivsed funktsioonid](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Lisateabe saamiseks riigi-/regioonipõhise funktsionaalsuse kohta, vt [Lokaliseerimine ja regulatiivsed funktsioonid](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Lisasisu
 
@@ -80,6 +80,6 @@ Teavet ostude, varude ja tootmise haldamise funktsioonide kohta leiate [Supply C
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 
-Veebikursuste ja koolituse kohta vt [Dynamics 365 Finance Microsoft Learnis](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Veebikursuste ja koolituse kohta vt [Dynamics 365 Finance’i õppeteed](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
