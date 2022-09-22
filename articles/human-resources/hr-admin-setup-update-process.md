@@ -2,7 +2,7 @@
 title: Värskendamisprotsess
 description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178439"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520806"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
 _**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
 
 > [!NOTE]
-> Alates 2022. juulist ei saa uusi inimressursid keskkondi eraldi inimressursside infrastruktuuris Microsoft Dynamics ette luua ja uusi elutsükli teenuste (LCS) projekte ei saa selles luua. Kliendid saavad inimressursside keskkondi kasutusele võtta finantside ja toimingute infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](/hr-admin-setup-provision-fo.md).
+> Alates 2022. juulist ei saa uusi inimressursid keskkondi eraldi inimressursside infrastruktuuris Microsoft Dynamics ette luua ja uusi elutsükli teenuste (LCS) projekte ei saa selles luua. Kliendid saavad inimressursside keskkondi kasutusele võtta finantside ja toimingute infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
-> Finantside ja toimingute rakenduse infrastruktuuri värskendus- ja kiirparandusprotsess erineb inimressursside autonoomsest uuendamise ja kiirparanduse protsessist. Lisateavet värskendusprotsessi kohta vt teemast Finantside [ja toimingute viimasele värskendusele teisaldamise protsess](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Lisateavet kiirparanduste kohta vt värskenduste allalaadimine [elutsükli teenustest (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
+> Finantside ja toimingute rakenduse infrastruktuuri värskendus- ja kiirparandusprotsess erineb inimressursside autonoomsest uuendamise ja kiirparanduse protsessist. Lisateavet värskendusprotsessi kohta vt teemast Finantside [ja toimingute viimasele värskendusele teisaldamise protsess](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Lisateavet kiirparanduste kohta vt värskenduste allalaadimine [elutsükli teenustest (LCS).](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md) 
 
 Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi. Need värskendused sisaldavad nii rakenduse kui ka platvormi muudatusi, mis pakuvad sageli teenuse kriitilist täiustust, sh regulatiivsed uuendused.
 

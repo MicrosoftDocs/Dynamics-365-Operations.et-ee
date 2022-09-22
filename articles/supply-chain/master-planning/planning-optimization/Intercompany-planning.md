@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475608"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538561"
 ---
 # <a name="intercompany-planning"></a>Kontsernisisene planeerimine
 
@@ -45,8 +45,8 @@ Kui alustate koondplaneerimist põhiplaanist, mis sisaldab plaanitud allavoolu n
 
 Kontsernisisese planeerimise kasutamiseks peate oma süsteemi ette valmistama järgmisel viisil.
 
-1. Asjaomased tooted tuleb vabastada kõikides asjaomastes ettevõtetes. Lisateavet vt jaotisest Kontsernisisese [kaubanduse konfigureerimine ja kasutamine Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. Allavoolu nõudlus peab olema kaetud ostudega hankijalt, kellel on kontsernisisesed seosed ülesvoolu ettevõttega ja asjakohased vaikimisi varude dimensioonid (sait ja ladu) kliendi kohta. Lisateavet vt jaotisest Kontsernisisese [kaubanduse konfigureerimine ja kasutamine Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Asjaomased tooted tuleb vabastada kõikides asjaomastes ettevõtetes. Lisateavet vt jaotisest Kontsernisisese [kaubanduse konfigureerimine ja kasutamine Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Allavoolu nõudlus peab olema kaetud ostudega hankijalt, kellel on kontsernisisesed seosed ülesvoolu ettevõttega ja asjakohased vaikimisi varude dimensioonid (sait ja ladu) kliendi kohta. Lisateavet vt jaotisest Kontsernisisese [kaubanduse konfigureerimine ja kasutamine Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Ülesvoolu ettevõtte koondplaan peab sisaldama plaanitud allavooluetapi nõudlust ning allavoolu plaanides tuleb määrata vastav ettevõte ja koondplaan.
 
 ## <a name="include-planned-downstream-demand"></a>Kaasa plaanitud järgmise etapi nõudlus

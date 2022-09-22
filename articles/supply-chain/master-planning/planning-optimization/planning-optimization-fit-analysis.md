@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347285"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542348"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -62,7 +62,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | --- | --- | --- | --- |
 | Tegevused | Laovarude grupp, mille tegevuste arvutamine on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud |
 | Põhikalendrid | Põhikalendrit kasutavad kalendrid: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud | 
-| Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koond: *\#* | See funktsioon on ootel. Praegu eiratakse partii likvideerimiskoode, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
+| Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koond: *\#* | See funktsioon on ootel. Praegu eiratakse partii likvideerimiskoode, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Võimeline lubama (CTP) | Tellimuse vaikesätted, milles tarnekuupäeva kontrolliks on seatud CTP: *\#* | Tarneahela halduses 10.0.28 *ja uuemas protsessis nimetatakse planeerimise optimeerimise CTP-iks* kinnitatud lähetus- ja vastuvõtukuupäevi, mis on saadaval pärast dünaamilise plaani käivitamist. Tarneahela halduse vanemate versioonide puhul eiratakse pärand-CTP sätet, kui planeerimise optimeerimine on lubatud. | Toetatud |
 | Staatilise plaani kopeerimine dünaamilisse plaani | Koondplaneerimise parameetrites on lubatud staatilise plaani kopeerimine dünaamilisse plaani. | Sellest sättest hoolimata ei kopeeri planeerimise optimeerimine staatilist plaani dünaamilisse plaani. Üldiselt on see kontseptsioon vähem oluline kiiruse ja täieliku taasloomise tõttu, mida planeerimise optimeerimine võimaldab. Kui kasutatakse kaht või enamat plaani, tuleb iga plaani jaoks käivitada koondplaneerimine. | Pole |
 | Kinnitamine | Laovarude grupid, millel on määratud automaatkinnitamise ajapiir: *\#* | Versioonis 10.0.7 ja uuemates versioonides toetatakse kinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon *Automaatkinnitus planeerimise optimeerimiseks* on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283141"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524741"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Kasutage hankija arvete importimiseks elektroonilist arveldamisteenust
 
@@ -107,7 +107,8 @@ Viige järgmised kaks jaotist läbi erinevate hankijaarvete impordi tüüpide h�
 2. Valige **kliendiarve kontekstimudel** ja seejärel valige tuletatud konfiguratsiooni loomiseks suvand **Loo konfiguratsioon** > **Tuletatud nimest: kliendiarve kontekstimudel, Microsoft**.
 3. **Mustand** versioonis valige **Kujundaja** ja **Andmemudel** puus valige seejärel **andmeallikale vastendamismudel**.
 4. Valige **definitsioonid** puus **Andmekanal** ja seejärel käsk **Kujundaja**.
-5. **Andmeallikate** puus laiendage **$Context\_Kanal** konteiner. Valige **Väärtus** väljal suvand **Redigeeri** ja sisestage andmekanali nimi. Sisestage väljale kanal antud elektroonilise arveldamise funktsiooni andmekanali konfiguratsiooniks RCS-s. 
+5. **Andmeallikate** puus laiendage **$Context\_Kanal** konteiner. 
+6. Väljal Väärtus **valige** käsk Redigeeri **valemit** > **ja** sisestage andmekanali nimi. Sisestage väljale kanal antud elektroonilise arveldamise funktsiooni andmekanali konfiguratsiooniks RCS-s. 
 7. Valige **Salvesta** ja sulgege leht.
 8. Sulgege leht.
 9. Valige äsja loodud tuletatud konfiguratsioon ja valige **kliendiarve kontekstimudelist** ja **Versioonid** kiirkaardilt valige **Muutke olekut** > **lõpetatud**.

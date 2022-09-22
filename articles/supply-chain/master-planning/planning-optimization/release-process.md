@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9404427"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542316"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 
@@ -30,6 +30,8 @@ Planeerimise optimeerimise värskendamise ajal võib üldplaneerimine toimida ta
 Planeerimist optimeerimist kasutavad keskkonnad saavad automaatselt uusima versiooni. Kasutajatoimingut pole vaja: teenust värskendatakse automaatselt. Kuid ühtegi murrangulist funktsiooni ei lükata kunagi automaatselt keskkondadesse. Vaikimisi on kõik murranguliseks peetavad muudatused välja lülitatud ja need tuleb [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil selgesõnaliselt sisse lülitada. Seetõttu ei kuvata neid muudatusi keskkondades enne, kui otsustate need lubada.
 
 Kuna teatisi ei kuvata, kui plaanimise optimeerimist teie keskkonnas värskendatakse, saate järgmises tabelis esitatud väljalaskemärkmed üle vaadata, et teha kindlaks, millal muudatused vabastati ja milliseid funktsioone need kasutusele võtsid. Selles tabelis kuvatakse planeerimise optimeerimiseks välja antud muudatused, kas need muudatused on seotud funktsioonihalduse funktsiooniga, ja väljaandmise kuupäev.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Muutused | Funktsioonihalduse üksikasjad | Väljalaske kuupäevad |
 |---|---|---|

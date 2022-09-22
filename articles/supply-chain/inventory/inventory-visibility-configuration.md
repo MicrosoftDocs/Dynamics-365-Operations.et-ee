@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423565"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542268"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigureerimine
 
@@ -53,6 +53,7 @@ Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funk
 |---|---|
 | *OnHandReservation* | See funktsioon võimaldab varude nähtavust kasutades luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata laokoguseid. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | See funktsioon annab tootevarude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Sünkroonimise vaikesagedus on kord iga 15 minuti järel ja seda saab seadistada nii kõrgeks kui üks kord iga 5 minuti järel. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | Selle funktsiooniga saab eellaadida varude nähtavuse vaba kaubavaru päringuid eelnevalt valitud dimensioonidega vaba kaubavaru loendite kogumi jaoks. Sünkroonimise vaikesagedus on kord iga 15 minuti järel. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
 | *Sõlm OnhandChangeSchedule* | See valikuline funktsioon võimaldab vaba kaubavaru muutmise graafikut ja on saadaval lubamiseks (ATP) funktsioone. Lisateavet vt varude nähtavuse vaba [kaubavaru muutmise graafikust ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md). |
 | *Eraldamine* | See valikuline funktsioon võimaldab varude nähtavust, omab võimalust laovarude kaitsmiseks (ringlemine) ja alistab kontrolli. Lisateavet vt varude nähtavuse [varude eraldamisest](inventory-visibility-allocation.md). |
 | *Laokauba lubamine varude nähtavuses* | See valikuline funktsioon võimaldab varude nähtavust, et toetada kaupu, mis on lubatud laohaldusprotsessidele (WMS). Lisateavet vt WMS-kaupade [varude nähtavuse tugi](inventory-visibility-whs-support.md). |

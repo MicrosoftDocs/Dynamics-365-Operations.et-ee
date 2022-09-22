@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06cd3929fd93861c3e2dfd73913be5dc33111263
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 600ae16a9cd83730432b75b81a1cb2f3ffae827b
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853521"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539289"
 ---
 # <a name="cost-accounting-home-page"></a>Kuluarvestuse kodulehekülg
 
@@ -38,7 +38,7 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Kuluarvestusega alustamine (lugege)](/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Kuluelemendi dimensioonid](cost-elements.md)  |
+|  [Kuluarvestusega alustamine (lugege)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[Kuluelemendi dimensioonid](cost-elements.md)  |
 |  [Dimensioonihierarhia](dimension-hierarchy.md)  |[Kulujuhtimisüksuste määratlemine](./tasks/define-cost-control-units.md)| 
 | [Eraldamise alused](allocation-bases.md)|[Kulueraldamispoliitika loomine ja määramine kulujuhtimisüksusele](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Kuluarvestuse pearaamatu andmeallika haldamine](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Lähteandmete töötlemine ja jälgimine](./tasks/process-trace-source-data.md)     | 

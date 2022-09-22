@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: HT
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427870"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520746"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 eelversioon (oktoober 2022)
 
@@ -35,7 +35,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
 | Varud ja logistika | [WMS-kaupade eraldamine ja reserveerimine varude nähtavuses](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Peagi tulekul | Vaikimisi lubatud |
-| Varud ja logistika | [Sujuvamaks laoseisu loendite eellaadimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Peagi tulekul | Vaikimisi lubatud |
+| Varud ja logistika | [Sujuvamaks laoseisu loendite eellaadimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility rakenduse kasutamine](../inventory/inventory-visibility-power-platform.md) | Lubatud teenuse konfiguratsiooni järgi |
 | Tellimuspõhise tarne automatiseerimine | [Tellimuspõhise tarne automatiseerimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tellimuspõhise tarne automatiseerimine](../master-planning/make-to-order-supply-automation.md) | Funktsioonihaldus:<br>*Tellimuspõhise tarne automatiseerimine* |
 | Planeerimine | [Vaadake ja rakendage üksikasjalikke vihjeid DDMRP-le.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |
 | Tootmise juhtimine | [Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine](../production-control/deferred-posting.md) | Funktsioonihaldus:<br>*(Eelversioon) Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine* |
@@ -49,7 +49,7 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
-| Kuluhaldus | Kaastoote ootel hinnakalkulatsiooni optimeerimine | See funktsioon parandab konflikti, mis võib vahel ilmneda, kui kaastoote hinnad arvutatakse mitme lõime abil. See tagab süsteemi, et iga kaastoote hind arvutatakse ainult üks kord. Selle arvutuse tulemust kasutatakse seejärel sisendina kõigi muude arvutuste puhul. Kui ootel hind on juba olemas, kasutatakse seda hinda. |
+| Kuluhaldus | Hinnaarvutuse ootel kaastoote optimeerimine | See funktsioon parandab konflikti, mis võib vahel ilmneda, kui kaastoote hinnad arvutatakse mitme lõime abil. See tagab süsteemi, et iga kaastoote hind arvutatakse ainult üks kord. Selle arvutuse tulemust kasutatakse seejärel sisendina kõigi muude arvutuste puhul. Kui ootel hind on juba olemas, kasutatakse seda hinda. |
 | Koondplaneerimine | Planeerimise optimeerimise grupikanded | See funktsioon võib aidata vähendada plaanitud tellimuste arvu, mis luuakse ühe müügitellimuse rea tarnimiseks planeerimise optimeerimise kasutamisel. Kui see funktsioon on sisse lülitatud, grupeerib planeerimise optimeerimine tellimuse rea kõik laokanded täieliku koguse jaoks üheks vajaduseks. (Selline käitumine vastab integreeritud plaanimismootori käitumisele.) Pakkumine ja nõudlus grupeeritakse eraldi. Seetõttu aitab see funktsioon vähendada kande mahtu, kui olete kandeid tükeldanud ja kui kasutate dimensioone (nt partiinumbreid või seerianumbreid), mis ei ole laovarude dimensioonid. |
 | Hanked | Pane hankija ostutellimuste jaoks ootele | Selle funktsiooniga saate panna hankija ostutellimuste jaoks ootele. See lisab uue ostutellimuse *ootetüübi*, mis märgib hankija ostutellimuste jaoks ootele. Te ei saa luua uusi ostutellimusi hankijatele, kes on ostutellimuste jaoks ootel, kuid saate nende hankijate jaoks siiski jätkata mis tahes avatud arvete või maksetega. |
 | Müük ja turundus | Arvuta rea netosumma importimisel | See funktsioon võimaldab teil kontrollida, kas süsteem peaks ridade kogusummad *ümber* arvutama, kui impordite andmeid müügitellimuse ridade, *müügipakkumise* ridade või tagastustellimuse ridade üksuse kaudu, *kasutades* OData või topeltkirjutust. See mõjutab ainult **seda**, kui teil on olemas ka kaubanduslelepingu hindamispoliitikad, mis piiravad muudatusi müügitellimuse ridade, müügipakkumise ridade ja/või tagastustellimuse ridade netosumma väljal. See lisab sätte Arvuta rea **netosumma Müügireskontrole** **, > seadistus > müügireskontro parameetrite** lehele. Kui see säte on seatud väärtusele *Jah*, arvutab süsteem alati vajaduse korral rea summad ümber (ignoreerides seega mis tahes kaubanduslelepingu hindamispoliitikat rea netosumma puhul). Kui sätte *väärtuseks on määratud Ei*, ei arvuta süsteem rea netosummat automaatselt ka siis, kui rea hinna, koguse ja/või allahindluse sissetulevad muudatused vadaksid rea netosumma ümberarvutamise. See funktsioon on vaikimisi lubatud ja algselt seadistab rea **netosumma arvutamise väärtuseks** *Jah*. Säte *Ei* vasta süsteemi käitumisele enne versiooni 10.0.23 ja seda pakutakse peamiselt pärandi integreerimisstsenaariumide toetamiseks.<br><br>Lisateavet vt teemast Rea [netosummade ümberarvutamine müügitellimuste, pakkumiste ja tagastuste importimisel](../sales-marketing/calc-line-net-amounts-import.md). |

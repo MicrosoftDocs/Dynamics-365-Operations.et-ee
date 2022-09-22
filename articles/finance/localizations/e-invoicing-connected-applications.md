@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277327"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524685"
 ---
 # <a name="connected-applications"></a>Ühendatud rakendused
 
@@ -35,7 +35,7 @@ Finantside või tarneahela haldamise parameetrite saadavus RCS-is on kasulik, ku
 ## <a name="create-a-connected-application"></a>Ühendatud rakenduse loomine
 
 1. Logige oma RCS-i kontole sisse.
-2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige paan **Elektrooniline arveldus**.
+2. Globaliseerimisfunktsiooni **tööruumis** seotud linkide **jaotises** valige Keskkonna **häälestus**.
 3. **Valige tegevuspaanil** Keskkonna häälestuslehe kaudu ühendatud **rakendused**.
 4. Valige ühendatud rakenduse loomiseks **Uus**.
 5. Sisestage väljale **Nimi** ühendatava rakenduse nimi.
