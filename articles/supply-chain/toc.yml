@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Tõrkeotsing ja KKK-d
           href: supply-chain-management-troubleshooting.md
-        - name: Globaliseerimine
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio ülevaade
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Globaliseerimisressursid
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Globaliseerimisteenused
@@ -1633,10 +1635,12 @@
                   href: inventory/inventory-journals.md
                 - name: Varude töölehe kinnitustöövood
                   href: inventory/inventory-journal-workflow.md
-                - name: Ladude asukohad
+                - name: Lao asukohad
                   href: inventory/inventory-locations.md
                 - name: Varude olekud
                   href: inventory/inventory-statuses.md
+                - name: Partii likvideerimiskoodide kasutamine partiide märkimiseks kättesaadavaks või mittekättesaadavaks
+                  href: inventory/batch-disposition-codes.md
                 - name: Uue laopaigutuse loomine
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Vöötkooditüüpide haldamine

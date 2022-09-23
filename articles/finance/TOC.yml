@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (august)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (juuli)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Kanada ühtlustatud käibemaksu arvutamine
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Globaliseerimine
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio ülevaade
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Globaliseerimisressursid
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Globaliseerimisteenused
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Käibemaksuerinevuste lahendamine
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: Käibemaksu korrigeerimine päevaraamatute kaudu
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Viivitusega maksuarvutuse lubamine töölehel
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Veebipõhine arveldussüsteem
                   href: localizations/emea-hun-online-invoicing.md
+                - name: KM-i deklaratsioon (Ungari)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: Ungari käibemaksuaruanded
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Ungari Intrastat

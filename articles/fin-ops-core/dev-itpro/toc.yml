@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Versiooni 10.0.28 platvormivärskendused (august 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Versiooni 10.0.27 platvormivärskendused (juuli 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Valmis arenduskeskkondade konfigureerimine
                   href: dev-tools/configure-developer-vm.md
+                - name: Valmis arenduskeskkondade turvamine
+                  href: dev-tools/secure-developer-vm.md
                 - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Allalaaditava VHD häälestamine esimeseks kasutamiseks
