@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220711"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573274"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Prantsusmaa jaoks elektroonilise arvelduse lisandmooduliga alustamine
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 See artikkel annab teavet, mis aitab teil Alustada Prantsusmaa elektroonilise arveldusega. See juhib teid läbi konfiguratsioonietappide, mis sõltuvad riigist regulatiivses konfiguratsiooniteenuses (RCS). Need sammud täiendavad samme, mida kirjeldatakse jaotises [Alustage elektroonilise arvelduse lisandmooduliga](e-invoicing-get-started.md).
 

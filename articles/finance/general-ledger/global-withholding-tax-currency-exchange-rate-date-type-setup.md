@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 41f12a33651c14439f3a59c5c2f2d34019dada2d
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 9db9cf41381b8b4de7dffe1c755a7df805a003ea
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9229978"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573220"
 ---
 # <a name="enable-the-global-withholding-tax-currency-exchange-rate-type-and-date-type-setup"></a>Globaalse kinnipeetava maksu valuuta vahetuskursi tüübi ja kuupäevatüübi häälestuse lubamine
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 See artikkel selgitab, kuidas lubada kinnipeetava maksu valuuta vahetuskursi tüübi ja kuupäeva tüübi globaalne seadistus. Nüüd saate kinnipeetava maksu valuutale valida sihtotstarbelise vahetuskursi tüübi ja vahetuskursi arvutamise kuupäeva tüübi. Need valikud määravad välisvaluuta vahetuskursi, mida kasutatakse kinnipeetava maksu summa arvutamiseks maksekannetes kinnipeetava maksu valuutas.
 

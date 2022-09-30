@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542316"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591873"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 
@@ -35,6 +35,7 @@ Kuna teatisi ei kuvata, kui plaanimise optimeerimist teie keskkonnas värskendat
 
 | Muutused | Funktsioonihalduse üksikasjad | Väljalaske kuupäevad |
 |---|---|---|
+| <p> Piiratud võimsusega ressursi plaanimise tugi <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 19.09.23, 2022 |
 | <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 29. august – 3. september 2022 |
 | <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.<p>[Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine](../supply-chain-calendars-master-planning.md)<p>[Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks](../action-messages.md)<p>[Plaanimise optimeerimise tugi allhankeks](../../production-control/manage-subcontract-work-production.md) | Funktsioonihaldust pole vaja. | 7. märts 11.2022 |
 | <p>Lisatud plaanimise prioriteedi tugi tootmistellimustele. | Saadaval versiooniga 10.0.25 *funktsiooni nimega Prioriteedipõhine MRP tugi plaanimise optimeerimise osana*. | 12. november 18, 2021 |

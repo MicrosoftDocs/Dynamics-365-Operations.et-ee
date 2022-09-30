@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387015"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589085"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Commerce'i pitseeritud iseteeninduskomponentide hulgijuurutus
 
@@ -41,15 +41,15 @@ Järgmine tabel näitab eraldajaid, mida saab käsurea käivitamises kasutada.
 | –AsyncClientCertThumbprint | Async Clienti identiteedi serdi sõrmejälg, mida tuleks kasutada autentimiseks peakontoriga Azure AD suhtlemisel. Seda sõrmejälge kasutatakse LocalMachine’i **/** minu kaupluse asukoha ja nime otsimiseks õige kasutatava serdi leidmiseks. Ärge kasutage seda parameetrit koos parameetriga **-AsyncClientCertFullPath**. |
 | -ClientAppInsarvutidInstrumentationKey | AppInsights Kliendi vahendivahendi võti. |
 | -CloudPosAppInsklahvisInstrumentationKey | Pilve kassa AppInsights vahenditeenuse võti |
-| -Konfiguratsioon | Installi käigus kasutatav konfiguratsioonifail. Failinime näiteks on **Contoso.CommerceScaleUnit.xml**. |
+| -Config | Installi käigus kasutatav konfiguratsioonifail. Failinime näiteks on **Contoso.CommerceScaleUnit.xml**. |
 | –CposAadClientId | Kliendi Azure AD ID, mida Cloud POS peaks seadme aktiveerimisel kasutama. See parameeter ei ole nõutav ettevõttes juurutamiseks. |
-| –seade | Seadme ID, nagu näidatud peakontori **seadmete** lehel. |
+| -Seadme | Seadme ID, nagu näidatud peakontori **seadmete** lehel. |
 | -EnvironmentId | Keskkonna ID |
 | -HardwareStationAppInskonfiguratsioonisInstrumentationKey | Riistvarajaama vahendi AppInsights võti. |
 | Installi | Parameeter, mis määrab, kas installija esitatud komponent tuleb installida. See parameeter on vajalik installi sooritamiseks ning sellel ei ole juhtkriipsu märki. |
-| -InstallOffline | Modern POS-i puhul määrab see parameeter, et ka võrguühenduseta andmebaas tuleb installida ja konfigureerida. Kasutage ka **parameetrit -SQLServerName**. Vastasel juhul proovib installiprogramm leida eeltingimustele vastanud vaikeeksemplari. |
-| – port | Port, mida jaemüügiserveri virtuaalkaust peab seostama ja kasutab. Kui ühtegi porti pole määratud, kasutatakse vaikeporti 443. |
-| -Registreeri | Registri ID, nagu näha peakontori **lehel** Registrid. |
+| -InstallOffline | Modern POS-i puhul määrab see parameeter, et ka võrguühenduseta andmebaas tuleb installida ja konfigureerida. Kasutage ka **parameetrit -SQLServerName**. Vastasel juhul proovib installiprogramm leida eeltingimustele vastanud vaikeeksemplari. () Azure Active Directory autentimise Azure AD kasutamisel ei tööta kassa võrguühenduseta, kuna võrguühendus on alati vajalik. |
+| -Port | Port, mida jaemüügiserveri virtuaalkaust peab seostama ja kasutab. Kui ühtegi porti pole määratud, kasutatakse vaikeporti 443. |
+| -Registreeru | Registri ID, nagu näha peakontori **lehel** Registrid. |
 | –RetailServerAadClientId | Kliendi Azure AD ID, mida jaemüügiserver peaks peakontoriga side ajal kasutama. |
 | –RetailServerAadResourceId | Jaemüügiserveri rakenduse Azure AD ressursi ID, mida tuleb kasutada seadme aktiveerimisel. See parameeter ei ole nõutav ettevõttes juurutamiseks. |
 | –RetailServerCertFullPath | Täielikult vormindatud URLN-tee, mis kasutab sõrmejälge, kui jaemüügiserveri Azure AD identiteedi serdi otsingumõõdustik, mida tuleks kasutada autentimiseks peakontoriga suhtlemisel. Näiteks on õigesti vormindatud URLN, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` kus väärtus **\<MyThumbprint\>** asendatakse kasutatava serdi sõrmejäljega. Ärge kasutage seda parameetrit koos parameetriga **-RetailServerCertThumbprint**. |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542348"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591846"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -94,7 +94,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Töö | Tuludega valemiversioonid: *\#* | See funktsioon on ootel. Praegu eiratakse valemiversiooniga seotud tulu, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
 | Töö | Järjestust sisaldavad plaanid: *\#* | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu järjestust, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
 | Töö | Tänasest varasema algusajaga kavandatud vabastatud tootmistellimused, mida ei ole alustatud: *\#* | See funktsioon on ootel. Kui tootmistellimus viibib, eeldab koondplaneerimine praegu, et see viiakse lõpule täna. See on oluline väljastatud tootmistellimuste puhul, mille tarnekuupäev on minevikus, kuid see pole veel lõpetatud. | Tulevane laine |
-| Töö | Piiratud võimsusega kavandatud ressursid: *\#* | See funktsioon on ootel. Praegu eiratakse piiratud võimsusega kavandatud ressursse, kui planeerimise optimeerimine on lubatud. Kavandamine toimub toote vaiketäitmisaja alusel. | 2022 vabastav voo 2 |
+| Töö | Piiratud võimsusega kavandatud ressursid: *\#* | Seda funktsiooni nüüd toetatakse.| Toetatud |
 | Töö | Plaanimisel kasutatavad marsruudid: *\#* | Seda funktsiooni toetatakse. | Toetatud |
 | Töö | Müügirea reserveerimine koosnevusarvutuse abil: *\#* | Koosnevusarvutust kasutavat müügirea reserveerimist ei toetata, kui planeerimise optimeerimine on lubatud. | Tulevane laine |
 | Töö | Tootmistellimuste koosnevusarvutusega plaanimine: *\#* | Tootmistellimuste koosnevusarvutust kasutavat plaanimist ei toetata, kui planeerimise optimeerimine on lubatud. Tootmistellimusi saab plaanida ükshaaval. | Tulevane laine |

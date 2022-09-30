@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894196"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588949"
 ---
 # <a name="accounting-distributions"></a>Arvestuse jaotused
 
@@ -51,7 +51,7 @@ Arvestuse jaotused on programmiülene võimalus, mida kasutatakse ja laiendataks
     -   Praeguse dokumendi raamatupidamisolekut saab vaadata jaotises **Viide**. Olek kehtib kogu dokumendi puhul ja näitab, kas dokument on lõpetamata või lõpetatud.
 -   **Jaotuste kuvamine** – saate kuvada arvestuse jaotused kõigi dokumendi ridade ja rahasummade kohta. Selles vaates arvestuse jaotusi muuta ei saa.
 
-Versioonis 10.0.13 lisati funktsioon, mis kontrollib arvestuse jaotuse tabelit, et tagada uute väljade õigesti seadistamine. Selle funktsiooni nimi on **Luba andmete täiendav kontrollimine dokumentide puhul, mis kasutavad lähtedokumendi raamatupidamisraamistikku**. Funktsiooni kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Funktsiooni lubamiseks otsige funktsiooni nime väljal **Otsing**, mis asub lehel **Funktsioonihaldus**, ja seejärel valige **Luba kohe**.
+Versioonis 10.0.13 lisati funktsioon, mis kontrollib arvestuse jaotuse tabelit, et tagada uute väljade õigesti seadistamine. Selle funktsiooni nimi on **Luba andmete täiendav kontrollimine dokumentide puhul, mis kasutavad lähtedokumendi raamatupidamisraamistikku**. See funktsioon lülitatakse vaikimisi sisse versioonis 10.0.29. 
 
 Lisateabe saamiseks vaadake jaotist [Arvestuse jaotus ja alammooduli töölehe kirjed hankija arvete jaoks](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

@@ -2,7 +2,7 @@
 title: Finantsülevaadete konfiguratsioon
 description: See artikkel selgitab konfiguratsiooni samme, mis võimaldavad süsteemil kasutada finantsülevaadetes saadaolevaid võimalusi.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861412"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573190"
 ---
 # <a name="configuration-for-finance-insights"></a>Finantsülevaadete konfiguratsioon
 
@@ -39,7 +39,7 @@ Keskkonna juurutamiseks tehke järgmist.
 1. LCS-is looge või värskendage Dynamics 365 finantskeskkonda. Keskkond nõuab rakenduse versiooni 10.0.21 või uuemat versiooni.
 
     > [!NOTE]
-    > Keskkond peab olema suure kättesaadavusega (HA) keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > Keskkond peab olema suure kättesaadavusega (HA) keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 2. Kui konfigureerite finantsülevaateid vihjete kaustas, peate võib-olla tootmisandmed enne prognooside tööd kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli aktsepteerimiseks. 
 
@@ -51,13 +51,16 @@ Kontrollige, et järgmine seadistus oleks lõpule viidud:
 
 - Teil on **Süsteemiadministraator** ja **Süsteemi kohandaja** juurdepääs Power Portali halduskeskuses.
 - Dynamics 365 Finance või sellega võrdväärset litsentsi rakendatakse finantside vihjete lisandmooduli installi kasutajale.
+- Järgmised rakendused Azure AD on registreeritud rakenduses Azure AD.
 
-Järgmised rakendused Azure AD on registreeritud rakenduses Azure AD.
+    |  Avaldus                             | Rakenduse kood                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  Avaldus                             | Rakenduse kood                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    Avalduse registreerimise kontrollimiseks kontrollige Azure AD kõikide avalduste **loendit**. Lisateavet vt teemast Ettevõtte [avalduste kuvamine](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Kui rakendust ei ole registreeritud, pöörduge Azure AD tugiteenuste poole.
+  
 ## <a name="configure-dataverse"></a>Dataverse konfigureerimine
 
 Kasutage järgmisi samme Finance Insights Dataverse konfigureerimiseks.
@@ -101,7 +104,7 @@ Kui lisandmoodul on edukalt installitud, võib selleks olla aega 1 tund, enne ku
    Kui vihjete **ettevalmistamise oleku kontrollprotsess** on edukalt käitatud, saate funktsioonihalduse tööruumi finantsülevaadete **funktsioonid lubada**.
 
 > [!NOTE]
-> Kui vihjete **vabastamise olekukontrolli** protsessi ei käitata, minge süsteemihalduse **päringute** > **pakett-töödesse** > **·**. Muutke väljal **Automatiseerimise pollimissüsteem** väärtuseks Protsessi **käivitamiseks** ootel. 
+> Kui vihjete vabastamise olekukontrolli **protsessi ei käitata, minge süsteemihalduse** päringute **pakett-töödesse** > **·** > **.** Muutke väljal **Automatiseerimise pollimissüsteem** väärtuseks Protsessi **käivitamiseks** ootel. 
 > 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 

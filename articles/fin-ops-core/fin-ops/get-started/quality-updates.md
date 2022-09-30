@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473601"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592042"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -57,7 +57,7 @@ Protsessimuudatuste kogum rakendatakse enne enne kvaliteedivärskenduse juurutam
 - **Skeem**: tööriistamine tagab, et kvaliteedivärskenduse järgud sisaldavad ainult skeemi muudatusi, mida saab rakendada, kui teenus on võrgus. See lähenemine aitab säilitada võimalust rakendada uuendust nullväärtusega downtime’iga.
 - **Aktiivsete muudatuste** muutumine on juba täiendav protsessisamm, et kinnitada muudatused kvaliteedivärskendusse kaasamise jaoks. Regressioone võimalike vähendamiseks suurendatakse lisasammide edasist haldust. Kvaliteediuuenduste puhul pole katkestatud muudatused lubatud ja suurenenud muudatus aitab tagada, et vastame sellele sihile.
 - **Nähtavus** – me saadame teatised meili ja elutsükli teenuste (LCS) kaudu eesseisva ennetava kvaliteediuuenduse jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
-- **Versiooni varuversioon** – lennuteed kasutatakse kõikide muutuste grupeerimiseks proaktiivses kvaliteedivärskenduses. Kui tagasipöördumine on vajalik pärast ennetavat juurutamist, saab seda teha lennusüsteemi kaudu.
+- **Nurjumine turvaliselt lennupileti** kaudu – lennupileti kasutamist kasutatakse lähtekoodi muudatusteks, kui see on kvaliteedivärskenduse vigases paranduses, või kasutage paranduse jaoks asjakohast olemasoleva funktsioonilendimist. Kui pärast ennetavat juurutamist on vaja tagasipööramist või muutuse pööramist, saab seda teha lennusüsteemi kaudu, et vältida edasisi tõrkeid.
 - **Windowsi sünkroonimise määramine** – vähem kui 20%-l klientidest on täna mitu ruutu ja ühe boksi juurutamiseks on versiooni vastendamise tootmisse juurutatud, et aidata teil tõrkeotsingut. Kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see märkeruut kvaliteediuuendused uuemale versioonile.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Mis on kvaliteediuuenduste jaoks pöördumine?
@@ -69,7 +69,7 @@ Järgmise kuue kuu jooksul suurendame järk-järgult märkeruutukeskkondade prot
 Kuna kliendid saavad regulaarselt väiksemaid töökoormusi, eeldame, et praegused täitjad muutuvad lihtsamaks. Korrigeerime juurutamise uuendamise sagedust vastavalt võimele protsessi käivitada katkestuseta. See protsess töötab juba tõhusalt meie platvormi ja Dataverse rakenduste jaoks ning pakub teenuse kvaliteedi eeldatavat parendust. Soovitame teha sama sammu edasi finants- ja operatsioonide rakenduste puhul.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Millal käivitatakse kvaliteediuuendused tootmiskeskkondades?
-Praegu on kvaliteediuuendused suunatud ainult boksidele. Tootmiskeskkondade uuendused algavad pärast 2022. aasta novembrit.
+Praegu on kvaliteediuuendused suunatud ainult boksidele. Me uuendame seda ruumi tootmiskeskkondade alguskuupäevaga, kui meil on rohkem konkreetseid andmeid ja meetermõõdukaid ennetavatest uuendustest bokside jaoks, et hinnata valmisolekut tootmisele.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Mis on selle kausta kvaliteediuuenduste graafik?
 Lisateavet iga piirkonna tumetundide kohta vt "Mis [on proaktiivsete kvaliteediuuenduste graafik?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)
