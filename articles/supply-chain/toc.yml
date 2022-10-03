@@ -1803,6 +1803,8 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Piiramatu võimsusega planeerimine
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Piiratud võimsuse planeerimine ja ajastamine
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: Võimekusel põhineva ressursivalikuga planeerimine
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Prioriteedipõhine planeerimine

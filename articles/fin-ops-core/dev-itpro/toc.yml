@@ -1624,8 +1624,6 @@
                   href: sysadmin/security-reports.md
                 - name: Uute kasutajate loomine
                   href: sysadmin/tasks/create-new-users.md
-                - name: Kasutaja seansi haldus
-                  href: sysadmin/user-session-management.md
                 - name: Juurdepääsu blokeerimine asukoha järgi Azure AD tingimusjuurdepääsuga
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Kasutajate hulgiimport
