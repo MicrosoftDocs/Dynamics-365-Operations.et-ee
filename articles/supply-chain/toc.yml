@@ -1749,18 +1749,8 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT iseõppimisvõime
           items:
-            - name: IoT iseõppimisvõime avaleht
+            - name: Sensor Data Intelligence on nüüd asendanud IoT iseõppimisvõime
               href: iot/iot-intelligence-home-page.md
-            - name: Azure’i ressursside häälestamine
-              href: iot/iot-azure-setup.md
-            - name: Sõnumiskeemivormingud IoT-keskuse jaoks
-              href: iot/iot-schema-format.md
-            - name: Mõõdikute häälestus
-              href: iot/iot-metrics-setup.md
-            - name: Stsenaariumi häälestus
-              href: iot/iot-scenario-setup.md
-            - name: Jälgimine ja haldamine
-              href: iot/iot-management.md
         - name: Koondplaneerimine
           items:
             - name: Koondplaneerimise avaleht
