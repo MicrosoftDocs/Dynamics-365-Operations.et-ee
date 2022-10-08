@@ -2,19 +2,19 @@
 title: Juhtseadme integratsiooni näidis Rootsi jaoks
 description: See artikkel annab ülevaate Rootsi fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 966ba3fab780991736f0c84d7eb68356c28a4022
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275062"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631258"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Juhtseadme integratsiooni näidis Rootsi jaoks
 
@@ -42,7 +42,7 @@ Rootsi kontrollüksuse integratsiooni näidis hõlmab järgmisi võimalusi.
 - Saadaval on mitu tõrke käsitlemise võimalust. Järgmisena on toodud mõned näited.
 
     - Fiskaalregistreerimist saab uuesti teha, kui see on võimalik. Kui näiteks juhtüksus ei ole ühendatud, ei ole valmis või ei vasta sellele, saate fiskaalregistreerimist uuesti käivitada.
-    - Finantsregistreerimise edasilükkamine.
+    - Viitvõlgnev fiskaalregistreerimine.
     - Jätte fiskaalregistreerimise vahele või märgite kande registreeritud koodina ja kaasate teabekoodid, et hõivata tõrke põhjus ja lisateave.
     - Kontrollige kontrollüksuse saadavust enne uue müügikande avamist või müügikande lõpetamist.
 
@@ -103,7 +103,7 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Äri
 
 1. [Seadistage fiskaalregistreerimise protsess](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Lisaks tehke märkus fiskaalregistreerimise protsessi sätete kohta, mis on omased [sellele kontrollühiku integratsiooni näidisele](#set-up-the-registration-process).
 1. [Tõrke käsitlemise sätete seadistamine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Saate lubada edasilükatud fiskaalregistreerimise käsitsi käivitamise](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Luba edasilükatud fiskaalregistreerimise käsitsi käivitamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanali komponentide konfigureerimine](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine

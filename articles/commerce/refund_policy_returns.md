@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286833"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627492"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
 
@@ -36,12 +36,8 @@ Poliitika ulatus piirdub hetkel maksevahendi määramisega, mida saab kanali jao
 
 ## <a name="enable-return-policy"></a>Tagastuspoliitika lubamine
 
-Kanali tagastuspoliitika funktsionaalsuse lubamiseks Commerce peakorteris toimige järgmiselt.
+Vaikimisi on see funktsioon sisse lülitatud. Selle leiate funktsioonihalduse **tööruumist**, otsides funktsiooninimede **loendist üles kanali** tagastuspoliitikate lubamise.
 
-1. Avage tööruum **Funktsioonihaldus** rakenduses Dynamics 365 Commerce.
-1. Otsige funktsiooni nimede loendist funktsiooni **Luba kanali tagastuspoliitikad**.
-1. Valige **Luba kohe**.
-1. **Jaotusgraafiku** lehel käitage **1110** (globaalne konfiguratsioon) funktsioonimuutuse tööks.
 
 ## <a name="configure-return-policy"></a>Tagastuspoliitika konfigureerimine
 

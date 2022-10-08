@@ -2,19 +2,19 @@
 title: Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
 description: See artikkel annab ülevaate Saksamaa fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313937"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631449"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
 
@@ -265,7 +265,7 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [äri
     > - Soovitame **jätta** **suvand** Jätka tõrke korral fiskaalregistreerimise protsessi lehel välja lülitatud, sest kõik kanded peavad olema korrektselt registreeritud, isegi kui fiskaalregistreerimise esimene katse ei õnnestunud.
     > - Enne kui lülitate fiskaalregistreerimise protsessi lehel sisse suvandi Skip või **Mark** **registreeritud, peaksite käsitlema neid fiskaalregistreerimise protsessi muudatusi oma maksunõustaja või kohaliku maksuametiga.** **·**
 
-1. [Saate lubada edasilükatud fiskaalregistreerimise käsitsi käivitamise](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Luba edasilükatud fiskaalregistreerimise käsitsi käivitamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanali komponentide konfigureerimine](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine

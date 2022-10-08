@@ -2,19 +2,19 @@
 title: Fiskaalprinteri integratsiooni näide Poola jaoks
 description: See artikkel annab ülevaate Poola fiskaalintegratsiooni näidistest Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-02-01.
-ms.openlocfilehash: d4e99854f5e3ab9a6ae802f4f6bcde7918f72e6d
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 2f27e5fdcd2b26a0a1651f21436cb4caad501cf8
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473763"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631367"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Fiskaalprinteri integratsiooni näide Poola jaoks
 
@@ -64,7 +64,7 @@ Järgmisi stsenaariume hõlmab Fiskaalprinteri integreerimisnäide Poola jaoks:
 - Tõrkekäsitlus, nt järgmised valikud:
 
     - Kui on võimalik, et fiskaalprinterit saab uuesti registreerida, nt kui fiskaalprinter ei ole ühendatud, ei ole valmis või ei vasta sellele, on printerist paber paber väljas või on paberi jada.
-    - Finantsregistreerimise edasilükkamine.
+    - Viitvõlgnev fiskaalregistreerimine.
     - Jätte fiskaalregistreerimise vahele või märgite kande registreeritud koodina ja kaasate teabekoodid, et hõivata tõrke põhjus ja lisateave.
     - Kontrollige fiskaalprinteri saadavust enne uue müügikande avamist või müügikande sulgemist.
 
@@ -107,7 +107,7 @@ Viige finantsintegratsiooni seadistuse etapid lõpule, nagu on kirjeldatud [Äri
 1. [Seadistage fiskaalregistreerimise protsess](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Lisaks tehke märkus fiskaalregistreerimise protsessi sätete kohta, mis on sellele fiskaalprinteri [integreerimisnäidsele spetsiifilised](#set-up-the-registration-process).
 1. [Tõrke käsitlemise sätete seadistamine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Seadistage kassast finants-X/Z-aruanded](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Saate lubada edasilükatud fiskaalregistreerimise käsitsi käivitamise](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Luba edasilükatud fiskaalregistreerimise käsitsi käivitamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanali komponentide konfigureerimine](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Registreerimisprotsessi häälestamine

@@ -2,19 +2,19 @@
 title: Tootevõrdluse moodulid
 description: See artikkel kirjeldab tootevõrdluse mooduleid ja nende juurutamist, nii et kliendid saavad teha tootevõrdlusi Microsoft Dynamics 365 Commerce e-kaubanduse veebisaitidel.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474122"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618381"
 ---
 # <a name="product-comparison-modules"></a>Tootevõrdluse moodulid
 
@@ -91,6 +91,19 @@ Toote võrdluse nupu lisamiseks toote paanidele otsingu ja kategooria tulemuste 
 1. Atribuutide paanil paremal konfigureerige toote võrdluse **nupu mooduli** atribuudid.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.
 1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Tootevõrdluse eelvaate paneeli mooduli lisamine oma veebisaidi lehtedele
+
+Tootevõrdluse eelvaate paneeli moodul pakub teie klientidele võimalust vaadata üle tooted, mida nad võrdluses lisavad või sealt eemaldavad. Eelvaate paneel sisaldab ka valikuid, et navigeerida otse võrdluslehele või tühjendada kogu toodete loend. 
+
+Soovitame teil lubada eelvaate paneeli kõigil lehtedel, kus on lubatud **toote võrdluse** nupp. Moodulit saab lisada **tootevõrdluse** nupule pesana või eraldi moodulina, mida saate konfigureerida igal lehel, isegi kui puuduvad funktsioonid võrreldavate toodete lisamiseks või eemaldamiseks. 
+
+Lehele peate käsitsi lisama tootevõrdluse eelvaate paneeli mooduli. Lehele tuleks lisada ainult üks eelvaate paneelimoodul. Kui lisate leheküljele mitu mooduli eksemplari, renderdatakse esimene moodul ja ülejäänud eiratakse.
+
+![Tootevõrdluse eelvaatepaneel](./media/product-comparison-preview-panel-2.png)
+
+Kui määrate toote võrdluse piirangu, on teil võimalus lubada kohatäitjad eelvaate paneelil, mis näitavad, kui palju tooteid saab võrdlusse lisada. Kohatäitjad asendatakse võrdluses lisatavate toodetega. Toote võrdluse limiidi konfigureerimiseks ja kohatäitjate **lubamiseks saidikonstruktoris** **minge saidi > ja tehke soovitud muudatused tootevõrdluse jaotises**. Konfiguratsioon rakendatakse kõigile eelvaate paneelidele kõigi lehtede puhul. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Määrake toodete maksimaalne arv, mida võrdlussalves kuvada.
 

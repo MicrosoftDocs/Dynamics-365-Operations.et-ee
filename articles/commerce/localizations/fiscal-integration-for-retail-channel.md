@@ -2,19 +2,19 @@
 title: Ärikanalite fiskaalintegratsiooni ülevaade
 description: See artikkel annab ülevaate fiskaalintegratsiooni võimalustest, mis on saadaval Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286495"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631232"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Ärikanalite fiskaalintegratsiooni ülevaade
 
@@ -95,16 +95,20 @@ Seda konfiguratsiooni kasutatakse siis, kui füüsiline fiskaalseade või fiskaa
 
 Fiskaalüksuse integratsiooni raamistik pakub fiskaalüksuse registreerimise ajal ilmnevate tõrgete lahendamiseks järgmisi võimalusi.
 
-- **Proovi uuesti** – operaatorid saavad seda valikut kasutada, kui tõrke saab kiiresti lahendada, ja fiskaalüksuse registreerimise võib uuesti käivitada. Näiteks võib seda valikut kasutada siis, kui fiskaalseade pole ühendatud, fiskaalprinteris pole paberit või fiskaalprinteris on paberiummistus.
-- **Tühista** – see valik võimaldab operaatoril praeguse kande või sündmuse fiskaalüksuse registreerimise edasi lükata, kui see nurjub. Kui registreerimine on edasi lükatud, saab operaator tööd kassas jätkata ja teha mis tahes toiminguid, mille jaoks pole fiskaalüksuse registreerimine vajalik. Kui kassas toimub sündmus, mis nõuab fiskaalüksuse registreerimist (nt uue kande avamine), kuvatakse automaatselt tõrketöötluse dialoogiboks, mis teavitab operaatorit, et eelmist kannet ei registreeritud õigesti, ja pakub tõrketöötluse valikud.
-- **Jäta vahele** – operaatorid saavad seda valikut kasutada, kui fiskaalüksuse registreerimise saab teatud tingimustes vahele jätta ja kassas tavatoiminguid jätkata. Näiteks saab seda valikut kasutada, kui müügikannet, mille puhul fiskaalüksuse registreerimine nurjus, saab registreerida spetsiaalsel pabertöölehel.
-- **Märgi registreerituks** – operaatorid saavad seda valikut kasutada, kui kanne on tegelikult fiskaalseadmes registreeritud (nt on prinditud fiskaalsissetulek), kuid fiskaalvastuse salvestamisel kanali andmebaasi tekkis tõrge.
-- **Lükka** edasi – operaatorid saavad seda valikut kasutada, kui kannet ei registreeritud, kuna registreerimisteenus polnud saadaval. 
+- **Kordage –** operaator saab seda suvandit kasutada, kui tõrke saab kiiresti lahendada ja fiskaalregistreerimist saab uuesti käivitada. Näiteks võib seda valikut kasutada siis, kui fiskaalseade pole ühendatud, fiskaalprinteris pole paberit või fiskaalprinteris on paberiummistus.
+- **Tühista** – see valik võimaldab operaatoril praeguse kande või sündmuse fiskaalregistreerimise nurjumisel edasi viitda. Pärast registreerimise edasilükkamist saab operaator kassaga edasi töötada ja lõpetada mis tahes toimingu, mille jaoks fiskaalregistreerimine ei ole vajalik. Kui kassas toimub sündmus, mis nõuab fiskaalüksuse registreerimist (nt uue kande avamine), kuvatakse automaatselt tõrketöötluse dialoogiboks, mis teavitab operaatorit, et eelmist kannet ei registreeritud õigesti, ja pakub tõrketöötluse valikud.
+- **Jäta** vahele – operaator saab seda suvandit kasutada, kui praeguse kande või sündmuse fiskaalregistreerimist ei ole võimalik lõpetada, **nt** kui fiskaalprinter on tellimusest väljas ja fiskaalregistreerimise saab kindlatel tingimustel vahele jätta. Näiteks saab seda valikut kasutada, kui müügikannet, mille puhul fiskaalüksuse registreerimine nurjus, saab registreerida spetsiaalsel pabertöölehel. Pärast fiskaalregistreerimise vahelejätmist saab kassas regulaarseid toiminguid jätkata. 
+- **Märgi registreeritud** - operaator saab seda suvandit kasutada, kui praegune kanne või sündmus on tegelikult fiskaalseadmes registreeritud, näiteks fiskaalsissetulek on prinditud, kuid fiskaalvastuse salvestamisel kanali andmebaasi ilmnes tõrge. Pärast praeguse kande või sündmuse märkimist registreerimiseks saab kassas regulaarseid toiminguid jätkata.
+- **Lükka** edasi – operaator saab seda valikut kasutada, kui kannet pole **registreeritud**, kuna registreerimisseade või teenus ei ole saadaval ja kehtib üks järgmistest:
+    - On olemas varu fiskaalregistreerimise suvand ja on võimalik jätkata praeguse kande fiskaalregistreerimisprotsessi. Näiteks võib kohalik fiskaalseade [olla](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) võrgu fiskaalregistreerimise teenuse varundussuvand, kui teenus pole saadaval.
+    - Fiskaalregistreerimise saab lõpetada hiljem, mitte fiskaalintegratsiooni raamistiku abil. Näiteks saab edasilükatud kandeid hiljem partiisse eraldi funktsiooni abil finantsiliselt [registreerida](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Pärast praeguse kande või sündmuse edasilükkamist saab kassas regulaarseid toiminguid jätkata.
 
-> [!NOTE]
-> Suvandid **Jäta** vahele, **Märgi kui registreeritud** ja **Lükka** edasi peavad olema fiskaalregistreerimise protsessis enne nende kasutamist aktiveeritud. Peale selle tuleb anda operaatoritele asjakohased õigused.
+> [!WARNING]
+> Suvandeid **Jäta** vahele, **Märgi registreeritud** ja **Edasilükkumise** suvandeid tuleks käsitleda hädaolukorra valikutena ja kasutada ainult erandlikel juhtudel. Arutlege nende tõrgete käsitlemise võimaluste üle oma seadusliku või maksuametiga ja rakendage head käsitlust enne nende lubamist. Suvandid tuleb enne kasutamist fiskaalregistreerimise protsessis aktiveerida. Selleks, et operaatorid ei kasutaks neid regulaarselt, peavad operaatoritele olema antud vastavad load.
 
-Valikud **Jäta** vahele, **·** **Märgi** kui registreeritud ja Lükka edasi teabekoodid võimaldavad teabekoodide hõivamist tõrke kohta, nt tõrke põhjuse või finantsregistreerimise vahelejätmise põhjuse või kande registreeritudna märkimise. Lisateavet tõrketöötluse parameetrite seadistamise kohta vt teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Fiskaalkanne luuakse [siis](#storing-fiscal-response-in-fiscal-transaction), kui on valitud suvand Jäta, **·** **Märgi** registreeritud või Lükka edasi, kuid fiskaalkanne ei sisalda fiskaalvastust.**·** See võimaldab teil hõivata fiskaalregistreerimise tõrke sündmuse. Need valikud võimaldavad ka teabekoodidele fikseerida tõrke kohta konkreetset teavet, nt tõrke põhjuseid, või finantsregistreerimise vahelejätmise või kande registreerimise märkimise põhjendust. Lisateavet tõrketöötluse parameetrite seadistamise kohta vt teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Valikuline fiskaalüksuse registreerimine
 
@@ -112,11 +116,7 @@ Fiskaalüksuse registreerimine võib olla kohustuslik mõne toimingu jaoks, aga 
 
 ### <a name="manually-rerun-fiscal-registration"></a>Käivitage fiskaalregistreerimine käsitsi uuesti
 
-Kui kande või sündmuse fiskaalüksuse registreerimine on pärast tõrget edasi lükatud (nt kui operaator valis tõrketöötluse dialoogiboksis suvandi **Tühista**), saate fiskaalüksuse registreerimist käsitsi uuesti alustada, käivitades vastava toimingu. Lisateavet leiate teemast [Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Edasilükkamise suvand
-
-Suvand **Lükka** edasi võimaldab teil jätkata fiskaalregistreerimise protsessi, kui praegune etapp nurjub. Seda saab kasutada siis, kui on olemas fiskaalregistreerimise varundussuvand.
+Kui kande või sündmuse fiskaalregistreerimine on pärast nurjumist edasi lükatud (nt kui **tehtemärk** valis tõrke käsitlemise dialoogiboksis tühista), saate finantsregistreerimise käsitsi uuesti käivitada, käivitades vastava toimingu. Lisateavet vt edasilükatud fiskaalregistreerimise [käsitsi käivitamise lubamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Fiskaalüksuse registreerimise seisundikontroll
 
@@ -138,7 +138,7 @@ Kui seisundikontroll nurjub, kuvab kassa seisundikontrolli dialoogiboksi. Selles
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Fiskaalvastuse talletamine fiskaalkandesse
 
-Kui kande või sündmuse fiskaalüksuse registreerimine õnnestus, luuakse kanali andmebaasi fiskaalkanne ja lingitakse algse kande või sündmusega. Samamoodi, kui nurjunud fiskaalüksuse registreerimisel valitakse suvand **Jäta vahele** või **Märgi registreerituks**, talletatakse see teave fiskaalkandesse. Fiskaalkandel on fiskaalseadme või -teenuse fiskaalvastutus. Kui fiskaalüksuse registreerimisprotsess koosneb mitmest etapist, luuakse fiskaalkanne protsessi iga etapi kohta, mille tulemuseks on õnnestunud või nurjunud registreerimine.
+Kui kande või sündmuse fiskaalüksuse registreerimine õnnestus, luuakse kanali andmebaasi fiskaalkanne ja lingitakse algse kande või sündmusega. Samamoodi, kui **nurjunud** fiskaalregistreerimise **·** **puhul on valitud suvand Jäta,** Märgi kui registreeritud või Edasi lükatud, talletatakse see teave fiskaalkandesse. Fiskaalkandel on fiskaalseadme või -teenuse fiskaalvastutus. Kui fiskaalüksuse registreerimisprotsess koosneb mitmest etapist, luuakse fiskaalkanne protsessi iga etapi kohta, mille tulemuseks on õnnestunud või nurjunud registreerimine.
 
 Fiskaalkanded edastatakse koos kannete ja *P-tööga* peakorterisse. Lehe **Kaupluse kanded** kiirkaardil **Fiskaalkanded** saate vaadata kannetega lingitud fiskaalkandeid.
 

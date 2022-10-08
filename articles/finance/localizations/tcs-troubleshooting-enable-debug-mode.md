@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887773"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620894"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Luba maksuarvutusteenuse silumisrežiim
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887773"
 See artikkel selgitab, kuidas lubada maksuarvutuse teenuse silumisrežiim probleemide lahendamiseks.
 
 1. Lisage **rakendusobjekti serveri (AOS) URL-ile &debug=vs%2 CconfirmExit&**, seejärel värskendage lehekülg.
-2. Kui valite **käibemaksu** käibemaksu arvutamiseks, **avatakse tekstifail nimega TaxServiceTroubleshootingLog.txt**. Fail **TaxServiceTroubleshootingLog.txt** sisaldab TaxableDocumenti **ja** arvutamise parameetrit. Need tulemused tagastatakse maksuteenusest ja eranditeabest tõrkeotsinguks.
+2. **Kui** valite käibemaksu käibemaksu arvutamiseks, **fikseeritakse tekstifail nimega TaxServiceTroubleshootingLog.txt** **serveris valiku C:\AXWeb_SMBShare\temporary-file all\\{%session%}\\**. Fail **TaxServiceTroubleshootingLog.txt** sisaldab TaxableDocumenti **ja** arvutamise parameetrit. Need tulemused tagastatakse maksuteenusest ja eranditeabest tõrkeotsinguks.
 
 ## <a name="sample"></a>Proov
 

@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
+ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103516"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "9598078"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Kohandatud X++ skriptide käitamine ilma katkestusteta
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 See funktsioon võimaldab teil üles laadida ja käitada juurutatavaid pakette, mis sisaldavad kohandatud X++ Microsoft Dynamics skripte ilma elutsükli teenuste (LCS) läbimata või süsteemi peatamiseta. Seega saate parandada väheolulisi andmete vasturääkivusi, ilma et see põhjustaks katkestavat mahaminekut.
 
@@ -151,5 +150,5 @@ Teie valik viimases etapis määratleb skripti lõpliku oleku. Võite protsessi 
 
 Juurutatava paketi juurutamise asemel finantside ja toimingute rakenduse kasutajaliidese kaudu saate selle üles laadida LCS-i ja kasutada selle juurutamiseks tavaprotseduuri. Lisateavet vt käsurealt [juurutatavate pakendite installimine](../deployment/install-deployable-package.md).
 
-Kuigi lähenemisel on vähem piiranguid, pakub see vähem veakaitset. Lisaks, kuna see nõuab kõigi serverite taaskäivitamist, põhjustab see veidi downtime'i.
+Kuigi lähenemisel on vähem piiranguid, pakub see vähem veakaitset. Lisaks, kuna see nõuab kõigi serverite taaskäivitamist, põhjustab see veidi downtime’i.
 

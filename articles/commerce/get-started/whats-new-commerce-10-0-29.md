@@ -2,7 +2,7 @@
 title: WHat uut ja muutunud Dynamics 365 Commerce 10.0.29 (oktoober 2022)
 description: See artikkel kirjeldab funktsioone, mis on uued või muutunud Microsoft Dynamics 365 Commerce 10.0.29-s.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475899"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601567"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Mis on Dynamics 365 Commercei versioonis 10.0.29 uut või mida on muudetud (oktoober 2022)
 
@@ -39,6 +39,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 | E-kaubandus | Tootevõrdluse tugi e-kaubanduses | Lubage ostjatel võrrelda tooteid erinevates kategooriates, nii et nad saavad endale õige ostu otsuse teha. See funktsioon on saadaval nii ettevõtete ja tarbijat (B2C) kui B2B-saitide jaoks. | Saidikonstruktorid | 
 | Kinkekaardid | Jaemüügi kinkekaardi tabelite tugi ettevõtetevaheliseks andmete ühiskasutuseks | Dynamics headquarters toetab võimalust lubada ettevõteteülene andmete ühiskasutus kindlate tabelite jaoks Dynamicsi arhitektuuris. Selles funktsioonis lisab Dynamics 365 Commerce toe ettevõtetevahelisele andmete ühiskasutusele jaemüügi kinkekaardi tabelite jaoks. Seetõttu saab ühes ettevõttes kinkekaardi andmed nüüd dubleerida teisele ettevõttele keskkonnas. Ettevõtte kinkekaardi tabelisse tehtud muudatused jagatakse dubleeritud ettevõtte kinkekaardi tabelile. | Arendajad |
 | Globaliseerimine | [Commerce’i lokaliseerimisfunktsiooni lubamine uue commerce SDK jaoks](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | Uus funktsioon annab võimaluse lubada Commerce Headquartersi Commerce’i lokaliseerimise funktsioonid, kasutades funktsioonihalduse raamistikku või parameetreid. Fiskaalintegratsiooni näidised on nüüd uude Commerce SDK-sse kaasatud ja toetavad iseseisvat pakkimist. See funktsioon lubab ka rakenduse Store Commerce sihtkoha globaalsed kliendid.<p><p>See vabastamine hõlmab Äriintegratsiooni funktsioone ja [Fiskaalintegratsiooni näidised Austria](../localizations/emea-aut-fi-sample.md), [Tšehhi Vabariigi](../localizations/emea-cze-fi-sample.md),[Prantsusmaa](../localizations/emea-fra-cash-registers.md), [Saksamaa](../localizations/emea-deu-fi-sample.md), [Itaalia](../localizations/emea-ita-fpi-sample.md), [Norra](../localizations/emea-nor-cash-registers.md) ja Poola [puhul](../localizations/emea-pol-fpi-sample.md). | Administraatorite/tegijate poolt lubatud |
+| Ühenduseta | [Kassa ühenduseta andmebaasi tihendamine](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | See uus funktsioon vähendab võrguühenduseta andmebaasi suurusi, lubades automaatse indeksi tihendamise väljaspool kanali poe [tunde](../dev-itpro/store-hours.md). | Funktsioonihaldus<p>*Kassa ühenduseta andmebaasi tihendamine* |
 | Jõudlus | Eemalda RTS-sõltuvus stsenaariumite "Kliendi redigeerimine" puhul | Kõrge saadavus ja kõrge jõudlus on vaikimisi ootused müügikohas (POS) ja e-äri kanalites. Nende ootuste täitmiseks ei pea Dynamics 365 Commerce kanalid klienditeabe redigeerimisel enam toetuda Äriinfo reaalajas kommunikatsioonile. Asünkroonste ja mitteasünkroonste klientide klienditeabe asünkroonselt redigeerimise võimalus aitab vähendada reaalajas kutseid Commerce Headquartersi. | Administraatorite/tegijate poolt lubatud |
 
 ## <a name="feature-state-changes-in-this-release"></a>Funktsiooni oleku muudatused selles väljalaskes
@@ -85,7 +86,7 @@ Tabelis loetletakse ka funktsioonid, mis olid eelnevalt avalikus eelvaates, kuid
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Commerce 10.0.29 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.29 Finance and Operations rakendustest (oktoober 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md). 
+Microsoft Dynamics 365 Commerce 10.0.29 sisaldab platvormivärskendusi. Lisateavet vt Platvormi värskendustest [versioonile 10.0.29 Finance and Operations rakendustest (oktoober 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md) 
 
 ### <a name="bug-fixes"></a>Veaparandused
 

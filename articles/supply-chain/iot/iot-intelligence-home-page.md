@@ -1,8 +1,8 @@
 ---
-title: IoT iseõppimisvõime avaleht
-description: See artikkel pakub linke teabele IoT-teabe kohta.
+title: IoT-i intelligence on nüüd asendatud anduri andmeteabega
+description: See artikkel selgitab, et IoT-intelligence on nüüd asendatud Anduri andmeteabega.
 author: johanhoffmann
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,60 +13,21 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d8b2be25abaeff7404d7f4ef3cd825a50147fef
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: a754fc44fa780a4645b9ad457f5a1e3f0bdd6365
+ms.sourcegitcommit: 073604c07116e0a87f78ab2c76cb89ae83ebba3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228353"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9608057"
 ---
-# <a name="iot-intelligence-home-page"></a>IoT iseõppimisvõime avaleht
+# <a name="iot-intelligence-now-replaced-by-sensor-data-intelligence"></a>IoT-i intelligence on nüüd asendatud anduri andmeteabega
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
-> [!IMPORTANT]
-> See funktsioon on praegu saadaval ainult järgmistes riikides/regioonides:
->
-> - USA (Ameerika Ühendriigid)
-> - EL (Euroopa Liit)
-> - AU (Austraalia)
-> - Ca (Kanada)
-> - UK (Ühendkuningriik)
+IoT-teabe funktsioon on uuendatud versiooniks 2.0 *ja samas nimetatud ümber Toorandmete teabeks*. Uus versioon on praegu saadaval Supply Chain Managementi versiooni 10.0.30 või hilisema versiooni eelversiooni funktsioonina.
 
-IoT iseõppimine on Microsoft Dynamics 365 Supply Chain Management lisandmoodul. See integreerib asjade internetti (IoT) signaalid Supply Chain Management andmetega, et luua tegevusülevaateid.
+Sensor Data Intelligence võtab kasutusele uue juurutusmudeli, mille puhul nõutavad Azure’i komponendid juurutatakse teie enda Azure’i tellimusel, selle asemel, et neid haldaks Microsoft. See uus mudel suurendab teie võimekust kohandada funktsiooni ja integreerida see kolmanda osapoole süsteemidega. Uus versioon tutvustab ka kahe uue varahalduse stsenaariume (IoT) toetamist.
 
-IoT iseõppimine toetab järgmisi stsenaariume:
-
-- **Tootmise viivitused** – see stsenaarium võrdleb tegelikku tsükli aega plaanitud tsükli ajaga. Supply Chain Management teavitab teid, kui tootmist ei ole graafikus, nii et saate tegevusefektiivsuse suurendamiseks ja tellimuse viivituste vältimiseks suhelda.
-- **Seadmete ettemaks** – see stsenaarium võrdleb mõõdetud ülesaega kasutaja määratletud parameetritega. Supply Chain Management teavitab teid, kui lävi on ületatud, nii et saate teha selliseid toiminguid, nagu tootmistellimuse uuesti plaanimine või hooldustöötellimuse loomine.
-- **Toote kvaliteet** - selle stsenaariumi puhul võrreldakse lugemisi nagu näiteks niiskuse ja temperatuuri kasutaja määratud kvaliteedi mõõdikutega. Supply Chain Management teavitab teid hälbe ilmnemisel, nii et saate vastu võtta kvaliteedistandardite säilitamiseks ja jäätmekäitluse minimeerimiseks.
-
-Järgmine näide näitab Azure'i IoT Hub, IoT-iseõppimine ja Supply Chain Management vaheline suhtlust.
-
-![IoT Hub, IoT iseõppimine ja Supply Chain Management.](media/iot_intelligence.png)
-
-<!-- KFM: hide setup info for now
-
-## Setup
-
-You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
-
-1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
-2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
-3. In Feature Management, enable the IoT Intelligence feature flag. 
-4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
-5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
-6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
-
--->
-
-## <a name="tracking-and-maintenance"></a>Jälgimine ja hooldus
-
-- [Jälgi stsenaariumeid rakenduses Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-- [Stsenaariumi keelamine](iot-scenario-setup.md#disable-a-scenario)
-- [Töötava IoT iseõppimisvõime stsenaariumi muutmine](iot-management.md#modify-a-running-iot-intelligence-scenario)
-- [Simulatsiooni suvandid](iot-management.md#simulation-options)
-
+Eelolevate muudatuste tõttu soovitab Microsoft mitte alustada uusi projekte, mis põhinevad olemasoleval IoT iseõppimisvõime funktsioonil. Kui soovite lisada omasüsteemile IoT-võimekust, soovitame selle asemel alustada töötamist Sensor Data Intelligence’i eelversiooniga. Lisateavet Sensor Data Intelligence’i ja sellega töötamise kohta leiate [Sensor Data Intelligence’i avalehelt](../sensor-data-intelligence/sdi-home-page.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

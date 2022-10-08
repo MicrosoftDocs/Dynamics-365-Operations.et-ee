@@ -2,19 +2,19 @@
 title: Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 description: See artikkel annab juhised commerce-kanalite fiskaalintegratsiooni funktsiooni seadistamiseks.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276128"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631419"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce’i kanalite fiskaalüksuse integreerimise seadistamine
 
@@ -30,9 +30,10 @@ See artikkel annab juhised commerce-kanalite fiskaalintegratsiooni funktsiooni s
 1. Otsige ja lubage järgmised funktsioonid:
 
     - **Otsene fiskaalintegratsioon** kassaregistritest – see funktsioon laiendab fiskaalintegratsiooni raamistikku, lisades võimaluse luua kassas käitatav fiskaalühendus. Seda tüüpi konnektor suhtleb fiskaalseadme või teenusega, mis pakub HTTP rakenduse programmeerimisliidest (API) ja ei vaja kaupluses spetsiaalset füüsilist masinat. Näiteks võimaldab see funktsioon mobiilsete seadmete fiskaalintegratsiooni ilma ühiskasutatava riistvarajaama nõudeta.
-    - **Fiskaalintegratsiooni tehnilised** profiilide alistamised – see funktsioon võimaldab laiendada fiskaalintegratsiooni konfiguratsiooni ja lisab võimaluse kontrollida ühenduse parameetreid kassaregistri sätete lehel. Kui see funktsioon on lubatud, saate alistada tehnilised profiili parameetrid.
+    - **Fiskaalintegratsiooni tehnilised** profiilide alistamised – see funktsioon võimaldab laiendada fiskaalintegratsiooni konfiguratsiooni ja lisab võimaluse alistada tehniliste profiilide parameetrid. Näiteks on võimalik määrata fiskaalseadme ühendusstringe üksikul kassaregistri tasemel. See funktsioon lisab võimaluse vaadata ühenduse parameetreid kassaregistri **sätete** lehel. 
     - **Kassaregistrite fiskaalregistreerimise** olek – kui see funktsioon on lubatud, saate keelata fiskaalregistreerimise protsessi kindlate kassaregistrite jaoks. Kui kassaregistri jaoks on fiskaalregistreerimine keelatud, ei saa müügikandeid selles registris lõpetada.
-    - **Fiskaalintegratsiooni kohaliku** salvestuse varundamine – see funktsioon laiendab fiskaalintegratsiooni raamistiku tõrke käsitlemise võimalusi. See võimaldab ka fiskaalregistreerimise andmete automaatset varundamist andmekao korral, nii et seadme aktiveerimisel taastatakse andmed kohalikus mälus.
+    - **Fiskaalintegratsiooni** kohaliku salvestuse varundamine – see funktsioon laiendab fiskaalintegratsiooni raamistiku tõrkekäsitluse võimalusi, lubades fiskaalregistreerimise andmete automaatse varukoopia, nii et kohalikus mälus andmeid saab seadme aktiveerimise ajal taastada.
+    - **Dokumentide edasilükatud** registreerimine – see funktsioon laiendab fiskaalintegratsiooni raamistiku tõrkekäsitluse võimalusi, lubades suvandeid fiskaalregistreerimise nurjumise korral fiskaalregistreerimise korral edasi lükata ja kasutada varunduse fiskaalregistreerimise suvandit või lõpetada fiskaalregistreerimise hiljem peale fiskaalintegratsiooni raamistiku.
 
 ## <a name="set-up-commerce-parameters"></a>Äriparameetrite seadistamine
 
@@ -286,16 +287,15 @@ Fiskaalüksuse x-/z-aruannete käitamise lubamiseks kassast peate lisama kassa e
     1. Lisage uus nupp ja määrake nupu **Prindi fiskaalüksuse z** atribuut.
     1. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada muudatused kanali andmebaasile.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamine
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Luba edasilükatud fiskaalregistreerimise käsitsi käivitamine
 
-Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks peaksite kassa paigutusse lisama uue nupu.
+Edasilükatud fiskaalregistreerimise käsitsi käivitamise lubamiseks peaksite kassa kavandile lisama uue nupu.
 
 - Järgige lehel **Nupupaneelid** teemas [Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
 
     1. Valige värskendatav paigutus.
     1. Lisage uus nupp ja määrake nupu atribuut **Lõpeta fiskaalüksuse registreerimise protsess**.
     1. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada teie muudatused kanali andmebaasile.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Vaadake ühenduse parameetreid ja muud kassateavet
 
