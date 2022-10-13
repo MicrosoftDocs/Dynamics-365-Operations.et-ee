@@ -2,7 +2,7 @@
 title: Sobivusreeglite ja -suvandite konfigureerimine
 description: See artikkel kirjeldab, kuidas seada Microsofti soodustuste halduses sobivuse reegleid ja valikuid Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337292"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644080"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine 
 
@@ -175,6 +175,7 @@ Kogumid on seotud soodustuste plaanide komplektid. Soodustuste kogumite abil saa
    | **Kogum** | Kogumi kordumatu identifikaator. |
    | **Kirjeldus** | Kogumi kirjeldus. |
    | **Põhiveokiri** | Näitab, kas üks kogumi plaanidest peab olema märgitud põhiplaanina. Põhiplaan tuleb valida avatud registreerimisel kogumi osana, enne kui soodustuste haldur saab töövõtja soodustuste valikud kinnitada. |
+   | **Nõutav**| Näitab, et kogumi mis tahes teiste plaanide väljaregistreerimiseks on vajalik plaani valik. Rohkem kui ühe plaani saab märkida **nõutavaks**. Sel juhul peavad kõik **nõutavaks** märgitud plaanid olema valitud, et kontrollida kõiki kogumisse seotud plaane.|
    | **Kehtivuse alguskuupäev ja -aeg** | Kogumi aktiivseks muutumise kuupäev ja kellaaeg. |
    | **Kehtiv kuni** | Kogumi aegumise kuupäev. Vaikimisi on see 12/31/2154, mis tähistab, et mitte kunagi. |
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f04ef1a0de815596f629fede25a247c58e026f4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881958"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643873"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insightsi avaleht
 
@@ -88,7 +88,7 @@ Eelarvesoovituste funktsioon kasutab masinõppemudelit koos teie organisatsiooni
 
 ### <a name="using-cash-flow-forecasts"></a>Rahavoo prognooside kasutamine
 
-Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täpsemalt. Nutikas likviidsuse prognoosimine on üles ehitatud Dynamics 365 Finance'i olemasolevatele likviidsuse prognoosimise funktsioonidele. Olemasoleva võimaluse läbivaatamiseks vt teemat [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
+Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täpsemalt. Nutikas likviidsuse prognoosimine on üles ehitatud Dynamics 365 Finance’i olemasolevatele likviidsuse prognoosimise funktsioonidele. Olemasoleva võimaluse läbivaatamiseks vt teemat [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
 
 - Likviidsuse prognoosi uute võimaluste kohta leiate lisateavet likviidsuse [prognoosist](cash-flow-forecast-intro.md).
 - Teavet välisandmete importimise kohta siin rahavoo prognoosimisse kaasamiseks vt teemast [Rahavoo prognoosimises välisandmete kasutamine](external-data-in-cash-flow.md). 
@@ -98,9 +98,5 @@ Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täp
 ### <a name="using-budget-proposal"></a>Eelarvesoovituse kasutamine
 
 Teavet eelarve loomise kiirendamise kohta vt teemast [Eelarvesoovitused](budget-proposals.md). 
-
-## <a name="feedback-and-support"></a>Tagasiside ja tugi
-
-Kui olete tagasiside pakkumisest huvitatud või teil on vaja tuge, saatke finantside vihjetele [meilisõnum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

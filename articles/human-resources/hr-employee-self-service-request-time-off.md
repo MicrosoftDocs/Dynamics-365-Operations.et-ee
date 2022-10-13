@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882891"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643902"
 ---
 # <a name="request-time-off"></a>Taotle vaba aega
 
 >[!Important]
->Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
+>Selles artiklis märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,6 +63,10 @@ Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate vaadat
 2. Kinnitatud aja mahak kellaaegade vaatamiseks valige Kinnitatud **aeg välja**. Oma ooteloleva aja mahak millalgi taotluse vaatamiseks valige aja **mahak millal taotlus**.
 
 ## <a name="cancel-time-off-requests"></a>Tühista aja mahaminemise taotlused
+
+>[!NOTE] 
+> **Tühistage vaba aeg**, kui funktsiooni Jäta taotluse **töövoo kogemuse täiustused** on funktsioonihalduse tööruumis **lubatud**.  
+
 
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Kuva eemaloleku aega** paanil **Vaba aja saldod**.
 

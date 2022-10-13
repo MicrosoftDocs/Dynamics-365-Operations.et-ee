@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903330"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643999"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Korduva lepingu arveldamine parameetrites
 
@@ -46,7 +46,8 @@ Kasutage korduva **lepingu arveldusparameetrite lehte**, et seadistada korduvas 
 8. Valige arve **kandetüübi** väljal arve kande vaiketüüp uute arveldusgraafikute jaoks.
 9. Seadistage viitvõla **joondamine arveldussuvandi** alla **Jah**, et joondada vastav viitvõla graafik nii, et see kasutaks arveldusgraafikuga samasid kuupäevi. Erinevate kuupäevade **soovitud** kuupäevade miseks määrake selle väärtuseks Ei.
 10. Kui kasutate tulude tükeldamise funktsiooni, seadistage **suvand Loo tulu tükeldamine** automaatselt **valikule Jah**, kui kaubad lisatakse arveldusgraafikusse. Kui **kaup on** seadistatud tulu tükeldamise kaubaks, valitakse automaatselt arveldusgraafiku real märkeruut Tulu tükeldamine. Kui soovite märkeruudu **Tulu** tükeldamine käsitsi valida, märkige **valik** Ei.
-11. Seadke müügitellimuse loomise väljad:
+11. Määrake valiku **Kliendi tükeldamine** väärtuseks **Jah**, et lubada arveldusgraafiku arveldamist erinevatele klientidele. Kui on seatud valikule **Jah**, **on kliendi** tükeldamise suvand saadaval arveldusgraafiku päises ja arveldusgraafiku real. 
+12. Seadke müügitellimuse loomise väljad:
 
     - Arveid saab konsolideerida perioodi, kliendi või kauba kaupa. Määrata saab väärtuste **Jah** **ja** Ei mis tahes kombinatsiooni. Arveid saab jagada ka kaubagrupi kaupa.
     - Arvete jaoks on saadaval järgmised sisestusvalikud:
@@ -92,6 +93,9 @@ Kasutage korduva **lepingu arveldusparameetrite lehte**, et seadistada korduvas 
     - **Väljasta** krediit – looge kreeditarve, kui arveldusgraafik või arveldusgraafiku rida on lõpetatud.
     - **Kreediti** korrigeerimine: looge arveldusgraafiku kreediti korrigeerimine, kui rida lõpetatakse. Kreediti korrigeerimine ilmub arveldusgraafiku tulevases arveldusperioodis. Kreediti korrigeerimine värskendab arve summat järgmiseks arveldusperioodiks, kuni krediit on arveldusgraafikule rakendatud.
     - **Kreedit puudub** – ärge looge kreediti korrigeerimist ega kreeditarvet, kui arveldusgraafik või arveldusgraafiku rida on lõpetatud. See valik on saadaval ainult siis, kui **suvandit** Korrigeerimata kasutatakse arveldusgraafiku lõpetamiseks.
+18. Kui suvand **Üks kord tagasimaksega** **·** **lõpetada on seatud valikule Ei ja arveldusgraafiku arveldussagedusega Üks** kord, **muutub** arveldusgraafiku rea olek lõpetatud olekuks, kui arveldusgraafik on arveldatud. Seda arveldusgraafikut ei saa lõpetada ja krediiti ei saa väljastada. Kui **üks kord tagasimaksega lõpetamiseks** **·** **·** **on** seatud väärtusele Jah, on arveldusgraafiku real arveldussagedusega Üks kord aktiivne olek pärast arveldusgraafiku arveldamist. Arveldusgraafiku rea saab lõpetada ja tagasimakset töödelda. 
+19. Päevane **protsentuamine** parameetrites määratud suvandiga läheb vaikimisi hulgilõpetamislehele, arveldusgraafiku päisele ja rea lõpetamise dialoogile. Seda saab lõpetamise protsessi käigus muuta. Kui on seatud väärtusele **Jah**, arvutatakse mis tahes tagasimakse summa päevamäära alusel. Kui on seatud väärtusele **Ei**, krediteerimine põhineb lõpetamise kuupäeval ja arveldussagedusel. Kui kasutate näiteks kuusagedust ja arveldussummat $100 kohta, on kreeditsumma järk-dega $100. Kui arveldussagedus on tähtajaline, krediitsumma $0.00. Peate olema igapäevases väärtuses Jah määranud, et saada tagasimakset ühe arveldussageduse korral. 
+20. Olemasoleva **viitvõlagraafiku krediteerimisel** **uue** viitvõlagraafiku loomiseks määrake valikuLe Jah väärtusele Viitvõlg. Jätke olemasoleva viitvõlagraafiku **kreediti** loomiseks valikule Ei.
 
 ## <a name="sequence-number-tab"></a>Vahekaart Seerianumber
 

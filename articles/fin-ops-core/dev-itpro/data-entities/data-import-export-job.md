@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357587"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671454"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -64,6 +64,9 @@ Saate lisada impordi- või eksporditööle konkreetseid üksusi või valida rake
 
 ### <a name="set-the-data-format-for-the-job"></a>Töö andmevormingu määramine
 Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormingu. Vorminguid saab määratleda paani **Andmeallikate seadistus** kaudu. Lähteandmete vorming on **tüübi**, **failivormingu**, **reaeraldaja** ja **veerueraldaja** kombinatsioon. On ka muid atribuute, kuid need on kõige olulisemad. Järgmises tabelis on toodud kehtivad kombinatsioonid.
+
+> [!NOTE]
+> Exceli failivorming pole praegu saadaval valitsuse kogukonna pilve (GCC) andmehalduse tööruumis.
 
 | Failivorming            | Rea-/veerueraldaja                       | XML-i laad                 |
 |------------------------|--------------------------------------------|---------------------------|

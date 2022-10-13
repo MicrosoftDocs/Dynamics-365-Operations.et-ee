@@ -2,7 +2,7 @@
 title: Arveldamata tulu
 description: See artikkel selgitab, kuidas seadistada kaupu ja kontosid, et kasutada arveldamata tulu funktsiooni kordustellimuse arvelduses.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879678"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644164"
 ---
 # <a name="unbilled-revenue"></a>Arveldamata tulu
 
@@ -123,15 +123,15 @@ Jaotused arvutatakse ümber valitud eraldustüübi alusel (**Protsent**, **Valmi
 
 Arveldusgraafik sisestatakse kolm aastat ja arveid arveldatakse kord aastas kolme aasta jooksul. Kogu lepingu summa kirjendatakse arveldamata tulukontole, mille põhjal aastaarved luuakse. Vastaskonto on tulu või viittulu konto.
 
-Pidage meeles, et ülemine arveldamine ja arveldamata tulu ei tööta koos, kuna vastavusseviimise probleemid võivad esineda pearaamatus. Näiteks seadistatakse kaubagrupp **A** **kaubagrupi seadistuse lehel nii, et ülemise rea numbri välja** väärtuseks on **seatud 2**. **Arveldusgraafikute lehel** lisatakse kolm üksust. Kõik kolm kaupa kuuluvad kaubagruppi A. Kui tasumata tulu funktsiooni jaoks luuakse algne töölehe kirje, töödeldakse kõigi kolme kauba summat tasumata kontole. Kui luuakse arveldusgraafiku arve, kaasatakse ainult kahe ülemise kauba summad. Seetõttu ei vasta arve summa summale, mida on töödeldud arveldamata tulu kontole ja vastavusseviimise väljaminekud tekivad pearaamatus.
+Tipparvestus ja arveldamata tulu ei tööta koos, kuna vastavusseviimise probleemid võivad esineda pearaamatus. Näiteks seadistatakse kaubagrupp **A** **kaubagrupi seadistuse lehel nii, et ülemise rea numbri välja** väärtuseks on **seatud 2**. **Arveldusgraafikute lehel** lisatakse kolm üksust. Kõik kolm kaupa kuuluvad kaubagruppi A. Kui tasumata tulu funktsiooni jaoks luuakse algne töölehe kirje, töödeldakse kõigi kolme kauba summat tasumata kontole. Kui luuakse arveldusgraafiku arve, kaasatakse ainult kahe ülemise kauba summad. Seetõttu ei vasta arve summa summale, mida on töödeldud arveldamata tulu kontole ja vastavusseviimise väljaminekud tekivad pearaamatus.
 
 Kui soovite kasutada kulumata tulu, **jätke** kaubagrupi seadistusleht tühjaks või seadistage kõik kaubagrupid nii, **·** **et ülemise rea välja numbriks on seatud 0** (null). Kui soovite kasutada ülemist arveldust, pole ühtegi arveldamata tulutoimingut saadaval.
 
 ### <a name="examples"></a>Näited
 
-Versiooni 10.0.27 puhul tutvustatakse uusi kontosid, kui kasutatakse segmentimata tulu. Kui sisestatakse algne **töölehe sisestamise** protsessi loomine, krediteeritakse uuele tasakaalustamata tulu vastaskontole. Seda kontot kasutatakse tulukonto asemel, sest sama väärtus tuleb arveldusgraafiku arveldamisel tühistada. Kui ilmneb vahetuskurss või ümardamiserinevused, võivad arve loomise protsessi **käigus arvutatud summad** olla erinevad. See käitumine tagab, et kontode netosumma on 0 (null).
+Versiooni 10.0.29 puhul lisatakse korduva lepingu arveldusparameetritele uus parameeter. Kui on seatud väärtusele Jah, **lubab parameeter Kasuta tasakaalustamata vastaskontosid** kahte uut kontot **tasakaalustamata tulu seadistuses**. Arveldamata tulu vastaskonto ja arveldamata allahindluse vastaskontod muutuvad kättesaadavaks ja neid kasutatakse kõige paremini siis, kui arveldusgraafikud luuakse arvestusvaluutast muudes valuutades. Vastaskontode kasutamine tagab, et tasumata tulu ja tasumata allahindluse kontod tühistatakse, kasutades samu vahetuskursse kui nende algsed kanded. Algne töölehe **sisestusprotsessi loomine** on sama, mis debiteeritakse tasumata tulule ja krediteeritakse tulule. Allahindluse kasutamisel on algne töölehekanne sama, mis deebet allahindlusele ja krediteerimisele, mida tasumata allahindluseks. 
 
-See näide näitab, kuidas kasutada tasumata tulu kogu lepingu summa äratundmiseks bilansilehel tasumata tuluna. Kande teine pool on tasakaalustamata tulu vastaskonto. Kliendiga arveldamisel tühistatakse arveldamata tulu ja arveldamata tulu vastaskonto. Tulu tuvastamine toimub arveldamisel või vastavalt seadistatud viitvõla tuvastamise graafikule.
+See näide näitab, kuidas kasutada tasumata tulu kogu lepingu summa äratundmiseks bilansilehel tasumata tuluna. Kande teine pool on tulu või viittulu. Kliendiga arveldamisel tasumata tulu tühistatakse. Tulu tuvastamine toimub arveldamisel või vastavalt seadistatud viitvõla tuvastamise graafikule.
 
 #### <a name="assumptions"></a>Eeldused
 
@@ -151,47 +151,38 @@ See näide näitab, kuidas kasutada tasumata tulu kogu lepingu summa äratundmis
 
     | Kaup | Alguskuupäev | Lõpukuupäev | Summa | Arveldamissagedus | Viitvõla kaup | Arveldamata tulu | Kirjeldus |
     |---|---|---|---|---|---|---|---|
-    | Litsents | 01. jaanuar, APRIL | 31. detsember: KIRI+2 | $100.00 | Kord aastas | Nr | Jah | Kliendile arveldatakse arve $100.00 aastal. Kogusumma $300.00 bilanssi kirjendatakse eelnevalt tasakaalustamata tuluna ning tuluna tuluna kasumist ja kahjumist. Iga arve vähendab arveldamata summat. |
-    | Hooldus | 01. jaanuar, APRIL | 31. detsember: KIRI+2 | $30.00 | Kord aastas | Jah | Jah | Kliendile arveldatakse arve $30.00 aastal. Kogusumma $90.00 eelnevalt kirjendatakse tasakaalustamata tuluna ja viittuluna bilansis. Iga arve vähendab arveldamata summat. Edasilükatud tulu tuvastatakse kord kuus üle 36 kuu. |
+    | Litsents | 01. jaanuar 2022 | 31. detsember 2024 | $100.00 | Kord aastas | Nr | Jah | Kliendile arveldatakse arve $100.00 aastal. Kogusumma $300.00 bilanssi kirjendatakse eelnevalt tasakaalustamata tuluna ning tuluna tuluna kasumist ja kahjumist. Iga arve vähendab arveldamata summat. |
+    | Hooldus | 01. jaanuar 2022 | 31. detsember 2024 | $30.00 | Kord aastas | Jah | Jah | Kliendile arveldatakse arve $30.00 aastal. Kogusumma $90.00 eelnevalt kirjendatakse tasakaalustamata tuluna ja viittuluna bilansis. Iga arve vähendab arveldamata summat. Edasilükatud tulu tuvastatakse kord kuus üle 36 kuu. |
 
 6. Kasutage lehel **Kõik arveldusgraafikud** töölehe **sisestamise** protsessi, et sisestada lepingu väärtus bilansilehele arveldamata tuluna.
 
 Luuakse kaks töölehe kirjet, üks arvegraafiku iga rea kohta.
 
-| Arveldamata tulu konto | Arveldamata tulude vastaskonto | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| Arveldamata tulu konto | | $300.00 | |
-| | Arveldamata tulude vastaskonto | | $300.00 |
+| Konto | Deebetsumma | Kreeditsumma |
+|---|---|---|
+| Arveldamata tulu konto | $300.00 | |
+| Tulukonto | | $300.00 |
 
-| Arveldamata tulu konto | Edasilükatud tulu | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| Arveldamata tulu konto | | $90.00 | |
-| |Edasilükatud hooldustulu | | $90.00 |
+| Konto | Deebetsumma | Kreeditsumma |
+|---|---|---|
+| Arveldamata tulu konto | $90.00 | |
+| Edasilükatud tulu | | $90.00 |
 
-Esimene töölehe kirje sisestatakse tasakaalustamata tulu vastaskontole ja teine sisestatakse viittulu kontole. Kui arveldusreal on nii arveldamata tulu kui ka viittulu, kasutatakse viittulu kontot, mitte arveldamata tulu vastaskontot. Leping nõuab, et kliendi arve loodaks iga aasta alguses. **Arve loomiseks** kasutage arve loomise protsessi. Arve loomisel luuakse järgmised töölehekanded.
+Leping nõuab, et kliendi arve loodaks iga aasta alguses. **Arve loomiseks** kasutage arve loomise protsessi. Arve loomisel sisestatakse järgmine arve kanne.
 
-| Põhikonto | Arveldamata tulu konto | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| Tasakaalustamata tulu vastaskonto | | $100.00 | |
-| | Arveldamata tulu konto | | $100.00 |
-| Müügireskontro | | $100.00 | |
-| | Tulukonto | | $100.00 |
+| Konto| Deebetsumma | Kreeditsumma |
+|---|---|---|
+| Arveldamata tulu konto | | $130.00 |
+| Müügireskontro | $130.00 | |
 
-| Põhikonto | Arveldamata tulu konto | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| Edasilükatud hoolduse tulu konto | | $30.00 | |
-| | Arveldamata tulu konto | | $30.00 |
-| Müügireskontro | | $30.00 | |
-| | Edasilükatud hoolduse tulu konto | | $30.00 |
+Sama töölehekanne luuakse arvetega, mis sisestatakse järgmise kahe aasta alguses. Arveldamata tulu kontot vähendatakse arve loomise protsessi käigus **igal** aastal. Tasumata tulu vastaskontot kasutatakse erinevate valuutakursside kasutamisel tasumata tulu konto tasakaalustamiseks. 
 
-Sama töölehekanne luuakse arvetega, mis sisestatakse järgmise kahe aasta alguses. Edasilükatud tulu konto netosumma on 0 (null), kuna ümardamise ega vahetuskursi erinevused puuduvad. Edasilükatud tulu peab olema tühistatud täpselt nii, nagu see kredit oli töölehe sisestuse **loomise protsessis**. Kuna tulu on endiselt edasi lükatud ja hiljem tuvastatakse, toimub edasilükatud tulu konto kreedit uuesti.
+Viimases sammus luuakse tunnustuse töölehe sisestus igal kuul, et tuvastada hooldustasu viittulu. Töölehe sisestuse saab luua, kasutades tunnustuse **töötlemise** lehte. Selle saab luua ka valides viitvõlagraafiku **lehekülgedel** ridade jaoks **väärtuse** Ära.
 
-Viimases sammus luuakse tunnustuse töölehe sisestus igal kuul, et tuvastada edasilükatud hooldustasu tulu. Töölehe sisestuse saab luua, kasutades tunnustuse **töötlemise** lehte. Selle saab luua ka valides viitvõlagraafiku **lehekülgedel** ridade jaoks **väärtuse** Ära.
-
-| Edasi lükatud tulude konto | Tulukonto | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| Edasilükatud hooldustulu | | $2.50 | |
-| | Hooldustulu | | $2.50 |
+| Põhikonto | Deebetsumma | Kreeditsumma |
+|---|---|---|
+| Edasilükatud tulu | $2.50 | |
+| Tulu | | $2.50 |
 
 See töölehekirje luuakse iga kord, kui tuvastamisprotsessi selle edasilükatud kauba puhul käitatakse (kokku 36 korda).
 
@@ -269,18 +260,18 @@ Kuna mõlemad kaubad kasutavad tasumata tulu ja tulu eraldamist, on uuendamisrea
 
 Järgmises tabelis on näidatud kaupade ja arve algne töölehesisestus.
 
-| Arveldamata tulu konto | Edasi lükatud tulude konto | Deebetsumma | Kreeditsumma |
-|---|---|---|---|
-| **Kauba 1000 töölehe sisestus** | | | |
-| Tasumata tulu deebetkonto (401250) | | $1,465.26 | |
-| | Viittulu kreeditkonto (250600) | | $1,465.26 |
-| **Kaup 0021 Töölehe kirje** | | | |
-| Tasumata tulu deebetkonto (401250) | | $274.74 | |
-| | Viittulu kreeditkonto (250600) | | $274.74 |
-| **Arve** | | | |
-| | Saate krediteeritud tulu konto | | $1,465.26 |
-| | Saate krediteeritud tulu konto | | $274.74 |
-| Deebet-AR-konto (130100) | | $1,488.16 | |
+| Põhikonto | Deebetsumma | Kreeditsumma |
+|---|---|---|
+| **Kauba 1000 töölehe sisestus** | | | 
+| Saatelehega seotud tulukonto (401250) | $1,465.26 | |
+| Viittulu konto (250600) | | $1,465.26 |
+| **Kaup 0021 Töölehe kirje** | | | 
+| Saatelehega seotud tulukonto (401250) | $274.74 | |
+| Viittulu konto (250600) | | $274.74 |
+| **Arve** | | |
+| Arveldamata tulu konto | | $1,465.26 |
+| Arveldamata tulu konto | | $274.74 |
+| AR-konto (130100) | $1,488.16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Arveldusgraafiku rea, arvelduse üksikasjarea või tulu eralduse muudatused
 
@@ -302,5 +293,5 @@ Kaubal S0021 on alguskuupäev 2020. aasta jaanuaris ja lõppkuupäev detsembris 
 
 Lõpetamisega reale luuakse korrigeerimist vajav töölehe kirje. Töölehe kanne reale, mis kuulub samasse mitme elemendi kokkuleppe (MEA) numbrisse, tühistatakse ja luuakse uus töölehe kanne:
 
-- **Kaup 1000:** algse algse töölehe $1,465.26 on tühistatud. Korrigeerimist töölehe kirje $1,549.47 jaoks luuakse.
-- **Kaup S0021:** algse algse $274.74 sisestamine on tühistatud Kande jaoks luuakse $124.00 töölehe kirje.
+- **Kaup 1000:** algse algse töölehe $1,465.26 on tühistatud. Kande korrigeerimise töölehe $1,549.47 luuakse.
+- **Kaup S0021:** algse algse $274.74 sisestamine on tühistatud Uue töölehe kirje $124.00 on loodud.

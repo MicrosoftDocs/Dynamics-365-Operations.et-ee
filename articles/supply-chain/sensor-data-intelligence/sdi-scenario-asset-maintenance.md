@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428966"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644053"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Vara hoolduse stsenaarium
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428966"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Vara *hoolduse stsenaarium* võimaldab kasutada anduriandmeid loendurikirjete loomiseks. Kassakirjed jälgivad masina vara kasutamist ja neid kasutatakse sisendina masinavarade hooldusgraafiku loomisel.
+
+## <a name="video-instructions"></a>Video juhised
+
+Järgmine video näitab, kuidas seadistada ja proovida vara hoolduse stsenaariumi standardseid demoandmeid [kasutades](../../fin-ops-core/fin-ops/get-started/demo-data.md). Selle artikli ülejäänud jaotised pakuvad samu juhiseid tekstipõhises vormingus.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Vara hoolduse stsenaariumi demoandmete ettevalmistamine
 

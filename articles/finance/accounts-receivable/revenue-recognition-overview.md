@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348350"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644026"
 ---
 # <a name="revenue-recognition-overview"></a>Tulu tuvastamise ülevaade
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>See funktsioon on taunitud oktoober 2023, uued kasutajad peaksid kasutama kordustellimuse arveldust.
 
 Mitut elementi müüvad ettevõtted (nt tooted, teenused, kordustellimused jne) peavad olema võimelised tagama mitme elemendiga tellimusi, et saaks tulu tuvastada kindlate ettevõtte- ja valdkonnaspetsiifiliste juhiste alusel.
 

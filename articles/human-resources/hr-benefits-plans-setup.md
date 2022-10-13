@@ -2,7 +2,7 @@
 title: Soodustuse plaani loomine
 description: See artikkel näitab, kuidas soodustusplaane seadistada Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337293"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643933"
 ---
 # <a name="create-a-benefit-plan"></a>Soodustusplaanide loomine
 
@@ -42,8 +42,9 @@ See artikkel näitab, kuidas soodustusplaane seadistada Dynamics 365 Human Resou
    | **Programm** | Määratleb plaani valikuliselt määramise programmi. |
    | **Kogum** | Määratleb plaani valikuliselt määramise kogumi. |
    | **Põhiveokiri** | Määratleb, kas plaan on antud kogumi koondplaan. |
+   | **Nõutav** | Näitab, et kogumi mis tahes teiste plaanide väljaregistreerimiseks on vajalik plaani valik. Rohkem kui ühe plaani saab märkida **nõutavaks**. Sel juhul peavad kõik **nõutavaks** märgitud plaanid olema valitud, et kontrollida kõiki kogumisse seotud plaane.|
    | **Kehtivuse alguskuupäev ja -aeg** | Plaani alguskuupäev ja -kellaaeg. Vaikeväärtus on praegune süsteemikuupäev. |
-   | **Kehtivuse lõppkuupäev ja -aeg** | Plaani lõpu kuupäev ja -kellaaeg. Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi. |
+   | **Kehtivuse lõppkuupäev ja -aeg** | Plaani lõpu kuupäev ja -kellaaeg. Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi.  |
 
 4. Vahekaardil **Konfigureerimine** määrake olenevalt loodava plaani tüübist järgmiste väljade väärtused.
 

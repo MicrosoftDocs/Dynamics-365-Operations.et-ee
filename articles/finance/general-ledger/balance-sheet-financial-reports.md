@@ -1,8 +1,8 @@
 ---
 title: Bilansi finantsaruanded
 description: Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880726"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643819"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilansi finantsaruanded
 
@@ -33,9 +33,9 @@ Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse ne
 Bilansi vaikearuandeid on kaks. Ühes aruandes on jaotised virnastatud. Teises aruandes on jaotised kõrvuti.
 
 | Vaikearuanne                       | Selle funktsioon                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Bilanss – vaikimisi              | Annab ülevaate organisatsiooni aasta rahalisest seisust.                                                                 |
-| Kõrvuti bilanss – vaikimisi | Annab ülevaate organisatsiooni aasta rahalisest seisust. Varad ja kohustused ja omakapital on kõrvuti. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Bilanss – vaikimisi              | Annab ülevaate organisatsiooni aasta rahalisest seisust.                    |
+| Bilanss ja tuluaruanne perioodide vahel – vaikimisi | Annab vaate organisatsiooni finantspositsioonist aastapoolelt. |
 
 ## <a name="building-blocks"></a>Koosteüksused
 Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.
@@ -43,7 +43,7 @@ Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.
 | Vaikearuanne                       | Rea definitsioon                       | Veeru määratlus             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Bilanss – vaikimisi              | Bilanss – vaikimisi              | YTD ja hälve – vaikimisi    |
-| Kõrvuti bilanss – vaikimisi | Kõrvuti bilanss – vaikimisi | Veerg Aasta tänaseni – vaikimisi |
+| Bilanss ja tuluaruanne perioodide vahel – vaikimisi | Bilanss ja tuluaruanne perioodide vahel – vaikimisi | Veerg Aasta tänaseni – vaikimisi |
 
 ### <a name="row-definition"></a>Rea definitsioon
 

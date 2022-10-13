@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
-ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
-ms.translationtype: HT
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9637041"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671421"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -87,6 +87,9 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 | Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud | Pole plaanitud |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Ennetav kvaliteedivärskenduse vabastus: 10.0.29
+**Rakenduse versioon: 10.0.1326.70 viimane**
+**teabebaasi artikkel: 748926**
+
 | Station | Regioonid | Eesseisv graafiku graafik
 |---|---|---|
 | 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober - 17. oktoober 2022. a |
@@ -96,7 +99,7 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 | Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud |
 
 > [!IMPORTANT] 
-> Viis tööpäeva eelnevalt uuendab Microsoft eelnevat graafikut ja saadab meiliteatiste teatised keskkondade komplekti, mis on planeeritud neid kvaliteedivärskendusi saama. Eelnev graafik kehtib ainult keskkondtele, millest on teatatud eesseinud värskendusest. Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritud hooldusaknad regiooniti?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+> Viis päeva ette värskendab Microsoft eelnevat graafikut ja saadab meiliteatiste teatised keskkondade komplekti, mis on planeeritud nende kvaliteedivärskenduste saamiseks. Eelnev graafik kehtib ainult keskkondtele, millest on teatatud eesseinud värskendusest. Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritud hooldusaknad regiooniti?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 >
 > Graafikus on kuvatud *neljapäevane* vahemik iga piirkonna grupi või jaama kohta, kus kvaliteedivärskendus on praegu planeeritud läbi pöörata. Kvaliteediuuendused algavad ainult märkeruutukeskkonnaga. Seejärel, kui edukalt juurutatud bokside protsent suureneb, algab tootmiskeskkondade juurutamine klientidele ettemakseteatistega.
 > 
@@ -122,7 +125,7 @@ Kasutage kb# 745340 10.0.28 kvaliteedivärskenduse rong ja sellega seotud rakend
 1. LCS-s avage oma **boksi** keskkonna üksikasjade leht. 
 2. Jaotises Saadaolevad **värskendused** valige viimase kvaliteediuuenduse **järgu** jaoks suvand Kuva värskendus. 
 3. Eksportige kooste CSV-sse või faili Microsoft Excel.
-4. Sortige eksporditud failis teave aja (vanima) alusel ja seejärel otsige kbnumbrit 745340 **Värskenda ID veerus**. Nüüd saate näha KB-de deltaloendit.
+4. Sortige eksporditud failis teave aja (vanima) alusel ja otsige seejärel KB-numbrit 745340 **Värskenda ID veerus**. Nüüd saate näha KB-de deltaloendit.
  
  > [!NOTE]
  > Csv- või Exceli faili eksportimine peab toimuma enne keskkonna värskendamist. Vastasel juhul saate kasutada sarnase konfiguratsiooniga keskkonda, mille puhul pole värskendus installitud ja järgida ülaltoodud juhiseid.
@@ -141,7 +144,7 @@ Jah. Et tagada pidev paarsus selle abil, kuidas kiirparandused töötavad, saab 
 Jah. Saate installida kvaliteedivärskenduse ennetavalt. Microsoft jätab värskenduse vahele, kui keskkonna praegune järguversioon on kõnealuse kvaliteedivärskendusega võrdne või sellest kõrgem.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Kui keskkonnas on eesseisev planeeritud igakuine teenuse värskendus nädala jooksul, kas see saab siiski kvaliteediuuendusi?
-- Kvaliteediuuendusi ei rakendata, kui eelseisva teenuse värskendus plaanitakse nädala jooksul alates kvaliteediuuenduse plaanist.
+- Kvaliteediuuendusi ei rakendata tootmiskeskkondadele, kui eelseisva teenuse värskendus plaanitakse nädala jooksul pärast kvaliteediuuenduse plaanimist.
 - Kui tolle keskkonnal on sama või kõrgem versiooni versioon kui eelseisval kvaliteedivärskendustel, jäetakse see vahele.
 - Kui tootmiskeskkonnal on sama või kõrgem versiooni versioon kui eelseisval kvaliteedivärskendustel, jäetakse see vahele.
 - Kui eboksil on kvaliteedi uuendamise või tootmise käsitsi uuendamise tõttu sama või kõrgem koosteversioon, saab tootmine ikkagi igakuiste teenusvärskenduste planeeritud versiooni. Kui te ei soovi, et plaanitud tootmiskeskkond uuendaks teenuse värskendusversiooni, saate teenuse värskenduse LCS-i kaudu peatada. 

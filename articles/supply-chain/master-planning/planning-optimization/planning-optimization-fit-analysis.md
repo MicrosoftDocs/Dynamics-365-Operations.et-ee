@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591846"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643727"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -104,7 +104,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Ohutuspiirid | Ohutuspiiriga koondplaanid: *\#* | Seda funktsiooni nüüd toetatakse. Lisateabe saamiseks vt [Ohutuspiirid](safety-margins.md) |  Toetatud |
 | Puhvervaru täitmine | Kauba laovarude kirjed, mille säte „Täida minimaalselt” erineb sättest „Tänane kuupäev + tarneaeg”: *\#* | Planeerimise optimeerimine kasutab sätet *Tänane kuupäev + tarneaeg*. See muudatus tehti selleks, et valmistada ette lihtsustatud planeerimise seadistamine tulevikus ja pakkuda kasutatavat tulemust. Kui tarneaega puhvervarus ei arvestata, lükatakse plaanitud tellimused, mis luuakse praeguse vähese vaba kaubavaru jaoks, täitmisaja tõttu alati edasi. Selline käitumismudel võib põhjustada palju müra ja soovimatuid plaanitud tellimusi. Parim tava on muuta sätet nii, et kasutatakse sätet *Tänane kuupäev + tarneaeg*. Värskendage koondandmeid, et vältida hoiatusi. | Pole rakendatav |
 | Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: *\#* | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2022 vabastav voo 2 või uuem |
-| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu kõlblikkusaega, kui planeerimise optimeerimine on lubatud. | Toetatud |
+| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
