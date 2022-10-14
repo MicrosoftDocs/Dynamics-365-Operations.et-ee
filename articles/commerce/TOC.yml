@@ -394,6 +394,8 @@
                   items:
                     - name: Rakendus Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Rakendus Store Commerce mobiiliplatvormidele
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS-i migreerimine Store Commerce'i
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Seadmehalduse juurutamise juhised
