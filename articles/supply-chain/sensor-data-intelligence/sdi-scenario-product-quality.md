@@ -1,5 +1,5 @@
 ---
-title: Toote kvaliteedi stsenaarium
+title: Tootekvaliteedi stsenaarium
 description: See artikkel annab teavet toote kvaliteedi stsenaariumi kohta. See stsenaarium kasutab andurit tootepartii kvaliteedi mõõtmise mõõtmiseks ja loob teatise, kui mõõtmine langeb väljapoole määratletud läve.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428978"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690044"
 ---
-# <a name="the-product-quality-scenario"></a>Toote kvaliteedi stsenaarium
+# <a name="the-product-quality-scenario"></a>Tootekvaliteedi stsenaarium
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Toote kvaliteedi *stsenaariumis* seadistatakse andur tootepartii kvaliteedi mõõtmiseks tööde juhtimises. Kui mõõtmine langeb väljapoole toote määratletud läve, kuvatakse teatis ülevaataja armatuurlaudal. Näiteks mõõtmisb andur tootmisreast välja tulev toidutoote mõõtu. Kui mõõtmine on väljaspool toote maksimaalne lubatud miinimum- või maksimumväärtust, luuakse teatis.
 
@@ -113,7 +114,7 @@ Järgige neid samme toote kvaliteedi stsenaariumi *häälestamiseks* tarneahela 
 1. **Jaotises Andurid** ärikirjete **vastendamise lehel** valige kirje ühe äsja lisatud andurite jaoks.
 1. Jaotises Ärikirjete **vastendamine** valige **suvand** Uus, et lisada rida ruudustikku.
 1. Uuel real tuleks välja **Ärikirje tüüp** väärtuseks automaatselt *seada Resources (WrkCtrTable)*. Seadistage **ärikirje** väli ressursile, mida kasutate valitud andurit jälgimiseks. (Kui kasutate varem selles artiklis loodud demoandmeid, *seadistage selle väärtuseks 3118, Andmete lõikamise masin*.)
-1. Kohe pärast eelmises sammus lisatud rea ärikirje tüübi valimist lisatakse ruudustikku automaatselt teine rida. Selles reas tuleb välja **Ärikirje tüüp** väärtuseks määrata *Partii atribuudid (PdsBatchAttrib)*. Seadke väli **Ärikirje** partii atribuudile, mida kasutate valitud andurit jälgimiseks. (Kui kasutate varem selles artiklis loodud demoandmeid, seadke selle väärtuseks *Väljaminek, kusekuse protsent*.)
+1. Kohe pärast eelmises sammus lisatud rea ärikirje tüübi valimist lisatakse ruudustikku automaatselt teine rida. Selles reas tuleb välja **Ärikirje tüüp** väärtuseks *määrata Partii atribuudid (PdsBatchAttrib).* Seadke väli **Ärikirje** partii atribuudile, mida kasutate valitud andurit jälgimiseks. (Kui kasutate varem selles artiklis loodud demoandmeid, seadke selle väärtuseks *Väljaminek, kusekuse protsent*.)
 1. Valige **Edasi**.
 1. Andurite **aktiveerimise lehe** ruudustikus valige lisatud andur ja seejärel valige aktiveeri **.** Iga aktiveeritud anduri puhul ruudustikus kuvatakse märge veerus **Aktiivne**.
 1. Valige **Lõpeta**.

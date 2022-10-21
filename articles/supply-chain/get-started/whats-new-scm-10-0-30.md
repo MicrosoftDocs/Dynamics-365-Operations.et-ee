@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429119"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689182"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management eelvaade 10.0.30 (november 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-See artikkel loetleb funktsioonid, mis on Microsofti eelvaate versioonis Dynamics 365 Supply Chain Management 10.0.30 uued või muutunud. Sellel versioonil on järgu number 10.0.1362 see on saadaval järgmises graafikus.
+See artikkel loetleb funktsioonid, mis on Microsofti versioonis Dynamics 365 Supply Chain Management 10.0.30 uued või muutunud. Sellel versioonil on järgu number 10.0.1362 see on saadaval järgmises graafikus.
 
 - **Avaldamise eelvaade:** september 2022
 - **Väljalaske üldine kättesaadavus (ise värskendamine):** oktoober 2022
@@ -34,8 +33,8 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Tootmine | [Anduriandmete teabega seadmete s monitorimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Anduriandmete teabe avaleht](../sensor-data-intelligence/sdi-home-page.md) | Funktsioonihaldus:<br>*(Eelversioon) Anduri andmeanalüüs* |
-| Laohaldus | Mitmetasandilised kõrvalepõiked Warehouse Managementi mobiilirakenduses <!-- KFM: Add link when RP updates --> | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonihaldus:<br>*Mitmetasandilised kõrvalepõiked Warehouse Managementi mobiilirakenduses* |
+| Tootmine | [Anduriandmete teabega seadmete s monitorimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence’i avaleht](../sensor-data-intelligence/sdi-home-page.md) | Funktsioonihaldus:<br>*(Eelversioon) Anduri andmeanalüüs* |
+| Laohaldus | [Mitmetasandilised demeetrid laohalduse mobiilirakenduse jaoks](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonihaldus:<br>*Mitmetasandilised kõrvalepõiked Warehouse Managementi mobiilirakenduses* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
@@ -45,14 +44,14 @@ Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda fu
 
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
-| Tootmise juhtimine | Tootmistellimuste vaba kaubavaru teave vabastamiseks | Lisab veeru vaba laoseisu kogusele reaüksuse jaoks vabastatavate tootmistellimuste **ridade jaotises** |
+| Tootmise juhtimine | Laoseisu teave tootmistellimustel väljastuslehele | Lisab veeru vaba laoseisu kogusele reaüksuse jaoks vabastatavate tootmistellimuste **ridade jaotises** |
 | Transpordihaldus | Saadetiste määramine seotud protsessisegmentidesse | See funktsioon võimaldab süsteemil saadetise veokulusid täpsemini osadeks määrata, sh mitme saadetisega koormatele, mis tarnitakse erinevatesse segmentimissihtkohtadesse ühes protsessis. See määrab iga saadetise sobivama marsruudisegmendiga, mis põhineb saadetise ja segmendi sihtaadressidel. Funktsioon arvutab siis iga saadetise veokulu proportsioonina koorma veose kogukulust, mis põhineb saadetise suhtelisel kaalul, mahul, kogusel ja läbitud vahemaal. See funktsioon kehtib ainult transpordihalduse (TMS) mooduliga hallatavate saadetiste puhul. |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finantside ja toimingute rakenduste platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.30 Finance and Operations rakendustest (november 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md) <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.30 Finance and Operations rakendustest (november 2022).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186573"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689484"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Nõudlusepõhiste materjalinõuete planeerimise (DDMRP) ülevaade
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Aastate jooksul on ettevõtted kasutanud materjalinõuete planeerimist (MRP) süsteemina toote tootmiseks vajalike materjalide ja komponentide arvutamiseks. Tarneahelaid on nüüd muudetud. Osadel on pikemad täitmisajad, kuna need on pärit ülemerest. Seetõttu on paljud ettevõtted teatanud, et seal esineb lao- või üleladusid, sest nad ei tea, kui palju laovarusid ladustada. Samuti on olemas rohkem turu kõikumisi (vahel valesti prognoositud) ning kliendid nõuavad tooteid lühikese täitmisajaga. Seetõttu on tarneahela puudujääke üle kogu maailma. Lisaks annavad MRP tööriistad sageli planeerijatele teha tuhandetel toiminguid. Seetõttu on raske teada, kuhu keskenduda. Sageli on paljude nende probleemide lahendus lülituda nõudlusepõhise materjali nõuete planeerimisele (DDMRP).
 

@@ -1,5 +1,5 @@
 ---
-title: Piiratud võimsuse planeerimine ja planeerimine
+title: Piiratud võimsuse planeerimine ja ajastamine
 description: Piiratud võimsuse planeerimine ja planeerimine aitab teil mõista, kui palju tööd saab konkreetse perioodi jooksul toota, kui võetakse arvesse erinevate ressursside piiranguid.
 author: t-benebo
 ms.date: 09/19/2022
@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573147"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689689"
 ---
-# <a name="finite-capacity-planning-and-scheduling"></a>Piiratud võimsuse planeerimine ja planeerimine
+# <a name="finite-capacity-planning-and-scheduling"></a>Piiratud võimsuse planeerimine ja ajastamine
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 Piiratud võimsus on lähenemine, mis aitab teil mõista, kui palju tööd konkreetse perioodi jooksul saab teha, kui võetakse arvesse erinevate ressursside piiranguid. Piiratud võimsuse planeerimise eesmärk on tagada töö laekumine kogu tehases ühtlasel ja efektiivsel ajal.
 

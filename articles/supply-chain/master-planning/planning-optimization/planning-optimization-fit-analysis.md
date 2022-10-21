@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643727"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689990"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -62,7 +62,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | --- | --- | --- | --- |
 | Tegevused | Laovarude grupp, mille tegevuste arvutamine on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud |
 | Põhikalendrid | Põhikalendrit kasutavad kalendrid: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud | 
-| Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koond: *\#* | See funktsioon on ootel. Praegu eiratakse partii likvideerimiskoode, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koond: *\#* | Seda funktsiooni nüüd toetatakse. Lisateavet vt jaotisest Partii likvideerimiskoodide [kasutamine partiide märkimiseks kättesaadavaks või mitte kättesaadavaks.](../../inventory/batch-disposition-codes.md) | Toetatud |
 | Võimeline lubama (CTP) | Tellimuse vaikesätted, milles tarnekuupäeva kontrolliks on seatud CTP: *\#* | Tarneahela halduses 10.0.28 *ja uuemas protsessis nimetatakse planeerimise optimeerimise CTP-iks* kinnitatud lähetus- ja vastuvõtukuupäevi, mis on saadaval pärast dünaamilise plaani käivitamist. Tarneahela halduse vanemate versioonide puhul eiratakse pärand-CTP sätet, kui planeerimise optimeerimine on lubatud. | Toetatud |
 | Staatilise plaani kopeerimine dünaamilisse plaani | Koondplaneerimise parameetrites on lubatud staatilise plaani kopeerimine dünaamilisse plaani. | Sellest sättest hoolimata ei kopeeri planeerimise optimeerimine staatilist plaani dünaamilisse plaani. Üldiselt on see kontseptsioon vähem oluline kiiruse ja täieliku taasloomise tõttu, mida planeerimise optimeerimine võimaldab. Kui kasutatakse kaht või enamat plaani, tuleb iga plaani jaoks käivitada koondplaneerimine. | Pole |
 | Kinnitamine | Laovarude grupid, millel on määratud automaatkinnitamise ajapiir: *\#* | Versioonis 10.0.7 ja uuemates versioonides toetatakse kinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon *Automaatkinnitus planeerimise optimeerimiseks* on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |
@@ -104,7 +104,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Ohutuspiirid | Ohutuspiiriga koondplaanid: *\#* | Seda funktsiooni nüüd toetatakse. Lisateabe saamiseks vt [Ohutuspiirid](safety-margins.md) |  Toetatud |
 | Puhvervaru täitmine | Kauba laovarude kirjed, mille säte „Täida minimaalselt” erineb sättest „Tänane kuupäev + tarneaeg”: *\#* | Planeerimise optimeerimine kasutab sätet *Tänane kuupäev + tarneaeg*. See muudatus tehti selleks, et valmistada ette lihtsustatud planeerimise seadistamine tulevikus ja pakkuda kasutatavat tulemust. Kui tarneaega puhvervarus ei arvestata, lükatakse plaanitud tellimused, mis luuakse praeguse vähese vaba kaubavaru jaoks, täitmisaja tõttu alati edasi. Selline käitumismudel võib põhjustada palju müra ja soovimatuid plaanitud tellimusi. Parim tava on muuta sätet nii, et kasutatakse sätet *Tänane kuupäev + tarneaeg*. Värskendage koondandmeid, et vältida hoiatusi. | Pole rakendatav |
 | Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: *\#* | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2022 vabastav voo 2 või uuem |
-| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud |
+| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | See funktsioon on ootel. | 2022 vabastav voo 2 |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

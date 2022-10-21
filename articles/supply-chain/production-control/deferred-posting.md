@@ -1,5 +1,5 @@
 ---
-title: Saate lõpetatud kaubad enne töölehtedele sisestamist füüsiliselt kättesaadavaks teha.
+title: Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine
 description: Kui toodetud kaup on lõpetatuna kinnitatud, registreeritakse see kui see on edasiseks füüsiliseks töötlemiseks saadaval ja sisestatakse üks või mitu töölehte. See artikkel kirjeldab, kuidas viittöölehe sisestusi, lubades neid töödelda pakett-tööna teatejärjekorras.
 author: johanhoffmann
 ms.date: 08/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266498"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689336"
 ---
-# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Saate lõpetatud kaubad enne töölehtedele sisestamist füüsiliselt kättesaadavaks teha.
+# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Lõpetatud kaupade enne töölehele sisestamist füüsiliselt kättesaadavaks tegemine
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Kui töötaja esitab aruande toodetud kauba lõpetatuna, registreerib süsteem selle edasiseks füüsiliseks töötlemiseks (nt saadetis või panemine) kättesaadavaks. Selle protsessi ajal sisestatakse ka üks või mitu töölehte (nt lõpetatuna kinnitatud tööleht, komplekteerimislehe tööleht ja protsessikaardi tööleht). Kui soovite kaubad enne kõigi sisestuste töötlemist füüsiliselt kättesaadavaks teha, saate seadistada süsteemi töölehe sisestuste edasilükkamise jaoks. Edasilükatud sisestusi haldab seejärel pakett-töö, mis töötleb sisestusi süsteemiressursside lubatudna.
 
@@ -89,7 +90,7 @@ Teateprotsessori pakett-töö vastutab töölehe sisestuste töötlemise eest p�
 
 ## <a name="track-the-progress-of-your-deferred-postings"></a>Edasilükatud sisestuste edenemise jälgimine
 
-Edasilükatud töölehe sisestused järjekorras olevad teateprotsessori *teadetena*, mis ootavad, kuni teateprotsessor neid *töötleb*. Teateprotsessor tuleb seadistada käivituma plaanitud pakett-tööna. Teadete töötleja poolt töödeldud või töödeldud edasilükatud sisestusteadete vaatamiseks minge **\>\> tootmisjuhtimise tootmistellimuste edasilükatud tootmistellimuse sisestamisele**.
+Edasilükatud töölehe sisestused järjekorras olevad teateprotsessori *teadetena*, mis ootavad, kuni teateprotsessor neid *töötleb*. Teateprotsessor tuleb seadistada käivituma plaanitud pakett-tööna. Teadete töötleja poolt töödeldud või töödeldud edasilükatud sisestusteadete vaatamiseks minge **\>\> tootmisjuhtimise tootmistellimuste edasilükatud tootmistellimuse sisestamisele.**
 
 ### <a name="message-grid-columns-and-filters"></a>Teatepaneeli veerud ja filtrid
 

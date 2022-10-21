@@ -1,5 +1,5 @@
 ---
-title: Visuaalne ja käivitamine
+title: Visuaalne ja koostööd võimaldav täitmine
 description: See artikkel kirjeldab, kuidas jälgida oma nõudlusepõhiste materjalinõuete planeerimist (DDMRP) dekodeerimispunkte, puhvertsoone, planeeritud tellimusi ja ajalugu.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: e3afdd10860494b3cfe73a113a0e4e8fb07682a1
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186569"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689772"
 ---
-# <a name="visual-and-collaborative-execution"></a>Visuaalne ja käivitamine
+# <a name="visual-and-collaborative-execution"></a>Visuaalne ja koostööd võimaldav täitmine
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 See artikkel kirjeldab, kuidas jälgida oma nõudlusepõhiste materjalinõuete planeerimist (DDMRP) dekodeerimispunkte, puhvertsoone, planeeritud tellimusi ja ajalugu.
 
@@ -31,7 +32,7 @@ Microsoftis Dynamics 365 Supply Chain Management saate visuaalselt jälgida, kui
 
 1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
 1. Valige vabastatud kaup, mis on seadistatud dekodeerimispunktina. (Lisateavet vt teemast [Lao paigutamine](ddmrp-inventory-positioning.md).)
-1. Valige tegevuspaani vahekaardil **Plaan** kauba **laovarud**.
+1. Valige tegevuspaani vahekaardil **Plaan kauba laovarud** **.**
 1. Kauba laovarude **lehel** valige kauba laovarude kirje, mis loob dekodeerimispunkti. (Kirje näitab nende laovarude grupi nime, mis on seadistatud looma dekodeerimispunkte.)
 1. **Valige vahekaart Vabad**. See vahekaart sisaldab diagrammi, mis näitab, kuidas vabad kogused aja jooksul muutusid, koos väärtusega vabas kaubavaru tasemes, mis salvestati kindlal perioodil iga kord, kui optimeerimist käitatakse. Vahekaart sisaldab ka tabelit, mis näitab, millistesse järgnevatesse kategooriatesse iga kirjendatud vaba kaubavaru tase langeb:
 

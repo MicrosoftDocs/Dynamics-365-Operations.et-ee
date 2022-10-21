@@ -1,5 +1,5 @@
 ---
-title: Lao paigutamine
+title: Varude paigutamine
 description: See artikkel annab teavet strateegilise lao positsioonimise kohta, mis hõlmab punktide dekodeerimise tuvastamist tarneahelas, kus saate luua vaba kaubavaru, et tihendada täitmisajasid ja kasutada tarneahelale ära täitmisajasid.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186572"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689534"
 ---
-# <a name="inventory-positioning"></a>Lao paigutamine
+# <a name="inventory-positioning"></a>Varude paigutamine
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Strateegilise lao positsioon hõlmab punktide dekodeerimise tuvastamist tarneahelas, kus saate luua vaba kaubavaru. Seda lähenemist kasutatakse peamiselt täitmisaegade tihendamiseks ja tarneahelasse ära kasutada. See võimaldab teil leevendada "thewhip effect", sest nõudluse hälbeid ei läbitud kogu tarneahelas. (Vastavalt *sellele*, kuidas väikesed nõudluse kõikumised jaemüügitasemel võivad põhjustada progresseeruvalt suuremaid nõudluse kõikumisi hulgimüügi, levitaja, tootja ja toormaterjali tarnija tasemel.)
 
@@ -44,9 +45,9 @@ Kui valite, kuhu oma dekodeerimise punktid panna, arvestage kriteeriumina iga ko
 - Müügitellimuse nähtavuse horisond
 - Turupotentsiaalne täitmisaeg
 
-Microsofti näites võite panna oma esimese dekodeerimise punkti billette'ile *järgmistel* põhjustel:
+Microsofti näites võite panna oma esimese dekodeerimise punkti billette’ile *järgmistel* põhjustel:
 
-- Raske on saada materjalide allikaid, mida kasutatakse selle abil, et teha billette'i, ja allikaks on kättesaadavus. Seetõttu on välise *hälbe* kriteerium täidetud.
+- Raske on saada materjalide allikaid, mida kasutatakse selle abil, et teha billette’i, ja allikaks on kättesaadavus. Seetõttu on välise *hälbe* kriteerium täidetud.
 - Koosluse kooslused saab tükeldada mitmeks erinevaks kujuks ja suuruseks, et luua lisandeid teistele teie toodetavatele toodetele lisaks kooslustele. Seega on varude finantsvõimenduse *ja paindlikkuse* kriteerium täidetud.
 
 Seejärel võite panna järgmise dekodeerimispunkti kangakomplekti *, mis* on eelnevalt kärbiva kanga lõikamine. Võite selle punkti valida, sest teil on ainult üks kanga lõikamismasin. Seetõttu on kriitilise *tähtsusega toimingu kaitse* kriteerium täidetud.
@@ -73,7 +74,7 @@ Kuid kui rakendate eelnevalt valitud dekodeerimise punkte, on dekodeeritud kauba
 
 Kuna jaemüüjate laos on ainult lõpetatud tooted, pole koosluste probleem. Jaemüüjad saavad siiski kasutada DDMRP-d strateegiliste varude paigutamise ja puhvertasemete seadmisega, mis põhinevad ladustamisasukohtadel jaotusvõrgus.
 
-Järgmine näide näitab näidet ettevõtte kohta, kus on jaotuskeskus Seattle'is ja kauplustes Seattle, Atlantas ja Angeleses.
+Järgmine näide näitab näidet ettevõtte kohta, kus on jaotuskeskus Seattle’is ja kauplustes Seattle, Atlantas ja Angeleses.
 
 ![Punktide dekodeerimisel põhinedes asukohale jaemüügimudelis.](media/ddmrp-retail-decoupl-points-example.png "Punktide dekodeerimisse loomine jaemüügimudeli asukoha alusel")
 
@@ -120,7 +121,7 @@ Et seadistada kaup dekodeerimispunktiks, järgige neid samme.
 
 1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
 1. Otsige ja valige vabastatud kaup, mida soovite seadistada DDMRP jaoks.
-1. Valige tegevuspaani vahekaardil **Plaan** kauba **laovarud**.
+1. Valige tegevuspaani vahekaardil **Plaan kauba laovarud** **.**
 1. Kauba laovarude **lehel võib** juba olla loetletud mitu kauba laovarude kirjet, millest igaüks kehtib laoala ja tootedimensioonide erineva kombinatsiooni kohta. Saate valida olemasoleva kauba laovarude kirje, mis rakendub dimensioonidele, kus soovite luua dekodeerimispunkti. Võite ka valida tegevuspaanil **uue** kauba laovarude kirje loomiseks uue.
 1. Seadistage kauba laovarude kirje nagu tavaliselt. Peate määrama vähemalt saidi ja lao, kus dekodeerimispunkt rakendub.
 1. Kui vajalik kirje on veel valitud, valige vahekaart **Üldine**.

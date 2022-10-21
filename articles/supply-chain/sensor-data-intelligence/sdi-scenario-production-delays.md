@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428977"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690017"
 ---
 # <a name="the-production-delays-scenario"></a>Tootmise viivituste stsenaarium
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Tootmise *viivituste* stsenaarium loob teatise, kui tootmise läbilaske langeb allapoole kindlat läviväärtust. Selles stsenaariumis saadetakse *IoT keskusele* Microsoft Azure iga toodetud kauba kohta osalise väljamineku prognoos. Tellimuse Dynamics 365 Supply Chain Management viivituse arvutamisel võetakse aluseks tootmistellimuse plaanitud käitusaeg, toodetavate kaupade arv, *töö* töötamise aeg ja saadud osalise väljamineku signaalide arv. Luuakse viivituse teatis, kui töö osalise väljamineku *signaalide* arv langeb allapoole läviväärtust.
 

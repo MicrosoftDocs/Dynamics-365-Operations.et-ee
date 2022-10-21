@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269400"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689456"
 ---
 # <a name="vat-declaration-germany"></a>KM-i deklaratsioon (Saksamaa)
 
@@ -198,7 +198,8 @@ Järgige neid samme, et määrata, millised käibemaksukoodid loovad millised v�
 
    See vorming prinditakse tasakaalustusperioodi **käibemaksuaruande käivitamisel**. See prinditakse ka siis, kui **valite** käibemaksu maksete **lehel valiku** Prindi.
 
-4. **Maksuameti lehel** valige maksuamet ja seejärel valige väljal **Aruande paigutus** suvand **Vaikimisi**.
+4. Kui peate paranduste kohta aruande esitama, seadke eriaruande **jaotises** väärtuseks **Kaasa parandused väärtusele** **Jah**.
+5. Maksuameti **lehel** valige maksuamet ja valige väljal **Aruande kavand** suvand **Vaikimisi**.
 
 Kui konfigureerite KM-i deklaratsiooni juriidilises isikus, kus on mitu [KM-i registreerimist](emea-reporting-for-multiple-vat-registrations.md), järgige neid samme.
 

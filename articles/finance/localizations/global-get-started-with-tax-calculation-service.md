@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: See artikkel selgitab, kuidas maksuarvutust seadistada.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573301"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690379"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
@@ -124,6 +124,10 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
 8. Valige õige maksu [konfiguratsiooni versioon](global-tax-calcuation-service-overview.md#versions), mis põhineb teie finantsversioonil, ja seejärel valige käsk **Impordi**.
 9. Minge tagasi **Globaliseerimisfunktsioonide** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
+
+    > [!NOTE]
+    > Versioonis 10.0.26 **ja uuemates versioonides saate importida DEMF-i** demo juriidilisele isikule demofunktsiooni. Lisateavet vt impordi funktsiooni [demoandmetest](tax-calculation-import-export-feature.md).
+
 10. Saate valida ühe järgmistest funktsioonitüüpidest:
 
     - **Uus funktsioon** – Looge funktsiooniseadistuse, kus sisu on tühi.
@@ -154,8 +158,8 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     - **Hankija maksukohustuslase registreerimisnumbri rakendatavus** - Kui teil on mitu maksuregistreerimise numbrit ühe hankija kohta, saab maksuarvestuse lisandmoodul õige maksuregistreerimise numbri määrata automaatselt. Määrake selle vahekaardi maatriksis reeglid, mida tuleks määramiseks kasutada. Vastasel juhul jätkavad finants ja Supply Chain Management maksu registreerimisnumbri vaikenumbri kasutamist müügikannete maksustatavate dokumentide puhul.
     - **Loendikoodi rakendatavus** - Määrab automaatselt välja **Loendi kood** väärtuse paindlikumate ja konfigureeritavate reeglite abil. Määrake selle vahekaardi maatriksis reeglid, mida tuleks määramiseks kasutada. Vastasel juhul jätkavad finants- ja Supply Chain Management maksu vaikekoodi kasutamist maksustatavate dokumentide puhul.
 
-14. Vahekaardil **Maksukoodid** valige **Lisa** ning sisestage maksukood ja kirjeldus.
-15. Valige **maksukomponent**. Maksukomponent on meetodite grupp, mis määratleti valitud maksukonfiguratsiooni eelmises versioonis. Saadaval on järgmised maksu komponendid:
+15. Vahekaardil **Maksukoodid** valige **Lisa** ning sisestage maksukood ja kirjeldus.
+16. Valige **maksukomponent**. Maksukomponent on meetodite grupp, mis määratleti valitud maksukonfiguratsiooni eelmises versioonis. Saadaval on järgmised maksu komponendid:
 
     - netosumma järgi
     - brutosumma järgi
@@ -163,8 +167,8 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     - Marginaali järgi
     - Maks maksult
 
-16. Valige käsk **Salvesta**. Valitud maksukomponendi põhjal on saadaval veel välju.
-17. Kasutage järgmisi valikuid maksukoodi olemuse tuvastamiseks:
+17. Valige käsk **Salvesta**. Valitud maksukomponendi põhjal on saadaval veel välju.
+18. Kasutage järgmisi valikuid maksukoodi olemuse tuvastamiseks:
 
     - On vabastatud
     - On kasutusmaks
@@ -179,8 +183,8 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 
     Halda maksumäärasid ja maksusumma limiite selle maksukoodi jaoks.
 
-18. Korrake samme 14–17 kõigi vajalike maksukoodide lisamiseks.
-19. Vahekaardil **Maksugrupp** valige veerg **Maksugrupp**, lisage see maatriksisse sisestustingimusena ja seejärel lisage read maksugrupi koondandmete säilitamiseks.
+19. Korrake samme 15–18 kõigi vajalike maksukoodide lisamiseks.
+20. Vahekaardil **Maksugrupp** valige veerg **Maksugrupp**, lisage see maatriksisse sisestustingimusena ja seejärel lisage read maksugrupi koondandmete säilitamiseks.
 
     Siin on näide.
 
@@ -191,7 +195,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EL       | BEL_Vabastus          |
 
-20. Vahekaardil **Maksugrupp** valige veerg **Üksuse maksugrupp**, lisage see maatriksisse sisestustingimusena ja seejärel lisage read maksugrupi koondandmete säilitamiseks.
+21. Vahekaardil **Maksugrupp** valige veerg **Üksuse maksugrupp**, lisage see maatriksisse sisestustingimusena ja seejärel lisage read maksugrupi koondandmete säilitamiseks.
 
     Siin on näide.
 
@@ -200,7 +204,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     | Täis           | DEU_VAT19; BEL_VAT21; DEU_Vabastus; BEL_Vabastus |
     | Alandatud        | DEU_VAT7; BEL_VAT6; DEU_Vabastus; BEL_Vabastus   |
 
-21. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
+22. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
 
     Siin on näide.
 
@@ -214,7 +218,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
     > [!NOTE]
     > Kui vaike käibemaksugrupp on maksustatava dokumendi ridadel õige, jätke see maatriks tühjaks. Lisateavet vt selle artikli käitusaja [kujunduse](#runtime) jaotisest.
 
-22. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi üksus** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
+23. Vahekaardil **Maksukoodide kohaldatavus** valige veerud, mis on nõutavad õige maksugrupi määramiseks, ja seejärel valige **Lisa**. Sisestage või valige väärtused iga veeru jaoks. **Maksugrupi üksus** väli on selle maatriksi väljund. Kui see vahekaart ei ole konfigureeritud, kasutatakse kandereal käibemaksugruppi.
 
     Siin on näide.
 
@@ -228,10 +232,10 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 
     Lisateavet maksukoodide määramise kohta maksu arvutuses vt [käibemaksugrupi ja kauba käibemaksugrupi määramise loogika](global-sales-tax-group-determination.md).
 
-23. Seadistage ettevõtte vajadustest lähtuvalt kliendimaksude registreerimisnumbrite, müüja maksukohustuslaste registreerimisnumbrite ja loendikoodide rakendatavus.
-24. Valige **Salvesta** ja sulgege seejärel leht.
-25. Valige **Muuda olekut** \> **Lõpule viidud**. Pärast oleku muutmist olekuks **Lõpetatud** ei saa seda versiooni enam redigeerida.
-26. Valige **Muuda olekut** \> **Avalda**. See maksufunktsiooni häälestuse versioon tõugatakse globaalsesse hoidlasse ja on nähtav igale finantsi juriidilisele üksusele.
+24. Seadistage ettevõtte vajadustest lähtuvalt kliendimaksude registreerimisnumbrite, müüja maksukohustuslaste registreerimisnumbrite ja loendikoodide rakendatavus.
+25. Valige **Salvesta** ja sulgege seejärel leht.
+26. Valige **Muuda olekut** \> **Lõpule viidud**. Pärast oleku muutmist olekuks **Lõpetatud** ei saa seda versiooni enam redigeerida.
+27. Valige **Muuda olekut** \> **Avalda**. See maksufunktsiooni häälestuse versioon tõugatakse globaalsesse hoidlasse ja on nähtav igale finantsi juriidilisele üksusele.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Maksuarvestuse seadistamine rakenduses Dynamics 365
 

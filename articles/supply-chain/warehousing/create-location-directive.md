@@ -2,7 +2,7 @@
 title: Asukohakorraldustega töötamine
 description: See artikkel kirjeldab, kuidas asukohadirektiividega töötada. Asukohakorraldused on kasutaja määratud reeglid, mis aitavad tuvastada komplekteerimise ja ladustamise asukohti varude liigutamisel.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903691"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689662"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -47,6 +47,20 @@ Enne asukohakorralduse loomist peate järgima neid samme, et veenduda, et eeltin
 1. Looge asukohad, asukohatüübid, -profiilid ja -vormingud. Lisateavet lugege teemast [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Looge kohad, tsoonid ja tsoonigrupid. Lisateavet lugege teemadest [Lao seadistamine](../../commerce/channels-setup-warehouse.md) ja [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a> Asukohadirektiivi ulatuse funktsiooni sisse- või väljalülitamine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Asukohadirektiivide *funktsioon annab* teile asukohadirektiivide kujundamisel rohkem andmeid ning aitab vähendada liigseid konfiguratsioone. See lisab valikut **Ulatused**, mis asendab eelmist mitut **SKU valikut**. Kui mitme **SKU** *·* *suvandi väärtuseks saab määrata ainult Jah või Ei*,**ei** ole valikute puhul lubatud mitte ainult need kaks sätteid (*·* *ühe* kauba ja mitme kauba väärtuse kaudu), vaid ka kaks kaupa (*·* *ühe kauba või tellimuse ja kõigi väärtuste* kaudu). Lisateavet nende sätete kohta vt Asukohadirektiivide [kiirkaart](#location-directives-tab).
+
+Kui see on lubatud, **alistab valik Ulatus** **mitme SKU** suvandi ja on 100-protsendiline ühilduv olemasolevate konfiguratsioonidega.
+
+Selle funktsiooni kasutamiseks peate selle süsteemi sisse lülitama. Administraatorid saavad funktsioonihalduse [sätteid kasutada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et kontrollida funktsiooni olekut ja lülitada see sisse või välja. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+
+- **Moodul:** *laohaldus*
+- **Funktsiooni nimi: asukohadirektiivi** *ulatused*
+
 ## <a name="work-order-types-for-location-directives"></a>Asukohakorralduste töökäsutüübid
 
 Paljud asukohakorralduste jaoks määratud väljad on ühised kõigi töökäsutüüpide puhul. Kuid teised väljad on määratud kindlatele töökäsutüüpidele.
@@ -68,7 +82,7 @@ Järgmises tabelis loetletakse väljad, mis on kõigi töökäsutüüpide korral
 | Asukohakorraldus | Laoala |
 | Asukohakorraldus | Ladu |
 | Asukohakorraldus | Korralduse kood |
-| Asukohakorraldus | Mitu SKU-d |
+| Asukohakorraldus | Ulatus *või* mitu SKU-d |
 | Read | Järjekorranumber |
 | Read | Alates kogusest |
 | Read | Koguseni |
@@ -117,7 +131,9 @@ Toimingupaan lehel **Asukohakorraldused** hõlmab nuppe, mida saate kasutada kor
 
 - **Nihuta üles** – liigutage valitud asukohakorraldus järjestuses ülespoole. Näiteks saate liigutada selle järjestuses kohalt 4 kohale 3.
 - **Nihuta alla** – liigutage valitud asukohakorraldus järjestuses allapoole. Näiteks saate liigutada selle järjestuses kohalt 4 kohale 5.
+- **Kopeerimine** : avage dialoogiaken, kus saate luua praeguse asukohadirektiivi täpse koopia.
 - **Redigeeri päringut** – avage dialoogiboks, kus saate määratleda tingimusi, mille alusel valitud asukohakorraldust tuleks töödelda. Näiteks võite soovida, et see rakenduks ainult kindlale laole.
+- **Kinnitamiskatsed** : avage leht, kus saate seadistada automatiseeritud katsed määramaks, kuidas teie asukohadirektiivid erinevates lähtetingimustes käituvad. Sel viisil saate oma direktiivid kiiresti kinnitada, kui neid loote ja säilitate. Lisateavet vt jaotisest Katse asukohadirektiivid [koos kinnitamiskatsetega](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Asukohakorralduste päis
 
@@ -126,7 +142,7 @@ Asukohakorralduse päis sisaldab järgnevaid väljasid asukohakorralduse järjek
 - **Seerianumber** – see väli viitab järjestusele, mille alusel püüab süsteem rakendada valitud töökäsutüübi igat asukohakorraldust. Väikeseid numbreid rakendatakse esimestena. Järjestust saate muuta kasutades toimingupaanil nuppe **Nihuta üles** ja **Nihuta alla**.
 - **Nimi** – sisestage asukohakorraldust kirjeldav nimi. See nimi peaks aitama tuvastada korralduse üldist eesmärki. Näiteks sisestage *Müügitellimuse komplekteerimine laos 24*.
 
-## <a name="location-directives-fasttab"></a>Asukohakorralduste kiirkaart
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Asukohakorralduste kiirkaart
 
 Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on valitud loendipaanil väljal **Töökäsutüüp** .
 
@@ -145,7 +161,29 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
     > [!TIP]
     > Kui korralduse kood on määratud, siis ei otsi süsteem töö loomisel asukohakorraldusi järjekorranumbri järgi. Selle asemel otsib see korralduse koodi järgi. Sel moel saate määrata täpsemalt asukohadirektiivi, mida kasutatakse töömallis kindla etapi jaoks, nt materjalide ettevalmistamise etapi jaoks.
 
-- **Mitu SKU-d** – seadke selle suvandi väärtuseks *Jah*, et kasutada asukohas mitut varude arvestusühikut (SKU). Näiteks peab laadimisukse asukoha puhul olema lubatud mitu SKU-d. Mitme SKU lubamisel määratakse ladustamise asukoht töös ootuspäraselt. Kuid ladustamise asukoht saab käsitleda ainult mitme kaubaga ladustamist (kui töö hõlmab erinevaid SKU-sid, mis tuleb komplekteerida ja ladustada). See ei saa hakkama ühe SKU ladustamisega. Kui seate selle suvandi väärtuseks *Ei*, määratakse ladustamise asukoht ainult juhul, kui ladustamine hõlmab vaid üht tüüpi SKU-d.
+- **Ulatus** : kasutage seda suvandit, et määrata stsenaariumid, mille suhtes asukohadirektiivi rakendatakse. See valik asendab mitme **SKU** suvandi ja on saadaval ainult *siis*, kui asukohadirektiivi ulatus on teie süsteemis sisse lülitatud. (Lisateavet vt teemast [Lülitab asukohadirektiivi ulatuse funktsiooni sisse ja välja](#scopes-feature).)
+
+    | Ulatuse säte | Ühe kaubaga ühe tellimusega | Mitu sama kaubaga tellimust | Mitme kaubaga üks tellimus | Mitu tellimust mitme kaubaga |
+    |---|---|---|---|---|
+    | Üks kaup | Jah | Jah | Nr | Nr |
+    | Mitu kaupa | Nr | Nr | Jah | Jah |
+    | Üks kaup või tellimus | Jah | Jah | Jah | Nr |
+    | Kõik | Jah | Jah | Jah | Jah |
+
+    Järgmises tabelis kirjeldatakse, millal ulatused on saadaval ja kas need on lubatud päringu funktsiooni **Redigeeri** jaoks.
+
+    | Ulatus | Toetatud töö tüüp | Toetatud töötellimuste tüübid | Luba päringu redigeerimine |
+    |---|---|---|---|
+    | Üks kaup | Kõik | Kõik | Jah |
+    | Mitu kaupa | Kõik | Kõik | Nr |
+    | Üks kaup või tellimus | Paneb | Kaastoote ja kaastoote ära panemine, lõpetatud kaupade panemine, kanbani ära panemine, ostutellimused, kvaliteettellimused, ülekandmine, tagastustellimused, müügitellimused, üleviimismüük ja üleviimississetulek | Jah |
+    | Kõik | Paneb | Kõik | Nr |
+
+    > [!NOTE]
+    > - Et panna korraga korraga korraga mitmele kaubale ja ühele kaubale, peate tagama asukohadirektiivide olemasolu, mis katavad mõlemad stsenaariumid. Näiteks võite seadistada ühe või mitu ühe kauba või tellimuse asukohadirektiivi, et katta stsenaariumid, *mis* nõuavad trahvi häälestamist (nt päringu redigeerimise kaudu) *ja* seejärel ühe või mitu asukohadirektiivi järelejäänud stsenaariumite katmiseks.
+    > - Kuigi *panemiseks* saab *kasutada nii* ühe kauba kui ka mitme kauba ulatusi, põhjustab see lähenemine tavaliselt liigseid konfiguratsioone. Kaaluge hoopis *ühe kauba või* tellimuse ja *kõigi* ulatuse kasutamist, kuna selline lähenemine loob häälestuse.
+
+- **Mitu SKU-d** – kasutage seda suvandit stsenaariumi määramiseks, mille suhtes asukohadirektiivi rakendatakse. See säte asendatakse ulatuse sättega **,** kui asukohadirektiivi *ulatuse funktsioon* on teie süsteemis sisse lülitatud. (Lisateavet vt teemast [Lülitab asukohadirektiivi ulatuse funktsiooni sisse ja välja](#scopes-feature).) Seadistage see valik *valikule* Jah, et lubada asukohas kasutada mitut varude arvestusühikut (SKU-sid). Näiteks peab laadimisukse asukoha puhul olema lubatud mitu SKU-d. Mitme SKU lubamisel määratakse ladustamise asukoht töös ootuspäraselt. Kuid ladustamise asukoht saab käsitleda ainult mitme kaubaga ladustamist (kui töö hõlmab erinevaid SKU-sid, mis tuleb komplekteerida ja ladustada). See ei saa hakkama ühe SKU ladustamisega. Kui seate selle suvandi väärtuseks *Ei*, määratakse ladustamise asukoht ainult juhul, kui ladustamine hõlmab vaid üht tüüpi SKU-d.
 
     > [!IMPORTANT]
     > Selleks, et ladustada nii mitmeid kaupu kui ka üht SKU-d, peate määrama kaks rida, millel on sama struktuur ja seadistus, kuid peate seadma ühe rea korral suvandi **Mitu SKU-d** väärtuseks *Jah* ja teise rea korral *Ei*. Ladustamistoimingute jaoks peavad teil olema identsed asukohakorraldused, isegi kui te ei pea eristama töö ID-s üht ja mitut SKU-d. Kui te ei seadista mõlemat asukohakorraldust, siis on rakendatud asukohakorralduse loodud äriprotsesside asukohad ootamatud. Peate kasutama sarnast seadistust asukohakorralduste jaoks, mille **Töö tüüp** on *Komplekteerimine* , kui teil on vaja töödelda tellimusi, mis sisaldavad mitut SKU-d.
@@ -255,6 +293,5 @@ Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korralduse
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Spikri artikkel: [laotöö juhtimine töömallide ja asukohadirektiivide abil](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

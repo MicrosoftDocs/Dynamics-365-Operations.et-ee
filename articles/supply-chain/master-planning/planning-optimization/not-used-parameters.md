@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542276"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682664"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameetrid, mida Planning Optimization ei kasuta
 
@@ -111,10 +111,8 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid või valikuid **Koo
 
 - Kiirkaart **Üldine**.
 
-  - **Kaasa käsil olev kaubavaru** – ootel *kaubavaru inventuuri* tugi.
   - **Halda kaubavaru** – ootel *kaubavaru inventuuri* tugi.
   - **Tarbi vaba kaubavaru** – vaba *kaubavaru toe ootel* tarbimine.
-  - **Kaasa varu kandeid** – ootel *kaubavaru inventuuri* tugi.
   - **Kaasa müügipakkumised** – ootel *müügipakkumiste* tugi.
   - **Kaasa hinnapakkumiste taotlused** – ootel *pakkumiste taotluse* tugi.
   - **Kasutage kõlblikkusaja kuupäevi** – ootel *kõlblikkusaja* tugi.
@@ -190,4 +188,3 @@ Planning Optimization ei kasuta lehel järgmisi parameetreid **Partii likvideeri
 
   - **Tasaarveldus** – ootel *partii likvideerimiskoodid* tugi.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

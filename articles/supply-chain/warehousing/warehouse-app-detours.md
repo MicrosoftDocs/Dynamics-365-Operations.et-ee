@@ -4,23 +4,25 @@ description: See artikkel kirjeldab, kuidas konfigureerida menüükäske nii, et
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428059"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689306"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Selles artiklis kirjeldatud funktsioonid kehtivad ainult uuele laohalduse mobiilirakendusele. Need ei mõjuta vana laorakendust, mis on nüüdseks iganenud.
@@ -38,6 +40,7 @@ Enne kui saate mobiilseadme menüü-üksustes sammude ümbersuunamisi konfiguree
 1. Lülitage sisse järgmised funktsioonid, mis pakuvad selles artiklis kirjeldatud funktsioone:
     - *Warehouse management appi kõrvalepõiked*<br>(Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon vaikimisi sisse lülitatud.)
     - *Mitmetasandilised kõrvalepõiked Warehouse Managementi mobiilirakenduses*
+    - *Kõrvalepõikeetappide automaatne edastamine Warehouse Managementi mobiilirakenduses*
 1. *Kui laohalduse rakenduse dekrüptimine ja/* või mitmetasemeliste dekutased laohalduse mobiilirakenduse funktsioonide jaoks ei ole veel sisse lülitatud, värskendage laohalduse mobiilirakenduse väljanimesid, *·* **\>\> liikudes laohalduse häälestuse \>** mobiilse seadme rakenduse väljanimedele ja valides suvandi **Loo vaikehäälestus.** Lisateavet vt [Mobiilirakenduse Warehouse Management väljade konfigureerimine](configure-app-field-names-priorities-warehouse.md).
 1. Korrake eelmist sammu iga juriidilise isiku (ettevõtte) puhul, kus kasutate Warehouse Management mobiilirakendust.
 
@@ -49,7 +52,7 @@ Menüüspetsiifilise ülekirjutamise ümbersuunamise seadistamiseks kasutage jä
 1. Leidke **Etapi ID** ja **menüüelemendi nime** nende väärtuste kombinatsioon, mida soovite redigeerida, ja valige väärtus veerus **Etapi ID**.
 1. Ilmuval lehel kiirkaardil **Saadaolevad ümbersuunamised (menüüelemendid)** saate määrata menüüelemendi, mis peaks toimima ümbersuunamisena. Lisaks saate valida, millised põhiülesande väljaväärtused kopeeritakse automaatselt ümbersuunamiselt ja sealt ümbersuunamisele. Näiteid, mis näitavad, kuidas neid sätteid kasutada, vaadake selles artiklis allpool stsenaariume.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Näidisstsenaarium 1: müügivalik, kus asukohapäring toimib ümbersuunamisena
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Näidisstsenaarium 1: müügivalik, kus asukohapäring toimib ümbersuunamisena
 
 See stsenaarium näitab, kuidas konfigureerida asukohapäring ümbersuunamisena töötaja juhitud müügikomplekti töövoos. See ümbersuunamine võimaldab töötajatel otsida üles kõik numbrimärgid kohas, kust nad valivad, ja valida numbrimärgi, mida nad soovivad valimise lõpetamiseks kasutada. Seda tüüpi ümbersuunamine võib olla kasulik, kui vöötkood on kahjustatud ja seetõttu skanneri jaoks loetamatu. Teise võimalusena võib olla kasulik, kui töötaja peab õppima, mis süsteemis tegelikult saadaval on. Pange tähele, et see stsenaarium töötab ainult siis, kui valite numbrimärgiga kontrollitavatest kohtadest.
 
@@ -59,7 +62,7 @@ Määratud näidiskirjete ja väärtuste kasutamiseks selle stsenaariumi läbimi
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Looge menüüpõhine ülekirjutamine ja konfigureerige 1. stsenaariumi jaoks ümbersuunamine
 
-Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **Müügi komplekteerimine** jaoks ümbersuunamise.
+Selles protseduuris konfigureerite litsentsiplaadi **sammus** müügi komplekteerimismenüü üksuse de taomi.
 
 1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme etapid**.
 1. Otsige üles sammu ID, mille nimi on *LicensePlateId* ja valide see.
@@ -70,15 +73,17 @@ Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **M
 1. Dialoogiboksis **Lisa ümberuunamine** valige ümbersõiduks **Asukohapäring**, mis tehakse kättesaadavaks Warehouse Management mobiilirakenduses.
 1. Valige nupp **OK**.
 1. Valige kiirkaardil **Saadaolevad ümbersuunamised (menüüelemendid)** äsja lisatud ümbersuunamine ja seejärel valige tööriistaribal **Vali saatmiseks väljad**.
-1. Dialoogiboksis **Vali saatmiseks väljad** määrake teave, mis tuleb ümbersuunamisele ja sealt tagasi saata. Selle stsenaariumi korral lubate töötajatel kasutada asukohapäringu ümbersuunamise sisendina asukohta, mille nad peaksid valima. Seetõttu jaotises **Saada komplekteerimisest** valige tööriistaribal **Lisa**, et lisada rida ruudustikule. Seejärel määrake uuel real järgmised väärtused.
+1. Dialoogiboksis **Vali saatmiseks väljad** määrake teave, mis tuleb ümbersuunamisele ja sealt tagasi saata. Selles stsenaariumis lubate töötajatel kasutada asukohta, millelt nad peaks asukohapäringus sisendina valima. Seetõttu jaotises **Saada komplekteerimisest** valige tööriistaribal **Lisa**, et lisada rida ruudustikule. Seejärel määrake uuel real järgmised väärtused.
 
     - **Saada müügkomplekteerimisest:** *Asukoht*
     - **Kleebi asukohapäringusse:** *Asukoht*
+    - **Automaatne edastamine:** *valitud* (leht värskendatakse kleepitud asukoha *väärtusega)*
 
 1. Kuna selle stsenaariumi korral on ümbersuunamine konfigureeritud numbrimärgi etapis, on kasulik, kui töötajad saavad numbrimärgi päringu juurest tagasi põhivoogu tuua. Seetõttu jaotises **Tooge asukohapäringust tagasi** valige tööriistaribal **Lisa**, et lisada rida ruudustikule. Seejärel määrake uuel real järgmised väärtused.
 
     - **Kopeeri asukohapäringust:** *Numbriplaat*
     - **Kleepige müügivalikusse:** *Numbriplaat*
+    - **Automaatne edastamine:** *tühjendatud* (automaatset uuendamist ei toimu, kui pöördutakse tagasi litsentsiplaadi *väärtusega kaubalt*)
 
 1. Valige nupp **OK**.
 
@@ -86,7 +91,7 @@ Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **M
 
 ### <a name="complete-a-sales-pick-on-a-mobile-device-and-use-the-detour"></a>Tehke mobiilseadmes müügivalik ja kasutage ümbersuunamist
 
-Selle protseduuri käigus lõpetate müügivaliku, kasutades Warehouse Management mobiilirakendust. Kasutate äsja seadistatud ümbersuunamist, et leida numbrimärk, mida kasutate valimisetapi lõpuleviimiseks.
+Selles protseduuris lõpetate müügi noppimise laohalduse mobiilirakenduse abil. Kasutate just konfigureeritud de lappi, et leida litsentsiplaat, mida kasutate pick stepi lõpuleviimiseks.
 
 1. Looge Microsoft Dynamics 365 Supply Chain Management rakenduses müügitellimus, mis nõuab numbrimärki jälgitavast asukohast valimiseks valimisetappi. Seejärel vabastage müügitellimus lattu. Märkige üles loodava töö ID.
 1. Avage Warehouse Management mobiilirakendus ja logige sisse lattu 24. (Standardsete demoandmete korral logige sisse, kasutades kasutaja ID-na nr *24* ja paroolina nr *1*.)
@@ -112,7 +117,7 @@ Määratud näidiskirjete ja väärtuste kasutamiseks selle stsenaariumi läbimi
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Looge menüüpõhine ülekirjutamine ja konfigureerige 2. stsenaariumi jaoks ümbersuunamine
 
-Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **Müügi komplekteerimine** jaoks ümbersuunamise.
+Selles protseduuris konfigureerite litsentsiplaadi **sammus** müügi komplekteerimismenüü üksuse de taomi.
 
 1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme etapid**.
 1. Otsige üles ja valige sammu ID, mille nimi on *LocationInquiryList*.
@@ -131,6 +136,7 @@ Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **M
 
     - **Kopeeri asukohapäringust:** *Asukoht*
     - **Kleebi liikumises:** *Loc / LP*
+    - **Automaatne edastamine:** *tühjendatud* (automaatset värskendamist ei toimu)
 
     Sellel ümbersuunamisel ei eeldata, et teavet tagasi kopeeritakse, kuna põhivoog oli päring, mille puhul pole vaja täiendavaid samme teha.
 
@@ -140,7 +146,7 @@ Selle protseduuri käigus konfigureerite numbrimärgi etapis menüüelemendi **M
 
 ### <a name="do-a-location-inquiry-on-a-mobile-device-and-use-the-detour"></a>Tehke mobiilseadmes asukohapäring ja kasutage ümbersuunamist
 
-Selle protseduuri käigus teete asukohapäringu, kasutades Warehouse Management mobiilirakendust. Seejärel kasutate kauba liikumise lõpetamiseks ümbersuunamist.
+Selles protseduuris teete asukoha päringu laohalduse mobiilirakenduse abil. Siis kasutate dekrüptimist kaupade liikumise lõpuleviimiseks.
 
 1. Avage Warehouse Management mobiilirakendus ja logige sisse lattu 24. (Standardsete demoandmete korral logige sisse, kasutades kasutaja ID-na nr *24* ja paroolina nr *1*.)
 1. Valige menüü **Varud** ja seejärel uus menüükäsk **Asukohapäring**.
@@ -153,3 +159,5 @@ Selle protseduuri käigus teete asukohapäringu, kasutades Warehouse Management 
 
 > [!NOTE]
 > Laohalduse *mobiilirakenduse* mitmetasemelised dekrüptid võimaldab määratleda mitmetasemelised dekrüptid (de lisade piires), mis võimaldab töötajatel kohe teise võimalusena alustada olemasolevatelt dekubaasidelt ja seejärel uuesti tagasi. See funktsioon toetab kahest kastist väljamineku tasemeid ja vajadusel saate kohandada oma süsteemi, et toetada kolme või enama detsidi tasemeid, luues tabelile koodi laiendeid`WHSWorkUserSessionState`.
+>
+> Laohalduse *mobiilirakenduse funktsiooni automaatse* esitamise etapid võivad laohalduse mobiilirakenduses rahavooge teha töötajatele kiiremini ja lihtsamaks. See võimaldab vahele jätta mõned voosamme, välja jättes rakenduse asustamisandmed tagaosas ja seejärel liikuda automaatselt järgmisele astmele, edastades lehekülje automaatselt, [*nagu näha näidisstsenaariumis 1: müügi komplekteerimine, kus asukoha päring toimib kui lahknemine*](#scenario-1).

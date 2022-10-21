@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853492"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682894"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -53,7 +53,7 @@ Kiirkaardil **Andmete filtreerimine** saate määratleda aruande alusandmed. Sel
 |-------------------------------------------------------------------|-------------|
 | Kuluarvestuse pearaamat                                            | **Kuluarvestuse pearaamat**, millel aruanne põhineb. Väärtus tuletatakse väljalt **Kulu juhtimisüksus**. |
 | Kulu juhtseade                                                 | Väärtus, mille valite, määrab kuluarvestuse pearaamatu ja kuluobjektid, millel see aruanne põhineb. |
-| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excel`isse.</blockquote> |
+| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>**MÄRKUS:**<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excel`isse.</blockquote> |
 | Kuluobjekti dimensioonihierarhia      | Valige määratletava aruandluse eesmärgiga sobiva kuluobjekti dimensiooni dimensioonihierarhia. |
 | Eelarve algne versioon                                           | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis algse eelarvena. |
 | Eelarve parandatud versioon                                            | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis parandatud eelarvena. |
@@ -64,7 +64,7 @@ Kiirkaardil **Andmete filtreerimine** saate määratleda aruande alusandmed. Sel
 
 | Väli                  | Kirjeldus |
 |------------------------|-------------|
-| Rahanduskalendri periood | Valige rahanduskalendri periood, millele määrata üldkulude arvutuse ID.<blockquote>[!NOTE]<br>Sellel väljal loetletud rahandusperioodid pärinevad rahanduskalendrist, mis on seotud kuluarvestuse pearaamatuga.</blockquote> |
+| Rahanduskalendri periood | Valige rahanduskalendri periood, millele määrata üldkulude arvutuse ID.<blockquote>**MÄRKUS:**<br>Sellel väljal loetletud rahandusperioodid pärinevad rahanduskalendrist, mis on seotud kuluarvestuse pearaamatuga.</blockquote> |
 | Tegelik versioon         | Valige sobiv üldkulude arvutuse ID. |
 | Eelarve versioon         | Valige sobiv üldkulude arvutuse ID. |
 | Parandatud eelarve versioon | Valige sobiv üldkulude arvutuse ID. |
@@ -77,10 +77,10 @@ Valitud veergudes olevaid väärtusi korrutatakse valitud väärtustega kiirkaar
 
 | Väli                | Kirjeldus |
 |----------------------|-------------|
-| Praegune periood       | Kuvatakse jooksva rahandusaasta saldo.<blockquote>[!NOTE]<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi.</blockquote> |
-| Eelmine periood      | Kuvatakse eelmise rahandusaasta saldo. Arvutamisel kasutatakse järgmist valemit:<br>Praegune rahandusperiood – 1<blockquote>[!NOTE]<br>Vaikimisi tuletatakse eelmine periood seansi kuupäevast. **Kulujuhtimise** tööruumist saab valida jooksvaks perioodiks konkreetse rahandusperioodi. **Eelmine periood** arvutatakse siis vastavalt ümber.</blockquote> |
-| Aasta lõppkuupäevani         | Kuvatakse jooksev aasta. Arvutamisel kasutatakse järgmist valemit:<br>YearToDate (jooksev rahandusperiood)<blockquote>[!NOTE]<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi ja väärtust **Jooksev aasta** muudetakse vastavalt.</blockquote> |
-| Jooksva aasta keskmine | Kuvatakse jooksva aasta keskmine. Arvutamisel kasutatakse järgmist valemit:<br>(YearToDate [praegune rahandusperiood]) ÷ (arv [praegune rahandusperiood])<p><strong>Näide</strong></p><ul><li>**Statistilise dimensiooni liige:** täiskohaga töötajad</li><li>**Praegune kuupäev:** 3-21-2017</li><li>**Periood:** rahandusperiood 1, rahandusperiood 2, rahandusperiood 3</li><li>**Väärtus:** 10, 10, 12</li></ul>Sel juhul **Jooksva aasta keskmine** = (10 + 10 + 12) ÷ 3 = 10,67<p>Väärtuse **Jooksva aasta keskmine** saab arvutada kuluelemendi dimensiooniliikmete ja statistiliste dimensiooniliikmete kohta.</p><blockquote>[!NOTE]<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi ja väärtusi **Jooksev aasta** ning **Jooksva aasta keskmine** muudetakse vastavalt.</blockquote> |
+| Praegune periood       | Kuvatakse jooksva rahandusaasta saldo.<blockquote>**MÄRKUS:**<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi.</blockquote> |
+| Eelmine periood      | Kuvatakse eelmise rahandusaasta saldo. Arvutamisel kasutatakse järgmist valemit:<br>Praegune rahandusperiood – 1<blockquote>**MÄRKUS:**<br>Vaikimisi tuletatakse eelmine periood seansi kuupäevast. **Kulujuhtimise** tööruumist saab valida jooksvaks perioodiks konkreetse rahandusperioodi. **Eelmine periood** arvutatakse siis vastavalt ümber.</blockquote> |
+| Aasta lõppkuupäevani         | Kuvatakse jooksev aasta. Arvutamisel kasutatakse järgmist valemit:<br>YearToDate (jooksev rahandusperiood)<blockquote>**MÄRKUS:**<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi ja väärtust **Jooksev aasta** muudetakse vastavalt.</blockquote> |
+| Jooksva aasta keskmine | Kuvatakse jooksva aasta keskmine. Arvutamisel kasutatakse järgmist valemit:<br>(YearToDate [praegune rahandusperiood]) ÷ (arv [praegune rahandusperiood])<p><strong>Näide</strong></p><ul><li>**Statistilise dimensiooni liige:** täiskohaga töötajad</li><li>**Praegune kuupäev:** 3-21-2017</li><li>**Periood:** rahandusperiood 1, rahandusperiood 2, rahandusperiood 3</li><li>**Väärtus:** 10, 10, 12</li></ul>Sel juhul **Jooksva aasta keskmine** = (10 + 10 + 12) ÷ 3 = 10,67<p>Väärtuse **Jooksva aasta keskmine** saab arvutada kuluelemendi dimensiooniliikmete ja statistiliste dimensiooniliikmete kohta.</p><blockquote>**MÄRKUS:**<br>Vaikimisi määrab jooksva perioodi seansi kuupäev. **Kulujuhtimise** tööruumist saab valida konkreetse rahandusperioodi. Valitud väärtus kajastab siis jooksvat perioodi ja väärtusi **Jooksev aasta** ning **Jooksva aasta keskmine** muudetakse vastavalt.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Kulude jaoks kuvatavad veerud
 
@@ -88,11 +88,11 @@ Kiirkaardil **Kulude jaoks kuvatavad veerud** määrab kuluarvestaja, milliseid 
 
 | Väli                 | Kirjeldus |
 |-----------------------|-------------|
-| Fikseeritud kulu            | Selles veerutüübis kuvatakse fikseeritud kulu valitud üldkulude arvutuse ID põhjal.<blockquote>[!NOTE]<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
-| Muutuv kulu         | Selles veerutüübis kuvatakse muutuv kulu valitud üldkulude arvutuse ID põhjal.<blockquote>[!NOTE]<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
-| Fikseeritud ja muutuv kulu | Selles veerutüübis kuvatakse fikseeritud kulu ja muutuv kulu valitud üldkulude arvutuse ID põhjal.<blockquote>[!NOTE]<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
-| Kogumaksumus            | Selles veerutüübis kuvatakse kogukulu (liigitamata kulu, fikseeritud kulu ja muutuv kulu).<blockquote>[!NOTE]<br>Selles veerutüübis kuvatakse alati saldo.</blockquote> |
-| Liigitamata kulu     | Selles veerutüübis kuvatakse liigitamata kulu.<blockquote>[!NOTE]<br>Seda veergu saab kasutada kontrollimiseks, kas kõik kulud on üldkulude arvutuses õigesti liigitatud või tuleb kulukäitumise reegleid korrigeerida.</blockquote> |
+| Fikseeritud kulu            | Selles veerutüübis kuvatakse fikseeritud kulu valitud üldkulude arvutuse ID põhjal.<blockquote>**MÄRKUS:**<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
+| Muutuv kulu         | Selles veerutüübis kuvatakse muutuv kulu valitud üldkulude arvutuse ID põhjal.<blockquote>**MÄRKUS:**<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
+| Fikseeritud ja muutuv kulu | Selles veerutüübis kuvatakse fikseeritud kulu ja muutuv kulu valitud üldkulude arvutuse ID põhjal.<blockquote>**MÄRKUS:**<br>Selles veerutüübis kuvatakse saldo ainult siis, kui rahandusperioodi jaoks on valitud üldkulude arvutamise ID.</blockquote> |
+| Kogumaksumus            | Selles veerutüübis kuvatakse kogukulu (liigitamata kulu, fikseeritud kulu ja muutuv kulu).<blockquote>**MÄRKUS:**<br>Selles veerutüübis kuvatakse alati saldo.</blockquote> |
+| Liigitamata kulu     | Selles veerutüübis kuvatakse liigitamata kulu.<blockquote>**MÄRKUS:**<br>Seda veergu saab kasutada kontrollimiseks, kas kõik kulud on üldkulude arvutuses õigesti liigitatud või tuleb kulukäitumise reegleid korrigeerida.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Eelarvestatud kulude jaoks kuvatavad veerud
 
@@ -103,12 +103,12 @@ Kiirkaardil **Eelarvestatud kulude jaoks kuvatavad veerud** määrab kuluarvesta
 
 | Väli                     | Kirjeldus |
 |---------------------------|-------------|
-| Eelarve                    | Eelarvesaldod kuvatakse valitud veergude kohta.<blockquote>[!NOTE]<br>Saldod põhinevad kiirkaardil **Andmete filtreerimine** valitud eelarveversioonidel.</blockquote> |
+| Eelarve                    | Eelarvesaldod kuvatakse valitud veergude kohta.<blockquote>**MÄRKUS:**<br>Saldod põhinevad kiirkaardil **Andmete filtreerimine** valitud eelarveversioonidel.</blockquote> |
 | Eelarve hälve           | Arvutage ja kuvage eelarve ning tegelike väärtuste vaheline erinevus. Arvutamisel kasutatakse järgmist valemit:<br>Eelarvesaldo – tegelik saldo |
 | Eelarve hälbe %      | Arvutage ja kuvage eelarve ning tegelike väärtuste vaheline erinevus protsentides. Arvutamisel kasutatakse järgmist valemit:<br>(Eelarvesaldo – tegelik saldo) ÷ eelarvesaldo |
-| Hälbe perioodi lävi | Määrake jooksva perioodi hälbe piirmäär rahasummana. Piirmäära ületamisel tõstetakse rida **kulujuhtimise** tööruumis punasega esile.<blockquote>[!NOTE]<br>See väli kehtib ainult kulusid kajastavatele kuluelementidele.</blockquote> |
+| Hälbe perioodi lävi | Määrake jooksva perioodi hälbe piirmäär rahasummana. Piirmäära ületamisel tõstetakse rida **kulujuhtimise** tööruumis punasega esile.<blockquote>**MÄRKUS:**<br>See väli kehtib ainult kulusid kajastavatele kuluelementidele.</blockquote> |
 | Hälbe aasta lävi   | Määrake aasta hälbe piirmäär rahasummana. Piirmäära ületamisel tõstetakse rida **kulujuhtimise** tööruumis punasega esile. |
-| Hälbe läve %      | Määrake hälbe piirmäär protsentides. Piirmäära ületamisel tõstetakse rida **kulujuhtimise** tööruumis punasega esile.<blockquote>[!NOTE]<br>Sama piirmäära protsent rakendub jooksvale perioodile ning aastale.</blockquote> |
+| Hälbe läve %      | Määrake hälbe piirmäär protsentides. Piirmäära ületamisel tõstetakse rida **kulujuhtimise** tööruumis punasega esile.<blockquote>**MÄRKUS:**<br>Sama piirmäära protsent rakendub jooksvale perioodile ning aastale.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Kulujuhtimise tööruum
 

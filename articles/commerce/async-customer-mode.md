@@ -2,19 +2,19 @@
 title: Asünkroonne kliendi loomise režiim
 description: See artikkel kirjeldab asünkroonset kliendi loomise režiimi moodulis Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473702"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690285"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Asünkroonne kliendi loomise režiim
 
@@ -46,6 +46,7 @@ Selleks, et aidata organisatsioonidel klientide haldamiseks kasutada async Custo
 | Luba kliendi sünkroonse ja asünkroonse loomise paarsus | 10.0.24 ja uuem | <p>Funktsioonilüliti: **täiustatud async Customeri loomise lubamine**</p><p>Funktsiooni üksikasjad: võimalus koguda täiendavat teavet, nt tiitel, vaikekliendi alluvused ja teisene kontaktteave (telefoninumber ja meiliaadress), kui loote kliente asünkroonselt</p> |
 | Kasutajasõbralikud tõrketeated | 10.0.28 ja uuem | Need täiustused aitavad parandada kasutajasõbralikuid tõrketeateid, kui kasutaja ei saa sünkroonimise ajal teavet kohe redigeerida. Lubage need täiustused, **kasutades Commerce’i saidikonstruktori saidisätete laiendustes teatud** **\>** kasutajaliidese elemente, et neid ei saa muuta. |
 | Klienditeabe asünkroonse redigeerimise võimalus | 10.0.29 ja uuem | <p>Funktsioonilüliti: **klientide redigeerimise lubamine asünkroonses režiimis**</p><p>Funktsiooni üksikasjad: oskus redigeerida kliendi andmeid asünkroonselt</p><p>Asünkroonselt klienditeabe redigeerimisega [seotud tavaprobleemidele vastuste saamiseks vt Asünkroonse kliendi loomise režiimi KKK-d](async-customer-mode-faq.md).</p> |
+| Kliendihalduse toimingute sünkroonimise auditeerimise võimalus | 10.0.31 ja uuem | Selline täiustus võimaldab kasutajatel commerce headquartersi kliendihalduse toimingute sünkroonimist auditeerida. Samuti võimaldab see kasutajatel vajadusel muudatusi teha ja andmeid sünkroonida. |
 
 ### <a name="feature-switch-hierarchy"></a>Funktsiooni lülituse hierarhia
 

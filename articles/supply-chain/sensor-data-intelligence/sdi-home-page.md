@@ -1,5 +1,5 @@
 ---
-title: Anduriandmete teabe avaleht
+title: Sensor Data Intelligence’i avaleht
 description: See artikkel annab ülevaate Anduri andmeteabest. Organisatsioonid saavad seda funktsiooni Dynamics 365 Supply Chain Management kasutada Microsofti äriprotsesside juhtida vastavalt tootmisplaani masinate ja seadmete reaktsiooni internetile (IoT).
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2e4cd8d4d4ffcd10d02fbf26615f12cdd6ccca9e
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: ba030364056db8b0524de22aacbc6528ef77813b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428982"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689853"
 ---
-# <a name="sensor-data-intelligence-home-page"></a>Anduriandmete teabe avaleht
+# <a name="sensor-data-intelligence-home-page"></a>Sensor Data Intelligence’i avaleht
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Microsofti anduri Dynamics 365 Supply Chain Management andmeteave võimaldab organisatsioonidel juhtida hankeahela halduses äriprotsesse, mis põhinevad tootmispinna masinate ja seadmete infol (IoT) põhinevates seadmetes. See on IoT *intelligence’i funktsiooni* uuendatud, ümbernimetatud versioon, mis oli eelnevalt saadaval tarneahela haldamise jaoks.
 
@@ -39,7 +40,7 @@ Anduri andmeteave võimaldab mitut tüüpi funktsioone, millest igaüks on esind
 | Stsenaarium | Kirjeldus |
 |---|---|
 | [Vara seisakuaeg](sdi-scenario-asset-downtime.md) | Jälgida masina varade efektiivsust, kasutades anduriandmeid masina tööea jälgimiseks. |
-| [Vara hooldus](sdi-scenario-asset-maintenance.md) | Minimeerige hoolduskulusid ja pikendage vara eluiga, parandades hooldusplaane, mis põhinevad masina varade kriitiliste kontrollpunktide lugemistel. |
+| [Varahaldus](sdi-scenario-asset-maintenance.md) | Minimeerige hoolduskulusid ja pikendage vara eluiga, parandades hooldusplaane, mis põhinevad masina varade kriitiliste kontrollpunktide lugemistel. |
 | [Arvuti olek](sdi-scenario-equipment-downtime.md) | Tagage operatsiooni efektiivsus, kasutades andurnäiduid planeerijate teavitamiseks masinakatkestustest ja pakub võimalusi võimalike viivituste maandamiseks. |
 | [Toote kvaliteet](sdi-scenario-product-quality.md) | Tagage tootepartiide kvaliteet, võrreldes iga tootepartii tegelike atribuutide (nt temperatuurid, temperatuur või kohandatud määratletud kvaliteedimõõdulised) andurinäidud. Süsteem teavitab kasutajaid hälvete ilmnemisel. |
 | [Tootmise viivitused](sdi-scenario-production-delays.md) | Kasutage andurinäiduid, et võrrelda tegelikku tsükli aega plaanitud tsükli ajaga ja teavitada ülevaatajad, kui tootmist ei ole graafikus. Seejärel saavad ülevaatajad vastavalt vajadusele tagada maksimaalse operatsiooni tõhusus. |

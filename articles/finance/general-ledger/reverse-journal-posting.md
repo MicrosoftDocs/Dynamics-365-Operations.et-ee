@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284847"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680380"
 ---
 # <a name="reverse-journal-posting"></a>Tühistatud sisestustööleht
 
@@ -37,7 +37,7 @@ Enne kui saate ühte selles artiklis kirjeldatud funktsioonidest kasutada, peab 
 Töölehe ridu saate ükshaaval muuta. Tühistatud töölehe sisestamisega saate ka kogu Finantstöölehe tagasi võtta. Töölehe tühistamine: 
 
 - Filtreerige sisestatud töölehed ja avage **Read** vaade töölehel.
-- Valige lehe ülaosas olevas menüüs **Storneeri**.
+- Valige lehekülje **ülaosas kogu** töölehemenüü tagasipööramine.
 - Näete kannete ja kanderidade koguarvu, samuti tühistatud ridade kogusummat.
 - Valige **Jah**, et kasutada olemasolevaid kande kuupäevi, või **Ei**, et sisestada uus. Mõnel juhul võib algse kande perioodi sulgeda ja tühistamise jaoks tuleb sisestada uue kande kuupäev.
 - Kui valisite **Ei**, sisestage tühistamise kande kuupäev. 

@@ -2,7 +2,7 @@
 title: Impordi- ja ekspordimaksude arvutused
 description: See artikkel annab teavet maksu arvutamise teenuse impordi ja ekspordi funktsioonide kohta.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855169"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690229"
 ---
 # <a name="import-and-export-tax-calculations"></a>Impordi- ja ekspordimaksude arvutused
 
@@ -98,3 +98,21 @@ Allalaaditud Exceli tööleht sisaldab maksugrupi kohaldatavusruudustiku **hää
 2. Valige RCS-i maksuarvutuse funktsiooni lehel vahekaardil Maksugrupi kohaldatavus suvand **Lisa**, **et lisada tühi kirje maksugrupi kohaldatavusruudustiku allosas**.**·** **·**
 3. Kopeeritud **ridade kleepimiseks ruudustikku valige klahv Ctrl+V**.
 4. Valige käsk **Salvesta**.
+
+## <a name="import-feature-demo-data"></a>Impordi funktsiooni demoandmed
+
+Järgige neid samme funktsiooni demoandmete importimiseks.
+
+1. Logige teenusesse [RCS](https://marketing.configure.global.dynamics.com/) sisse.
+2. Globaliseerimisfunktsiooni **tööruumis** valige **Funktsioonid ja** seejärel maksu arvutamise **paani**.
+3. Valige **impordi** funktsioon globaalsest hoidlast **ja** seejärel valige suvand **Sünkrooni**. 
+4. Tabelis valige maksuarvutuse **funktsiooni demoandmete funktsioon ja** seejärel valige **käsk Impordi**.
+5. Valige **vaade** imporditud funktsioonis määratletud maksukoodide, gruppide ja kohaldatavusreeglite ülevaatamiseks.
+6. Minge finantsis DEMF-i **juriidilisele** isikule ja minge seejärel maksu **häälestuse** \> **maksu** \> **konfiguratsiooni** \> **maksu arvutamise parameetritele.**
+7. Vahekaardil Üldine **valige** luba maksu **arvutamise teenus**.
+8. Väljal Funktsiooni **seadistuse nimi** valige maksuarvutuse **funktsiooni demoandmed**.
+9. Valige tasakaalustusperiood **ja** pearaamatu sisestamisgrupp **uutele** demo maksukoodidele ja seejärel valige **Kinnita**.
+10. Valige käsk **Salvesta**.
+
+> [!NOTE]
+> Maksuarvutuse **funktsiooni demoandmete demo** funktsioon põhineb funktsiooniversioonide 40.54.234 ja **on** **loodud DEMF-i** demo juriidilisele isikule. Kontrollige, et finantsid ja RCS-id täiendati versiooniks 10.0.26 või uuemaks versiooniks.

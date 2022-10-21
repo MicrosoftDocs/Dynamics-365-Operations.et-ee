@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671421"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689220"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -56,7 +56,9 @@ Protsessimuudatuste kogum rakendatakse enne enne kvaliteedivärskenduse juurutam
 
 - **Skeem**: tööriistamine tagab, et kvaliteedivärskenduse järgud sisaldavad ainult skeemi muudatusi, mida saab rakendada, kui teenus on võrgus. See lähenemine aitab säilitada võimalust rakendada uuendust nullväärtusega downtime’iga.
 - **Aktiivsete muudatuste** muutumine on juba täiendav protsessisamm, et kinnitada muudatused kvaliteedivärskendusse kaasamise jaoks. Regressioone võimalike vähendamiseks suurendatakse lisasammide edasist haldust. Kvaliteediuuenduste puhul pole katkestatud muudatused lubatud ja suurenenud muudatus aitab tagada, et vastame sellele sihile.
-- **Nähtavus** – me saadame teatised meili ja elutsükli teenuste (LCS) kaudu eesseisva ennetava kvaliteediuuenduse jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
+- **Nähtavus** – me saadame teatised halduskeskuse, elutsükli teenuste (LCS) ja muude saadaolevate kanalite kaudu eesseisva proaktiivsete kvaliteedivärskenduste jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
+ > [!NOTE]
+ > Microsofti kommunikatsioonimeeskond takistab meiliteatiste saatmist takistava meilitööriista jooksvat edastust. Jätkake teatekeskuse jälgimist Microsoft 365 sellega seotud sisse- ja väljaminek.
 - **Nurjumine turvaliselt lennupileti** kaudu – lennupileti kasutamist kasutatakse lähtekoodi muudatusteks, kui see on kvaliteedivärskenduse vigases paranduses, või kasutage paranduse jaoks asjakohast olemasoleva funktsioonilendimist. Kui pärast ennetavat juurutamist on vaja tagasipööramist või muutuse pööramist, saab seda teha lennusüsteemi kaudu, et vältida edasisi tõrkeid.
 - **Windowsi sünkroonimise määramine** – vähem kui 20%-l klientidest on täna mitu ruutu ja ühe boksi juurutamiseks on versiooni vastendamise tootmisse juurutatud, et aidata teil tõrkeotsingut. Kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see märkeruut kvaliteediuuendused uuemale versioonile.
 
@@ -80,10 +82,10 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 
 | Station | Regioonid | Lõpetatud graafik| Eesseisv graafiku graafik
 |---|---|---|---|
-| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | Septembrist 18. septembrini 2022 ja 19. septembrist kuni 22. septembrini 2022. | 7. oktoober - 10. oktoober 2022 |
-| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 25. september - 28. september 2022 | 7. oktoober - 10. oktoober 2022 |
-| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 26. september - 29. september 2022 | 7. oktoober - 10. oktoober 2022 |
-| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 28. september - 1. oktoober 2022. | 7. oktoober - 10. oktoober 2022 |
+| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 15. september – 18. september 2022, 19. september - 22. september 2022, ja 7. oktoober – 10. oktoober 2022. | 25. oktoober - 28. oktoober 2022. a |
+| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | Septembrist kuni 28. septembrini 2022 ja 7. oktoober - 10. oktoober 2022. | 25. oktoober - 28. oktoober 2022. a |
+| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | Septembrist kuni 29. septembrini 2022 ja 7. oktoober - 10. oktoober 2022. | 25. oktoober - 28. oktoober 2022. a |
+| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 28. september - 1. oktoober 2022 ja 7. oktoober - 10. oktoober 2022. | 25. oktoober - 28. oktoober 2022. a |
 | Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud | Pole plaanitud |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Ennetav kvaliteedivärskenduse vabastus: 10.0.29

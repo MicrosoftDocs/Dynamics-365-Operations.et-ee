@@ -2,19 +2,19 @@
 title: Ärivestlus Koos Dllchanneliga klienditeeninduse mooduli jaoks
 description: See artikkel kirjeldab Rakenduse Commerce Vestlus koos Thechanneliga customer Service’i moodulile moodulis Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473805"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690312"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Ärivestlus Koos Dllchanneliga klienditeeninduse mooduli jaoks
 
@@ -78,9 +78,12 @@ Vestlusmooduli lisamiseks saidi päise killustaks Commerce’i saidi koostajas, 
 
 1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. **Minge killustele** ja avage oma saidi päise killust.
-1. **Valige konteineri vaikepesas** kolmikpunkt (**...**) ja seejärel valige käsk Lisa **kill.**
+1. **Valige konteineri vaikepesas** kolmikpunkt (**...**) ja seejärel valige käsk Lisa **kill**.
 1. Dialoogiaknas **Vali** moodulid valige varem loodud vestluse tükk ja seejärel valige **OK**.
 1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+
+> [!NOTE]
+> Konfiguratsiooniparameetrite täieliku loendi leiate Commerce’i vestluse [mooduli ennetavast vestluseparameetritest](chat-proactive-chat-parameters.md).
 
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Commerce headquartersi lisamine klienditeeninduse jaoks rakenduse vahekaardina
 
@@ -115,6 +118,9 @@ Dynamics 365 klienditeeninduse kliendi agentidele uue rakenduse vahekaardi lubam
 1. Avage oma agentide jaoks loodud töövoog ja seejärel valige jaotises **Täpsemad sätted** suvand Seansi **vaikeväärtus**.
 1. Valige **jaotises Rakenduse vahekaardid** **vahekaart Lisa olemasolev rakendus** ja seejärel lisage varem loodud rakenduse vahekaart. See samm tagab, et rakenduse vahekaart, mis laadib Commerce headquartersi iFrame moodulisse, ilmub, kui agent saab sissetuleva vestluskutse teie e-äri veebisaidilt.
 
+> [!NOTE]
+> Te ei saa muuta vaikimisi vestlusseansi malli töövoos. Seetõttu võite soovida luua uue malli või olemasolevat malli uuendada. Lisateavet vt mallide seostamine [töövooga](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Dynamics 365Channel’i kontekstimuutujate lisamine klienditeeninduse jaoks
 
 Dynamics 365Keskusest klienditeeninduse jaoks kontekstimuutujate lisamiseks järgige neid samme.
@@ -128,3 +134,11 @@ Dynamics 365Keskusest klienditeeninduse jaoks kontekstimuutujate lisamiseks jär
 
 > [!NOTE]
 > Kui soovite e-ärikanalist lugeda sisse logitud kasutajate meiliaadressisid ja nimesid, **·** **·** **·** **saate** lisaks tekstitüübi kontekstimuutujale lisada ka e-posti ja nime tekstitüübi kontekstimuutujatena.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Ärivestluse funktsioonide ülevaade](commerce-chat-overview.md)
+
+[Ärivestlus mooduliga Power Virtual Agents](chat-module-pva.md)
+
+[Ärivestluse mooduli ennetavad vestluseparameetrid](chat-proactive-chat-parameters.md)

@@ -2,20 +2,20 @@
 title: Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 description: See artikkel annab teavet planeerimise optimeerimise väljalaske protsessi ja vabastamise ajaloo kohta.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 10/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.dyn365.ops.version: 10.0.31
+ms.openlocfilehash: e2437214b4a2a850f121bb86272bf7dc3d313507
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591873"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682556"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planeerimise optimeerimise väljaandmise protsess ja väljalaske ajalugu
 
@@ -31,22 +31,21 @@ Planeerimist optimeerimist kasutavad keskkonnad saavad automaatselt uusima versi
 
 Kuna teatisi ei kuvata, kui plaanimise optimeerimist teie keskkonnas värskendatakse, saate järgmises tabelis esitatud väljalaskemärkmed üle vaadata, et teha kindlaks, millal muudatused vabastati ja milliseid funktsioone need kasutusele võtsid. Selles tabelis kuvatakse planeerimise optimeerimiseks välja antud muudatused, kas need muudatused on seotud funktsioonihalduse funktsiooniga, ja väljaandmise kuupäev.
 
-<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
-
 | Muutused | Funktsioonihalduse üksikasjad | Väljalaske kuupäevad |
 |---|---|---|
-| <p> Piiratud võimsusega ressursi plaanimise tugi <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 19.09.23, 2022 |
-| <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 29. august – 3. september 2022 |
-| <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.<p>[Optimeerimise tsentraliseeritud kalendri hoolduse plaanimine](../supply-chain-calendars-master-planning.md)<p>[Optimeerimise soovituste plaanimine olemasoleva tarne optimeerimiseks](../action-messages.md)<p>[Plaanimise optimeerimise tugi allhankeks](../../production-control/manage-subcontract-work-production.md) | Funktsioonihaldust pole vaja. | 7. märts 11.2022 |
-| <p>Lisatud plaanimise prioriteedi tugi tootmistellimustele. | Saadaval versiooniga 10.0.25 *funktsiooni nimega Prioriteedipõhine MRP tugi plaanimise optimeerimise osana*. | 12. november 18, 2021 |
-| <p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 12. november 18, 2021 |
-| <p>Lisatud tugi protsessiaja arvutamise valemitele, kattuvale tootmisprotsessile ja vajadusekannete tootmisoperatsiooni numbrile.</p><p>Täiustatud tõrketeated tootmise planeerimisel, mis on seotud ajalõpuga, võimsust ei leitud ja tsükliline protsess.</p><p>Täiustatud ühtsus sissetuleku- ja väljaminekkuupäevade arvutamisel nii plaanitud kui ka kindla tellimuse puhul.</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 22. oktoober 27.09.2021 |
-| <p>Lisatud tugi praagi protsendi arvestamiseks töötlemisaja arvutamisel.</p><p>Lisati operatsiooninumbri ja materjalide kasutuse tugi planeerimise ajal. | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 5. oktoober 7. oktoober 2021 |
-| <p>Lisatud tugi tootmisprotsessi töötüüpidele: **ootel enne**, **ootel pärast** ja **transpordiaega**.</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 25. september 30.2021 |
-| <p>Lisatud üldplaanide tugi **Ajastamismeetod** seatud väärtusele *Toimingute ajastamine*.</p><p>**Marsruudirühmade** lehel järgige seadete **Aktiveerimine**, **Tööaeg** ja **Mahutavus** märkeruute ridadel, kus on *Seadistuse* või *Protsessi* **Marsruudi/töö tüüp**. </p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | <p>Toimingute ajastamine on saadaval funktsioonihalduses alates versioonist 10.0.20.</p><p>Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*</p>  | 9.-17. september, 2021 |
-| Üldjõudluse, kvaliteedi ja stabiilsuse täiustused. | Funktsioonihaldust pole vaja. | 25.-30. august 2021 |
-| <p>Plaanitud tellimustele lisati väli **Täitmisaeg**.</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.</p> | Funktsioonihaldust pole vaja. | 12.-17. august 2021 |
-| <p>Lõpmatu võimsuse planeerimisele lisati ressursitüübi nõuded.</p><p>Täiustatud ressursitõhusus ja kalendri tõhusus lõpmatu võimsuse planeerimisel.</p><p>Lisateavet vt teemast [Planeerimine lõpmatu võimsusega](infinite-capacity-planning.md). | <p>Saadaval funktsioonihalduses alates versioonist 10.0.20.</p><p>Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*</p> | 6.-12. juuli 2021 |
-| Üldised kvaliteediparandused. | Funktsioonihaldust pole vaja. | 6.-12. juuli 2021 |
+| <p>[Partii likvideerimiskoodid](../../inventory/batch-disposition-codes.md)</p><p>Kaasa koondplaanidesse vaba kaubavaru ja laokannete parameetrid</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | Funktsioonihaldus pole nõutav | 10. oktoober 14. oktoober 2022 |
+| <p>[Piiratud võimsusega ressursside plaanimine](finite-capacity.md)</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | Funktsioonihaldus pole nõutav | 19.09.23, 2022 |
+| Üldjõudluse, kvaliteedi ja stabiilsuse parendused | Funktsioonihaldus pole nõutav | 29. august – 3. september 2022 |
+| <p>[Tsentraliseeritud kalendri hooldus](../supply-chain-calendars-master-planning.md)</p><p>[Soovitused olemasoleva tarne optimeerimiseks](../action-messages.md)</p><p>[Allhanke tugi](../../production-control/manage-subcontract-work-production.md)</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | Funktsioonihaldus pole nõutav | 7. märts 11.2022 |
+| Tootmistellimuste prioriteedi toe plaanimine | Saadaval versiooniga 10.0.25 *funktsiooni nimega Prioriteedipõhine MRP tugi plaanimise optimeerimise osana*. | 12. november 18, 2021 |
+| Üldjõudluse, kvaliteedi ja stabiilsuse parendused | Funktsioonihaldus pole nõutav | 12. november 18, 2021 |
+| <p>Protsessiaja arvutamise valemite, kattumisega tootmisprotsessi ja vajadusekannete tootmisoperatsiooni numbri tugi</p><p>Täiustatud tõrketeated tootmise planeerimisel, mis on seotud ajalõpuga, võimsust ei leitud ja tsükliline protsess</p><p>Täiustatud ühtsus sissetulekukuupäevade ja väljaminekkuupäevade arvutamisel nii plaanitud kui ka kindla tellimuse puhul</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 22. oktoober 27.09.2021 |
+| <p>Tugi praagi protsendi arvestamiseks töötlemisaja arvutamisel</p><p>Operatsiooninumbri ja materjalide kasutamise tugi planeerimisel</p> | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 5. oktoober 7. oktoober 2021 |
+| <p>Tootmisprotsessi töötüüpide tugi: ootel **enne**, järjekord **pärast** ja **transpordiaeg**</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine* | 25. september 30.2021 |
+| <p>Koondplaanide tugi, kus planeerimismeetodi **väärtuseks** on seatud *Operatsioonide planeerimine*</p><p>Kas soovite **protsessigruppide** lehel arvesse kirjutada märkeruudud **Aktiveerimine**,**Tööaeg** ja Võimsus **ridade** jaoks, **mille protsessi/töö** *tüüp on Häälestus või* *Protsess?* </p><p>Üldjõudluse, kvaliteedi ja stabiilsuse parendused</p> | <p>Operatsioonide planeerimine on funktsioonihalduses saadaval versioonist 10.0.20</p><p>Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*</p> | 9.-17. september, 2021 |
+| Üldjõudluse, kvaliteedi ja stabiilsuse parendused | Funktsioonihaldus pole nõutav | 25.-30. august 2021 |
+| <p>Plaanitud tellimustele lisati väli **Täitmisaeg**.</p><p>Üldjõudluse, kvaliteedi ja stabiilsuse täiustused.</p> | Funktsioonihaldus pole nõutav | 12.-17. august 2021 |
+| <p>Lisatud ressursitüübi nõuded piiramatu võimsuse planeerimiseks</p><p>Täiustatud ressursiefektiivsus ja kalendri efektiivsus piiramatu võimsuse planeerimisel</p><p>Lisateavet vt piiramatu võimsusega [plaanimine.](infinite-capacity-planning.md)</p> | <p>Funktsioonihalduses saadaval versiooni 10.0.20 alusel</p><p>Funktsiooni nimi: *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*</p> | 6.-12. juuli 2021 |
+| Üldised kvaliteediparandused | Funktsioonihaldus pole nõutav | 6.-12. juuli 2021 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
