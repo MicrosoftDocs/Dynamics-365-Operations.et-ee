@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Asünkroonsete klientide teisendamine sünkroonseteks klientideks
               href: convert-async-to-sync.md
+            - name: Klienditoimingute sünkroonimise auditeerimine
+              href: audit-async-customer-operations.md
             - name: Asünkroonse kliendi loomise režiimi KKK
               href: async-customer-mode-faq.md
             - name: Kliendisuhtlus
@@ -1296,9 +1298,15 @@
                       href: cookie-consent-module.md
                 - name: Vestlusmoodulid
                   items:
-                    - name: Commerce’i vestlusmoodul
+                    - name: Commerce’i vestluse funktsioonide ülevaade
+                      href: commerce-chat-overview.md
+                    - name: Commerce’i vestlus Customer Service’i mooduli omnikanaliga
                       href: commerce-chat-module.md
-            - name: Otsing
+                    - name: Commerce’i vestlus mooduliga Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: Commerce’i vestlusmooduli proaktiivsed vestlusparameetrid
+                      href: chat-proactive-chat-parameters.md
+            - name: Tellimuste otsing
               items:
                 - name: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
                   href: category-search-page-overview.md

@@ -14,6 +14,8 @@
               items:
                 - name: Mis on platvormivärskenduste avalehel uut või mida on muudetud?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormivärskendused versioonile 10.0.31 (veebruar 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Versiooni 10.0.30 platvormivärskendused (november 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Versiooni 10.0.29 platvormivärskendused (oktoober 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Üksuse muudatuste jälgimine
                   href: data-entities/entity-change-track.md
+                - name: Luba olemi reaversiooni muudatuse jälgimine
+                  href: data-entities/rowversion-change-track.md
                 - name: Teabe otsimine standardsete andmeüksuste kohta
                   href: data-entities/data-entities-report.md
                 - name: Mitme töölehe andmemallid
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse’i virtuaalüksuste lubamine
                   href: power-platform/enable-virtual-entities.md
+                - name: Jälgi virtuaalsete tabelite muudatusi rakenduses Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Power Appsi portaalid finants- ja äritoimingutega
                   href: power-platform/power-portal-reference.md
                 - name: Finants- ja äritoimingute virtuaalsete üksuste KKK

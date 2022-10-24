@@ -12,14 +12,12 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (veebruar 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (november 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (oktoober 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (august 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (juuli 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1773,13 +1771,17 @@
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Tarnegraafik
                   href: master-planning/supply-schedule.md
-                - name: Filtrite rakendamine plaanile
+                - name: Plaanile filtrite rakendamine
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Koondplaneerimine koos nõudluse prognoosiga
+                - name: Koondplaneerimine koos nõudluse prognoosidega
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Koondplaneerimine koos tarneprognoosidega
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Koondplaneerimine koos ostu kaubanduslepetega
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Planeerimise optimeerimise kasutatavad kuupäeva ja aja parameetrid
+                - name: Pakkimistel ja pakkumiskutsetel põhinev plaan
+                  href: master-planning/planning-optimization/quotation-planning.md
+                - name: 'Kuupäeva ja aja parameetrid, mida planeerimise optimeerimine ei kasuta'
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Ohutuspiirid
                   href: master-planning/planning-optimization/safety-margins.md
@@ -1843,7 +1845,7 @@
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Planeerimise optimeerimise tõrkeotsing
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Optimeerimise laiendatavuse planeerimine
+                - name: Planeerimise optimeerimise laiendatavus
                   href: master-planning/planning-optimization/extensibility.md
             - name: Koondplaanid
               items:
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Eelmääratletud tootevariantide loomine
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Kuva kasutajaliideses tõlgitud tootenimed ja kirjeldused
+                  href: pim/show-translated-product-info.md
                 - name: Mõõtühikute haldamine
                   href: pim/tasks/manage-unit-measure.md
                 - name: Mõõtühiku teisendus tootevariandi kohta
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Asukohakorraldustega töötamine
                       href: warehousing/create-location-directive.md
+                    - name: Vastuvõtutestidega asukohakorralduse testimine
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Laokannete tootefiltrite konfigureerimine
                       href: warehousing/filters-and-filter-codes.md
                     - name: Asukoha ladustamispiirangud
