@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860721"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708613"
 ---
 # <a name="configure-job-card-for-devices"></a>Töökaardi konfigureerimine seadmetele
 
@@ -73,7 +73,7 @@ Kiirkaart **Üldine** võimaldab konfigureerida valitud seadmekonfiguratsiooni k
 - **Ressursigrupp** – valige ressursigrupp, mida rakendatakse vaikefiltrikriteeriumina igale töötajatele kuvatava tööde loetelu puhul. Seadmes kuvatakse esialgu vaid tööd, mis plaanitakse ressurssidele, mis on grupeeritud valitud ressursigrupi alla. Kui suvand **Luba töötajatel seadistada isiklikke filtreid** on lubatud, siis saavad töötajad seda väärtust redigeerida. Vastasel juhul rakendatakse filtrit alati, kui seadme konfiguratsioon on aktiivne.
 - **Ressurss** – valige ressurss, mida rakendatakse vaikefiltrikriteeriumina igale töötajatele kuvatava tööde loetelu puhul. Seadmes kuvatakse esialgu vaid tööd, mis plaanitakse ressurssidele, mis on grupeeritud valitud ressursi alla. Kui suvand **Luba töötajatel seadistada isiklikke filtreid** on lubatud, siis saavad töötajad seda väärtust redigeerida. Vastasel juhul rakendatakse filtrit alati, kui seadme konfiguratsioon on aktiivne.
 - **Loo litsentsiplaat** – seadke suvandi väärtuseks **Jah**, et luua uus litsentsiplaat iga kord, kui töötaja kasutab töökaardi seadet töö lõpetamisest teatamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui väärtuseks on seatud **Ei**, siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.
-- **Prindi silt** – seadke suvandi väärtuseks **Jah**, et printida litsentsiplaadi silt, kui töötaja kasutab töökaardi seadet lõpetamisest teatamiseks. Sildi konfiguratsioon on seadistatud dokumendi marsruudivalikus, nagu on kirjeldatud teemas [Identifitseerimisnumbri siltide dokumendi marsruudivaliku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
+- **Prindi silt** – seadke suvandi väärtuseks **Jah**, et printida litsentsiplaadi silt, kui töötaja kasutab töökaardi seadet lõpetamisest teatamiseks. Sildi konfiguratsioon seadistatakse dokumendi marsruudivalikul, nagu on kirjeldatud dokumendi protsessisildi [paigutustes](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336541"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714693"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA päritolusertifikaat
 
@@ -57,7 +58,7 @@ Lisateavet kõigi nende elementide kohta ja nende väärtuste leidmis kohta vt �
 USMCA päritoludokumendi sertifikaadi printimiseks tehke järgmist:
 
 1. Tehke üht järgmistest valikutest.
-    - Avage **Transpordihaldus > Saadetised > Kõik saadetised** ja valige saadetis, mille jaoks soovite dokumenti printida.
+    - Minge transpordihalduse **plaanimissaadetistesse \>\>\> Kõik saadetised ja valige saadetis**, mille jaoks soovite dokumenti printida.
     - Avage **Saadetise üksikasjade** leht saadetise kohta, mille jaoks soovite dokumenti printida (siin on mitu moodust, sh lehelt **Kõik saadetised**).
 1. Avage toiminguribal **Saadetised** vahekaart ja valige **Prindi** grupist **USMCA päritolusertifikaat**.
 1. Avaneb **Päritolusertifikaadi** dialoogiaken. Tehke järgmistes jaotistes kirjeldatud sätted ja seejärel valige dokumendi loomiseks **OK**.

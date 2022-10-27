@@ -1,6 +1,6 @@
 ---
-title: Arvuta müügitellimuste, pakkumiste ja tagastuste importimisel ümber rea netosummad
-description: See artikkel kirjeldab, kas ja kuidas süsteem arvutab ümber rea netosummad müügitellimuste, pakkumiste ja tagastuste importimisel. See selgitab ka seda, kuidas saate kontrollida käitumist Microsofti erinevates versioonides Dynamics 365 Supply Chain Management.
+title: Arvuta müügitellimuste ja pakkumiste importimisel ümber rea netosummad
+description: See artikkel kirjeldab, kas ja kuidas süsteem arvutab ümber rea netosummad müügitellimuste ja pakkumiste importimisel. See selgitab ka seda, kuidas saate kontrollida käitumist Microsofti erinevates versioonides Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335551"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719330"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Arvuta müügitellimuste, pakkumiste ja tagastuste importimisel ümber rea netosummad
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Arvuta müügitellimuste ja pakkumiste importimisel ümber rea netosummad
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel kirjeldab, kas ja kuidas süsteem arvutab ümber rea netosummad müügitellimuste, pakkumiste ja tagastuste importimisel. See selgitab ka seda, kuidas saate kontrollida käitumist Microsofti erinevates versioonides Dynamics 365 Supply Chain Management.
+See artikkel kirjeldab, kas ja kuidas süsteem arvutab ümber rea netosummad müügitellimuste ja pakkumiste importimisel. See selgitab ka seda, kuidas saate kontrollida käitumist Microsofti erinevates versioonides Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Näitab, kuidas rea netosummade uuendusi impordil arvutatakse
 
-Tarneahela halduse versioon 10.0.23 [tutvustas 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). See luks muutis **tingimusi**, mille alusel saab rea netosumma välja uuendada või ümber arvutada, kui imporditakse olemasolevate müügitellimuste, tagastuste ja pakkumiste uuendusi. Versioonis 10.0.29 saate *selle veaparanduse asendada, lülitades sisse impordifunktsiooni arvuta rea netosumma*. Sellel funktsioonil on sarnane mõju, kuid see annab globaalse sätte, mis võimaldab teil vajadusel naasta vana käitumise juurde. Kuigi uus käitumine muudab süsteemi töö intuitiivsemaks, võib see anda ootamatuid tulemusi konkreetsetes stsenaariumides, kus on täidetud kõik järgmised tingimused:
+Tarneahela halduse versioon 10.0.23 [tutvustas 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). See luks muutis tingimusi, **mille** alusel saab rea netosumma välja uuendada või ümber arvutada, kui imporditakse olemasolevate müügitellimuste ja pakkumiste uuendusi. Versioonis 10.0.29 saate *selle veaparanduse asendada, lülitades sisse impordifunktsiooni arvuta rea netosumma*. Sellel funktsioonil on sarnane mõju, kuid see annab globaalse sätte, mis võimaldab teil vajadusel naasta vana käitumise juurde. Kuigi uus käitumine muudab süsteemi töö intuitiivsemaks, võib see anda ootamatuid tulemusi konkreetsetes stsenaariumides, kus on täidetud kõik järgmised tingimused:
 
 - *Andmeid, mis uuendavad olemasolevaid kirjeid, imporditakse müügitellimuse ridade V2,* müügipakkumise ridade *V2* *või* tagastustellimuse ridade üksuse kaudu, kasutades Open Data Protocoli (OData), kaasa arvatud olukorrad, kus kasutate topeltkirjutust, importimist/eksportimist Excelist ja mõningaid kolmanda osapoole integratsioone.
-- [Kaubanduslepingu hindamispoliitikad](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)**·**, mis on sisse määratud, loovad muudatusepoliitika, mis piirab müügitellimuse ridade, müügipakkumise ridade ja/või tagastustellimuse ridade netosumma välja uuendusi.
+- [Kaubanduslepingu hindamispoliitikad](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)**·**, mis on sisse määratud, loovad muudatusepoliitika, mis piirab müügitellimuse ridade, müügipakkumise ridade ja/või tagastustellimuse ridade netosumma välja uuendusi. Tagastustellimuse ridade puhul arvutatakse alati netosumma **väli** ja seda ei saa käsitsi seada.
 - **Imporditud** andmed hõlmavad ridade netosumma välja muudatusi või muudatusi (nt ühiku hind, kogus või allahindlus), **mis** põhjustab ridade netosumma välja väärtuse ümberarvutamise ühe või mitme olemasoleva rea kirje puhul.
 
 Nendes konkreetsetes stsenaariumides on kaubanduslelepingu **hindamispoliitika mõjuks piirata rea netosumma välja** uuendusi. Seda piirangut nimetatakse muutuse *poliitikaks*. Selle poliitika tõttu, kui kasutate välja redigeerimiseks või ümberarvutamiseks kasutajaliidest, palub süsteem teil kinnitada, kas soovite seda muudatust teha. Kuid kirje importimisel peab süsteem teie eest valiku tegema. Enne versiooni 10.0.23 jätk süsteemi rea netosumma alati muutmata, v.a juhul, kui sissetuleva rea netosumma on 0 (null). Kuid uuemates versioonides uuendab või arvutab süsteem netosumma alati ümber vastavalt vajadusele, v.a juhul, kui seda pole eraldi juhendatud seda tegema. Kuigi uus käitumine on loogilisem, võib see põhjustada probleeme teile, kui juba käitate protsesse või integratsioone, mis eeldavad vanemat käitumist. See artikkel kirjeldab, kuidas taastada vana käitumist, kui peate.

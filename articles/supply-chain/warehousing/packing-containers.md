@@ -1,5 +1,5 @@
 ---
-title: Pakkekonteinerid lähetamiseks
+title: Saadetise konteinerite pakkimine
 description: Selles artiklis kirjeldatakse pakkimisprotsessi, mis võimaldab teil kinnitada laovaru kaupu ja pakkida need konteineritesse.
 author: perlynne
 ms.date: 7/13/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220739"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708779"
 ---
-# <a name="pack-containers-for-shipment"></a>Pakkekonteinerid lähetamiseks
+# <a name="pack-containers-for-shipment"></a>Saadetise konteinerite pakkimine
 
 [!include [banner](../../includes/banner.md)]
 
@@ -33,8 +33,10 @@ Konteineritega saab kasutada mitut seotud väljamineva lao võimalust. Lisateave
 - [Väikepaki saatmine](small-parcel-shipping.md)
 - [Kinnitamine ja üleviimine](confirm-and-transfer.md)
 - [Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine](packing-vs-storage-dimensions.md)
-- [Väljaminevate konteinerite ja saadetiste töötlemise pakketöö](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [Väljaminevate konteinerite pakkimise ja saadetiste töötlemise pakkimistöö](packing-work.md)
+- [Pakkimiskonteinerid laohalduse mobiilirakendusega](warehouse-app-packing-containers.md)
+- [Näide stsenaarium: pakkige konteinerid laohalduse mobiilirakendusega](warehouse-app-pack-containers-scenario.md)
+- [Prindi konteineri sildid](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Lao käsitsi pakkimistoimingute kasutamiseks
 
@@ -234,7 +236,7 @@ Pakkimisprofiili häälestamiseks tehke järgmist.
 
 ### <a name="set-up-warehouse-workers"></a>Laotöötajate häälestada
 
-Igal **kasutajal** *·* *või töötajal, kes pakib konteinereid, kasutades veebikliendi pakkelehte või pakkimistegevuse koodi laohalduse mobiilirakenduses, peab olema kasutajakonto, mis on seotud töötaja/* isiku kirjega, millele on määratud nõutavad turbejuurdepääsu õigused. (Lisateavet kasutajate häälestamise kohta vt teemast [Saate luua uusi kasutajaid](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md).
+Igal **kasutajal** *·* *või töötajal, kes pakib konteinereid, kasutades veebikliendi pakkelehte või pakkimistegevuse koodi laohalduse mobiilirakenduses, peab olema kasutajakonto, mis on seotud töötaja/* isiku kirjega, millele on määratud nõutavad turbejuurdepääsu õigused. (Lisateavet kasutajate häälestamise kohta vt teemast [Saate luua uusi kasutajaid](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md).)
 
 Pakkeprotsessi jaoks töötaja */isiku kirje häälestamiseks* järgige neid samme.
 

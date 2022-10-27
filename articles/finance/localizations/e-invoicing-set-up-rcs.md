@@ -2,7 +2,7 @@
 title: Saate häälestada regulatiivset konfiguratsiooniteenust (RCS).
 description: See artikkel selgitab, kuidas seadistada regulatiivset konfiguratsiooniteenust (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285783"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710777"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Saate häälestada regulatiivset konfiguratsiooniteenust (RCS).
 
@@ -39,7 +39,16 @@ Globaliseerimisfunktsiooni tööruumi **paan** peaks nüüd ilmuma RCS-i põhipa
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Määrake parameetrid RCS integratsioonile koos Elekrtoonilise arveldusega
 
 1. Tööruumi **Globaliseerimisfunktsioonid** jaotisest **Seotud sätted** valige **Elektroonilise aruandluse parameetrid**.
-2. Vahekaardil Elektroonilise **arveldamise teenuse** **lõpp-punkti URI** Microsoft Azure väljal sisestage oma geograafia jaoks sobiv teenuse lõpp-punkt, nagu näha järgmises tabelis.
+2. Parameetrite esmakordsel häälestamisel palutakse teil luua ühendus elutsükli teenustega (LCS). Valige **siin, et luua ühendus elutsükli teenustega** ja pärast ühenduse loomise käivitamist valige **OK**.
+
+    > [!IMPORTANT]
+    > Riikides ja regioonides, kus andmete elukoht on jõustatud ja kui teie RCS on ette vaadatud eri regioonis, kus LCS on ressursid, võite RCS-is saada järgmise ühenduse tõrketeate: "RCS-is ei leitud HTTP-ressurssi, mis vastaks URI-le". Valige nupp **OK**. Võite saada teise tõrketeate RCS-is: "Dynamicsi elutsükli teenuste kasutaja loa loomine nurjus kasutaja nimel (). Palun võtke ühendust oma süsteemiadministraatoriga."
+    >  
+    > See juhtub, kuna LCS on globaalne teenus ja seda kasutatakse USA regioonis. Elukohapoliitika tõttu ei saa teie praeguse regiooni RCS LCS-ga ühendust luua. Nende kahe võimaluse all on kaks võimalikku lahendust:
+    > - Kustutage RCS oma praegusest regioonist ja looge see UUESTI USA regioonis.
+    > - Ignoreerige tõrkeid ja jätkake elektroonilise arvelduse häälestusega. Need tõrked ei mõjuta elektroonilise arveldamise funktsioone.
+
+3. Vahekaardil Elektroonilise **arveldamise teenuse** **lõpp-punkti URI** Microsoft Azure väljal sisestage oma geograafia jaoks sobiv teenuse lõpp-punkt, nagu näha järgmises tabelis.
 
     | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ Globaliseerimisfunktsiooni tööruumi **paan** peaks nüüd ilmuma RCS-i põhipa
     | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Prantsusmaa                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | India                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Norra                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Lõuna-Aafrika Vabariik               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Veenduge, et välja **Rakenduse ID** väärtuseks oleks määratud **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. See väärtus ei muutu. Kontrollige, et sisestatud oleks ainult globaalselt kordumatu kood (GUID) ja et väärtus ei sisaldaks muid sümboleid, nt tühikuid, komasid, punkte või jutumärke.
+3. Vaadake üle ja sisestage väljale **Rakenduse ID** fikseeritud väärtus **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Kontrollige, et sisestatud oleks ainult globaalselt kordumatu kood (GUID) ja et väärtus ei sisaldaks muid sümboleid, nt tühikuid, komasid, punkte või jutumärke.
 4. Sisestage **LCS-i keskkonna ID väljale oma elutsükli** teenuste (LCS) keskkonna ID Microsoft Dynamics. See väärtus on viide finants- või tarneahela halduskeskkonnale, mida kasutate elektroonilise arveldamise teenusega. ID [saamiseks logige LCS-i](https://lcs.dynamics.com/) sisse, **avage projekt ja seejärel vaadake vahekaardi Keskkonna** **·** **haldamine jaotises Keskkonna üksikasjad välja Keskkonna ID.**
 
     > [!IMPORTANT]

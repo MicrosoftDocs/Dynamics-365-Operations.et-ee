@@ -2,7 +2,7 @@
 title: Skontod
 description: Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.  Saadaolevat skontot saab määratleda kliendi- või hankija arve puhul ja see võetakse, kui arve tasutakse skonto kuupäeval.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1969aecbda6798290367fd505bf1b6ac06235a1d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 1db95720d56cc538f2d702137889467a9892d99c
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151906"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715177"
 ---
 # <a name="cash-discounts"></a>Skontod
 

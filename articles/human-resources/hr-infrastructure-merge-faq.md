@@ -2,7 +2,7 @@
 title: Dynamics 365 Human Resources infrastruktuuri ühendamise KKK
 description: See artikkel vastab korduma kippuvatele küsimustele infrastruktuuri ühendamise kohta Microsofti ja Dynamics 365 Human Resources finantside ja toimingute rakenduste kohta.
 author: twheeloc
-ms.date: 08/13/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd71d728f9c97dc9e2c44a7e7a0e773be891b818
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203195"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702063"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources infrastruktuuri ühendamise KKK
 
@@ -69,7 +69,7 @@ Meie eesmärk on vähendada siirde mõju klientidele. Me ei eemalda ühtegi funk
 
 ### <a name="will-the-user-experience-change"></a>Kas kasutajakogemus muutub?
 
-Kasutajakogemus on kooskõlas standardse Dynamics 365 platvormikogemusega. Kuigi armatuurlauda ja menüüde üldkogemus jääb sarnased, joondada see standardse Dynamics 365 Finance App Experience'iga. Navigeerimine hõlmab nii mooduleid kui ka tööruume, lubab lemmikuid jne. Tööruumid Dynamics 365 Human Resources, nt Personalihaldus **ja** Inimesed **·**, ühendatakse finantside ja toimingute infrastruktuuri. Tulevikus tarnitakse uued võimalused Funktsioonihalduse kaudu, mille abil kliendid saavad vaadata uusi funktsioone ja otsustada, milliseid neid kasutada soovite. Lisateavet vt Funktsioonihalduse ülevaatest [ja](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Kasutajaliidese [dokumentatsioonist](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json).
+Kasutajakogemus on kooskõlas standardse Dynamics 365 platvormikogemusega. Kuigi armatuurlauda ja menüüde üldkogemus jääb sarnased, joondada see standardse Dynamics 365 Finance App Experience’iga. Navigeerimine hõlmab nii mooduleid kui ka tööruume, lubab lemmikuid jne. Tööruumid Dynamics 365 Human Resources, nt Personalihaldus **ja** Inimesed **·**, ühendatakse finantside ja toimingute infrastruktuuri. Tulevikus tarnitakse uued võimalused Funktsioonihalduse kaudu, mille abil kliendid saavad vaadata uusi funktsioone ja otsustada, milliseid neid kasutada soovite. Lisateavet vt Funktsioonihalduse ülevaatest [ja](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Kasutajaliidese [dokumentatsioonist](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="when-will-the-dynamics-365-human-resources-infrastructure-merge-be-completed"></a>Millal infrastruktuuri Dynamics 365 Human Resources ühendamine lõpule viiakse?
 
@@ -85,9 +85,9 @@ Lisateavet arendusvõimaluste kohta vt "Avalehe [arendamine ja kohandamine"](../
 
 ## <a name="feature-availability-questions"></a>Funktsiooni saadavuse küsimused
 
-### <a name="will-the-linkedin-talent-hub-integration-work-on-the-finance-and-operations-infrastructure"></a>Kas LinkedIn Anne'i keskuse integreerimine töötab finantside ja operatsioonide infrastruktuuris?
+### <a name="will-the-linkedin-talent-hub-integration-work-on-the-finance-and-operations-infrastructure"></a>Kas LinkedIn Anne’i keskuse integreerimine töötab finantside ja operatsioonide infrastruktuuris?
 
-Ei, LinkedIn Anne'i keskuse integratsioon ei ole ühendatud infrastruktuuri osa. Avaliku rakenduse programmeerimisliidesed (API-d) on saadaval integratsioonide ehitamiseks värbamis- ja kandidaadi jälgimise lahendustega. Kliendid, kes plaanivad kasutada LinkedIn Anne'i keskust peaksid töötama koos Oma Microsofti partneriga, et integreerida, kasutades antud API-sid. Lisateavet kandidaadi jälgimissüsteemi (ATS) integratsiooni API-de kohta vt kandidaadi [jälgimissüsteemi integreerimise API sissejuhatusest](./hr-admin-integration-ats-api-introduction.md).
+Ei, LinkedIn Anne’i keskuse integratsioon ei ole ühendatud infrastruktuuri osa. Avaliku rakenduse programmeerimisliidesed (API-d) on saadaval integratsioonide ehitamiseks värbamis- ja kandidaadi jälgimise lahendustega. Kliendid, kes plaanivad kasutada LinkedIn Anne’i keskust peaksid töötama koos Oma Microsofti partneriga, et integreerida, kasutades antud API-sid. Lisateavet kandidaadi jälgimissüsteemi (ATS) integratsiooni API-de kohta vt kandidaadi [jälgimissüsteemi integreerimise API sissejuhatusest](./hr-admin-integration-ats-api-introduction.md).
 
 ### <a name="will-the-capabilities-that-are-currently-available-only-in-dynamics-365-human-resources-for-example-leave-management-and-benefits-management-be-available-after-the-merge-is-completed"></a>Kas praegu saadaolevad võimalused (Dynamics 365 Human Resources nt puhkuste haldus ja soodustuste haldus) on pärast ühendamist saadaval?
 

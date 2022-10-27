@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423591"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719311"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility avalikud API-d
 
@@ -47,6 +47,7 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /API/keskkond/{environmentId}/eelnevalt/muudatused ule/hulgi | Sisesta | [Mitme plaanitud vaba kaubavaru muudatuste loomine](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Sisesta | [Päring sisestamismeetodi abil](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Hangi | [Päring hankimismeetodi abil](#query-with-get-method) |
+| /API/keskkond/{environmentId}/ettemärge/täpnepäring | Sisesta | [Täpne päring sisestamismeetodi abil](#exact-query-with-post-method) |
 | /API/keskkond/eraldamine{environmentId}/eraldamine | Sisesta | [Loo üks eraldav sündmus](inventory-visibility-allocation.md#using-allocation-api) |
 | /API/keskkond/{environmentId} eraldamine/unallocate | Sisesta | [Ühe unallocate sündmuse loomine](inventory-visibility-allocation.md#using-allocation-api) |
 | /API/keskkond/{environmentId} eraldamine/ümberjaotamine | Sisesta | [Loo üks ümberjaotatud sündmus](inventory-visibility-allocation.md#using-allocation-api) |
@@ -109,7 +110,7 @@ Turbeteenusetõendi hankimiseks tehke järgmist.
      | client_id     | ${aadAppId}                                      |
      | client_secret | ${aadAppSecret}                                  |
      | grant_type    | client_credentials                               |
-     | Ulatus         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+     | Ulatus         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.Vaikimisi    |
 
    Vastuseks peaksite saama Azure AD loa (`aadToken`). See peals sarnanema järgmise näitega.
 
@@ -690,6 +691,80 @@ Siin on url-i näidis. See hankimise taotlus on täpselt sama, mis varem antud s
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a> Täpne päring sisestamismeetodi abil
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Taotluse kehaosa on `dimensionDataSource` valikuline parameeter. Kui see pole määratud, käsitletakse `dimensions` in-dimensioone `filters` põhidimensioonidena *·*. Väljadel on neli `filters` kohustuslikku välja: `organizationId`, `productId`, `dimensions` ja `values`.
+
+- `organizationId` peaks sisaldama ainult üht väärtust, kuid on siiski massiiv.
+- `productId` võib sisaldada üht või enamat väärtust. Kui see on tühi massiiv, tagastatakse kõik tooted.
+- Massiivis `dimensions` on nõutud`siteId`, `locationId` kuid võib ilmuda koos teiste elementidega mis tahes järjestuses.
+- `values` võib sisaldada ühte või enamale eristatavale väärtuse tupletile, mis vastavad väärtusele `dimensions`.
+
+`dimensions` sees `filters` lisatakse automaatselt:`groupByValues`
+
+Parameeter `returnNegative` kontrollib, kas tulemused sisaldavad negatiivseid kandeid.
+
+Järgmises näites on toodud näidissisu.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+Järgmine näide näitab, kuidas teha päringuid kõigi toodete kohta mitmel saitidel ja asukohtades.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>Lubaduse andmiseks saadaval

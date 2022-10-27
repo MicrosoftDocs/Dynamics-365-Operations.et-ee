@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682530"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714754"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobiilirakenduse Warehouse Management installimine ja ühendamine
 
@@ -63,6 +63,8 @@ Alternatiivina rakenduse kauplusest installimisele saate selle asemel rakenduse 
 
 - **Android** [Laohaldus (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     Kui laadite alla eelvaate versiooni, on selle installimiseks vaja täiendavaid samme. Üksikasju vt [Androidi rakenduste testimine](/appcenter/distribution/testers/testing-android).
+
+Lisateavet selle kohta, kuidas installida rakenduskeskusest allalaaditud kooste, vt installige [kooste](/appcenter/distribution/installation).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Veebiteenuse rakenduse loomine Azure Active Directorys
 

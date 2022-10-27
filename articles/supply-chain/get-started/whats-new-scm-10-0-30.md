@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management eelvaade 10.0.30 (november 2022)
+title: Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 description: See artikkel kirjeldab funktsioone, mis on uued või muudetud rakenduses Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
 ms.date: 09/08/2022
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689182"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714794"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 
@@ -55,7 +55,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.30 sisaldab platvormivärske
 
 ### <a name="bug-fixes"></a>Veaparandused
 
-Teavet versiooni 10.0.29 igas versiooniga 10.0.29 lisatud uuenduses sisaldub vigaparanduste kohta, logige sisse elutsükli teenustesse (LCS) [ja vaadake KB artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468).
+Teavet versiooni 10.0.30 igas värskenduses kaasatud vigaparanduste kohta logige sisse elutsükli teenustesse (LCS) [ja vaadake KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468) artiklit.
 
 ### <a name="dynamics-365-and-industry-clouds-2022-release-wave-1-plan"></a>Dynamics 365 ja majandusharu pilved: 2022 väljalaskevoo 1 plaan
 

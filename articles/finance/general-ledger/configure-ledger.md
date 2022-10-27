@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864335"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713885"
 ---
 # <a name="configure-ledgers"></a>Pearaamatute konfigureerimine
 
@@ -38,11 +38,11 @@ Lisateavet kontoplaani ja põhikontode kavandamise ning konfigureerimise kohta v
 
 ## <a name="selecting-account-structures"></a>Kontostruktuuri valimine
 
-Iga Dynamics 365 Finance'i juriidilist isikut saab konfigureerida kasutama üht või enamat konto struktuuri. Iga konto struktuur määratleb finantsdimensioonid ning põhikontode ja finantsdimensioonide kombinatsioonid, mis on kannete sisestamisel lubatud. Sama konto struktuure saate kasutada rohkem kui ühes juriidilises isikus.
+Iga Dynamics 365 Finance’i juriidilist isikut saab konfigureerida kasutama üht või enamat konto struktuuri. Iga konto struktuur määratleb finantsdimensioonid ning põhikontode ja finantsdimensioonide kombinatsioonid, mis on kannete sisestamisel lubatud. Sama konto struktuure saate kasutada rohkem kui ühes juriidilises isikus.
 
 Pidage meeles, et kui teil on mitu konto struktuuri, saate valida ainult konto struktuurid, millel ei ole põhikontode ja finantsdimensioonide kattuvaid kombinatsioone. Näiteks on üks teie konto struktuuridest konfigureeritud lisama põhikontodele vahemikus 1000 ja 1999 äriüksuse. Teises konto struktuuris olete lisanud 1-ga algavatele põhikontodele osakonna finantsdimensiooni. Sellisel juhul saab samale juriidilisele isikule lisada ainult ühe konto struktuuri.
 
-Pearaamatu konto struktuuride konfigureerimiseks valige lehe **Pearaamat** kiirkaardil **Konto struktuurid** suvand **Lisa**, valige loendist konto struktuur ja valige seejärel suvand **Vali**. Konto struktuuride lisamiseks ja salvestamiseks võib kuluda mõni minut. Pange tähele, et teie valitud konto struktuurid peavad olema aktiivsed. Vastasel juhul ei kehti konto struktuuride üksikasjad juriidilistele isikutele, millega need on seotud.
+Pearaamatu konto struktuuride konfigureerimiseks valige lehe **Pearaamat** kiirkaardil **Konto struktuurid** suvand **Lisa**, valige loendist konto struktuur ja valige seejärel suvand **Vali**. Konto struktuuride lisamine ja salvestamine võtab aega mõni minut. Kui muudetud kontostruktuur salvestatakse pearaamatusse, algab kõigi sisestamata kannete sünkroonimise protsess. Enne pearaamatu konto struktuuri muudatuste teostamist teises juriidilises isikus peate ootama, kuni praegune pearaamat on juriidilises isikus, kus muudatus tehakse. Pange tähele, et teie valitud konto struktuurid peavad olema aktiivsed. Vastasel juhul ei kehti konto struktuuride üksikasjad juriidilistele isikutele, millega need on seotud.
 
 Konto struktuuri eemaldamiseks valige lehe **Pearaamatu** kiirkaardil **Konto struktuurid** suvand **Eemalda**. Pange tähele, et kui eemaldate pearaamatust konto struktuuri, ei eemaldata selle konto struktuuri konfiguratsiooni abil sisestatud kandeid.
 
@@ -70,7 +70,7 @@ Lisateavet kirjete tasakaalustamise kohta vt teemast [Tasakaalustatud töölehed
 
 Lehte **Pearaamat** kasutatakse ka nende valuutade juhtimiseks ja määratlemiseks, mida kasutatakse kannete sisestamisel pearaamatusse. Peate määrama raamatupidamise valuuta, mis on kõikides kannetes pearaamatu veerus **Raamatupidamise valuuta** kasutatav valuuta. Lisaks saate veerus **Raamatupidamise valuuta** valida valikuliselt teise valuuta. Kui valite aruandlusvaluuta, kirjendatakse kõik kanded pearaamatu kannete jaoks veerus **Aruandlusvaluuta** selles valuutas.
 
-Kui kanded sisestatakse muus valuutas, teisendab süsteem kande summa automaatselt kannete valuutast raamatupidamise valuutasse ja kande aruandluse valuutasse. Valige lehe **Pearaamat** väljal **Raamatupidamise valuuta vahetuskursi tüüp** vahetuskursi jaoks konfigureeritud vahetuskursi tüüp, mida tuleks kasutada väärtuste teisendamiseks tehingu valuutast kande raamatupidamise valuutasse. Kui valisite aruandevaluuta, peate määrama ka välja **Aruandevaluuta vahetuskursi tüüp**, et näidata vahetuskurssi, mida tuleks kasutada väärtuste teisendamiseks tehingute valuutast kande aruandlusvaluutasse.
+Kui kanded sisestatakse teise valuutasse, teisendab süsteem kandesumma kandevaluutast automaatselt arvestusvaluutasse ja kande aruandlusvaluutasse. Valige lehe **Pearaamat** väljal **Raamatupidamise valuuta vahetuskursi tüüp** vahetuskursi jaoks konfigureeritud vahetuskursi tüüp, mida tuleks kasutada väärtuste teisendamiseks tehingu valuutast kande raamatupidamise valuutasse. Kui valisite aruandevaluuta, peate määrama ka välja **Aruandevaluuta vahetuskursi tüüp**, et näidata vahetuskurssi, mida tuleks kasutada väärtuste teisendamiseks tehingute valuutast kande aruandlusvaluutasse.
 
 Kui kasutate eelarvestamise funktsiooni, saate määrata ka välja **Eelarve vahetuskursi tüüp**, et näidata vahetuskurssi, mida tuleks kasutada eelarvekannete teisendamiseks ühest valuutast teise.
 

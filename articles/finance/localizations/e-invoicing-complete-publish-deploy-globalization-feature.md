@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279896"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710831"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globaliseerumise funktsiooni lõpuleviimine, avaldamine ja juurutamine
 
@@ -59,8 +59,8 @@ RCS-i puhul kasutate käsku **Deploy**, et avaldada elektrooniline arveldamise f
 2. **Lehe paremal** küljel oleval vahekaardil Versioonid valige elektroonilise arveldamise funktsiooni versioon, mida soovite juurutada teenuse keskkonda või ühendatud rakendusele. Valitud versiooni olek peab olema Lõpetatud **või** Avaldatud **·**.
 3. Valige **juurutamine** ja seejärel valige üks või mõlemad järgmistest suvanditest juurutamise sihtmärgi määratlemiseks:
 
-    - **Seotud rakendus** – rakenduse seadistuses antud konfiguratsioon kirjutatakse Microsoft Dynamics 365 Finantside Dynamics 365 Supply Chain Management eksemplari või on sellega eelnevalt seostatud.
-    - **Teenuse keskkond** – elektroonilise arveldamise funktsiooni versioon juurutatakse teenuse keskkonda. Elektrooniline arveldamine on seejärel valmis vastu saama ja töötlema finants- või tarneahela haldus saadavad elektroonilisi dokumente.
+    - **Seotud rakendus** – see on valikuline, kuid seda tuleb kasutada juhul, Microsoft Dynamics kui soovite, et rakenduse seadistusega sisestatud konfiguratsiooni oleks kirjutatud 365 Finantsi Dynamics 365 Supply Chain Management eksemplari või kui see on eelnevalt sellega seostatud. Seda tüüpi juurutamise vahelejätmiseks tuleb finants- või tarneahela halduse rakenduseseadistuses määratletud parameetrid käsitsi konfigureerida.
+    - **Teenuse keskkond** – see juurutab elektroonilise arveldamise funktsiooniversiooni teenuse keskkonda. Elektrooniline arveldamine on seejärel valmis vastu saama ja töötlema finants- või tarneahela haldus saadavad elektroonilisi dokumente.
 
 > [!NOTE]
 > Tavaliselt muudate te elektroonilise aruandluse (ER) funktsiooni parameetreid, mis tuleb juurutada teenuse keskkonda. Seotud rakenduse muudatused on harvased. Uued versioonid tuleks ühendatud rakendusse juurutada ainult siis, kui muudate oma rakenduse vastavaid parameetreid.

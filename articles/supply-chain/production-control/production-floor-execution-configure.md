@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336181"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708721"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -140,7 +140,7 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 
-Tootmispinna käivitamise konfiguratsioonide loomiseks ja säilitamiseks minge Tootmise juhtimise seadistuse **\>\>\> tootmise käivitamise konfigureerimiseks tootmispinna käivitamisele.** Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
+Tootmispinna käivitamise konfiguratsioonide loomiseks ja säilitamiseks minge Tootmise juhtimise seadistuse **\>\>\> tootmise käivitamise konfigureerimiseks tootmispinna käivitamisele**. Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
 
 - Saate valida kuvamiseks ja redigeerimiseks mis tahes vasakus veerus loetletud tootmisosakonna konfiguratsiooni.
 - Tegevuspaanil valige **uus**, et lisada loendisse uus konfiguratsioon. Seejärel sisestage uue konfiguratsiooni tuvastamiseks nimi väljale **Konfiguratsioon**. Sisestatav nimi peab olema kõigi konfiguratsioonide seas kordumatu ja te ei saa seda hiljem redigeerida. **Väljale Kirjeldus** saate valikuliselt sisestada konfiguratsiooni kirjelduse.
@@ -164,7 +164,7 @@ Järgmised sätted on saadaval kiirkaardil **Üldine**:
 - **Puuteekraani lukustamise** võimaldamine – *seadke* see valik valikule Jah, et lubada töötajatel lukustada tootmis floori täitmisliidese puuteekraani, et nad saaks seda saniteerida. Kui see valik on seadistatud *valikule* **Jah, lisatakse sisselogimislehele** lukustusekraan nupu lähtestamiseks. Kui töötaja valib selle nupu, siis lukustub puuteekraan ajutiselt, et ennetada soovimatuid sisendeid. Kuvatakse ka taimer. Siis saab töötaja ohutult seadet ja selle ekraani puhastada. Kui taimer lõpetab, siis tehakse puuteekraan automaatselt lukust lahti.
 - **Ekraaniluku kestus** – kui suvandi **Luba puuteekraani lukustamine** väärtuseks on seatud *Jah*, siis kasutage seda suvandit, et määratleda, mitu sekundit peaks puuteekraan puhastamiseks lukustatud olema. Kestus peab olema vahemikus 5–120 sekundit.
 - **Loo litsentsiplaat** : määrake see valik väärtusele *Jah*, et luua uus litsentsiplaat iga kord, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui suvandi väärtuseks on seatud *Ei*, siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.
-- **Prindi silt**: määrake see valik valikule *Jah*, et printida litsentsiplaadi silt, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Sildi konfiguratsioon on seadistatud dokumendi marsruudivalikus, nagu on kirjeldatud teemas [Identifitseerimisnumbri siltide dokumendi marsruudivaliku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
+- **Prindi silt**: määrake see valik valikule *Jah*, et printida litsentsiplaadi silt, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Sildi konfiguratsioon seadistatakse dokumendi marsruudivalikul, nagu on kirjeldatud dokumendi protsessisildi [paigutustes](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Vahekaardi valiku kiirkaart
 

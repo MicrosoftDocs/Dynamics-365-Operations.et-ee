@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856189"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719287"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Varude nähtavuse laoseisu muudatuste graafikud ja lubaduse andmiseks saadaval
 
@@ -205,6 +205,7 @@ Saate kasutada järgmisi rakenduse programmeerimisliidese (API) URL-e, et edasta
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Saate luua mitu muutuse sündmust. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Saate seda meetodit kasutades päringut`POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Saate seda meetodit kasutades päringut`GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Täpne päring meetodi `POST` abil. |
 
 Lisateavet vt varude nähtavuse avalikud [API-d](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Kui soovite teha päringuid plaanitud `QueryATP`*vaba* kaubavaru muudatuste ja A
 > [!NOTE]
 > Olenemata sellest, kas parameeter `returnNegative`*·* *on* taotluse kehas seatud tõeseks või vääraks, sisaldab tulemus negatiivseid väärtusi, kui esitate päringuid planeeritud vaba kaubavaru muudatuste ja ATP tulemuste kohta. Need negatiivsed väärtused kaasatakse, sest kui plaanitakse ainult nõudlustellimusi või kui tarnekogused on väiksemad kui nõudluse kogused, on planeeritud vaba kaubavaru muudatuse kogused negatiivsed. Kui negatiivseid väärtusi ei kaasata, oleks tulemused segased. Lisateavet selle suvandi ja selle kohta, kuidas see toimib teist tüüpi päringute korral, vt varude nähtavuse [avalikud API-d](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Päring POST-meetodi abil
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-Järgmine näide näitab, kuidas luua taotluse keha, mille saab meetodi abil varude nähtavusse esitada`POST`.
+Järgmine näide näitab, kuidas luua indeksi päringu taotluse keha, mille saab meetodi abil varude nähtavusse `POST` esitada.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Järgmine näide näitab, kuidas luua taotluse keha, mille saab meetodi abil var
 }
 ```
 
-### <a name="get-method-example"></a>GET-meetodi näide
+### <a name="query-by-using-the-get-method"></a>Päring MEETODIGA GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Järgmine näide näitab, kuidas luua taotluse URL-i taotlusena`GET`.
+Järgmine näide näitab, kuidas luua indeksi päringu taotluse URL-i taotlusena`GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Selle taotluse tulemus `GET` on täpselt sama, mis eelmise `POST` näite taotluse tulemus.
 
+### <a name="exact-query-by-using-the-post-method"></a>Täpne päring POST-meetodit kasutades
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Järgmine näide näitab, kuidas luua täpne päringu taotluse keha, mille saab meetodi abil varude nähtavusse `POST` esitada.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Päringutulemuse näide
 
-Mõlemad eelnevad päringunäited võivad anda järgmise vastuse. Selles näites on süsteem konfigureeritud järgmiste sätetega:
+Mõni eelnevatest päringu näidetest võib anda järgmise vastuse. Selles näites on süsteem konfigureeritud järgmiste sätetega:
 
 - **ATP arvutatud mõõt:** *iv.onhand = pos.inbound – pos.out*
 - **Ajakava periood:** *7*

@@ -1,5 +1,5 @@
 ---
-title: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
+title: Dokumendi protsessisildi paigutused
 description: See artikkel kirjeldab, kuidas kasutada vormindamise meetodeid siltidele väärtuste printimiseks.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847871"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708640"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
+# <a name="document-routing-label-layout"></a>Dokumendi protsessisildi paigutus
 
 [!include [banner](../includes/banner.md)]
 
+See artikkel kirjeldab, kuidas luua litsentsiplaadi, konteineri ja voo siltide paigutusi. See annab ka juhised, kuidas kasutada paigutuste loomiseks kasutatavat TheMibra Programming Language (ZPL) programmi.
 
-See dokumendi marsruudi valiku paigutus määratleb identifitseerimisnumbri siltide paigutuse ja neile prinditavad andmed. Saate konfigureerida printimise käivitamispunktid mobiilsideseadme menüü üksuste ja töömallide häälestamisel.
+Dokumendi protsessi sildi paigutused määravad viisi, kuidas sildid välja asuvad ja andmed, mis neile prinditakse. Saate konfigureerida printimise käivitamispunktid mobiilsideseadme menüü üksuste ja töömallide häälestamisel.
 
-Tavaolukorras prindivad lao vastuvõtuametnikud identifitseerimisnumbri sildid kohe pärast vastuvõtualale saabuvate kaubaaluste sisu kirjendamist. Füüsilised sildid paigaldatakse kaubaalustele. Seejärel saab neid kasutada kinnitamiseks järgneva ladustamisprotsessi tulevaste väljaminevate komplekteerimistegevuste käigus.
+Selle artikli teave kehtib kõikide dokumendi protsessi siltide paigutuste kohta, [kaasa](tasks/license-plate-label-printing.md) arvatud litsentsiplaadi siltide, [konteineri siltide](print-container-labels.md) ja voo siltide [paigutused](configure-wave-label-printing.md).
 
-Saate printida väga keerukaid silte, eeldusel, et printimisseade suudab tuvastada sellele saadetud teksti. Näiteks vöötkoodi sisaldav Zebra programmeerimiskeele (ZPL) paigutus, mis sarnaneb järgmise näitega.
+Saate printida väga keerukaid silte, eeldusel, et printimisseade suudab tuvastada sellele saadetud teksti. Näiteks vöötkoodiga ZPL-i paigutus võib sarnaneda järgmise näitega.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Saate printida väga keerukaid silte, eeldusel, et printimisseade suudab tuvasta
 ^PQ1,,,Y^XZ
 ```
 
-Sildi printimise protsessi käigus asendatakse selle näite tekst `$LicensePlateId$` andmeväärtusega.
+Sildi printimise protsessi käigus asendatakse selle näite tekst `$LicensePlateId$` andmeväärtusega. Mitmed laialdaselt kättesaadavad siltide tegemise tööriistad aitavad teil vormindada sildi paigutuse teksti. Paljud neist tööriistadest toetavad vormingut `$FieldName$`. Lisaks kasutab Microsoft Dynamics 365 Supply Chain Management erivormingu loogikat dokumendi marsruudi valiku paigutuse välja vastenduse osana.
 
 Prinditavate väärtuste nägemiseks avage jaotis **Laohaldus \> Päringud ja aruanded \> Identifitseerimisnumbri sildid**.
-
-Mitmed laialdaselt kättesaadavad siltide tegemise tööriistad aitavad teil vormindada sildi paigutuse teksti. Paljud neist tööriistadest toetavad vormingut `$FieldName$`. Lisaks kasutab Microsoft Dynamics 365 Supply Chain Management erivormingu loogikat dokumendi marsruudi valiku paigutuse välja vastenduse osana.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Lisateave siltide printimise kohta
 
-Lisateavet siltide seadistamise ja printimise kohta leiate teemast [Identifitseerimisnumbri sildi printimise lubamine](tasks/license-plate-label-printing.md).
+Lisateavet siltide häälestamise ja printimise kohta vt järgmistest artiklitest:
 
+- [Litsentsiplaadi sildi printimine](tasks/license-plate-label-printing.md)
+- [Prindi konteineri sildid](print-container-labels.md)
+- [Voosildi printimine](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
