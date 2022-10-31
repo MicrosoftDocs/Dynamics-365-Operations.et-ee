@@ -12,7 +12,7 @@
               items:
                 - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (veebruar 2022)
+                - name: Supply Chain Management 10.0.31 (veebruar 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (november 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -625,7 +625,7 @@
               href: ../finance/general-ledger/Default-dimensions.md?context=/dynamics365/context/supply-chain
             - name: Pearaamatupidaja tööruumile finantsdimensioonide lisamine
               href: ../finance/general-ledger/CFO-workspace.md?context=/dynamics365/context/supply-chain
-            - name: Kontostruktuuride loomine
+            - name: Konto struktuuride loomine
               href: ../finance/general-ledger/tasks/create-account-structures.md?context=/dynamics365/context/supply-chain
             - name: Eelarve koostamise ülevaade
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?context=/dynamics365/context/supply-chain
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA päritolusertifikaat
               href: transportation/usmca-certification-of-origin.md
+            - name: Faktuurarved
+              href: transportation/commercial-invoice.md
             - name: Veokirja loomine
               href: transportation/create-bill-of-lading.md
             - name: Veose transpordimarsruutide planeerimine
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Saadetise konteinerite pakkimine
                       href: warehousing/packing-containers.md
+                    - name: Prindi konteineri sildid
+                      href: warehousing/print-container-labels.md
                     - name: Väljaminevate konteinerite pakkimise ja saadetiste töötlemise pakkimistöö
                       href: warehousing/packing-work.md
+                    - name: Konteinerite pakkimine Warehouse Managementi mobiilirakenduse abil
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: Näidisstsenaarium – konteinerite pakkimine Warehouse Managementi mobiilirakenduse abil
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Kiirelt komplekteeritava kauba ümberjaotamise häälestamine
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Süsteemi suunatud tööde järjestus
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Süsteemi rühmitamine avatud tööloendis
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
+                    - name: Dokumendi marsruudivaliku sildi paigutused
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1-vöötkoodid ja QR-koodid
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile finants- ja äritoimingud
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Lao telemeetria
+              items:
+                - name: Lao telemeetria lubamine Application Insightsiga
+                  href: warehousing/application-insights-warehousing.md
+                - name: Mobiilseadme kasutuse ja jõudluse jälgimine
+                  href: warehousing/application-insights-wma.md
         - name: Supply Chain Managementi arendamine
           items:
             - name: Gantti juhtelemendi arendamise juhis

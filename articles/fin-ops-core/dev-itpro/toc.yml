@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: Platvormivärskendused versioonile 10.0.31 (veebruar 2023)
                   href: get-started/whats-new-platform-updates-10-0-31.md
-                - name: Versiooni 10.0.30 platvormivärskendused (november 2022)
+                - name: Platvormi versiooni 10.0.30 värskendused (november 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
-                - name: Versiooni 10.0.29 platvormivärskendused (oktoober 2022)
+                - name: Platvormi versiooni 10.0.29 värskendused (oktoober 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Versiooni 10.0.28 platvormivärskendused (august 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1602,10 +1600,14 @@
               href: sysadmin/system-administration-home-page.md
             - name: Juriidilistele tingimuste ja privaatsusavalduse linkide lisamine
               href: sysadmin/legal-terms-privacy-statement.md
-            - name: Litsentsikoodide ja konfiguratsioonivõtmete aruanne
+            - name: Litsentsi koodide ja konfiguratsioonivõtmete aruanne
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Kontsernisisene andmete ühiskasutus
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Andmete ühiskasutusel toetatavad tabelid
+              href: sysadmin/drs-srs-tables.md
+            - name: Andmete ühiskasutus arendajatele
+              href: sysadmin/drs-srs-dev.md
             - name: Hooldusrežiim
               href: sysadmin/maintenance-mode.md
             - name: Eelkonfigureeritud süsteemikontod

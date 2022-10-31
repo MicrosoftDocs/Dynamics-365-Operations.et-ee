@@ -12,6 +12,8 @@
               items:
                 - name: Mis on Commerce’i avalehel uut või mida on muudetud?
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (veebruar 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (november 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (oktoober 2022)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Krediitkaardi häälestus, autoriseerimine ja hõivamine'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Makse loa kasutuse piiramine
+                      href: dev-itpro/limit-token-usage.md
                     - name: Sularaha nimiväärtuste konfigureerimine kassa jaoks
                       href: cash-denominations.md
                     - name: Krediitkaardi töötlemise konfigureerimine
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: Maksmismoodul
                       href: add-checkout-module.md
+                    - name: Maksmismooduli tõrke viitekoodid
+                      href: checkout-module-error-codes.md
                     - name: Maksemoodul
                       href: payment-module.md
                     - name: Tarneaadressi moodul
