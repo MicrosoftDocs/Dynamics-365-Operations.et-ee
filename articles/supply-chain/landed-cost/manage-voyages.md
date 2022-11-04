@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905859"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725465"
 ---
 # <a name="manage-voyages"></a>Teekondade haldamine
 
@@ -29,7 +29,8 @@ Teekond tähistab harilikult laeva. Kuid olenevalt teie tavadest ja protseduurid
 Lehel **Kõik teekonnad** kuvatakse teekonna üksikasjad, tarne- ja kuluarvestuse teave ning teave kaupade, ostutellimuste ja üleviimistellimuste kohta. Lehe **Kõik teekonnad** avamiseks valige **Väljalaadimiskulu \> Teekonnad \> Kõik teekonnad**. Sellel lehel kuvatakse kõikide praeguste teekondade loend. Toimingupaani nuppude abil saate teekondi luua, kustutada ja nendega töötada. Valige leondist teekond, et vaadata selle üksikasju.
 
 > [!NOTE]
-> Teekonnaga on seotud saatmiskonteinerid ja fooliod. Saatmiskonteineriga on seotud osturead. Kui saatmiskonteinerid ja fooliod välja lülitatakse, saab need ka otse teekonnaga siduda. Lisaks jaotatakse siin sisestatud kulud kõigile manustatud osturidadele.
+> Teekonnaga on seotud saatmiskonteinerid ja fooliod. Saatmiskonteineriga on seotud osturead. Lisaks jaotatakse siin sisestatud kulud kõigile manustatud osturidadele.
+> Projekti ostutellimust ei toetata väljaminev kulus.
 
 ## <a name="action-pane"></a>Toimingupaan
 
@@ -66,7 +67,7 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Haldamine** olevaid
 | Kuluarvutuse jaoks valmis | Seadke väljale **Teekonna olek** kuluarvestuseks valmisoleku olek, mis on määratud lehel **[Väljalaadimiskulu parameetrid](landed-cost-parameters.md)**. Teekonna kuluarvutuse saab teha siis, kui kõik arved on töödeldud (nii laovaru arved kui teekonnakulu arved) ja kaubad on vastu võetud. Kui teekonnaga seotud eeldatavad kulud pole arvutatud, ilmneb tõrge, kui püüate teekonna kuluarvutust töödelda. |
 | Arvutatud kulu | Kõigi kuluarvutuse ebakorrapärasuste puhastamine pärast seda, kui kõigi ostutellimuste ja teekonnakulude kohta on arve olemas. Selle nupu valimisel kuvatakse dialoogiaken **Teekonna värskendamine - arvutatud kulu**. Seal saate valida, kas sisestada standardsel finantskuupäeval või määrata sisestuskuupäev, ja seejärel käivitada tegevuse. Saate tegevuse uuesti käivitada nii palju kordi kui soovite. Dialoogiaknas **Teekonna värskendamine - arvutatud kulu** saate ka määrata graafiku tegevuse käivitamiseks perioodilise ülesandena (pakett-töö). Soovitame tegevust regulaarselt käitada, seadistades selle pakett-tööna. |
 | Kviitungite loendi sisestamine | Sisestage sissetulekute loend teekonna kõigi ostutellimuse ridade jaoks.  |
-| Toote sissetuleku sisestamine | Sisestage toote sissetulek teekonna kõigi ostutellimuse ridade jaoks. Teekonnaga seostatud ostutellimuse ridade toote sissetuleku protsessi kasutatakse ainult siis, kui kaubad **ei** läbi transiidis olevate kaupade töötlust. Kui kaubad läbivad transiidis olevate kaupade töötluse, kuvatakse tõrketeade, kui püüate ostutellimuse rea jaoks sisestada toote sissetulekut.  |
+| Sisesta toote sissetulek | Sisestage toote sissetulek teekonna kõigi ostutellimuse ridade jaoks. Teekonnaga seostatud ostutellimuse ridade toote sissetuleku protsessi kasutatakse ainult siis, kui kaubad **ei** läbi transiidis olevate kaupade töötlust. Kui kaubad läbivad transiidis olevate kaupade töötluse, kuvatakse tõrketeade, kui püüate ostutellimuse rea jaoks sisestada toote sissetulekut.  |
 | Sisesta arve | Sisestage arve teekonna kõigi ostutellimuse ridade jaoks. Kui teekonna kaubad läbivad transiidis olevate kaupade töötluse, arveldatakse ostutellimuse read enne vastuvõtuprotsessi läbimist. Kui algne ostutellimus on arveldatud, luuakse algsete ostutellimuse ridadega seostatud transiidis olevate kaupade tellimused. Seejärel saab ladu tellimused vastu võtta.  |
 | Lähetuse üleviimistellimus | Sisestage üleviimistellimuse teekond teekonna kõigi üleviimistellimuse ridade jaoks. Selle nupu valimisel on värskendamiseks saadaval ainult üleviimistellimused. |
 | Võta üleviimistellimus vastu | Sisestage üleviimistellimuse sissetulek teekonna kõigi üleviimistellimuse ridade jaoks. |
