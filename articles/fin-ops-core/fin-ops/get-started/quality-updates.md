@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689220"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731606"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -40,13 +40,13 @@ Mitmed ettemaksed on juba juurutatud, mis võimaldavad kvaliteediuuenduste ennet
 
 - **Nullväärtusega downtime-uuendamine** – sagedaste keskkondade tõukamiseks on oluline vähendada mõju keskkonna saadavusele, et säilitada Dynamics 365 teenustaseme lepingud (SLAs). Algselt juurutati nullväärtusega ajaline uuendamine, et aidata parandada kuu operatsioonisüsteemi paikamist klastri ülemineku abil värskendatud pildi aktiveerimiseks minimaalse katkestusega. Uuenduste rakendamise mehhanism on täiustatud nii, et see oleks veel vähem katkestav ning kataks nii operatsioonisüsteemi paikamise kui ka kvaliteediuuenduse juurutamise.
 
-    Interaktiivsete kasutajate puhul võib aktiivne seanss katkeda ja uuesti käivitatakse uuesti uuendatud keskkond. Prioriteedipõhise partiiplaneerimise [juurutamisel](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), mis on nüüd saadaval liitumise alusel, taastab pakkplaneerimine ja töötlemine ning jätkab tööd kohe pärast uuendamist. Prioriteetne pakkplaneerimine toimub klientide jaoks enne, kui nad hakkavad osalema oma tootmiskeskkondades kvaliteediuuenduste ennetavas jaotuses.
+Interaktiivsete kasutajate puhul võib aktiivne seanss katkeda ja uuesti käivitatakse uuesti uuendatud keskkond. Prioriteedipõhise pakkplaneerimise [juurutamisel taastatakse](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) pakkplaneerimine ja töötlemine ning seda jätkatakse kohe pärast uuendamist. Prioriteetne pakkplaneerimine toimub klientide jaoks enne, kui nad hakkavad osalema oma tootmiskeskkondades kvaliteediuuenduste ennetavas jaotuses.
 
 - **tumetunnid** – tume tunnid on määratud igale Azure’i piirkonnale ja lähedalasuvad null ajaperioodi värskendused tekivad tumetunnise perioodi jooksul.
 
 ## <a name="the-proactive-update-process"></a>Ennetav uuendusprotsess
 
-Ennetava kvaliteedivärskenduste juurutamine järgib seifijuurutusprotsessi (SDP). SDP spetsiifilised reeglid muutuvad, kuid kvaliteediuuendused juurutatakse algselt kaustakeskkonda. Protsess algab keskkondadega, mis nõustuvad varajase juurutamisega. Kui edukalt juurutatud bokside protsent suureneb, algab juurutamine tootmiskeskkondades. Taas kord algab protsess keskkondadega, mis valivad varajase juurutamise. Kuulamissüsteem jälgib süsteemi telemeetriat ja livesite’i juhtumeid ning peatab konkreetse versiooni väljapööramise, kui tuvastati regresssioon. Kliendid saavad siiski enne enne enne juurutamist kvaliteedivärskendusi tõmbada, kui nad seda soovivad.
+Ennetava kvaliteedivärskenduste juurutamine järgib seifijuurutusprotsessi (SDP). SDP spetsiifilised reeglid muutuvad, kuid kvaliteediuuendused juurutatakse algselt kaustakeskkonda. Kui edukalt juurutatud bokside protsent suureneb, algab juurutamine tootmiskeskkondades. Kuulamissüsteem jälgib süsteemi telemeetriat ja livesite’i juhtumeid ning peatab konkreetse versiooni väljapööramise, kui tuvastati regresssioon. Kliendid saavad siiski enne enne enne juurutamist kvaliteedivärskendusi tõmbada, kui nad seda soovivad.
 
 Praegused väljalaskehalduse andmed näitavad, et kvaliteediuuendustele tutvustatakse vähem kui 3 protsenti regressioone. Suurenenud fookuse eemaldamisel regressiooni ja täiustatud SDP-ni on regressioone potentsiaalne mõju potentsiaalselt väiksem kui kvaliteedikasumid, mis on klientide jaoks paranduste kiiremaks juurutamise teel saavutatav.
 
@@ -92,13 +92,13 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 **Rakenduse versioon: 10.0.1326.70 viimane**
 **teabebaasi artikkel: 748926**
 
-| Station | Regioonid | Eesseisv graafiku graafik
-|---|---|---|
-| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober - 17. oktoober 2022. a |
-| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 15. oktoober - 18. oktoober 2022 |
-| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 16. oktoober - 19. oktoober 2022. a |
-| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober - 20. oktoober 2022. a. |
-| Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud |
+| Station | Regioonid | Lõpetatud graafik | Eesseisv graafiku graafik|
+|---|---|---|---|
+| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober - 17. oktoober 2022. a | 2. november – 5. november 2022 |
+| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 15. oktoober - 18. oktoober 2022 | 2. november – 5. november 2022 |
+| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 16. oktoober - 19. oktoober 2022. a | 2. november – 5. november 2022 |
+| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober - 20. oktoober 2022. a. | 2. november – 5. november 2022 |
+| Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud | Pole plaanitud |
 
 > [!IMPORTANT] 
 > Viis päeva ette värskendab Microsoft eelnevat graafikut ja saadab meiliteatiste teatised keskkondade komplekti, mis on planeeritud nende kvaliteedivärskenduste saamiseks. Eelnev graafik kehtib ainult keskkondtele, millest on teatatud eesseinud värskendusest. Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritud hooldusaknad regiooniti?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

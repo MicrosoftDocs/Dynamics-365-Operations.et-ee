@@ -2,7 +2,7 @@
 title: Mallide ja paigutuste ülevaade
 description: See artikkel hõlmab malle ja paigutusi Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277929"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733380"
 ---
 # <a name="templates-and-layouts-overview"></a>Mallide ja paigutuste ülevaade
 
@@ -66,7 +66,13 @@ Selle näite mall määratleb lihtsa struktuuri ja suvandite kogumi järgmiste s
 
 Oluline esimene samm saidi ja kaubamärgi administraatorite jaoks on määrata õige tasakaal alampaigutuse ning lehe autorite piirangute ja paindlikkuse vahel. Malle kasutades on see tasakaal täielikult konfigureeritav. See mõjutab, kas leheelemente värskendatakse keskselt (mallis lukustatud) või jäetakse need alamtasemetele, mis jäävad lehe hierarhias allapoole.
 
-Mallide kasutamisega alustamiseks vt teemat [Mallidega töötamine](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Malli vaikesätete ja lehesisu vaheline seos
+
+Malli peamiseks funktsiooniks on lehe loomisel mooduli autoriteedi sujuvamaks muutmine. Isegi kui mallis on seadistatud või isegi lukustatud mooduli vaikesätted, puudub lehekülje mooduli konfiguratsioonide ja malli vaikeväärtuste vahel andmeühenduse funktsioon, v.a juhul, kui lehte redigeeritakse. Mallid kontrollivad lehekülje struktuuri koostamiskogemust ja pärast lehe loomist ei ole malli vaikeväärtused enam selle lehe lokaliseeritava sisuga lingitud. See tähendab, et mooduli vaikesätted, mis on seadistatud mallile, kontrollivad tütarlehtede loomise kogemust. Pärast lehtede loomist ja redigeerimist ei kontrolli need nende lehtede sisu.
+
+Ainus eelnevalt kirjeldatud käitumise erand ilmneb siis, kui mallile [lisatakse](work-with-fragments.md) tükk. Killust saab kasutada lokaliseeritava sisu dünaamiliseks lisamiseks või redigeerimiseks igal ajal malli või paigutuse kõigis tütarlehtedes, isegi pärast seda, kui antud mallist on loodud mitu lehekülge. On hea tava kasutada mallides ja paigutustes killust iga kord, kui lokaliseeritavat sisu tuleb dünaamiliselt lisada, eemaldada või redigeerida kõikidel tütarlehtedel. Näiteks tuleks killust kasutada päiste, jaluste, tava metaandmete/skriptide või mis tahes muu sisu puhul, mis peavad olema keskselt redigeeritavad ja sama kõigi tütarlehtede puhul. Killud annavad viisi kasutada malle ja paigutusi sisu juhtimiseks kõigil tütarlehtedel.
+
+Mallide kasutamise alustamiseks vt teemat Töötamine [mallidega](work-with-templates.md).
 
 ## <a name="layouts"></a>Paigutused
 
@@ -96,7 +102,7 @@ Teie saidi paigutused võivad olla kas *eelseadistatud* või *kohandatud*.
 
 Eelseadistatud ja kohandatud paigutusi redigeeritakse loomise tööriistakogumi eri osades. Kuna kohandatud paigutused ei olene teistest lehtedest, redigeeritakse neid otse lehe redigeerijas. Sellisel juhul on paigutuse olemasolu enamasti nähtav kasutajale ja see avaldatakse ainult lehetaseme atribuutides ning paigutuse suvandite toimingute kaudu. Kuid kuna eelseadistatud paigutuste muudatused võivad mõjutada paljusid alamlehti, tuleb neid redigeerida paigutuse redigeerijas, kus avaldamistoimingud võtavad arvesse täielikku mõju järgnevatele alamlehtedele.
 
-Järgmisel joonisel on näha eelseadistatud ja kohandatud paigutused stsenaariumid.
+Järgmine näide näitab stsenaariume eelseadistatud ja kohandatud kavanditele.
 
 ![Eelseadistatud ja kohandatud paigutuse stsenaariumid.](../commerce/media/template-figure1.png)
 

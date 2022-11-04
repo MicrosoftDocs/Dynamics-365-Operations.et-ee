@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8d42eaf22730f572e2733dec4318e5e4603d74
+ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878841"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9732695"
 ---
 # <a name="create-purchasing-policies"></a>Ostupoliitikate loomine
 
@@ -30,29 +30,29 @@ See artikkel näitab, kuidas luua ostupoliitikaid nii, et need oma ostuprotsessi
 ## <a name="set-up-policy-parameters"></a>Saate häälestada poliitikaparameetrid
 1. Avage navigeerimispaanil **Moodulid > Jange > Häälestus > Poliitika > Ostupoliitika**.
 2. Valige toimingupaanil **Parameetrid**.
-- Poliitika tähtsusjärjestuse reeglid kehtivad teie organisatsiooni erinevatele tasanditele. Kuvatavad organisatsiooniüksused olenevad teie organisatsiooni hierarhiast ja sellest, millistele hierarhia tasanditele on hanke sisekontrolli eesmärk määratud. Näiteks võib teie organisatsioonil olla juriidilisi isikuid, kulukeskusi, regioone ja osakondi, kuid vaid mõnel neist võib olla hanke sisekontrolli hierarhia eesmärk. Vaikimisi on saadaval organisatsiooni tüüp Ettevõte.  
+    - Poliitika tähtsusjärjestuse reeglid kehtivad teie organisatsiooni erinevatele tasanditele. Kuvatavad organisatsiooniüksused olenevad teie organisatsiooni hierarhiast ja sellest, millistele hierarhia tasanditele on hanke sisekontrolli eesmärk määratud. Näiteks võib teie organisatsioonil olla juriidilisi isikuid, kulukeskusi, regioone ja osakondi, kuid vaid mõnel neist võib olla hanke sisekontrolli hierarhia eesmärk. Vaikimisi on saadaval organisatsiooni tüüp Ettevõte.  
 3. **Klõpsake vahekaarti Poliitika reegli tüübi parameetrid.**
 4. **Valige puult Ostupoliitika \ Ostutaotluse juhtimisreegel.**
-- Teie määrate poliitika tasandil poliitika otsuste tähtsuse järjekorra. Kuid mõne poliitika tüübi puhul saate alistada üksiku poliitikareegli tüüpide tähtsuse järjekorra. Näiteks võite määratleda ostupoliitikate tähtsuse järjekorraks: kulukeskus, osakond, ettevõte. Kataloogipoliitika reegli puhul võib tähtsuse järjekord olla: osakond, kulukeskus, ettevõte. Tähtsuse järjekorda saab muuta ainult kataloogipoliitika reeglite puhul. Kui töötaja taotluse loob, määratakse kuvatav kataloog töötaja osakonna, seejärel tema kulukeskuse ja seejärel tema ettevõttega seotud poliitikate alusel.  
-- Kui loetelus on mitu organisatsioonitasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.  
+    - Teie määrate poliitika tasandil poliitika otsuste tähtsuse järjekorra. Kuid mõne poliitika tüübi puhul saate alistada üksiku poliitikareegli tüüpide tähtsuse järjekorra. Näiteks võite määratleda ostupoliitikate tähtsuse järjekorraks: kulukeskus, osakond, ettevõte. Kataloogipoliitika reegli puhul võib tähtsuse järjekord olla: osakond, kulukeskus, ettevõte. Tähtsuse järjekorda saab muuta ainult kataloogipoliitika reeglite puhul. Kui töötaja taotluse loob, määratakse kuvatav kataloog töötaja osakonna, seejärel tema kulukeskuse ja seejärel tema ettevõttega seotud poliitikate alusel.  
+    - Kui loetelus on mitu organisatsioonitasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.  
 5. Sulgege leht.
 
 ## <a name="create-a-new-policy"></a>Looge uus poliitika.
 1. Valige suvand **Uus**.
 2. Sisestage väärtus väljale **Nimi**.
 3. Sisestage väärtus väljale **Kirjeldus**.
-- Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale. Näiteks võib teil olla üks hierarhia nimega „Geograafiline” ja üks nimega „Osakond” ja kummalgi võib olla erinev ostupoliitika.  
-- Valige organisatsioon, millele poliitika peaks kehtima.  
+    - Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale. Näiteks võib teil olla üks hierarhia nimega „Geograafiline” ja üks nimega „Osakond” ja kummalgi võib olla erinev ostupoliitika.  
+    - Valige organisatsioon, millele poliitika peaks kehtima.  
 4. Klõpsake noolt valitud organisatsiooni lisamiseks.
-- Seda protsessi saab korrata, lisades veel organisatsioone.  
+    - Seda protsessi saab korrata, lisades veel organisatsioone.  
 
 ## <a name="add-a-policy-rule"></a>Poliitikareegli lisamine
 1. Tehke loendis **Poliitikareegli tüüp** valik **Taotluse eesmärgi reegel**.
-- Saate luua reegli, mis määrab taotluse vaike-eesmärgi tüübiks tarbimise, kuid laseb selle asemel valida tüübi Täiendamine.  
+    - Saate luua reegli, mis määrab taotluse vaike-eesmärgi tüübiks tarbimise, kuid laseb selle asemel valida tüübi Täiendamine.  
 2. Valige **Poliitika reegli loomine**.
 3. Tehke väljal **Luba käsitsi alistamine** valik **Jah**.
 4. Valige suvand **Sule**.
-- Nüüd saate seadistada ostupoliitikale teisi poliitikareegleid. Pange tähele, et poliitikareegli tüübil ei saa olla kattuvaid reegleid, mis on ühes hankepoliitikas korraga aktiivsed.  
+    - Nüüd saate seadistada ostupoliitikale teisi poliitikareegleid. Pange tähele, et poliitikareegli tüübil ei saa olla kattuvaid reegleid, mis on ühes hankepoliitikas korraga aktiivsed.  
 
 
 

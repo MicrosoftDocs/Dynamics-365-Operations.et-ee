@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905888"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725473"
 ---
 # <a name="manage-folios"></a>Fooliote haldamine
 
@@ -48,9 +48,9 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Halda** olevaid nup
 
 | Nupp | Kirjeldus |
 |---|---|
-| Kviitungite loendi sisestamine | Sisestage sissetulekute loend foolio kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid saadetisi, avatakse iga ettevõtte jaoks uus sissetulekute loendi sisestamise dialoogiaken. |
-| Toote sissetuleku sisestamine | Sisestage toote sissetulek foolio kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus toote sissetuleku sisestamise dialoogiaken. |
-| Sisesta arve | Sisestage arve foolio kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus arve sisestamise dialoogiaken. |
+| Kviitungite loendi sisestamine | Sisestage sissetulekute loend foolio kõigi ostutellimuse ridade jaoks.  |
+| Sisesta toote sissetulek | Sisestage toote sissetulek foolio kõigi ostutellimuse ridade jaoks. |
+| Sisesta arve | Sisestage arve foolio kõigi ostutellimuse ridade jaoks.  |
 | Lähetuse üleviimistellimus | Sisestage üleviimistellimus kõigile üleviimistellimuse ridadele, mis on seotud asjakohase saadetise praeguse foolioga. |
 | Võta üleviimistellimus vastu | Sisestage üleviimistellimuse sissetulek kõigile üleviimistellimuse ridadele, mis on seotud asjakohase saadetise praeguse foolioga. |
 | Võta transiidis olevad kaubad vastu | Võtke vastu kõik foolio transiidis olevad tellimuseread. |
@@ -65,7 +65,7 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Üldine** olevaid n
 
 | Nupp | Kirjeldus |
 |---|---|
-| Saabunud kaupade loend | Sisestage sissetulekute loend foolio kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus sissetulekute loendi sisestamise dialoogiaken. |
+| Saabunud kaupade loend | Sisestage sissetulekute loend foolio kõigi ostutellimuse ridade jaoks.  |
 | Toote sissetulek | Vaadake toote sissetulekukirjet, kui seda kasutatakse. |
 | Kauba saabumine | Vaadake kauba saabumise töölehte, kui seda kasutatakse. |
 | Kulude päring | Avage kulude päringu leht, et vaadata kõiki teekonna kulusid, kaasa arvatud saatmiskonteinerit, fooliot ja ostutellimust. Lehe täpset vaadet saate kohandada toiminguga Kuva. Kulude päringu lehel saate vaadata mis tahes alasid ning kauba ja kulutüübi koodi. Nende üksuste eemaldamise korral saate lehte kohandada, rühmitades kulud kokku. See võimalus võib olla kasulik, kui kasutate suurusi ja värve. Saate muuta lehel kuvatud dimensioone. Lehel **Kulud** kuvatakse ainult kulutüübi koodid, mille korral on vahekaardi **Sisestamine** kirjeks **Dr** seatud *Kaup*. |
