@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906149"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725437"
 ---
 # <a name="manage-shipping-containers"></a>Saatmiskonteinerite haldamine
 
@@ -40,9 +40,9 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Halda** olevaid nup
 
 | Nupp | Kirjeldused |
 |---|---|
-| Kviitungite loendi sisestamine | Sisestage sissetulekute loend või vaadake toote sissetulekute loendeid kõigi saatmiskonteineri ostutellimuse ridade kohta. Kui kasutatakse mitut ettevõtet hõlmavaid saadetisi, avatakse iga ettevõtte jaoks uus sissetulekute loendi sisestamise dialoogiaken. |
-| Toote sissetuleku sisestamine | Sisestage toote sissetulek saatmiskonteineri kõigi ostutellimuse ridade jaoks. |
-| Sisesta arve | Sisestage arve saatmiskonteineri kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid saadetisi, avatakse iga ettevõtte jaoks uus arve sisestamise dialoogiaken. |
+| Kviitungite loendi sisestamine | Sisestage sissetulekute loend või vaadake toote sissetulekute loendeid kõigi saatmiskonteineri ostutellimuse ridade kohta.  |
+| Sisesta toote sissetulek | Sisestage toote sissetulek saatmiskonteineri kõigi ostutellimuse ridade jaoks. |
+| Sisesta arve | Sisestage arve saatmiskonteineri kõigi ostutellimuse ridade jaoks.  |
 | Lähetuse üleviimistellimus | Sisestage üleviimistellimuse saadetis saatmiskonteineri kõigi üleviimistellimuse ridade jaoks. Dialoogiboksis kuvatakse ainult need saatmiskonteineri read, mis on üleviimistellimuse tüüpi. |
 | Võta üleviimistellimus vastu | Sisestage üleviimistellimuse sissetulek saatmiskonteineri kõigi üleviimistellimuse ridade jaoks. Vastuvõtmise dialoogiboks on kõige lihtsam viis kajastada saatmiskonteineri või teekonna sissetulnud kaupu ja on üks kolmest saadaolevast suvandist. Saate vastu võtta ka saabumisttöölehtede või mobiilses seadmes töötlemise kaudu. |
 | Loo saabumise tööleht | Saate täpsemaid laofunktsioone kasutades luua organisatsioonidele saabumiste töölehe. Suvandid on _Lähtesta kogus_ (soovitatav) ja kas _Loo transiidis olevatest kaupadest_ või _Loo ostutellimustest_. Viimased kaks suvandit sõltuvad sellest, kas kasutatakse transiidis olevate kaupade töötlemist. |
@@ -56,7 +56,7 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Üldine** olevaid n
 
 | Nupp | Kirjeldused |
 |---|---|
-| Saabunud kaupade loend | Sisestage sissetulekute loend saatmiskonteineri kõigi ostutellimuse ridade jaoks. Kui kasutatakse mitut ettevõtet hõlmavaid teekondi, avatakse iga ettevõtte jaoks uus sissetulekute loendi sisestamise dialoogiaken. |
+| Saabunud kaupade loend | Sisestage sissetulekute loend saatmiskonteineri kõigi ostutellimuse ridade jaoks.  |
 | Toote sissetulek | Vaadake toote sissetulekukirjet, kui seda kasutatakse. Toote sissetulekute töötlust kasutatakse ainult siis, kui kaubad ei kasuta transiidis oleva kauba funktsioone. |
 | Kauba saabumine | Vaadake saatmiskonteineri kauba saabumistöölehte, kui seda töölehte kasutatakse. |
 | Etapid | Etappide abil tuvastatakse teekonna marsruudi eri osasid. Täitmisajad saab saadetise jälgimise hõlbustamiseks seostada iga etapiga. Lisateavet vt teemast [Mitmeetapilise teekonna seadistamine](multi-leg-journey-setup.md). |

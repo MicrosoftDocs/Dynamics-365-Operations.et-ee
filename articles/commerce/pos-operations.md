@@ -2,7 +2,7 @@
 title: Ühendusega ja ühenduseta kassatoimingud
 description: See artikkel annab üksikasjad müügikoha (POS) toimingute kohta selles Dynamics 365 Commerce. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272845"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728272"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -101,7 +101,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 212  | Teave autopargi kaardi kohta                                   | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
 | 213  | Tasumise krediiditeatis                                   | Võtke vastu kaupluse väljastatud krediiditeatis (vautšer).                                                                                                                                                          | Jah            | Jah                | Nr             | Nr                | Nr              |
 | 214  | Tasumine kinkekaardiga                                     | Võtke vastu kaupluse väljastatud kinkekaart.                                                                                                                                                                      | Jah            | Jah                | Nr             | Nr                | Nr              |
-| 215  | Võta kinkekaart sularahas välja                                | Seda operatsiooni ei toetata.                                                                                                                                                                                | Jah            | Jah                | Nr             | Nr                | Nr              |
+| 215  | Võta kinkekaart sularahas välja                                | Krediidikanne kogu kinkekaardi järelejäänud saldo summaga, kui see jääb konfigureeritud sularaha väljaminemise limiidi piiresse.                                                                                                                                                                              | Jah            | Jah                | Nr             | Nr                | Nr              |
 | 216  | Tasumine kaardiga – täpne                                    | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
 | 217  | Tasumine tšekiga – täpne                                   | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
 | 218  | Tasumine kliendikontoga – täpne                        | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
@@ -122,7 +122,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 501  | Kande kommentaar                               | Lisage praegusele kandele kommentaar.                                                                                                                                                                      | Jah            | Jah                | Nr             | Jah               | Nr              |
 | 502  | Müüja                                       | **Määrake müügi üleisiku** väärtus müügitellimusel klienditellimuste jaoks müügikohas.                                                                                                                                     | Jah            | Jah                | Nr             | Jah\*             | Nr              |
 | 503  | Peata kanne                               | Peatage praegune müügikanne, et selle saaks hiljem kaupluses tagasi kutsuda.                                                                                                                          | Jah            | Jah                | Nr             | Jah‡              | Nr              |
-| 504  | Kutsu kanne tagasi                                | Saate varem peatatud kande praegusest kauplusest tagasi kutsuda.                                                                                                                                              | Jah            | Jah                | Nr             | Jah‡              | Nr              |
+| 504  | Kutsu kanne uuesti                                | Saate varem peatatud kande praegusest kauplusest tagasi kutsuda.                                                                                                                                              | Jah            | Jah                | Nr             | Jah‡              | Nr              |
 | 505  | Tühista mittehõlmatu kanne                    | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
 | 506  | Kaarditõmme                                        | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |
 | 507  | Ravimiretsepti lisamine                         | Seda operatsiooni ei toetata.                                                                                                                                                                                | Pole kohaldatav | Pole kohaldatav     | Pole kohaldatav | Pole kohaldatav    | Pole kohaldatav  |

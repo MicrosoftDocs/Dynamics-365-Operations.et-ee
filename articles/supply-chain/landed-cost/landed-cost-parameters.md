@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871974"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725517"
 ---
 # <a name="landed-cost-parameters-setup"></a>Väljalaadimiskulu parameetrite seadistus
 
@@ -125,14 +125,11 @@ Selle vahekaardi sätted kehtestavad vaikedimensioonid igale määratud lehele k
 
 Lehe **Väljalaadimiskulu parameetrid** vahekaardil **Numbriseeriad** on loetletud kõik viitenumbriseeria tüübid, mida nõuab moodul Väljalaadimiskulu, kuid mis ei ole juriidiliste isikute jaoks ühised. Iga loendis oleva viite jaoks valige numbriseeria kood.
 
-> [!NOTE]
-> Mitme ettevõttega konfiguratsioonis tuleb igale ettevõttele (juriidilisele isikule) luua erinevad numbriseeriad.
 
 ## <a name="shared-number-sequences-tab"></a>Vahekaart Ühiskasutatud numbriseeriad
 
 Lehe **Väljalaadimiskulu parameetrid** vahekaardil **Ühiskasutatud numbriseeriad** on loetletud kõik viitenumbriseeria tüübid, mis on moodulis Väljalaadimiskulu juriidiliste isikute jaoks ühised. Praegu on loendis ainult üks numbriseeria. Seda numbriseeriat kasutatakse reisi ID jaoks.
 
-Lehel **Kõik reisid** saavad kasutajad vaadata kõiki reise kõigi juriidiliste isikute lõikes. Kuid reisi redigeerimiseks ja töötlemiseks peavad kasutajad olema valitud kirje juriidilises isikus.
 
 ## <a name="feature-visibility-tab"></a>Vahekaart Funktsioonide nähtavus
 

@@ -1,22 +1,22 @@
 ---
-title: Väljaregistreerimise mooduli tõrke viitekoodid
+title: Maksmismooduli tõrke viitekoodid
 description: See artikkel kirjeldab väljaregistreerimise mooduli tõrke viitekoode, mida näidatakse kasutajasuunas veateadetes moodulis Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709373"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728241"
 ---
-# <a name="checkout-module-error-reference-codes"></a>Väljaregistreerimise mooduli tõrke viitekoodid
+# <a name="checkout-module-error-reference-codes"></a>Maksmismooduli tõrke viitekoodid
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -31,9 +31,13 @@ Olenevalt ilmnenud tõrkest sisaldab selle artikli tabel järgmisi üksikasju:
 - Teave keskkonna või maksekonnektori konfiguratsioonide kaalumiseks
 - Teave, mida saab tugijuhtumi puhul kasutada, kui on vaja lisaabi
 
-## <a name="checkout-module-error-reference-codes"></a>Väljaregistreerimise mooduli tõrke viitekoodid
+## <a name="prerequisites"></a>Eeltingimused
 
-Kasutage järgmist tabelit, et saada rohkem üksikasju tõrkekoodi viidete kohta, mida pakub klient või mis on võrgupoes kogenud.
+Alloleva väljaregistreerimise mooduli tõrke **viitekoodide lubamiseks saidikonstruktoris \>** **minge** saidisätete laiendustele ja valige jaotises Ostukorv ja väljaregistreerimine suvand Luba täiustatud võrgukanali tõrketeadete sõnumside **kasutamine.** 
+
+## <a name="checkout-module-error-reference-codes"></a>Maksmismooduli tõrke viitekoodid
+
+Kasutage järgmist tabelit, et saada rohkem üksikasju tõrkekoodi viidete kohta, mida pakub klient või mis on võrgupoes kogenud. Vea kirjelduse veeru kuvamiseks liikuge **paremale**.
 
 | Tõrkekood | Dynamics-korrelatsiooniga seotud tõrkekood | Tõrke kirjeldus |
 | ---------- | ------------------------------ | ----------------- |

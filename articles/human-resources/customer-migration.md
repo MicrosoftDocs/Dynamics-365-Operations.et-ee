@@ -1,5 +1,5 @@
 ---
-title: Inimressursside kliendi siirde KKK
+title: Human Resourcesi klientide migreerimise KKK
 description: See artikkel vastab korduma kippuvatele küsimustele Microsofti migreerimise kohta Dynamics 365 Human Resources finantside ja toimingute ühendatud infrastruktuuri.
 author: twheeloc
 ms.date: 07/06/2022
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151095"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734354"
 ---
 # <a name="human-resources-customer-migration"></a>Inimressursside kliendi migratsioon
 
@@ -40,7 +40,7 @@ Kliendid, kes kasutavad teisi rakendusi finantside ja toimingute infrastruktuuri
 Iga ettevõtte üleminekud sõltuvad ettevõtte praegusest konfiguratsioonist ja valmisolekust liikuda finantside ja toimingute infrastruktuuri. Soovitame, et kliendid töötaks koos oma Microsofti partneriga, et määratleda parim edasisuunas tee.
 
 - Organisatsioonid, mis **kasutavad** Dynamics 365 Finance Dynamics 365 Human Resources moodulit Inimressursid, saavad lubada uusi võimalusi tavalise versiooni uuendamise protsessi osana. Uute funktsioonide muutumine üldiselt kättesaadavaks alates 2022. jaanuarist.
-- Seda kasutavad Dynamics 365 Human Resources organisatsioonid pääsevad juurde tööriistadele, mida nad saavad kasutada infrastruktuuride ühendamise lõpetamiseks. Microsoft töötab klientidega siirde ajal, et vältida teenuse katkestust. Klientidel on üleminekuks 12–18 kuud, alustades ajast, mil migreerimise tööriist muutub kättesaadavaks.
+- Seda kasutavad Dynamics 365 Human Resources organisatsioonid pääsevad juurde tööriistadele, mida nad saavad kasutada infrastruktuuride ühendamise lõpetamiseks. Microsoft töötab klientidega siirde ajal, et vältida teenuse katkestust. Klientidel on üleminekuks 12 kuud, alustades ajast, mil migreerimise tööriist muutub kättesaadavaks.
 - Organisatsioonid, mis kasutavad Dynamics 365 Human Resources nii moodulit **Inimressursid** kui ka saavad teisaldada oma autonoomse inimressursside infrastruktuuri finantside ja toimingute infrastruktuuri. Teise võimalusena saab kasutada ühendamise tööriista keskkonna toomiseks ühte keskkonda. Kahe keskkonna ühendamiseks pole mingit nõuet ega ajavahemikku.
 
 Uuendatud teabe saamiseks kontrollige regulaarselt [väljalaskeplaane](/dynamics365/release-plans/).
@@ -102,11 +102,11 @@ Jah, salvestatud vaated migreeritakse ühendatud infrastruktuuri.
 
 Impordi ja ekspordi konfiguratsioonid oma andmebaasi (BYOD) toomiseks migreeritakse finantside ja toimingute infrastruktuuri.
 
-## <a name="is-there-an-impact-on-the-azure-region-when-the-customer-environment-is-migrated"></a>Kas kliendikeskkonna migreerimisel mõjub Azure'i regioon?
+## <a name="is-there-an-impact-on-the-azure-region-when-the-customer-environment-is-migrated"></a>Kas kliendikeskkonna migreerimisel mõjub Azure’i regioon?
 
-Keskkond Dynamics 365 Human Resources jääb migreerimiseks samasse Azure'i regiooni. Kui on nõue viia keskkond teise Azure'i piirkonda, peavad kliendid järgima standardtoiminguid, et migreerida uude piirkonda pärast migreerimise lõpetamist.
+Keskkond Dynamics 365 Human Resources jääb migreerimiseks samasse Azure’i regiooni. Kui on nõue viia keskkond teise Azure’i piirkonda, peavad kliendid järgima standardtoiminguid, et migreerida uude piirkonda pärast migreerimise lõpetamist.
 
-## <a name="what-happens-to-azure-data-lakes-during-the-migration"></a>Mis juhtub Azure'i andmetega migreerimise ajal?
+## <a name="what-happens-to-azure-data-lakes-during-the-migration"></a>Mis juhtub Azure’i andmetega migreerimise ajal?
 
 Mis tahes ekspordil, mis on praegu konfigureeritud Azure DataAmeti jaoks finantside ja toimingute rakendustes, säilitatakse pärast migreerimist sama konfiguratsioon.
 
@@ -166,4 +166,4 @@ Microsoft määratleb endiselt, millised tööriistad ja ressursid on FastTracki
 
 ## <a name="licensing-impact"></a>Litsentsimise mõju
 
-Lisateavet litsentsimise mõjutamise kohta vaadake infrastruktuuri ühendamise [Dynamics 365 Human Resources KKK-st](hr-infrastructure-merge-faq.md#licensing-impact).
+Lisateavet litsentsimise mõjutamise kohta vaadake infrastruktuuri ühendamisest [Dynamics 365 Human Resources](hr-infrastructure-merge.md#licensing).
