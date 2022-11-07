@@ -184,9 +184,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/supply-chain
                 - name: Keskkonna planeerimine
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/supply-chain
-                - name: Ettevalmistamine süsteemi Go-Live jaoks
+                - name: Ettevalmistamine kasutuselevõtu jaoks
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/supply-chain
-                - name: Süsteemi Go-live KKK
+                - name: Kasutuselevõtu KKK
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/supply-chain
                 - name: Teenusetaotluse esitamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/supply-chain
@@ -2237,9 +2237,19 @@
                   href: procurement/purchase-policies.md
                 - name: Ostupoliitikate loomine
                   href: procurement/tasks/create-purchasing-policies.md
-                - name: Hankekategooria hierarhiate poliitikate häälestus
+                - name: Hankekategooria hierarhiate poliitikate häälestamine
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
-            - name: Toote sissetulekud ja arveldus
+            - name: Tarneriski hindamine
+              items:
+                - name: Tarneriski hindamise ülevaade
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Tarneriski hindamise konfigureerimine
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Tegutsemist võimaldav tööruum hankijaga seotud riskide leidmiseks ja käitlemiseks
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Power BI aruanded riskianalüüsi ja jõudluse hindamise jaoks
+                  href: procurement/supply-risk-assessment-reports.md
+            - name: Toote sissetulekud ja arveldamine
               items:
                 - name: Toote sissetulek ostutellimuste suhtes
                   href: procurement/product-receipt-against-purchase-orders.md

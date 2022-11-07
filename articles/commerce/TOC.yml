@@ -204,9 +204,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/commerce
                 - name: Keskkonna planeerimine
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/commerce
-                - name: Ettevalmistamine süsteemi Go-Live jaoks
+                - name: Ettevalmistamine kasutuselevõtu jaoks
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/commerce
-                - name: Süsteemi Go-live KKK
+                - name: Kasutuselevõtu KKK
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/commerce
                 - name: Teenusetaotluse esitamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/commerce
@@ -254,10 +254,8 @@
                       href: CDX-package-sort.md
                 - name: Modern POS-i ülesehitus
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Commerce'i kauplusesisese tehnoloogiapinu kaasajastamine (tehniline ülevaade)
+                - name: Commerce’i kauplusesisese tehnoloogiapinu kaasajastamine (tehniline ülevaade)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Kaubanduse rakendamine võrguühenduseta ja tõrkeotsing
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Võrgupoe kataloogi avaldamine
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance’i Power BI sisu
@@ -394,15 +392,19 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS ja Store Commerce'
                   items:
-                    - name: Rakendus Store Commerce
+                    - name: Store Commerce’i rakendus
                       href: dev-itpro/store-commerce.md
-                    - name: Rakendus Store Commerce mobiiliplatvormidele
+                    - name: Store Commerce’i rakenduse funktsioonid
+                      href: store-commerce-capabilities.md
+                    - name: Store Commerce’i rakendus mobiiliplatvormidele
                       href: dev-itpro/store-commerce-mobile.md
-                    - name: Modern POS-i migreerimine Store Commerce'i
+                    - name: Modern POS-i migreerimine Store Commerce’i
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Seadmehalduse juurutamise juhised
                       href: implementation-considerations-devices.md
-                    - name: Store Commerce'i ja Cloud POS-i vahel valimine
+                    - name: Commerce’i rakendamine võrguühenduseta ja tõrkeotsing
+                      href: dev-itpro/implementation-considerations-offline.md
+                    - name: Store Commerce’i ja Cloud POS-i vahel valimine
                       href: MPOS-or-CPOS.md
                     - name: Ühendusega ja ühenduseta kassatoimingud
                       href: pos-operations.md

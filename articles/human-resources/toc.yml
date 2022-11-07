@@ -2,8 +2,20 @@
   items:
     - name: Dynamics 365 Human Resources
       items:
-        - name: Dynamics 365 Human Resources’i avaleht
+        - name: 'Dynamics 365 Human Resources: avaleht'
           href: index.md
+        - name: 'Human Resources: taristu ühendamine'
+          items:
+            - name: 'Human Resources: taristu ühendamise ülevaade'
+              href: hr-infrastructure-merge.md
+            - name: 'Human Resources: taristu klientide migreerimine'
+              href: hr-cust-migration.md
+            - name: 'Human Resources: taristu ühendamise KKK'
+              href: hr-infrastructure-merge-faq.md
+            - name: 'Human Resources: klientide migreerimise KKK'
+              href: customer-migration.md
+            - name: 'Human Resources: taristu ühendamise teadaolevad probleemid'
+              href: hr-migration-issues.md
         - name: Mis on uut või mida on muudetud?
           items:
             - name: Mis on uut või mida on muudetud finants- ja äritoimingute rakendustes?
@@ -238,14 +250,10 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
                 - name: Teenuse Lifecycle Services ülevaade
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-                - name: Ettevalmistamine süsteemi Go-Live jaoks
+                - name: Ettevalmistamine kasutuselevõtu jaoks
                   href: hr-admin-go-live-prepare.md
-                - name: Süsteemi Go-live KKK
+                - name: Kasutuselevõtu KKK
                   href: hr-admin-go-live-faq.md
-                - name: Rakenduse Human Resources taristu ühendamise KKK
-                  href: hr-infrastructure-merge-faq.md
-                - name: Human Resourcesi klientide migreerimise KKK
-                  href: customer-migration.md
                 - name: Dokumentatsiooniressursid
                   items:
                     - name: Spikrisüsteem

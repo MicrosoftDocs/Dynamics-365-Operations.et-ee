@@ -328,19 +328,23 @@
                   href: deployment/cloud-deployment-overview.md
                 - name: Iseteeninduse juurutamine
                   items:
-                    - name: Iseteeninduse juurutamise ülevaade
+                    - name: Iseteenindusliku juurutamise ülevaade
                       href: deployment/infrastructure-stack.md
                     - name: Uue keskkonna juurutamine
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Juurutuse KKK
                       href: deployment/deploymentFAQ.md
-                    - name: Iseteeninduse juurutamise teadaolevad probleemid
+                    - name: Keskkonna migreerimine
+                      href: deployment/geo-to-geo-migrations.md
+                    - name: Iseteenindusliku juurutamise teadaolevad probleemid
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Juurutuste hooldustoimingud
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Keskkonna värskendamine
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: Iseteeninduse juurutamise kaudu juurutatud keskkondade tõrkeotsing
+                    - name: Keskkonna migreerimine
+                      href: deployment/geo-to-geo-migrations.md
+                    - name: Iseteenindusliku juurutamise kaudu juurutatud keskkondade tõrkeotsing
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Iseteeninduskeskkondade plaanitud hooldustöö KKK
                       href: deployment/plannedmaintenance-selfservice.md
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekti kasutuselevõtt
               href: lifecycle-services/project-onboarding.md
+            - name: Projekti migreerimishaldur
+              href: lifecycle-services/project-migration-manager.md
             - name: Tellimuskalkulaator
               href: lifecycle-services/subscription-estimator.md
             - name: Turbe konfigureerimine

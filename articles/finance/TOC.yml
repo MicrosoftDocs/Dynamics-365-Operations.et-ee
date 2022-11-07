@@ -182,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/finance
                 - name: Keskkonna planeerimine
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/finance
-                - name: Ettevalmistamine süsteemi Go-Live jaoks
+                - name: Ettevalmistamine kasutuselevõtu jaoks
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/finance
-                - name: Süsteemi Go-live KKK
+                - name: Kasutuselevõtu KKK
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/finance
                 - name: Teenusetaotluse esitamine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/finance
@@ -690,22 +690,16 @@
               href: cash-bank-management/reconcile-bank-account.md
             - name: Pangakonto täpsem vastavusseviimine
               items:
-                - name: Pangakonto täpsema vastavusseviimise protsess
+                - name: Pangakonto täpsema vastavusseviimise häälestamise protsess
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Täpsema panga vastavusseviimise importimise protsessi häälestus
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
-                - name: 'Täpsema panga vastavusseviimise importimise protsessi häälestus, kasutades elektroonilist aruandlust'
+                - name: 'Pangakonto täpsema vastavusseviimise importimise protsessi häälestus, kasutades elektroonilist aruandlust'
                   href: accounts-payable/import-bai2-er.md
                 - name: Pangakonto vastavusseviimise reeglite häälestus
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
-                - name: Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
+                - name: Pangaväljavõtete vastavusseviimine pangakonto täpsema vastavusseviimise abil
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Täpsem panga vastavusseviimise MT940 import – liitandmeüksuse täiendamine
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Pangakonto täpsema vastavusseviimise ülevaade
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Pangaväljavõtte faili importimise tõrkeotsing
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Pangatöölehe liitüksuse värskendamine
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kuluarvestus
