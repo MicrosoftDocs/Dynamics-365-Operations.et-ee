@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689990"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750703"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
 [!include [banner](../../includes/banner.md)]
 
-Peaksite analüüsima planeerimise optimeerimise sobivuse analüüsi tulemust osana migreerimisprotsessist. Arvestage, et planeerimise optimeerimise ulatus ei ole praeguse sisseehitatud koondplaneerimise funktsiooniga võrdne. Soovitame teil töötada koos oma partneriga ja lugeda dokumentatsiooni, et migreerimise jaoks ette valmistuda. 
+Peaksite analüüsima planeerimise optimeerimise sobivuse analüüsi tulemust osana migreerimisprotsessist. Arvestage, et planeerimise optimeerimise ulatus ei võrdu mitte taunitud koondplaneerimise mootori funktsiooniga. Soovitame teil töötada koos oma partneriga ja lugeda dokumentatsiooni, et migreerimise jaoks ette valmistuda.
 
-Planeerimise optimeerimise sobivuse analüüs aitab teil tuvastada, kus tulemus võib sisseehitatud koondplaneerimise mootori ja planeerimise optimeerimise vahel erineda. See analüüs tehakse teie praeguse seadistuse ja andmete alusel. 
+Plaanimise optimeerimise sobivuse analüüs aitab teil tuvastada, kus tulemus võib taunitud koondplaneerimise mootori ja planeerimise optimeerimise vahel erineda. See analüüs tehakse teie praeguse seadistuse ja andmete alusel. 
 
 Planeerimise optimeerimise sobivuse analüüsi tulemuse nägemiseks avage **Koondplaneerimine** \> **Seadistus** \> **Planeerimise optimeerimise sobivuse analüüs** ja valige seejärel **Käivita analüüs**. Kui analüüs tuvastab vastuolusid, loetletakse need samal lehel. (Analüüsimise käitamiseks võib kuluda mõni minut.)
 
@@ -64,7 +64,6 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Põhikalendrid | Põhikalendrit kasutavad kalendrid: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud | 
 | Partii likvideerimiskoodid | Tasaarveldamatu partii likvideerimise koond: *\#* | Seda funktsiooni nüüd toetatakse. Lisateavet vt jaotisest Partii likvideerimiskoodide [kasutamine partiide märkimiseks kättesaadavaks või mitte kättesaadavaks.](../../inventory/batch-disposition-codes.md) | Toetatud |
 | Võimeline lubama (CTP) | Tellimuse vaikesätted, milles tarnekuupäeva kontrolliks on seatud CTP: *\#* | Tarneahela halduses 10.0.28 *ja uuemas protsessis nimetatakse planeerimise optimeerimise CTP-iks* kinnitatud lähetus- ja vastuvõtukuupäevi, mis on saadaval pärast dünaamilise plaani käivitamist. Tarneahela halduse vanemate versioonide puhul eiratakse pärand-CTP sätet, kui planeerimise optimeerimine on lubatud. | Toetatud |
-| Staatilise plaani kopeerimine dünaamilisse plaani | Koondplaneerimise parameetrites on lubatud staatilise plaani kopeerimine dünaamilisse plaani. | Sellest sättest hoolimata ei kopeeri planeerimise optimeerimine staatilist plaani dünaamilisse plaani. Üldiselt on see kontseptsioon vähem oluline kiiruse ja täieliku taasloomise tõttu, mida planeerimise optimeerimine võimaldab. Kui kasutatakse kaht või enamat plaani, tuleb iga plaani jaoks käivitada koondplaneerimine. | Pole |
 | Kinnitamine | Laovarude grupid, millel on määratud automaatkinnitamise ajapiir: *\#* | Versioonis 10.0.7 ja uuemates versioonides toetatakse kinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon *Automaatkinnitus planeerimise optimeerimiseks* on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |
 | Kinnitamine | Kauba laovarude kirjed, millel on määratud automaatkinnitamine: *\#* | Versioonis 10.0.7 ja uuemates versioonides toetatakse automaatkinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon *Automaatkinnitus planeerimise optimeerimiseks* on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |
 | Kinnitamine | Koondplaanid, millel on määratud automaatkinnitamine: *\#* | Versioonis 10.0.7 ja uuemates versioonides toetatakse automaatkinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon *Automaatkinnitus planeerimise optimeerimiseks* on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |
@@ -93,34 +92,27 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Töö | Kaastoote/kõrvalsaadusega valemiversioonid: *\#* | See funktsioon on ootel. Praegu eiratakse valemiversiooniga seotud kaastooteid ja kõrvalsaadusi, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
 | Töö | Tuludega valemiversioonid: *\#* | See funktsioon on ootel. Praegu eiratakse valemiversiooniga seotud tulu, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
 | Töö | Järjestust sisaldavad plaanid: *\#* | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu järjestust, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
-| Töö | Tänasest varasema algusajaga kavandatud vabastatud tootmistellimused, mida ei ole alustatud: *\#* | See funktsioon on ootel. Kui tootmistellimus viibib, eeldab koondplaneerimine praegu, et see viiakse lõpule täna. See on oluline väljastatud tootmistellimuste puhul, mille tarnekuupäev on minevikus, kuid see pole veel lõpetatud. | Tulevane laine |
+| Töö | Tänasest varasema algusajaga kavandatud vabastatud tootmistellimused, mida ei ole alustatud: *\#* | See funktsioon on ootel. Kui tootmistellimus viibib, eeldab koondplaneerimine praegu, et see viiakse lõpule täna. See on oluline väljastatud tootmistellimuste puhul, mille tarnekuupäev on minevikus, kuid see pole veel lõpetatud. | 2022 vabastav voo 2 |
 | Töö | Piiratud võimsusega kavandatud ressursid: *\#* | Seda funktsiooni nüüd toetatakse.| Toetatud |
 | Töö | Plaanimisel kasutatavad marsruudid: *\#* | Seda funktsiooni toetatakse. | Toetatud |
-| Töö | Müügirea reserveerimine koosnevusarvutuse abil: *\#* | Koosnevusarvutust kasutavat müügirea reserveerimist ei toetata, kui planeerimise optimeerimine on lubatud. | Tulevane laine |
-| Töö | Tootmistellimuste koosnevusarvutusega plaanimine: *\#* | Tootmistellimuste koosnevusarvutust kasutavat plaanimist ei toetata, kui planeerimise optimeerimine on lubatud. Tootmistellimusi saab plaanida ükshaaval. | Tulevane laine |
+| Töö | Müügirea reserveerimine koosnevusarvutuse abil: *\#* | Koosnevusarvutust kasutavat müügirea reserveerimist ei toetata, kui planeerimise optimeerimine on lubatud. | 2022 vabastav voo 2 |
+| Töö | Tootmistellimuste koosnevusarvutusega plaanimine: *\#* | Tootmistellimuste koosnevusarvutust kasutavat plaanimist ei toetata, kui planeerimise optimeerimine on lubatud. Tootmistellimusi saab plaanida ükshaaval. | 2022 vabastav voo 2 |
 | Pakkumiskutsed | Koondplaanid, mille pakkumiskutsed on lubatud: *\#* | See funktsioon on ootel. Praegu ei peeta pakkumiskutseid (RFQ) nõudluseks, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2022 vabastav voo 2 |
 | Taotlused | Koondplaanid, mille taotlused on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. Lisateavet vt teemast [Ostutaotlused](purchase-requisitions.md). | Toetatud |
 | Ohutuspiirid | Ohutuspiiriga laovarude grupid: *\#* | Seda funktsiooni nüüd toetatakse. Lisateabe saamiseks vt [Ohutuspiirid](safety-margins.md) | Toetatud |
 | Ohutuspiirid | Ohutuspiiriga koondplaanid: *\#* | Seda funktsiooni nüüd toetatakse. Lisateabe saamiseks vt [Ohutuspiirid](safety-margins.md) |  Toetatud |
-| Puhvervaru täitmine | Kauba laovarude kirjed, mille säte „Täida minimaalselt” erineb sättest „Tänane kuupäev + tarneaeg”: *\#* | Planeerimise optimeerimine kasutab sätet *Tänane kuupäev + tarneaeg*. See muudatus tehti selleks, et valmistada ette lihtsustatud planeerimise seadistamine tulevikus ja pakkuda kasutatavat tulemust. Kui tarneaega puhvervarus ei arvestata, lükatakse plaanitud tellimused, mis luuakse praeguse vähese vaba kaubavaru jaoks, täitmisaja tõttu alati edasi. Selline käitumismudel võib põhjustada palju müra ja soovimatuid plaanitud tellimusi. Parim tava on muuta sätet nii, et kasutatakse sätet *Tänane kuupäev + tarneaeg*. Värskendage koondandmeid, et vältida hoiatusi. | Pole rakendatav |
-| Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: *\#* | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2022 vabastav voo 2 või uuem |
-| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | See funktsioon on ootel. | 2022 vabastav voo 2 |
+| Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: *\#* | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2022 vabastav voo 2 |
+| Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: *\#* | Seda funktsiooni nüüd toetatakse. | Toetatud |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-
-[Planeerimise optimeerimise kasutamise alustamine](get-started.md)
-
-[Klassikalise koondplaneerimise ja plaanimise optimeerimise vahelised erinevused](planning-optimization-differences-with-built-in.md)
-
-[Parameetrid, mida planeerimise optimeerimine ei kasuta](not-used-parameters.md)
-
-[Plaaniajaloo ja plaanimislogide kuvamine](plan-history-logs.md)
-
-[Plaanile filtrite rakendamine](plan-filters.md)
-
-[Planeerimistöö tühistamine](cancel-planning-job.md)
+- [Koondplaneerimise süsteemi ülesehitus](../master-planning-architecture.md)
+- [Koondplaneerimisega alustamine](get-started.md)
+- [Klassikalise koondplaneerimise ja plaanimise optimeerimise vahelised erinevused](planning-optimization-differences-with-built-in.md)
+- [Parameetrid, mida planeerimise optimeerimine ei kasuta](not-used-parameters.md)
+- [Plaaniajaloo ja plaanimislogide kuvamine](plan-history-logs.md)
+- [Kaupade alamkogumi plaanimise käitamine](plan-filters.md)
+- [Planeerimistöö tühistamine](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

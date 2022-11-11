@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335371"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740464"
 ---
 # <a name="delay-tolerance-negative-days"></a>Viivituse kõikumine (negatiivsed päevad)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Süsteem seob viivituse kõikumise arvutamise *varaseima täiendamiskuupäevaga*
 See valem tagab, et koondplaneerimine ei loo uusi tarnetellimusi, kui toote täitmisaja jooksul on piisavalt tarneid.
 
 > [!NOTE]
-> Viivituse kõikumise arvutamine plaanimise optimeerimises kasutab alati dünaamilist negatiivsete päevade arvutust integreeritud koondplaneerimisest. Säte **Kasuta dünaamilisi negatiivseid päevi** lehel **koondplaneerimise parameetrite** ei mõjuta seda käitumist.
+> Viivituse kõikumise arvutamine plaanimise optimeerimises kasutab alati dünaamilist negatiivsete päevade arvutamist taunitud koondplaanimise mootorist. Säte **Kasuta dünaamilisi negatiivseid päevi** lehel **koondplaneerimise parameetrite** ei mõjuta seda käitumist.
 
 Kui olemasolev pakkumine tähendab nõudluse viivitust, mis on arvutatud viivituse kõikumisest väiksem või sellega võrdne, seob plaanimise optimeerimine olemasoleva pakkumise nõudlusega. Mõnel juhul on parem nõudlust edasi lükata, kui lõpetada ülepakkumisega.
 

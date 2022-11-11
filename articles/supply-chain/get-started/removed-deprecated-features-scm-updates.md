@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218798"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739866"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
 
@@ -89,7 +89,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah, planeerimise optimeerimine asendab Supply Chain Managementi olemasoleva sisseehitatud koondplaneerimise mootori. |
 | **Mõjutatud tootealad**         | Supply Chain Management – Koondplaneerimine |
 | **Juurutamissuvand**              | Ainult pilv. Kohapealsed juurutamised ei toeta planeerimise optimeerimist. |
-| **Olek**                         | Aegunud. 1. aprilliks 2022 ei toetata tootmisstsenaariume enam integreeritud tarneahela halduse koondplaneerimise mootori puhul. Alates sellest kuupäevast peatab Microsoft kõik aktiivsed arendused tootmisstsenaariumites integreeritud plaanimismootori jaoks, ei vabasta uusi funktsioone ja vabastab ainult kriitilised vigaparandused. Pärast seda kuupäeva peavad kõik tootmisstsenaariume vajavad ettevõtted koondplaneerimise arvutustes kasutama plaanimise optimeerimist. Plaanimise optimeerimine peaks tootmisstsenaariume täielikult toetama 2022. aasta oktooberks. Lisateavet vt planeerimise optimeerimise [dokumentatsioonist](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Ettevõtted, kus on tarneahela halduse valdustes juurutamised, võivad jätkata pärast 2022. aasta aprilli tootmisstsenaariumide integreeritud koondplaneerimise mootori kasutamist. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
+| **Olek**                         | Aegunud. 1. aprilliks 2022 ei toetata tootmisstsenaariume enam integreeritud tarneahela halduse koondplaneerimise mootori puhul. Alates sellest kuupäevast peatab Microsoft kõik aktiivsed arendused tootmisstsenaariumites integreeritud plaanimismootori jaoks, ei vabasta uusi funktsioone ja vabastab ainult kriitilised vigaparandused. Pärast seda kuupäeva peavad kõik tootmisstsenaariume vajavad ettevõtted koondplaneerimise arvutustes kasutama plaanimise optimeerimist. Plaanimise optimeerimine peaks tootmisstsenaariume täielikult toetama 2022. aasta oktooberks. Lisateavet vt aegunud [koondplaneerimise ülevaatest](../master-planning/deprecated-master-planning-overview.md).<br><br>Ettevõtted, kus on tarneahela halduse valdustes juurutamised, võivad jätkata pärast 2022. aasta aprilli tootmisstsenaariumide integreeritud koondplaneerimise mootori kasutamist. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Managementi väljalaskest 10.0.11 eemaldatud või aegunud funktsioonid
 
@@ -101,7 +101,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah, planeerimise optimeerimine asendab Supply Chain Managementi olemasoleva sisseehitatud koondplaneerimise mootori. |
 | **Mõjutatud tootealad**         | Supply Chain Management – Koondplaneerimine |
 | **Juurutamissuvand**              | Ainult pilv. Kohapealsed juurutamised ei toeta planeerimise optimeerimist. |
-| **Olek**                         | Aegunud. Alates 2021. aasta 1. aprillist ei toeta jaotamisstsenaariumid enam Dynamics 365 Supply Chain Management-i sisseehitatud koondplaneerimise mootorit. Kliendid peavad jaotamisstsenaariumite puhul kasutama koondplaneerimise arvutustes planeerimise optimeerimist. Lisateavet vt [Planeerimise optimeerimise dokumentatsioon](../master-planning/planning-optimization/planning-optimization-overview.md). Kliendid, kellel on Dynamics 365 Supply Chain Management-i kohapealsed juurutused, võivad jätkata Supply Chain Managementi koondplaneerimise mootori kasutamist jaotamisstsenaariumite jaoks ka pärast 2021. aasta aprilli. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
+| **Olek**                         | Aegunud. Alates 2021. aasta 1. aprillist ei toeta jaotamisstsenaariumid enam Dynamics 365 Supply Chain Management-i sisseehitatud koondplaneerimise mootorit. Kliendid peavad jaotamisstsenaariumite puhul kasutama koondplaneerimise arvutustes planeerimise optimeerimist. Lisateavet vt aegunud [koondplaneerimise ülevaatest](../master-planning/deprecated-master-planning-overview.md). Kliendid, kellel on Dynamics 365 Supply Chain Management-i kohapealsed juurutused, võivad jätkata Supply Chain Managementi koondplaneerimise mootori kasutamist jaotamisstsenaariumite jaoks ka pärast 2021. aasta aprilli. Funktsioonitäiustusi aga enam tulevikus ei pakuta. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Varasemad teatised eemaldatud või aegunud funktsioonidest
 

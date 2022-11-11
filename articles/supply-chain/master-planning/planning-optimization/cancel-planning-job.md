@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900937"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741172"
 ---
 # <a name="cancel-a-planning-job"></a>Plaanimistöö tühistamine
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900937"
 
 Microsoft Dynamics 365 Supply Chain Managementis saab tühistada aktiivse plaanimistöö, mis kasutab funktsiooni Plaanimise optimeerimine. Kui valite dialoogiboksis käsu **Tühista**, kui plaanimise optimeerimise töö käivitatakse otse kasutajaliidesest (mitte taustal), ei tühista see plaanimise optimeerimise tööd. Isegi kui kuvatakse hoiatusteade (nt „Toiming tühistatud”), tuleb teil siiski kasutada järgmisi samme, et tühistada plaanimise optimeerimisega plaanimistöö.
 
-
-Aktiivse plaanimistöö tühistamiseks toimige järgmiselt. 
+Aktiivse plaanimistöö tühistamiseks toimige järgmiselt.
 
 > [!NOTE]
 > Tühistada saab ainult aktiivseid töid.
@@ -45,18 +44,6 @@ Tööolek on **Tühistamine**, kuni Plaanimise optimeerimise teenus kinnitab, et
 
 > [!NOTE]
 > Olekumuudatuste nägemiseks peate värskendama lehte, valides nupu **Värskenda**.
-
-## <a name="additional-resources"></a>Lisaressursid
-
-[Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-
-[Planeerimise optimeerimisega alustamine](get-started.md)
-
-[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-
-[Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
-
-[Plaanile filtrite rakendamine](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

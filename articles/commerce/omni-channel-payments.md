@@ -2,7 +2,7 @@
 title: Omnikanali maksete ülevaade
 description: See artikkel annab ülevaate Menüü-kanali maksetest Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881705"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746121"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 See artikkel annab ülevaate Menüü-kanali maksetest Dynamics 365 Commerce. See sisaldab põhjalikku loendit toetatud stsenaariumitega, teavet funktsioonide, seadistamise ja tõrkeotsingu kohta ning tavaliste probleemide kirjeldusi.
 
@@ -34,7 +35,7 @@ See artikkel annab ülevaate Menüü-kanali maksetest Dynamics 365 Commerce. See
 
 | Mõiste | Kirjeldus |
 |---|---|
-| Luba | Andmestring, mille maksetöötleja esitab viitena. Load võivad tähistada maksekaardi numbreid, makse autoriseerimisi ja eelmise makse jäädvustusi. Load on olulised, kuna need aitavad hoida tundlikke andmeid süsteemi kassast (POS) eemal. Neid nimetatakse mõnikord *viideteks*. |
+| Luba | Andmestring, mille maksetöötleja esitab viitena. Load võivad tähistada maksekaardi numbreid, makse autoriseerimisi ja eelmise makse jäädvustusi. Load on olulised, kuna need aitavad hoida tundlikke andmeid süsteemi kassast (POS) eemal. Neile viidatakse mõnikord ka kui *viideteks*. |
 | Kaardiluba | Luba, mille maksetöötleja esitab kassasüsteemi salvestamiseks. Kaardiluba saab kasutada ainult kaupmees, kellele see antakse. Kaardilubasid nimetatakse mõnikord *kaardiviideteks*. |
 | Autoriseerimise luba | Kordumatu ID, mille makseprotsess esitab osana vastusest, mille see saadab kassasüsteemi pärast seda, kui kassasüsteem esitab autoriseerimise taotluse. Autoriseerimise luba saab kasutada hiljem, kui töötlejal palutakse teha niisuguseid toiminguid nagu autoriseerimise ennistamine või tühistamine. Kuid kõige sagedamini kasutatakse seda vahendite jäädvustamiseks, kui tellimus täidetakse või kanne lõpule viiakse. Autoriseerimise lubasid nimetatakse mõnikord *autoriseerimise viideteks*. |
 | Hõivamise luba | Viide, mille maksetöötleja esitab kassasüsteemi, kui makse lõpule viiakse või hõivatakse. Hõivamise luba saab seejärel kasutada maksehõive viitamiseks järgmistes toimingutes, näiteks tagasimakse taotlustes. | 
@@ -43,7 +44,7 @@ See artikkel annab ülevaate Menüü-kanali maksetest Dynamics 365 Commerce. See
 
 ## <a name="overview"></a>Ülevaade
 
-Üldiselt kirjeldab tingimus *omnikanali maksed* võimet luua tellimus ühes kanalis ja täita see teises kanalis. Omnikanali makse toe põhiomadus on säilitada makse üksikasju koos ülejäänud makse üksikasjadega ja seejärel kasutada neid makse üksikasju, kui tellimus teises kanalis tagasi kutsutakse või seda seal töödeldakse. Klassikaline näide on veebist tellimise ja kauplusest kättesaamise stsenaarium. Selles stsenaariumis lisatakse makse üksikasjad, kui tellimus veebis luuakse. Seejärel kutsutakse need tagasi kassasse, et kliendi maksekaardilt kättesaamisel tasu võtta. 
+Üldiselt kirjeldab tingimus *omnikanali maksed* võimet luua tellimus ühes kanalis ja täita see teises kanalis. Omnikanali makse toe põhiomadus on säilitada makse üksikasju koos ülejäänud makse üksikasjadega ja seejärel kasutada neid makse üksikasju, kui tellimus teises kanalis tagasi kutsutakse või seda seal töödeldakse. Klassikaline näide on veebist tellimise ja kauplusest kättesaamise stsenaarium. Selles stsenaariumis lisatakse makse üksikasjad, kui tellimus veebis luuakse. Seejärel on nad kassas tagasi kutsuda, et võtta kliendi maksekaardilt tasu pealevõtmine. 
 
 Kõiki selles artiklis kirjeldatud stsenaariume saab rakendada rakendusega Commerce antud standardse maksete tarkvara arenduskomplekti (SDK) abil. [Dynamics 365 maksekonnektor Adyeni jaoks](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) annab valmis juurutuse iga siin kirjeldatud stsenaariumi kohta. 
 
@@ -66,7 +67,7 @@ Teine API-de komplekt kannab nime **iNamedRequestHandler**. See toetab makse int
 Vajalikud on järgmised komponendid ja seadistustoimingud.
 
 - **eCommerce’i integratsioon:** stsenaariumide toetamiseks, kus tellimus pärineb veebipoe fassaadist, on vajalik integratsioon Commerce’iga. Lisateavet Retaili e-kaubanduse SDK kohta vaadake teemast [E-kaubanduse platvormi tarkavaraarenduse komplekt (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demokeskkonnas toetab viite fassaad omnikanali makse stsenaariume. 
-- **Veebimaksete konfiguratsioon:** veebikanali seadistus peab hõlmama maksekonnektorit, mis on uuendatud toetama omnikanali makseid. Võib ka kasutada valmis maksekonnektorit. Lisateavet Adyeni maksekonnektori konfigureerimise kohta veebipoodide jaoks vaadake teemast [Adyeni maksekonnektor](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Lisaks selles artiklis kirjeldatud eCommerce'i häälestusetappidele tuleb **parameetri Luba makseteabe salvestamine e-commerce'i** **parameetris** seada Puhvri sätetes väärtusele Tõene. 
+- **Veebimaksete konfiguratsioon:** veebikanali seadistus peab hõlmama maksekonnektorit, mis on uuendatud toetama omnikanali makseid. Võib ka kasutada valmis maksekonnektorit. Lisateavet Adyeni maksekonnektori konfigureerimise kohta veebipoodide jaoks vaadake teemast [Adyeni maksekonnektor](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Lisaks selles artiklis kirjeldatud eCommerce’i häälestusetappidele tuleb **parameetri Luba makseteabe salvestamine e-commerce’i** **parameetris** seada Puhvri sätetes väärtusele Tõene. 
 - **Omnikanali maksete konfiguratsioon:** tehke kontoris valikud **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seejärel seadistage vahekaardil **Omnikanali maksed** suvand **Kasuta omnikanali makseid** valikule **Jah**. Commerce'i versioonis 10.0.12 ja hilisemates on see säte tööruumis **Funktsioonihaldus**. Valige funktsioon **Omnikanali maksed** ja klõpsake **Luba kohe**. 
 - **Makseteenused:** kõnekeskus kasutab vaikimisi maksekonnektorit lehel **Makseteenused** maksete töötlemiseks. Niisuguste stsenaariumide nagu Kõnekeskusesse tellimine ja kättesaamine kauplusest toetamiseks peab see vaikimisi maksekonnektor olema Adyeni maksekonnektor või maksekonnektor, mis vastab omnikanali maksete juurutamise nõuetele.
 - **EFT-teenus:** maksed läbi makseterminali tuleb seadistada riistvaraprofiili kiirkaardil **EFT-teenus**. Adyeni konnektor toetab omnikanali maksete stsenaariume valmis kujul. Kasutada saab ka muid maksekonnektoreid, mis toetavad liidest **iNamedRequestHandler**, kui need toetavad omnikanali makseid.
@@ -104,7 +105,7 @@ Järgmistes jaotises kirjeldatakse iga stsenaariumi toiminguid ja näidatakse, k
 Enne alustamist veenduge, et järgmised tingimused oleks täidetud.
 
 - Olemas on viite fassaad, kus on konfigureeritud Adyeni konnektor.
-- Suvand **Omnikanali maksed** lehel **Commerce’i ühiskasutuses parameetrid** on seatud väärtusele **Tõene**. Hilisemates versioonides teisaldatakse see säte tööruumi **Funktsioonihaldus**, kus saate valida funktsiooni **Omnikanali maksed** ja klõpsata **Luba kohe**. 
+- Suvand **Omnikanali maksed** lehel **Commerce’i ühiskasutuses parameetrid** on seatud väärtusele **Tõene**. Hilisemates versioonides teisaldatakse see säte funktsioonihalduse **tööruumi**, kus saate valida **Funktsioonikanalite** maksete funktsiooni ja klõpsata käsku **Luba kohe**. 
 - Adyeni maksekonnektor on konfigureeritud Houstoni kassaregistrile.
 - Retail Modern POS Windowsile või Androidile koos integreeritud riistvarajaamaga või
 - Modern POS iOS-ile või Cloud POS-ile koos ühendatud jagatud riistvarajaamaga. 
@@ -169,9 +170,9 @@ Stsenaariumi käivitamiseks järgige neid toiminguid.
 6. Sisestage otsinguribale **Seattle** ja seejärel valige kättesaamise kaupluseks **Seattle**. 
 7. Valige **OK** praeguse kuupäeva määramiseks kättesaamise kuupäevaks.
 9. Makse alustamiseks valige suvand **Tasumine kaardiga**.
-10. Määrake kaardimakse maksevahendiks deposiidiks olevale summale. 
+10. Määrake kaardimakse maksevahendiks deposiidiks olevale summale.
 11. Lõpetage deposiidi makse makseterminalis. 
-12. Kui deposiit on makstud, valige suvand kasutada sama kaarti täitmiseks ja oodake, kuni tellimus lõpetatakse. 
+12. Kui deposiit on makstud, valige suvand kasutada sama kaarti täitmiseks ja oodake, kuni tellimus lõpetatakse. Kui 100% deposiidist makstakse (alates 10. juhist), fikseeritakse vahendid viivitamatult kaardi suhtes ja autoriseerimisluba ei ole arveldamisel saadaval, kuna vahendid on juba hõivatud ja nende eest tasu jälgitakse.
 13. Käivitage kassa Seattle’i kaupluse jaoks.
 14. Valige kassas tervituslehel toiming **Kättesaadavad tellimused**, et näha poes kättesaadavaid tellimusi. 
 15. Valige viite fassaadis loodud tellimusest üks või mitu rida ja valige suvand **Kättesaamine**.
@@ -198,7 +199,7 @@ Stsenaariumi käivitamiseks järgige neid toiminguid.
 8. Makse alustamiseks valige suvand **Tasumine kaardiga**.
 9. Määrake kaardimakse maksevahendiks deposiidiks olevale summale. 
 10. Lõpetage deposiidi makse makseterminalis. 
-11. Kui deposiit on makstud, valige suvand kasutada sama kaarti täitmiseks ja oodake, kuni tellimus lõpetatakse.
+11. Kui deposiit on makstud, valige suvand kasutada sama kaarti täitmiseks ja oodake, kuni tellimus lõpetatakse. Kui 100% deposiidist makstakse (alates 9. juhist), fikseeritakse vahendid kohe kaardi suhtes ja autoriseerimisluba ei ole arveldamisel saadaval, kuna vahendid on juba hõivatud ja makstudna jälgitud.
 
 Kui tellimus on kontoris komplekteeritud, pakitud ja selle kohta on arve koostatud, kasutatakse kassas olevaid makse üksikasju maksevahendite hõivamiseks kliendile tarnitavate kaupade jaoks. 
 

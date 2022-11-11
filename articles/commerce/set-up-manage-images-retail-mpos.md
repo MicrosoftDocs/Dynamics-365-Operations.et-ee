@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287507"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751912"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Piltide seadistamine ja haldamine Modern POS-i (MPOS) jaoks
 
@@ -160,7 +160,7 @@ Kõikide üsksute puhul, v.a Tooted, saate pildi-URL-i antud üksuse kauba jaoks
     [![Kataloogi piltide galerii leht.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Praegu ei kuva galerii meediamalli pildi-URL-ide pildi eelvaateid. Üksuste Kataloog, Töötaja, Klient ja Kategooria puhul, kui kasutaja lisab selgesõnaliselt URL-i selle lehe kaudu, soovitame teil viidata, milline on vaikepilt, sest Commerce’i skaala üksuse kliendid kuvavad ainult ühe pildi üksuse Kataloog, Klient, Töötaja ja Kategooria kohta. Kui kasutaja ei määra vaikepilti, määrab süsteem vaikepildi ja saadab selle Commerce’i teenuse kutsujale (MPOS või Ecommerce).
+> Kassas renderdatakse ainult avalikult ja anonüümselt juurdepääsetavad pildid. Müügikoht toetab väliselt majutatud kujutiste renderdamist nõudega, et pildid tagastatakse rida-otse voogu GET-taotlustena ilma päisteta. Anonüümse juurdepääsupoliitika korral, eriti majutatud piltide puhul, SharePoint mis nõuavad, et taotluse päised sisaldaks nii hosti kui ka kasutajaagendi päiseid, tagastatakse vastus "Keelatud". Seetõttu ei toetata SharePoint pildihaldust hostina praegu boksist väljas. Kataloogi **piltide piltide** piltide lehel ei ole meediamalli pildi URL-ide pildi eelvaated. Kuna Commerce Scale Uniti (CSU) kliendid kuvavad kataloogi, kliendi, töötaja ja kategooria üksuse kohta ainult ühe pildi, siis on soovitatav määrata, milline pilt on vaikepilt. Kui te vaikepilti ei määra, määrab süsteem vaikepildi ja saadab selle Commerce Service’i kutsujale (MPOS või e-commerce).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Kataloogitoote piltide pildi-URL-i ülekirjutamine lehel Eelvaade
 

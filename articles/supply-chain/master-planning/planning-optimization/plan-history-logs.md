@@ -1,6 +1,6 @@
 ---
 title: Plaaniajaloo ja plaanimislogide kuvamine
-description: See artikkel selgitab, kuidas vaadata planeerimise optimeerimise funktsiooni käivitanud planeerimistööde ajalugu.
+description: See artikkel selgitab, kuidas vaadata tööde planeerimise ajalugu.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863936"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740927"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plaaniajaloo ja plaanimislogide kuvamine
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel selgitab, kuidas vaadata planeerimise tööde ajalugu, mille käivitavad Microsofti optimeerimise planeerimise funktsioonid Dynamics 365 Supply Chain Management.
+See artikkel selgitab, kuidas vaadata Microsofti plaanimistööde ajalugu Dynamics 365 Supply Chain Management.
 
 Plaani ajaloo vaatamiseks avage plaan, avades **Koonplaneerimine** \> **Seadistus** \> **Plaanid** \> **Koondplaanid** ja valides suvandi **Ajalugu**. Ajaloos loetletakse kõik valitud plaani tööd. Loend sisaldab lõpetatud ja aktiivseid töid.
 
@@ -47,14 +47,6 @@ Koondplaneerimise käivitamisel ilmnenud automaatse täitmise tõrgete ja teiste
     - Kui kasutate pärandvormi: valige tegevuspaani vahekaardil **Partiitöö** **Logi**.
 
 1. Valige **Teate üksikasjad**, et avada **Teate üksikasjade** paan, kus saate vaadata kõiki hoiatusi ja tõrkeid, mis talletati töötlemise ajal.
-
-## <a name="related-resources"></a>Seotud ressursid
-
-- [Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-- [Planeerimise optimeerimise kasutamise alustamine](get-started.md)
-- [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-- [Plaanile filtrite rakendamine](plan-filters.md)
-- [Planeerimistöö tühistamine](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

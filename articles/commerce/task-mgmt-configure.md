@@ -2,23 +2,23 @@
 title: Ülesandehalduse konfigureerimine
 description: See artikkel kirjeldab, kuidas konfigureerida toiminguhalduse funktsioone moodulis Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282757"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746058"
 ---
 # <a name="configure-task-management"></a>Ülesandehalduse konfigureerimine
 
@@ -80,7 +80,11 @@ Järgmisel joonisel on kujutatud toiming **Ülesannete haldus** lehel **Kassa to
 
 ![Ülesannete halduse toiming kassa toimingute lehel.](media/HQ-POS-Tasks-Notifications.png)
 
-Lisateavet kassa teatiste konfigureerimise kohta vt teemast [Kassa tellimuse teatiste kuvamine](notifications-pos.md).
+Lisateavet müügikoha teatiste konfigureerimise kohta [vaadake müügikoha (POS) artikli kuvamistellimuse teatistest](notifications-pos.md).
+
+> [!NOTE]
+> Muudatuste salvestamisel kuvatakse järgmine hoiatusteade: **toiminguparameetreid ei lubata nupupaneeli kujundajas toimingu ID jaoks, mis on väiksem kui 4000 või sellega võrdne. Kui loote kohandatud toimingut ja soovite nupupaneeli kujundajast parameetrit edastada, kasutage operatsiooni ID-d, mis on suurem kui 4000.** Dialoogi **sulgemiseks** klõpsake nuppu Sule.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Paani Ülesanded konfigureerimine kassarakenduse avalehel
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732763"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752686"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources infrastruktuuri ühendamise teadaolevad probleemid
 
@@ -44,10 +44,3 @@ Enne migreerimist on nõutavad järgmised keskkonnatüübid:
 
 Teamsi olemasolevat inimressursside rakendust nihutatakse praegu lahendusele Microsoft Power Platform. Lisateavet vt teemast [Rakendus Human Resources Teamsis](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Litsentsimine
-
-Litsentsimises ei ole muudatusi Dynamics 365 Human Resources järgmistel aladel: 
-
-- **Litsentsi ostunõude miinimumarv**
-- **Tootmiskeskkonna** litsentsid ja sisendkausta keskkond – kui teil on olemas autonoomsed inimressursside litsentsid, mis sisaldavad ühte tootmiskeskkonda ja ühte kausta keskkonda, on finantside ja toimingute infrastruktuuris saadaval sama arv litsentse.
-- **Täiendavad rakenduslitsentsid** – kui olete ostnud eraldiseisev inimressursid rakenduse jaoks täiendavaid ruutlitsentsisid, on finantside ja toimingute infrastruktuuris märkeruutukeskkondades saadaval sama arv litsentse. 

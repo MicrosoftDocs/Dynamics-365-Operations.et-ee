@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335251"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740545"
 ---
 # <a name="production-planning"></a>Tootmise planeerimine
 
 [!include [banner](../../includes/banner.md)]
-
-Planning Optimization toetab mitut tootmisstsenaariumi. Kui migreerite olemasolevalt sisse-ehitatud koondplaneerimise mootorilt, on oluline, et teaksite mõnda muutunud käitumist.
 
 Järgmises videos antakse lühike sissejuhatus mõnedele selles artiklis nimetatud mõistetele: optimeerimise [Dynamics 365 Supply Chain Management optimeerimise täiustuste planeerimine](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Plaanitud tootmistellimused sisaldavad protsessi ID-d, mis on vajalik tootmise p
 
 - **Plaanitud tootmistellimus** – täitmisaeg põhineb väljastatud toote staatilisel täitmisajal.
 - **Kinnistatud tootmistellimus** – täitmisaeg põhineb planeerimisel, mis kasutab protsessiteavet ja seotud ressursipiiranguid.
-
-Lisateavet funktsiooni eeldatava saadavuse kohta vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
-
-Kui te sõltute tootmise funktsioonidest, mis ei ole veel Planning Optimizationi jaoks saadaval, saate jätkata integreeritud koondplaneerimise mootori kasutamist. Erandit pole vaja.
 
 ## <a name="delays"></a>Hilinemised
 
@@ -76,15 +70,15 @@ Saate kasutada lehte **Kooslus**, et analüüsida nõudlust, mis on vajalik konk
 
 ## <a name="filters"></a><a name="filters"></a>Filtrid
 
-Kindlustamaks, et teenusel Planning Optimization oleks õige tulemuse arvutamiseks vajalik teave, peate kaasama kõik tooted, millel on mis tahes seos toodetega plaanitud tellimuse koosluse struktuuris. Tootmisega seotud stsenaariumite plaanimiseks on soovitatav vältida filtreeritud koondplaneerimise käitamist.
+Selleks, et tagada koondplaneerimisel õige tulemuse arvutamiseks vajalik teave, peate kaasama kõik tooted, mis on mis tahes seosega toodetega plaanitud tellimuse kooslusestruktuuris. Tootmisega seotud stsenaariumite plaanimiseks on soovitatav vältida filtreeritud koondplaneerimise käitamist.
 
-Kuigi sõltuvad alamüksused tuvastatakse ja kaasatakse koondplaneerimisel automaatselt, siis integreeritud koondplaneerimise mootori kasutamisel plaanimise optimeerimine seda tegevust ei tee.
+Kuigi sõltuvaid tütarüksusi tuvastati ja kaasatakse koondplaneerimisel automaatselt, siis taunitud koondplaneerimise mootori kasutamisel ei soorita plaanimise optimeerimine praegu seda tegevust.
 
 Näiteks kui toote A koosluse struktuurist kasutatakse ka üksikut polti ka toote B tootmiseks, peavad filtrisse olema kaasatud kõik tooted, mis on toodete A ja B koosluse struktuuris. Kuna kõigi toodete filtri osa kindlustamine võib olla väga keerukas, on soovitatav vältida filtreeritud koondplaneerimise käivitamist tootmistellimuste puhul. Vastasel juhul annab koondplaneerimine soovimatud tulemused.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Filtreeritud koondplaneerimise käitamise vältimiseks
 
-Kui käivitate toote filtreeritud koondplaneerimise, ei tuvasta plaanimise optimeerimine (erinevalt integreeritud koondplaneerimise mootorist) selle toote koosluse struktuuris kõiki alamtootmisi ja toormaterjale ning seega ei kaasa neid koondplaneerimise käitusse. Isegi kui planeerimise optimeerimine tuvastab toote koosluse struktuuri esimese taseme, ei laadita andmebaasist tootesätteid (nt tellimuse vaiketüüp või kauba laovarud).
+Kui käivitate toote filtreeritud koondplaneerimise, ei tuvasta plaanimise optimeerimine (erinevalt taunitud koondplaneerimise mootorist) kõiki alamtootmisi ja toormaterjale selle toote kooslusestruktuurist ja seega ei kaasa neid koondplaanimise käitusse. Isegi kui planeerimise optimeerimine tuvastab toote koosluse struktuuri esimese taseme, ei laadita andmebaasist tootesätteid (nt tellimuse vaiketüüp või kauba laovarud).
 
 Rakenduse Planning Optimization laaditakse eelnevalt käituse andmed ja rakendatakse filtrid. See tähendab, et kui konkreetsesse tootesse kaasatud alltootmine või toormaterjal ei ole filtri osa, ei hõivata selle teavet käituse kohta. Lisaks, kui alltootmine või toormaterjal on kaasatud ka teise tootesse, siis filtreeritud käitus, mis sisaldab ainult algtoodet ja selle komponente, eemaldaks olemasoleva planeeritud nõudluse, mis loodi selle teise toote jaoks.
 

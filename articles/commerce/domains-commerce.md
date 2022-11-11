@@ -2,19 +2,19 @@
 title: Domeenid Dynamics 365 Commerce'is
 description: See artikkel kirjeldab, kuidas domeene käsitsetakse Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465189"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750676"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -29,7 +29,7 @@ Domeenid on veebiaadressid, mida kasutatakse veebibrauseris teenuse Dynamics 365
 
 ## <a name="provisioning-and-supported-host-names"></a>Hostinimede ettevalmistamine ja toetamine
 
-E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) kasutatakse juurutatud Commerce'i keskkonnaga seotud domeenide sisestamiseks e-kaubanduse ettevalmistamise kuval välja **Toetatud hostinimed**. Need domeenid on kliendile suunatud domeeninimede serveri (DNS) nimed, kus majutatakse e-kaubanduse veebisaite. Domeeni sisestamine selles etapis ei hakka domeeni liiklust teenusesse Dynamics 365 Commerce suunama. Domeeni liiklus marsruuditakse Commerce'i lõpp-punkti alles siis, kui DNS-i kirjet CNAME värskendatakse Commerce'i lõpp-punkti kasutamiseks domeeniga.
+E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) kasutatakse juurutatud Commerce'i keskkonnaga seotud domeenide sisestamiseks e-kaubanduse ettevalmistamise kuval välja **Toetatud hostinimed**. Need domeenid on kliendile suunatud domeeninimede serveri (DNS) nimed, kus majutatakse e-kaubanduse veebisaite. Domeeni sisestamine selles etapis ei käivita domeeni liikluse suunamist teiseks Dynamics 365 Commerce. Domeeni liiklus marsruuditakse Commerce'i lõpp-punkti alles siis, kui DNS-i kirjet CNAME värskendatakse Commerce'i lõpp-punkti kasutamiseks domeeniga.
 
 > [!NOTE]
 > Väljale **Toetatud hostinimed** saab sisestada mitu domeeni, eraldades need semikoolonitega.
@@ -44,7 +44,7 @@ Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide 
 
 Dynamics 365 Commerce'i e-kaubanduse keskkonna ettevalmistamisel loob Commerce URL-i, mis on keskkonna tööaadress. Sellele URL-ile viidatakse LCS-is kuvatavas e-kaubanduse saidi lingis pärast keskkonna ettevalmistamist. Commerce'i loodud URL on vormingus `https://<e-commerce tenant name>.dynamics365commerce.ms`, mille korral e-kaubanduse rentniku nimi on LCS-is Commerce'i keskkonna jaoks sisestatud nimi.
 
-Tootmissaidi hostinimesid saate kasutada ka liivakastikeskkonnas. See suvand on ideaalne kasutamiseks siis, kui kopeerite saidi liivakastikeskkonnast tootmisse.
+Tootmissaidi hostinimesid saate kasutada ka liivakastikeskkonnas. See valik on ideaaljuhul, kui kopeerite saidi sisendkausta keskkonnast tootmisse.
 
 ## <a name="site-setup"></a>Saidi häälestus
 
@@ -85,7 +85,7 @@ Järgmisel joonisel on kujutatud saidiehitaja leht **URL-id**, mille loendis on 
 
 ## <a name="domains-in-site-builder"></a>Saidiehitaja domeenid
 
-Toetatud hostinime väärtused on saadaval, et neid saaks saidi seadistamisel domeeniga seostada. Toetatud hostinime väärtuse domeenina valimisel näete valitud domeeni, millele viidatakse saidiehitajas. See domeen on vaid viide Commerce'i keskkonnas ning selle domeeni reaalajas liiklust ei edastata veel teenusele Dynamics 365 Commerce.
+Toetatud hostinime väärtused on saadaval, et neid saaks saidi seadistamisel domeeniga seostada. Kui valite domeeniks toetatud hostinime väärtuse, näete valitud domeeni, mida viidatakse kogu saidiloojas. See domeen on ainult viide Commerce’i keskkonnas. Selle domeeni reaalajas liiklust ei edastata veel sellele domeenile Dynamics 365 Commerce.
 
 Kui töötate saidiehitaja saitidega ja teil on seadistatud kaks saiti kahe erineva domeeniga, saate lisada oma toimivale URL-ile atribuudi **?domain=**, et pääseda brauseris juurde avaldatud saidi sisule.
 
@@ -93,19 +93,25 @@ Näiteks keskkond „xyz” on ette valmistatud ning saidiehitajas on loodud ja 
 - `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Kui domeeni päringustringi ei pakuta keskkonnas, kus on mitu domeeni, kasutab Commerce esimest teie pakutavat domeeni. Näiteks kui saidi seadistamisel esitati esmalt tee „fabrikam”, võidakse kasutada URL-i `https://xyz.dynamics365commerce.ms`, et pääseda juurde saidi `www.fabrikam.com` avaldatud sisule.
+Kui domeenipäringu stringi ei ole esitatud keskkonnas, kus on antud mitu domeeni, kasutab Commerce esimest teie antud domeeni. Näiteks kui saidi seadistamisel esitati esmalt tee „fabrikam”, võidakse kasutada URL-i `https://xyz.dynamics365commerce.ms`, et pääseda juurde saidi `www.fabrikam.com` avaldatud sisule.
+
+Saate lisada ka kohandatud domeene. Selleks valige projekti ärihalduse **lehel e-äri** **alapealkirjas + Lisa kohandatud domeen**. Slaider näitab olemasolevaid kohandatud domeene ja pakub võimalust lisada uus kohandatud domeen.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Värskendage, millist äriskaala üksust kasutatakse.
+
+Commerce’i kasutatav Commerce Scale Unit (CSU) on tavaliselt valitud keskkonna algsel loomisel. Commerce võimaldab teil muuta seda, millist CSU eksemplari teie keskkonnas kasutatakse, võimaldades teil oma ülesehitust iseteenindusfunktsiooni kaudu paremini hooldada ja vähendada vajadust toega ühendust võtta. CSU eksemplari värskendamiseks minge projekti keskkonna Ärihalduse lehele ja valige seejärel värskendamisskaala **üksus**. Kasutage Uue **äriskaala üksuse** slaiderit uue CSU eksemplari valimiseks keskkonna jaoks saadaval csUs-ide loendist.
 
 ## <a name="traffic-forwarding-in-production"></a>Liikluse edastamine tootmisse
 
 Mitme domeeni simuleerimiseks saate kasutada domeeni päringustringi parameetreid saidi commerce.dynamics.com lõpp-punktis. Kuid kui teil on vaja avaldada otse tootmisse, peate oma kohandatud domeeni liikluse edastama saidi `<e-commerce tenant name>.dynamics365commerce.ms` lõpp-punkti.
 
-Saidi `<e-commerce tenant name>.dynamics365commerce.ms` lõpp-punkt ei toeta kohandatud domeeni SSL-e, seega peate häälestama kohandatud domeenid, kasutades sisenemispunkti teenust või sisu edastamise võrku (CDN). 
+Lõpp-punkt `<e-commerce tenant name>.dynamics365commerce.ms` ei toeta kohandatud domeeni Secure Sockets Layers (SSL-id), seega peate häälestama kohandatud domeenid eesuste teenuse või sisu tarnevõrgu (CDN) abil. 
 
 Kohandatud domeenide seadistamiseks sisenemispunkti teenuse või CDN-i abil on teil kaks võimalust.
 
-- Saate seadistada sisenemispunkti teenuse (nt Azure Front Door) eesserveri liikluse käsitlemiseks ja oma Commerce'i keskkonnaga ühenduse loomiseks. See tagab suurema kontrolli domeeni- ja serdihalduse ning täpsemate turbepoliitikate üle.
+- Seadistage eesuste teenus, nagu Azure Front Ukse, et käsitseda eesliidet liiklust ja ühendada oma Ärikeskkonnaga, mis võimaldab suuremat kontrolli domeeni- ja serdihalduse ning granulaarse turbepoliitika üle.
 
-- Saate kasutada Commerce'i esitatud Azure'i sisenemispunkti eksemplari. Selleks on vaja koordineerida tegevust teenuse Dynamics 365 Commerce töörühmaga domeeni kinnitamiseks ja teie tootmise domeeni SSL-i sertide hankimiseks.
+- Kasutage rakenduse Azure Front Ukse Dynamics 365 Commerce eksemplari, mis nõuab domeeni tõendamise ja tootmisdomeeni SSL-sertifikaatide hankimiseks meeskonnaga tegevuse kooskõlastamist.
 
 > [!NOTE]
 > Kui kasutate välist CDN-i või esikaaneteenust, veenduge, et taotlus on Äriportaalis äriportaali hostinimega, kuid X-Hosti (XFH) päisega \<custom-domain\>. Näiteks kui teie rakenduse Commerce lõpp-punkt `xyz.dynamics365commerce.ms``www.fabrikam.com` on ja kohandatud domeen on, `xyz.dynamics365commerce.ms` peaks edastatava nõude hostipäis olema ja olema XFH-päis `www.fabrikam.com`.
@@ -114,10 +120,10 @@ Lisateavet CDN-i teenuse otseseadistamise kohta leiate teemast [Sisu edastamise 
 
 Commerce'i esitatud Azure'i sisenemispunkti eksemplari kasutamiseks peate looma CDN-i seadistusabi teenusetaotluse Commerce'i töörühma abil. 
 
-- Peate sisestama ettevõtte nime, tootmise domeeni, keskkonna ID ja tootmise e-kaubanduse rentniku nime. 
-- Peate kinnitama, kas tegemist on olemasoleva domeeniga (mida kasutatakse praegu aktiivse saidi jaoks) või uue domeeniga. 
+- Peate esitama oma ettevõtte nime, tootmise domeeni, keskkonna ID ja tootmise e-äri rentniku nime. 
+- Peate kinnitama, kas see teenusetaotlus on olemasolevale domeenile (kasutatakse praegu aktiivse saidi puhul) või uue domeeni jaoks. 
 - Uue domeeni korral saab kinnitada domeeni ja hankida SSL-serdi ühe etapi abil. 
-- Olemasolevat veebisaiti teenindava domeeni korral on domeeni kinnitamise ja SSL-serdi loomiseks nõutav mitmeetapiline protsess. Sellel protsessil on seitsme tööpäeva teenusetaseme lepe (SLA) domeeni avaldamiseks, kuna see sisaldab mitut järjestikust etappi.
+- Domeenis, kus on olemasolev veebisait, on domeeni tõendamise ja SSL-i serdi loomiseks vajalik mitmetasandiline protsess. Sellel protsessil on seitsme tööpäeva teenusetaseme lepe (SLA) domeeni avaldamiseks, kuna see sisaldab mitut järjestikust etappi.
 
 Teenusetaotluse loomiseks LCS-is tehke oma keskkonnas valikud **Tugi \> Toeprobleemid** ja valige **Edasta juhtum**.
 
@@ -140,7 +146,7 @@ Olemasolevate/aktiivsete domeenide korral.
 
 ## <a name="apex-domains"></a>Tippdomeenid
 
-Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juurdomeene, mis ei sisalda alamdomeene). Apex-domeenid vajavad lahendamiseks IP-aadressi ja Commerce Azure’i front ukse eksemplar on olemas ainult virtuaalsete lõpp-punktidega. Domeeni apex kasutamiseks on teil järgmised võimalused:
+Äri esitatud Azure Front Ukse eksemplar ei toeta apex-domeene (juurdomeene, mis ei sisalda alamdomeene). Apex-domeenid vajavad lahendamiseks IP-aadressi ja Commerce Azure’i front ukse eksemplar on olemas ainult virtuaalsete lõpp-punktidega. Domeeni apex kasutamiseks on teil järgmised võimalused:
 
 - **Võimalus 1** – Saate kasutada oma DNS-i pakkujat, et suunata tippdomeen ümber "www"-domeeni. Näiteks suunab fabrikam.com ümber saidile `www.fabrikam.com`, kus `www.fabrikam.com` on kirje CNAME, mis osutab Commerce'i hostitud Azure'i sisenemispunkti eksemplarile.
 

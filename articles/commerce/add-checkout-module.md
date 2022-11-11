@@ -2,7 +2,7 @@
 title: Maksmismoodul
 description: See artikkel kirjeldab, kuidas lisada lehele väljaregistreerimise moodul ja seadistada nõutavad atribuudid.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280470"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746221"
 ---
 # <a name="checkout-module"></a>Maksmismoodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See artikkel kirjeldab, kuidas lisada lehele väljaregistreerimise moodul ja seadistada nõutavad atribuudid.
 
@@ -104,6 +105,8 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Looge mall, mis kasutab uut maksmise fragmenti.
 1. Looge maksmise leht, mis kasutab uut malli.
+
+> [MÄRKUS] Kasutades ühe makse [autoriseerimist](./dev-itpro/enhanced-sca.md), nagu on kirjeldatud täiustatud maksetes kaupluse väljaregistreerimises, **kinnitage** väljaregistreerimise teabe jaos Väljaregistreerimise sektsiooni ümbrise viimane asukoht. See tagab, et kogu vajalik teave kogutakse väljaregistreerimise leheküljele enne lõppmakse väljaregistreerimist ja tellimuse lõpetamise tegevusi. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 

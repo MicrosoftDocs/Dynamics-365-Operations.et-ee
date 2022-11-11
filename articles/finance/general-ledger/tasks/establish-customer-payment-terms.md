@@ -2,7 +2,7 @@
 title: Kliendi maksetingimuste määramine
 description: See protseduur määratleb skonto ja tähtaja seadistamise.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065704"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752772"
 ---
 # <a name="establish-customer-payment-terms"></a>Kliendi maksetingimuste määramine
 
@@ -34,7 +34,11 @@ See protseduur määratleb skonto ja tähtaja seadistamise. See ülesande juhend
 6. Sisestage kuupäev väljale **Kuupäev**. Kuupäev tuleb sisestada numbriga, nagu 10, mitte järgarvuna 10. 
 7. Klõpsake valikut **Salvesta**.
 8. Sulgege leht.
-9. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Maksete seadistamine > Maksetingimused**.
+9. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Maksete seadistamine > Maksetingimused**. 
+
+>[!NOTE] 
+>**Kui maksetingimused** on **Sularaha**, **peab maksetingimuste** lehel **väli Sularahamakse olema** **Ei**.
+
 10. Klõpsake valikut **Uus**. **Maksetingimusi** kasutatakse tähtaja arvutamise id määratlemaks. Skonto kuupäeva seadistus on määratletud eraldi lehel. 
 11. Sisestage ID väljale **Maksetingimused**.
 12. Väljale **Kirjeldus** sisestage kirjeldus.

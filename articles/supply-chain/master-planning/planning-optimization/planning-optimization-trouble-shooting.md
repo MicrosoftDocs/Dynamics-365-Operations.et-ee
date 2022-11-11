@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889515"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739725"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Planeerimise optimeerimise tõrkeotsing 
 
@@ -37,13 +37,13 @@ Planeerimise optimeerimine nõuab Lifecycle Servicesi (LCS) loaga suure kättesa
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>Pakett-tööde planeerimine nurjub, kui planeerimise optimeerimine on lubatud
 
-Planeerimise optimeerimise lubamisel keelatakse automaatselt sisseehitatud koondplaneerimise mootor. Koondplaneerimise pakett-tööd, mis loodi sisseehitatud Supply Chain Managementi planeerimismootori jaoks, nurjuvad käivitamisel, kui planeerimise optimeerimine on lubatud. Teile võidakse kuvada tõrketeadet, nt *See toiming käivitas koondplaneerimise, mida ei toetata, kui planeerimise optimeerimine on lubatud*.
+Kui lubate planeerimise optimeerimise, keelatakse automaatselt plaanimise taunitud koondplaanimise mootor. Koondplaneerimise pakett-tööd, mis loodi taunitud koondplaneerimise mootori jaoks, nurjuvad, kui need käivitatakse ajal, kui plaanimise optimeerimine on lubatud. Teile võidakse kuvada tõrketeadet, nt *See toiming käivitas koondplaneerimise, mida ei toetata, kui planeerimise optimeerimine on lubatud*.
 
-**Lahendus**: tühistage kõik koondplaneerimise pakett-tööd, mis loodi sisseehitatud Supply Chain Managementi planeerimismootori jaoks.
+**Parandus**: tühistage kõik koondplaneerimise pakett-tööd, mis loodi taunitud koondplaneerimise mootori jaoks.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>Planeerimise optimeerimise tulemused erinevad varasematest
 
-Planeerimise optimeerimine erineb sisseehitatud koondplaneerimise kujundusest mõnel alal. Seda võivad põhjustada ka ootel funktsioonid.
+Plaanimise optimeerimine erineb mõnel aladel taunitud koondplaanimise mootori kujundusest. Seda võivad põhjustada ka ootel funktsioonid.
 
 **Lahendus**: käivitage planeerimise optimeerimise sobivuse analüüs ja analüüsige selle mõju mõistmiseks tulemusi, viidates sellega seotud dokumentatsioonile. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
 
@@ -63,9 +63,8 @@ See on seotud ootel oleva funktsiooniga, mis on planeeritud tootmistellimuste to
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Planeerimise optimeerimisega alustamine](get-started.md)
-
-[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
+- [Koondplaneerimisega alustamine](get-started.md)
+- [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

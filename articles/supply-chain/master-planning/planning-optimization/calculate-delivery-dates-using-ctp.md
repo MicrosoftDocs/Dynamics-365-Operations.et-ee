@@ -1,6 +1,6 @@
 ---
 title: Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades
-description: Lubamiseks võimekas (CTP) funktsioon võimaldab teil anda klientidele realistlikke kuupäevi, millal saate lubada kindlaid kaupu. See artikkel kirjeldab, kuidas seadistada ja kasutada CTP-d iga plaanimismootori jaoks (optimeerimine plaanimisel ja integreeritud mootoril).
+description: Lubamiseks võimekas (CTP) funktsioon võimaldab teil anda klientidele realistlikke kuupäevi, millal saate lubada kindlaid kaupu. See artikkel kirjeldab, kuidas seadistada ja kasutada CTP-d iga plaanimismootori jaoks (optimeerimise plaanimine ja taunitud koondplaneerimise mootor).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714856"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741199"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 Lubamiseks võimekas (CTP) funktsioon võimaldab teil anda klientidele realistlikke kuupäevi, millal saate lubada kindlaid kaupu. Iga müügirea kohta saate sisestada kuupäeva, mis arvestab olemasolevat vaba kaubavaru, tootmisvõimsust ja transpordiaja.
 
 CTP laiendab [lubamiseks saadaolevaid](../../sales-marketing/delivery-dates-available-promise-calculations.md) funktsioone, võttes arvesse võimsuse teavet. Kuigi ATP võtab arvesse ainult materjali saadavuse ja eeldab piiramatuid võimsuse ressursse, võtab CTP arvesse nii materjalide kui võimsuse kättesaadavust. Seega on sellel realistlikum pilt sellest, kas nõudlust saab antud aja jooksul rahuldada.
 
-CTP töötab veidi teistmoodi, sõltuvalt kasutatavast koondplaneerimise mootorist (planeerimise optimeerimine või integreeritud mootor). See artikkel kirjeldab, kuidas seadistada see igale mootorile. Plaanimise optimeerimise CTP toetab praegu ainult alamkogumit CTP stsenaariumitest, mida integreeritud mootor toetab.
+CTP töötab veidi teistmoodi, sõltuvalt kasutatavast koondplaneerimise mootorist (planeerimise optimeerimine või taunitud koondplaneerimise mootor). See artikkel kirjeldab, kuidas seadistada see igale mootorile. Plaanimise optimeerimise CTP toetab praegu ainult alamkogumit CTP stsenaariumitest, mida toetab taunitav koondplaneerimise mootor.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>CtP plaanimise optimeerimise sisse lülitamine
 
-Integreeritud koondplaneerimise mootori CTP on alati saadaval. Kuid kui soovite CTP-d kasutada optimeerimise planeerimiseks, peab see teie süsteemi jaoks sisse lülitatud olema. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Taunitud koondplaneerimise mootori CTP on alati saadaval. Kuid kui soovite CTP-d kasutada optimeerimise planeerimiseks, peab see teie süsteemi jaoks sisse lülitatud olema. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *Koondplaneerimine*
 - **Funktsiooni nimi:** *(eelvaade) CTP optimeerimise planeerimiseks*
@@ -47,9 +48,9 @@ CTP arvutus, mis võtab arvesse nii materjale kui ressursse, võib näidata suur
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Kuidas CTP erineb, sõltuvalt kasutatavast koondplaanimise mootorist
 
-Järgmine tabel võtab kokku erinevused CTP ja plaanimise optimeerimise CTP vahel integreeritud koondplaneerimise mootori puhul.
+Järgmine tabel summeerib erinevused CTP ja plaanimise optimeerimise CTP vahel taunitud koondplaneerimise mootori puhul.
 
-| Element | Planeerimise optimeerimine | Integreeritud koondplaneerimise mootor |
+| Element | Planeerimise optimeerimine | Taunitud koondplaneerimise mootor |
 |---|---|---|
 | **Tarnekuupäeva kontrolli** säte tellimuste, tellimuse ridade ja toodete jaoks | *Planeerimise optimeerimise CTP* | *Ctp* |
 | Arvutamise kellaaeg | Arvutuse käivitab plaanitud ülesandena dünaamilise plaani käitamine. | Arvutus käivitatakse müügitellimuse rea sisestamisel või uuendamisel kohe. |
@@ -70,8 +71,8 @@ Tarnekuupäeva vaikekontrollimeetod rakendatakse kõigile uutele tellimuse ridad
     - *Müügi täitmisaeg* – müügi täitmisaeg on müügitellimuse koostamise ja kaupade lähetamise vaheline aeg. Tarnekuupäeva arvutamine põhineb vaikepäevade arvul ja ei arvesta lao kättesaadavust, teadaolevat nõudlust või plaanitud tarnet.
     - *ATP* – ATP on kauba kogus, mis on saadaval ja mida saab kliendile lubatud konkreetsel kuupäeval. ATP arvutamine sisaldab kehtestamata laosaldot, täitmisaegu, plaanitud sissetulekuid ja väljaminekuid.
     - *ATP + väljamineku* brutokasum – lähetuskuupäev võrdub ATP kuupäeva ja kauba väljaminekumarginaaliga. Väljamineku ohutusvaru on aeg, mis on vajalik kaupade saatmiseks ettevalmistamiseks.
-    - *CTP – kasutage integreeritud koondplaneerimise mootori pakutavat CTP* arvutust. Kui kasutate planeerimise optimeerimist, *pole CTP* tarnekuupäeva kontrollmeetod lubatud ja kui see on valitud, põhjustab see arvutuse käitamisel vea.
-    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. See valik ei oma mingit mõju, kui kasutate integreeritud koondplaneerimise mootorit.
+    - *CTP* – kasutage CTP arvutust, mille on andnud taunitud koondplaneerimise mootor. Kui kasutate planeerimise optimeerimist, *pole CTP* tarnekuupäeva kontrollmeetod lubatud ja kui see on valitud, põhjustab see arvutuse käitamisel vea.
+    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. See valik ei ole võimalik, kui kasutate taunitud koondplaneerimise mootorit.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Tarnekuupäeva kontrolli alistamise seada üksikutele toodetele
 
@@ -85,7 +86,7 @@ Saate määrata alistamised kindlatele toodetele, kus soovite kasutada tarnekuup
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a> CTP plaanimise optimeerimise arvutuste plaanimine
 
-Kui kasutate CTP-d planeerimise optimeerimise jaoks, peate käivitama dünaamilise plaani, et käivitada süsteem CTP-arvutuste tegemiseks ja seejärel seadistama kinnitatud lähetus- ja vastuvõtukuupäevad kõigile asjakohastele tellimustele. Plaan peab sisaldama kõiki kaupu, mille jaoks on vaja lähetus- ja vastuvõtukuupäevi. (Kui kasutate CTP-d integreeritud plaanimismootori puhul, tehakse CTP arvutused kohalikult kohe. Seetõttu ei pea TE CTP tulemuste saavutamiseks käitama dünaamilist plaani.)
+Kui kasutate CTP-d planeerimise optimeerimise jaoks, peate käivitama dünaamilise plaani, et käivitada süsteem CTP-arvutuste tegemiseks ja seejärel seadistama kinnitatud lähetus- ja vastuvõtukuupäevad kõigile asjakohastele tellimustele. Plaan peab sisaldama kõiki kaupu, mille jaoks on vaja lähetus- ja vastuvõtukuupäevi. (Kui kasutate CTP-d mittetaunitud koondplaneerimise mootori puhul, tehakse CTP arvutused kohalikult kohe. Seetõttu ei pea TE CTP tulemuste saavutamiseks käitama dünaamilist plaani.)
 
 Et kuupäevad oleks kõigile kasutajatele õigeaegselt kättesaadavad, on soovitatav seadistada pakett-tööd, et käivitada vastavad plaanid korduvalt. Näiteks seadistatud dünaamilise plaani käivitamiseks iga 30 minuti järel seadistatakse kinnitatud lähetus- ja vastuvõtukuupäevad iga 30 minuti järel. Seega peavad kasutajad, kes sisestavad ja impordivad tellimusi, kinnitatud lähetus- ja vastuvõtukuupäevade saamiseks ootama kuni 30 minutit.
 
@@ -98,17 +99,17 @@ Dünaamilise plaani regulaarseks käitamiseks pakett-töö seadistamiseks järgi
 1. **Graafiku salvestamiseks valige OK**.
 1. Valige **OK**, et luua pakett-töö ja sulgege dialoogiboks.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>Kasuta integreeritud koondplaneerimiseks CTP-i
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Kasuta CTP-i taunitud koondplaneerimise mootori jaoks
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Loo uus tellimus, kasutades integreeritud koondplaneerimise CTP-i
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Loo uus tellimus, kasutades CTP-d taunitud koondplaneerimise mootori jaoks
 
 Iga kord kui lisate uue müügitellimuse või tellimuse rea, määrab süsteem sellele tarnekuupäeva vaikekontrolli meetodi. Tellimuse päis algab alati globaalse vaikemeetodiga. Kui tellitud kaubale on määratud alistamine, kasutab seda alistamist uus tellimuse rida. Vastasel juhul kasutab uus tellimuserida ka globaalset vaikemeetodit. Seepärast peaksite seadistama vaikemeetodid nii, et need ühtiksid tarnekuupäeva kontrolli meetodiga, mida kõige sagedamini kasutate. Tellimuse loomise järel saate tellimuse päise ja/või tellimuserea taseme vaikemeetodi vajaduse järgi alistada. Lisateabe saamiseks vt tarnekuupäeva [vaikekontrolli meetodite seadmist](#default-methods) ja olemasolevate [müügitellimuste muutmine CTP](#change-orders) kasutamiseks.
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Kinnitatud tarnekuupäevade kuva, kui kasutate integreeritud koondplaneerimiseks CTP-i
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Kuva kinnitatud tarnekuupäevad, kui kasutate CTP-d taunitud koondplaneerimise mootoris
 
-Kui kasutate integreeritud koondplaneerimise mootorit, rakendatakse CTP arvutused tellimustele ja/ **või tellimuse ridadele, kus tarnekuupäeva** kontrolli väli on seatud *CTP-le*.
+Kui kasutate taunitud koondplaneerimise mootorit, rakendatakse CTP arvutused tellimustele ja/ **või tellimuse ridadele, kus tarnekuupäeva** kontrollväli on seatud *CTP-le*.
 
-Müügiridade puhul, mis kasutavad CTP-d valmis koondplaneerimiseks, **·** **seadistab** süsteem kinnitatud lähetuskuupäeva ja kinnitatud vastuvõtukuupäeva väljad automaatselt iga kord, kui salvestate müügirea. Kui teete hiljem vastavaid muudatusi müügireal (nt muutes selle kogust või laoaiti), arvutatakse kuupäevad kohe uuesti.
+Müügiridade puhul, mis kasutavad CTP-d taunitud koondplaneerimise mootori puhul, **·** **seadistab** süsteem kinnitatud lähetuskuupäeva ja kinnitatud vastuvõtukuupäeva väljad automaatselt iga kord, kui müügirea salvestate. Kui teete hiljem vastavaid muudatusi müügireal (nt muutes selle kogust või laoaiti), arvutatakse kuupäevad kohe uuesti.
 
 - Kinnitatud tarnekuupäevade vaatamiseks müügitellimuse real avage müügitellimus ja valige müügirida. Seejärel vaadake vahekaardil Tarne üle **rea üksikasjade kiirkaardil** väärtused **Kinnitatud** lähetuskuupäev ja **Kinnitatud** vastuvõtukuupäev **.**
 - Terve tellimuse kinnitatud tarnekuupäevade vaatamiseks avage müügitellimus ja valige **päisevaade**. Seejärel vaadake kiirkaardil **Tarne** kiirkaart üle kinnitatud **lähetuskuupäeva ja** kinnitatud **vastuvõtukuupäeva** väärtused.
@@ -155,8 +156,8 @@ Tellimuse muutmiseks nii, et see kasutaks CTP-d tellimuse päise tasemel, järgi
 1. Päiseteabe **avamiseks** müügitellimuse üksikasjade lehel **valige** päis.
 1. **Seadke tarne** kiirkaardil **tarnekuupäeva kontrollväljale** üks järgmistest väärtustest, sõltuvalt kasutatavast plaanimismootorist:
 
-    - *CTP – kasutage integreeritud koondplaneerimise mootori pakutavat CTP* arvutust. Kui kasutate planeerimise optimeerimist, pole *CTP* tarnekuupäeva kontrollmeetod lubatud. Kui valite selle väärtuse, ilmneb tõrge, kui arvutus käivitub.
-    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. See säte ei oma mingit mõju, kui kasutate integreeritud koondplaneerimise mootorit.
+    - *CTP* – kasutage CTP arvutust, mille on andnud taunitud koondplaneerimise mootor. Kui kasutate planeerimise optimeerimist, pole *CTP* tarnekuupäeva kontrollmeetod lubatud. Kui valite selle väärtuse, ilmneb tõrge, kui arvutus käivitub.
+    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. Säte ei oma mingit mõju, kui kasutate taunitud koondplaneerimise mootorit.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Muudatuse rakendamiseks valige **OK**.
@@ -165,15 +166,15 @@ Tellimuse muutmiseks nii, et see kasutaks CTP-d tellimuse päise tasemel, järgi
 
 Kui lõite tellimuserea erineva tarnekuupäeva kontrollmeetodiga, saate CTP-ks igal ajal muuta. Rea tasemel tehtud muudatused ei mõjuta muid ridu. Need võivad siiski põhjustada tellimuse üldine tarnekuupäevade edasi- või tagasini viimise, sõltuvalt sellest, kuidas iga uuendatud rea arvutus muutub. <!-- KFM: Confirm this intro at next revision -->
 
-Tellimuse muutmiseks nii, et see kasutaks CTP-d integreeritud koondplaneerimiseks rea tasemel, järgige neid samme.
+Tellimuse muutmiseks nii, et see kasutaks CTP-d aegunud koondplaneerimise mootori jaoks rea tasemel, järgige neid samme.
 
 1. Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused**.
 1. Avage müügitellimus, mida soovite seadistada või looge uus.
 1. **Valige müügitellimuse rea** kiirkaardi **lehel** Müügitellimuse üksikasjad see müügitellimuse rida, mille soovite seadistada.
 1. **·** **·** **Seadke** vahekaardi Tarne rea üksikasjade kiirkaardil tarnekuupäeva kontrollvälja väärtuseks üks järgmistest väärtustest, sõltuvalt kasutatavast plaanimismootorist:
 
-    - *CTP – kasutage integreeritud koondplaneerimise mootori pakutavat CTP* arvutust. Kui kasutate planeerimise optimeerimist, pole *CTP* tarnekuupäeva kontrollmeetod lubatud. Kui valite selle väärtuse, ilmneb tõrge, kui arvutus käivitub.
-    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. See säte ei oma mingit mõju, kui kasutate integreeritud koondplaneerimise mootorit.
+    - *CTP* – kasutage CTP arvutust, mille on andnud taunitud koondplaneerimise mootor. Kui kasutate planeerimise optimeerimist, pole *CTP* tarnekuupäeva kontrollmeetod lubatud. Kui valite selle väärtuse, ilmneb tõrge, kui arvutus käivitub.
+    - *CTP plaanimise optimeerimise* jaoks – kasutage CTP arvutust, mille pakub planeerimise optimeerimine. Säte ei oma mingit mõju, kui kasutate taunitud koondplaneerimise mootorit.
 
     Kuvatakse **saadaolevad lähetus- ja vastuvõtukuupäevad** ning kuvatakse saadaolevad lähetus- ja vastuvõtukuupäevad. Selles dialoogiboksis töötab tellimuseridade puhul sama hästi nagu tellimuse päise puhul (vt kirjeldust eelmisest jaotisest).
 

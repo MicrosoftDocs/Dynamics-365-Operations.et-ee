@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904524"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752799"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
@@ -64,7 +64,9 @@ Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja
 
 Ümberarvutamise saab käitada ühe või mitme välisvaluuta puhul. Otsingusse kaasatakse kõik valuutad, mis sisestati põhikonto tüübile (Bilanss või Kasum ja kahjum) vastavas kuupäevavahemikus ümberarvutamiseks valitud juriidiliste isikute puhul. Arvestusvaluuta lisatakse loendisse, kuid arvestusvaluuta valimisel ei arvutata midagi ümber. 
 
-Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah**, kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
+Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah**, kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**.
+
+Kui soovite ümberhindamisprotsessist **eemaldada** aruandlusvaluuta korrigeerimiste töölehte kasutades sisestatud korrektsioonid, **seadke välja Välista aruandlusvaluuta korrigeerimised väärtusele** **Jah**. Vaikimisi kaasatakse ümberhindamisse aruandlusvaluuta korrigeerimised. 
 
 Kui välisvaluuta ümberarvutamise protsess on lõppenud, luuakse kirje iga tsükli ajaloo jälgimiseks.  Iga juriidilise isiku ja sisestamiskihi kohta luuakse eraldi kirje.
 

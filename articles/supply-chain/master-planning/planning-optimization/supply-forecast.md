@@ -1,5 +1,5 @@
 ---
-title: Koondplaneerimine koos tarneprognoosiga
+title: Koondplaneerimine koos tarneprognoosidega
 description: See artikkel kirjeldab, kuidas tarneprognoose koondplaneerimisel loetakse.
 author: t-benebo
 ms.date: 09/21/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690158"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740137"
 ---
-# <a name="master-planning-with-supply-forecasts"></a>Koondplaneerimine koos tarneprognoosiga
+# <a name="master-planning-with-supply-forecasts"></a>Koondplaneerimine koos tarneprognoosidega
 
 [!include [banner](../../includes/banner.md)]
 
@@ -168,13 +168,13 @@ Kui käivitate *koondplaani*, mis on seadistatud kasutama vähendusviisina Valik
 
 Nüüd redigeerite pärast viimast planeerimist loodud plaanitud ostutellimust ja *muudate koguseks 15 ea*. Seejärel kinnitate tellimuse. *Järgmisel koondplaani käivitamisel loob see plaanitud ostutellimuse hankijale US-101, saidile 1*, *laole* *11*, *kogusele 10 ea* ja *kuupäevale 10/10/22*. Sel korral vähendatakse kogust, et peegeldada eelmise planeerimise käituse olemasoleva kinnitatud tellimuse kogust.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Erinevused plaanimise optimeerimise ja sisseehitatud plaanimise mootori vahel
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Erinevused plaanimise optimeerimise ja taunitud koondplaneerimise mootori vahel
 
-Tarneprognoosid töötavad veidi teisiti, sõltuvalt kasutatavast plaanimismootorist (integreeritud koondplaneerimine või Plaanimise optimeerimine). Selles jaotises kirjeldatakse erinevusi.
+Tarneprognoosid töötavad veidi teisiti, sõltuvalt kasutatavast plaanimismootorist (plaanimise optimeerimine või taunitud koondplaneerimise mootor). Selles jaotises kirjeldatakse erinevusi.
 
 ### <a name="vendor-groups"></a>Hankijagrupid
 
-Eelarverea lisamisel saate määrata hankija ja hankijagrupi. Integreeritud plaanimismootoris grupeeritakse loodud plaanitud tellimused hankija- ja hankijagrupi väärtuste kombinatsioonide kaupa. Plaanimise optimeerimises grupeeritakse plaanitud tellimused hankija kaupa.
+Eelarverea lisamisel saate määrata hankija ja hankijagrupi. Taunitud koondplaneerimise mootoris grupeeritakse loodud plaanitud tellimused hankija- ja hankijagrupi väärtuste kombinatsiooni alusel. Plaanimise optimeerimises grupeeritakse plaanitud tellimused hankija kaupa.
 
 Järgmine tabel annab mõned näited kauba tarneprognoosi ridadest.
 
@@ -186,7 +186,7 @@ Järgmine tabel annab mõned näited kauba tarneprognoosi ridadest.
 
 Hankija *VendorA* on hankijagrupi *VendorGroupA* vaike hankija. See on ka kauba vaike hankija.
 
-Integreeritud plaanimismootor loob järgmised tellimused:
+Taunitud koondplaneerimise mootor loob järgmised tellimused:
 
 - Plaanitud ostutellimus hankija *VendorA*, hankijagrupi *VendorGroupA* ja koguse *11 jaoks*
 - Plaanitud ostutellimus hankija HankijaA *jaoks* ja kogus *7*
@@ -197,7 +197,7 @@ Plaanimise optimeerimine loob ainult ühe tellimuse:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Üldiste eelarvete vähendamine kindlate eelarvete abil
 
-Integreeritud koondplaneerimise mootoris on tulemus ettearvamatu, kui mõnel prognoosil on hankija, kuid teistel mitte.
+Taunitud koondplaneerimise mootoris on tulemus ettearvamatu, kui mõnel prognoosil on hankija, kuid teistel mitte.
 
 Planeerimise optimeerimisel vähendatakse üldiseid eelarveid alati kindlate prognooside võrra, nagu järgmises näites näha.
 
@@ -218,15 +218,15 @@ Järgmine tabel annab mõned näited kauba tarneprognoosi ridadest.
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Plaanitud tellimuste loomisel arvesse võtta tellimuse vaikesätteid
 
-Igal kaubal võivad olla tellimuste vaikesätted, nt ostutellimuse minimaalne kogus. Integreeritud plaanimismootor ignoreerib neid sätteid ja seega teisendab eelarved plaanitud tellimusteks, mille kogus on sama. Planeerimise optimeerimine peab neid sätteid arvesse, kui plaanitud tellimused luuakse tarneprognooside alusel. 
+Igal kaubal võivad olla tellimuste vaikesätted, nt ostutellimuse minimaalne kogus. Taunitud koondplaneerimise mootor ignoreerib neid sätteid ja teisendab seetõttu prognoosid plaanitud tellimusteks, mille kogus on sama. Planeerimise optimeerimine peab neid sätteid arvesse, kui plaanitud tellimused luuakse tarneprognooside alusel. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Plaanitud tellimuste kogum, mis on seotud vähendamisega kinnitatud tellimustega
 
-Integreeritud koondplaneerimise mootor eeldab, et olemasolevat tarneprognoosi vähendab ainult üks tellimus. Seega, kui tarneprognoosi reaga kattub mitu tellimust, siis ainult esimene tellimus seda vähendab. Planeerimise optimeerimises vähendavad seda kõik tarneprognoosi reale vastavad tellimused.
+Taunitud koondplaneerimise mootor eeldab, et olemasolevat tarneprognoosi vähendab ainult üks tellimus. Seega, kui tarneprognoosi reaga kattub mitu tellimust, siis ainult esimene tellimus seda vähendab. Planeerimise optimeerimises vähendavad seda kõik tarneprognoosi reale vastavad tellimused.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Prognooside vähendamine ainult ühtivate hankijate abil
 
-Kui integreeritud koondplaneerimise mootor vähendab prognoosi olemasolevate väljastatud ostutellimuste alusel, ei kindlusta see, et ostutellimuse hankija ühtib hankijaga prognoosist. Plaanimise optimeerimine vähendab prognoose ainult ostutellimuste alusel, mille hankijaväljal on vastav väärtus.
+Kui taunitud koondplaneerimise mootor vähendab prognoosi olemasolevate väljastatud ostutellimuste alusel, ei kindlusta see, et ostutellimuse hankija ühtib prognoosist hankijaga. Plaanimise optimeerimine vähendab prognoose ainult ostutellimuste alusel, mille hankijaväljal on vastav väärtus.
 
 Üleviimis- ja tootmistellimuste puhul eiratakse hankija välja alati, kuna see ei ole nende tellimusetüüpide puhul asjakohane.
 
@@ -234,4 +234,4 @@ Kui integreeritud koondplaneerimise mootor vähendab prognoosi olemasolevate vä
 
 Kui kauba vaiketellimuse tüüp on Ülekanne, saab *eelarveid* vähendada ainult olemasolevate plaanitud üleviimistellimuste võrra. Tootmistellimuste ja ostutellimuste puhul vähendab tarneprognoosi siiski ainult vabastatud tellimused.
 
-Integreeritud plaanimismootor vähendab kõiki üleviimistellimuste olekuid, samas kui planeerimise optimeerimine vähendab prognoose ainult vabastatud olekus üleviimistellimuste *abil*.
+Taunitud koondplaneerimise mootor vähendab kõiki üleviimistellimuste olekuid, samas kui planeerimise optimeerimine vähendab prognoose ainult vabastatud olekus üleviimistellimuste *abil*.

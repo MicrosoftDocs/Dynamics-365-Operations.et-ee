@@ -1,6 +1,6 @@
 ---
 title: Koondplaneerimine koos nõudluse prognoosidega
-description: See artikkel selgitab, kuidas kaasata nõudluse prognoosid koondplaneerimisel plaanimise optimeerimise ajal.
+description: See artikkel selgitab, kuidas kaasata nõudluse prognoosid koondplaneerimise käigus.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878986"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739779"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Koondplaneerimine koos nõudluse prognoosidega
 
 [!include [banner](../../includes/banner.md)]
 
-Saate kasutada nõudluse prognoosi koos planeerimise optimeerimisega, et võtta arvesse koondplaneerimises eeldatavat nõudlust. Saate luua käsitsi nõudluse prognoosi, importida selle või luua selle rakenduse Microsoft Dynamics 365 Supply Chain Management nõudluse prognoosi funktsiooni abil. Lisateavet nõudluse prognoosi kohta leiate teemast [Nõudluse prognoosi ülevaade](../introduction-demand-forecasting.md).
+Saate kasutada nõudluse prognoosi, et arvestada oma koondplaneerimisel eeldatud nõudlusega. Saate luua käsitsi nõudluse prognoosi, importida selle või luua selle rakenduse Microsoft Dynamics 365 Supply Chain Management nõudluse prognoosi funktsiooni abil. Lisateavet nõudluse prognoosi kohta leiate teemast [Nõudluse prognoosi ülevaade](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Planeerimise optimeerimise korral ei toetata eraldi prognoosi planeerimist. Seetõttu ei ole sättel **Praegune eelarveplaan**, mis asub lehel **Koondplaneerimise parameetrid**, mingit mõju, kui kasutate planeerimise optimeerimist.
@@ -50,7 +50,7 @@ Järgige neid juhiseid, et konfigureerida koondplaan nii, et see hõlmaks nõudl
     - **Prognoosi ajavahemik** – kui seate suvandi **Eelarveplaan** väärtuseks *Jah*, määrake päevade arv (alates tänasest kuupäevast), mida nõudluse prognoosi korral rakendada.
 
     > [!IMPORTANT]
-    > Planeerimise optimeerimise korral ei toetata praegu veel sätet **Eelarveplaan**.
+    > Eelarveplaani **sätet** ei toetata planeerimise optimeerimisega.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Laovarude grupi seadistamine nõudluse prognoosi kaasamiseks
 

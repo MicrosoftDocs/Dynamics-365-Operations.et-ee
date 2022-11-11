@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689772"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740819"
 ---
 # <a name="visual-and-collaborative-execution"></a>Visuaalne ja koostööd võimaldav täitmine
 
@@ -34,7 +34,7 @@ Microsoftis Dynamics 365 Supply Chain Management saate visuaalselt jälgida, kui
 1. Valige vabastatud kaup, mis on seadistatud dekodeerimispunktina. (Lisateavet vt teemast [Lao paigutamine](ddmrp-inventory-positioning.md).)
 1. Valige tegevuspaani vahekaardil **Plaan kauba laovarud** **.**
 1. Kauba laovarude **lehel** valige kauba laovarude kirje, mis loob dekodeerimispunkti. (Kirje näitab nende laovarude grupi nime, mis on seadistatud looma dekodeerimispunkte.)
-1. **Valige vahekaart Vabad**. See vahekaart sisaldab diagrammi, mis näitab, kuidas vabad kogused aja jooksul muutusid, koos väärtusega vabas kaubavaru tasemes, mis salvestati kindlal perioodil iga kord, kui optimeerimist käitatakse. Vahekaart sisaldab ka tabelit, mis näitab, millistesse järgnevatesse kategooriatesse iga kirjendatud vaba kaubavaru tase langeb:
+1. **Valige vahekaart Vabad**. See vahekaart sisaldab diagrammi, mis näitab, kuidas vabad kogused aja jooksul muutusid, koos väärtusega vabas kaubavaru tasemes, mis salvestati konkreetsel perioodil iga kord, kui koondplaanimist käitatakse. Vahekaart sisaldab ka tabelit, mis näitab, millistesse järgnevatesse kategooriatesse iga kirjendatud vaba kaubavaru tase langeb:
 
     - **Kriitiliselt madal** – väiksem kui pool perioodi miinimumi.
     - **Madal** – poole miinimumi ja miinimumi vahel.

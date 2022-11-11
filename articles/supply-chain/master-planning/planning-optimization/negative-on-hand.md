@@ -1,6 +1,6 @@
 ---
 title: Negatiivsete vabade kogustega plaanimine
-description: See artikkel selgitab, kui negatiivset vaba kaubavaru planeerimise optimeerimise kasutamisel käsitletakse.
+description: See artikkel selgitab, kui negatiivset vaba kaubavaru käsitletakse.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856131"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741118"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Negatiivsete vabade kogustega plaanimine
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856131"
 
 Kui süsteem näitab negatiivset kaubavaru kogust, käsitleb planeerimise mootor kogust kui 0 (null), et aidata vältida ületarnet. See funktsioon töötab järgmiselt.
 
-1. Planeerimise optimeerimise funktsioon koondab vabad kogused laovarude dimensioonide madalaimal tasemel. (Näiteks kui *asukoht* ei ole laevarude dimensioon, koondab plaanimise optimeerimine vabad kogused *lao* tasemel.)
+1. Koondplaneerimise kokkuvõtted vabad kogused kattedimensioonide madalaima taseme puhul. (Kui asukoht ei ole *näiteks* laovarude dimensioon, koondab koondplaneerimise laotasemel vabad *kogused* .)
 1. Kui laovarude dimensioonide kaubavaru kogus on negatiivne, eeldab süsteem, et vaba kogus on tegelikult 0 (null).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Süsteem on konfigureeritud järgmiselt.
 - Müügitellimus on olemas kogusele *10* tk. toodet *FG*.
 - Müügitellimuse kogus reserveeritakse füüsiliselt olemasoleva vaba kaubavaru suhtes.
 
-Seejärel korrigeerite toote FG kogust *nii*, et vaba kaubavaru saab 5. Kuna vaba kaubavaru on 5, reserveeritakse müügitellimuse kogus nüüd kogusega, mis ei ole vaba (oleks sarnane, kui vaba kaubavaru oleks 0 ja sel juhul reserveeritakse müügitellimus negatiivse laovaru suhtes). Kui käivitate nüüd koondplaneerimise, luuakse müügitellimuse tarnimiseks plaanitud tellimus kogusega 5 *FG* jaoks, sest planeerimise optimeerimine kasutab alati olemasolevat tarnet või loob füüsilise reserveerimise tarnimiseks uue plaanitud tellimuse.
-
-## <a name="related-resources"></a>Seotud ressursid
-
-- [Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-- [Planeerimise optimeerimise kasutamise alustamine](get-started.md)
-- [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-- [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
-- [Planeerimistöö tühistamine](cancel-planning-job.md)
+Seejärel korrigeerite toote FG kogust *nii*, et vaba kaubavaru saab 5. Kuna vaba kaubavaru on 5, reserveeritakse müügitellimuse kogus nüüd kogusega, mis ei ole vaba (oleks sarnane, kui vaba kaubavaru oleks 0 ja sel juhul reserveeritakse müügitellimus negatiivse laovaru suhtes). Kui käivitate nüüd koondplaneerimise, luuakse müügitellimuse tarnimiseks plaanitud tellimus kogusega 5 *FG* jaoks, sest koondplaneerimine kasutab alati olemasolevat tarnet või loob füüsilise reserveerimise tarnimiseks uue plaanitud tellimuse.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

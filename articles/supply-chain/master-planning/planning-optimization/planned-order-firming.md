@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335341"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740518"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -33,7 +33,7 @@ See artikkel kirjeldab üksikasjalikult iga meetodit.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Luba selles artiklis kirjeldatud funktsioonid
 
-Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supply Chain Management standardinstallide puhul, mis kasutavad planeerimise optimeerimist. Mõned selles artiklis kirjeldatud funktsioonid tuleb funktsioonihalduses sisse lülitada, enne kui neid kasutada saate.
+Enamik plaanitud tellimuste funktsioone on saadaval Microsofti kõigis standardinstallides Dynamics 365 Supply Chain Management. Mõned selles artiklis kirjeldatud funktsioonid tuleb funktsioonihalduses sisse lülitada, enne kui neid kasutada saate.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Lülitab plaanitud tellimuste paralleelse kinnitamise sisse ja välja
 
@@ -91,7 +91,7 @@ Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud telli
 
 ## <a name="auto-firm-planned-orders"></a>Planeeritud tellimuste automaatne kinnitamine
 
-Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused üldplaneerimise protsessi osana. Võite määratleda kindla ajaakna katvusrühmade, üksikute üksuste ning üksuste ja üldplaanide kombinatsioonide jaoks. Seejärel määratakse plaanitud tellimused üldplaneerimise käitamise ajal automaatselt, kui tellimuse kuupäev jääb kinnitamiseks määratud ajapiiri piiresse. Plaanimise optimeerimise loodud planeeritud tellimused ja integreeritud üldplaneerimise toiming käsitsevad tellimuse kuupäeva (st alguskuupäeva) teisiti.
+Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused üldplaneerimise protsessi osana. Võite määratleda kindla ajaakna katvusrühmade, üksikute üksuste ning üksuste ja üldplaanide kombinatsioonide jaoks. Seejärel määratakse plaanitud tellimused üldplaneerimise käitamise ajal automaatselt, kui tellimuse kuupäev jääb kinnitamiseks määratud ajapiiri piiresse. Plaanimise optimeerimise loodud plaanitud tellimused ja mittetaunitud koondplaneerimise mootor käsitsevad tellimuse kuupäeva (st alguskuupäeva) teisiti.
 
 > [!NOTE]
 > Planeeritud ostutellimuse automaatkinnitamine saab aset leida ainult siis, kui üksus on hankijaga seotud.
@@ -99,13 +99,13 @@ Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused üldplaneer
 > Tuletatud tellimused (st alltöövõtulepingute ostutellimused), mis on kinnitatud, on staatuses *Ülevaatamisel*, kui muudatuste jälgimine on sisse lülitatud.
 
 > [!IMPORTANT]
-> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada planeerimise optimeerimisega, [*·*](#enable-features) peab plaanimise optimeerimise automaatne kinnitamisfunktsioon olema teie süsteemi jaoks sisse lülitatud, nagu kirjeldatud selle artikli alguses. Automaatset kinnitamist saab alati kasutada integreeritud üldplaneerimise mootoriga.
+> Enne kui selles jaotises kirjeldatud funktsiooni saab kasutada planeerimise optimeerimisega, [*·*](#enable-features) peab plaanimise optimeerimise automaatne kinnitamisfunktsioon olema teie süsteemi jaoks sisse lülitatud, nagu kirjeldatud selle artikli alguses. Automaatset kinnitamist saab alati kasutada taunitud koondplaneerimise mootoriga.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automaatne kinnitamine planeerimise optimeerimise vs integreeritud planeerimise mootoriga
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Automaatne kinnitamine plaanimise optimeerimise vs. taunitud koondplaneerimise mootoriga
 
-Nii planeerimise optimeerimist kui ka sisseehitatud planeerimismootorit saab kasutada planeeritud tellimuste automaatseks kinnitamiseks. Kuid on ka olulisi erinevusi. Näiteks kui planeerimise optimeerimine kasutab tellimuse kuupäeva (s.o alguskuupäev), et määrata, millised planeeritud tellimused kinnitada, siis sisseehitatud planeerimismootor kasutab vajaduse kuupäeva (s.o lõppkuupäev). Järgmine tabel võtab erinevused kokku.
+Nii planeerimise optimeerimist kui ka mittetaunitud koondplaneerimise mootorit saab kasutada plaanitud tellimuste automaatseks kinnitamiseks. Kuid on ka olulisi erinevusi. Näiteks kasutab planeerimise optimeerimine tellimuse kuupäeva (st alguskuupäeva), et määrata, milliseid plaanitud tellimusi kinnitada, samas kui taunitud koondplaneerimise mootor kasutab vajaduse kuupäeva (st lõppkuupäeva). Järgmine tabel võtab erinevused kokku.
 
-| Funktsioon | Planeerimise optimeerimine | Integreeritud plaanimismootor |
+| Funktsioon | Planeerimise optimeerimine | Taunitud koondplaneerimise mootor |
 |---|---|---|
 | **Kuupäeva alus** | Automaatne kinnitamine põhineb tellimuse kuupäeval (alguskuupäev). | Automaatne kinnitamine põhineb nõude kuupäeval (lõppkuupäev). |
 | **Täitmisaeg** | Kuna tellimuse kuupäev (alguskuupäev) käivitab kinnituse, ei pea te täitmisaega kinnitamise aja osana arvestama. | Tellimuste tähtajaks kinnitamise tagamiseks peab kinnitamise ajapiir olema pikem kui täitmisaeg. |

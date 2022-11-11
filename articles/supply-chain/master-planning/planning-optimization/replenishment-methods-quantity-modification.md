@@ -1,6 +1,6 @@
 ---
 title: Varude täiendamise meetodid ja koguse muutmine
-description: See artikkel annab teavet varude täiendamise meetodite kohta plaanimise optimeerimises. Lisaks selgitatakse, kuidas toote mitme tellimuse kogus mõjutab tulemust.
+description: See artikkel annab teavet täiendamismeetodite kohta. Lisaks selgitatakse, kuidas toote mitme tellimuse kogus mõjutab tulemust.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873691"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739752"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Varude täiendamise meetodid ja koguse muutmine
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel annab teavet varude täiendamise meetodite kohta plaanimise optimeerimises. Lisaks selgitatakse, kuidas toote mitme tellimuse kogus mõjutab tulemust.
+See artikkel annab teavet täiendamismeetodite kohta. Lisaks selgitatakse, kuidas toote mitme tellimuse kogus mõjutab tulemust.
 
 Varude täiendamise meetodeid nimetatakse ka laovarude meetoditeks ja partii suuruse muutmise meetoditeks.
 
 ## <a name="coverage-codes"></a>Planeerimise koodid
 
-Planeerimise optimeerimise konfigureerimise abil saab kasutada erinevaid täiendamise meetodeid. Varude täiendusmeetodid on meetodid, mida süsteem kasutab tootele esitatavate nõuete arvutamiseks. Varude täiendamise meetodeid määratletakse laovarude tähistega, mida saate seadistada kas laovarude grupis või tootes.
+Koondplaneerimise konfigureerimise abil saab kasutada erinevaid täiendamise meetodeid. Varude täiendusmeetodid on meetodid, mida süsteem kasutab tootele esitatavate nõuete arvutamiseks. Varude täiendamise meetodeid määratletakse laovarude tähistega, mida saate seadistada kas laovarude grupis või tootes.
 
-Planeerimise optimeerimisel saab kasutada järgmisi laovarude tähiseid:
+Kasutada saab järgmisi laovarude koode:
 
 - **Periood** – varude täiendamise meetod, mis koondab toote nõudluse teatud perioodi jooksul ühte tellimusse. Tellimus planeeritakse perioodi esimesele päevale ja selle kogus vastab netosummale määratud perioodi jooksul. Periood algab toote esimese nõudega ja katab määratud pikkusega aja jooksul. Järgmine periood algab toote järgmiste nõuetega. *Perioodi* laovarude koodi kasutatakse sageli mitteaimatavate varude joonistamiseks, hooajast mõjutatud toodete või kallite toodete jaoks. Järgmisel joonisel on toodud näide.
 
@@ -64,13 +64,13 @@ Väljaantud toote lehel **Tellimuse vaikesätted** saate kiirkaartidel **Ostutel
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Näited varude täiendamisest, mis kasutavad välja Min./Max. laovarude kood
 
-Kui te ei määra lehel **Tellimuse vaikesäte** toote väärtust väljal **Mitu** ja kasutate välja *Min./Max.* täiendusmeetod, Planning Optimization täiendab varusid kuni kindla tasemeni, kui prognoositav vaba kogus on alla kindla künnise.
+Kui te ei määra lehel **Tellimuse vaikesäte** toote väärtust väljal **Mitu** ja kasutate välja *Min./Max.* Varude täiendamise meetod, koondplaneerimine täiendab varusid kindla tasemeni, kui prognoositud vaba kaubavaru tase on allpool kindlat läve.
 
 Kui määratlete tootele mitmekordse koguse, kuvatakse väljad *Min./Max.* täiendusmeetod muudab oma käitumist ja arvestab **Mitu** väärtust.
 
-Teisisõnu täiendab plaanimise optimeerimine varusid määratletud maksimumtasemeni, kui eeldatav vaba kaubavaru tase on määratletud miinimumtasemest väiksem. Täienduskogus peab siiski olema **Mitu** väärtuse kordne.
+See tähendab, et koondplaneerimine täiendab varusid endiselt määratletud maksimaalse tasemeni, kui prognoositud vaba kaubavaru on määratletud minimaalsest tasemest väiksem. Täienduskogus peab siiski olema **Mitu** väärtuse kordne.
 
-Kui varude täiendamise kogus (erinevus maksimumtaseme ja prognoositud vaba kaubavaru taseme vahel) pole määratletud mitmekordse koguse kordne, kasutab plaanimise optimeerimine esimest võimalikku väärtust, mis koos prognoositud vaba kaubavaru tasemega jääb alla piirnormi. Kui summa on miinimumtasemest väiksem, kasutab plaanimise optimeerimine esimest väärtust, mis koos prognoositava vaba kaubavaruga ületab piirnormi.
+Kui varude täiendamise kogus (erinevus maksimaalse taseme ja prognoositava vaba laovaru taseme vahel) ei ole määratletud kordse koguse kordne, kasutab koondplaneerimine esimest võimalikku väärtust, mis koos prognoositud vaba kaubavaru tasemega on allpool maksimaalset taset. Kui summa on minimaalsest tasemest väiksem, kasutab koondplaneerimine esimest väärtust, mis koos prognoositud vaba kaubavaruga on maksimaalsest tasemest kõrgemal.
 
 Järgmistes alajaotistes on toodud mõned näited, mis näitavad, kuidas toote mitmekordne tellimuse kogus mõjutab välja *Min./Max.* varude täiendamise meetod.
 

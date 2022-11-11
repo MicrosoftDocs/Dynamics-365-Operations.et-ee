@@ -1,6 +1,6 @@
 ---
-title: Planeerimise optimeerimise kasutamise alustamine
-description: See artikkel selgitab, kuidas käivitada plaanimise optimeerimise funktsiooni.
+title: Koondplaneerimisega alustamine
+description: See artikkel selgitab, kuidas alustada koondplaneerimise funktsioonide kasutamist rakenduses Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295924"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740325"
 ---
-# <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
+# <a name="get-started-with-master-planning"></a>Koondplaneerimisega alustamine
 
 [!include [banner](../../includes/banner.md)]
 
-Nagu [eelnevalt välja kuulutatud](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), asendab planeerimise optimeerimine varsti olemasoleva sisseehitatud koondplaneerimise mootori.
-
-Kui kasutate praegu sisseehitatud koondplaneerimise mootorit, peaksite hakkama tegema kohe plaane migreerimiseks planeerimise optimeerimisse. On oluline kohe alustada, sest vastasel korral võib teie toiminguid mõjutada amortiseerumise jõustamisel (kuigi rakendamine pole praegu planeeritud). Soovitame tungivalt teil migreerimise lõpule viia kohe, kui plaanimine optimeerimine toetab funktsioone, mida vajate, et te saaks alustada kasutama mitmeid jõudluse parendusi ja muid uusi, uue teenuse pakutavaid võimalusi.
-
-Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on rakendusse Supply Chain Management ehitatud planeerimismootoris saadaval. Seega on oluline, et hindaksite, kas hetkel planeerimise optimeerimises saadaolev funktsioonide komplekt vastab teie nõuetele. Planeerimise optimeerimise funktsioon ei ole praegu vaikimisi sisse lülitatud lahenduses Dynamics Lifecycle Services (LCS), seega on teil võimalus teha oma hinnang enne funktsiooni sisselülitamist.
-
-> [!NOTE]
-> Peate taotlema planeerimise optimeerimise funktsiooni migreerumiseks erandit, kui teie koondplaneerimise protsess ei hõlma tootmist (koondplaneerimise loodud plaanitud tootmistellimused) ja vajate sisseehitatud koondplaneerimise mootori versioonist 10.0.15 uuemat versiooni. Alates versioonist 10.0.16 kuvatakse tõrge keskkondades, kus sisseehitatud koondplaneerimine töötab ilma plaanitud tootmistellimuste loomiseta. Planeerimise optimeerimise funktsiooni tuleks kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Selliste olemasolevate keskkondade omanikud, milles käitatakse sisseehitatud koondplaneerimise mootorit ilma plaanitud tootmistellimuste loomiseta, saavad e-kirja koos üksikasjadega erandiprotsessi kohta. Soovitame töötada koos partneriga, et hinnata ja planeerida migreerumist planeerimise optimeerimise funktsiooni.
-
-Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeerimise optimeerimise sobivuse analüüsi tulemusi. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
+Tarneahela halduse koondplaneerimist pakub väline teenus nimega Planeerimise optimeerimise lisandmoodul Dynamics 365 Supply Chain Management. See teema kirjeldab, kuidas teenust hankida ja seadistada.
 
 ## <a name="availability"></a>Kättesaadavus
 
@@ -108,31 +99,15 @@ Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplane
 Suvandi **Planeerimise optimeerimise kasutamine** säte määrab, millist planeerimismootorit koondplaneerimiseks kasutatakse.
 
 - **Jah** – planeerimise optimeerimist kasutatakse koondplaneerimiseks.
-- **Ei** – koondplaneerimise jaoks kasutatakse sisseehitatud tarneahela halduse planeerimise mootorit.
+- **Ei** – taunitud koondplaneerimise mootorit kasutatakse koondplaneerimiseks.
 
-See säte kehtib kõigi juriidiliste isikute (ettevõtete) kohta. Mõnedes juriidilistes isikutes ei saa kasutada plaanimise optimeerimist ja teiste juriidiliste isikute integreeritud koondplaanimist.
+See säte kehtib kõigi juriidiliste isikute (ettevõtete) kohta. Mõnedes juriidilistes isikutes ei saa kasutada plaanimise optimeerimist ja teiste juriidiliste isikute mittetaunitud koondplaneerimise mootorit.
 
 > [!NOTE]
-> Kui olemasoleva planeerimise paketi tööd, mis sisseehitatud tarneahela halduse planeerimismootori jaoks loodi, käivitatakse sel ajal, kui suvandi **Planeerimise optimeerimise kasutamine** väärtuseks on seatud **Jah**, siis need tööd nurjuvad.
+> Kui plaanimise pakett-tööd **·**, mis loodi taunitud koondplaneerimise mootori jaoks, käivitatakse ajal, kui valiku Kasuta optimeerimist väärtuseks on **määratud** Jah, siis need tööd nurjuvad.
 
 ### <a name="integration-with-the-setup"></a>Integreerimine seadistamisega
 
 Kui planeerimise optimeerimine on sisse lülitatud, tehakse koondplaneerimine planeerimise optimeerimise lisandmoodulit kasutades. Sel juhul on koondplaneerimise tulemused ja funktsioonid mõjutatud.
 
-## <a name="additional-resources"></a>Lisaressursid
-
-[Eelvaate tingimused ja nõuded](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-
-[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-
-[Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
-
-[Plaanile filtrite rakendamine](plan-filters.md)
-
-[Planeerimistöö tühistamine](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

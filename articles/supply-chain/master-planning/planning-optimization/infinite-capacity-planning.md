@@ -1,6 +1,6 @@
 ---
 title: Piiramatu võimsusega plaanimine
-description: See artikkel pakub teavet plaanimise optimeerimise piiramatu võimsuse plaanimise kohta. See kirjeldab ka funktsiooni praeguseid piiranguid.
+description: See artikkel pakub teavet piiramatu võimsuse planeerimise kohta. See kirjeldab ka funktsiooni praeguseid piiranguid.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7249734e5d2644145a36276dbc818a40b5962805
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335311"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740001"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Piiramatu võimsusega plaanimine
 
 [!include [banner](../../includes/banner.md)]
 
-*Piiramatu võimsuse plaanimine Planning Optimization`is* funktsioon tutvustab marsruuditeabel põhinevat planeerimist. See võimaldab teil planeerida töid protsessi erinevate seadistuste põhjal. Planning Optimization planeerimine hõlmab sageli kasutatavaid protsessisätteid, sh protsessi operatsiooni järjestust või protsessi operatsiooni ressursside nõudeid.
+*Piiramatu võimsuse plaanimine Planning Optimization`is* funktsioon tutvustab marsruuditeabel põhinevat planeerimist. See võimaldab teil planeerida töid protsessi erinevate seadistuste põhjal. Planeerimine katab sageli kasutatavad protsessi sätted, sh protsessi operatsiooni järjestuse või protsessi operatsiooni ressursside vajadused.
 
 ## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Piiramatu võimsuse planeerimise funktsiooni sisse- või väljalülitamine
 
@@ -32,7 +32,7 @@ Selle funktsiooni kohta lisateabe saamiseks vaadake [Planeerimine koos ressurssi
 
 ## <a name="added-functionality"></a>Lisatud funktsionaalsus
 
-*Piiramatu võimsuse plaanimine Planning Optimization`is* funktsioon võimaldab marsruuditeabel põhinevat planeerimist. Seetõttu saab tootmisprotsesside plaanimiseks kasutada protsessi seadistust. Kuigi sellel funktsioonil on mõned piirangud, mis integreeritud koondplaneerimisel ei ole, toetab see tootmisstsenaariumide puhul kõige tavalisemaid funktsioone.
+*Piiramatu võimsuse plaanimine Planning Optimization`is* funktsioon võimaldab marsruuditeabel põhinevat planeerimist. Seetõttu saab tootmisprotsesside plaanimiseks kasutada protsessi seadistust. Kuigi sellel funktsioonil on mõned piirangud, mis ei ole aegunud koondplaneerimise mootoril, toetab see tootmisstsenaariumide puhul kõige tavalisemaid funktsioone.
 
 See funktsioon arvestab nii *lihtsaid teid* kui ka *protsessivõrke*. Kasutades protsessi operatsiooni välja **Edasi** saate seadistada keerukaid protsesse, mille alguspunktid on erinevad ja mitu paralleelsel käitatud operatsiooni. Süsteem kaalub planeerimisel seda tüüpi keerukaid protsessistruktuure.
 
@@ -52,15 +52,13 @@ Planeerimisprotsessi ajal võtab süsteem arvesse ka operatsioonile määratud *
 
 See funktsioon toetab ka **seadistusaja** ja **käitusaja** töö atribuute. Kui seadistate need atribuudid protsessi operatsioonis, loob planeerimisprotsess sobivad seadistus- ja protsessitööd.
 
-Kokkuvõttena toetab Planning Optimization planeerimine kõige sagedamini kasutatavaid stsenaariume. Saate luua protsessi, lisada esmaseid ja teisesi operatsioone, määratleda järgmiseid operatsioone, lisada ressursinõudeid ning lisada seadistusaja ja käitusaja. Süsteem võtab seda teavet planeerimisel arvesse.
+Kokkuvõttena toetab plaanimine kõige sagedamini kasutatavaid stsenaariume. Saate luua protsessi, lisada esmaseid ja teisesi operatsioone, määratleda järgmiseid operatsioone, lisada ressursinõudeid ning lisada seadistusaja ja käitusaja. Süsteem võtab seda teavet planeerimisel arvesse.
 
 ## <a name="limitations"></a>Kitsendused
 
-Kui kasutate plaanimiseks Planning Optimization`i, rakenduvad järgmised piirangud:
+Järgmised piirangud kehtivad piiramatu võimsuse planeerimise *funktsiooni planeerimise optimeerimise kasutamisel*:
 
 - See funktsioon toetab ainult piiramatut võimsust.
 - Funktsioon ei toeta ressursi koormuse funktsioone.
 - See funktsioon ei arvesta protsessi praaki.
 - Funktsioon toetab *kestust* ainult esmase ressursi valikuna.
-
-Pidage meeles, et *Piiramatu võimsuse plaanimine Planning Optimization* funktsioonis parandatakse pidevalt. Microsoft ootab tulevaste väljalasete täiendavate plaanimissätete toetamist.

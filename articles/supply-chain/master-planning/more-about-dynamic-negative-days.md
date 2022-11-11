@@ -10,13 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bcaaf46a0ddd84cded721c5d02d4a45cd4745114
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846123"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740353"
 ---
+<!-- KFM: Split this up. non-dynamic for deprecated MP, and "dynamic" for new standard PO. -->
+
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatiivsed päevad ja dünaamilised negatiivsed päevad
 
 [!include [banner](../includes/banner.md)]
@@ -202,7 +204,7 @@ Kui määrate negatiivsed päevad väärtusele **0** (null) ja kasutate ainult d
 
 See juhtum on sama, mis 1. ja 2. stsenaariumi juhtum E. Sellel on põhimõtteliselt samad eelised ja puudused.
 
-## <a name="conclusion"></a>Lõppsõna
+## <a name="conclusion"></a>Järeldus
 
 Nagu näitab kolm selle artikli stsenaariumit, on hea mõte seada negatiivsed päevad arvule, mis on suurem kui laovarude grupi kaupade täitmisaeg. Samuti on hea mõte kasutada ainult dünaamilisi negatiivseid päevi ja määrata negatiivsed päevad päevade arvule, kaua olete negatiivse laovaru korral nõus enne uue täiendamise tellimist ootama (teisisõnu päevade arv, kaua olete nõus nõudlust veel edasi lükkama). Lisaks peaks samas laovarude grupis olevatel kaupadel olema sarnased täitmisajad.
 

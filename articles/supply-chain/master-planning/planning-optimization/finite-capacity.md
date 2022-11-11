@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689689"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740082"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Piiratud võimsuse planeerimine ja ajastamine
 
@@ -28,9 +28,8 @@ Piiratud võimsus on lähenemine, mis aitab teil mõista, kui palju tööd konkr
 
 Piiratud võimsuse planeerimine ja planeerimine loob tootmisprotsessidele realistlikuma graafiku, kui piiramatu laadimise lähenemine loob. Kui ressurssidel pole piisavalt võimsust, siis tarnekuupäev tõugatakse välja ja töö planeeritakse siis, kui võimsus on piisav.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Piiratud võimsuse planeerimise planeerimise optimeerimise tugi
-
-Piiratud võimsuse planeerimine ja planeerimine töötab samal viisil, sõltumata sellest, kas kasutate planeerimise optimeerimist või integreeritud plaanimismootorit. Kuid planeerimise optimeerimine ei kasuta kitsaskohaks **olemise ajapiiri** parameetrit. Kui kasutate planeerimise optimeerimist, planeeritakse kitsaskohana vajalikud ressursid alati, kasutades sama ajapiiri kui kitsaskohana väljamineku ressursid (nagu näitab piiratud võimsuse ajapiir).
+> [!NOTE]
+> Piiratud võimsuse planeerimine ja plaanimine töötab samal viisil, sõltumata sellest, kas kasutate planeerimise optimeerimist või taunitud koondplaneerimise mootorit. Kuid planeerimise optimeerimine ei kasuta kitsaskohaks **olemise ajapiiri** parameetrit. Kui kasutate planeerimise optimeerimist, planeeritakse kitsaskohana vajalikud ressursid alati, kasutades sama ajapiiri kui kitsaskohana väljamineku ressursid (nagu näitab piiratud võimsuse ajapiir).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Seadista piiratud võimsuse funktsioon
 

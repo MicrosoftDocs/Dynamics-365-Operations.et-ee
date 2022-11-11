@@ -1,6 +1,6 @@
 ---
 title: Laovarude ajapiirid
-description: See artikkel kirjeldab, kuidas seadistada laovarude ajapiire planeerimise optimeerimise kasutamisel. Laovarude ajapiir näitab teie plaaniperioodi ja limiiti.
+description: See artikkel kirjeldab, kuidas seadistada laovarude ajapiire. Laovarude ajapiir näitab teie plaaniperioodi ja limiiti.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847929"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740109"
 ---
 # <a name="coverage-time-fences"></a>Laovarude ajapiirid
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel kirjeldab, kuidas seadistada *laovarude ajapiire* planeerimise optimeerimise kasutamisel. Plaanijad saavad määraa plaaniperioodi (laovarude ajapiiri päevades) ning välistada pakkumise ja nõudluse, mis jääb sellest väljapoole. Seega aitavad laovarude ajapiirid ennetada nn müra, mida põhjustavad tarnesoovitused, millele te ei pea kuude kaupa reageerima. Näited hõlmavad järgmise aasta prognoosi ja klienditellimusi, mis esitatakse kaugelt üle tavalise täitmisaja.
+See artikkel kirjeldab, kuidas seadistada laovarude *ajapiire*. Plaanijad saavad määraa plaaniperioodi (laovarude ajapiiri päevades) ning välistada pakkumise ja nõudluse, mis jääb sellest väljapoole. Seega aitavad laovarude ajapiirid ennetada nn müra, mida põhjustavad tarnesoovitused, millele te ei pea kuude kaupa reageerima. Näited hõlmavad järgmise aasta prognoosi ja klienditellimusi, mis esitatakse kaugelt üle tavalise täitmisaja.
 
 Laovarude ajapiir on päevade arv pärast tänast kuupäeva (või täpsemalt kuupäeva, millal planeerimise käitate), mil pakkumine ja jõydlus on välja jäetud. Viivituste vältimiseks peate tagama, et laovarude ajapiir on pikem kui täitmisaeg kokku. Süsteemi vaikeväärtus on 100 päeva.
 
@@ -82,9 +82,9 @@ Laovarude ajapiiride häälestamisel arvestage järgmiste punktidega.
 - Nõude kanded ei looda ühegi pakkumise ega nõudluse jaoks, mis langeb laovarude ajapiirist väljapoole.
 - Kui mõni kinnitatud pakkumine ja nõudlus langeb laovarude ajapiirist väljapoole, siis seda mootorisse ei laadita. Seega ei käivita see ühtegi täiendamist ja viivitusi ei arvestata. Sellest hoolimata ei tohiks seda pakkumist ja nõudlust süsteemist eemaldada.
 - Minimaalse laokoguse variatsioone (miinimumkoefitsiendist) eiratakse, kui need jäävad väljapoole laovarude ajapiiri.
-- Kontsernisisest nõudlust eiratakse, kui arvutatud taotletud lähetuskuupäev ei jää laovarude ajapiiri sisse. Pange tähele, et integreeritud koondplaneerimise puhul ei piira laovarude ajapiir kontsernisisest nõudlust.
-- Nõudluse prognoose eiratakse, kui eelarvekuupäev ei ole laovarude ajapiiri sees. Pange tähele, et integreeritud koondplaneerimise nõudluse prognoosid pole laovarude ajapiiridega piiratud.
-- Planeerimise optimeerimine arvestab ajavööndiga. See arvestab pakkumise ja nõudluse saitid ajavööndiga ning planeerimise käitamise ajaga. Näiteks käivitatakse koondplaneerimine 15. oktoobril kell 11 Taani saidilt (ajavööd GMT +1) ja kasutatakse kümnepäevast laovarude ajapiiri. Sel juhul kaasatakse pakkumise ja nõudluse nõue saidilt Seattle’is (ajavöönd GMT –8) kuni kl 14.00 25. oktoobrini (= kümme 24-tunnist päeva pärast koondplaneerimise käivitamist, miinus ajavööndi erinevus üheksa tundi). Pange tähele, et integreeritud koondplaneerimise mootor arvestab ainult ajapiiri kupäevaga. Seega võivad tulemused erineda.
+- Kontsernisisest nõudlust eiratakse, kui arvutatud taotletud lähetuskuupäev ei jää laovarude ajapiiri sisse. Pidage meeles, et taunitud koondplaneerimise mootori puhul ei piira kontsernisisest nõudlust laovarude ajapiir.
+- Nõudluse prognoose eiratakse, kui eelarvekuupäev ei ole laovarude ajapiiri sees. Pidage meeles, et taunitud koondplaneerimise mootori puhul ei ole nõudluse prognoosid laovarude ajapiiriga piiratud.
+- Planeerimise optimeerimine arvestab ajavööndiga. See arvestab pakkumise ja nõudluse saitid ajavööndiga ning planeerimise käitamise ajaga. Näiteks käivitatakse koondplaneerimine 15. oktoobril kell 11 Taani saidilt (ajavööd GMT +1) ja kasutatakse kümnepäevast laovarude ajapiiri. Sel juhul kaasatakse pakkumise ja nõudluse nõue saidilt Seattle’is (ajavöönd GMT –8) kuni kl 14.00 25. oktoobrini (= kümme 24-tunnist päeva pärast koondplaneerimise käivitamist, miinus ajavööndi erinevus üheksa tundi). Pidage meeles, et taunitud koondplaneerimise mootor võtab arvesse ainult ajapiiri kuupäeva. Seega võivad tulemused erineda.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

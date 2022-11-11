@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335401"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739894"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Plaanimine võimaluse põhjal ressursivalikuga
 
@@ -43,7 +43,7 @@ Operatsiooniressursile võimaluste määramiseks kasutage **Võimed** kiirkaarti
 - **Efektiivne** - määrake esimene kuupäev, mil rakendatakse ressursi või võimsuse määrangut. Planeerimise ajal ei kasuta süsteem ressurssi või võimsust, mille võimsus on aegunud, isegi kui see ressurss vastab muul juhul nõuetele.
 - **Aegumine** - määrake viimane kuupäev, mil rakendatakse ressursi või võimsuse määrangut. Planeerimise ajal ei kasuta süsteem ressurssi või võimsust, mille võimsus on aegunud, isegi kui see ressurss vastab muul juhul nõuetele.
 - **Tase** – määrake puudulikkuse tase, mis ressursil peab võimaluse jaoks olema. Seejärel, kui määrate **Minimaalse vajaliku taseme** väärtuse ressursile või võimsusnõudele, võtab planeerimismootor ressursivaliku ajal puudulikkuse taseme. Süsteem valib siis ainult need ressursid, millel on nõutav võimsus tasemel, mis on ressursi nõuetes määratud minimaalse tasemega võrdne või ületab selle.
-- **Prioriteet** – planeerimise optimeerimine ei toeta veel seda välja. Kuid kui kasutate integreeritud planeerimismootorit, saate ressursi või võimsuse määramises kasutada välja **Prioriteet**, et määrata ressursi prioriteet. Seejärel, kui lehel **Primaarne ressursi valik** väljal **Ajastamisparameetrid** on valitud *Prioriteet*, valib süsteem kõigepealt ressursi, millel on kõrgeim prioriteet (st väikseim arvväärtus väljal **Prioriteet**) ajastamise ajal.
+- **Prioriteet** – planeerimise optimeerimine ei toeta veel seda välja. Kuid kui kasutate mittetaunitud koondplaneerimise mootorit, **saate** ressursi või võimsuse määramises kasutada välja Prioriteet ressursi prioriteedi määratlemiseks. Seejärel, kui lehel **Primaarne ressursi valik** väljal **Ajastamisparameetrid** on valitud *Prioriteet*, valib süsteem kõigepealt ressursi, millel on kõrgeim prioriteet (st väikseim arvväärtus väljal **Prioriteet**) ajastamise ajal.
 
 ## <a name="example"></a>Näide
 

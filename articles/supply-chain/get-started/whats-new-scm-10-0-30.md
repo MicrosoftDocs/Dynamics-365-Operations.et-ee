@@ -2,7 +2,7 @@
 title: Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 description: See artikkel kirjeldab funktsioone, mis on uued või muudetud rakenduses Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714794"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748460"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 
@@ -33,6 +33,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
+| Varud ja logistika | [Jälgige eraldamistes kergelt reserveeritud koguseid.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Inventory Visibility varude eraldamine](../inventory/inventory-visibility-allocation.md) |  Lubatud teenuse [konfiguratsiooni järgi](../inventory/inventory-visibility-configuration.md) |
 | Tootmine | [Anduriandmete teabega seadmete s monitorimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence’i avaleht](../sensor-data-intelligence/sdi-home-page.md) | Funktsioonihaldus:<br>*(Eelversioon) Anduri andmeanalüüs* |
 | Laohaldus | [Mitmetasandilised demeetrid laohalduse mobiilirakenduse jaoks](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonihaldus:<br>*Mitmetasandilised kõrvalepõiked Warehouse Managementi mobiilirakenduses* |
 

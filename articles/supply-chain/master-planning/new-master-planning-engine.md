@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846094"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739947"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Üleminek planeerimise optimeerimisele koondplaneerimiseks
 
@@ -31,35 +31,35 @@ Sisseehitatud koondplaneerimise mootor kavatsetakse muuta iganenuks. See asendat
 
 Planeerimise optimeerimine võimaldab koondplaneerimise arvutuste tegemist väljaspool Supply Chain Managementi ja selle Azure'i SQL-andmebaasi. Planeerimise optimeerimisega seotud eelised hõlmavad paremat jõudlust ja minimeeritud mõju SQL-andmebaasile koondplaneerimise käivitamiste ajal. Kuna kiireid planeerimise käivitamisi saab teha isegi kontoris viibimise ajal, saavad planeerijad nõudlusele või parameetri muutustele kohe reageerida.
 
-Lisateavet planeerimise optimeerimise kohta vt teemast [Planeerimise optimeerimise ülevaade](planning-optimization/planning-optimization-overview.md).
+Lisateavet planeerimise optimeerimise kohta vt koondplaneerimise [süsteemi ülesehitusest](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Olemasoleva koondplaneerimise mootori iganemine
 
-Microsoft on sisseehitatud planeerimismootorit iganenuks muutmas, et teha ruumi planeerimise optimeerimisele. See muudatus mõjutab kõiki pilvkeskkondi. Kohapealseid installe ei mõjutata. Versioonis 10.0.16 ja uuemates versioonides kuvatakse tõrketeade, kui käivitate sisseehitatud koondplaneerimise ilma plaanitud tootmistellimusi loomata. Vaatamata tõrketeatele viiakse koondplaneerimise käivitamine siiski edukalt lõpule.
+Microsoft plaanib plaanimise optimeerimise käigus aegunud koondplaneerimise mootori aegunuks. See muudatus mõjutab kõiki pilvkeskkondi. Kohapealseid installe ei mõjutata. Versioonis 10.0.16 ja uuemas versioonis kuvatakse tõrketeade, kui käivitate taunitud koondplaneerimise mootori plaanitud tootmistellimusi loomata. Vaatamata tõrketeatele viiakse koondplaneerimise käivitamine siiski edukalt lõpule.
 
-Lisateavet sisseehitatud planeerimismootori iganemise kohta vaadake teemast [Eemaldatud või iganenud funktsioonid teenuses Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
+Taunitud koondplaneerimise mootori kohta lisateabe saamiseks [lugege teateid jaotises Eemaldatud või Taunitud funktsioonid jaotises Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
 
 ## <a name="migration-messages-and-exceptions"></a>Migreerimine, teated ja erandid
 
-Selliste olemasolevate keskkondade omanikud, milles käitatakse sisseehitatud koondplaneerimise mootorit ilma plaanitud tootmistellimuste loomiseta, saavad e-kirja koos üksikasjadega erandiprotsessi kohta. Soovitame töötada koos partneriga, et hinnata ja planeerida migreerumist planeerimise optimeerimise funktsiooni.
+Olemasolevate keskkonnade omanikud, kes käitavad aegunud koondplaneerimise mootorit plaanitud tootmistellimusi loomata, saavad meili, mis annab erandiprotsessi üksikasjad. Soovitame töötada koos partneriga, et hinnata ja planeerida migreerumist planeerimise optimeerimise funktsiooni.
 
-Nagu öeldud, kuvatakse versioonis 10.0.16 ja uuemas versioonis tõrketeade, kui käivitate sisseehitatud koondplaneerimise ilma plaanitud tootmistellimusi loomata. See tõrketeade sisaldab juhiseid migreerimise ja erandi taotlemise kohta.
+Nagu on mainitud, saate tõrketeate versioonis 10.0.16 ja hiljem, kui käivitate taunitud koondplaneerimise mootori plaanitud tootmistellimusi loomata. See tõrketeade sisaldab juhiseid migreerimise ja erandi taotlemise kohta.
 
 ### <a name="new-deployments"></a>Uued juurutused
 
-Plaanimise optimeerimist tuleb pidada kõigi pilves juurutuste koondplaneerimise vaikemootoriks. Üldjuhul tuleks planeerimise optimeerimist kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Kui uus juurutamine sõltub funktsionaalsusest, mida planeerimise optimeerimine praegu ei toeta, saate erandi taotleda, et saaksite jätkata sisseehitatud koondplaneerimise mootori kasutamist.
+Plaanimise optimeerimist tuleb pidada kõigi pilves juurutuste koondplaneerimise vaikemootoriks. Üldjuhul tuleks planeerimise optimeerimist kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Kui uus juurutamine sõltub funktsioonidest, mida plaanimise optimeerimine praegu ei toeta, saate taotleda erandt, nii et saate jätkata taunitud koondplaneerimise mootori kasutamist.
 
 ### <a name="existing-deployments"></a>Olemasolevad juurutused
 
-Olemasolevate koondplaneerimisest sõltuvate pilvepõhise juurutuste omanikud peaksid kavandama ülemineku planeerimise optimeerimisele. Kui teie rakendus sõltub funktsionaalsusest, mida planeerimise optimeerimine praegu ei toeta, saate erandi taotleda, et saaksite jätkata sisseehitatud koondplaneerimise mootori kasutamist.
+Olemasolevate koondplaneerimisest sõltuvate pilvepõhise juurutuste omanikud peaksid kavandama ülemineku planeerimise optimeerimisele. Kui teie rakendamine sõltub funktsioonidest, mida plaanimise optimeerimine praegu ei toeta, saate taotleda erandlikkust, nii et saate jätkata taunitud koondplaneerimise mootori kasutamist.
 
 Keskkondades, mis praegu kasutavad iganevaid koondplaneerimise protsesse, saadab Microsoft meilisõnumi keskkonna administraatorile. See meilisõnum annab teavet toimingute kohta, mis on vajalikud, et migreerida või taotleda erandit.
 
 ## <a name="the-exception-process"></a>Erandiprotsess
 
-Saate erandi taotleda, kui peate jätkama sisseehitatud koondplaneerimise mootori kasutamist, sest teie äriprotsessid sõltuvad suuresti vähemalt ühest funktsioonist, mida praegu optimeerimise planeerimisel ei rakendata. Saadaolevate funktsioonide loendi leiate teemast [Planeerimise optimeerimise sobivuse analüüs](planning-optimization/planning-optimization-fit-analysis.md).
+Saate taotleda erandt, kui peate kasutama edasi taunitud koondplaneerimise mootorit, sest teie äriprotsessid sõltuvad peatselt vähemalt ühest funktsioonist, mida plaanimise optimeerimises praegu ei rakendata. Saadaolevate funktsioonide loendi leiate teemast [Planeerimise optimeerimise sobivuse analüüs](planning-optimization/planning-optimization-fit-analysis.md).
 
-Praegu on planeerimise optimeerimise funktsiooni migreerumise erand asjakohane, kui teie koondplaneerimise protsess ei hõlma tootmist (ehk koondplaneerimise loodud plaanitud tootmistellimused) ja vajate sisseehitatud koondplaneerimise mootori versioonist 10.0.15 uuemat versiooni.
+Praegu on planeerimise optimeerimise migratsiooni erandid asjakohased ainult juhul, kui koondplaneerimise protsess ei sisalda tootmist (st koondplaneerimise loodud plaanitud tootmistellimusi) ja te nõuate taunitud koondplaanimise mootorit väljaspool versiooni 10.0.15.
 
 Pärast nõutavate funktsioonide kättesaadavaks muutumist annab Microsoft ajapikenduse perioodi, kuni erand aegub. Keskkonna administraatorit teavitatakse, kui nõutavad funktsioonid on saadaval ja ajapikenduse periood on alanud.
 
@@ -74,9 +74,9 @@ Järgmises vooskeemis summeeritakse selles artiklis antud teave, et oleks võima
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>Liivakastikeskkonnad
 
-Kas ma saan kasutada sisseehitatud koondplaneerimist oma liivakastikeskkonnas? Kas mul on vaja erandit?
+Kas ma saab oma kaustakeskkonnas kasutada taunitud koondplaneerimise mootorit? Kas mul on vaja erandit?
 
-**Vastus:** erandid ei ole tavaliselt liivakastikeskkonnas asjakohased, kuna planeerimise optimeerimise erandi tõrge ei takista sisseehitatud koondplaneerimise mootori edukat käitamist. Kuid kui tõrketeade häirib teid, saate selle keelata infrastruktuuri teenuse (mitte Service Fabricu) liivakastikeskkonnas, käivitades järgmise andmebaasipäringu.
+**Vastus:** erandid pole kaustakeskkondades tavaliselt asjakohased, kuna optimeerimise erandi tõrge ei takista aegunud koondplaanimise mootori edukat töötamist. Kuid kui tõrketeade häirib teid, saate selle keelata infrastruktuuri teenuse (mitte Service Fabricu) liivakastikeskkonnas, käivitades järgmise andmebaasipäringu.
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Mul on kohapealne keskkond. Kas mul on vaja erandit?
 
-**Vastus:** ei. Kohapealse keskkonna puhul pole erand nõutav. Saate jätkata sisseehitatud koondplaneerimise kasutamist. Teie keskkonna administraatorit teavitatakse, kui midagi on vaja teha.
+**Vastus:** ei. Kohapealse keskkonna puhul pole erand nõutav. Saate jätkata mittetaunitud koondplaneerimise mootori kasutamist. Teie keskkonna administraatorit teavitatakse, kui midagi on vaja teha.
 
 ### <a name="production-scenarios"></a>Tootmisstsenaariumid
 
 Kasutame plaanitud tootmistellimusi, aga olen mures, mis juhtub, kui võtame kasutusele versiooni 10.0.16. Kas peaksin midagi tegema?
 
-**Vastus:** muretsemiseks pole põhjust. Versiooniga 10.0.16. saate sisseehitatud koondplaneerimist edasi kasutada. Soovitame siiski hinnata, kas üleminekut planeerimise optimeerimisele praeguste funktsioonidega alustada saab. Samuti soovitame teil püsida kursis uute funktsioonidega.
+**Vastus:** muretsemiseks pole põhjust. Saate jätkata mittetaunitud koondplaneerimise mootori kasutamist versioonis 10.0.16. Soovitame siiski hinnata, kas üleminekut planeerimise optimeerimisele praeguste funktsioonidega alustada saab. Samuti soovitame teil püsida kursis uute funktsioonidega.
 
 ### <a name="email-from-microsoft"></a>Microsofti meilisõnum
 
@@ -110,9 +110,9 @@ Meie keskkonna administraator sai Microsoftilt meilisõnumi. Meilisõnumis öeld
 
 Kasutan versiooni 10.0.16 või uuemat versiooni ja koondplaneerimise käitamisel kuvatakse järgmine tõrketeade. Kas koondplaneerimine on blokeeritud?
 
-> See tõrketeade kuvatakse, sest sisseehitatud koondplaneerimise mootorit kasutati selleks, et optimeerida stsenaariumeid, mida toetab planeerimise optimeerimine. Peaksite kohe planeerimise optimeerimisele üle minema, sest praegune sisseehitatud koondplaneerimine on iganenud. Arvestage, et see koondplaneerimise käivitamine viidi siiski edukalt lõpule.
+> Saate selle tõrketeate, sest plaanimise optimeerimise toetatud stsenaariumite puhul kasutati taunitud koondplaneerimise mootorit. Peaksite nüüd plaanimise optimeerimisele üle kandma, kuna integreeritud koondplaneerimise mootor on aegunud. Arvestage, et see koondplaneerimise käivitamine viidi siiski edukalt lõpule.
 >
-> Juhul, kui üleminek sõltub suuresti ootel funktsioonidest, saate taotleda sisseehitatud koondplaneerimise mootori jätkuva kasutuse erandit.
+> Kui teie migreerimisel on ootel funktsioonidest tugevad sõltuvused, saate taotleda erandt taunitud koondplaneerimise mootori jätkuvale kasutamisele.
 >
 > Alustamiseks täitke järgmine küsimustik ja vajaduse korral paluge erandit planeerimise optimeerimisele üleminekul.
 

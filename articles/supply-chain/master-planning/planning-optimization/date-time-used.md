@@ -1,5 +1,5 @@
 ---
-title: Kuupäeva ja aja parameetrid, mida Planning Optimization ei kasuta
+title: Kuupäeva ja aja parameetrid, mida planeerimise optimeerimine ei kasuta
 description: See artikkel annab teavet kuupäeva ja kellaaja parameetrite kohta, mida optimeerimine oma toimingu ajal kasutab.
 author: t-benebo
 ms.date: 09/21/2021
@@ -10,20 +10,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885895"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740900"
 ---
-# <a name="date-and-time-parameters-used-by-planning-optimization"></a>Kuupäeva ja aja parameetrid, mida Planning Optimization ei kasuta
+# <a name="date-and-time-parameters-used-by-planning-optimization"></a>Kuupäeva ja aja parameetrid, mida planeerimise optimeerimine ei kasuta
 
 [!include [banner](../../includes/banner.md)]
 
 See artikkel annab teavet kuupäeva ja kellaaja parameetrite kohta, mida optimeerimine oma toimingu ajal kasutab.
 
-Kuigi integreeritud koondplaneerimise mootor kasutab kõigis arvutustes kandekuupäevi, töötab Planning Optimization kuupäeva- ja kellaajaväärtustega, mis teisendatakse kuupäevadeks. Selline käitumise erinevus võib põhjustada olukordi, kus näiteks koondplaneerimise käivitamisel keskööl loodud eelarvekandeid ei kaasata, sest Planning Optimization arvestab, et need loodi enne praegust kuupäeva.
+Kuigi taunitav koondplaneerimise mootor kasutab kõigis arvutustes kandekuupäevi, töötab planeerimise optimeerimine kuupäeva- ja kellaajaväärtustega, mis teisendatakse kuupäevadeks. Selline käitumise erinevus võib põhjustada olukordi, kus näiteks koondplaneerimise käivitamisel keskööl loodud eelarvekandeid ei kaasata, sest Planning Optimization arvestab, et need loodi enne praegust kuupäeva.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Väljaminev- ja nõudluskannete parameetrid
 

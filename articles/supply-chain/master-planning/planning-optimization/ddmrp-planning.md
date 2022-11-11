@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689155"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740298"
 ---
 # <a name="demand-driven-planning"></a>Nõudlusepõhine planeerimine
 
@@ -55,4 +55,4 @@ Kui käivitate nüüd koondplaneerimise, loob see plaanitud tellimuse, kui netov
 Selle näite alusel toodetakse plaanitud ostutellimus kogusest 130, mis võrdub maksimaalse taseme ja netovoo vahega. Plaanitud tellimusele määratakse prioriteet 53,07, mis põhineb selle protsendil maksimaalsest kogusest. Kuna need väärtused leiti 20. juunil, loob süsteem plaanitud tellimuse 20. juunil pluss kauba dekodeeritud täitmisaeg (selles näites viis tööpäeva). Seega, kuna viis tööpäeva on üks nädal alates tänasest, on plaanitud tellimuse kuupäev 27. juuni.
 
 > [!NOTE]
-> Planeerimise optimeerimine arvutab dekodeeritud kaubad ainult DDMRP-i kasutades. Kõik muud kaubad arvutatakse standardse materjalinõuete plaanimise (MRP) abil.
+> Koondplaneerimine arvutab dekodeeritud kaubad ainult DDMRP-i kasutades. Kõik muud kaubad arvutatakse standardse materjalinõuete plaanimise (MRP) abil.

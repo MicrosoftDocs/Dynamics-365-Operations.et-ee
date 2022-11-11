@@ -2,7 +2,7 @@
 title: Tootmisosakonna täideviimisliidese konfigureerimine
 description: See artikkel kirjeldab, kuidas luua tootmispinna täitmisliidesele üks või mitu konfiguratsiooni. Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfiguratsiooni ja tööfiltri, mis vastavad brauserile ja seadmele. Konfiguratsioonis seadistate poliitikad, mis peavad vastama konkreetsele kasutusele.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708721"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748682"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -85,17 +85,19 @@ See funktsioon pakub täiustatud kogemust seeria-, partii- ja litsentsiplaadinum
 
 Selle funktsiooni kasutamiseks peab see olema teie süsteemi jaoks sisse lülitatud. Tarneahela halduse versiooni 10.0.25 puhul lülitatakse funktsioon vaikimisi sisse. Tarneahela halduse versiooni 10.0.29 puhul on see funktsioon kohustuslik ja seda ei saa välja lülitada. Kui käitate versiooni, mis on *vanem kui 10.0.29, saavad administraatorid selle funktsiooni sisse ja välja lülitada, otsides tootmispinna käivitamise liidese funktsioonist Seeria-,*[partii](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)- ja litsentsiplaadi numbreid Funktsioonihalduse tööruumis.
 
-
 Tarneahela halduse versiooni 10.0.25 puhul lülitatakse see funktsioon vaikimisi sisse. Administraatorid saavad selle funktsiooni sisse *või välja lülitada, otsides funktsioonihalduse tööruumis tootmispinna käivitamise liidese funktsioonist täielikke seeria-,*[partii- ja litsentsiplaadi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) numbreid.
 
 ### <a name="register-material-consumption"></a>Materjali tarbimise registreerimine
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. Mõned tootjad, eriti need, mis on protsessitööstuses, peavad eraldi registreerima materjali hulga, mida tarbitakse iga partii või tootmistellimuse puhul. Töötajad võivad näiteks kaalu kasutada tarbimisel tarbitava materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmiseks tarbitud partiinumbrid.
 
 Funktsioonil on kaks versiooni. Need kaubad toetavad kaupu, mille *puhul ei ole* laohaldusprotsesse (WMS) lubatud. Teised toetavad KAUPU, mis on *WMS-i* kasutamiseks lubatud. Selle funktsiooni kasutamiseks lülitage sisse üks või mõlemad funktsioonihalduses (selles järjekorras) sõltuvalt sellest, kas teil on [WMS](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-i jaoks lubatud kaupu:
 
 - *Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS)*
-- *Registreeri materjalitarbimine tootmispinna käivitamise liideses (WMS-lubatud)*
+- *(Eelvaade) Materjalikulu registreerimine tootmisosakonna käivitusliideses (WMS-loaga)*
 
 > [!IMPORTANT]
 > Saate kasutada ainult mitte-WMS-funktsiooni. Kuid WMS-i kasutamisel peate lubama mõlemad funktsioonid.
@@ -138,6 +140,25 @@ Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [fu
 
 - *Tootmisosakonna täideviimisliidese täiendav konfiguratsioon*
 
+### <a name="enable-the-my-jobs-tab"></a>Luba minu tööde vahekaart
+
+Vahekaart **Minu** tööd lubab töötajatel hõlpsasti vaadata kõiki just neile määratud lugemata ja lõpetamata töid. See on kasulik ettevõtetele, kus tööd on mõnikord või alati määratud teatud töötajatele (inimressurssidele), mitte teist tüüpi ressurssidele (nt masinatele).
+
+Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Tootmisosakonna täideviimisliidese vahekaart Minu tööd*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Luba numbriklahvistiku kasutamine sisselogimislehel
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+See funktsioon võimaldab administraatoritel lisada numbriklahvistiku juhtelementi tootmispinna käivitamise liidese sisselogimislehele. Töötajad saavad siis sisse logida numbriklahvistiku abil, et sisestada oma märkide ID või isiklik number.
+
+Selle funktsiooni kasutamiseks lülitage funktsioonihalduses sisse järgmine [funktsioon](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Luba sisselogimislehel numbriklahvistiku kasutamine*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 
 Tootmispinna käivitamise konfiguratsioonide loomiseks ja säilitamiseks minge Tootmise juhtimise seadistuse **\>\>\> tootmise käivitamise konfigureerimiseks tootmispinna käivitamisele**. Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
@@ -161,6 +182,7 @@ Järgmised sätted on saadaval kiirkaardil **Üldine**:
 - **Lukusta töövõtja** – kui selle suvandi väärtuseks on seatud *Ei*, siis registreeritakse töötajad välja kohe pärast registreerimist (nt uus töö). Liides naaseb siis sisselogimislehele. Kui see valik on seatud valikule *Jah*, siis jäävad töötajad tootmispinna käivitamise liidesesse sisse. Kuid töötaja saab käsitsi välja logida, nii et teine töötaja saab sisse logida ajal, kui tootmispinna käivitamise liides töötab sama süsteemi kasutajakonto all. Lisateavet nende kontotüüpide kohta leiate jaotisest [Määratud kasutajad](config-job-card-device.md#assigned-users).
 - **Tegeliku registreerimisaja kasutamine** – seadke suvandi väärtuseks *Jah*, et iga uue registreeringu aeg oleks samaväärne täpse ajaga, mil töötaja registreeringu esitas. Kui selle suvandi väärtuseks on seatud *Ei*, kasutatakse selle asemel sisselogimisaega. Tavaliselt võiks selle väärtuseks olla *Jah*, kui olete seadnud suvandite **Lukusta töötaja** ja/või **Üksik töötaja** väärtuseks *Jah* juhul, töötajad jäävad sageli pikemaks ajaks sisselogituks.
 - **Üksiktöötaja** – määrake selle suvandi väärtuseks *Jah,* kui ainult üks töötaja kasutab iga tootmispinna käivitamise liidest, kus see konfiguratsioon on aktiivne. Kui suvandi väärtuseks on seatud *Jah*, siis seatakse suvandi **Lukusta töötaja** väärtuseks automaatselt *Jah*. Lisaks eemaldab see säte töötajalt kohustuse (ja võimaluse) logida sisse pääsme ID (või sarnase ID) abil. Selle asemel logib Dynamics 365 Supply Chain Management *töötaja* Microsofti sisse, kasutades süsteemi kasutajakontot, mis on seotud registreeritud ajaga (*töötajate* tabelist) ja logib sisse tootmispinna täitmisliidesesse, kus see töötaja korraga on.
+- **Luba numbriklahvistik**: *määrake* see valik valikule Jah, et lisada numbriklahvistik sisselogimiskuvale, mis võimaldab töötajatel sisestada oma märkide ID või isikliku numbri, kasutades puuteekraani numbriklahvistikku. Valikuks määrake Ei *,* et peita numbriklahvistik.
 - **Puuteekraani lukustamise** võimaldamine – *seadke* see valik valikule Jah, et lubada töötajatel lukustada tootmis floori täitmisliidese puuteekraani, et nad saaks seda saniteerida. Kui see valik on seadistatud *valikule* **Jah, lisatakse sisselogimislehele** lukustusekraan nupu lähtestamiseks. Kui töötaja valib selle nupu, siis lukustub puuteekraan ajutiselt, et ennetada soovimatuid sisendeid. Kuvatakse ka taimer. Siis saab töötaja ohutult seadet ja selle ekraani puhastada. Kui taimer lõpetab, siis tehakse puuteekraan automaatselt lukust lahti.
 - **Ekraaniluku kestus** – kui suvandi **Luba puuteekraani lukustamine** väärtuseks on seatud *Jah*, siis kasutage seda suvandit, et määratleda, mitu sekundit peaks puuteekraan puhastamiseks lukustatud olema. Kestus peab olema vahemikus 5–120 sekundit.
 - **Loo litsentsiplaat** : määrake see valik väärtusele *Jah*, et luua uus litsentsiplaat iga kord, kui töötaja kasutab tootmise juhtimise liidest lõpetatuna näitamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui suvandi väärtuseks on seatud *Ei*, siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.

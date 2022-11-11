@@ -1,25 +1,22 @@
 ---
-title: CPOS-i konfigureerimine kohandatud rakenduse Azure AD kasutamiseks
+title: CPOS-i konfigureerimine kohandatud Azure AD rakenduse kasutamiseks
 description: See artikkel selgitab, kuidas konfigureerida Cloud POS-i (CPOS) kohandatud Azure Active Directory (Azure AD) rakendust kasutama.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9223818"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746256"
 ---
-# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>CPOS-i konfigureerimine kohandatud rakenduse Azure AD kasutamiseks
+# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>CPOS-i konfigureerimine kohandatud Azure AD rakenduse kasutamiseks
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +49,9 @@ Kohandatud jaemüügiserveri rakenduse loomiseks ja konfigureerimiseks Azure AD 
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Kohandatud CPOS-rakenduse häälestamine rakenduses Azure AD
 
+> [!IMPORTANT]
+> Kui täiendate olemasolevat kohandatud CPOS-rakendust, mis loodi enne rakenduse Commerce 10.0.21, järgige juhiseid olemasoleva kohandatud CPOS-rakenduse Azure AD täiendamises [, Azure AD mis loodi enne rakenduse Commerce versiooni 10.0.21](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Kohandatud CPOS-rakenduse loomiseks ja konfigureerimiseks Azure AD järgige neid samme.
 
 1. Logige mis tahes [Azure Active Directory kasutajakonto abil](https://aad.portal.azure.com) halduskeskusesse Azure AD sisse. Kasutajakontol ei pea olema administraatoriõigusi.
@@ -68,12 +68,25 @@ Kohandatud CPOS-rakenduse loomiseks ja konfigureerimiseks Azure AD järgige neid
 1. Seadke manifesti jaotises parameetrid **oauth2AllowIdTokenImplicitFlow** **ja oauth2AllowImplicitFlow** tõesed **ning** seejärel valige **salvestamine**.**·**
 1. **Loa konfiguratsiooni jaotises** järgige neid samme kahe nõude lisamiseks:
 
-    - Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** **ID ja** seejärel valige **sid-nõue**. Valige **Lisa**.
-    - Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** Juurdepääs ja **seejärel** valige **sid-nõue**. Valige **Lisa**.
+    1. Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** **ID ja** seejärel valige **sid-nõue**. Valige **Lisa**.
+    1. Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** Juurdepääs ja **seejärel** valige **sid-nõue**. Valige **Lisa**.
 
 1. **Valige API õiguste** jaotises suvand **Lisa õigus**.
 1. Vahekaardil MINU **organisatsioon kasutab** API-sid, otsige [jaemüügiserveri rakendust, mille lõite jaotises Kohandatud jaemüügiserveri rakenduse Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad) häälestamine. Seejärel valige **lisa õigused**.
 1. **Tehke jaotises** Ülevaade märkus väärtuse kohta väljal Rakenduse (kliendi **) ID**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Täiendage olemasolevat kohandatud CPOS-rakendust Azure AD, mis on loodud enne Commerce versiooni 10.0.21.
+
+Enne äriversiooni 10.0.21 loodud olemasoleva kohandatud CPOS-rakenduse Azure AD täiendamiseks järgige neid samme. 
+
+1. Avage oma kohandatud CPOS-rakendus Azure AD Azure’i portaalis.
+1. Valige vahekaart **Autentimine**.
+1. Kopeerige ja salvestage algse ümbersuunamise URI veebitüübist **hilisemaks** kasutamiseks ning seejärel kustutage see.
+1. Valige **lisa platvorm** ja seejärel valige **üheleheline rakendus (SPA).**
+1. Lisage esialgne veebi ümbersuunamise URI, mis on kopeeritud SPA platvormile.
+1. **Loa konfiguratsiooni jaotises** järgige neid samme kahe nõude lisamiseks:
+    1. Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** **ID ja** seejärel valige **sid-nõue**. Valige **Lisa**.
+    1. Valige **suvand Lisa valikuline nõue**. Seadke loa **tüübi väljale** Juurdepääs ja **seejärel** valige **sid-nõue**. Valige **Lisa**.
 
 ## <a name="update-the-cpos-configuration-file"></a>CPOS-i konfiguratsioonifaili värskendamine
 
@@ -89,7 +102,7 @@ CPOS kasutab turbeluba soetustaotluste Azure AD saatmisel mõlemat parameetrit.
 Seejärel peate värskendama identiteedi pakkujate sätteid Commerce Headquartersis.
 
 1. Avage Commerce Headquartersis commerce’i **ühisparameetrite** leht.
-1. Valige vahekaardil **Identiteedi pakkujad jaotises** Identiteedi **pakkujad rida,** kus väli **Tüüp** **Azure Active Directory** **on seatud ja väli Väljastaja osutab teie rentnikule.** Azure AD See säte deklareerib, et töötate tütarruudustikega, mis sisaldab teie rentnikule vastava identiteedipakkujaga seotud Azure AD andmeid.
+1. Valige vahekaardil **Identiteedi pakkujad jaotises** Identiteedi **pakkujad rida,** kus väli **Tüüp** **Azure Active Directory** **on seatud ja väli Väljastaja osutab teie rentnikule.** Azure AD See säte deklareerib, et töötate koos tütarruudustikega, mis sisaldab teie rentnikule vastava ID pakkujaga seotud Azure AD andmeid.
 1. Valige jaotises **Sõltuvad osapooled** suvand **Lisa**, et rida lisada.
 1. Seadistage järgmised väljad.
 

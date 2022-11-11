@@ -1,6 +1,6 @@
 ---
-title: Netonõuded ja sidumisteave plaanimise optimeerimisega
-description: See artikkel annab teavet arvutatud netonõuete ja sidumisteabe kohta plaanimise optimeerimises.
+title: Netonõuded ja sidumisteave
+description: See artikkel annab teavet arvutatud netonõuete ja sidumisteabe kohta.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888524"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748434"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Netonõuded ja sidumisteave plaanimise optimeerimisega
+# <a name="net-requirements-and-pegging-information"></a>Netonõuded ja sidumisteave
 
 [!include [banner](../../includes/banner.md)]
 
-Planeerimise optimeerimise üldplaneeringu käivitamisel on oluline mõista selle väljundit, seda, kuidas olemasolev pakkumine katab nõudluse ja miks konkreetne pakkumine loodi. Saate kasutada lehekülge **Netonõuded**, et paremini mõista arvutatud vajadusi, mida koondplaneerimine toodab.
+Üldplaneeringu käivitamisel on oluline mõista selle väljundit, seda, kuidas olemasolev pakkumine katab nõudluse ja miks konkreetne pakkumine loodi. Saate kasutada lehekülge **Netonõuded**, et paremini mõista arvutatud vajadusi, mida koondplaneerimine toodab.
 
-**Netonõuete** lehel kuvatakse netonõuded, mille jaoks arvutati plaanimise optimeerimine. Samuti kuvatakse selles koondplaneerimise käituse ajal rakendatud laovarude sätted, kogusummade jaotus kandetüübi ja sidumisteabe alusel.
+Netonõuete **lehel** kuvatakse netonõuded, mille kohta on arvutatud koondplaneerimine. Samuti kuvatakse selles koondplaneerimise käituse ajal rakendatud laovarude sätted, kogusummade jaotus kandetüübi ja sidumisteabe alusel.
 
 ## <a name="open-the-net-requirements-page"></a>Ava netonõuete leht
 
@@ -64,8 +64,8 @@ Lehe alumises jaotises on järgmised vahekaardid:
 Tegumiribal on saadaval järgmised käsud:
 
 - **Värskendamine \> Koondplaneerimine** – käivitage koondplaneerimine otse **Netonõuete** lehelt.
-- **Värskendamine \> Prognooside planeerimine** – käivitage prognooside planeerimine otse **Netonõuete** lehelt. Plaanimine optimeerimine ei toeta veel seda toimingut.
-- **Värskendamine \> Järjepidevuse ajastamine** – käivitage järjepidevuse plaanimine otse lehelt **Netonõuded**. Plaanimine optimeerimine ei toeta veel seda toimingut.
+- **Värskendamine \> Prognooside planeerimine** – käivitage prognooside planeerimine otse **Netonõuete** lehelt. Plaanimine optimeerimine ei toeta seda toimingut.
+- **Värskendamine \> Järjepidevuse ajastamine** – käivitage järjepidevuse plaanimine otse lehelt **Netonõuded**. Plaanimine optimeerimine ei toeta seda toimingut.
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
@@ -133,8 +133,6 @@ Seejärel avate toote *1000* **Netonõuete** lehe, et vaadata, kuidas arvutatud 
     ![Müügitellimuse sidumisteave](media/pegging-planned-purchase-order.png "Müügitellimuse sidumisteave")
 
 > [!NOTE]
-> Kuna planeerimise optimeerimine ei toeta veel mõnda funktsiooni, ei sisalda lehel **Netinõuded** nõutavat tüüpi *ohutusvaru* ja *aegunud partii* nõudeid. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
->
-> Kui kasutate integreeritud koondplaneerimise mootorit, toetatakse partii kaudu juhitavaid tooteid. Partii kaudu kontrollitud toodete puhul kuvatakse aegunud vaba kaubavaru **Netonõuded** lehel, kuid see ei ole seotud nõudluse nõuetega. Seda tüüpi aegunud vaba kaubavaru read kuvatakse **Netonõuded** lehel *aegunud partii* vajaduse ridadena.
+> Turvavarude *nõue* pole netonõuete lehel **kaasatud**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

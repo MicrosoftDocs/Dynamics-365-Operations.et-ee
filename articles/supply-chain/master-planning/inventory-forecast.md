@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844521"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739974"
 ---
 # <a name="inventory-forecasts"></a>Varude prognoosid
 
@@ -395,7 +395,7 @@ Järgige neid juhiseid, et seadistada koondplaan nii, et see hõlmaks laovaru pr
     - **Prognoosi ajavahemik** – kui seate suvandi **Eelarveplaan** väärtuseks *Jah*, määrake päevade arv (alates tänasest kuupäevast), mida nõudluse prognoosi korral rakendada.
 
     > [!IMPORTANT]
-    > Planeerimise optimeerimise korral ei toetata praegu veel valikut **Eelarveplaan**.
+    > Eelarveplaani **valikut** ei toetata plaanimise optimeerimisega.
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Koondplaani käivitamine, mis sisaldab laovaru prognoosi
 

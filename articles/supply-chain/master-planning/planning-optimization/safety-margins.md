@@ -1,6 +1,6 @@
 ---
 title: Ohutuspiirid
-description: See artikkel kirjeldab, kuidas ohutusvarusid saab Microsofti jaoks optimeerimise lisandmooduliga kasutada Dynamics 365 Supply Chain Management.
+description: See artikkel kirjeldab, kuidas ohutusvarud koondplaneerimisel töötavad.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335191"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740437"
 ---
 # <a name="safety-margins"></a>Ohutuspiirid
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel kirjeldab, kuidas ohutusvarusid saab Microsofti jaoks optimeerimise lisandmooduliga kasutada Dynamics 365 Supply Chain Management.
+See artikkel kirjeldab, kuidas ohutusvarud koondplaneerimisel töötavad.
 
 ## <a name="safety-margins-overview"></a>Ohutuspiiride ülevaade
 
@@ -165,12 +165,5 @@ Kui süsteem määrab, kas tellimus hilineb või mitte, kaasatakse kõik kolm oh
 Näiteks on kaubal tarneaeg üks päev ja sissetuleku ohutusvaru kolm päeva. Selle kauba müügitellimus on seatud nõutavaks täna. Sel juhul arvutatakse hilinemine järgmiselt: *täitmisaeg* + *sissetuleku ohutusvaru* = neli päeva. Seega, kui täna on 14. august, on tarneaeg neljapäevase hilinemise tõttu 18. august. Järgmisel illustratsioonil on toodud see näide.
 
 ![Hilinemise arvutamise näide.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Lisaressursid
-
-[Planeerimise optimeerimise kasutamise alustamine](get-started.md)
-
-[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

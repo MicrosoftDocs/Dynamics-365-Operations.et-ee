@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124786"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740406"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.22 (november 2021)
 
@@ -53,14 +53,14 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmised spikriartiklid. Need a
 |---|---|
 | Tehnilise muudatuse haldamine | [Tehnika muudatuste halduse ülevaates](../engineering-change-management/product-engineering-overview.md) loetletakse nüüd kõik funktsioonihalduses saadaolevad seotud valikulised funktsioonid |
 | Koondplaneerimine | [Nõudluse prognoosi häälestus](../master-planning/demand-forecasting-setup.md) |
-| Koondplaneerimine | [Netonõuded ja sidumisteave seoses planeerimise optimeerimisega](../master-planning/planning-optimization/net-requirements.md) |
+| Koondplaneerimine | [Netonõuded ja sidumisteave](../master-planning/planning-optimization/net-requirements.md) |
 | Laohaldus | [Lattu väljastamine](../warehousing/release-to-warehouse-process.md) annab täieliku lattu vabastamise protsessi üksikasjaliku ülevaate |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platvormi värskendused finantside ja toimingute rakenduste jaoks
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.22 finantside ja toimingute rakendustest (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 sisaldab platvormivärskendusi. Lisateavet vt platvormi värskendustest [versioonile 10.0.22 finantside ja toimingute rakendustest (november 2021).](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)
 
 ### <a name="bug-fixes"></a>Veaparandused
 

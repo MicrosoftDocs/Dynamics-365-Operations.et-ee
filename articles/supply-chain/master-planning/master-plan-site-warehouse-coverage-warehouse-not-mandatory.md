@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1f486406df22b4e9b92a0302e4e7ce7816517f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4989a05f4647ac836b78692da7f63396dbef788
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878957"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741008"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Koondplaanimine laoala ja laovarude jaoks, ladu ei ole kohustuslik
 
@@ -47,15 +47,11 @@ Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade](master-plan-multisite-functionality.md)
-
-[Koondplaanimine laovarude puhul, kohustuslik ladu](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[Laoala ja lao katmise koondplaanimine, ladu on kohustuslik](master-plan-site-coverage-warehouse-mandatory.md)
-
-[Laoala ja lao katmise koondplaanimine, ladu ei ole kohustuslik](master-plan-site-coverage-warehouse-not-mandatory.md)
-
-[Koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
+- [Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade](master-plan-multisite-functionality.md)
+- [Koondplaanimine laovarude puhul, kohustuslik ladu](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [Laoala ja lao katmise koondplaanimine, ladu on kohustuslik](master-plan-site-coverage-warehouse-mandatory.md)
+- [Laoala ja lao katmise koondplaanimine, ladu ei ole kohustuslik](master-plan-site-coverage-warehouse-not-mandatory.md)
+- [Koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
 
 
 

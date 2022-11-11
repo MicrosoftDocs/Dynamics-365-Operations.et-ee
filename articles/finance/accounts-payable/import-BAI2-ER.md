@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
-ms.translationtype: MT
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337563"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752716"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Täpsema panga vastavusseviimise importimise häälestus elektroonilise aruandluse abil
 
@@ -34,7 +34,7 @@ Täpsem panga vastavusseviimise funktsioon võimaldab teil importida elektroonil
 2. Microsofti konfiguratsioonipakkuja paanil **valige** hoidlad **·**.
 3. Valige **Globaalne** ja seejärel valige **Ava**.
 4. Kui tuleb luua ühendus hoidlaga, valige dialoogiaknast sinine link.
-5. Konfiguratsiooniloendist otsige pangaväljavõtte **mudeli bai2 \> pangaväljavõtte mudelit**.
+5. Konfiguratsiooniloendist otsige täpsemat **panga vastavusseviimise väljavõtte mudeliT \> ABR BAI2**..
 6. **Valige BAI2-vorming**.
 7. Valige kiirkaardil **Versioonid** uusim versioon ja seejärel käsk **Impordi**.
 

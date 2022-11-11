@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
-ms.translationtype: HT
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728272"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736877"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -42,6 +42,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 
 > [!NOTE]
 > Allpool loetletud toimingud kehtivad rakenduse Commerce uusima versiooni puhul. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
+> Lisateavet võrguühenduseta funktsioonide ja konfiguratsiooni kohta vaadake commerce’i võrguühenduseta [rakendamise ja tõrkeotsingu artiklist](dev-itpro/implementation-considerations-offline.md).
 
 | ID   | Toiming                                         | Kirjeldus                                                                                                                                                                                                    | Kasutajatoimingud    | Kandeekraan | Tervitusekraan | Kas see on ühenduseta saadaval? | Lokaadipõhine |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |

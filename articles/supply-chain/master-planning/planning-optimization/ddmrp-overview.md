@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689484"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740846"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Nõudlusepõhiste materjalinõuete planeerimise (DDMRP) ülevaade
 
@@ -44,6 +44,6 @@ DDMRP-i kasutavad tavaliselt tootjad, omavad mitmetasemelist kooslust. Kuid seda
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP aastal Dynamics 365 Supply Chain Management
 
-DDMRP on kaasatud Microsofti ja Dynamics 365 Supply Chain Management ei nõua täiendavaid litsentsitasusid. Tarneahela halduses on DDMRP-funktsioon lisatud olemasolevasse koondplaneerimise **moodulisse**. Kuid selleks on vaja kasutada plaanimise optimeerimise lisandmoodulit. 
+DDMRP on kaasatud Microsofti ja Dynamics 365 Supply Chain Management ei nõua täiendavaid litsentsitasusid. Tarneahela halduses on DDMRP-funktsioon lisatud olemasolevasse koondplaneerimise **moodulisse**. Kuid selleks on vaja kasutada plaanimise optimeerimise lisandmoodulit.
 
 DDMRP on integreeritud olemasolevate plaanimisseadistustega Tarneahela halduses ja seda kasutatakse koos nende seadistustega, et jõuda teie ettevõtte jaoks õigesse planeerimiskonfiguratsiooni. Seda kontrollib uus laovarude kood, mis erineb täielikult perioodist, min/max, vajadusest jne. See pole uus moodul ja see ei asenda olemasolevaid plaanimisfunktsioone. Kuid see annab teile kasutamiseks rohkem funktsioone.

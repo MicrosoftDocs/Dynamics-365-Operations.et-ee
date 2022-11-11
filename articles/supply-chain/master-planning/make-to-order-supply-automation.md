@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220738"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740190"
 ---
 # <a name="make-to-order-supply-automation"></a>Tellimuspõhise tarne automatiseerimine
 
@@ -32,12 +32,6 @@ Tellimusele *tarnimise automatiseerimise funktsiooniga* lisatakse Microsoftile m
 - Täiustage kontsernisisest teabevoogu. Ostutellimused uuendatakse nii, et need sisaldaks tarneviisi, tarnetingimuste ja välise kaubakoodi välju. See muudatus tagab, et üksikasjalik nõudluse teave võib muutuda tarneettevõttele.
 
 See artikkel kirjeldab, kuidas seadistada ja kasutada iga täiustust.
-
-> [!NOTE]
-> Kõik selles artiklis kirjeldatud täiustused kehtivad süsteemide puhul, mis kasutavad integreeritud koondplaneerimist. Planeerimise optimeerimise lisandmoodul Microsofti jaoks toetab ka järgmisi täiustusi Dynamics 365 Supply Chain Management.
->
-> - Lükka koondplaanide kõikumine edasi
-> - Koondplaneerimisel kasutatud sidumisjärjestuse kontroll
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Tellimusele tarnimise automatiseerimise funktsiooni sisse lülitumine
 
@@ -73,7 +67,7 @@ Et avada võimsuse **koormuse** leht nii, et saate ressursigrupi saadaoleva või
 
 Need valikud on **saadaval** **ka koondplaneerimise parameetrite vahekaardi Standardne** **uuendamine** väljal Märkimine, **kus saate määratleda dialoogiboksi Kinnitamist** vaikevaliku.
 
-Lisateavet vt varude märkimisest [plaanimise optimeerimisega](planning-optimization/marking.md).
+Lisateavet vt varude [märkimisest](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Sea viivituse kõikumine (negatiivsed päevad) koondplaani tasemel
 
@@ -90,7 +84,7 @@ Koondplaani negatiivsete päevade miseks järgige neid samme.
 1. Seadke ajapiiride **päevade** kiirkaardil suvandi **Negatiivsed päevad väärtuseks** *Jah*.
 1. Sisestage lähedalasuv väljale lubatud negatiivsete päevade arv.
 
-Lisateavet negatiivsete päevade kasutamise kohta vt Viivituse kõikumine [(negatiivsed päevad)](planning-optimization/delay-tolerance.md).
+Negatiivsete päevade kasutamise kohta lisateabe saamiseks vt Viivituse kõikumine [(negatiivsed päevad).](planning-optimization/delay-tolerance.md)
 
 ## <a name="control-the-pegging-sequence-used-during-master-planning"></a>Koondplaneerimisel kasutatava sidumisjärjestuse juhtimine
 

@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335281"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740588"
 ---
 # <a name="priority-based-planning"></a>Prioriteedipõhine planeerimine
 
 [!include [banner](../../includes/banner.md)]
 
-See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm [nõudlusepõhiste materjalinõuete planeerimisest (DDMRP)](ddmrp-overview.md). Prioriteedipõhine planeerimine võimaldab planeerimise optimeerimisel luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
+See artikkel kirjeldab Microsofti prioriteedipõhise planeerimise funktsiooni Dynamics 365 Supply Chain Management. See funktsioon toetab nõudlusepõhist planeerimist, mis on üks samm [nõudlusepõhiste materjalinõuete planeerimisest (DDMRP)](ddmrp-overview.md). Prioriteedipõhine planeerimine võimaldab süsteemil luua plaanitud tellimusi, mis põhinevad vajaduse kuupäevade asemel plaanimise prioriteetidel.
 
 Prioriteedipõhine planeerimine võimaldab teil prioriteerida varude täiendamise tellimusi nii, et tagada pakilise nõudluse tähtsusjärjekorras väiksem nõudlus. Näiteks laovarude täiendamise tellimusele täidetakse standardne taastäitmise varude täiendamise tellimus. Süsteem saab suuremad tellimused automaatselt tükeldada eraldi väiksemateks tellimusteks, kus tellimuseread on grupeeritud prioriteedi alusel. Seejärel saab esimesena töödelda kõiki kõrge prioriteediga tellimusi.
 
@@ -37,11 +37,11 @@ Enne selle funktsiooni kasutamist tuleb see teie süsteemi jaoks sisse lülitada
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Kus ja kuidas määratakse planeerimise prioriteedid
 
-*Pakkumise ja* nõudluse prioriteediteabe plaanimine on prioriteedipõhise planeerimise tagakaanel. Planeerimise prioriteet määratleb nõudluse või pakkumise rea tähtsuse. Planeerimise optimeerimine kasutab seda, kui laovarude **koodi** väli on seatud väärtusele *Prioriteet*.
+*Pakkumise ja* nõudluse prioriteediteabe plaanimine on prioriteedipõhise planeerimise tagakaanel. Planeerimise prioriteet määratleb nõudluse või pakkumise rea tähtsuse. Koondplaneerimine kasutab seda, kui väli **Laovarude kood** on seatud väärtusele *Prioriteet*.
 
 Planeerimis prioriteet on tavaliselt arv vahemikus 0 (null) ja 100 (kus 0 tähistab kõrgeimat tähtsust). See kuvatakse ja seadistatakse väljal **Plaanimise** prioriteet. Selle välja leiate järgmistelt lehtedelt: nõudluse **prognoosi read**, **müügitellimuse** üksikasjad, **ostutellimuse** üksikasjad, **üleviimistellimuse üksikasjad** ja plaanitud **tellimuse üksikasjad**.
 
-Kui asjakohase kauba või laovarude grupi laovarude koodi väli on seatud prioriteediks, võtab plaanimine optimeerimise saldod nõudlusega pakkumisega, kasutades nõudlusepõhist lähenemist, nagu see arvutab plaanimise prioriteedi, ja võtab iga väljastatud toote puhul väärtused, **mis** on *seadistatud kauba laovarude lehel väljadele Miinimum,* **·** **Lisatellimuse punkt ja Maksimum.** **·** **·**
+Kui asjakohase kauba või laovarude grupi laovarude koodi väli on seatud prioriteediks, võtab koondplaneerimise saldod nõudlusega pakkumisega, kasutades nõudlusepõhist lähenemist, nagu see arvutab plaanimise prioriteedi, ja võtab iga väljastatud toote puhul arvesse väärtusi, **mis** on *seadistatud kauba laovarude lehel väljadele Miinimum,* **·** **Lisatellimuse punkt ja Maksimaalne.** **·** **·**
 
 > [!NOTE]
 > Prioriteetne *väärtus* on saadaval laovarude koodi **väljal ainult** siis, kui plaanimise optimeerimine on lubatud.
