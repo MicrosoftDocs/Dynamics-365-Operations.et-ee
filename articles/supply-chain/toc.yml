@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Hajutatud hübriidtopoloogia
           items:
-            - name: Skaalaühiku võimalus on praegu uutele klientidele peatatud.
+            - name: Supply Chain Managementi skaalaühiku võimalus on praegu peatatud
               href: cloud-edge/cloud-edge-landing-page.md
         - name: Varahaldus
           items:
@@ -1753,36 +1753,54 @@
           items:
             - name: Koondplaneerimise avaleht
               href: master-planning/master-planning-home-page.md
-            - name: Planeerimise optimeerimise kasutuselevõtmine koondplaneerimise jaoks
-              href: master-planning/new-master-planning-engine.md
-            - name: Planeerimise optimeerimine
+            - name: Koondplaneerimise kasutamise alustamine
+              href: master-planning/planning-optimization/get-started.md
+            - name: Koondplaneerimise süsteemi ülesehitus
+              href: master-planning/master-planning-architecture.md
+            - name: Koondplaneerimise haldus
               items:
-                - name: Planeerimise optimeerimise ülevaade
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planeerimise optimeerimise kasutamise alustamine
-                  href: master-planning/planning-optimization/get-started.md
                 - name: Planeerimise optimeerimise vabastamise protsess ja väljalaskeajalugu
                   href: master-planning/planning-optimization/release-process.md
-                - name: Planeerimise optimeerimise sobivuse analüüs
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Tarnegraafik
-                  href: master-planning/supply-schedule.md
-                - name: Plaanile filtrite rakendamine
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Planeerimise optimeerimise tõrkeotsing
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Ajastamismootori tõrke „Ei leitud piisavalt võimsust“ lahendamine
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Plaanimistöö tühistamine
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planeerimise optimeerimise laiendatavus
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Plaaniajaloo ja plaanimislogide kuvamine
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: 'Kuupäeva ja aja parameetrid, mida planeerimise optimeerimine ei kasuta'
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Koondplaneerimise konfigureerimine
+              items:
+                - name: Hilinemised
+                  href: master-planning/delays.md
+                - name: Koosnevusarvutuse jaoks jälgimise kasutamine
+                  href: master-planning/trace-explosion.md
+                - name: Tellimuspõhise tarne automatiseerimine
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Negatiivsed päevad ja dünaamilised negatiivsed päevad
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Kalendrid ja koondplaneerimine
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Tegevuskoha jaoks graafiku loomine
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Tegevuskoha jaoks plaani loomine
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Koondplaneerimine koos nõudluse prognoosidega
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Koondplaneerimine koos tarneprognoosidega
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: Tarnegraafik
+                  href: master-planning/supply-schedule.md
+                - name: Kaupade alamgrupi plaanimise käitamine
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Koondplaneerimine koos ostu kaubanduslepetega
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Pakkimistel ja pakkumiskutsetel põhinev plaan
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: 'Kuupäeva ja aja parameetrid, mida planeerimise optimeerimine ei kasuta'
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Ohutuspiirid
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Viivituse kõikumine (negatiivsed päevad)
@@ -1799,55 +1817,21 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: Võimekusel põhineva ressursivalikuga planeerimine
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Prioriteedipõhine planeerimine
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Nõudlusepõhiste materjalinõuete planeerimine (DDMRP)
-                  items:
-                    - name: DDMRP ülevaade
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: Lülitage süsteemi jaoks sisse DDMRP-funktsioon
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Varude paigutamine
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Puhvri profiil ja tasemed
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Nõudluspõhine planeerimine
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Visuaalne ja koostööd võimaldav täitmine
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Varude märkimine planeerimise optimeerimise käigus
+                - name: Varude märkimine
                   href: master-planning/planning-optimization/marking.md
                 - name: Kontsernisisene planeerimine
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Konkreetsete toote töötsükli olekutega toodete väljajätmine
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Täiendamismeetodid ja koguse muutmine
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Laovarude ajapiirid
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Netonõuded ja sidumisteave seoses planeerimise optimeerimisega
+                - name: Netovajaduste ja sidumise teave
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Plaanitud tellimuste kinnitamine
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Kindlad plaanitud tellimused
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Plaanitud tellimuste lihtsustamine
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Negatiivsete vabade kogustega plaanimine
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Plaaniajaloo ja plaanimislogide kuvamine
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Plaanimistöö tühistamine
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Tegevusteated
-                  href: master-planning/action-messages.md
                 - name: Müügitellimuse tarnekuupäevade arvutamine CTP-d kasutades
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Planeerimise optimeerimise tõrkeotsing
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Planeerimise optimeerimise laiendatavus
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Koondplaanid
+            - name: Koondplaanide häälestamine
               items:
                 - name: Koondplaanide ülevaade
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: Koondplaneerimise häälestusviisard
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Piirangutega plaani koostamine
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Täiendamisstrateegiate häälestamine
+              items:
                 - name: Laovarude sätted
                   href: master-planning/coverage-settings.md
                 - name: Kaubakatte reeglite määratlemine
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Piirangutega plaani koostamine
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Kaastoodete jaoks materjaliplaani loomine
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Plaanitud tellimuste haldamine
-                  href: master-planning/maintain-planned-orders.md
+                - name: Mitme hankija lähtetooted ja -materjalid
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Prioriteedipõhine planeerimine
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Täiendamismeetodid ja koguse muutmine
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Koondplaanid ja mitme tegevuskoha funktsioon
+              items:
+                - name: Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Koondplaanimine laovarude puhul, kohustuslik ladu'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Koondplaanimine laovarude puhul, ladu ei ole kohustuslik'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Laoala ja lao katmise koondplaanimine, ladu on kohustuslik'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Laoala ja lao katmise koondplaanimine, ladu ei ole kohustuslik'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: Koosluse versiooni määratlemine
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Koosluse versiooni koosnevus
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Puhvervaru
+              items:
                 - name: Kaupade puhvervaru täitmine
                   href: master-planning/safety-stock-replenishment.md
                 - name: Puhvervaru abil üksuste minimaalse laovaru uuendamine
                   href: master-planning/safety-stock-journal.md
-                - name: Hilinemised
-                  href: master-planning/delays.md
-                - name: Koondplaneerimise töö tühistamine
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Koosnevusarvutuse jaoks jälgimise kasutamine
-                  href: master-planning/trace-explosion.md
-                - name: Koondplaneerimise käitamise jälgimine
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Tegevuskoha jaoks graafiku loomine
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Tegevuskoha jaoks plaani loomine
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Kalendrid ja koondplaneerimine
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Ajastamismootori tõrke „Ei leitud piisavalt võimsust” lahendamine
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Koondplaneerimise jõudluse parandamine
-                  href: master-planning/master-planning-performance.md
-                - name: Plaanimismootori jõudluste täiustamine
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Koondplaanid ja mitme tegevuskoha funktsioon
-                  items:
-                    - name: Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Koondplaanimine laovarude puhul, kohustuslik ladu'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Koondplaanimine laovarude puhul, ladu ei ole kohustuslik'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Laoala ja lao katmise koondplaanimine, ladu on kohustuslik'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Laoala ja lao katmise koondplaanimine, ladu ei ole kohustuslik'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: Koosluse versiooni määratlemine
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Koosluse versiooni koosnevus
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Negatiivsed päevad ja dünaamilised negatiivsed päevad
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Kontsernisisese plaani loomine
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Väljamineva plaanitud kontsernisisese nõudluse kuvamine
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Netonõuded ja sidumisteave seoses sisseehitatud koondplaneerimisega
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Tellimuspõhise tarne automatiseerimine
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: Plaanitud tellimuste haldamine
+              items:
+                - name: Plaanitud tellimuste haldamine
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Plaanitud tellimuste kuvamine, haldamine ja kinnitamine'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Kindlad plaanitud tellimused
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Plaanitud tellimuste lihtsustamine
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Tegevusteated
+                  href: master-planning/action-messages.md
             - name: Eelarvestus
               items:
-                - name: Nõudluse ja tarne prognoosimine
-                  items:
-                    - name: Varude prognoosid
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Juhend: nõudluse prognoosi käsitsi muutmine'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Varude prognoosid
+                  href: master-planning/inventory-forecast.md
+                - name: 'Juhend: nõudluse prognoosi käsitsi muutmine'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Nõudluse prognoos
                   items:
                     - name: Nõudluse prognoosimise ülevaade
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Juhend: alusprognoosi loomine'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Koondplaneerimine koos prognoosiga
-                  items:
-                    - name: Eelarve planeerimise koefitsiendid
-                      href: master-planning/reduction-keys.md
+                - name: Eelarve planeerimise koefitsiendid
+                  href: master-planning/reduction-keys.md
+            - name: Nõudlusepõhiste materjalinõuete planeerimine (DDMRP)
+              items:
+                - name: DDMRP ülevaade
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: Lülitage süsteemi jaoks sisse DDMRP-funktsioon
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Varude paigutamine
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Puhvri profiil ja tasemed
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Nõudluspõhine planeerimine
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Visuaalne ja koostööd võimaldav täitmine
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Iganenud planeerimise mootor
+              items:
+                - name: Iganenud planeerimise ülevaade
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Planeerimise optimeerimise kasutuselevõtmine koondplaneerimise jaoks
+                  href: master-planning/new-master-planning-engine.md
+                - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Planeerimise optimeerimise ja iganenud koondplaneerimise mootori vahelised erinevused
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Planeerimise optimeerimise sobivuse analüüs
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Koondplaneerimise jõudluse parandamine
+                  href: master-planning/master-planning-performance.md
+                - name: Plaanimismootori jõudluste täiustamine
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Kontsernisisese plaani loomine
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Väljamineva plaanitud kontsernisisese nõudluse kuvamine
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Koondplaneerimise käitamise jälgimine
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Netonõuded ja sidumisteave seoses iganenud planeerimismootoriga
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Kaastoodete jaoks materjaliplaani loomine
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: Iganenud koondplaneerimise mootoriga loodud töö tühistamine
+                  href: master-planning/cancel-master-planning-job.md
         - name: Mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht
