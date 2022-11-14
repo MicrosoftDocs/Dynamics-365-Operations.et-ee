@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Keele- ja lokaadideskriptorid toote ja spikri vahel
                   href: help/language-locale.md
-                - name: 'Spikri laiendamine, kohandamine ja koostöö'
+                - name: Spikri laiendamine ja koostöö
                   href: help/contributor-guide.md
             - name: Finants- ja äritoimingute rakenduste piirkondlikud teenused
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Võrguprinteritele juurdepääsu haldamine juriidiliste isikute lõikes
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: 'Jälgimine ja telemeetria, kasutades lahendust Application Insights'
+              items:
+                - name: Ülevaade
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Turve
               items:
                 - name: Rollipõhine turve

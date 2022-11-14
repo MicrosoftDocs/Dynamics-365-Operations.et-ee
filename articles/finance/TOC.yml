@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Arveldusgraafiku kopeerimine
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Kliendijaotus arveldusgraafikuga
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Arveldusgraafiku funktsioonid
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Etapiviisiline arveldus
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Finantsperioodi sulgemise tööruum
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Aastalõpu sulgemise optimeerimine
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Aastalõpu sulgemine
                   href: general-ledger/year-end-close.md
                 - name: Finantsaasta sulgemine
