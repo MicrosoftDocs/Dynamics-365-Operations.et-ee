@@ -540,8 +540,12 @@
                   items:
                     - name: Töökandidaatide värbamine
                       href: hr-personnel-recruit.md
-        - name: Ülesandehaldus
-          href: hr-task-mgmt.md
+        - name: Ülesande haldus
+          items:
+            - name: Ülevaade
+              href: hr-task-mgmt.md
+            - name: Ülesande halduse täiendamine
+              href: hr-task-update.md
         - name: Puhkused ja puudumine
           items:
             - name: Ülevaade
@@ -828,10 +832,14 @@
           href: hr-developer-overview.md
         - name: Laiendamine Power Appsi ja Power Automate’iga
           href: hr-developer-power-apps.md
-        - name: Dataverse'i tabelid
+        - name: Dataverse’i tabelid
           href: hr-developer-entities.md
         - name: Kohandatud väljad
           href: hr-developer-custom-fields.md
+        - name: Arendamine ja kohandamine
+          items:
+            - name: Soopõhine loend
+              href: enum-exten.md
         - name: Andmete integratsiooni häälestamine
           items:
             - name: Andme integratsioonitehnoloogia valimine
