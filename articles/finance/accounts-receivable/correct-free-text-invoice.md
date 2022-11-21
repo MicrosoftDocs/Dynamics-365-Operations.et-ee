@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715493"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780233"
 ---
 # <a name="correct-a-free-text-invoice"></a>Vabas vormis arve parandamine
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715493"
 
 Selles artiklis selgitatakse, kuidas parandada sisestatud vabas vormis arvet ja väljastada see uuesti parandatud arvena.
 
-Juba sisestatud vabas vormis arve parandamiseks avage sisestatud vabas vormis arve. Valige lehel **Arve** suvand **Tühista** ja seejärel **Arve parandamine**. Valige põhjuse kood, lisage kommentaarid ja valige uue parandatud arve kuupäev. Saate parandatud arvet muuta ja selle sisestada. 
+Juba sisestatud vabas vormis arve parandamiseks: 
+1. Saate avada sisestatud vabas vormis arve. 
+2. Valige lehel **Arve** suvand **Tühista** ja seejärel **Arve parandamine**. 
+3. Valige põhjuse kood, lisage kommentaarid ja valige uue parandatud arve kuupäev.
+4. Saate parandatud arvet muuta ja selle sisestada. 
 
 Parandatud arve sisestamisel koostatakse tühistamisarve krediidisummale, mis võrdub algse arve summaga. Seetõttu on algse arve ja arve tühistamise kombineeritud saldo 0 (null). Tühistamisarve tasakaalustatakse algse arve suhtes. 
 

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
-ms.translationtype: MT
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752294"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775511"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -112,7 +112,7 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 | 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober – 17. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
 | Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 15. oktoober – 18. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
 | 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 16. oktoober – 19. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
-| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober – 20. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
+| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober – 20. oktoober 2022, 2. november – 5. november 2022. | 15. november – 18. november 2022 |
 | Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud | Pole plaanitud |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Ennetav kvaliteedivärskenduse vabastus: 10.0.30

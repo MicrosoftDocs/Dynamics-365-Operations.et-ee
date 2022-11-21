@@ -2,25 +2,25 @@
 title: Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 description: See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas erinevad kasutatavad sularaha allahindlused, olenevalt sellest, millal makse tehakse.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872640"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780241"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 
@@ -44,11 +44,11 @@ Kui Arnie loob maksetöölehe, et need arved 29. juunil täielikult tasakaalusta
 -   Makse arve FTI 10041 eest on 990,00. Arvestatakse allahindlust 1 protsent ehk 10,00.
 -   Makse arve FTI 10042 eest on 980,00. Arvestatakse allahindlust 2 protsent ehk 20,00.
 
-| Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valitud                 | Tavaline            | FTI‑10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USA dollar      | 1 000,00         |
-| Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 990.00           |
-| Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 980.00           |
+| Märge | Kasuta skontot | Kanne   | Konto | Kuupäev   | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Valitud     | Tavaline      | FTI‑10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00  |                    | USA dollar      | 1,000.00         |
+| Valitud     | Tavaline      | FTI‑10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |                    | USA dollar      | 990.00           |
+| Valitud ja esile tõstetud | Tavaline      | FTI‑10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00    |              | USA dollar      | 980,00           |
 
 Pärast makse sisestamist on kliendi saldo on 0,00.
 
@@ -60,19 +60,19 @@ Kui Arnie loob maksetöölehe, et need arved 1. juulil täielikult tasakaalustad
 -   Makse arve FTI 10042 eest on 990,00. Arvestatakse allahindlust 1 protsent ehk 10,00. Kuigi 1. juuli on pärast perioodi, mis kvalifitseerub 2-protsendise allahindluse saamiseks, jääb see siiski 1-protsendise allahindluse saamise perioodi.
 
 | Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valitud                 | Tavaline            | FTI‑10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USA dollar      | 1 000,00         |
-| Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 990.00           |
-| Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 990.00           |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Valitud         | Tavaline            | FTI‑10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00         |                | USA dollar      | 1,000.00         |
+| Valitud                 | Tavaline            | FTI‑10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |               | USA dollar      | 990.00           |
+| Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00  |             | USA dollar      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Osaline tasakaalustamine 29. juunil
 Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida. Igal real sisestab Arnie kliendi antud juhiste põhjal tasakaalustatava summa. Kui Arnie valib mõne rea, näeb ta selle rea allahindluse summat ja sularahasoodustuse summat, mis arvesse võetakse. Kuna klient tasub pool arvest, näeb Arnie, et väärtus väljal **Skonto summa** arve FTI-10042 puhul on **20,00**, kuid välja **Arvestatud skonto** väärtus on **10,00**. Maksesumma on 1485,00.
 
-| Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valitud                 | Tavaline            | FTI‑10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1 000,00                             |                                       | USA dollar      | 500,00           |
-| Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 495.00           |
-| Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 490.00           |
+| Märge   | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Valitud   | Tavaline       | FTI‑10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00        |               | USA dollar      | 500.00           |
+| Valitud                 | Tavaline            | FTI‑10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00     |     | USA dollar      | 495.00           |
+| Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00     |         | USA dollar      | 490.00           |
 
 Arnie saab maksesumma 1 485.00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate:
 
@@ -88,11 +88,11 @@ Arnie vaatab seda teavet lehel **Kliendi kanded**.
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI‑10040  | Arve          | 5/15/2015 | 10040   | 1 000,00                             |                                       | 0,00     | USA dollar      |
-| FTI‑10041  | Arve          | 25.06.2015 | 10041   | 1 000,00                             |                                       | 1 000,00 | USA dollar      |
-| FTI‑10042  | Arve          | 25.06.2015 | 10042   | 1 000,00                             |                                       | 505.10   | USA dollar      |
-| ARP‑10040  | Makse          | 6/29/2015 |         |                                      | 1,485.00                              | 0,00     | USA dollar      |
-| DISC‑10040 | Skonto    | 6/29/2015 |         |                                      | 9.90                                  | 0,00     | USA dollar      |
+| FTI‑10040  | Arve          | 5/15/2020 | 10040   | 1,000.00                             |                                       | 0.00     | USA dollar      |
+| FTI‑10041  | Arve          | 6/25/2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | USA dollar      |
+| FTI‑10042  | Arve          | 6/25/2020 | 10042   | 1,000.00                             |                                       | 505.10   | USA dollar      |
+| ARP‑10040  | Makse          | 6/29/2020 |         |                                      | 1,485.00                              | 0.00     | USA dollar      |
+| DISC‑10040 | Sularahakonto    | 6/29/2020 |         |                                      | 9.90                                  | 0.00     | USA dollar      |
 
 
 

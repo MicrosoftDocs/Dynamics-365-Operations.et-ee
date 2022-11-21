@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643681"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775232"
 ---
 # <a name="customer-aging-snapshots"></a>Kliendi aegumise hetktõmmised 
 
@@ -31,9 +31,10 @@ Aegumise hetktõmmise teave kuvatakse loendilehel **Aegunud saldod** ja lehel **
 **Kliendi krediidi ja sissenõuete** tööruum näitab ka kliendi aegumist. Lisateavet vt [krediidi ja sissenõuete halduse Power BI sisust](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Aegumise hetktõmmise loomiseks **vajaliku** aja vähendamiseks lülitage sisse järgmised funktsioonihalduse tööruumi funktsioonid: **kliendi aegumise**
-> **jõudluse täiustus Kliendi aegumise jõudluse täiustus kliendikaustadega.**  
-> Kui mõlemad funktsioonid on lubatud, **saab aegumise** hetktõmmise loomisel kasutada kliendikaustu. 
+> Aegumise hetktõmmise loomiseks vajaliku aja vähendamiseks lülitage funktsioonihalduse tööruumis **sisse järgmised funktsioonid**: 
+> - **Klientide aegumise jõudlustäiustus** 
+> - **Kliendi aegumise jõudluse täiustus kliendikaustadega**  
+>Kui mõlemad funktsioonid on lubatud, **saab aegumise** hetktõmmise loomisel kasutada kliendikaustu. 
 
 Kliendi aegumise hetktõmmise loomisel kasutage selle kohta teabe sisestamiseks järgmisi välju:
 

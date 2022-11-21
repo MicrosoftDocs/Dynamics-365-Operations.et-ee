@@ -2,7 +2,7 @@
 title: Varude nähtavuse lisandmooduli installimine
 description: See artikkel kirjeldab, kuidas installida Microsofti varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
-ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
+ms.openlocfilehash: c08568b14d7f5c79a1d3609107a88f905498ce2b
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388536"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762777"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja häälestamine
 
@@ -24,7 +24,7 @@ ms.locfileid: "9388536"
 
 See artikkel kirjeldab, kuidas installida Microsofti varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management.
 
-Varude nähtavuse lisandmooduli installimiseks peate kasutama teenust Microsoft Dynamics Lifecycle Services (LCS). LCS on koostööportaal, mis pakub keskkonda ja regulaarselt värskendatud teenuseid, mis aitavad hallata finants- ja tegevusrakenduste elutsüklit. Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+Varude nähtavuse [Microsoft Dynamics lisandmooduli installimiseks](https://lcs.dynamics.com/v2) peate kasutama elutsükli teenuseid. Elutsükli teenused on koostööportaal, mis pakub keskkonda ja regulaarselt värskendatud teenuseid, mis aitavad hallata oma finantside ja toimingute rakenduste rakenduse elutsüklit. Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 > [!TIP]
 > Soovitame teil liituda varude nähtavuse lisandmooduli kasutajagrupiga, kus saate otsida kasulikke juhendeid, saada meie uusimaid uuendusi ja sisestada mis tahes küsimused, mis võivad olla seotud varude nähtavuse kasutamisega. Liitumiseks saatke laos varude nähtavuse tootemeeskonnale e-kiri [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) lisage oma tarneahela halduse keskkonna ID.
@@ -33,7 +33,7 @@ Varude nähtavuse lisandmooduli installimiseks peate kasutama teenust Microsoft 
 
 Enne Varude nähtavuse installimist peate tegema järgmist.
 
-- Hankige LCS-i juurutamise projekt, millel on vähemalt üks juurutatud keskkond.
+- Hankige elutsükli teenuste rakendusprojekt, kus juurutatakse vähemalt üks keskkond.
 - Kontrollige, et lisandmoodulite seadistamise eeltingimused on täidetud. Eeltingimuste kohta lisateabe saamiseks vaadake teema [Lisandmoodulite ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Varude nähtavus ei nõua topeltkirjutuse linkimist.
 
 > [!NOTE]
@@ -46,23 +46,23 @@ Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtav
 Enne lisandmooduli installimist registreerige rakendus ja lisage kliendi saladus kataloogi Azure Active Directory (Azure AD) oma Azure tellimuse alla. Juhised leiate jaotistest [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app) ja [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Tehke kindlasti märge rakenduse **(kliendi) ID**, **·** **kliendi saladuse ja rentnike ID** väärtuste kohta, sest vajate neid hiljem.
 
 > [!IMPORTANT]
-> Kui teil on rohkem kui üks LCS keskkond, looge igaühel Azure AD neist erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Seetõttu kehtib ainult viimane install.
+> Kui teil on rohkem kui üks elutsükli teenuste keskkond, looge Azure AD igaühel neist erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Seetõttu kehtib ainult viimane install.
 
 Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgige neid samme varude nähtavuse lisandmooduli installimiseks.
 
-1. Logige teenusesse [LCS](https://lcs.dynamics.com/Logon/Index) sisse.
+1. Elutsükli teenustesse [sisselogimine](https://lcs.dynamics.com/Logon/Index).
 1. Avalehel valige projekt, kus teie keskkond juurutati.
 1. Projekti lehel valige keskkond, kuhu soovite lisandmooduli installida.
 1. Kerige keskkonna lehel alla, kuni leiate jaotise **Keskkonna lisandmoodulid**, mis asub jaotises **Power Platformi integratsioon**. Siit leiate Dataverse'i keskkonna nime. Veenduge, et Dataverse keskkonna nimi oleks see, mida soovite varude nähtavuse jaoks kasutada.
 
     > [!NOTE]
-    > Praegu toetatakse ainult LCS abil loodud Dataverse'i keskkondi. Kui teie Dataverse keskkond loodi mõnel muul viisil (PowerApps nt halduskeskuse abil) ja kui see on seotud teie tarneahela halduskeskkonnaga, peate vastendamise probleemi enne varude nähtavuse lisandmooduli installimist lahendama.
+    > Praegu toetatakse ainult Dataverse elutsükli teenuste abil loodud keskkondi. Kui teie Dataverse keskkond loodi mõnel muul viisil (PowerApps nt halduskeskuse abil) ja kui see on seotud teie tarneahela halduskeskkonnaga, peate vastendamise probleemi enne varude nähtavuse lisandmooduli installimist lahendama.
     >
-    > Võimalik, et teie topeltkirjutuskeskkond on ühendatud eksemplariga Dataverse, kui LCS ei ole häälestatud integreerimiseks Power Platform. Selline seostatav lahknevus võib põhjustada ootamatut käitumist. Soovitame LCS-i keskkonna üksikasjad ühtima sellega, millega olete topeltkirjutuses ühendatud, et sama ühendust saaks kasutada ärisündmustes, virtuaaltabelites ja lisandmoodulites. Vt [vastendamise probleemi lahendamise](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) kohta lisateavet seostamise lahknevuse kohta. Kui vastendamisprobleem on lahendatud, saate jätkata varude nähtavuse installimist.
+    > Võimalik, et teie topeltkirjutuskeskkond on lingitud eksemplariga Dataverse, kui elutsükli teenused ei ole integreerimiseks häälestatud Power Platform. Selline seostatav lahknevus võib põhjustada ootamatut käitumist. Soovitame elutsükli teenuste keskkonna üksikasjad ühtima sellega, millega olete topeltkirjutuses ühendatud, et sama ühendust saaks kasutada ärisündmustes, virtuaalsetes tabelites ja lisandmoodulites. Vt [vastendamise probleemi lahendamise](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) kohta lisateavet seostamise lahknevuse kohta. Kui vastendamisprobleem on lahendatud, saate jätkata varude nähtavuse installimist.
 
 1. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 
-    ![LCS-i keskkonna leht](media/inventory-visibility-environment.png "LCS-i keskkonna leht")
+    ![Keskkonnaleht elutsükli teenustes](media/inventory-visibility-environment.png "Keskkonnaleht elutsükli teenustes")
 
 1. Valige link **Installi uus lisandmoodul**. Ilmub saadaolevate lisandmoodulite loend.
 1. Valige loendist **Varude nähtavus**.
@@ -78,9 +78,11 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 1. Valige Dataverse vasakpoolsel navigeerimisel jaotis **Rakendused** ja veenduge, et **Varude nähtavus** Power Apps on edukalt installitud. Kui jaotist **Rakendused** pole olemas, võtke ühendust varude nähtavuse tootetiimiga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!NOTE]
-> Kui LCS-lehelt installimiseks kulub rohkem kui tund, puudub teie kasutajakontol tõenäoliselt õigus keskkonnas lahendusi installida Dataverse. Probleemi lahendamiseks järgige neid samme:
+> Kui süsteem hoiatab teid, et teil pole luba varude nähtavuse installimiseks elutsükli teenustes, peate oma loa muutmiseks ühendust võtma administraatoriga.
 >
-> 1. Tühistage varude nähtavuse lisandmooduli installiprotsess LCS-i lehelt.
+> Kui elutsükli teenuste lehelt installimiseks kulub rohkem kui tund, puudub teie kasutajakontol tõenäoliselt õigus keskkonnas lahendusi installida Dataverse. Probleemi lahendamiseks järgige neid samme:
+>
+> 1. Tühistage varude nähtavuse lisandmooduli installiprotsess elutsükli teenuste lehelt.
 > 1. Logige halduskeskusesse [Microsoft 365 sisse](https://admin.microsoft.com)Dynamics 365 Unified Operations ja veenduge, et kasutajakontol, mida soovite kasutada lisandmooduli installimiseks, oleks määratud "Plaan" litsents. Vajadusel määrake litsents.
 > 1. Logige vastava kasutajakonto [Power Platform abil halduskeskusesse](https://admin.powerplatform.microsoft.com) sisse. Seejärel installige lao nähtavuse lisandmoodul järgmiste sammude abil:
 >     1. Valige keskkond, kuhu soovite lisandmooduli installida.
@@ -88,13 +90,13 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 >     1. Valige **installirakendus**.
 >     1. Varude **nähtavuse valimine**
 >
-> 1. Pärast installi lõpule viimist minge tagasi LCS-lehele ja proovige varude **nähtavuse** lisandmoodul uuesti installida.
+> 1. Kui installimine on lõpule viidud, minge tagasi elutsükli teenuste lehele ja proovige varude **nähtavuse** lisandmooduli uuesti installida.
 
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Saate häälestada Inventory Visibility rakenduses Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Juuruta varude nähtavuse integreerimispakett
 
-Kui käitate teenuse Supply Chain Management versiooni 10.0.17 või varasemat, võtke ühendust varude nähtavuse tugimeeskonnaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) paketifaili saamiseks. Seejärel juurutage pakett LCS-i.
+Kui käitate teenuse Supply Chain Management versiooni 10.0.17 või varasemat, võtke ühendust varude nähtavuse tugimeeskonnaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) paketifaili saamiseks. Seejärel juurutage pakett elutsükli teenustes.
 
 > [!NOTE]
 > Kui juurutamisel ilmneb versiooni lahknevuse tõrge, peate käsitsi importima X++ projekti oma arenduskeskkonda. Seejärel looge juurutatav pakett oma arenduskeskkonnas ja juurutage see oma tootmiskeskkonnas.
@@ -135,18 +137,18 @@ Varude nähtavuse lisandmooduli desinstallimiseks järgige neid samme.
 
 1. Logige sisse rakendusse Supply Chain Management.
 1. Minge varude **halduse perioodilise \> varude nähtavuse \> integratsiooni ja** keelake töö.
-1. Minge LCS-i ja avage leht keskkonnas, kus soovite lisandmooduli desinstallida (vt ka [varude nähtavuse lisandmooduli installimine](#install-add-in)).
+1. Minge elutsükli teenustesse ja avage leht keskkonnas, kus soovite lisandmooduli desinstallida ([vt ka varude nähtavuse lisandmooduli installimine](#install-add-in)).
 1. Valige **desinstallimine**.
-1. Desinstallimisprotsess lõpetab nüüd varude nähtavuse lisandmooduli, tühistab lisandmooduli registreerimise LCS-ist ja kustutab kõik ajutised andmed, mis on talletatud varude nähtavuse lisandmooduli andmevahemällu. Kuid esmased varude andmed, mis sünkrooniti teie kordustellimusega Dataverse, on endiselt seal. Andmete kustutamiseks viige ülejäänud protseduur lõpule.
+1. Desinstallimisprotsess lõpetab nüüd varude nähtavuse lisandmooduli, tühistab lisandmooduli registreerimise elutsükli teenustest ja kustutab kõik ajutised andmed, mis on talletatud varude nähtavuse lisandmooduli andmevahemällu. Kuid esmased varude andmed, mis sünkrooniti teie kordustellimusega Dataverse, on endiselt seal. Andmete kustutamiseks viige ülejäänud protseduur lõpule.
 1. Avage [Power Apps](https://make.powerapps.com).
 1. Valige **navigeerimisribal** keskkond.
-1. Valige keskkond Dataverse, mis on seotud teie LCS-keskkonnaga.
+1. Valige keskkond Dataverse, mis on seotud teie elutsükli teenuste keskkonnaga.
 1. Minge lahendustesse **ja** kustutage järgmised lahendused järgmises järjekorras:
     1. Dynamics 365 varude nähtavus – ankur
+    1. Dynamics 365 varude nähtavus – Ima
     1. Dynamics 365 varude nähtavus – rakendus
-    1. Dynamics 365 varude nähtavus – juhtelemendid
-    1. Dynamics 365 varude nähtavus – Outlooki
-    1. Dynamics 365 varude nähtavus – alus
+    1. Dynamics 365 varude nähtavus – kontrollib
+    1. Dynamics 365 varude nähtavus – alus 
 
     Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
 

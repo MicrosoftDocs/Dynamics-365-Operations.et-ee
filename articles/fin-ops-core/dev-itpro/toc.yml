@@ -1652,7 +1652,9 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kasutajate määramine turberollidesse
                   href: sysadmin/tasks/assign-users-security-roles.md
-                - name: Kohandatud turvakonfiguratsiooni importimine või eksportimine andmehalduse abil
+                - name: Active Directory turberühmad
+                  href: sysadmin/active-directory-security-group.md
+                - name: Kohandatud turbekonfiguratsiooni importimine või eksportimine andmehalduse abil
                   href: sysadmin/import-export-customized-security.md
                 - name: Turbediagnostika tegevuse salvestiste jaoks
                   href: sysadmin/tasks/security-diagstics-task-recordings.md

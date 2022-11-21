@@ -2,23 +2,23 @@
 title: Pangateenuste ja akreditiivide sisestusreeglite seadistamine
 description: See protseduur selgitab panga süsteemiteenuse loomist ja akreditiivi töötlemiseks vajalike sisestusreeglite sisestamist.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15a7a4798c4c743c9171fd2258a5573f456c92e5
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7fe5b2ba43c4fcb4855c742bdb6f8209ebd92d68
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726346"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779458"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Pangateenuste ja akreditiivide sisestusreeglite seadistamine
 
@@ -29,47 +29,43 @@ See protseduur selgitab panga süsteemiteenuse loomist ja akreditiivi töötlemi
 Ülesandes kasutatakse demoettevõtte USMF andmeid.
 
 
-
-
-
-
 ## <a name="general-ledger-parameter"></a>Pearaamatu parameeter
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid.
-2. Laiendage jaotist Pangadokument.
-3. Valige suvand Impordi akreditiivi lubamine.
-4. Valige suvand Ekspordi akreditiivi lubamine.
-5. Klõpsake nuppu Salvesta.
+1. Avage sularaha **ja panga > > parameetrite seadistus**.
+2. Laiendage jaotist **Pank**.
+3. Valige suvand **Luba impordi akreditiivi** suvand.
+4. Valige suvand **Luba ekspordi akreditiivi** suvand.
+5. Klõpsake nuppu **Salvesta**.
 6. Sulgege leht.
 
 ## <a name="create-bank-facility"></a>Panga süsteemiteenuse loomine
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Panga süsteemiteenused.
-2. Klõpsake valikut Uus.
-3. Sisestage väljale Süsteemiteenuste tüüp panga süsteemiteenuste grupi nimi.
-4. Sisestage väljale Kirjeldus panga süsteemiteenuste grupi kirjeldus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake vahekaarti Süsteemiteenuste tüübid.
-7. Klõpsake valikut Uus.
-8. Sisestage ainuidentifikaator väljale Süsteemiteenuse tüüp.
-9. Sisestage väljale Kirjeldus soovitud väärtus.
-10. Klõpsake väljal Süsteemiteenuste grupp otsingu avamiseks ripploendi nuppu.
+1. Avage sularaha **- ja pangahalduse > installiprogrammi > panga vahendid**.
+2. Klõpsake valikut **Uus**.
+3. Väljale Süsteemiteenuse **grupp** sisestage panga süsteemiteenuse grupi nimi.
+4. Sisestage **väljale** Kirjeldus panga süsteemiteenuse grupi kirjeldus.
+5. Klõpsake nuppu **Salvesta**.
+6. Klõpsake vahekaardil Süsteemiteenuse **tüübid**.
+7. Klõpsake valikut **Uus**.
+8. Sisestage **väljale** Süsteemiteenuse tüüp kordumatu kood.
+9. Sisestage väärtus väljale **Kirjeldus**.
+10. **Otsingu avamiseks** klõpsake väljal Süsteemiteenuse grupp ripploendit.
 11. Otsige loendist ja valige soovitud kirje.
 12. Klõpsake loendis valitud real olevat linki.
-13. Valige väljal Süsteemiteenuste olemus panga süsteemiteenuste olemus.
-14. Klõpsake nuppu Salvesta.
+13. **Väljal Süsteemiteenuse** olemus valige panga süsteemiteenuse olemus.
+14. Klõpsake nuppu **Salvesta**.
 15. Sulgege leht.
 
 ## <a name="bank-posting-profile"></a>Panga sisestusreegel
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Pangadokumentide sisestusreegel.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Konto/grupi nimi otsingu avamiseks ripploendi nuppu.
+1. Avage sularaha **- ja pangahalduse > seadistus > pangadokumentide sisestusreeglid**.
+2. Klõpsake valikut **Uus**.
+3. **Otsingu avamiseks** klõpsake väljal Konto/grupi number ripploendit.
 4. Otsige loendist ja valige soovitud kirje.
 5. Klõpsake loendis valitud real olevat linki.
 6. Valige tasakaalustuse põhikonto.
     * Seda kontot kasutatakse likviidsuse planeerimise arvutamisel.  
-7. Valige väljal Tasude konto kulukannete konto.
-8. Valige väljal Kasumikonto marginaalkannete konto.
+7. **Valige kulukannete** konto väljal Kulude konto.
+8. **Valige marginaalikannete** konto väljal Marginaali konto.
     * Seda kontot debiteeritakse, kui avamarginaal sisestatakse ja krediteeritakse makse sisestamisel.  
-9. Klõpsake nuppu Salvesta.
+9. Klõpsake nuppu **Salvesta**.
 
 
 

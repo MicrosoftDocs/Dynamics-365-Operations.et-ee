@@ -2,7 +2,7 @@
 title: Inventory Visibility konfigureerimine
 description: See artikkel kirjeldab varude nähtavuse konfigureerimist.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542268"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764865"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigureerimine
 
 [!include [banner](../includes/banner.md)]
-
 
 See artikkel kirjeldab, kuidas konfigureerida varude nähtavust varude nähtavuse rakenduse abil moodulis Power Apps.
 
@@ -53,18 +52,23 @@ Inventory Visibility lisandmoodul lisab teie installile mitu uut Power Apps funk
 |---|---|
 | *OnHandReservation* | See funktsioon võimaldab varude nähtavust kasutades luua reserveeringuid, tarbida reserveeringuid ja/või reserveerimata laokoguseid. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | See funktsioon annab tootevarude kokkuvõtte koos kõigi dimensioonidega. Lao koondandmed sünkroonitakse perioodiliselt laovarude nähtavuse väljalt. Sünkroonimise vaikesagedus on kord iga 15 minuti järel ja seda saab seadistada nii kõrgeks kui üks kord iga 5 minuti järel. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Selle funktsiooniga saab eellaadida varude nähtavuse vaba kaubavaru päringuid eelnevalt valitud dimensioonidega vaba kaubavaru loendite kogumi jaoks. Sünkroonimise vaikesagedus on kord iga 15 minuti järel. Lisateavet vt laovarude [kokkuvõttest](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
+| *onHandIndexQueryPreloadBackgroundService* | Selle funktsiooniga saab eellaadida varude nähtavuse vaba kaubavaru päringuid eelnevalt valitud dimensioonidega vaba kaubavaru loendite kogumi jaoks. Sünkroonimise vaikesagedus on kord iga 15 minuti järel. Lisateavet vt teemast Sujuva [kaubavaru päringu eellaadimine](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *Sõlm OnhandChangeSchedule* | See valikuline funktsioon võimaldab vaba kaubavaru muutmise graafikut ja on saadaval lubamiseks (ATP) funktsioone. Lisateavet vt varude nähtavuse vaba [kaubavaru muutmise graafikust ja lubaduse andmiseks saadaval](inventory-visibility-available-to-promise.md). |
-| *Eraldamine* | See valikuline funktsioon võimaldab varude nähtavust, omab võimalust laovarude kaitsmiseks (ringlemine) ja alistab kontrolli. Lisateavet vt varude nähtavuse [varude eraldamisest](inventory-visibility-allocation.md). |
+| *Eraldamine* | See valikuline funktsioon võimaldab varude nähtavust, omab võimalust laovarude kaitsmiseks (ringlimise kasutamine) ja alistab kontrolli. Lisateavet vt varude nähtavuse [varude eraldamisest](inventory-visibility-allocation.md). |
 | *Laokauba lubamine varude nähtavuses* | See valikuline funktsioon võimaldab varude nähtavust, et toetada kaupu, mis on lubatud laohaldusprotsessidele (WMS). Lisateavet vt WMS-kaupade [varude nähtavuse tugi](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Teenuse lõpp-punkti leidmine
 
-Kui te ei tea õiget Varude nähtavuse teenuse lõpp-punkti, avage Power Appsi leht **Konfiguratsioon** ja seejärel valige paremast ülanurgast **Kuva teenuse lõpp-punkti**. Lehel kuvatakse õige teenuse lõpp-punkt.
+Kui te ei tea õiget varude nähtavuse teenuse lõpp-punkti, **·** Power Apps **avage konfiguratsiooni lehekülg ja valige siis ülemises parempoolses nurgas suvand Näita** teenuse üksikasju. Lehel kuvatakse õige teenuse lõpp-punkt. Lõpp-punkti võite leida ka elutsükli Microsoft Dynamics teenustes, nagu on kirjeldatud lõpp-punkti [otsimisel vastavalt elutsükli teenuste keskkonnale](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> Vale lõpp-punkti kasutamine võib põhjustada nurjunud varude nähtavuse installimise ja tõrked, kui tarneahela haldus on sünkroonitud varude nähtavusega. Kui te ei ole kindel, mis on teie lõpp-punkt, võtke ühendust oma süsteemiadministraatoriga. Lõpp-punkti URL-id kasutavad järgmist vormingut:
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Andmeallika konfiguratsioon
 
-Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited on `fno` (st Dynamics 365 finantside ja toimingute rakendused) `pos` ja (st müügikohad). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
+Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate nimede näited `fno` on (mis vastavad tarneahela haldamisele) `pos` ja (st. müügikohad). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
 > Andmeallikas `fno` on reserveeritud tarneahela haldamiseks. Kui varude nähtavuse lisandmoodul on integreeritud tarneahela halduskeskkonnaga, on soovitatav mitte kustutada andmeallikaga `fno` seotud konfiguratsioone.
@@ -73,7 +77,7 @@ Andmeallika lisamiseks toimige järgmiselt.
 
 1. Logige keskkonda Power Apps sisse ja avage **Varude nähtavus**.
 1. Avage lehekülg **Konfiguratsioon**.
-1. Andmeallika lisamiseks tehke vahekaardil **Andmeallikas** valik **Uus andmeallikas**.
+1. Valige andmeallika **lisamiseks andmeallikas** **vahekaardil Andmeallikas** (nt mõni muu otstarbekas `ecommerce` andmeallika ID).
 
 > [!NOTE]
 > Andmeallika lisamisel kontrollige kindlasti enne varude nähtavuse teenuse konfiguratsiooni värskendamist oma andmeallika nime, füüsilisi mõõtmeid ja dimensioonivastendusi. Pärast suvandi **Konfiguratsiooni värskendamine** valimist ei saa te neid sätteid muuta.
@@ -88,11 +92,11 @@ Andmeallika konfiguratsioon hõlmab järgmisi osi.
 
 Dimensioonide konfigureerimise eesmärk on ühtlustada mitme süsteemi integreerimist sündmuste ja päringute sisestamise jaoks vastavalt dimensioonide kombinatsioonidele. Varude nähtavus annab põhidimensioonide loendi, mida saab vastendada teie andmeallika dimensioonidest. Vastendamiseks on saadaval kolmkümmend kolm dimensiooni.
 
-- Kui kasutate ühe andmeallikana rakendust Supply Chain Management, vastendatakse 13 dimensiooni Supply Chain Managementi standarddimensioonidega. Kaksteist muud dimensiooni (`inventDimension1` kuni `inventDimension12`) vastendatakse rakenduse Supply Chain Management kohandatud dimensioonidega. Ülejäänud kaheksa dimensiooni on laiendatud dimensioonid, mida saate vastendada väliste andmeallikatega.
+- Kui kasutate tarneahela haldust ühe andmeallikana, on 13 dimensiooni juba tarneahela halduse standarddimensioonidega vastendatud. Muud 12 dimensiooni (`inventDimension1` kuni `inventDimension12`) on vastendatud ka tarneahela halduses kohandatud dimensioonidega. Ülejäänud kaheksa dimensiooni (`ExtendedDimension1` kuni `ExtendedDimension8`) on laiendatud dimensioonid, mida saate vastendada välistele andmeallikatele.
 - Kui te ei kasuta ühe andmeallikana Supply Chain Managementi, võite dimensioonid vabalt vastendada. Järgmine tabel näitab saadaolevate dimensioonide täielikku loendit.
 
 > [!NOTE]
-> Kui dimensioon ei ole vaikedimensioonide loendis ja te kasutate välist andmeallikat, soovitame vastendamiseks kasutada dimensioone `ExtendedDimension1` kuni `ExtendedDimension8`.
+> Kui kasutate tarneahela haldust ja muudate vaikedimensioonide vastendamist hankeahela halduse ja varude nähtavuse vahel, ei sünkrooni muudetud dimensioon andmeid. Seega, kui teie dimensioon ei ole dimensiooni vaikeloendis ja te kasutate välist andmeallikat, `ExtendedDimension1``ExtendedDimension8` on soovitatav kasutada seda vastendamiseks.
 
 | Dimensiooni tüüp | Põhidimensioon |
 |---|---|
@@ -114,11 +118,11 @@ Dimensioonide konfigureerimise eesmärk on ühtlustada mitme süsteemi integreer
 | System | `Empty` |
 
 > [!NOTE]
-> Eelmises tabelis loetletud dimensiooni tüübid on ainult viiteks. Te ei pea neid Varude nähtavuses määratlema.
+> Eelmises tabelis loetletud dimensioonitüübid on ainult teie viiteks. Te ei pea neid Varude nähtavuses määratlema.
 >
-> Varude (kohandatud) dimensioone saab reserveerida rakenduse Supply Chain Management jaoks. Sel juhul saate kasutada laiendatud dimensioone.
+> Varude (kohandatud) dimensioone saab reserveerida tarneahela halduse jaoks. Sel juhul kasutage laiendatud dimensioone.
 
-Välistel süsteemidel on juurdepääs Varude nähtavusele läbi selle RESTful API-de. Integreerimiseks võimaldab Varude nähtavus konfigureerida _välise andmeallika_ ja vastenduse _väliselt dimensioonilt_ _põhidimensioonile_. Siin on näide dimensioonide vastendamise tabelist.
+Välistel süsteemidel on juurdepääs Varude nähtavusele läbi selle RESTful API-de. Integreerimiseks võimaldab Varude nähtavus konfigureerida *välise andmeallika* ja vastenduse *väliselt dimensioonilt* *põhidimensioonile*. Siin on näide dimensioonide vastendamise tabelist.
 
 | Väline dimensioon | Põhidimensioon |
 |---|---|
@@ -134,20 +138,21 @@ Dimensioonide vastenduste lisamiseks järgige neid juhiseid.
 
 1. Logige keskkonda Power Apps sisse ja avage **Varude nähtavus**.
 1. Avage lehekülg **Konfiguratsioon**.
-1. Dimensioonide vastenduste lisamiseks valige vahekaardilt **Andmeallikas** jaotisest **Dimensioonide vastendused** suvand **Lisa**.
+1. **Valige vahekaardil Andmeallikas** andmeallikas, kus soovite dimensioonide vastendamist teha. Seejärel valige jaotises Dimensiooni **vastendamised** suvand **Lisa**, et lisada dimensioonivastendusi.
+
     ![Dimensioonivastenduste lisamine](media/inventory-visibility-dimension-mapping.png "Dimensioonivastenduste lisamine")
 
 1. Määrake väljal **Dimensiooni nimi** lähtedimensioon.
 1. Valige väljal **Põhidimensioonile** see rakenduse Varude nähtavus dimensioon, mida soovite vastendada.
 1. Valige käsk **Salvesta**.
 
-Näiteks kui andmeallikas sisaldab toote värvidimensiooni, saate selle vastendada põhidimensiooniga `ColorId`, et lisada kohandatud dimensioon `ProductColor` andmeallikasse `exterchannel`. Seejärel vastendatakse see põhidimensiooniga `ColorId`.
+Näiteks olete juba loonud andmeallika nimega ja see `ecommerce` sisaldab toote värvi dimensiooni. Sel juhul saate vastendamise jaoks kõigepealt `ProductColor`**·**`ecommerce` lisada andmeallika väljale Dimensiooni nimi ja `ColorId`**seejärel valida väljal Baasdimensiooni.**
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Füüsilised mõõtmed
 
-Kui andmeallikas sisestab rakendusse Varude nähtavus varude muudatuse, sisestab see muudatuse, kasutades *füüsilisi mõõtmeid*. Füüsilised mõõtmed muudavad kogust ja kajastavad varude olekut. Vastavalt vajadustele saate määratleda omaenda füüsilised mõõtmed. Päringud võivad põhineda füüsilistel mõõtudel.
+Kui andmeallikas sisestab rakendusse Varude nähtavus varude muudatuse, sisestab see muudatuse, kasutades *füüsilisi mõõtmeid*. Füüsilised mõõtmed muudavad kogust ja kajastavad varude olekut. Vastavalt vajadustele saate määratleda enda füüsilisi nõudeid. Päringud võivad põhineda füüsilistel mõõtudel.
 
-Varude nähtavus annab vaikimise füüsiliste mõõtude loendi, mis on seotud rakendusega Supply Chain Management (`fno` andmeallikaga). Need füüsilised mõõtmed võetakse laokannete olekutest rakenduse Supply Chain Management lehelt **Vaba kaubavaru loend** (**Varude haldus \> Päringud ja aruanded \> Vaba kaubavaru loend**). Järgmine tabel esitab füüsiliste mõõtmete näite.
+Varude nähtavus annab vaikimisi füüsiliste ühikute loendi, mis on vastendatud tarneahela haldusega (`fno` andmeallikas). Need füüsilised mõõtmed võetakse laokannete olekutest rakenduse Supply Chain Management lehelt **Vaba kaubavaru loend** (**Varude haldus \> Päringud ja aruanded \> Vaba kaubavaru loend**). Järgmine tabel esitab füüsiliste mõõtmete näite.
 
 | Füüsilise mõõtme nimi | Kirjeldus |
 |---|---|
@@ -168,11 +173,11 @@ Varude nähtavus annab vaikimise füüsiliste mõõtude loendi, mis on seotud ra
 | `ReservOrdered` | Tellitud reserveeritud |
 | `ReservPhysical` | Füüsiliselt reserveeritud |
 
-Kui andmeallikaks on rakendus Supply Chain Management, ei pea te füüsilisi vaikemõõtmeid uuesti looma. Siiski saate neid etappe järgides luua väliste andmeallikate jaoks uusi füüsilisi mõõtmeid.
+Kui teie andmeallikaks on tarneahela haldus, ei pea te füüsilisi vaikeandmeid uuesti looma. Siiski saate neid etappe järgides luua väliste andmeallikate jaoks uusi füüsilisi mõõtmeid.
 
 1. Logige keskkonda Power Apps sisse ja avage **Varude nähtavus**.
 1. Avage lehekülg **Konfiguratsioon**.
-1. Valige vahekaardil **Andmeallikas** jaotises **Füüsilised mõõtmed** suvand **Lisa**, määratlege lähtemõõtme nimi ja salvestage muudatused.
+1. **Valige vahekaardil Andmeallikas** andmeallikas, et lisada füüsilised meetmed (nt `ecommerce` andmeallikale). Seejärel valige jaotises **Füüsilised** mõõtmised **suvand Lisa** ja määrake mõõtu nimi (nt kui `Returned` soovite tagastatud kogused selles andmeallikas varude nähtavusse salvestada). Salvestage muudatused.
 
 ### <a name="calculated-measures"></a>Arvutatud mõõtmed
 
@@ -181,7 +186,7 @@ Varude nähtavust saate kasutada nii varude füüsiliste mõõtmete kui *kohanda
 > [!IMPORTANT]
 > Arvutatud mõõt on füüsiliste mõõtide koostis. Selle valem võib sisaldada ainult füüsilisi arvutusi ilma duplikaatideta, arvutamata arvutab arvutab.
 
-Konfiguratsioon võimaldab teil määratleda muutujate komplekti, mis lisatakse või lahutatakse koondväljundi koguse saamiseks.
+Konfiguratsioon võimaldab teil määratleda arvutatud mõõtu valemite komplekti, mis sisaldab liitmise või lahutamise modifikaatoriid, et saada kogu liidetud väljundkogus.
 
 Kohandatud arvutatud mõõtme seadistamiseks toimige järgmiselt.
 
@@ -191,7 +196,7 @@ Kohandatud arvutatud mõõtme seadistamiseks toimige järgmiselt.
 1. Seadke uuele arvutatud mõõtudele järgmised väljad:
 
     - **Uus arvutatud mõõtunimi** – sisestage arvutatud mõõtu nimi.
-    - **Andmeallikas** : valige uue muutujaga seostatud andmeallikas. Päringusüsteem on andmeallikas.
+    - **Andmeallikas** : valige andmeallikas, et kaasata uus arvutatud mõõt. Päringusüsteem on andmeallikas.
 
 1. Valige **lisa**, et lisada uuele arvutatud mõõtu muutja.
 1. Seadke uuele muutujale järgmised väljad:
@@ -200,15 +205,21 @@ Kohandatud arvutatud mõõtme seadistamiseks toimige järgmiselt.
     - **Andmeallikas** : valige andmeallikas, kust tuleks leida muutuja väärtusega mõõt.
     - **Mõõt**: valige mõõtu nimi (valitud andmeallikast), mis annab muutujale väärtuse.
 
-1. Korrake juhiseid 5–6, kuni olete kõik vajalikud modifikaatorid lisanud.
+1. Korrake juhiseid 5–6, kuni olete kõik vajalikud modifikaatorid lisanud ja arvutatud mõõtu valemi lõpule viinud.
 1. Valige käsk **Salvesta**.
 
-Näiteks on teil järgmised päringutulemused.
+Näiteks kasutab moeettevõtet kolme andmeallikat:
+
+- `pos`: vastab kaupluse kanalile.
+- `fno`– vastab tarneahela haldamisele.
+- `ecommerce`: vastab teie veebikanalile.
+
+Arvutatud mõõtudeta, kui te küsite toote D0002 (Kabinet) kohta saidil 1, `ColorID``Red` laos 11 ja dimensiooni väärtuses, võite saada järgmise päringu tulemuse, mis näitab varude koguseid iga eelkonfigureeritud füüsilise mõõdu all. Kuid te ei näe oma andmeallikates kõigi reserveerimiskoguste jaoks saadaolevat nähtavust.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Näiteks on teil järgmised päringutulemused.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Seejärel konfigureerite arvutatud mõõtme nimega `MyCustomAvailableforReservat
 
 | Tarbimise süsteem | Arvutatud mõõde | Andmeallikas | Füüsiline mõõde | Kalkulatsiooni tüüp |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu ei *pea 
 
 Enamasti ei ole vaba kaubavaru päring üksnes kõrgeimal "kogusumma" tasemel. Selle asemel võite soovida näha tulemusi, mis on laodimensioonide alusel koondatud.
 
-Varude nähtavus pakub paindlikkust, lubades teil seadistada _indekseid_ päringute jõudluse parandamiseks. Need indeksid põhinevad dimensioonil või dimensioonide kombinatsioonil. Indeks koosneb *määratud numbrist*, *dimensioonist* ja *hierarhiast*, nii nagu määratletud järgmises tabelis.
+Varude nähtavus pakub paindlikkust, lubades teil seadistada *indekseid* päringute jõudluse parandamiseks. Need indeksid põhinevad dimensioonil või dimensioonide kombinatsioonil. Indeks koosneb *määratud numbrist*, *dimensioonist* ja *hierarhiast*, nii nagu määratletud järgmises tabelis.
 
 | Nimi | Kirjeldus |
 |---|---|
@@ -336,13 +347,13 @@ Järgmises tabelis on toodud selle näite kohta saadaolevate varude loend.
 
 | Kaup | ColorId | SizeId | StyleId | Kogus |
 |---|---|---|---|---|
-| T-särk | Must | Väike | Lai | 1 |
-| T-särk | Must | Väike | Tavaline | 2 |
-| T-särk | Must | Suur | Lai | 3 |
-| T-särk | Must | Suur | Tavaline | 4 |
-| T-särk | Punane | Väike | Lai | 5 |
-| T-särk | Punane | Väike | Tavaline | 6 |
-| T-särk | Punane | Suur | Tavaline | 7 |
+| D0002 (uuendatud) | Must | Väike | Lai | 1 |
+| D0002 (uuendatud) | Must | Väike | Tavaline | 2 |
+| D0002 (uuendatud) | Must | Suur | Lai | 3 |
+| D0002 (uuendatud) | Must | Suur | Tavaline | 4 |
+| D0002 (uuendatud) | Punane | Väike | Lai | 5 |
+| D0002 (uuendatud) | Punane | Väike | Tavaline | 6 |
+| D0002 (uuendatud) | Punane | Suur | Tavaline | 7 |
 
 Järgmine tabel näitab, kuidas indeksi hierarhiat seadistatakse.
 
@@ -356,29 +367,29 @@ Indeks võimaldab teil teha vaba kaubavaru kohta päringuid järgmistel viisidel
 
 - `()`– Grupeeritud kõige alusel
 
-    - T-särk, 28
+    - D0002, 28
 
 - `(ColorId)` – Grupeeritud `ColorId` alusel
 
-    - T-särk, must, 10
-    - T-särk, punane, 18
+    - D0002, Must, 10
+    - D0002, Punane, 18
 
 - `(ColorId, SizeId)` – Grupeeritud kombinatsiooni `ColorId` ja `SizeId` alusel
 
-    - T-särk, must, väike, 3
-    - T-särk, must, suur, 7
-    - T-särk, punane, väike, 11
-    - T-särk, punane, suur, 7
+    - D0002, must, väike, 3
+    - D0002, Must, Suur, 7
+    - D0002, Punane, Väike, 11
+    - D0002, Punane, Suur, 7
 
 - `(ColorId, SizeId, StyleId)` – Grupeeritud kombinatsiooni `ColorId`, `SizeId`, ja `StyleId` alusel
 
-    - T-särk, must, väike, lai, 1
-    - T-särk, must, väike, tavaline, 2
-    - T-särk, must, suur, lai, 3
-    - T-särk, must, suur, tavaline, 4
-    - T-särk, punane, väike, lai, 5
-    - T-särk, punane, väike, tavaline, 6
-    - T-särk, punane, suur, tavaline, 7
+    - D0002, must, väike, wide, 1
+    - D0002, must, väike, Regulaarne, 2
+    - D0002, Must, Suur, Wide, 3
+    - D0002, Must, Suur, Regulaarne, 4
+    - D0002, Punane, Väike, Lai, 5
+    - D0002, Punane, Väike, Regulaarne, 6
+    - D0002, punane, suur, regulaarne, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Reserveeringu konfiguratsioon (valikuline)
 
@@ -397,35 +408,35 @@ Enne vastendamise seadistamist peavad konfiguratsioonilehe andmeallika ja arvuta
 
 Esialgse reserveerimise vastendamise määratlemiseks toimige järgmiselt.
 
-1. Määratlege füüsiline mõõt, mis toimib esialgse reserveeringu mõõduna (nt `SoftReservOrdered`).
-1. Määrake lehe **Konfiguratsioon** vahekaardil **Arvutatud mõõde** *reserveerimiseks saadaolev* (AFR) arvutatud mõõde, mis sisaldab selle ARF-i arvutamise valemit, mida soovite füüsilise mõõtmega vastendada. Näiteks võite seadistada väärtuse `AvailableToReserve` (reserveerimiseks saadaval) nii, et see vastendatakse varem määratletud füüsilise mõõtmega `SoftReservOrdered`. Sel viisil saate leida, millised kogused, mille varude olek on `SoftReservOrdered`, on reserveerimiseks saadaval. Järgmine tabel näitab AFR-i arvutamise valemit.
+1. Määratlege füüsiline mõõt, mis toimib esialgse reserveeringu mõõduna (nt `SoftReservPhysical`).
+1. Määrake lehe **Konfiguratsioon** vahekaardil **Arvutatud mõõde** *reserveerimiseks saadaolev* (AFR) arvutatud mõõde, mis sisaldab selle ARF-i arvutamise valemit, mida soovite füüsilise mõõtmega vastendada. Näiteks võite seadistada väärtuse `AvailableToReserve` (reserveerimiseks saadaval) nii, et see vastendatakse varem määratletud füüsilise mõõtmega `SoftReservPhysical`. Sel viisil saate leida, millised kogused, mille varude olek on `SoftReservPhysical`, on reserveerimiseks saadaval. Järgmine tabel näitab AFR-i arvutamise valemit.
 
     | Kalkulatsiooni tüüp | Andmeallikas | Füüsiline mõõde |
     |---|---|---|
     | Lisa | `fno` | `AvailPhysical` |
     | Lisa | `pos` | `Inbound` |
     | Lahutamine | `pos` | `Outbound` |
-    | Lahutamine | `iv` | `SoftReservOrdered` |
+    | Lahutamine | `iv` | `SoftReservPhysical` |
 
-    Soovitame teil seadistada arvutatud mõõt nii, et see sisaldaks füüsilist mõõtu, mis reserveerimismõõt põhineb. Nii mõjutab broneeritud mõõdu kogus arvutatud mõõdu kogust. Seetõttu peaks andmeallika arvutatud `AvailableToReserve` mõõt sisaldama `iv` komponendina `SoftReservOrdered` sisaldama füüsilist `iv` mõõtu.
+    Soovitame teil seadistada arvutatud mõõt nii, et see sisaldaks füüsilist mõõtu, mis reserveerimismõõt põhineb. Nii mõjutab broneeritud mõõdu kogus arvutatud mõõdu kogust. Seetõttu peaks andmeallika arvutatud `AvailableToReserve` mõõt sisaldama `iv` komponendina `SoftReservPhysical` sisaldama füüsilist `iv` mõõtu.
 
 1. Avage lehekülg **Konfiguratsioon**.
-1. Seadistage vahekaardil **Esialgse reserveeringu vastendamine** vastendamine füüsiliselt mõõtmelt arvutatud mõõtmele. Eelmise näite korral võite kasutada järgmisi sätteid, et vastendada `AvailableToReserve` varem määratletud füüsilise mõõduga `SoftReservOrdered`.
+1. Seadistage vahekaardil **Esialgse reserveeringu vastendamine** vastendamine füüsiliselt mõõtmelt arvutatud mõõtmele. Eelmise näite korral võite kasutada järgmisi sätteid, et vastendada `AvailableToReserve` varem määratletud füüsilise mõõduga `SoftReservPhysical`.
 
     | Füüsilise mõõtme andmeallikas | Füüsiline mõõde | Reserveerimiseks saadaolev andmeallikas | Reserveerimiseks saadaolev arvutatud mõõde |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Enne kui saate vahekaarti **Esialgse reserveeringu vastendamine** redigeerida, peate lülitama sisse funktsiooni *OnHandReservation* vahekaardil **Funktsioonihaldus**.
 
-Kui nüüd teete `SoftReservOrdered` reserveeringu, leiab Varude nähtavus automaatselt `AvailableToReserve` ja sellega seotud arvutusvalemi reserveeringu valideerimiseks.
+Kui nüüd teete `SoftReservPhysical` reserveeringu, leiab Varude nähtavus automaatselt `AvailableToReserve` ja sellega seotud arvutusvalemi reserveeringu valideerimiseks.
 
 Näiteks on teil Varude nähtavuses järgmine vaba kaubavaru.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Näiteks on teil Varude nähtavuses järgmine vaba kaubavaru.
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Näiteks on teil Varude nähtavuses järgmine vaba kaubavaru.
 
 Sellisel juhul kehtib järgmine arvutus.
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound`– –<a1/&a `pos.outbound``iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Seetõttu, kui püüate teha `iv.SoftReservOrdered` reserveeringuid ja kogus on väiksem või võrdne kui `AvailableToReserve` (10) saate reserveeringu teha.
+Seega, kui püüate teha reserveeringuid ja `iv.SoftReservPhysical` kogus on `AvailableToReserve` väiksem kui (10) või sellega võrdne, siis on soft reserveerimistaotlus edukas.
 
 > [!NOTE]
-> Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
+> Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus tähendab `True`, et kontrollimine on nõutud, samas kui väärtus tähendab, `False` et kinnitamist ei nõuta (`AvailableToReserve` ehkki võite moodustada negatiivse koguse, võimaldab süsteem teil siiski teha reserveerimise kergeks). Vaikeväärtus on `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Esialgse reserveeringu hierarhia
 
@@ -488,18 +499,21 @@ Saate seadistada varude nähtavuse, et lubada teil planeerida tulevasi vaba kaub
 
 ## <a name="complete-and-update-the-configuration"></a>Lõpetage ja värskendage konfiguratsioon
 
-Kui olete konfiguratsiooni lõpule viinud, peate kõik Varude nähtavuse muudatused kinnitama. Muudatuste kinnitamiseks valige **Konfiguratsiooni värskendamine** Power Appsi lehe **Konfiguratsioon** paremast ülanurgast.
+Kui olete konfiguratsiooni lõpule viinud, peate kõik Varude nähtavuse muudatused kinnitama. Muudatustele muudatuste sooritamiseks järgige neid samme.
 
-Esimene kord, kui valite **Konfiguratsiooni värskendamine**, küsib süsteem teie mandaati.
+1. Valige Power Apps konfiguratsioonilehel **ülemises** parempoolses **nurgas** suvand Värskenda konfiguratsiooni. 
+1. Süsteem taotleb sisselogimismandaatideks. Sisestage järgmised väärtused:
 
-- **Kliendi ID** – Azure'i rakenduse ID, mille lõite Varude nähtavuse jaoks.
-- **Rentniku ID** – Teie Azure'i rentniku ID.
-- **Kliendi saladus** – Azure'i rakenduse saladus, mille lõite Varude nähtavuse jaoks.
+    - **Kliendi ID** – Azure'i rakenduse ID, mille lõite Varude nähtavuse jaoks.
+    - **Rentniku ID** – Teie Azure'i rentniku ID.
+    - **Kliendi saladus** – Azure'i rakenduse saladus, mille lõite Varude nähtavuse jaoks.
 
-Pärast sisselogimist uuendatakse Varude nähtavuse teenuse konfiguratsioon.
+    Lisateavet nende mandaatide ja nende otsimise kohta vt Installi [ja seadista varude nähtavus](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Kontrollige kindlasti enne varude nähtavuse teenuse konfiguratsiooni värskendamist oma andmeallika nime, füüsilisi mõõtmeid ja dimensioonivastendusi. Pärast suvandi **Konfiguratsiooni värskendamine** valimist ei saa te neid sätteid muuta.
+    > [!IMPORTANT]
+    > Enne konfiguratsiooni värskendamist kontrollige kindlasti oma andmeallika nime, füüsilisi mõõte ja dimensioonivastendusi. Pärast värskendamist ei saa te neid sätteid muuta.
+
+1. Pärast sisselogimist valige uuesti suvand **Värskenda konfiguratsiooni**. Süsteem rakendab teie sätted ja näitab, mida on muudetud.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Vaikekonfiguratsiooni näidis
 
@@ -694,13 +708,19 @@ Järgmises tabelis loetletud dimensioonivastendused on konfigureeritud `fno` and
 
 Andmeallika `fno` jaoks konfigureeritakse järgmised füüsilised mõõtmed.
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>Andmeallika "pos" konfiguratsioon
 
@@ -766,7 +786,7 @@ Järgmine tabel näitab reserveeringu vaikevastendust.
 
 | Füüsilise mõõtme andmeallikas | Füüsiline mõõde | Reserveerimiseks saadaolev andmeallikas | Reserveerimiseks saadaolev arvutatud mõõde |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Reserveerimishierarhia
 
@@ -778,35 +798,5 @@ Järgmine tabel näitab reserveeringu vaikehierarhiat.
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

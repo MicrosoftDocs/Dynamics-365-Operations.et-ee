@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713667"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775295"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Kliendi jaoks mahakandmise töölehe loomine
 
@@ -48,9 +48,9 @@ See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja se
 7. Avage **Navigeerimispaan > Moodulid > Pearaamat > Töölehe kanded > Päevaraamatud**.
 8. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist. Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
 9. Sulgege leht.
-10. Sulgege leht.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Kannete mahakandmine sissenõuete vormilt.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Kannete mahakandmine sissenõuete lehelt
 1. Avage **Krediit ja sissenõudmised > Sissenõudmised > Aegunud kliendisaldod**.
 2. Valige kliendi nimi, kelle kandeid soovite maha kanda. Näiteks valige Cave Wholesales (US-004).
 3. Märkige esimese kande rida.
@@ -63,7 +63,7 @@ See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja se
 10. Avage **Pearaamat > Töölehe kanded > Päevaraamatud**.
 11. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist. Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
 12. Sulgege leht.
-13. Sulgege leht.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Arve mahakandmine lehelt Klientide arvete avamine
 1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Arved > Avatud kliendiarved**.

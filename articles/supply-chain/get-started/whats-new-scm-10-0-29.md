@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 8f6ba18096cffe907c339ad525c99535bc5ee568
+ms.sourcegitcommit: 7745c4bd3ab3aace4b4cb814eaf0cfdbae4a0cbd
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714829"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9784687"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.29 uut või mida on muudetud (oktoober 2022)
 
@@ -33,7 +33,7 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Varud ja logistika | [WMS-kaupade eraldamine ja reserveerimine varude nähtavuses](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Peagi tulekul | Vaikimisi lubatud |
+| Varud ja logistika | [WMS-kaupade eraldamine ja reserveerimine varude nähtavuses](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | [Inventory Visibility WMS-i kaupade tugi](../inventory/inventory-visibility-whs-support.md) | Vaikimisi lubatud |
 | Varud ja logistika | [Sujuvamaks laoseisu loendite eellaadimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility rakenduse kasutamine](../inventory/inventory-visibility-power-platform.md) | Lubatud teenuse konfiguratsiooni järgi |
 | Tellimuspõhise tarne automatiseerimine | [Tellimuspõhise tarne automatiseerimine](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tellimuspõhise tarne automatiseerimine](../master-planning/make-to-order-supply-automation.md) | Funktsioonihaldus:<br>*Tellimuspõhise tarne automatiseerimine* |
 | Planeerimine | [Vaadake ja rakendage üksikasjalikke vihjeid DDMRP-le.](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Nõudlusepõhiste materjalinõuete planeerimise ülevaade](../master-planning/planning-optimization/ddmrp-overview.md) | Funktsioonihaldus:<br>*(Eelversioon) Planeerimise optimeerimise DDMRP* |

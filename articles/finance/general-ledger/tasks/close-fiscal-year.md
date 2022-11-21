@@ -2,7 +2,7 @@
 title: Finantsaasta sulgemine
 description: See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kantakse saldod uude finantsaastasse üle.
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717470"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779796"
 ---
 # <a name="close-the-fiscal-year"></a>Finantsaasta sulgemine
 
@@ -40,7 +40,7 @@ Kui on seatud väärtusele **Jah**, luuakse kaks tehingut. Suletav rahandusaasta
 
 5. Valige **Suvand Jah** või **Ei**, et finantsaasta **olekuks määrata jäädavalt suletud**.
 
-Kui valitud on **Jah**, seatakse finantsaasta olekuks Jäädavalt suletud. Kuna jäädavalt suletud aastat ei saa uuesti avada, oleks selle suvandi väärtuseks määrata Ei hea **valik**.  
+Kui valitud on **Jah**, seatakse finantsaasta olekuks **Jäädavalt suletud**. Kuna jäädavalt suletud aastat ei saa uuesti avada, oleks selle suvandi väärtuseks määrata **Ei**.  
 
 6. Aasta **lõpu** sulgemise **suvandi** jooksul **tuleb kandenumbri jaoks sisestada väärtus Jah või** Ei.
 

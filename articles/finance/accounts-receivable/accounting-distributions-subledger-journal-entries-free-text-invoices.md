@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712282"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778407"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Arvestuse jaotused ja alammooduli kirjed vabas vormis arvete puhul
 
@@ -30,9 +30,9 @@ Arvestuse jaotused määratlevad, kuidas summat arvestatakse, näiteks tulu, mak
 
 ## <a name="accounting-distributions"></a>Arvestuse jaotused
 
-Saate kasutada järgmisi nuppe lehel Vabas vormis arve iga vabas vormis arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks.
+Saate kasutada järgmisi nuppe vabas vormis **arve** lehel, et vaadata ja võimalusel muuta arvestuse jaotusi vabas vormis arve iga summa puhul.
 
--   **Summade jaotamine** –saate kuvada ja muuta arvestuse jaotusi üksiku rea ning alamridade kohta (nt maksud või tasud). Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
+-   **Summade jaotamine** –saate kuvada ja muuta arvestuse jaotusi üksiku rea ning alamridade kohta (nt maksud või tasud). Alamrea arvestuse jaotusi saate vaadata ja muuta ka otse käibemaksukannete **leheküljelt** või kulude **kannete leheküljelt**.
     -   Saate vabas vormis arve päise summasid (nt tasusid või valuuta ümardamissummasid) muuta.
     -   Saate vabas vormis arve reasummasid muuta.
 -   **Jaotuste kuvamine**–arvestuste jaotuste kuvamine kõigi dokumendi ridade kohta. Selles vaates arvestuse jaotusi muuta ei saa.
@@ -62,7 +62,7 @@ Vabas vormis arve sisestamisel jaotatakse iga summa järgmiselt.
 <li>Kui põhikonto on eraldamiskonto, kasutage eraldamiskonto määratluse vaikeväärtust.</li>
 <li>Kui põhikonto ei ole eraldamise konto, kasutage vabas vormis arve real finantsdimensiooni vaikemalli.</li>
 <li>Saate kasutada vabas vormis arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -84,43 +84,43 @@ Vabas vormis arve sisestamisel jaotatakse iga summa järgmiselt.
 <td>Vabas vormis arve rea pearaamatukonto.</td>
 <td><ol>
 <li>Saate kasutada vabas vormis arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Vabas vormis arve allahindluse summa</td>
-<td>Kliendi allahindluste välja põhikonto lehel Skontod.</td>
+<td>Kliendi allahindluste põhikonto väli skonto lehel.</td>
 <td><ol>
 <li>Kui põhikonto on eraldamiskonto, kasutage eraldamiskonto määratluse vaikeväärtust.</li>
 <li>Kui põhikonto ei ole eraldamise konto, kasutage vabas vormis arve real finantsdimensiooni vaikemalli.</li>
 <li>Saate kasutada vabas vormis arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Vabas vormis arve käibemaksusumma</td>
-<td>Tasumisele kuuluva käibemaksu väli lehel Pearaamatu sisestamisgrupid.</td>
+<td>Väli Tasumisele kuuluv käibemaks pearaamatu sisestamisgruppide lehel.</td>
 <td><ol>
 <li>Kasutage vabas vormis arve rea summas või tasurea summa jaotustes määratud finantsdimensioone.</li>
 <li>Saate kasutada vabas vormis arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Vabas vormis arve tasurea summa</td>
-<td>Väli Kreeditkonto lehel Tasukood.</td>
+<td>Tasukoodilehe väli Kreeditkonto.</td>
 <td><ol>
 <li>Kui põhikonto on eraldamiskonto, kasutage eraldamiskonto määratluse vaikeväärtust.</li>
 <li>Kui põhikonto ei ole eraldamise konto, kasutage vabas vormis arve real finantsdimensiooni vaikemalli.</li>
 <li>Saate kasutada vabas vormis arve real finantsdimensiooni väärtusi.</li>
-<li>Saate kasutada lehel Kontoplaan pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
+<li>Saate kasutada kontoplaani leheküljel oleva pearaamatukonto finantsdimensiooni vaikeväärtusi.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="distributing-taxes"></a>Maksude jaotamine
-Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksu arvutamiseks peate täitma ühe järgmise ülesande vabas vormis arve vormil.
+Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksude arvutamiseks tuleb vabas vormis arve lehel täita üks **järgmistest ülesannetest**:
 -   Käibemaksu kuvamine.
 -   Arve kogusumma kuvamine.
 -   Saate kuvada rahavoo.

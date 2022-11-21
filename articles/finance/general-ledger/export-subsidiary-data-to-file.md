@@ -2,23 +2,23 @@
 title: Allettevõte andmete eksportimine faili
 description: See artikkel selgitab, kuidas valmistada ette andmete eksportimist versioonist Microsoft Dynamics 365 Finance ja seejärel importida see konsolideeritud juriidilisele isikule.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876149"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779957"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Allettevõte andmete eksportimine faili
 
@@ -32,14 +32,14 @@ Kasutage lehte **Eksport** (**Süsteemihaldus \> Tööruumid \> Import/Eksport**
 
     | Field                             | Kirjeldus |
     |-----------------------------------|-------|
-    | Põhikonto                      | Määrake konsolideeridavad kontod. Kõikide kontode kaasamiseks jätke see väli tühjaks. |
-    | Konsolideerimiskonto kasutamine         | Kui olete konsolideerimiskontod määranud, määrake selle valiku väärtuseks **Jah**. |
-    | Vali konsolideerimiskonto asukohast | Valige kas **Põhikonto** või **Konsolideerimiskontode grupp**. |
-    | Konsolideerimiskonto grupp       | Valige konsolideerimiskontode grupp valitud konsolideerimiskontole. |
-    | Konsolideerimisperiood              | Määratlege konsolideerimise kuupäevad "alates" ja "kuni". |
-    | Tegelike summade kaasamine            | Tegelike summade kaasamist seadistage see suvand väärtusele **Jah**. |
-    | Eelarvesummade kaasamine            | Eelarvesummade konsolideerimisse kaasamiseks seadistage see suvand väärtusele **Jah**. |
-    | Eelarvemudelid                     | Määrake kaasatav eelarvemudel. |
+    | **Põhikonto**                      | Määrake konsolideeridavad kontod. Kõikide kontode kaasamiseks jätke see väli tühjaks. |
+    | **Konsolideerimiskonto kasutamine**         | Kui olete konsolideerimiskontod määranud, määrake selle valiku väärtuseks **Jah**. |
+    | **Vali konsolideerimiskonto asukohast** | Valige kas **Põhikonto** või **Konsolideerimiskontode grupp**. |
+    | **Konsolideerimiskonto grupp**       | Valige konsolideerimiskontode grupp valitud konsolideerimiskontole. |
+    | **Konsolideerimisperiood**              | Määratlege konsolideerimise kuupäevad "alates" ja "kuni". |
+    | **Tegelike summade kaasamine**            | Tegelike summade kaasamist seadistage see suvand väärtusele **Jah**. |
+    | **Eelarvesummade kaasamine**            | Eelarvesummade konsolideerimisse kaasamiseks seadistage see suvand väärtusele **Jah**. |
+    | **Eelarvemudelid**                     | Määrake kaasatav eelarvemudel. |
 
 3. Vahekaardil **Finantsdimensioonid** määratlege konsolideerimise üksikasjad.
 

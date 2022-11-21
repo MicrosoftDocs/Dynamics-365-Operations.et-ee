@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129508"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780222"
 ---
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
@@ -31,11 +31,10 @@ Müügitellimuse **kliendiarve on müügiga** seotud arve, mille organisatsioon 
 Vabas **vormis** arve ei ole seotud müügitellimusega. See sisaldab tellimuse ridu, mille hulka kuuluvad pearaamatukontod, vaba tekstina sisestatud kirjeldused ja müügihind, mille sisestate. Seda tüüpi arvele ei saa kaubakoodi sisestada. Peate sisestama vastava käibemaksuteabe. Müügi põhikonto on näidatud igal arve real, mille saate jaotada mitmele pearaamatukontole, klõpsates valikut **Summade jaotamine** lehel **Vabas vormis arve**. Lisaks sisestatakse kliendi saldo vabas vormis arve puhul kasutatavatest sisestusreeglitest koondkontole.
 
 Lisateabe saamiseks vt:
-
-[Vabas vormis arvete loomine Vabas vormis arve malli loomine Vabas
-](../accounts-receivable/create-free-text-invoice-new.md)[...](../accounts-receivable/create-free-text-invoice-template-new.md)[
- vormis arve malli määramine kliendile Korduvate vabas](tasks/assign-free-text-invoice-template-customer.md)
-[vormis arvete loomine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
+ - [Vabateksti arvete loomine](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Vabas vormis arve malli loomine](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Vabas vormis arve malli määramine kliendile](tasks/assign-free-text-invoice-template-customer.md)
+ - [Korduvate vabas vormis arvete genereerimine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
 
 
 **Pro forma arve** on arve, mis on ettevalmistatud hinnanguna tegelike arvesummade kohta enne arve sisestamist. Saate printida kas **müügitellimuse kliendiarve** või vabas vormis arve pro forma arve. 
@@ -89,7 +88,13 @@ Saate konfigureerida müügitellimuse kliendiarvete **tükeldamise** **saidi võ
  - Valige suvand **Tükelda arve tarneteabe alusel,** et luua sisestamisel müügitellimuse rea tarneaadressi kohta üks arve. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Tulukontole sisestamisel müügitellimuse ridadele, kus hind puudub ja kulu puudub
-Teil on võimalus värskendada pearaamatu **tulukontot** **müügitellimuse** ridadel, kus hind ja kulu puudub. Selle teabe häälestamiseks või vaatamiseks **minge** **·** **tulukontole sisestamisele nullhinnaga ja nullkuluga müügitellimuse arve ridade parameetrile pearaamatu ja müügireskontro parameetrite lehe käibemaksu vahekaardil.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind ja kulu puudub. Kui see suvand on valitud, sisaldab kanne 0,00 kirjet kliendi **saldo** ja tulu sisestustüüpide **kohta**. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. Kui seda valikut ei valita, ei sisestata hinna- või kuluteabeta ridu **tulukontole**. Selle asemel sisaldab kanne kliendi saldo sisestustüübi jaoks 0,00 **kirjet**.
+Teil on võimalus värskendada pearaamatu **tulukontot** **müügitellimuse** ridadel, kus hind ja kulu puudub. 
+
+Selle teabe seadistamiseks või vaatamiseks:
+1. Minge nullhinnaga **ja nullkuluga müügitellimuse arve** **·** **ridade nullkulu kontole sisestamise parameetrile pearaamatus ja käibemaksu kontole lehe Müügireskontro parameetrid vahekaardil.** (Müügireskontro **> seadistus > Müügireskontro parameetrid**). 
+2. Valige **Jah**, et uuendada **tulukonto** müügitellimuse arve ridadele, mille hind ja kulu puudub. 
+ - Kui see suvand on valitud, sisaldab kanne 0,00 kirjet kliendi **saldo** ja tulu sisestustüüpide **kohta**. Tulukonto määratletakse vahekaardi Müügitellimuse **konto** määratlus lehel Varude **sisestamise** parameeter. 
+ - Kui seda valikut ei valita, ei sisestata hinna- või kuluteabeta ridu **tulukontole**. Selle asemel sisaldab kanne kliendi saldo sisestustüübi jaoks 0,00 **kirjet**.
 
 ## <a name="line-creation-sequence-number-information"></a>Rea loomise järjekorranumbri teave
 Kliendiarve ridade sisestamisel saate luua jadarea loomise järjekorranumbrid. Rea loomise järjekorranumbrid määratakse sisestusprotsessi käigus. Kui lubate mittejärjenumbrite sisestamist, saate aidata parandada kliendiarvete sisestamise jõudlust. Rea loomise järjekorranumbreid saavad kasutada kolmanda osapoole integratsioonid, mis ootavad järjestikku tellimist. Konsulteerige oma IT-osakonnaga mis tahes laiendite suhtes, mis võivad integreeruda rea loomise järjekorranumbritega.

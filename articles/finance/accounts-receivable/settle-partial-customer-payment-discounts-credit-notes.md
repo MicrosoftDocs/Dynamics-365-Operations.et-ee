@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5ecf69c83805834c01c03d0af9b7b8c5310920
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 44f64b9b9cd4fa65d17ba30fb87a688411becd5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725089"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780220"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine
 
@@ -35,20 +35,20 @@ Kliendil 4035 on arve summale 1000,00 ja kreeditarve summale 100,00. Igal dokume
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve  | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |------------|------------------|-----------|----------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI‑10050  | Arve          | 28.06.2015 | 10050    | 1 000,00                             |                                       | 1 000,00 | USA dollar      |
-| CCRN-10050 | Kreeditarve      | 28.06.2015 | CR-10050 |                                      | 100,00                                | -100,00  | USA dollar      |
+| FTI‑10050  | Arve          | 6/28/2020 | 10050    | 1,000.00                             |                                       | 1,000.00 | USA dollar      |
+| CCRN-10050 | Kreeditarve      | 6/28/2020 | CR-10050 |                                      | 100.00                                | -100,00  | USA dollar      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Kreeditarve tasakaalustamine arvega
 Arnie avab lehel **Kliendi kanded** lehe **Kannete tasakaalustamine**. Arnie saab kasutada lehte **Kannete tasakaalustamine** arve ja kreeditarve tasakaalustamiseks. Tasakaalustusprotsessi osana näeb Arnie sularahakonto kuupäevi ja summasid. Arnie märgib kaks dokumenti ja klõpsab seejärel kannete tasakaalustamiseks käsku **Sisesta**. Kreeditarvel on allahindlus –1,00, kuna Fabrikam lubab kreeditarvete puhul allahindlusi.
 
 | Märge     | Kasuta skontot | Kanne    | Konto | Kuupäev      | Tähtaeg  | Arve  | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
-| Valitud | Tavaline            | FTI‑10050  | 4035    | 28.06.2015 | 7/28/2015 | 10050    | 1 000,00                       | USA dollar      | 990,00           |
-| Valitud | Tavaline            | CCRN-10050 | 4035    | 28.06.2015 | 7/28/2015 | CR-10050 | -100,00                        | USA dollar      | –99,00           |
+| Valitud | Tavaline            | FTI‑10050  | 4035    | 6/28/2020 | 7/28/2020 | 10050    | 1,000.00                       | USA dollar      | 990.00           |
+| Valitud | Tavaline            | CCRN-10050 | 4035    | 6/28/2020 | 7/28/2020 | CR-10050 | -100,00                        | USA dollar      | –99,00           |
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas.
 
-- **Skonto kuupäev**: 12.7.2015 
+- **Skonto kuupäev**: 12.07.2020 
 - **Skonto summa**: –1,00     
 - **Kasuta skontot**: Tavaline    
 - **Võetud skonto**: 0,00      

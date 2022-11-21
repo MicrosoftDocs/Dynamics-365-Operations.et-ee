@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716799"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775184"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>AP arve põhiandmed, kasutades hankija arvet
 
@@ -68,7 +68,10 @@ Selle tegevusejuhise abil saate ostutellimuse põhjal luua hankija arve ja vaada
 17. Sisestage arv väljale **Ühiku hind**. Nüüd, kui ühiku hind on vastavuses, värskendatakse olekut, ja uueks oleks seatakse Arvestatud. Kui teie poliitika lubab lahknevusi või kui vastavusseviimine on ainult hoiatus, saate arve siiski sisestada.  
 18. Sulgege leht.
 19. Klõpsake käsku **Sisesta**.
-20. Sulgege vorm. Võtke arvesse, et ostutellimus pole loendis enam „vastu võetud“, vaid „arveldamata“.  
+20. Sulgege leht. 
+
+>[!Note] 
+>Ostutellimus pole enam vastuvõetud, kuid arveldamata ostutellimuse loendis.  
 
 
 

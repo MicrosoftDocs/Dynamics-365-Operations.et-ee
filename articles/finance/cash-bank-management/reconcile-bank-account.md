@@ -2,24 +2,24 @@
 title: Pangakonto vastavusseviimine
 description: See artikkel kirjeldab pangakonto vastavusseviimise võtteid.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151247"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779523"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -29,27 +29,27 @@ Pangaväljavõtte saamisel tuleb teil juriidilise isiku pangakanded viia periood
 
 Te ei saa viia pangakonto väljavõtet vastavusse pangakontoga, kui väljavõttel loetletud tšekkidest või deposiidikviitungi maksetest on hetkel olekus **Tühistamise ootel**. Pärast seda, kui ülevaataja sisestab või lükkab tagasi tšeki tühistamise või deposiidikviitungi makse tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto vastavusse viia.
 
-1.  Minge jaotisse **Sularaha- ja pangahaldus**\>**Pangakontod**\>**Pangakontod**. Valige pangakonto, millega pangaväljavõtet vastavusse viia ja valige **Vii vastavusse** > **Konto vastavusseviimine**.
+1. Minge jaotisse **Sularaha- ja pangahaldus**\>**Pangakontod**\>**Pangakontod**. Valige pangakonto, millega pangaväljavõtet vastavusse viia ja valige **Vii vastavusse** > **Konto vastavusseviimine**.
 
-2.  Sisestage teave väljadele **Pangaväljavõtte kuupäev** ja **Pangaväljavõte**. Väljale **Lõppsaldo** sisestage pangakonto saldo, mille leiate pangakonto väljavõttelt.
+2. Sisestage teave väljadele **Pangaväljavõtte kuupäev** ja **Pangaväljavõte**. Väljale **Lõppsaldo** sisestage pangakonto saldo, mille leiate pangakonto väljavõttelt.
 
-3.  Valige **kanded**, et avada leht **Konto vastavusse viimine**.
+3. Valige **kanded**, et avada leht **Konto vastavusse viimine**.
 
-4.  Iga pangaväljavõttele lisatava **kande puhul märkige ruut Cleared** (Tühjendatud), kui Dynamics 365 Finance'i summa vastab pangaväljavõtte summale. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
+4. Iga pangaväljavõttele lisatava **kande puhul märkige ruut Cleared** (Tühjendatud), kui Dynamics 365 Finance’i summa vastab pangaväljavõtte summale. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
     
 
-    > [!NOTE]
-    > <P>Ärge märkige märkeruutu <STRONG>Tühjendatud</STRONG> kannetel, mis pole pangakonto väljavõttel. Need kanded ilmuvad jätkuvalt sellel lehel, kuni on vastavusse viidud tulevase pangaväljavõttega.</P>
-    > <P>Märkeruut <STRONG>Tühjendatud</STRONG> ei ole saadaval, kui kande olek on <STRONG>Tühistamise ootel</STRONG>. Kannetel on see olek juhul, kui Finance on seadistatud nõudele, et tühistamised saadetakse enne sisestamist ülevaatusele. Pärast seda, kui ülevaataja sisestab või lükkab tagasi ümberpööramise või tühistamise, pole olek enam <STRONG>Tühistamise ootel</STRONG> ja te saate pangakonto pangaväljavõttega vastavusse viia.</P>
+>[!NOTE]
+>Ärge märkige märkeruutu **Tühjendatud** kannetel, mis pole pangakonto väljavõttel. Need kanded ilmuvad jätkuvalt sellel lehel, kuni on vastavusse viidud tulevase pangaväljavõttega.
+>Märkeruut **Tühjendatud** ei ole saadaval, kui kande olek on **Tühistamise ootel**. Kannetel on see olek juhul, kui Finance on seadistatud nõudele, et tühistamised saadetakse enne sisestamist ülevaatusele. Pärast seda, kui ülevaataja sisestab või lükkab tagasi ümberpööramise või tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto pangaväljavõttega vastavusse viia.
 
-    
-    Märkeruudu **Tasaarvestatud** valimiseks tšekkide intervalli puhul, mis kuvatakse kõik pangaväljavõtte puhul, valige **Märgi tšeki intervall** ja seejärel määrake intervall.
+
+Märkeruudu **Tasaarvestatud** valimiseks tšekkide intervalli puhul, mis kuvatakse kõik pangaväljavõtte puhul, valige **Märgi tšeki intervall** ja seejärel määrake intervall.
 
 5.  Kui pangakonto kande summa ei vasta pangaväljavõtte kandel olevale summale, sisestage parandussumma väljale **Parandussumma**.
     
 
-    > [!NOTE]
-    > <P>Kui parandatava kande fiskaalperiood on suletud, ei saa välja <STRONG>Parandussumma</STRONG> kasutada. Selle asemel looge paranduse jaoks rida, mis on avatud fiskaalperioodis. Sel juhul peate lisama finantsdimensioonid, mida kasutati esialgsel kandel ja samuti vastaskonto põhikonto.</P>
+> [!NOTE]
+> Kui parandatava kande fiskaalperiood on suletud, ei saa välja **Parandussumma** kasutada. Selle asemel looge paranduse jaoks rida, mis on avatud fiskaalperioodis. Sel juhul peate lisama finantsdimensioonid, mida kasutati esialgsel kandel ja samuti vastaskonto põhikonto.
 
 
 

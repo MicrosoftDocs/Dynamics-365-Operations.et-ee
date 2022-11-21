@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Pearaamatu tasakaalustuste automatiseerimine
+                  href: general-ledger/auto-settle.md
                 - name: Pearaamatu välisvaluuta ümberarvutamine
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Pearaamatukonto saldod

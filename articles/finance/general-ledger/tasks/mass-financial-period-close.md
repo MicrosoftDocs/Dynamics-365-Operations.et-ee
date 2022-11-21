@@ -2,7 +2,7 @@
 title: Finantsperioodi hulgisulgemine
 description: See artikkel näitab, kuidas panna periood ootele või jäädavalt sulgeda perioodi või mitu juriidilist isikut korraga.
 author: aprilolson
-ms.date: 08/16/2019
+ms.date: 11/16/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8a85d512842b27f2d74507be16a8f2819f483e0d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872437"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779806"
 ---
 # <a name="mass-financial-period-close"></a>Finantsperioodi hulgisulgemine
 
@@ -26,7 +26,11 @@ ms.locfileid: "8872437"
 
 See artikkel näitab, kuidas panna periood ootele või jäädavalt sulgeda perioodi või mitu juriidilist isikut korraga. Lisaks näitab see ülesanne, kuidas piirata kasutajagrupil konkreetsetesse moodulitesse sisestamist.
 
-1. Navigeerimispaanil minge pearaamatusse **ja > sulgege > kalendrid**. Pange tähele, et kuvatav juriidiliste isikute loend oleneb lehel valitud rahanduskalendrist. Kuvatakse ainult valitud rahanduskalendrit kasutavad juriidilised isikud.
+1. Navigeerimispaanil minge pearaamatusse **ja > sulgege > kalendrid**. 
+
+>[!NOTE]
+> Kuvatud juriidiliste isikute loend sõltub leheküljel valitud rahanduskalendrist. Kuvatakse ainult valitud rahanduskalendrit kasutavad juriidilised isikud.
+
 2. Valige suvand **Redigeeri**.
 3. Valige periood, mille olekut soovite muuta.
 4. Valige juriidilised isikud, mille olekut soovite muuta. Võite valida kiiresti kõik juriidilised isikud, valides ruudustiku ülemisel vasakul poolel küsimärgi.  
@@ -38,7 +42,7 @@ See artikkel näitab, kuidas panna periood ootele või jäädavalt sulgeda perio
 8. Valige **uuendamine**, 
 9. Valige oleku uuendamiseks teine periood.
 10. Valige juriidilised isikud, mille perioodi olekut soovite muuta.
-11. Valige suvand **Värskenda perioodi olek** ja seadistage olekuks kas **Ootel**, **Avatud** või **Jäädavalt suletud**. **Avatud** näitab, et perioodi saab sisestada, kui kasutajal on juurdepääs. **Ootel** tähendab, et perioodi ei saa sisestada, aga perioodi saab uuesti avada. **Jäädavalt suletud** tähendab, et periood on suletud ja seda ei saa kunagi avada. Korrigeerimisi ei saa sisestada. Me ei soovita seadistada perioodi olekuks **Jäädavalt suletud** enne, kui kõik kohandused ja auditid on lõpetatud.  
+11. Valige suvand **Värskenda perioodi olek** ja seadistage olekuks kas **Ootel**, **Avatud** või **Jäädavalt suletud**. **Avatud** näitab, et perioodi saab sisestada, kui kasutajal on juurdepääs. **Ootel** tähendab, et perioodi ei saa sisestada, aga perioodi saab uuesti avada. **Jäädavalt suletud** tähendab, et periood on suletud ja seda ei saa kunagi avada. Korrigeerimisi ei saa sisestada. Me ei soovita perioodi seadistada väärtusele Jäädavalt **suletud enne**, kui kõik korrigeerimised ja auditid on lõpetatud.  
 12. Tehke valik **Värskenda**.
 
 

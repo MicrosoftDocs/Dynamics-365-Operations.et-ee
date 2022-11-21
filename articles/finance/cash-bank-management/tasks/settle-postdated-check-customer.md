@@ -2,23 +2,23 @@
 title: Kliendi hilisema kuupäevaga tšeki tasakaalustamine
 description: Hilisema kuupäevaga dateeritud tšekki saab tasakaalustada pärast seda, kui pank on tšeki kinnitanud.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 896d19eb9bc53cc4987d7a500f221cca06aa11db
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9e61ac6d6785dd0383d5e5dcaca4cc55bf6deb52
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725369"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780011"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Kliendi hilisema kuupäevaga tšeki tasakaalustamine
 
@@ -40,17 +40,17 @@ Selle ülesandejuhendi roll on Kassiir.
 
 See protsess kasutab demoettevõtte USMF-i andmeid.
 
-1. Minge jaotisse Krediidihaldus ja võlanõuded > Päringud ja aruanded > Maksed > Kliendi hilisema kuupäevaga dateeritud tšekid.
-2. Klõpsake suvandit Tasakaalustus.
-3. Klõpsake suvandit Kliiringukirjete tasakaalustamine.
+1. Avage kreedit **ja sissenõuete > päringud ja aruanded > maksete > kliendi > kannetega**.
+2. Klõpsake nuppu **Tasakaalustamine**.
+3. Klõpsake käsku **Tasakaalusta kliiringukirjed**.
     * Tasakaalustage kliendi konto tšekikande jaoks.  
 4. Sulgege leht.
-5. Avage Pearaamat > Töölehe sisestused > Päevaraamatud.
-6. Valige suvand väljal Kuva.
-7. Märkige või tühjendage ruut Kuva ainult kasutaja loodud.
+5. Avage **Pearaamat > Töölehe kanded > Päevaraamatud**.
+6. **Valige suvand** väljal Näita.
+7. Märkige või tühjendage **ruut Näita ainult kasutaja loodud** kasutajaid.
 8. Otsige loendist ja valige soovitud kirje.
-9. Klõpsake valikut Read.
-10. Klõpsake suvandit Kanne.
+9. Klõpsake **Read**.
+10. Klõpsake suvandit **Kanne**.
 11. Sulgege leht.
 
 

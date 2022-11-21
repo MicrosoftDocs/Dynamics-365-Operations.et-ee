@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262294"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785095"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -51,7 +51,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | Teenusetaotlused | Nr | Jah | Jah: [iseteeninduse juurutused](../deployment/infrastructure-stack.md) |
 | SharePointi integreerimine | Jah | Jah | Nr |
 | Konfiguratsiooni- ja andmehaldur | Nr | Jah | Nr |
-| Protsessi andmepaketid | Nr | Jah | Jah: andmete importimise/eksportimise raamistik (DIXF) |
+| Protsessi andmepaketid | Nr | Jah | Jah: [andmete importimise/eksportimise raamistik (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Uuendamise täiendamine | Nr | Jah | Jah: saadaval [on ühe](../lifecycle-services/oneversion-overview.md) versiooni teenuse värskendused. |
 | IT-taristu hindaja | Jah | Nr | Nr |
 | Litsentsi suuruse muutmine | Jah | Nr | Nr |
@@ -71,10 +71,10 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Me eemaldame järgmise loendi cipher nii, et see vastaks meie praegustele turvaprotokollidele.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Asendatud teise funktsiooniga?**   | Alates 30. novembrist 2022 saavad kliendid kasutada ainult meie standardset [cipherenti](/power-platform/admin/server-cipher-tls-requirements). See muudatus mõjutab teie kliente ja servereid, mis suhtlevad meie serveritega, näiteks võib see mõjutada teie kolmanda osapoole integratsioone, mis ei ole seotud meie standardse sififiidiga. |
+| **Asendatud teise funktsiooniga?**   | 31. jaanuari 2023 alguses saavad kliendid kasutada vaid meie [standardset salakirja](/power-platform/admin/server-cipher-tls-requirements). See muudatus mõjutab teie kliente ja servereid, mis suhtlevad meie serveritega, näiteks võib see mõjutada teie kolmanda osapoole integratsioone, mis ei ole seotud meie standardse sififiidiga. |
 | **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Pilve juurutused |
-| **Olek**                         | Aegunud. Kliendid peavad oma servereid uuendama enne 30. novembrit 2022. Lisateavet TLS Cipher Suite’ tellimuse konfigureerimise kohta vt [transpordikihi turbe haldamine (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Olek**                         | Aegunud. Kliendid peavad oma servereid uuendama enne 31. jaanuari 2023. Lisateavet TLS Cipher Suite’ tellimuse konfigureerimise kohta vt [transpordikihi turbe haldamine (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funktsiooni amortiseerumine kehtib juunil 2022

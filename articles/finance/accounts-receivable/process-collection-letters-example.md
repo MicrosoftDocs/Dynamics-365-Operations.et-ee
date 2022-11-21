@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908150"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778542"
 ---
 # <a name="process-collection-letters-example"></a>Protsesside kogumiskirjade näide
 
@@ -32,11 +32,11 @@ Kui olete lõpetanud, järgige järgmisi etappe.
 
 1. Minge moodulisse **Kreedit ja sissenõuded \> Märgukiri \> Märgukirjaseeria seadistus** ning seadistage märgukirjaseeria, nagu näidatud järgmises tabelis, mis on määratud kliendi sisestusreeglitele.
 
-|     Märgukirja kood      |     Kirjeldus                           |     Currency      |     Põhikonto        |     Tasu valuutas     |     Minimaalne üle        |     Blokeeri päevad      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     1. märgukiri         |     Teine teatis tasuga        |     USA dollar           |                           |     0,00                  |     0,00                  |     2                 |
-|     2. märgukiri         |     Teine teatis tasuga        |     USC           |     403150                |     20.00                 |     10.00                 |     3                 |
-|     Kogum                    |     Lõplik teatis tasuga         |     USA dollar           |     403150                |     50.00                 |     100.00                |     15                |
+|   Märgukirja kood      |     Kirjeldus       |     Currency      |     Põhikonto        |     Tasu valuutas       |   Minimaalne üle  |   Blokeeri päevad        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  1. märgukiri          |     Esimene teatis |     USA dollar          |                   |     0.00              |     0.00                  |     2                 |
+|  2. märgukiri          |     Teine teatis tasuga      |     USA dollar      |     403150         |     20.00         |     10.00     |     3                 |
+|  Kollektsioon                   |     Lõplik teatis tasuga       |     USA dollar           |     403150    |     50.00         |     100.00                |     15            |
 
 Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgukirjade** lehel. 
 

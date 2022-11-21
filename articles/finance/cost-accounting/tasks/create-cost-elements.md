@@ -2,7 +2,7 @@
 title: 'Kuluelementide loomine  '
 description: Kuluarvestuses on kuluelementide loomiseks mitu võimalust.
 author: kfend
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
-ms.openlocfilehash: 9ca826e54171a3dc3582dc5ceb716ac009d45674
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0254f486816e852bcda52f90fe4da65c413c7032
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280716"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779685"
 ---
 # <a name="create-cost-elements"></a>Kuluelementide loomine   
 
@@ -28,31 +28,31 @@ Kuluarvestuses on kuluelementide loomiseks mitu võimalust. See protseduur näit
 
 
 ## <a name="create-new-cost-elements"></a>Uute kuluelementide loomine
-1. Avage Kuluarvestus > Dimensioonid > Kuluelemendi dimensioonid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
-4. Sisestage või valige väärtus väljal Andmekonnektor dimensiooniliikmete jaoks.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Klõpsake nuppu Salvesta.
+1. Kuluelemendi **dimensioonide > avage > Kuluelemendi dimensioonid**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Nimi**.
+4. Sisestage **või valige väärtus väljal Andmeühendus** dimensiooni liikmete jaoks.
+5. Sisestage väärtus väljale **Kirjeldus**.
+6. Klõpsake nuppu **Salvesta**.
 
 ## <a name="configure-the-data-connector"></a>Andmekonnektori konfigureerimine
-1. Klõpsake valikut Dimensiooniliikme pakkuja konfigureerimine.
-2. Sisestage väärtus väljale Kontoplaan või valige see.
-    * Jagatud kontoplaani kasutamiseks valige Jagatud.  
-3. Klõpsake valikut Uus.
+1. Klõpsake käsku **Konfigureeri dimensiooni liikme pakkujat**.
+2. Sisestage **või valige väärtus** väljal Kontoplaan.
+    * Valige **ühiskasutuses** kontoplaani kasutamiseks jagatud kontoplaan.  
+3. Klõpsake valikut **Uus**.
 4. Märkige loendis valitud rida.
     * Saate oma kriteeriumide täitmiseks rakendada kontodele filtreid.  
-5. Sisestage väärtus väljale Põhikontolt või valige see.
-6. Sisestage väärtus väljale Põhikontole või valige see.
-7. Klõpsake nuppu OK.
+5. Sisestage **või valige väärtus** väljal Põhikontost.
+6. Sisestage **või valige väärtus** väljal Põhikontole.
+7. Klõpsake valikut **OK**.
 
 ## <a name="import-main-accounts"></a>Impordi põhikontod
-1. Klõpsake valikut Dimensiooniliikmete importimine.
+1. Klõpsake käsku **Impordi dimensiooni liikmed**.
     * Põhikontod imporditakse kuluarvestusse ja neid kasutatakse kuluelementidena.  
-2. Klõpsake nuppu OK.
+2. Klõpsake valikut **OK**.
 
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Imporditud kontode vaatamine kuluelementidena
-1. Klõpsake valikut Dimensiooniliikmete kuvamine.
+1. Klõpsake dimensiooni **liikmete vaadet**.
     * Kuva imporditud pearaamatukontod kuluelementidena oma ettevõttes, kuhu kuluvoo saab suunata.  
 
 

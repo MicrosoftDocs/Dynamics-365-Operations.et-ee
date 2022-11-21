@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751927"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752744"
 ---
 # <a name="year-end-activities-faq"></a>Aastalõpu tegevuste KKK 
 
@@ -94,6 +94,23 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Ad
  
 - Moodul: Pearaamat
 - Funktsiooni nimi: Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2022. aastal?
+
+#### <a name="update-to-all-1099-forms"></a>Kõigi 1099-vormide värskendus
+2022. maksuaasta jaoks on kõigisse 1099-vormidesse tehtud järgmised muudatused.
+
+  - 2021. aastal oli 1099-vormides aasta fikseeritud. Alates 2022. aastast lisab aasta aruanne. 
+
+#### <a name="1099-misc"></a>1099-LISA
+2022. maksuaasta jaoks on vormis 1099-LISA tehtud järgmised värskendused.
+
+ - Väli 13: näitab nüüd välismaiste kontode maksukuulekuse seaduse (FATCA) esitamisnõuet. 
+ - Väli 14: kasutatakse nüüd liigsete kuldse langevarju maksete aruandluseks. 
+ - Väli 15: kasutatakse nüüd mittekvalifitseeruvate edasilükatud hüvitise (NQDC) plaanide alusel tehtud makse aruandluseks. 
+ - Väli 16: kasutatakse nüüd riigi kinnipeetavate maksude aruandluseks.
+ - Väli 17: kasutatakse nüüd maksja riiginumbri aruandluseks.
+ - Väli 18: kasutatakse nüüd riigitulu aruandluseks. 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2021. aastal?
 

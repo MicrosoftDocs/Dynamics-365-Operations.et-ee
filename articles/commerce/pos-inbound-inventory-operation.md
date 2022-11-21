@@ -2,26 +2,19 @@
 title: Sissetulev laooperatsioon kassas
 description: See artikkel kirjeldab kassa sissetuleva laotoimingu võimalusi.
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288348"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785014"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Sissetulev laooperatsioon kassas
 
@@ -31,6 +24,11 @@ Microsoft Dynamics 365 Commerce’i versioonis 10.0.10 ja hilisemates asendavad 
 
 > [!NOTE]
 > Commerce'i versioonis 10.0.10 ja hilisemates on kõik kassarakenduse uued funktsioonid, mis on seotud kaupluse varude vastuvõtmisega ostutellimuste ja üleviimistellimuste alusel, lisatud kassatoimingule **Sissetuleku toiming**. Kui kasutate praegu kassas komplekteerimis- ja vastuvõtutoimingut, soovitame teil töötada välja strateegia, et liikuda sellelt toimingult uutele sissetuleku ja väljamineku toimingutele. Kuigi komplekteerimis- ja vastuvõtutoimingut tootest ei eemaldata, siis pärast versiooni 10.0.9 sellesse enam toimivuse ja jõudluse perspektiivis ei investeerita.
+
+Järgmine video annab ülevaate kaupluse lao äriprotsessidest ja võimalustest Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Eeltingimus: asünkroonse dokumendi raamistiku konfigureerimine
 

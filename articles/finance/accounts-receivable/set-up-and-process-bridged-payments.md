@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887973"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775164"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Vahemaksete häälestus ja töötlemine
 
 [!include [banner](../includes/banner.md)]
 
-Sildmakse on makse, mis sisestatakse pearaamatusse kahe sammuga. Tavaliselt kasutatakse seda lähenemist, kui **makseviisiks on seatud Pank** ja te peate sisestama kanded pangakontole ainult siis, kui kanne on pangast tühjendanud. Te saate seda siiski kasutada ka pearaamatukonto puhul. Sel juhul teisaldab süsteem summa ühest põhikontost teise põhikontole, kui kasutatakse tkontole sisestamisel.
+Sildmakse on makse, mis sisestatakse pearaamatusse kahe sammuga. Tavaliselt kasutatakse seda lähenemist, kui **makseviisiks on seatud Pank** ja te peate sisestama kanded pangakontole ainult siis, kui kanne on pangast tühjendanud. Te saate seda siiski kasutada ka pearaamatukonto puhul. Sel juhul teisaldatakse summa ühest põhikontost teise põhikontole, kui kasutatakse tkontole sisestamisel.
 
 Te saate luua sildmakseid kas Ostureskontrost või Müügireskontrost. Kuigi see artikkel selgitab, kuidas konfigureerida müügireskontrole ajatagastamist, on ostureskontro kannete sammud sarnased.
 

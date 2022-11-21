@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868340"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775211"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Arvete ja võtmeandmete audit ostureskontros
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868340"
 
 Kui saate hankijalt ostutellimuse alusel arve kaupade või teenuste kohta, võivad äriprotsessid nõuda, et kaubad või teenused peavad enne arve makseks kinnitamist olema kätte saadud. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine. 
 
-Veenduge lehel **Ostureskontro parameetrid**, et valitud on suvand Lubage arvete võrdlemise kontrollimine, suvand **Nõua kinnitust** väljal **Lahknevustega arvete sisestamine** ning suvand **Kolmesuunaline vastavusse viimine** väljal **Rea vastavusse viimise poliitika**.
+Veenduge, **et** ostureskontro parameetrite lehel on valitud suvand Luba arvete vastendamise kontrollimine, **·** **·** **·** **väli Sisesta lahknevustega arve on seatud valikule Nõua kinnitamist ja rea vastavusse viimise poliitika väli on seatud kolmepoolelisteks vastavusse viimiseks.** **·**
 
 See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.
 

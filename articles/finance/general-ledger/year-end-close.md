@@ -2,25 +2,25 @@
 title: Aastalõpu sulgemine
 description: See artikkel kirjeldab pearaamatu aasta lõpu sulgemise protsessi käivitamiseks nõutavaid seadistusi ja etappe.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883209"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779739"
 ---
 # <a name="year-end-close"></a>Aastalõpu sulgemine
 
@@ -62,7 +62,7 @@ Lehel **Pearaamatu kalender** toimige järgmiselt.
 
 ## <a name="define-year-end-close-templates"></a>Aastalõpu sulgemismallide määratlemine
 
-Pärast süsteemi konfigureerimist saab käivitada aastalõpu sulgemisprotsessi. Lehel **Aastalõpu sulgemine malli seadistamine** saab määratleda malli selliste juriidiliste isikute grupile, mille jaoks aastalõpu sulgemisprotsess käivitatakse. Malli taaskasutatakse igal aastalõpu sulgemisel, kuid seda saab muuta, kui teie organisatsioon muutub.
+Pärast konfiguratsiooni lõpule viimist saab käivitada aasta lõpu sulgemise protsessi. Lehel **Aastalõpu sulgemine malli seadistamine** saab määratleda malli selliste juriidiliste isikute grupile, mille jaoks aastalõpu sulgemisprotsess käivitatakse. Malli taaskasutatakse igal aastalõpu sulgemisel, kuid seda saab muuta, kui teie organisatsioon muutub.
 
 Esmalt määratlege malli jaoks väli **Grupi nimi** ja valige rahanduskalender. Grupi nimi peaks identifitseerima lisatud juriidiliste isikute gruppi. Juriidiliste isikute rühmade määramisel pidage meeles, et juriidilisi isikuid saab samasse rühma kaasata ainult siis, kui nende jaoks on valitud sama eelarvekalender. Näiteks saab mallid seadistada geograafia põhjal nii, et Põhja-Ameerika, Euroopa, Kesk-ida ja Aafrika (EMEA) ja Aasia-Vaikse ookeani piirkond (APAC) juriidiliste isikute jaoks on loodud eraldi grupid.
 

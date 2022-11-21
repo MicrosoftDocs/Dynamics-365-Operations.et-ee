@@ -3395,6 +3395,8 @@
           items:
             - name: Laohalduse ülevaade
               href: warehousing/warehouse-management-overview.md
+            - name: Laohalduse mooduli seadistamise alustamine
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Saabuvate kaupade laotoimingud
               items:
                 - name: Ostutellimuste sissetulevate koormate laohaldus

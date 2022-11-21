@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732761"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760358"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources kliendi migreerimine
 
@@ -38,13 +38,12 @@ Kliendi migratsioon on kliendi andmebaasi "üles- ja vahetuse migratsioon" (liik
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Dataverse keskkonna varundamine (Box)
 
-1. Valikuline, kuid soovitatav: värskendage olemasolevat inimressursside sisendkausta keskkonda, kasutades inimressursside tootmiskeskkonna koopiat.
-2. [Looge halduskeskust Dataverse](/power-platform/admin/create-environment#create-an-environment-with-a-database) kasutades Power Platform uus keskkond.
+ - Valikuline, kuid soovitatav: värskendage olemasolevat inimressursside sisendkausta keskkonda, kasutades inimressursside tootmiskeskkonna koopiat.
+ - Looge halduskeskust Dataverse kasutades Power Platform uus keskkond.
+ - Kopeerige Dataverse olemasolev keskkond, mis on lingitud eraldi rakendusega Inimressursid, keskkonnas, mille lõite eelmises sammus.
 
-    > [!NOTE]
-    > Andmebaasi lisamisel veenduge, et suvandi **Luba Dynamics 365 rakendused väärtuseks** on seatud **Jah**.
-
-3. [Kopeerige Dataverse olemasolev keskkond](/power-platform/admin/copy-environment), mis on lingitud eraldi rakendusega Inimressursid, keskkonnas, mille lõite eelmises sammus.
+> [!NOTE]
+> Andmebaasi lisamisel veenduge, et suvandi **Luba Dynamics 365 rakendused väärtuseks** on seatud **Jah**. Lisateavet vt keskkonna [ettevalmistamine Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse Võimsuse
 
@@ -89,9 +88,9 @@ Kui uus elutsükli teenuste projekt on loodud ja projekti sisseostmise protsess 
 #### <a name="prepare-a-power-platform-environment"></a>Power Platform Keskkonna ettevalmistamine
 
 > [!NOTE]
-> See samm on rakendatav ainult sisendkausta keskkonna migreerimise puhul. Kui kannate tootmiskeskkonda üle, Power Platform edastatakse tootmiskeskkonnaga seotud olemasolev halduskeskuse keskkond.
+> See samm on rakendatav ainult sisendkausta keskkonna migreerimise puhul. Kui kannate tootmiskeskkonda üle, Power Platform edastatakse tootmiskeskkonnaga seotud olemasolev halduskeskuse keskkond. Andmebaasi lisamisel veenduge, et nupp **Luba Dynamics 365 rakendused oleks** seatud väärtusele **Jah**. 
 
-- Looge Power-platvormi halduskeskuses [power-platvormi keskkond,](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) mida kasutada sisendkaustade siirdamiseks, või valige olemasolev keskkond.
+- Looge Power-platvormi halduskeskuses keskkond koos [andmebaasiga, mida](/power-platform/admin/create-environment#create-an-environment-with-a-database) kasutada kaustade siirdamiseks, või valige olemasolev keskkond.
 - [Kopeerige keskkond](/power-platform/admin/copy-environment) vastendamiseks Power Platform kasutatava keskkonna värskendamiseks.
 
 #### <a name="migrate-the-sandbox-environment"></a>Kanna üle kohtamuutuv keskkond
@@ -169,7 +168,7 @@ Pärast seda, kui olete kaustakeskkonna migreerimise ja kinnitamise lõpetanud, 
 
 2. Avage uus inimressursside siirde projekt.
 3. Vaadake läbi ja viige lõpule migratsioonimetoodika ja projekti asjakohased faasid.
-4. Valige projekti armatuurlaud paanil **Tootmine** suvand Kanna inimressursside **üle**.
+4. Valige projekti armatuurlaud paanil **Tootmine** suvand Kanna inimressursside üle.**·**
 5. Valige paani **ülekandmiseks** keskkonnas Vali keskkond, valige sobiv elutsükli teenuste projekt ja algne inimressursside keskkond (allikast eraldiseisev inimressursside rakendus). Seejärel valige **Järgmine**.
 6. Viige üksikasjade **ja kliendi välja logimise kinnitamiseks lõpule juurutamise sätete (finantsid ja toimingud –** toimingukaad) viisard ning valige käsk **Juuruta**.
 

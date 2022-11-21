@@ -2,23 +2,23 @@
 title: Pangateenuste ja garantiikirjade sisestusreeglite seadistamine
 description: Selle ülesandega luuakse panga süsteemiteenus ja sisestusreegel, mis on vajalik garantiikirja töötlemiseks.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3568332a7755af9c8c341223fc7ef7e66a1da02
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726318"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779876"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Pangateenuste ja garantiikirjade sisestusreeglite seadistamine
 
@@ -34,45 +34,45 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 
 
 ## <a name="general-ledger-parameter"></a>Pearaamatu parameeter
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid.
-2. Laiendage jaotist Pangadokument.
-3. Valige suvand Garantiikirja lubamine.
-4. Klõpsake väljal Kande tööleht otsingu avamiseks ripploendi nuppu.
+1. Avage sularaha **ja panga > > parameetrite seadistus**.
+2. Laiendage jaotist **Pank**.
+3. Valige suvand **Garantiikirja** lubamine.
+4. **Otsingu avamiseks** klõpsake kande töölehe väljal ripploendit.
 5. Otsige loendist ja valige soovitud kirje.
 6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake vahekaarti Numbriseeriad.
+7. Klõpsake vahekaardil **Numbriseeriad**.
     * Numbriseeria määratlemine garantiikirja numbri ja garantiikirja kandeviidete jaoks  
-8. Klõpsake nuppu Salvesta.
+8. Klõpsake nuppu **Salvesta**.
 9. Sulgege leht.
 
 ## <a name="create-bank-facility"></a>Panga süsteemiteenuse loomine
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Panga süsteemiteenused.
-2. Klõpsake valikut Uus.
-3. Sisestage väljale Süsteemiteenuste grupp garantiikirja kande jaoks panga süsteemiteenuste grupi nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake vahekaarti Süsteemiteenuste tüübid.
-7. Klõpsake valikut Uus.
-8. Sisestage väljale Süsteemiteenuste tüüp panga süsteemiteenuse leppega seotud panga süsteemiteenuste tüübi nimi.
-9. Sisestage väärtus väljale Kirjeldus.
-10. Klõpsake väljal Süsteemiteenuste grupp otsingu avamiseks ripploendi nuppu.
+1. Avage sularaha **- ja pangahalduse > installiprogrammi > panga vahendid**.
+2. Klõpsake valikut **Uus**.
+3. Väljale Süsteemiteenuse **grupp** sisestage panga süsteemiteenuse grupi nimi garantiikirja kande jaoks.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Klõpsake nuppu **Salvesta**.
+6. Klõpsake vahekaardil Süsteemiteenuse **tüübid**.
+7. Klõpsake valikut **Uus**.
+8. Väljale Süsteemiteenuse **tüüp** sisestage panga süsteemiteenuse tüübi nimi, mis on seotud panga süsteemiteenuse lepinguga.
+9. Sisestage väärtus väljale **Kirjeldus**.
+10. **Otsingu avamiseks** klõpsake väljal Süsteemiteenuse grupp ripploendit.
 11. Otsige loendist ja valige soovitud kirje.
 12. Klõpsake loendis valitud real olevat linki.
-13. Valige suvand väljal Süsteemiteenuse olemus.
-14. Klõpsake nuppu Salvesta.
+13. Valige väljal **Süsteemiteenuse olemus suvand.
+14. Klõpsake nuppu **Salvesta**.
 15. Sulgege leht.
 
 ## <a name="bank-posting-profile"></a>Panga sisestusreegel
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Pangadokumentide sisestusreegel.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Konto/grupi nimi otsingu avamiseks ripploendi nuppu.
+1. Avage sularaha **- ja pangahalduse > seadistus > pangadokumentide sisestusreeglid**.
+2. Klõpsake valikut **Uus**.
+3. **Otsingu avamiseks** klõpsake väljal Konto/grupi number ripploendit.
 4. Otsige loendist ja valige soovitud kirje.
 5. Klõpsake loendis valitud real olevat linki.
-6. Valige väljal Tasakaalustuskonto tasakaalustuseks põhikonto.
-7. Valige väljal Tasude konto kulukannete konto.
-8. Valige väljal Kasumikonto marginaalkande jaoks konto.
-9. Valige väljal Likvideerimiskonto garantiikirja kande likvideerimiskonto. 
-10. Klõpsake nuppu Salvesta.
+6. **Väljal Tasakaalusta konto** valige tasakaalustamiseks põhikonto.
+7. **Valige kulukannete** konto väljal Kulude konto.
+8. **Marginaali konto** väljal valige marginaalkande konto.
+9. **Valige garantiikirja** kande likvideerimiskonto väljal Likvideerimiskonto. 
+10. Klõpsake nuppu **Salvesta**.
 11. Sulgege leht.
 
 

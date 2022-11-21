@@ -2,25 +2,25 @@
 title: Finantsperioodi sulgemise tööruum
 description: Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865708"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780038"
 ---
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865708"
 
 See artikkel annab ülevaate finantsperioodi sulgemise **tööruumist** ja seostatud konfiguratsioonist.
 
-Finantsperioodi sulgemise tööruum
+## <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
 Tööruum **Finantsperioodi sulgemine** võimaldab teil jälgida oma rahalise sulgemise protsessi ettevõtete, alade ja inimeste alusel. Olenevalt teie vaatest selle tööruumi **Finantsperioodi sulgemine** kohta, näete kas kõiki sulgemise graafiku ülesandeid ja olekuid või ainult teile määratud ülesandeid. 
 
@@ -101,7 +101,7 @@ Määrake sulgemise graafiku puhul sobiv kalender, näitamaks ülesande plaanimi
 
 Peate määratlema ka ettevõtted, mis sulgemise graafikuga seostatakse. Kui malli ülesanded on määratud mitmele ettevõttele, luuakse iga sulgemise graafikus oleva ettevõtte puhul eraldi ülesanded ja määratakse malli ülesandele. 
 
-Pärast sulgemise graafiku lõpetamist valige selle puhul suvand **Suletud**. Ülesande ajalugu on endiselt saadaval loendilehel **Kõik finantsperioodi sulgemisülesanded**, kuid sulgemise graafik eemaldatakse tööruumist. Pärast sulgemise graafiku märkimist valikule **Suletud** ei saa te sellele ülesandeid lisada, ülesandeid redigeerida ega ülesandeid sellelt eemaldada.
+Kui sulgemisgraafik on lõpetatud, valige suvand **Suletud**. Ülesande ajalugu on endiselt saadaval loendilehel **Kõik finantsperioodi sulgemisülesanded**, kuid sulgemise graafik eemaldatakse tööruumist. Pärast sulgemise graafiku märkimist valikule **Suletud** ei saa te sellele ülesandeid lisada, ülesandeid redigeerida ega ülesandeid sellelt eemaldada.
 
 
 

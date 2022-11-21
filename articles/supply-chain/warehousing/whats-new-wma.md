@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702191"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764235"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis loetletakse microsofti iga laohalduse mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, parendused ja teadaolevad probleemid Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versioon 2.0.37.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+- Lisatud kasutajasäte, mis lubab töötajatel valida, kus rakendus kuvab toote fotode (nii kaartide kui ka sammu päiste puhul, ainult sammu päistes või üldse mitte). 
+- Täiustatud kaardi detailide ekraani paigutust, vähendades sammu sammu ja koguse sisendi pöörija suurust, mis jätab ülejäänud sisu jaoks rohkem ruumi. 
+- Täiustatud kasutajaliidest graafilisel identseadmel Kasutajaliidese kasutamisel. 
+- Täiustatud täisekraani režiim (kehtib ainult riistvaraklaviatuuriga seadmetele). 
+- Täiustatud tulemused üksikasjade kaartide ja kohandatud lehtede sortimisel prioriteedi või alamprioriteedi (DataPriority või DisplaySubPriority) alusel. 
+- Lisatud tugi keelte lisandina. 
+- Täiustatud stabiilsus 
+- Täiustatud on mitmeid pilte ja ikoone. 
 
 ## <a name="version-20350"></a>Versioon 2.0.35.0
 

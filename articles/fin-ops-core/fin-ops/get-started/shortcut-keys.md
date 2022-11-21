@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405433"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757163"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -50,7 +50,7 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Tegumiriba vahekaardi või menüü sulgemine        | Esc-klahv                              |
 | Paremklõpsu simuleerimine                          | Shift + F10                        |
 | Ava konteksti menüü    | Ctrl + F10                         |
-| Vormil/dialoogiboksis vaikenupu käivitamine | Alt + sisestusklahv (Enter)                        |
+| Vaikimisi nupu käivitamine lehel/dialoogiboksis | Alt + sisestusklahv (Enter)                        |
 | Nupu või paani klõpsamine                          | Sisestusklahv (Enter) või tühik                   |
 | Inventuuripaani teabe värskendamine       | Alt + ülesnool                     |
 | Kuva praegu saadaolevad kiirklahvid              | Alt + Shift + K                      |
@@ -85,13 +85,13 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Praeguse veeru filtreerimisruudustiku avamine                                                                          | Ctrl + G                   |
 | Praeguse veeru filtreerimisruudustiku sulgemine                                                                         | Esc-klahv                      |
-| Filtripaani avamine (või fookuse nihutamine filtripaani ja põhivormi vahel, kui filtripaan on juba avatud) | Alt + M, F või Ctrl + F3       |
+| Saate avada filtripaani (või aktiveerida fookuse filtripaani ja põhilehe vahel, kui filtri paan on juba avatud). | Alt + M, F või Ctrl + F3       |
 | Filtripaani sulgemine (fookusega filtripaanil)                                                               | Esc-klahv                      |
 | Täpsema filtreerimise/sortimise avamine                                                                                        | Ctrl + Shift + F3            |
 | Rakenda kiirfilter (kui fookus on kiirfiltris)                                                              | Sisestusklahv                    |
 | Rakenda tabelifilter (kui fookus on veerupäise filtriväljal)                                             | Sisestusklahv                    |
 
-## <a name="form-shortcuts"></a>Vormi kiirklahvid
+## <a name="page-shortcuts"></a>Lehe otseteed
 
 | Toiming                                    | Vajutage nuppu              |
 |-----------------------------------------------|-------------------|
@@ -100,21 +100,21 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Kirje salvestamine                                   | ALT + S või Ctrl + S   |
 | Ennistamine (taastamine)                              | Ctrl + Shift + F5     |
 | Andmete värskendamine                                  | Shift + F5          |
-| Vormil esimesele nähtavale väljale liikumine   | Alt + Shift + F       |
+| Lehe nähtavale esimesele väljale teisaldamine   | Alt + Shift + F       |
 | Redigeerimisrežiimi sisse-/väljalülitamine                              | F2                |
-| Dokumendi manustamine                             | Ctrl + Shift + A      |
+| Manusta dokument                             | Ctrl + Shift + A      |
 | Excelisse eksportimine                               | Ctrl + Shift + E      |
 | Eelmisele kirjele liikumine (väljaspool ruudustikku)  | Ctrl + ülesnool     |
 | Järgmisele kirjele liikumine (väljaspool ruudustikku)      | Ctrl + allanool   |
 | Esimesele kirjele liikumine (väljaspool ruudustikku)     | Ctrl + Home         |
 | Viimasele kirjele liikumine (väljaspool ruudustikku)      | Ctrl + End          |
-| Vormi sulgemine (nupu Tagasi klõpsamine)                   | Esc-klahv               |
-| Vormi sulgemine koos salvestamisega             | Shift + Esc         |
-| Vormi sulgemine muudatusi salvestamata | Alt + Shift + Q       |
+| Sule leht (valige nupp Tagasi)<br><br>**Märkus:** kui hüpikaken (kohtspikker, kuupäeva valija, ripploend jne) on avatud, unustab paoklahvi (Esc) esimene kasutus hüpikakna.       | Esc-klahv               |
+| Sule leht selgesõnalise salvestamisega             | Shift + Esc         |
+| Sule leht salvestamata muudatustest loobumiseks | Alt + Shift + Q       |
 
-## <a name="form-navigation-shortcuts"></a>Vormil navigeerimise kiirklahvid
+## <a name="page-navigation-shortcuts"></a>Lehe navigeerimise otseteed
 
-| Toiming                                          | Klahv või klahvikombinatsioon                                        |
+| Toiming                                          | Vajutage nuppu                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Järgmisele/eelmisele väljale liikumine                     | tabeldusklahv / Shift + tabeldusklahv                              |
 | Järgmisele/eelmisele vahekaardile liikumine                       | Alt + Shift + paremnool / Alt + Shift + vasaknool |
@@ -192,13 +192,13 @@ Kasutajad saavad avastada praegu saadaolevaid otseteesid otse kasutajaliidesest.
 | Spikripaani avamine                                                            | Ctrl+?                     |
 | Ava Trace Parser                                                         | Alt+Shift+T                |
 | Navigeerimispaanile minek                                                   | Alt + F1                     |
-| Vormi lisamine lemmikutesse / eemaldamine lemmikutest (fookusega navigeerimispaanil oleval vormil)   | Shift+F                    |
+| Lehe lisamine või eemaldamine lemmikuna (fookus navigeerimispaanil)   | Shift+F                    |
 | Standardsele tegumiribale liikumine                                              | Alt + M, A või Ctrl + F6         |
 | Liikumine paanile Filter (mis võib hõlmata selle avamist)                        | Alt + M, F või Ctrl + F3         |
 | Fookuse viimine lehe sisule (fookusega filtripanil)                | Alt + M, M või Ctrl + F3         |
-| Liikumine navigeerimisloendile vormil Üksikasjad (mis võib hõlmata selle avamist)    | Alt + M, S või Ctrl + F8         |
+| Navigeerimisloendisse teisaldamine (see võib sisaldada selle avamist)    | Alt + M, S või Ctrl + F8         |
 | Fookuse viimine lehe sisule (fookusega navigeerimisloendil)            | Alt + M, M või Ctrl + F8         |
-| Vormil Üksikasjad navigeerimisloendi sulgemine (fookusega navigeerimisloendil) | Esc-klahv                        |
+| Sule navigeerimisloend (fookusega navigeerimisloendis) | Esc-klahv                        |
 | Lehe põhisisu juurde liikumine (fookusega teisel paanil)                    | Alt + M, M                    |
 | Liikumine paanile Kiirinfo (mis võib hõlmata selle avamist)                       | Alt + M, B või Ctrl + F2         |
 | Liigu järgmise funktsiooni viiktekstini                                              | Alt+M,C                    |

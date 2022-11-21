@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878508"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764175"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -68,9 +68,9 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         > [!NOTE]
         > Lihtsustatud lahendaja on selleks, et jaemüüjad saaksid katsetada DOM-i funktsiooni spetsiaalset litsentsi juurutamata. Organisatsioonid ei tohi lihtsustatud lahendajat kasutada tootmiskeskkondades.
         >
-        > Tootmise lahendaja parendab jõudlust (nt käituses käsitletavate tellimuste ja tellimuse ridade arv) ja tulemuste ühitamist (kuna tellimuste partii ei pruugi anda mõnes stsenaariumis parimat tulemust). Mõned reeglid, nt **osaliste tellimuste reegel** ja **asukohtade maksimumarvu reegel**, vajavad tootmise lahendajat.
+        > Tootmise lahendaja parendab jõudlust (nt käituses käsitletavate tellimuste ja tellimuse ridade arv) ja tulemuste ühitamist (kuna tellimuste partii ei pruugi anda mõnes stsenaariumis parimat tulemust). Reegel **Osalised tellimused** nõuab tootmise lahendajat.
 
-6. Minge tagasi suvandisse **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Häälestus \> DOM-i parameetrid**.
+6. Minge tagasi suvandisse **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Seadistus \> DOM-i parameetrid**.
 7. Vahekaardil **Numbriseeriad** määrake mitmesugustele DOM-i üksustele vajalikud numbriseeriad.
 
     > [!NOTE]

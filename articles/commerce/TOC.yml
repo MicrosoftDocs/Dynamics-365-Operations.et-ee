@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Google Pay konfigureerimine Adyeniga
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Apple Pay häälestamine Adyeniga
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Dynamics 365 Payment Connector Adyeni jaoks – tõrkeotsing
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Arve tasumise stsenaariumide häälestus
                       href: payinvoice.md
+                    - name: Ettemaksed rakenduses Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Duplikaatmaksete vältimine
                       href: duplicate-payment-protection.md
                     - name: Omnikanali maksete ülevaade

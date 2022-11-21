@@ -1,5 +1,5 @@
 ---
-title: Koondplaneerimisega alustamine
+title: Koondplaneerimise kasutamise alustamine
 description: See artikkel selgitab, kuidas alustada koondplaneerimise funktsioonide kasutamist rakenduses Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740325"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780304"
 ---
-# <a name="get-started-with-master-planning"></a>Koondplaneerimisega alustamine
+# <a name="get-started-with-master-planning"></a>Koondplaneerimise kasutamise alustamine
 
 [!include [banner](../../includes/banner.md)]
 
@@ -31,7 +31,7 @@ Tarneahela halduse koondplaneerimist pakub väline teenus nimega Planeerimise op
 
 ## <a name="availability"></a>Kättesaadavus
 
-Plaanimise optimeerimine on praegu saadaval järgmistes Azure’i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Prantsusmaa, Ühendkuningriik, Austraalia, Aasia Vaikse ookeani, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Plaanimise optimeerimine on praegu saadaval järgmistes Azure’i geograafilistes asukohtades: USA, Kanada, Brasiilia, Euroopa, Prantsusmaa, Ühendkuningriik, Norra, Šveits, Austraalia, Aasia Vaikse ookeani diagramm, Jaapan ja India. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata. Lisateavet Azure'i piirkondade ja seotud piirkondade kohta vt [Azure'i piirkonnad](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Pange tähele, et planeerimise optimeerimine ei toeta Dynamics 365 Supply Chain Management-i kohapealseid juurutusi.
 

@@ -2,13 +2,13 @@
 title: Konsolideerimise ja eemaldamise ülevaade
 description: Selles artiklis anatkse üldist teavet konsolideerimis- ja eemaldamisprotsessi kohta. See sisaldab vastuseid korduma kippuvatele küsimustele.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871387"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779903"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolideerimise ja eemaldamise ülevaade
 
@@ -46,49 +46,38 @@ Eemaldamisi saab esitada mitmel moel.
 Konsolideerimisstsenaariume on mitu ja iga meetod saab käsitleda stsenaariume erinevalt.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
-1. Eelistan eemaldamiste sisestamist andmebaasi. Millised võimalused mul selleks on?
+Eelistan eemaldamiste sisestamist andmebaasi. Millised võimalused mul selleks on?
+ - Teil on mitu võimalust. Saate kasutada suvandit **Konsolideeri võrgus** ja kaasata eemaldamised protsessi käigus või soovitusena. Kanded sisestatakse konsolideeritud ettevõttes. Teise võimalusena võib teil olla eraldi ettevõte, millesse loote eemaldamisi käsitsi ja kasutate seejärel seda ettevõtet finantsaruandluses või konsolideerimisprotsessis.
 
-Teil on mitu võimalust. Saate kasutada suvandit **Konsolideeri võrgus** ja kaasata eemaldamised protsessi käigus või soovitusena. Kanded sisestatakse konsolideeritud ettevõttes. Teise võimalusena võib teil olla eraldi ettevõte, millesse loote eemaldamisi käsitsi ja kasutate seejärel seda ettevõtet finantsaruandluses või konsolideerimisprotsessis.
+Vajame konsolideeritud tulemusi mitmes aruandluse valuutas.
+ - Suvandil **Finantsaruandlus** on piiramatult aruandlusvaluutasid. Andmed teisendatakse aruande loomisel põhikontol seadistatud vahetuskursi tüübi ja valuuta teisendusmeetodi põhjal. Kuna suvandil **Konsolideeri võrgus** on ainult üks aruandlusvaluuta, on selle suvandi kasutamisel konsolideeritud ettevõte vajalik iga aruandlusvaluuta puhul. Soovitatavaks meetodiks on suvand **Finantsaruandlus**.
 
-2.  Vajame konsolideeritud tulemusi mitmes aruandluse valuutas.
+Soovin näha kande taseme üksikasju iga ettevõtte puhul.
+ - Lahenduseks on suvand **Finantsaruandlus**, kuna kande taseme üksikasju saab vaadata nii mitme ettevõtte puhul kui neid on aruandluspuu definitsiooni kaasatud.
 
-Suvandil **Finantsaruandlus** on piiramatult aruandlusvaluutasid. Andmed teisendatakse aruande loomisel põhikontol seadistatud vahetuskursi tüübi ja valuuta teisendusmeetodi põhjal. Kuna suvandil **Konsolideeri võrgus** on ainult üks aruandlusvaluuta, on selle suvandi kasutamisel konsolideeritud ettevõte vajalik iga aruandlusvaluuta puhul. Soovitatavaks meetodiks on suvand **Finantsaruandlus**.
+Kasutame eelarve plaanimist või eelarve juhtimist ja see tuleb konsolideerida.
+ - Mis tahes eelarve plaanimise või eelarve juhtimise andmete konsolideerimise lahenduseks on suvand **Finantsaruandlus**.
 
-3. Soovin näha kande taseme üksikasju iga ettevõtte puhul.
+Meie tütarettevõtted asuvad kogu maailmas ja neil on mitu kontoplaani. Mis on parim viis meie andmete konsolideerimiseks?
+- Mitme kontoplaani käsitsemiseks on teil mitu võimalust. Saate kasutada suvandit **Konsolideeri võrgus** ja valida seejärel põhikontol määratletud konsolideerimiskonto või konsolideerimiskontode grupi kasutamise. Saate kasutada ka suvandit **Finantsaruandlus**, lisada readefinitsioonis mitu linki finantsdimensioonidele ja kontod vastendada.
 
-Lahenduseks on suvand **Finantsaruandlus**, kuna kande taseme üksikasju saab vaadata nii mitme ettevõtte puhul kui neid on aruandluspuu definitsiooni kaasatud.
+Nõuame konsolideerimist mitmel tasemel. Teisisõnu konsolideerime esmalt meie Euroopa tütarettevõtted Briti naeltesse (GBP). Seejärel võtame need andmed ja teisendame konsolideeritud summa USA dollaritesse. Kuidas me seda teha saame?
+- Konsolideerimise mitme taseme nõudmisel ja igal tasemel eri valuutade kasutamisel peate kasutama suvandit **Konsolideeri võrgus**. Luua tuleb mitu konsolideerimisettevõtet, mis erinevad arvestus- ja aruandlusvaluutade poolest. Konsolideerimist tuleb seejärel käivitada mitu korda. Suvand **Finantsaruandlus** teisendab alati iga lähteettevõtte arvestusvaluutast valitud valuutasse.
 
-4. Kasutame eelarve plaanimist või eelarve juhtimist ja see tuleb konsolideerida.
+Meil on tütarettevõtteid eri süsteemis. Kuidas saame neid konsolideerida?
+- Kasutage suvandit **Konsolideeri impordiga** saldode viimiseks konsolideeritud ettevõttesse.
 
-Mis tahes eelarve plaanimise või eelarve juhtimise andmete konsolideerimise lahenduseks on suvand **Finantsaruandlus**.
+Mõned meie tütarettevõtted pole ainuomanduses. Mis on parim viis nende konsolideerimiseks?
+- Teil on osaomanduses tütarettevõtete puhul mitu võimalust. Kasutades suvandit **Finantsaruandlus** saate määratleda aruandluspuu definitsiooni ja omandiõiguse. Samuti saate kasutada osaomanduses summa tähistamiseks arvutatud rida või veergu. Saate kuvada ka vähemusosaluse aruande eraldi reana. Samuti saate kasutada suvandit **Konsolideeri võrgus**. Vahekaardil **Juriidilised isikud** on veerg **Omandiõigus**, milles saate määrata emaettevõtte osalusprotsendi.
 
-5. Meie tütarettevõtted asuvad kogu maailmas ja neil on mitu kontoplaani. Mis on parim viis meie andmete konsolideerimiseks?
+Meie organisatsioon peab näitama konsolideerimisi äriüksuse järgi või soovib kasutada organisatsiooni hierarhiaid.
+- Lahenduseks on suvand **Finantsaruandlus**. Organisatsiooni hierarhiad, milles on juriidilisi isikuid või finantsdimensioone, saab esitada finantsaruandluses. Saate luua ka oma mitmetasandilised hierarhiad, kasutades aruandluspuu definitsiooni, milles on juriidiliste isikute ja dimensiooniväärtuste kombinatsioon.
 
-Mitme kontoplaani käsitsemiseks on teil mitu võimalust. Saate kasutada suvandit **Konsolideeri võrgus** ja valida seejärel põhikontol määratletud konsolideerimiskonto või konsolideerimiskontode grupi kasutamise. Saate kasutada ka suvandit **Finantsaruandlus**, lisada readefinitsioonis mitu linki finantsdimensioonidele ja kontod vastendada.
+Meil on rohkem kui üks süsteemi eksemplar.
+- Kasutades ühest eksemplarist eksportimiseks suvandit **Ekspordi ettevõtte saldod** ja kasutades seejärel teisel eksemplaril suvandit **Konsolideeri impordiga**, saate andmed konsolideerida.
 
-6. Nõuame konsolideerimist mitmel tasemel. Teisisõnu konsolideerime esmalt meie Euroopa tütarettevõtted Briti naeltesse (GBP). Seejärel võtame need andmed ja teisendame konsolideeritud summa USA dollaritesse. Kuidas me seda teha saame?
-
-Konsolideerimise mitme taseme nõudmisel ja igal tasemel eri valuutade kasutamisel peate kasutama suvandit **Konsolideeri võrgus**. Luua tuleb mitu konsolideerimisettevõtet, mis erinevad arvestus- ja aruandlusvaluutade poolest. Konsolideerimist tuleb seejärel käivitada mitu korda. Suvand **Finantsaruandlus** teisendab alati iga lähteettevõtte arvestusvaluutast valitud valuutasse.
-
-7. Meil on tütarettevõtteid eri süsteemis. Kuidas saame neid konsolideerida?
-
-Kasutage suvandit **Konsolideeri impordiga** saldode viimiseks konsolideeritud ettevõttesse.
-
-8. Mõned meie tütarettevõtted pole ainuomanduses. Mis on parim viis nende konsolideerimiseks?
-
-Teil on osaomanduses tütarettevõtete puhul mitu võimalust. Kasutades suvandit **Finantsaruandlus** saate määratleda aruandluspuu definitsiooni ja omandiõiguse. Samuti saate kasutada osaomanduses summa tähistamiseks arvutatud rida või veergu. Saate kuvada ka vähemusosaluse aruande eraldi reana. Samuti saate kasutada suvandit **Konsolideeri võrgus**. Vahekaardil **Juriidilised isikud** on veerg **Omandiõigus**, milles saate määrata emaettevõtte osalusprotsendi.
-
-9. Meie organisatsioon peab näitama konsolideerimisi äriüksuse järgi või soovib kasutada organisatsiooni hierarhiaid.
-
-Lahenduseks on suvand **Finantsaruandlus**. Organisatsiooni hierarhiad, milles on juriidilisi isikuid või finantsdimensioone, saab esitada finantsaruandluses. Saate luua ka oma mitmetasandilised hierarhiad, kasutades aruandluspuu definitsiooni, milles on juriidiliste isikute ja dimensiooniväärtuste kombinatsioon.
-
-10. Meil on rohkem kui üks süsteemi eksemplar.
-
-Kasutades ühest eksemplarist eksportimiseks suvandit **Ekspordi ettevõtte saldod** ja kasutades seejärel teisel eksemplaril suvandit **Konsolideeri impordiga**, saate andmed konsolideerida.
-
-11. Kas ma saan teha konsolideerimist, kui mu eelarve olek on **MUSTAND**? 
-            
-Konsolideeritavas ettevõttes ei saa te oma eelarveid töödelda ega lõpule viia. Soovitame kasutada eelarvemustandite konsolideerimiseks rakendust Financial Reporting.
+Kas ma saan teha konsolideerimist, kui mu eelarve olek on **MUSTAND**? 
+- Konsolideeritavas ettevõttes ei saa te oma eelarveid töödelda ega lõpule viia. Soovitame kasutada eelarvemustandite konsolideerimiseks rakendust Financial Reporting.
 
 Lisateabe saamiseks vaadake jaotist [Valuuta ümberhindamine konsolideerimisettevõttes](../general-ledger/currency-revaluation-consolidation-company.md).
 

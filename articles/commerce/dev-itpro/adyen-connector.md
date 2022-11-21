@@ -2,7 +2,7 @@
 title: Dynamics 365 Payment Connector Adyeni jaoks – ülevaade
 description: See artikkel annab Microsoft Dynamics Puhvri 365 Payment Connectori ülevaate Puhvrile.
 author: rassadi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ms.topic: overview
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -12,13 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 931fc69cda8daa2e06b6f1155fbf0369fd2bca55
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728293"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784988"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Dynamics 365 Payment Connector Adyeni jaoks – ülevaade
 
@@ -96,6 +95,11 @@ Allolevas loendis kirjeldatakse kassa iga versiooni jaoks toetatud minimaalseid 
 
 ### <a name="supported-payment-terminals"></a>Toetatud makseterminalid
 Dynamics 365 makse ülemine konnektor Puhvrile kasutab seadme-agnostilise [Puhvri makseterminali API-d](https://www.adyen.com/blog/introducing-the-terminal-api). See toetab kõiki makseterminale, mida rakendusliides (API) toetab. Toetatud makseterminalide täieliku loendi saamiseks külastage [Terminen POS-i terminalide](https://www.adyen.com/pos-payments/terminals) lehte.
+
+Järgmises videos kirjeldatakse Terminen Miles SE1 makseterminali Android võimalusi.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
 
 ### <a name="supported-payment-instruments"></a>Toetatud maksevahendid
 

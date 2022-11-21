@@ -2,23 +2,23 @@
 title: Hilisema kuupäevaga tšekkide häälestus
 description: See artikkel selgitab, kuidas määrata, kas sisestada töölehe sisestused pärast kuupäevaga tšekkide jaoks ja millist töölehte kasutada kliiringukirjete ja hankijamaksete jaoks.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e7172dd56113de23d841fe59ed9785471e90ed1f
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870303"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779605"
 ---
 # <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide häälestus
 
@@ -32,33 +32,33 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
 
 
 ## <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide seadistamine
-1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid.
-2. Klõpsake vahekaarti Hilisema kuupäevaga dateeritud tšekid.
-3. Märkige või tühjendage ruut Luba hilisema kuupäevaga dateeritud tšekid.
-4. Märkige või tühjendage ruut Sisesta töölehe kirjed hilisema kuupäevaga dateeritud tšekkide jaoks.
-5. Määrake väljal Kliiringukonto väljastatud tšekkide jaoks soovitud väärtused.
-6. Määrake väljal Kliiringukonto vastuvõetud tšekkide jaoks soovitud väärtused.
-7. Sisestage väärtus väljale Pearaamat kliiringukirjete jaoks.
-8. Sisestage väärtus väljale Kanna hilisema kuupäevaga dateeritud tšekid üle selle hankija maksetöölehele.
-9. Määrake väljal Kinnipeetava maksu kliiringukonto soovitud väärtused.
-10. Klõpsake nuppu Salvesta.
+1. Avage sularaha **ja panga > > parameetrite seadistus**.
+2. Klõpsake vahekaardile **Järelndekseeritud tšekid**.
+3. Märkige või tühjendage ruut **Luba järeldindekseeritud** tšekid.
+4. Märkige või tühjendage **ruut Sisesta töölehe kirjed, et sisestada aegunud** tšekid.
+5. Määrake väljal **Kliiringukonto väljastatud** tšekkide jaoks soovitud väärtused.
+6. Määrake väljal **Kliiringukonto vastuvõetud tšekkide** jaoks soovitud väärtused.
+7. Väljale Peatööleht **kliiringukirjete** jaoks tippige väärtus.
+8. Sisestage **väärtus väljale Kandud üle sellele hankija maksetöölehele**.
+9. Määrake väljal **Kinnipeetava maksu kliiringukonto** soovitud väärtused.
+10. Klõpsake nuppu **Salvesta**.
 11. Sulgege leht.
-12. Avage Ostureskontro > Makse seadistus > Makseviisid.
-13. Klõpsake valikut Uus.
-14. Sisestage väärtus väljale Makseviis.
-15. Märkige ruut Hilisema kuupäevaga dateeritud tšekkide kliiringsisestus näitamaks, et tšeki summa sisestatakse kliiringukontole.
-16. Valige väljalt Konto tüüp suvand Pank.
+12. Minge > **ostureskontro > seadistuse makseviiside kohta**.
+13. Klõpsake valikut **Uus**.
+14. Väljale **Makseviis** sisestage väärtus.
+15. Valige järeldindeeritud **tšekkide tühjendamise sisestamise** suvand, et näidata tšeki summa sisestamist kliiringukontole.
+16. **Väljal Konto tüüp** valige **pank**.
     * Maksemeetodi vastaskonto on pank.  
-17. Määrake väljal Maksekonto soovitud väärtused.
+17. **Määrake väljal Maksekonto** soovitud väärtused.
     * Valige pangakonto, mida kasutatakse arvesumma mahaarvamiseks.  
-18. Klõpsake nuppu Salvesta.
+18. Klõpsake nuppu **Salvesta**.
 19. Sulgege leht.
 > [!NOTE]
 > Et saada pärast kuupäevaga dateeritud tšekki pangakontole sisestada, kui seansi kuupäev on tähtajakuupäevast suurem või sellega võrdne, peate lubama funktsiooni **Tähtaja kuupäeva kinnitamise maksetöölehe sisestamisel kuupäevaga dateeritud tšekkide** pangakontole. See funktsioon võimaldab teil sisestada maksetöölehti hankijatele või klientidele, kellel on dateeritud tšekid, kui seansi kuupäev on tähtaja kuupäevast suurem või sellega võrdne.
 > 
-> Kui seadistate **maksemeetodi** (**Ostureskontro > Makse seadistus > Makseviisid)**, ärge täitke **Ühiskontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
+> Makseviisi **seadistamisel** (Ostureskontro **> Makseseadistus >** makseviisid), **ärge täitke bridging-kontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
 >  
-> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse maksetöölehe sisestamisel järgmine tõrketeade: "Tähtaja kuupäev peab olema seansi kuupäevast väiksem või sellega võrdne, kui vastaskonto tüüp on Pank". Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.
+> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse makse töölehe sisestamisel järgmine tõrketeade, mille tähtaeg peab olema seansi kuupäevast väiksem või sellega võrdne, **kui vastaskonto tüüp on Pank**. Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.
 > See funktsioon on saadaval rakenduses versioonis 10.0.21 ja uuemas.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
