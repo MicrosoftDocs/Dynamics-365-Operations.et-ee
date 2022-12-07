@@ -2,7 +2,7 @@
 title: Põhikonto tüübid
 description: Põhikonto tüübid määratlevad selle, kuidas põhikontot kontoplaanis kasutatakse.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0f5611cdb3427079e040d30d97dbc91fca4bb078
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716855"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799350"
 ---
 # <a name="main-account-types"></a>Põhikonto tüübid
 
@@ -28,11 +28,11 @@ ms.locfileid: "8716855"
 
 Põhikonto tüübid määratlevad selle, kuidas põhikontot kontoplaanis kasutatakse.
 
-Leheküljel Põhikontod – kontoplaan põhikontot luues peate valima põhikonto tüübi.
--   Kasum ja kahjum, tulu ning kulu – neid põhikontosid kasutatakse sisestuskontodena. Kasumi ja kahjumi kontosid kasutatakse tulude ja kulude kirjendamiseks. Kasumi ja kahjumi, tulude ning kulude kontode summa määrab aastalõpu tulemused. Tulu ja kulu põhikontodel on sama funktsioon nagu kasumi ja kahjumi põhikontodel.
--   Bilanss, vara, kohustus ja omakapital – neid põhikontosid kasutatakse kandekontodena juriidilise isiku omatavate ja võlgnetavate summade kirjendamiseks.
--   Kokku – neid põhikontosid kasutatakse kontovahemike lisamiseks. Põhikonto tüüpi Kokku saate konfigureerida kasutades lehekülge Kontovahemik, kus kuvatakse kõigi kontovahemike grupeeritud saldod kogusumma järgi. Kui olete valinud konto tüübi Kokku, pääsete leheküljele Kontovahemik, klõpsates vahekaardil Üldine valikud Kogusummad.
--   Aruandlus – neid põhikontosid kasutatakse üksnes Brasiilia finantsaruande aruandluse jaoks.
+Peate valima põhikonto tüübi, kui loote põhikonto lehel Põhikontod **– kontoplaan** .
+-   **Tulu ja kulu**, **Tulu** ja **Kulu**  – neid põhikontosid kasutatakse sisestuskontodena. **Tulu ja kulu** kontosid kasutatakse tulude ja kulude kirjendamiseks. Kasumi ja kahjumi, tulude ning kulude kontode summa määrab aastalõpu tulemused. **Tulu** ja **kulu** põhikontodel on sama funktsioon kui kasumi ja **kahjumi põhikontodel** .
+-   **Bilanss**, **Vara**, **Kohustus** **ja Omakapital**  – neid põhikontosid kasutatakse kandekontodena, et kirjendada summasid, mis juriidilisele isikule kuulub või on võlgu.
+-   **Kokku**  – neid põhikontosid kasutatakse kontovahemike lisamiseks. Konfigureerige **põhikonto** kogusumma tüüp, kasutades kontovahemiku **lehte**, kus kuvatakse kõigi kontovahemike grupi saldode kogusumma. Kui olete valinud **kontotüübi** Summa, **pääsete kontovahemiku**  **leheküljele** juurde, valides vahekaardil **Üldine** suvandi Kogusummad.
+-   **Aruandlus** – neid põhikontosid kasutatakse ainult Brasiilia finantsaruandluses.
 
 Lisateavet vt teemast [Põhikonto kategooriate seadistamine](tasks/set-up-main-account-categories.md).
 

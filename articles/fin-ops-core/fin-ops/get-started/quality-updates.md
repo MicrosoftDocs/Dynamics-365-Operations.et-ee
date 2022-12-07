@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
-ms.translationtype: HT
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775511"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805310"
 ---
 # <a name="proactive-quality-updates"></a>Ennetavad kvaliteedivärskendused
 
@@ -29,10 +29,10 @@ Selle eelduse kinnitavad tulemused: väiksem juhtumite arv kõigis meie toodetes
 ## <a name="what-you-need-to-know"></a>Mida on vaja teada
 
 - Ennetavat kvaliteediuuendust rakendatakse kord kuus.
-- Microsoft rakendab proaktiivseid kvaliteediuuendusi mis tahes [rakenduskeskkondadele](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change), kus käitatakse ennetava kvaliteedivärskenduse loomisel teenuse värskendust.
+- Microsoft rakendab proaktiivseid kvaliteediuuendusi mis tahes [rakenduskeskkondadele](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) , kus käitatakse ennetava kvaliteedivärskenduse loomisel teenuse värskendust.
 - Ennetava kvaliteediuuenduse erandid on lubatud klientidele, kelle suhtes kehtib USA Toiduainete- ja raviamet (FDA).
 - Microsoft määrab, kuidas ennetavat kvaliteedivärskendusi hallatakse reguleeritud keskkondades ning teenuste ja valitsuse pilve klientide jaoks.
-- Ennetava kvaliteedivärskendusega seotud teatised [Microsoft 365](https://admin.microsoft.com/AdminPortal/)Microsoft Dynamics sisestatakse teatekeskuses ja kliendi elutsükli teenuste projektis.
+- Ennetava kvaliteedivärskendusega seotud teatised [Microsoft 365](https://admin.microsoft.com/AdminPortal/)  Microsoft Dynamics sisestatakse teatekeskuses ja kliendi elutsükli teenuste projektis.
 - Viis päeva enne enne enne enne kvaliteedivärskenduse rakendamist keskkonnas teavitatakse kliente värskendamisest.
 - Kliendid ei saa ennetavat kvaliteediuuendust tühistada ega edasi lükata.
 - Ennetavad kvaliteedivärskendused installitakse regioonispetsiifilise plaanitud [hooldusakna ajal](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
@@ -43,7 +43,7 @@ Selle eelduse kinnitavad tulemused: väiksem juhtumite arv kõigis meie toodetes
 
 Pakume praegu 7 [teenuseuuendust](public-preview-releases.md) aastas. Näiteks versioon 10.0.29 on teenuse värskendus. Kuni viimaseni uuendati aasta kohta kaheksat uuendust. Kuid me kukutasime ühe värskenduse vastuseks kliendi tagasisidele, mis soovis vältida muudatusi kalendriaasta lõpus.
 
-Teenuse uuenduste sagedust ei muuda me. Selle asemel keskendub meie järgmine samm edasi ühe versiooni reisil *kvaliteediuuendustele*. Kvaliteediuuendused on kiirparanduste kumulatiivsed järgud. Need ei sisalda uusi funktsioone. Mis tahes aja jooksul on kogu meie klientide ühendus erinevusi kolme või nelja kõige viimase teenuse uuenduse vahel. Iga teenusevärskenduse puhul saab siiski kasutada grupi sees tosinat erinevat kvaliteedivärskenduse versiooni, sõltuvalt juurutatud inimeste kuupäevadest. Järgmise sammuna levitame ennetavalt kvaliteediuuendusi. Me juba kasutame seda mudelit meie - Dataverse põhiste rakenduste jaoks ning oleme pidanud nägema eeldatavaid kvaliteedi parandamise ja vähenenud tugijuhtumite tulemusi.
+Teenuse uuenduste sagedust ei muuda me. Selle asemel keskendub meie järgmine samm edasi ühe versiooni reisil *kvaliteediuuendustele*. Kvaliteediuuendused on kiirparanduste kumulatiivsed järgud. Need ei sisalda uusi funktsioone. Mis tahes aja jooksul on kogu meie klientide ühendus erinevusi kolme või nelja kõige viimase teenuse uuenduse vahel. Iga teenusevärskenduse puhul saab siiski kasutada grupi sees tosinat erinevat kvaliteedivärskenduse versiooni, sõltuvalt juurutatud inimeste kuupäevadest. Järgmise sammuna levitame ennetavalt kvaliteediuuendusi. Kasutame juba seda mudelit meie põhinevate Dataverse rakenduste jaoks ning oleme pidanud nägema eeldatavaid kvaliteedi parandamise ja vähenenud tugijuhtumite tulemusi.
 
 Defektide vähenemine võib muidugi vähendada või täielikult eemaldada kvaliteediuuenduste vajaduse. Meil on lennus mitu algatused kvaliteediuuendust nõudva defekti vähendamiseks. Isegi siis, kui kvaliteedi uuendamisel vähendatakse töökoormust, parandab järjepidevus kliendibaasi kaudu tugitavust, tagab klientide parendusi kiiremini ja vähendab klientide sagedust lahenduste juba olemas olemise probleemi korral.
 
@@ -51,11 +51,11 @@ Defektide vähenemine võib muidugi vähendada või täielikult eemaldada kvalit
 
 Mitmed ettemaksed on juba juurutatud, mis võimaldavad kvaliteediuuenduste ennetavat tarnimist:
 
-- **Nullväärtusega downtime-uuendamine** – sagedaste keskkondade tõukamiseks on oluline vähendada mõju keskkonna saadavusele, et säilitada Dynamics 365 teenustaseme lepingud (SLAs). Algselt juurutati nullväärtusega ajaline uuendamine, et aidata parandada kuu operatsioonisüsteemi paikamist klastri ülemineku abil värskendatud pildi aktiveerimiseks minimaalse katkestusega. Uuenduste rakendamise mehhanism on täiustatud nii, et see oleks veel vähem katkestav ning kataks nii operatsioonisüsteemi paikamise kui ka kvaliteediuuenduse juurutamise.
+- **Nullväärtusega downtime-uuendamine**  – sagedaste keskkondade tõukamiseks on oluline vähendada mõju keskkonna saadavusele, et säilitada Dynamics 365 teenustaseme lepingud (SLAs). Algselt juurutati nullväärtusega ajaline uuendamine, et aidata parandada kuu operatsioonisüsteemi paikamist klastri ülemineku abil värskendatud pildi aktiveerimiseks minimaalse katkestusega. Uuenduste rakendamise mehhanism on täiustatud nii, et see oleks veel vähem katkestav ning kataks nii operatsioonisüsteemi paikamise kui ka kvaliteediuuenduse juurutamise.
 
     Interaktiivsete kasutajate puhul võib aktiivne seanss katkeda ja uuesti käivitatakse uuesti uuendatud keskkond. Prioriteedipõhise pakkplaneerimise [juurutamisel taastatakse](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) pakkplaneerimine ja töötlemine ning seda jätkatakse kohe pärast uuendamist. Prioriteetne pakkplaneerimine toimub klientide jaoks enne, kui nad hakkavad osalema oma tootmiskeskkondades kvaliteediuuenduste ennetavas jaotuses.
 
-- **tumetunnid** – tume tunnid on määratud igale Azure’i piirkonnale ja lähedalasuvad null ajaperioodi värskendused tekivad tumetunnise perioodi jooksul.
+- **tumetunnid**  – iga Azure’i piirkonna jaoks on määratud tumetunnid ja tumetunnise perioodi jooksul ilmnevad lähedalasuvad null ajaperioodi uuendused.
 
 ## <a name="the-proactive-update-process"></a>Ennetav uuendusprotsess
 
@@ -67,15 +67,15 @@ Praegused väljalaskehalduse andmed näitavad, et kvaliteediuuendustele tutvusta
 
 Protsessimuudatuste kogum rakendatakse enne enne kvaliteedivärskenduse juurutamist.
 
-- **Skeem**: tööriistamine tagab, et kvaliteedivärskenduse järgud sisaldavad ainult skeemi muudatusi, mida saab rakendada, kui teenus on võrgus. See lähenemine aitab säilitada võimalust rakendada uuendust nullväärtusega downtime’iga.
-- **Aktiivsete muudatuste** muutumine on juba täiendav protsessisamm, et kinnitada muudatused kvaliteedivärskendusse kaasamise jaoks. Regressioone võimalike vähendamiseks suurendatakse lisasammide edasist haldust. Kvaliteediuuenduste puhul pole katkestatud muudatused lubatud ja suurenenud muudatus aitab tagada, et vastame sellele sihile.
-- **Nähtavus** – teatised saadetakse halduskeskuse, elutsükli teenuste ja muude saadaolevate kanalite kaudu eesseisva ennetava kvaliteediuuenduse jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
+- **Skeem**– tööriistamine tagab, et kvaliteedivärskenduste järgud sisaldavad ainult skeemi muudatusi, mida saab rakendada, kui teenus on võrgus. See lähenemine aitab säilitada võimalust rakendada uuendust nullväärtusega downtime’iga.
+- **Suurenenud muutumine**  võib praegu olla lisaprotsessisamm, et kinnitada muudatused kvaliteedivärskendusse kaasamise jaoks. Regressioone võimalike vähendamiseks suurendatakse lisasammide edasist haldust. Kvaliteediuuenduste puhul pole katkestatud muudatused lubatud ja suurenenud muudatus aitab tagada, et vastame sellele sihile.
+- **Nähtavus**  – teatised saadetakse halduskeskuse, elutsükli teenuste ja muude saadaolevate kanalite kaudu eesseisva ennetava kvaliteediuuenduse jaoks. Lisaks on tugimeeskonnad ja juhtumi vihjed nähtavusega seal, kus kvaliteediuuendused on ennetavalt juurutatud.
 
     > [!NOTE]
     > Microsofti kommunikatsioonimeeskond takistab meiliteatiste saatmist takistava meilitööriista jooksvat edastust. Jätkake teatekeskuse jälgimist Microsoft 365 sellega seotud sisse- ja väljaminek.
 
-- **Nurjumine turvaliselt lennupileti** kaudu – lennupileti kasutamist kasutatakse lähtekoodi muudatusteks, kui see on kvaliteedivärskenduse vigases paranduses, või kasutage paranduse jaoks asjakohast olemasoleva funktsioonilendimist. Kui pärast ennetavat juurutamist on vaja tagasipööramist või muutuse pööramist, saab seda teha lennusüsteemi kaudu, et vältida edasisi tõrkeid.
-- **Windowsi sünkroonimise määramine** – vähem kui 20%-l klientidest on täna mitu ruutu ja ühe boksi juurutamiseks on versiooni vastendamise tootmisse juurutatud, et aidata teil tõrkeotsingut. Kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see märkeruut kvaliteediuuendused uuemale versioonile.
+- **Nurjumine seifi lennupileti**  kaudu – lennulendi kasutatakse lähtekoodi muudatusteks, kui see on kvaliteedivärskenduse vigases paranduses, või kasutage paranduse jaoks asjakohast olemasoleva funktsioonilendimist. Kui pärast ennetavat juurutamist on vaja tagasipööramist või muutuse pööramist, saab seda teha lennusüsteemi kaudu, et vältida edasisi tõrkeid.
+- **Windowsi sünkroonimise määramine**  – vähem kui 20%-l klientidest on täna mitu ruutu ja tõrke lahendamiseks hoidke üks boksi juurutatud koht, kus versioon vastab tootmisele. Kui klient kasutab märkeruutu uuema versiooni testimiseks kui nende tootmises, saab see märkeruut kvaliteediuuendused uuemale versioonile.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Mis on kvaliteediuuenduste jaoks pöördumine?
 
@@ -105,19 +105,19 @@ Lisateavet iga piirkonna tumetundide kohta vt jaotisest "Millised on [planeeritu
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Ennetav kvaliteedivärskenduse vabastus: 10.0.29
 **Rakenduse versioon: 10.0.1326.70**  
-**Vastav viimane teabebaasi artikkel: 748926**
+**Vastav viimane teabebaasi artikkel: 750332**
 
 | Station | Regioonid | Lõpetatud graafik | Eesseisv graafiku graafik|
 |---|---|---|---|
-| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober – 17. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
-| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 15. oktoober – 18. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
-| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 16. oktoober – 19. oktoober 2022, 2. november – 5. november 2022. | 13. november – 16. november 2022 |
-| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober – 20. oktoober 2022, 2. november – 5. november 2022. | 15. november – 18. november 2022 |
+| 1. station | Kanada kesk, Kanada, Ida, Prantsusmaa kesk, India Kesk, Norra, Ida, Šveitsi lääs | 14. oktoober – 17. oktoober 2022, 2. november – 5. november 2022, 13. novembrist 16. novembrini 2022. | 5. detsember – 8. detsember|
+| Jaama 2 | Lõuna-Prantsusmaa, Lõuna-India, Lääne-Norra, Põhja-Šveits, Lõuna-Aafrika põhjaosa, Ida-Austraalia, Lõuna-Ühendkuningriik, Põhja-AÜE, Ida-Jaapan, Kagu-Austraalia, Kagu-Aasia | 15. oktoober – 18. oktoober 2022, 2. november – 5. november 2022, 13. novembrist 16. novembrini 2022. | 5. detsember – 8. detsember|
+| 3. station | Ida-Aasia, UK West, Jaapani lääs, Brasiilia Lõuna, Lääne-Euroopa, Ida-USA, AÜE Kesk | 16. oktoober – 19. oktoober 2022, 2. november – 5. november 2022, 13. novembrist 16. novembrini 2022. | 5. detsember – 8. detsember|
+| Jaama 4 | Põhja-Euroopa, Kesk-USA, Lääs USA | 17. oktoober – 20. oktoober 2022, 2. november – 5. november 2022, 15. novembrist 18. novembrini 2022. | 5. detsember – 8. detsember|
 | Jaama 5 | DoD, Valitsuse kogukonna pilves, Hiina | Pole plaanitud | Pole plaanitud |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Ennetav kvaliteedivärskenduse vabastus: 10.0.30
-**Rakenduse versioon: TBD vastav**
-**viimane KB artikkel: TBD**
+**Rakenduse versioon: 10.0.1362.77 viimane**
+**teabebaasi artikkel: 767597**
 
 | Station | Regioonid | Eesseisv graafiku graafik |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft püüab hoida vabastusvõimaluste tõhusust, et tagada väikeste lasti
 Ei. Kvaliteediuuenduste peamine eesmärk on tagada, et turvalisus, privaatsus, usaldusväärsust, kättesaadavust ja jõudlust täiustatakse pidevalt meie klientide puhul. Värskendamise, turvalisuse, kättesaadavuse ja usaldusväärsuse edasilükkamine või selle edasilükkamine on riskiks.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Kuidas ma teada, millised muutused muutusid kvaliteedivärskenduse töökoormuses?
-Järgmised sammud on ajutine lahendus, kuna jätkame tööd parema lahenduse pakkumisega, et tuvastada kvaliteedivärskenduse lasti minevate muudatuste loend. 
+Järgige alltoodud samme, et tuvastada kvaliteedivärskenduse töökoormusse minev muudatuste loend. 
 
-Kasutage kb# 745340 10.0.28 kvaliteedivärskenduse rong ja sellega seotud rakenduse 10.0.1265.89.
+Kasutage 10.0.28 Kvaliteedivärskenduse rong ja sellega seotud rakenduse 10.0.1265.89.
 
 1. Elutsükli teenustes avage oma **boksi jaoks** keskkonna üksikasjade leht. 
 2. Jaotises Saadaolevad **värskendused** valige viimase kvaliteediuuenduse **järgu** jaoks suvand Kuva värskendus. 
-3. Eksportige kooste CSV-sse või faili Microsoft Excel.
-4. Sortige eksporditud failis teave aja (vanima) alusel ja seejärel otsige KB-745340 **veerus Update ID**. Nüüd saate näha KB-de deltaloendit.
+3. Eksportige kooste CSV-sse või faili Microsoft Excel .
+4. Eksporditud failis filtreerige ja valige **koosteversioon**, mis on väiksem või võrdne versiooni 10.0.1265.89. Nüüd saate näha delta tasukoormust.
  
 > [!NOTE]
 > Csv- või Exceli faili eksportimine peab toimuma enne keskkonna värskendamist. Vastasel juhul saate kasutada sarnase konfiguratsiooniga keskkonda, mille puhul pole värskendus installitud ja järgida ülaltoodud juhiseid.
@@ -185,8 +185,8 @@ Kui eelplaneeritud toiminguga on mingeid ladustusi, nt PITR (Point In Time Resto
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Kas keskkonna saab tagasi tuua oma eelnevasse olekusse, kui kvaliteedivärskenduse rakendamist on küsimusi?
 Pärast kvaliteedi värskenduse rakendamist ei ole mingites olukordades tagasipööramist. Probleemide lahendamiseks on saadaval ainult paiga edasised suvandid.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>Kuidas on FDA-määrusega jaGPX-iga?
-FDA kinnitamist ja korrastamist vajav klientide plaan on endiselt läbirnitud. Ootab varsti rohkem uuendusi selles ruumis. Kõik need kliendid on praegu kvaliteediuuendustest vabastatud. Kindlustamaks, et klient langeb FDA-määruste alla, külastageKIRJEt [Microsoft Azure LATEX-pakkumine](/azure/compliance/offerings/offering-gxp).
+## <a name="what-about-fda-regulation-and-gxp"></a>Kuidas on FDA määrusega ja GxP-ga?
+FDA kinnitamist ja korrastamist vajav klientide plaan on endiselt läbirnitud. Ootab varsti rohkem uuendusi selles ruumis. Kõik need kliendid on praegu kvaliteediuuendustest vabastatud. Kindlustamaks, et klient langeb FDA määruste alla, külastage [Microsoft Azure GxP-pakkumisi](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Millised teenusevärskenduste versioonid on nende kvaliteediuuenduste puhul toetatud?
 Kõigil toetatud teenusevärskenduste versioonil olevad kliendid kvalifitseeruvad kvaliteediuuendustele. 
@@ -198,5 +198,5 @@ Kuna kiirparanduse olemus ei muuda kvaliteedivärskenduste töökoormust, ei eel
 Tšeki keskkonnad on kvaliteedivärskenduste osas väljaspool vaadet.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Kas on olemas integratsiooniprobleeme Microsoft Dataverse? 
-Kvaliteediuuendustele ei ole teadaolevaid integratsiooniprobleeme.Dataverse
+Kvaliteediuuenduste jaoks puuduvad teadaolevad integratsiooniprobleemid Dataverse.
 

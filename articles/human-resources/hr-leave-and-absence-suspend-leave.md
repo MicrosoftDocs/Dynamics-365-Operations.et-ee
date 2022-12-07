@@ -1,8 +1,8 @@
 ---
-title: Puhkuse katkestamine
-description: Töötaja puhkuse saate katkestada rakenduses Dynamics 365 Human Resources.
+title: Peata puhkus
+description: Saate töötaja puhkuse peatada Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895898"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805256"
 ---
 # <a name="suspend-leave"></a>Puhkuse katkestamine
 
 >[!Important]
->Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
-
+>Selles artiklis märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Saate katkestada töötaja puhkuse, et lõpetada puhkuse viitvõlgade töötlemine valitud puhkuse tüüpide korral. 
+Saate peatada töötaja puhkuse, et lõpetada puhkuse laekumise töötlemine valitud puhkusetüüpide puhul.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Ühe töötaja puhkuse ja puudumise katkestamine
 
@@ -44,6 +43,9 @@ Saate katkestada töötaja puhkuse, et lõpetada puhkuse viitvõlgade töötlemi
 5. Soovi korral saate katkestamisele lisada **kommentaari**. 
 
 Kui viitvõlgu töödeldakse töötaja puhkuse katkestamise ajal, ei arvestata viitvõlgu katkestatud puhkuse tüüpide kohta.
+
+> [!NOTE]
+> Puudumistaotluste puhkus peatab puhkusetaotlused, kuid puhkusetaotlused ei peata puhkusetaotlusi.
 
 ## <a name="see-also"></a>Vt ka
 

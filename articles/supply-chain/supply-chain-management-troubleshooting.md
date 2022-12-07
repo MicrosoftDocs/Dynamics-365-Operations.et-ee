@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-07-12
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 24aed03172446fd97865b719497c51281231cf69
-ms.sourcegitcommit: b37596f943f6469af6c1590d74211a66a2900ece
+ms.openlocfilehash: 54d1aa9e20470b55c8085b41b65804b948846b7a
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138736"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806514"
 ---
 # <a name="supply-chain-management-troubleshooting-and-faqs"></a>Tarneahela halduse tõrkeotsing ja KKK
 
@@ -46,6 +46,7 @@ Järgmistes KKK-teemades käsitletakse tarneahela haldamisega seotud küsimusi.
 - [Tooteinfo haldamise KKK](pim/product-information-faq.md)
 - [Müügitellimuse KKK-d](sales-marketing/sales-orders-faq.md)
 - [Müügiajaloo andmete puhastamise plaanimine](sales-marketing/sales-update-history-cleanup-performance-improvements.md)
+- [DDMRP KKK](master-planning/planning-optimization/ddmrp-faqs.md)
 
 Järgmistes KKK-teemades käsitletakse platvormiga seotud probleeme, mida jagavad kõik finantside ja toimingute rakendused, sh tarneahela haldus:
 

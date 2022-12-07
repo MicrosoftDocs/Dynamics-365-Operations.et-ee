@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680353"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799622"
 ---
 # <a name="financial-dimensions"></a>Finantsdimensioonid
 
@@ -120,7 +120,7 @@ Selle sätte tuletatud dimensioonid ei asenda automaatselt olemasolevaid dimensi
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Tuletatud dimensioonide muutmise vältimine
  
-Kui kasutate tuletatud dimensiooni lisamiseks **Tuletatud dimensioonide lehel** olevat valikut **Lisa segment**, pakutakse **Lisa segment** lehe allosas suvandit, mis võimaldab teil vältida selle dimensiooni muutmist, kui see on lehele tuletatud. Vaikeseade on välja lülitatud, et see ei takistaks tuletatud dimensiooniväärtuste muutmist. Muutke seadistus olekule **Jah**, kui soovite vältida dimensiooni muutmist pärast selle tuletamist. Näiteks kui osakonna dimensiooni väärtus tuletatakse kulukeskuse dimensiooni väärtusest, ei saa osakonna väärtust muuta, kui seade **Muutmise vältimine** väärtus on **Jah**. 
+Kui kasutate tuletatud dimensiooni lisamiseks **Tuletatud dimensioonide lehel** olevat valikut **Lisa segment**, pakutakse **Lisa segment** lehe allosas suvandit, mis võimaldab teil vältida selle dimensiooni muutmist, kui see on lehele tuletatud. Vaikesäte on välja lülitatud, nii et see ei takista tuletatud dimensiooniväärtuste muutmist. Kui soovite dimensiooni **pärast tuletamist** muuta, muutke seadistus väärtuseks Jah. Näiteks kui osakonna dimensiooni väärtus tuletatakse kulukeskuse dimensiooni väärtusest, ei saa osakonna väärtust muuta, kui seade **Muutmise vältimine** väärtus on **Jah**. 
  
 Säte ei takista muudatusi, kui dimensiooniväärtus on õige, kuid seda ei ole tuletatud dimensioonide loendis. Kui näiteks osakond 20 tuletatakse kulukeskusest 10 ja te sisestate kulukeskus 10, ei saa tee muuda osakonda 20. Kui aga sisestate kulukeskus 20 ja see ei ole kulukeskuse tuletatud dimensioonide loendis, saate osakonna väärtust muuta. 
  
@@ -136,6 +136,12 @@ Kui muudate dimensioone **Finantsdimensioonide** kiirkaardil, ei saa muuta dimen
 - Tuletatud dimensioonide väärtuste üksus võimaldab teil importida väärtused, mis tuleb iga juhtdimensiooni puhul tuletada.
 
 Kui kasutate andmete importimiseks mõnd üksust ja see üksus impordib dimensioonid, rakendatakse importimisel tuletatud dimensioonireegleid, kui üksus neid dimensioone spetsiaalselt ei tühista.
+
+## <a name="financial-dimension-service"></a>Finantsdimensiooni teenus
+
+Finantsdimensiooni teenuse lisandmoodul on saadaval teie elutsükli Microsoft Dynamics teenuste keskkonnas. See pakub suuremat jõudlust, kui kasutate andmehalduse raamistikku suure hulga ridadega töölehe importimiseks. Teenuse kasutamiseks peate selle lubama lehel Finantsdimensiooni **teenuse parameetrid** . Teenus töötab praegu ainult imporditud töölehtedel, kus on 500 rida või rohkem. Lisaks saab praegu töödelda ainult neid üldtöölehti, mille **tööleheridadel** on seatud pearaamatukonto tüüp. Muud tööleheridadel olevad kontotüübid (**nt Klient** **·**, Hankija **ja Pank**) praegu ei toetata. Teenust ei kutsuta, kui süsteemis on seadistatud tuletatud dimensioonid.
+
+Finantsdimensiooni teenus pakub täiustatud jõudlust, kui töölehti imporditakse, kasutades uut teenust, mida käitatakse paralleelselt andmete impordiga. See töötab ainult töölehe põhikonto ja finantsdimensiooni andmetega ning loob töölehe ridade pearaamatukonto stringiväljal määratud dimensioonide kombinatsioonid. Töötlus teisendab selle stringi struktureeritud andmesalvestuseks, mida finantsdimensiooni raamistik kasutab kogu ülejäänud toote otstarbel valideerimiseks, koondaruandluseks ja päringuteks. Lisateavet finantsdimensiooni andmete koondaruandluse kohta vt [finantsdimensioonikomplektidest](financial-dimension-sets.md).
 
 Lisateavet vt järgmistest teemadest:
 

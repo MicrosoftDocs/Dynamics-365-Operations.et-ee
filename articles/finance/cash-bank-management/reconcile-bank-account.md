@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779523"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804206"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -27,7 +27,7 @@ ms.locfileid: "9779523"
 
 Pangaväljavõtte saamisel tuleb teil juriidilise isiku pangakanded viia perioodiliselt vastavusse kannetega pangaväljavõttel.
 
-Te ei saa viia pangakonto väljavõtet vastavusse pangakontoga, kui väljavõttel loetletud tšekkidest või deposiidikviitungi maksetest on hetkel olekus **Tühistamise ootel**. Pärast seda, kui ülevaataja sisestab või lükkab tagasi tšeki tühistamise või deposiidikviitungi makse tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto vastavusse viia.
+Te ei saa pangaväljavõtet pangakontoga vastavusse viia, kui väljavõttel loetletud mis tahes tšekkide või deposiitkviitungi maksete olek on praegu Ootel **tühistamine**. Pärast seda, kui ülevaataja sisestab või lükkab tagasi tšeki tühistamise või deposiidikviitungi makse tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto vastavusse viia.
 
 1. Minge jaotisse **Sularaha- ja pangahaldus**\>**Pangakontod**\>**Pangakontod**. Valige pangakonto, millega pangaväljavõtet vastavusse viia ja valige **Vii vastavusse** > **Konto vastavusseviimine**.
 
@@ -35,21 +35,21 @@ Te ei saa viia pangakonto väljavõtet vastavusse pangakontoga, kui väljavõtte
 
 3. Valige **kanded**, et avada leht **Konto vastavusse viimine**.
 
-4. Iga pangaväljavõttele lisatava **kande puhul märkige ruut Cleared** (Tühjendatud), kui Dynamics 365 Finance’i summa vastab pangaväljavõtte summale. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
+4. Iga pangaväljavõttel oleva **kande puhul märkige ruut Cleared** (Tühjendatud), kui Dynamics 365 Finance’i summa vastab pangaväljavõtte summale. Väärtust saate sisestada või muuta ka väljal **Pangakande tüüp**. See on oluline teie pangakannete statistika ja mõnede aruannete jaoks.
     
 
 >[!NOTE]
->Ärge märkige märkeruutu **Tühjendatud** kannetel, mis pole pangakonto väljavõttel. Need kanded ilmuvad jätkuvalt sellel lehel, kuni on vastavusse viidud tulevase pangaväljavõttega.
->Märkeruut **Tühjendatud** ei ole saadaval, kui kande olek on **Tühistamise ootel**. Kannetel on see olek juhul, kui Finance on seadistatud nõudele, et tühistamised saadetakse enne sisestamist ülevaatusele. Pärast seda, kui ülevaataja sisestab või lükkab tagasi ümberpööramise või tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto pangaväljavõttega vastavusse viia.
+>Ärge märkige ruutu **Tühjendatud** kannete puhul, mis pole pangaväljavõttes. Need kanded ilmuvad jätkuvalt sellel lehel, kuni on vastavusse viidud tulevase pangaväljavõttega.
+>Kui **kande** olek on Ootel tühistamine, pole märkeruut **Tühjendatud saadaval**. Kannetel on see olek juhul, kui Finance on seadistatud nõudele, et tühistamised saadetakse enne sisestamist ülevaatusele. Pärast seda, kui ülevaataja sisestab või lükkab tagasi ümberpööramise või tühistamise, pole olek enam **Tühistamise ootel** ja te saate pangakonto pangaväljavõttega vastavusse viia.
 
 
-Märkeruudu **Tasaarvestatud** valimiseks tšekkide intervalli puhul, mis kuvatakse kõik pangaväljavõtte puhul, valige **Märgi tšeki intervall** ja seejärel määrake intervall.
+Kui soovite pangaväljavõttel **kuvatavate** tšekkide intervalli puhul märkida ruudu Tühjendatud, **märkige ruut Märgi** tšekiintervall ja määrake intervall.
 
-5.  Kui pangakonto kande summa ei vasta pangaväljavõtte kandel olevale summale, sisestage parandussumma väljale **Parandussumma**.
+5.  Kui pangakonto kande summa ei vasta pangaväljavõtte kande summale, **sisestage paranduse summa väljale Parandussumma** .
     
 
 > [!NOTE]
-> Kui parandatava kande fiskaalperiood on suletud, ei saa välja **Parandussumma** kasutada. Selle asemel looge paranduse jaoks rida, mis on avatud fiskaalperioodis. Sel juhul peate lisama finantsdimensioonid, mida kasutati esialgsel kandel ja samuti vastaskonto põhikonto.
+> Kui parandatava kande rahandusperiood on suletud, **ei saa** välja Parandussumma kasutada. Selle asemel looge paranduse jaoks rida, mis on avatud fiskaalperioodis. Sel juhul peate lisama finantsdimensioonid, mida kasutati esialgsel kandel ja samuti vastaskonto põhikonto.
 
 
 
@@ -57,17 +57,17 @@ Märkeruudu **Tasaarvestatud** valimiseks tšekkide intervalli puhul, mis kuvata
 
 7.  Kuna kanded pangakonto väljavõttel on märgitud **Tühjendatud**, siis läheneb summa nullile väljal **Vastavusse viimata**, mida arvutatakse pidevalt uuesti vastavalt teie tehtud muudatustele. Kui see jõuab nullini, klõpsake **Vii konto vastavusse**, et sisestada vastavusseviimine ning kanded ja parandused, mille olete loonud.
     
-    Pärast vastavusseviimise sisestamist ei saa kaasatud kandeid rohkem üle vaadata või parandada ja need ei ilmu mitte üheski tulevases konto vastavusseviimises.
+    Pärast vastavusseviimise sisestamist ei saa kaasatud kandeid muuta ega parandada ning neid ei kuvata tulevase konto vastavusseviimiseks.
 
 8.  Veel vastavusse viimata pangakannete vaatamiseks kasutage aruannet **Vastavusse viimata kanded**. Pangakonto pangaväljavõtte vaatamiseks kasutage aruannet **Pangaväljavõte**.
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Tühista pangaväljavõtte vastavusseviimine 
 
-Pangaväljavõtte vastavusse viimise tühistamise funktsioon võimaldab tühistada pangaväljavõtte vastavusse viimise. Selle funktsiooni kasutamiseks lubage funktsioon **Loobu pangaväljavõtte vastavusseviimisest** tööruumist **Funktsiooni haldamine**. Samuti peate lubama parameetri **Luba pangaväljavõtte redigeerimine**. Selleks minge jaotisse **Sularaha- ja pangahaldus > Häälestus > Sularaha- ja pangahalduse parameetrid > Panga vastavusseviimine**.
+Pangaväljavõtte **vastavusseviimise** tühistamise funktsioon võimaldab pangaväljavõtte vastavusseviimise tühistada. Selle funktsiooni kasutamiseks lubage funktsioon **Loobu pangaväljavõtte vastavusseviimisest** tööruumist **Funktsiooni haldamine**. Samuti peate lubama parameetri **Luba pangaväljavõtte redigeerimine**. Selleks minge jaotisse **Sularaha- ja pangahaldus > Häälestus > Sularaha- ja pangahalduse parameetrid > Panga vastavusseviimine**.
  
 Pangaväljavõtte vastavusseviimise saab tühistada ainult selle sisestamise kronoloogilises järjestuses. Kui pangaväljavõtte vastavusseviimine tühistatakse, tühistatakse uued kanded ja parandused ning kõik muud kanded tähistatakse kui vastavusse viimata.
  
-Pangaväljavõtte vastavusseviimise tühistamiseks valige pangaväljavõte ja valige **Pangaväljavõte > Tühista panga vastavusseviimine**. Lehel **Tühista panga vastavusseviimine** sisestage **Põhjusekood**, **Põhjuse kommentaar** ja **Tühistamise kuupäev**. Tühistamise alustamiseks valige **OK**. Pange tähele, et pangaväljavõtte tühistamise kuupäev peab olema pangaväljavõtte kuupäeval või pärast seda. Pärast pangaväljavõtte vastavusseviimise tühistamist uuendatakse välja **Tühistamise kuupäev** panga väljavõtte jaoks sisestatud **Tühistamise kuupäevaga**. Klõpsake nuppu **Kanded**, et vaadata kandeid, mille vastavusseviimine tühistati.
+Pangaväljavõtte vastavusseviimise tühistamiseks valige pangaväljavõte ja valige **Pangaväljavõte > Tühista panga vastavusseviimine**. Lehel **Tühista panga vastavusseviimine** sisestage **Põhjusekood**, **Põhjuse kommentaar** ja **Tühistamise kuupäev**. Tühistamise alustamiseks valige **OK**. Pange tähele, et pangaväljavõtte tühistamise kuupäev peab olema pangaväljavõtte kuupäeval või pärast seda. Kui pangaväljavõtte vastavusseviimine on tühistatud, **uuendatakse pangaväljavõtte tühistamiskuupäeva väli tühistamiskuupäevaga**  **.**  Klõpsake nuppu **Kanded**, et vaadata kandeid, mille vastavusseviimine tühistati.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

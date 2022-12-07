@@ -1,8 +1,8 @@
 ---
 title: Aruande kujundaja liides
-description: Selles artiklis selgitatakse, kuidas aruandekoosturis liikuda ja kuidas kasutada mitmesuguseid valikuid teie vajaduste rahuldamiseks.
+description: See artikkel selgitab, kuidas aruandekujundajas navigeerida ja kuidas kasutada erinevaid valikuid teie konkreetsetele nõuetele vastamiseks.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274723"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802738"
 ---
 # <a name="report-designer-interface"></a>Aruande kujundaja liides
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas aruandekoosturis liikuda ja kuidas kasutada mitmesuguseid valikuid teie vajaduste rahuldamiseks.
+See artikkel selgitab, kuidas aruandekujundajas navigeerida ja kuidas kasutada erinevaid valikuid teie konkreetsetele nõuetele vastamiseks.
 
-## <a name="report-designer-menu-commands"></a>Aruande kujundaja menüükäsud
+## <a name="report-designer-menu-commands"></a>Aruandekujundaja menüükäsud
 
 Järgmistes tabelites kirjeldatakse menüükäske ja suvandeid, mida saate finantsaruannete koostamisel kasutada. Mõned menüükäsud ja suvandid on saadaval ainult erandjuhtudel. Näiteks aruandlusüksuste edendamise ja alandamise käsud on saadaval ainult siis, kui aruandluspuu definitsiooni muudate.
 
@@ -40,16 +40,16 @@ Menüü **Fail** on saadaval kõigile kasutajatele ja see sisaldab järgmisi kä
 |-----------------------------------|-------------|
 | Uus                               | Uue aruande definitsiooni, readefinitsiooni, veeru definitsiooni, aruandluspuu määratluse, aruandegrupi definitsiooni või kausta loomine. Olenevalt teie kasutajarollist on saadaval ka lisavalikud. |
 | Avatud                              | Olemasoleva readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni avamine. |
-| Sule                             | Praeguse koosteüksuse sulgemine. |
+| Sulge                             | Praeguse koosteüksuse sulgemine. |
 | Sule kõik                         | Kõikide koosteüksuste sulgemine. |
 | Salvesta                              | Praeguse readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni salvestamine. |
 | Salvesta nimega                           | Praeguse readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni salvestamine uue nimega. |
 | Atribuudid                        | Dialoogiboksi **Atribuudid** avamine, kus saate muuta aruande nime ja kirjeldust. |
 | Loo                          | Praeguse aruande loomine. See käsk on saadaval aruande definitsioonis. |
 | Kuva aruanne                       | Avage kõige värskem loodud aruanne. See käsk on saadaval aruande definitsioonis, kui olete loonud vähemalt ühe aruande. |
-| Hiljutised aruande definitsioonid         | Hiljuti loodud või muudetud aruannete loendi kuvamine. Seejärel saate loendist aruande valida. |
+| Hiljutised aruandemääratlused         | Hiljuti loodud või muudetud aruannete loendi kuvamine. Seejärel saate loendist aruande valida. |
 | Hiljutised readefinitsioonid            | Hiljuti loodud või muudetud readefinitsioonide loendi kuvamine. Seejärel saate loendist readefinitsiooni valida. |
-| Hiljutised veeru definitsioonid         | Hiljuti loodud või muudetud veeru definitsioonide loendi kuvamine. Seejärel saate loendist veeru definitsiooni valida. |
+| Hiljutised veerudefinitsioonid         | Hiljuti loodud või muudetud veeru definitsioonide loendi kuvamine. Seejärel saate loendist veeru definitsiooni valida. |
 | Hiljutised aruandluspuu definitsioonid | Hiljuti loodud või muudetud aruandluspuu definitsioonide loendi kuvamine. Seejärel saate loendist aruandluspuu definitsiooni valida. |
 | Välju                              | Aruande kujundajast väljumine. |
 
@@ -67,19 +67,19 @@ Menüü **Redigeerimine** on saadaval kasutajatele, kellel on roll **Kujundaja**
 | Tühjenda                                  | Valitud koosteüksuse lahtri sisu kustutamine. |
 | Otsi                                   | Dialoogiboksi **Otsi ja asenda** avamine, milles saate vaatepaani teksti otsida. |
 | Asenda                                | Dialoogiboksi **Otsi ja asenda** avamine, milles saate vaatepaani teksti otsida ja asendada. |
-| Sisesta read dimensioonidest            | Dialoogiboksi **Sisesta read dimensioonidest** avamine, milles saate valida readefinitsiooni kaasatavad dimensiooniväärtused. See käsk on saadaval readefinitsioonis. |
-| Nummerda read ümber                          | Kõikide numbriliste reakoodide ümbernummerdamine. See käsk on saadaval readefinitsioonis. |
+| Lisa dimensioonidest read            | Dialoogiboksi **Sisesta read dimensioonidest** avamine, milles saate valida readefinitsiooni kaasatavad dimensiooniväärtused. See käsk on saadaval readefinitsioonis. |
+| Nummerda read uuesti                          | Kõikide numbriliste reakoodide ümbernummerdamine. See käsk on saadaval readefinitsioonis. |
 | Rea lingid                              | Dialoogiboksi **Rea lingid** avamine, milles saate määrata andmelinkide allikad readefinitsioonides ja aruandluspuu definitsioonides. See käsk on saadaval readefinitsioonis. |
-| Ümardamise korrigeerimine                    | Dialoogiboksi **Ümardamise korrigeerimised** avamine, milles saate määrata ümardamise parameetrid. See käsk on saadaval readefinitsioonis. |
+| Ümarduse korrigeerimine                    | Dialoogiboksi **Ümardamise korrigeerimised** avamine, milles saate määrata ümardamise parameetrid. See käsk on saadaval readefinitsioonis. |
 | Halda dimensioonikogumeid                  | Dialoogiboksi **Dimensioonikogumid** avamine, milles saate luua ja muuta dimensioonikogumeid. See käsk on saadaval readefinitsioonis või aruandluspuu definitsioonis. |
 | Lisa rida                             | Tühja rea lisamine readefinitsiooni või tühja päiserea lisamine veeru definitsiooni. See käsk on saadaval readefinitsioonis või veeru definitsioonis. |
 | Kustuta rida                             | Valitud rea kustutamine readefinitsioonist või valitud päiserea kustutamine veeru definitsioonist. See käsk on saadaval readefinitsioonis või veeru definitsioonis. |
 | Lisa veerg                          | Tühja veeru lisamine veeru definitsiooni. See käsk on saadaval veeru definitsioonis. |
 | Kustuta veerg                          | Valitud veeru kustutamine veeru definitsioonist. See käsk on saadaval veeru definitsioonis. |
-| Sisesta aruandlusüksused dimensioonidest | Dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** avamine, milles saate valida aruandluspuu definitsiooni kaasatavad dimensiooniväärtused. See käsk on saadaval aruandluspuu definitsioonis. |
-| Impordi dimensioonikogumi hierarhia         | Dialoogiboksi **Impordi dimensioonikogumi hierarhia** avamine, milles saate importida dimensioonikogumi hierarhia finantsandmetest. See käsk on saadaval aruandluspuu definitsioonis süsteemi ..\\financial-dimensions\\dimension-based puhul. |
-| Lisa aruandlusüksus                  | Tühja rea lisamine aruandluspuu definitsiooni. See käsk on saadaval aruandluspuu definitsioonis. |
-| Kustuta aruandlusüksus                  | Valitud aruandlusüksuse rea kustutamine aruandluspuu definitsioonist. See käsk on saadaval aruandluspuu definitsioonis. |
+| Dimensioonidest aruandlusüksuste sisestamine | Dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** avamine, milles saate valida aruandluspuu definitsiooni kaasatavad dimensiooniväärtused. See käsk on saadaval aruandluspuu definitsioonis. |
+| Dimensioonikogumi hierarhia importimine         | Dialoogiboksi **Impordi dimensioonikogumi hierarhia** avamine, milles saate importida dimensioonikogumi hierarhia finantsandmetest. See käsk on saadaval aruandluspuu definitsioonis süsteemi ..\\financial-dimensions\\dimension-based puhul. |
+| Sisesta aruandlusüksus                  | Tühja rea lisamine aruandluspuu definitsiooni. See käsk on saadaval aruandluspuu definitsioonis. |
+| Aruandlusüksuse kustutamine                  | Valitud aruandlusüksuse rea kustutamine aruandluspuu definitsioonist. See käsk on saadaval aruandluspuu definitsioonis. |
 
 ### <a name="view-menu"></a>Menüü Vaade
 
@@ -89,7 +89,7 @@ Menüü **Vaade** on saadaval kõigile kasutajatele ja see sisaldab järgmisi k�
 |-----------------|------------------------------------------------------------------------|
 | Navigeerimispaan | Navigeerimispaani kuvamine või peitmine.                                      |
 | Tööriistaribad        | Nähtavate tööriistaribade valimine.                                  |
-| Olekuriba      | Oleku teabe kuvamine või peitmine aknas **Aruande kujundaja**. |
+| Olekuriba      | Näitab või peidab olekuteabe aruandekujundaja **aknas**. |
 | Tervitusleht    | Avab lehe **Tere tulemast**.                                             |
 
 ### <a name="format-menu"></a>Vormingu menüü
@@ -98,8 +98,8 @@ Menüü **Vorming** on saadaval kasutajatele, kellel on roll **Kujundaja** või 
 
 | Käsk               | Kirjeldus |
 |-----------------------|-------------|
-| Laadid ja vorming | Dialoogiboksi **Laadid ja vorming** avamine, milles saate luua ja muuta teksti laadi readefinitsioonides ja veeru definitsioonides. See käsk on saadaval readefinitsioonis või veeru definitsioonis. |
-| Veeru laius          | Dialoogiboksi **Veeru laius** avamine, milles saate määrata valitud veeru laiuse. See käsk on saadaval readefinitsioonis, veeru definitsioonis või aruandluspuu definitsioonis. |
+| Laadid ja vormindamine | Saate avada **dialoogiboksi Laadid ja** vormindamine, kus saate luua ja muuta readefinitsioonide ja veerudefinitsioonide teksti laadi. See käsk on saadaval readefinitsioonis või veeru definitsioonis. |
+| Veeru laius          | Saate avada **dialoogiakna** Veeru laius, kus saate seada valitud veeru laiuse. See käsk on saadaval readefinitsioonis, veeru definitsioonis või aruandluspuu definitsioonis. |
 | Peida                  | Valitud veeru peitmine. See käsk on saadaval readefinitsioonis, veeru definitsioonis või aruandluspuu definitsioonis. |
 | Kuva                | Valitud veergude vaheliste peidetud veergude muutmine nähtavaks. See käsk on saadaval readefinitsioonis, veeru definitsioonis või aruandluspuu definitsioonis. |
 
@@ -110,7 +110,7 @@ Menüü **Ettevõte** on saadaval kasutajatele, kellel on roll **Kujundaja** võ
 | Käsk               | Kirjeldus                                                                                                            |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Ettevõtted             | Dialoogiboksi **Ettevõtted** avamine, milles saate ettevõtteid luua ja muuta.                                          |
-| Koosteüksuse grupid | Dialoogiboksi **Koosteüksuse grupid** avamine, milles saate luua, muuta, importida ja eksportida koosteüksuse gruppe. |
+| Koosteüksuste rühmad | Avage dialoogiboks **Blokeerimisgruppide loomine**, kus saate luua, muuta, importida ja eksportida ehitusplokkide gruppe. |
 
 ### <a name="go-menu"></a>Avamise menüü
 
@@ -162,7 +162,7 @@ Menüü **Spikker** on saadaval kõigile kasutajatele ja see sisaldab järgmisi 
 | Spikker    | Avage spikrilehekülg finantsaruandluses. |
 |         |                                                                          |
 
-## <a name="report-designer-toolbar-buttons"></a>Aruande kujundaja tööriistariba nupud
+## <a name="report-designer-toolbar-buttons"></a>Aruandekujundaja tööriistariba nupud
 Järgmistes tabelites kirjeldatakse aruannete kujundamisel kasutatavaid tööriistariba nuppe. Mõned tööriistariba nupud on saadaval ainult erandjuhtudel. Näiteks aruandlusüksuste edendamise ja alandamise nupud on saadaval ainult siis, kui aruandluspuu definitsiooni muudate.
 
 ### <a name="standard-toolbar"></a>Standardne tööriistariba
@@ -194,18 +194,18 @@ Standardne tööriistariba võimaldab kiiret juurdepääsu faili ja redigeerimis
 
 Vormingu tööriistariba võimaldab lihtsat juurdepääsu laadi käskudele. See tööriistariba sisaldab järgmisi nuppe.
 
-| Nööp                                                                                                       | Kirjeldus                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Nupp Fondi laad.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Valitud fondi laadi rakendamine aktiivsele tekstile.      |
-| [![Nupp Font.](./media/fonttype.png)](./media/fonttype.png)                                                 | Praeguse teksti määramine valitud laadile.              |
-| [![Nupp Fondi suurus.](./media/fontsize.png)](./media/fontsize.png)                                            | Praeguse teksti määramine valitud laadi suurusele (punktides). |
-| [![Nupp Paks kiri.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Praeguse teksti muutmine paksu kirja.                             |
-| [![Nupp Kaldkiri.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Praeguse teksti muutmine kursiivi.                           |
-| [![Nupp Allajoonimine.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Praeguse teksti allakriipsutamine.                             |
-| [![Nupp Taande vähendamine.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Aktiivse teksti taande vähendamine.                |
-| [![Nupp Taande suurendamine.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aktiivse teksti taande suurendamine.                |
-| [![Nupp Taustavärv.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Aktiivse lahtri taustavärvi muutmine.        |
-| [![Nupp Fondi värv.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Aktiivse teksti värvi muutmine.                   |
+| Nööp                                                                                                       | Kirjeldus                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![Nupp Fondi laad.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Valitud fondi laadi rakendamine aktiivsele tekstile.   |
+| [![Nupp Font.](./media/fonttype.png)](./media/fonttype.png)                                                 | Praeguse teksti määramine valitud laadile.           |
+| [![Nupp Fondi suurus.](./media/fontsize.png)](./media/fontsize.png)                                            | Seadke praegusele tekstile valitud fondi suurus (punktides). |
+| [![Nupp Paks kiri.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Praeguse teksti muutmine paksu kirja.                          |
+| [![Nupp Kaldkiri.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Praeguse teksti muutmine kursiivi.                        |
+| [![Nupp Allajoonimine.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Praeguse teksti allakriipsutamine.                          |
+| [![Nupp Taande vähendamine.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Aktiivse teksti taande vähendamine.             |
+| [![Nupp Taande suurendamine.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aktiivse teksti taande suurendamine.             |
+| [![Nupp Taustavärv.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Aktiivse lahtri taustavärvi muutmine.     |
+| [![Nupp Fondi värv.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Aktiivse teksti värvi muutmine.                |
 
 ### <a name="report-designer-toolbar"></a>Aruandekoosturi tööriistariba
 
@@ -213,9 +213,9 @@ Aruandekoosturi tööriistariba võimaldab kiiret juurdepääsu käskudele aruan
 
 | Nööp                                                                                              | Kirjeldus |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Nupp Aruande definitsioon.](./media/reportc130389.png)](./media/reportc130389.png)                 | Menüüs **Aken** loetletud aruande definitsiooni kuvamine. |
-| [![Nupp Rea definitsioon.](./media/rowc130389.png)](./media/rowc130389.png)                          | Aktiivsele aruande definitsioonile määratud readefinitsiooni kuvamine. |
-| [![Nupp Veeru definitsioon.](./media/columnc130389.png)](./media/columnc130389.png)                 | Aktiivsele aruande definitsioonile määratud veeru definitsiooni kuvamine. |
+| [![Nupp Aruande definitsioon.](./media/reportc130389.png)](./media/reportc130389.png)            | Menüüs **Aken** loetletud aruande definitsiooni kuvamine. |
+| [![Nupp Rea definitsioon.](./media/rowc130389.png)](./media/rowc130389.png)             | Aktiivsele aruande definitsioonile määratud readefinitsiooni kuvamine. |
+| [![Nupp Veeru definitsioon.](./media/columnc130389.png)](./media/columnc130389.png)  | Aktiivsele aruande definitsioonile määratud veeru definitsiooni kuvamine. |
 | [![Nupp Aruandluspuu definitsioon.](./media/treec130389.png)](./media/treec130389.png)             | Aktiivsele aruande definitsioonile määratud aruandluspuu definitsiooni kuvamine. |
 | [![Nupp Aruandevaatur.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Aruandevaaturi käivitamine ja loodud aruande kõige uuema versiooni kuvamine. See nupp on saadaval aruande definitsioonis, kui olete loonud vähemalt ühe aruande. |
 | [![Nupp Koosta aruanne.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Looge aktiivsest aruandedefinitsioonist aruanne. See nupp on saadaval aruandedefinitsioonis. |

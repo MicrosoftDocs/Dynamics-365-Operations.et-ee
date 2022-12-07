@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291884"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802792"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -34,26 +34,26 @@ Veeru definitsioon võib sisaldada 2 kuni 255 veergu.
 
 ### <a name="create-a-column-definition"></a>Veeru definitsiooni loomine
 
-1. Klõpsake aruande kujundajas navigeerimispaanil suvandit **Veeru definitsioonid**.
-2. Klõpsake menüüs **Fail** suvandit **Uus** ja seejärel klõpsake suvandit **Veeru definitsioon**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Veerudefinitsioonid**.
+2. Klõpsake menüü **Fail** käsku Uus **ja** seejärel käsku Veeru **definitsioon**.
 3. Lisage veeru definitsiooni sisu.
 
 ### <a name="open-a-column-definition"></a>Veeru definitsiooni avamine
 
-1. Klõpsake aruande kujundajas navigeerimispaanil suvandit **Veeru definitsioonid**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Veerudefinitsioonid**.
 2. Veeru definitsiooni avamiseks topeltklõpsake seda.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Veeru lisamine veerudefinitsiooni
 
-1. Klõpsake aruande kujundajas suvandit **Veeru definitsioonid** ja seejärel avage muutmiseks veeru definitsioon.
+1. Aruandekujundajas klõpsake veerudefinitsioonid **ja** seejärel avage muutmiseks veeru definitsioon.
 2. Valige veerg, kuhu tuleks lisada uus veerg.
-3. Klõpsake menüüs **Redigeerimine** suvandit **Lisa veerg**. Uus veerg ilmub valitud veerust vasakule.
+3. Klõpsake menüü **Redigeeri** käsku Lisa **.** Uus veerg ilmub valitud veerust vasakule.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Veeru kustutamine veerudefinitsioonist
 
-1. Klõpsake aruandekoosturis suvandit **Veerudefinitsioonid** ja seejärel avage muutmiseks veerudefinitsioon.
+1. Aruandekujundajas klõpsake veerudefinitsioonid **ja** seejärel avage muutmiseks veeru definitsioon.
 2. Valige kustutatav veerg.
-3. Klõpsake menüüs **Redigeeri** suvandit **Kustuta veerg**.
+3. Klõpsake menüü **Redigeeri** käsku **Kustuta.**
 
 ## <a name="contents-of-a-column-definition"></a>Veerudefinitsiooni sisu
 Veeru definitsioon sisaldab järgmist teavet.
@@ -68,40 +68,40 @@ See teave kuvatakse veeru definitsiooni järgmistes alades.
 - Veeru definitsiooni päiste ala sisaldab aruandes kuvatavat päiseteksti ja vormingut. Päis saab rakenduda üksikule andmeveerule, laieneda üle mitme veeru või rakenduda veergudele tingimuslikkuse alusel. Veeru määratlus võib sisaldada nii palju veerupäise ridasid, kui vajate.
 
     > [!NOTE]
-    > Veerupäised rakenduvad igale aruande andmeveerule. Aruande päised rakenduvad kogu aruandele. Saate määratleda aruande päiseid aruande definitsiooni vahekaardil **Päised ja jalused**.
+    > Veerupäised rakenduvad igale aruande andmeveerule. Aruande päised rakenduvad kogu aruandele. Te määrate aruande definitsiooni aruande **päised vahekaardi Päised** ja jalused.
 
 - Veeru üksikasjade read on veeru definitsioonis päiseridade all olevad read. Veeru üksikasjade read määratlevad aruandesse kaasatava teabe. Järgmises tabelis loetletakse ja kirjeldatakse veeru üksikasjade ridu.
 
-    | Veeru üksikasjade rea nimi                                                | Kirjeldus                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Veeru tüüp                                                           | (Nõutav) Veeru andmete tüübi määramine.                                                     |
-    | Konteerimiskood/atribuudi kategooria                                          | Tüüpide **FD** ja **ATTR** veergude finantsandmete teabe määratlemine.                       |
-    | Rahandusaasta perioodi hõlmatud perioodid                                    | Tüübi **FD** veergude finantsandmete teabe määratlemine.                                     |
-    | Valem                                                               | Arvutusvalemi määramine tüübiga **CALC** veergude puhul.                                        |
-    | Veeru laius Lisatühikud enne veergu Vormingu alistamine Prindi kontrollkood | Erivormingu suvandite määramine.                                                                        |
-    | Veeru piirangud                                                   | Andmete piiramine.                                                                                         |
-    | Aruandlusüksus                                                        | Veeru piiramine nii, et see kuvaks ainult kindla aruandlusüksuse andmeid.                      |
-    | Valuuta kuva Valuutafilter                                      | Valuuta vorming.                                                                                       |
-    | Dimensioonifilter                                                      | Filtri määramine andmete piiramiseks teatud finantsandmete aruandlusüksustega.                           |
-    | Atribuudi filter                                                      | Filtri määramine finantsandmete piiramiseks.                                                       |
-    | Alguskuupäev Lõppkuupäev                                                   | Finantsandmete piiramine kindlate kuupäevadega.                                                         |
+    | Veeru üksikasjade rea nimi                                                | Kirjeldus                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Veeru tüüp                                                           | (Nõutav) Veeru andmete tüübi määramine.                                      |
+    | Konteerimiskood/atribuudi kategooria                                          | Tüüpide **FD** ja **ATTR** veergude finantsandmete teabe määratlemine.     |
+    | Rahandusaasta perioodi hõlmatud perioodid                                    | Tüübi **FD** veergude finantsandmete teabe määratlemine.              |
+    | Valem                                                               | Arvutusvalemi määramine tüübiga **CALC** veergude puhul.                  |
+    | Veeru laius Lisatühikud enne veergu Vormingu alistamine Prindi kontrollkood | Erivormingu suvandite määramine.                                               |
+    | Veeru piirangud                                                   | Andmete piiramine.                                                                        |
+    | Aruandlusüksus                                                        | Veeru piiramine nii, et see kuvaks ainult kindla aruandlusüksuse andmeid.      |
+    | Valuuta kuva Valuutafilter                                      | Valuuta vorming.                                                                      |
+    | Dimensioonifilter                                                      | Filtri määramine andmete piiramiseks teatud finantsandmete aruandlusüksustega.           |
+    | Atribuudi filter                                                      | Filtri määramine finantsandmete piiramiseks.                                      |
+    | Alguskuupäev Lõppkuupäev                                                   | Finantsandmete piiramine kindlate kuupäevadega.                                    |
     | Põhjendus                                                         | Readefinitsioonis määratud kirjelduse teksti vasakjoondamine, keskjoondamine või paremjoondamine. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Veeru definitsiooni veeru piirangud
 Saate kasutada veeru piiranguid määramaks, kuidas veeru definitsioon andmeid kasutab või arvutab. Saate aruandeveeru piirata ka kindlale üksusele või kindlatele kuupäevadele.
 
 > [!NOTE]
-> Kood **Veerupiirang** tühistab ükskõik millise readefinitsioonis määratud vastuolulise sätte.
+> Veeru **piirangu kood** alistab kõik readefinitsioonis määratud vastuolulised sätted.
 
-### <a name="column-restrictions-cell"></a>Lahter Veeru piirangud
+### <a name="column-restrictions-cell"></a>Veerupiirangute lahter
 
-Lahter **Veeru piirangud** võib sisaldada koode, mis piiravad või peidavad selle veeru puhul teavet, näiteks rea vormingut, üksikasju ja summasid.
+Veerupiirangute **lahter** võib sisaldada koode, mis piiravad või tõkestavad teavet, nt selle veeru rea vormindamist, üksikasju ja summasid.
 
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Veeru piirangu lisamine veeru definitsioonis
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake piiratava veeru puhul lahtrit **Veeru piirangud**.
-3. Valige dialoogiboksis **Veeru piirangud** loendist üks või enam koodi ja seejärel klõpsake nuppu **OK**.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake piiritlemiseks **veerupiirangute** lahtrit.
+3. Dialoogiboksis Veerupiirangud **valige** loendist üks või mitu koodi ja seejärel klõpsake **OK**.
 
 ### <a name="column-restriction-codes"></a>Veerupiirangu koodid
 
@@ -121,49 +121,49 @@ Järgmises tabelis kirjeldatakse veeru piirangu koode.
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Veeru piiramine aruandlusüksusega
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake piiratava veeru puhul lahtrit **Aruandlusüksus**.
-3. Valige aruandluspuu dialoogiboksi **Aruandlusüksuse valimine** loendist **Aruandluspuu**.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Piiramiseks topeltklõpsake **veeru** lahtrit Aruandlusühik.
+3.  **Valige puu aruandluspuu** loendiboksis **Aruandlusüksuse** valik.
 4. Laiendage või ahendage üksuste loendit, valige aruandlusüksus ja seejärel klõpsake nuppu **OK**.
 
 ## <a name="format-column-headers"></a>Veerupäiste vormindamine
-Saate lisada, muuta ja kustutada aruande veergude ülaosas olevaid päiseid. Samuti saate konfigureerida tingimusliku laiendamise veerupäiseid veerudefinitsioonide välja **Periood** ja aruande definitsioonide välja **Baasperiood** põhjal. Baasperioodi funktsioon aitab säästa jooksva eelarve aruannete loomisel aega.
+Saate lisada, muuta ja kustutada aruande veergude ülaosas olevaid päiseid. Saate ka konfigureerida tingimusliku perioodi veeru päised, mis põhinevad **veeru**  **definitsioonide väljal Periood ja aruande definitsioonide** baasperioodi väljal. Baasperioodi funktsioon aitab säästa jooksva eelarve aruannete loomisel aega.
 
 ### <a name="create-and-manage-column-headers"></a>Veerupäiste loomine ja haldamine
 
-Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate päiste lisamiseks, muutmiseks ja kustutamiseks. Järgmises tabelis kirjeldatakse dialoogiboksi **Veerupäis** välju.
+Saate kasutada dialoogiboksi **Veeru päis**, et lisada, muuta ja kustutada päiseid, mis ilmuvad aruande veergude ülaosas. Järgmises tabelis kirjeldatakse välju veeru **päise dialoogiboksis** .
 
 | Väli                 | Kirjeldus |
 |-----------------------|-------------|
-| Veerupäise tekst    | See tekst kuvatakse veerupäises. Saate sisestada teksti otse sellele väljale või klõpsata suvandit **Sisesta automaattekst** suvandi valimiseks, mis värskendab veerupäist iga kord aruande loomisel. Mitme automaatteksti koodi lisamiseks klõpsake suvandit **Sisesta automaattekst** uuesti ja seejärel klõpsake loendis muud koodi. |
+| Veerupäise tekst    | See tekst kuvatakse veerupäises. Teksti saate tippida otse sellele väljale või klõpsata nuppu Sisesta automaattekst **, et valida suvand,** mis värskendab veeru päist iga kord, kui aruanne luuakse. Mitme automaatteksti koodi kaasamiseks klõpsake uuesti **nuppu Sisesta automaattekst** ja seejärel klõpsake loendis teist koodi. |
 | Vormingusuvandid        | Vormingu rakendamine veeru päisele, nt kasti või allakriipsutuse. |
 | Algusvahemik Lõppvahemik | Veeru või veergude määramine, millele päisetekst rakendub. |
 | Põhjendus         | Saate määrata, kuidas tuleks veeru päisetekst joondada veeru või veergude vahemiku puhul, mis on määratud väljadel **Algusvahemik** ja **Lõppvahemik**. |
 
 ### <a name="create-a-column-header"></a>Veerupäise loomine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Topeltklõpsake päise lahtrit.
-3. Sisestage veerupäise tekst dialoogiboksi **Veerupäis**. Teise võimalusena saate klõpsata suvandit **Sisesta automaattekst** ja valida suvandi.
+3.  **Dialoogiboksis Veeru päis** sisestage veeru päise tekst. Teise võimalusena klõpsake **nuppu Sisesta automaattekst** ja valige suvand.
 4. Valige väljalt **Vormingusuvandid** päise vorming.
 5. Sisestage väljale **Algusvahemik** veeru täht, millest alates tuleks veerupäis kuvada. Sisestage väljale **Lõppvahemik** veeru täht, kuni milleni tuleks veerupäis kuvada.
 6. Valige suvandi **Joondus** alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.
-7. Klõpsake nupul **OK**.
+7. Klõpsake valikut **OK**.
 
 ### <a name="add-a-column-header-row"></a>Veerupäise rea lisamine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Valige päisereast lahter.
-3. Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**. Uus rida sisestatakse 2. etapis valitud rea kohale.
+3. Klõpsake menüü **Redigeeri** käsku Lisa **rida**. Uus rida sisestatakse 2. etapis valitud rea kohale.
 
 > [!NOTE]
 > Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad. Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.
 
 ### <a name="delete-a-column-header-row"></a>Veerupäise rea kustutamine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Valige päisereal kustutatav lahter.
-3. Klõpsake menüüs **Redigeerimine** suvandit **Kustuta rida**.
+3. Klõpsake menüü **Redigeeri** käsku **Kustuta rida**.
 
 ### <a name="create-an-automatically-generated-header"></a>Automaatselt loodava päise loomine
 
@@ -192,16 +192,16 @@ Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luu
 
 Tingimusliku laiendamise päised võivad hõlmata mitut konkreetse perioodi andmetel põhinevat veergu. Näiteks kui teil on rahandusaasta eelarve aruanne ja soovite kuvada viimaste kuude tegeliku eelarve koos tulevaste kuude prognoositud eelarvetega, saate aruandepäise automaatseks värskendamiseks kasutada tingimusliku laiendamise päist. Pöörake tingimusliku laienduspäise loomisel tähelepanu järgmistele olukordadele.
 
-- Mis tahes peatamise tingimust (väli **Lõppvahemik**), mis on vastavusse viidud enne alustamise tingimust (väli **Lõppvahemik**), eiratakse. Näiteks veeru B laiendamise tingimus on määratletud järgmiselt: BASE+1 kuni BASE, BASE on veerus C ja BASE+1 on veerus D. Sellisel juhul eiratakse peatamise tingimust veerus C ja päise printimine algab veerust D.
-- Kattuvate veerupäiste määramisel kattuvad need aruandesse printimisel. Aruanne luuakse, kuid väljal **Aruande järjekorra olek** kuvatakse järgmine hoiatus: „Väärtust Base kasutavad veerupäised ristuvad teiste veerupäistega ja võivad põhjustada teksti kattumist”. Näiteks päise definitsioon veerus B on B kuni BASE+1 ja päise definitsioon veerus D on BASE+1 kuni F. Sellisel juhul prinditakse päised üksteise peale ja pole loetavad. Väärtuse BASE kasutamisel definitsioonis **Algusvahemik/lõppvahemik** veenduge, et vaatate loodavat aruannet, et näha, kas päised kattuvad.
+- Mis tahes peatav tingimus (**väljani** hajutamine), mis on vastendatud enne algustingimuse (**väljalt hajutamine**) ignoreerimist. Näiteks veeru B laiendamise tingimus on määratletud järgmiselt: BASE+1 kuni BASE, BASE on veerus C ja BASE+1 on veerus D. Sellisel juhul eiratakse peatamise tingimust veerus C ja päise printimine algab veerust D.
+- Kattuvate veerupäiste määramisel kattuvad need aruandesse printimisel. Aruanne on loodud, **kuid** aruande järjekorra oleku väljal kuvatakse järgmine hoiatus: "Veerupäised, mis kasutavad alusseekte teiste veerupäistega ja võivad põhjustada kattuvat teksti." Näiteks päise definitsioon veerus B on B kuni BASE+1 ja päise definitsioon veerus D on BASE+1 kuni F. Sellisel juhul prinditakse päised üksteise peale ja pole loetavad. Väärtuse BASE kasutamisel definitsioonis **Algusvahemik/lõppvahemik** veenduge, et vaatate loodavat aruannet, et näha, kas päised kattuvad.
 - Kui määrate väärtuse BASE laiendamise definitsiooni veerus Mitteprinditav (**NP**), eiratakse seda olenemata sellest, mis on veeru definitsioonis määratletud. Põhiolemuselt sarnaneb see stsenaarium veerupäise definitsiooni mitteloomisega.
 - Tingimusliku printimise veerude puhul (**P&lt;B**, **P&gt;=B**) toimivad tingimusliku laiendamise päised nagu mis tahes tavaline veerupäise definitsioon. Näiteks kui tingimus on väär, alustavad kõik järgnevad laiendamise tingimuse puhul ühtivad veerud päise printimist.
 
 #### <a name="create-a-conditional-spanning-header"></a>Tingimusliku laiendamise päise loomine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Topeltklõpsake päise lahtrit.
-3. Sisestage veerupäise tekst dialoogiboksi **Veerupäis**. Teise võimalusena saate klõpsata suvandit **Sisesta automaattekst** ja valida suvandi.
+3.  **Dialoogiboksis Veeru päis** sisestage veeru päise tekst. Teise võimalusena klõpsake **nuppu Sisesta automaattekst** ja valige suvand.
 4. Valige väljalt **Vormingusuvandid** päise vormingu laad.
 5. Määrake periood aruande loomisel määratud baasperioodi suhtes. Sisestage väljadele **Algusvahemik** ja **Lõppvahemik** üks järgmistest väärtustest: **BASE**, **BASE-X** või **BASE+X**, kus X on baasperioodi perioodide arv. Näiteks kui sisestate väärtuse **BASE** väljale **Algusvahemik**, algab tingimusliku laiendamise veeru päisetekst veerupäisest, milles aruande definitsiooni väärtus **Baasperiood** ühtib veeru definitsiooni väärtusega **Periood**. See lõpeb väljal **Lõppvahemik** näidatud veerus. Seega kui laiendamine on BASE kuni M ja aruande definitsiooni suvandi **Baasperiood** väärtus on **4**, algab päis veerust, kus periood on seatud väärtusele **4** ja lõpeb veerus M. Päised lõppevad ja algavad ainult prinditavatelt veergudelt.
 6. Valige suvandi **Joondus** alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.
@@ -211,22 +211,22 @@ Tingimusliku laiendamise päised võivad hõlmata mitut konkreetse perioodi andm
 
 Kasutaja loob dünaamilise kuue kuu eelarve aruande. Kasutaja soovib, et tegelikke andmeid sisaldavatele veergudele prinditaks sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele prinditaks sõna „Eelarve”. Iga kuu, mil aruannet käitatakse, on üks tegelik veerg rohkem ja üks eelarve veerg vähem. Kuigi kasutaja saab veeru definitsiooni päiste korrigeerimiseks aruande loomisel iga kord käsitsi muuta, otsustab ta luua tingimusliku laiendamise päised, mis loovad päised asjakohastele veergudele iga kord aruande käitamisel automaatselt. Kasutaja avab aruande kujundaja, klõpsab navigeerimispaanil suvandit **Veeru definitsioon** ja avab aruande veeru definitsiooni. Seejärel sisestab kasutaja järgmise teabe. Baasperiood aruande definitsioonis on 4.
 
-|      Vorming         |  A   | B             | C             | D             | E             | R             | G             | H             | Mina             | J             | K             | L             | E             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Päis 1            |      | Tegelik        | Eelarve        |               |               |               |               |               |               |               |               |               |               |
-| Päis 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| Päis 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Veeru tüüp         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+|  Vorming   |  A   | B     | C      | D       | E        | R       | G       | H      | Mina             | J             | K             | L             | E             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| Päis 1   |    | Tegelik    | Eelarve        |         |         |        |       |          |        |               |               |               |               |
+| Päis 2   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| Päis 3    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Veeru tüüp  | DESC | FD   | FD     | FD    | FD   | FD    | FD      | FD            | FD            | FD            | FD            | FD            | FD            |
 | Konteerimiskood/atribuut |      | ACTUAL        | EELARVE2012    | ACTUAL        | EELARVE2012    | ACTUAL        | EELARVE2012    | ACTUAL        | EELARVE2012    | ACTUAL        | EELARVE2012    | ACTUAL        | EELARVE2012    |
-| Finantsaasta         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Periood              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Finantsaasta |  | BASE   | BASE   | BASE   | BASE   | BASE    | BASE    | BASE     | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Periood  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Kaetud perioodid     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
-| Veeru laius        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Printimise juhtelement       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Veeru laius   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Printimise juhtelement  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
-Kasutaja topeltklõpsab veerus B veerupäise lahtrit dialoogiboksi avamiseks suvandit **Veerupäis** ja sisestab järgmise teabe.
+Kasutaja topeltklõpsab veeru B päise lahtril, et avada veeru **päise** dialoogiboks ja sisestab järgmise teabe.
 
-| Field              | Väärtus                 |
+| Väli              | Väärtus                 |
 |--------------------|-----------------------|
 | Veerupäise tekst | Tegelik                |
 | Sisesta automaattekst    | Valik puudub. |
@@ -235,9 +235,9 @@ Kasutaja topeltklõpsab veerus B veerupäise lahtrit dialoogiboksi avamiseks suv
 | Algusvahemik        | B                     |
 | Lõppvahemik          | BASE                  |
 
-Pärast teabe sisestamist klõpsab kasutaja nuppu **OK**. Seejärel topeltklõpsab kasutaja veerus C veerupäise lahtrit dialoogiboksi **Veerupäis** avamiseks ja sisestab järgmise teabe.
+Pärast teabe sisestamist klõpsab kasutaja nuppu **OK**. Kasutaja topeltklõpsake veeru C päise lahtrit, et avada dialoogiboks **Veeru** päis, ja sisestab järgmise teabe.
 
-| Field              | Väärtus                 |
+| Väli              | Väärtus                 |
 |--------------------|-----------------------|
 | Veerupäise tekst | Eelarve                |
 | Sisesta automaattekst    | Valik puudub. |
@@ -251,7 +251,7 @@ Nüüd prinditakse iga kord selle aruande loomisel tegelikke andmeid sisaldavate
 ## <a name="apply-column-justification"></a>Veeru joonduse rakendamine
 Lahtrit **Joondus** kasutatakse joonduse rakendamiseks aruande kirjelduse veerule. See suvand mõjutab ainult veeru kirjeldusi, mitte tegelikke väärtusi.
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Topeltklõpsake lahtrit **Joondus**.
 3. Valige loendist üks järgmistest väärtustest.
 
@@ -261,44 +261,44 @@ Lahtrit **Joondus** kasutatakse joonduse rakendamiseks aruande kirjelduse veerul
     - **Parem** – veeru kirjelduste paremjoondus.
 
 ## <a name="add-special-formatting-options"></a>Erivormingu suvandite lisamine
-Veeru definitsioonis rakendavad vorminduse veeru üksikasjaread erivormingu valitud veergudele. Kuigi mõni suvand **Prindi kontrollkood** ja **Veeru piirangud** on omased veergudele **FD**, kehtib enamik suvandeid kõigi veergude kohta. Veeru definitsioonis määratud vorming alistab aruande definitsioonis määratud vormingu. Readefinitsioonis määratud vorming aga alistab veeru definitsioonis määratud vormingu. Vormingu ridadeks peetakse järgmisi ridu.
+Veeru definitsioonis rakendavad vorminduse veeru üksikasjaread erivormingu valitud veergudele. Kuigi mõned prindikontrolli valikud **ja** veerupiirangud **on**  **omased FD-veergudele**, kehtib enamik valikuid kõigi veerutüüpide puhul. Veeru definitsioonis määratud vorming alistab aruande definitsioonis määratud vormingu. Readefinitsioonis määratud vorming aga alistab veeru definitsioonis määratud vormingu. Vormingu ridadeks peetakse järgmisi ridu.
 
 - Veeru laius
 - Lisatühikud enne veergu
 - Vormingu/valuuta alistamine
-- Prindi kontrollkood
+- Printimise juhtelement
 
 ### <a name="changing-the-column-width"></a>Veeru laiuse muutmine
 
-Lahter **Veeru laius** määrab prinditud aruandes selle veeru laiuse puhul kasutatava märkide arvu. Veeru laius on oluline summasid sisaldavate veergude (veerud tüübiga **CALC**, **WKS** või **FD**), kirjelduste (veerud tüübiga **DESC**) või täitmise (veerud tüübiga **FILL**) puhul. Vaikimisi valitakse suvand **AutoFit**, nii et iga veeru laiust korrigeeritakse sisu mahutamiseks automaatselt.
+Veeru **laiuse lahter** määrab prinditud aruandel selle veeru laiuses kasutamiseks märkide arvu. Veeru laius on oluline summasid sisaldavate veergude (veerud tüübiga **CALC**, **WKS** või **FD**), kirjelduste (veerud tüübiga **DESC**) või täitmise (veerud tüübiga **FILL**) puhul. Vaikimisi valitakse suvand **AutoFit**, nii et iga veeru laiust korrigeeritakse sisu mahutamiseks automaatselt.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Aruande veeru laiuse määramine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Sisestage lahtrisse **Veeru laius** tühikute arv veeru laiuse puhul. Iga veeru maksimumlaius on 255 märki (see arv sisaldab sendimärke, komasid ja sulge). Kui aga soovite lubada aruandekoosturil valida veeru jaoks sobiva laiuse lahtri sisu alusel, topeltklõpsake lahtrit **Veeru laius** ja seejärel klõpsake suvandit **Sobita automaatselt**.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Sisestage **veergu** laiuslahvi tühikute arv. Iga veeru maksimumlaius on 255 märki (see arv sisaldab sendimärke, komasid ja sulge). Teise võimalusena, et lubada aruandekujundajal valida veerule sobiv laius, mis põhineb lahtri sisul, **topeltklõpsake** veeru laiuse lahtrit ja seejärel klõpsake Nuppu **Automaatseeri**.
 
 ### <a name="add-space-between-columns"></a>Tühiku lisamine veergude vahele
 
-Lahter **Lisatühikuid enne veergu** määrab veeru definitsioonis ühe veeru ja külgnevate veergude vahelise eraldaja laiuse. Suvandi **Lisatühikud enne veergu** säte mõjutab kõiki veeru üksikasjaridade ridu, kuid mitte veeru päiseridu. Kasutage seda suvandit veergude gruppide eraldamiseks või mõne tühiku lisamiseks enne kirjeldust, nii et kirjelduse veergu taandatakse aruande vasakjoondatud tiitlitest. Kõigi veergude vaheliste tühikute vaikearv on kaks. Saate seda sätet muuta aruande definitsiooni vahekaardil **Sätted**.
+Täiendav **tühikud veerulahnist** määrab eraldaja laiuse veerudefinitsioonis ühe ja järgneva veeru vahel. Lisaruumid **enne veeru sätet** mõjutavad kõiki veeru üksikasja ridu, kuid mitte veeru päise ridu. Kasutage seda suvandit veergude gruppide eraldamiseks või mõne tühiku lisamiseks enne kirjeldust, nii et kirjelduse veergu taandatakse aruande vasakjoondatud tiitlitest. Kõigi veergude vaheliste tühikute vaikearv on kaks. Saate seda sätet muuta aruande definitsiooni vahekaardil **Sätted**.
 
 #### <a name="specify-the-space-between-columns"></a>Veergude vahelise tühiku määramine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Sisestage lahtrisse **Lisatühikud enne veergu** veergude vahele sisestatavate tühikute arv.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Veergude vahele **lisamiseks sisestage** veerus olevasse lisatühikute arv.
 
 ### <a name="specify-a-format-currency-override"></a>Vormingu/valuuta alistamise määramine
 
-Vahekaart **Vormingu/valuuta alistamine** määrab kümnend-, valuuta- ja protsendisummade vormingu veerus. Selline vorming alistab veeru definitsioonis või süsteemi vaikesuvandites määratud vormingu.
+Vormingu **/valuuta alistamise lahter** määrab kümnendkoha, valuuta ja protsendisummade vormindamise veerus. Selline vorming alistab veeru definitsioonis või süsteemi vaikesuvandites määratud vormingu.
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Vormingu/valuuta alistamise määramine aruande veerule
 
-1. Avage aruandekoosturis muudetav veerudefinitsioon.
-2. Topeltklõpsake summaveerus lahtrit **Vormingu/valuuta alistamine**.
-3. Valige vormingusuvandid dialoogiboksist **Vormingu alistamine**.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake summaveerus **vormingu/valuuta** alistamise lahtrit.
+3. Valige dialoogiboksis **Vormingu alistamine** vormindamise suvandid.
 
 ### <a name="add-a-print-control-code"></a>Prindi kontrollkoodi lisamine
 
-Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru kuva või printimisomadusi. Prindi kontrollkoode on kahte tüüpi: tavalised prindi kontrollkoodid ja tingimuslikud prindi kontrollkoodid.
+Prindikontrolli **lahter** võib sisaldada koode, mis korrigeerivad veeru kuvamis- või printimisomadusi. Prindi kontrollkoode on kahte tüüpi: tavalised prindi kontrollkoodid ja tingimuslikud prindi kontrollkoodid.
 
 #### <a name="regular-print-control-codes"></a>Tavalised prindi kontrollkoodid
 
@@ -306,7 +306,7 @@ Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru ku
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Mitteprinditav                                     | Selle veeru summade välistamine prinditavast aruandest ja arvutustest. Mitteprinditava veeru kaasamiseks arvutusse viidake veerule otse arvutusvalemis. Näiteks on mitteprinditav veerg C kaasatud järgmisse arvutusse: **B+C+D**. Mitteprinditav veerg C pole kaasatud järgmisse arvutusse: **B:D**. |
 | XCR                | Märgi muutmine, kui rea tavaline saldo on kreedit | Eelarve või võrdlusaruande loomine, kui soovimatu hälve (nt tulu puudujääk või ülekulu) on alati negatiivne. Rakendage see kood veerule **CALC** veeru summa märgi muutmiseks, kui antud rea tavaline saldo on kreedit (määratud tähega **C** readefinitsiooni veerus **Normaalsaldo**).<p><strong>Märkus.</strong> Veenduge ridade <strong>TOT</strong> ja </strong>CAL</strong> puhul, mis tavaliselt sisaldavad kreeditsaldot, et sisestaksite <strong>C</strong> readefinitsiooni veergu <strong>Normaalsaldo</strong>.</p> |
-| X0                 | Veeru peitmine, kui kõik on nullid või tühjad          | Veeru **FD** välistamine aruandest, kui kõik selle veeru lahtrid on kas tühjad või sisaldavad nulle. |
+| X0            | Veeru peitmine, kui kõik on nullid või tühjad   | Veeru **FD** välistamine aruandest, kui kõik selle veeru lahtrid on kas tühjad või sisaldavad nulle. |
 | SR                 | Peida ümardamine                               | Selle veeru summade ümardamise takistamine. |
 | XR                 | Ümberarvestuse peitmine                                 | Ümberarvestuse peitmine. Kui aruanne kasutab aruandluspuud, ei koondata selle veeru summasid järgnevatesse emasõlmedesse. |
 | RP                 | Korda veergu igal lehel                      | Määratud veeru kordamine aruande igal lehel. Näiteks saate kasutada prindi kontrollkoodi **RP** tüüpi **ROW** veeru kaasamiseks, mis tõmbab rea koodid igale lehele. |
@@ -325,14 +325,14 @@ Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru ku
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Prindi kontrollkoodide lisamine aruande veergu
 
-1. Avage aruandekoosturis muudetav veerudefinitsioon.
-2. Topeltklõpsake lahtrit **Printimise juhtelement**.
-3. Valige dialoogiboksis **Prindi kontrollkood** kood loendist **Prindi kontrollkoodi suvandite valimine**. Rohkem kui ühe koodi valimiseks hoidke koodide valimisel all klahvi Ctrl.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake juhtelemendi printimise **lahtrit** .
+3.  **Valige soovitud** kood dialoogiboksis Prindijuhtimise **printimisvalikute** valimine. Rohkem kui ühe koodi valimiseks hoidke koodide valimisel all klahvi Ctrl.
 4. Valige suvand väljalt **Tingimuslikud prindi suvandid**. Vaikimisi on valitud säte **(puudub)**. Korraga saate valida ainult ühe tingimusliku prindi kontrollkoodi.
-5. Klõpsake nuppu **OK**.
+5. Klõpsake valikut **OK**.
 
 > [!TIP]
-> Saate prindi kontrollkoodid sisestada ka otse lahtrisse **Prindi kontrollkood**. Eraldage mitu prindi kontrollkoodi komadega.
+> Prindikoodid saate sisestada ka otse lahtrisse **Prindi** kontroll. Eraldage mitu prindi kontrollkoodi komadega.
 
 ## <a name="column-types"></a>Veerutüübid
 Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru definitsiooni real **Veeru tüüp**. Iga veerudefinitsioon peab sisaldama vähemalt ühte kirjelduse (**DESC**) veergu ja ühte summa (**FD**, **WKS** või **CALC**) veergu.
@@ -342,8 +342,8 @@ Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru d
 
 ### <a name="specify-a-column-type"></a>Veeru tüübi määramine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake asjakohases veerus lahtrit real **Veeru tüüp**.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake vastavas veerus veerutüübi rea **lahtrit** .
 3. Valige loendist veeru tüüp. Järgmises tabelis kirjeldatakse eri veeru tüüpe.
 
     <table>
@@ -399,15 +399,15 @@ Saate neid vaikesätteid muuta.</td>
 
 ### <a name="financial-dimensions-column"></a>Veerg Finantsdimensioonid
 
-Järgmised rea **Veeru definitsioon** definitsioonid rakenduvad veergudele, mille veeru tüüp on **FD** (finantsdimensioonide summad).
+Järgnev veerudefinitsiooni **readefinitsioon** kehtib veergudele, mille veerutüüp **on FD**  (finantsdimensioonide summad).
 
 #### <a name="book-codeattribute-category-cell"></a>Lahter Konteerimiskood/atribuudi kategooria
 
-Lahter **Konteerimiskood/atribuudi kategooria** määratleb konteerimiskoodi veeru **FD** andmete puhul. Veeru definitsioon võib sisaldada mitut tegelikku, eelarve ja statistilist veergu. Veeru definitsioon võib kuvada ka eri perioode, nagu praegune või aasta algusest praeguse kuupäevani, ja eri summasid. Konteerimiskoodide loend kajastab teie ettevõtte andmetes loodud tegelikke, eelarve ja statistilisi (mitterahalisi) suvandeid.
+Raamatukood **/atribuudikategooria** lahter tuvastab FD-veerus **andmete raamatukoodi** . Veeru definitsioon võib sisaldada mitut tegelikku, eelarve ja statistilist veergu. Veeru definitsioon võib kuvada ka eri perioode, nagu praegune või aasta algusest praeguse kuupäevani, ja eri summasid. Konteerimiskoodide loend kajastab teie ettevõtte andmetes loodud tegelikke, eelarve ja statistilisi (mitterahalisi) suvandeid.
 
-#### <a name="fiscal-year-cell"></a>Lahter Rahandusaasta
+#### <a name="fiscal-year-cell"></a>Finantsaasta lahter
 
-Lahter **Rahandusaasta** määratleb rahandusaasta, mis tuleks veergu kaasata. Aasta võib olla aruande loomisel määratud baasperioodile vastav. Saadaval on järgmised suvandid.
+Finantsaasta **lahter** tuvastab finantsaasta, mille veerg peaks sisaldama. Aasta võib olla aruande loomisel määratud baasperioodile vastav. Saadaval on järgmised suvandid.
 
 | Suvand  | Kirjeldus                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------|
@@ -436,13 +436,13 @@ Saate rahandusaasta piire ületada mis tahes perioodi spetsifikatsioonis ja komb
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Perioodide määratlemine veeru FD jaoks
 
-1. Avage aruandekoosturis muudetav veerudefinitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Topeltklõpsake veeru **FD** rea lahtrit **Periood** ja seejärel valige suvand loendist.
 3. Lõpetage valem navigeerimispaani kohal valemiribal või lahtris **Periood**. Asendage numbrimärk (\#) sobiva väärtusega.
 
-#### <a name="periods-covered-cell"></a>Lahter Hõlmatud perioodid
+#### <a name="periods-covered-cell"></a>Lahtriga kaetud perioodid
 
-Lahter **Hõlmatud perioodid** määratleb summa, mis tuleks veerus kuvada. See summa on seotud väärtusega veeru lahtrites **Rahandusaasta** ja **Periood**. Saadaval on järgmised suvandid.
+ **Perioodide kaetud** lahter tuvastab summa, mida veerg peaks kuvama. See summa on seotud veeru lahtrite **Rahandusaasta**  **ja Perioodi** väärtusega. Saadaval on järgmised suvandid.
 
 | Suvand      | Kirjeldus                                                                 |
 |-------------|-----------------------------------------------------------------------------|
@@ -453,27 +453,27 @@ Lahter **Hõlmatud perioodid** määratleb summa, mis tuleks veerus kuvada. See 
 
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Veeru FD puhul hõlmatud perioodide määramine
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake veeru **FD** rea lahtrit **Hõlmatud perioodid** ja valige suvand loendist.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake **FD-veerus** lahtrit rea Perioodid **kaetud ning** valige loendist soovitud väärtus.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Veeru definitsiooni atribuudi filter
 
-Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks. Konto atribuudid sisaldavad suvandeid **Vara**, **Kohustus**, **Tulu** ja **Kulu**. Kande atribuudid sisaldavad suvandeid **Kande kirjeldus** ja **Kande rakendamise kuupäev**. Atribuudi tugi võib Microsoft Dynamicsi ERP süsteemide lõikes erineda. Lahter **Atribuudi filter** piirab andmed veergudes **FD** atribuudikategooriate konkreetsetele väärtustele või vahemikele. Kuigi seda funktsiooni saab kasutada koos veeruga **ATTR**, pole veerg **ATTR** nõutav. Veerus **FD** on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.
+Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks. Konto atribuudid sisaldavad suvandeid **Vara**, **Kohustus**, **Tulu** ja **Kulu**. Kande atribuutide hulka kuuluvad Kande **kirjeldus ja** Kande **rakendamise kuupäev**. Atribuuditugi võib Microsoft Dynamics 365 Finanace’i vahel erineda. Atribuudi **filtri lahter** piirab FD-veergude **andmed** kindlatele väärtustele või atribuudikategooriate vahemikke. Kuigi seda funktsiooni saab kasutada koos veeruga **ATTR**, pole veerg **ATTR** nõutav. Veerus **FD** on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.
 
 > [!NOTE]
 > Nägemaks, milliseid atribuute ERP-süsteem toetab, vaadake süsteemi integratsioonijuhendit.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Atribuudi filtri rakendamine aruande veerule FD
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake veeru **FD** jaoks lahtrit **Atribuudifilter**.
-3. Topeltklõpsake dialoogiboksis **Atribuudifilter** mõnd veeru **Atribuut** lahtrit ning valige seejärel filtri tüüp.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake FD-veeru **atribuudifiltri** **lahtrit** .
+3.  **Topeltklõpsake dialoogiboksis** Atribuudi filter lahtrit veerus Atribuut ja **valige** seejärel filtri tüüp.
 4. Tulemuste edasiseks piiramiseks sisestage vahemik veergudesse **Alates** ja **Kuni**. Lahter **Alates** peab sisaldama väärtust.
 5. Klõpsake nupul **OK**.
 
 #### <a name="example-of-an-attribute-filter"></a>Atribuudi filtri näide
 
-Järgmises näites kuvatakse veeru kirjelduse osa, mille konto atribuut on real **Konteerimiskood/atribuudi kategooria**. Selle veeru atribuudi filter määrab aruandesse kaasatavate väärtuste vahemiku.
+Järgmises näites on näha veerukirjelduse osa, kus on raamatukoodi **/atribuudi kategooria real konto** atribuut. Selle veeru atribuudi filter määrab aruandesse kaasatavate väärtuste vahemiku.
 
 |      Filtreeri                  | A    | B                   |
 |------------------------------|------|---------------------|
@@ -498,8 +498,8 @@ Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Dimensioonifiltri rakendamine aruande veerule
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake lahtrit **Dimensioonifilter** veeru **FD** puhul.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake FD-veeru **dimensioonifiltri** **lahtrit** .
 3. Sisestage dialoogiboksi **Dimensioonid** rakendatavad filtrid.
 4. Klõpsake nupul **OK**.
 
@@ -507,42 +507,42 @@ Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni
 
 Mitme valuutaga aruanne võib kuvada summasid pearaamatu arvestusvaluutas, pearaamatu aruandlusvaluutas, algses kandevaluutas või teisendatud aruandlusvaluutas. Ettevõtte arvestusvaluuta on määratud pearaamatu seadistuses. Ärge ajage seda sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida aruannetest kasutatavaid vaikevaluutatähiseid. Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.
 
-- **Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (arvestusvaluuta, aruandlusvaluuta, kandevaluuta või teisendatud aruandlusvaluuta). Aruandlusvaluutaks teisendamise funktsiooni nimetatakse mõnikord valuuta teisendamiseks. Valuuta teisendamine on võimalus esitada pearaamatu summasid valuutas, mis ei ole ettevõtte tegevus- või aruandlusvaluuta või sisestatud kande valuuta.
-- **Valuutafilter** – valuuta filtri määramine. Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.
+- **Valuuta kuva** – määrake valuuta tüüp (arvestus, aruandlus, kanne või teisendatud aruandlus), mille kohta kanded kuvatakse. Aruandlusvaluutaks teisendamise funktsiooni nimetatakse mõnikord valuuta teisendamiseks. Valuuta teisendamine on võimalus esitada pearaamatu summasid valuutas, mis ei ole ettevõtte tegevus- või aruandlusvaluuta või sisestatud kande valuuta.
+- **Valuutafilter** – määrake valuutafilter. Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.
 
-> 
+
 Ettevõtte arvestusvaluuta määramiseks toimige allpool kirjeldatud viisil.
 
-1. Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Ettevõtted**.
+1. Klõpsake aruandekujundaja menüüs **Ettevõte** käsku **Ettevõtted**.
 2. Valige ettevõte dialoogiboksist **Ettevõtted** ja seejärel klõpsake käsku **Kuva**..
-3. Dialoogiboksi **Ettevõtte kuvamine** suvandi **Piirkonnavalikud** all saate vaadata valitud ettevõtte puhul määratud valuutat.
+3. Dialoogiakna **Ettevõtte** kuvamine jaotises Piirkonnavalikud **saate** vaadata valitud ettevõttele määratud valuutat.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valuuta määramine mitme valuutaga aruandel
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake asjakohases veerus **FD** olevat lahtrit **Valuutakuva** ja seejärel valige valuutateabe kuvamise suvand: **Pearaamatu arvestusvaluuta**, **Pearaamatu aruandlusvaluuta**, kandevaluuta või muuks aruandlusvaluutaks teisendamine.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
+2. Topeltklõpsake vastavas **FD**-veerus **lahtrit Valuuta kuvamiseks ja valige seejärel valuutateabe kuvamise suvand:**  **pearaamatu arvestusvaluuta,** **pearaamatu aruandlus, kandevaluuta või valige see teise aruandlusvaluutasse** tõlkimiseks.
 3. Topeltklõpsake lahtrit **Valuutafilter** asjakohases veerus **FD** ja seejärel valige loendist sobiv valuutakood. Aruandes kuvatakse ainult selles valuutas sisestatud kanded.
 
 
-### <a name="example-for-currency-display-and-currency-filter-cells"></a>Lahtrite Kuva valuuta ja Valuutafilter näide
+### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valuutakuva ja valuutafiltri lahtrite näide
 
 Kasutaja tegi oma veeru definitsioonis järgmised valuuta valikud.
 
-- **Valuutafilter:** jeen
-- **Valuutakuva:** pearaamatu arvestusvaluuta (USA dollarid)
+- **Valuutafilter:**  Jeen
+- **Valuutakuva:**  arvestusvaluuta pearaamatust (USA dollarid)
 
 Valitud valuutafiltri tõttu sisaldab aruanne ainult kandeid, mis sisestati Jaapani jeenides (JPY). Valitud valuutakuva tõttu kuvatakse need kanded aruandes arvestusvaluutas, USA dollarites (USD).
 
-#### <a name="currency-filter-and-currency-display-combinations"></a>Kombinatsioonid Valuutafilter ja Valuuta kuva
+#### <a name="currency-filter-and-currency-display-combinations"></a>Valuutafilter ja valuutakuva kombinatsioonid
 
-Järgmises tabelis kuvatakse aruande tulemused, mis võivad ilmneda suvandite eri kombinatsioonide puhul lahtrites **Valuuta kuva** ja **Valuutafilter** tehtud valikute tõttu. Ametlik valuuta on USD.
+Järgmine tabel näitab aruande **tulemusi**  **·**, mis võivad tehtud valikute tõttu ilmneda valuutakuva ja valuuta filtri lahtrite erinevate kombinatsioonide puhul. Ametlik valuuta on USD.
 
 
 | Lahter Valuuta kuva                        | Lahter Valuutafilter | Aruande tulemus |
 |----------------------------------------------|----------------------|---------------|
 | Kande valuuta                 | **YEN**              | **Y6,000** – tulemus kuvab ainult valuutas JPY sisestatud kanded. |
-| Pearaamatu arvestusvaluuta | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<p><strong>Märkus.</strong> Vahetuskurss on umbes 100 JPY USD kohta.</p> |
-| Pearaamatu arvestusvaluuta | Tühi                | **2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.<p><strong>Märkus.</strong> See summa on kõigi kannete summa arvestusvaluutas.</p> |
+| Arvestusvaluuta pearaamatust | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<p><strong>Märkus.</strong> Vahetuskurss on umbes 100 JPY USD kohta.</p> |
+| Arvestusvaluuta pearaamatust | Tühi                | **2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.<p><strong>Märkus.</strong> See summa on kõigi kannete summa arvestusvaluutas.</p> |
 | Kande valuuta                 | Tühi                | **$2,250** – tulemus kuvab kõik summad valuutas, milles kanne tehti. See tähendab, et kogusummaks liidetakse kokku eri valuutade summad. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Veeru definitsiooni arvutuse veerg
@@ -566,7 +566,7 @@ Veergude liitmiseks, lahutamiseks, korrutamiseks või jagamiseks sisestage veeru
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Arvutusvalemi kasutamine veeru definitsioonis
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Aruandekujundajas avage muutmiseks veeru definitsioon.
 2. Sisestage valem asjakohase veeru **CALC** lahtrisse **Valem**.
 
 #### <a name="complex-calculations"></a>Keerukad arvutused

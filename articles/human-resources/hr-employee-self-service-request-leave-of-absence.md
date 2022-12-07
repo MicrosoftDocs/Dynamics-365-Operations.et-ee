@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6c98246e94670dd5f882fcbbd1f269e57f66faf
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869832"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805283"
 ---
 # <a name="request-a-leave-of-absence"></a>Puhkuse taotlemine
 
 >[!Important]
->Selles artiklis märgitud funktsioonid on klientide jaoks praegu saadaval eraldiseisev Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
+>Selles artiklis märgitud funktsioone saavad kliendid praegu kasutada eraldiseisvas teenuses Dynamics 365 Human Resources. Osa või kõik funktsioonid on saadaval osana Finance'i taristu tulevasest väljalaskest pärast Finance'i versiooni 10.0.26.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
@@ -51,6 +51,22 @@ Saate esitada puhkusetaotluse ja näha oma puhkusetaotluste olekut rakenduses Dy
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Lisateave** (…) paanil **Vaba aja saldod**.
 
 2. Puhkusetaotluste vaatamiseks valige **Puhkuse kuvamine**.
+
+## <a name="update-a-leave-of-absence-request"></a>Puhkusetaotluse uuendamine
+
+1. Valige töötaja **iseteeninduse** tööruumis puudumiste paanil **Puhkus** suvand **Veel (...)**.
+2. Valige uuendamist vajav puhkusetaotlus ja valige suvand **Uuenda puhkused**.
+3. Uuendage **puhkuse** pikendamiseks või lühendamiseks väljal Lõppkuupäev sobiv väärtus.
+4. Kui lõppkuupäev on kinnitatud, määrake suvandi Kinnita **lõppkuupäev väärtuseks**  **Jah**.
+5. Kui lõppkuupäeva **kinnitamise** suvand on seatud valikule **Jah**, saate üles laadida tööle naasmise teatise. Seejärel märkige ruut kinnitamaks, et töölt tagastamise teatis on üles laaditud.
+6. Puhkusetaotluse **värskendamiseks** valige edastamine.
+
+## <a name="cancel-a-leave-of-absence-request"></a>Puudumistaotluse tühistamine
+
+1. Valige töötaja **iseteeninduse** tööruumis puudumiste paanil **Puhkus** suvand **Veel (...)**.
+2. Valige tühistamiseks puhkusetaotlus ja seejärel valige uuenda **puhkusetaotlus**.
+3. Seadke suvandi **Puhkuse tühistamine väärtuseks**  **Jah**.
+4. Puhkusetaotluse **tühistamiseks** klõpsake nuppu Edasta.
 
 ## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Puhkusetaotluste importimine muudest süsteemidest või vanematest süsteemidest
 

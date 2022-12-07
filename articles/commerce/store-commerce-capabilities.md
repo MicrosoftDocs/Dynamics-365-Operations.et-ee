@@ -1,5 +1,5 @@
 ---
-title: Rakenduse Store Commerce võimalused
+title: Store Commerce’i rakenduse funktsioonid
 description: See artikkel kirjeldab funktsioone, mis on saadaval rakenduse Store Commerce rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/25/2022
@@ -9,14 +9,14 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9728026"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788508"
 ---
-# <a name="store-commerce-app-capabilities"></a>Rakenduse Store Commerce võimalused
+# <a name="store-commerce-app-capabilities"></a>Store Commerce’i rakenduse funktsioonid
 
 [!include [banner](includes/banner.md)]
 
@@ -41,8 +41,8 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 
 | Võimalus | Kirjeldus | Dokumentatsioon | Lisasisu |
 |---|---|---|---|
-| Mitu vormitegurit | Programmi Store Commerce rakendust toetab mitu seadme vormitegurit, nt arvutid, tahvelarvutid ja mobiilsed seadmed. Rakenduste kasutajaliidese (UI) abil saab kavandi suurust automaatselt muuta ja korrigeerida vastavalt ekraani suurusele. | [Visuaalsed konfiguratsioonid](pos-screen-layouts.md) | |
-| Platvormiülene | Programmi Store Commerce rakendust toetatakse veebis, Windowsis, iOS-is ja platvormides Android. | [Platvormid](dev-itpro/hybridapp.md) | |
+| Mitu vormitegurit | Programmi Store Commerce rakendust toetab mitu seadme vormitegurit, nt arvutid, tahvelarvutid ja mobiilsed seadmed. Rakenduste kasutajaliidese (UI) abil saab kavandi suurust automaatselt muuta ja korrigeerida vastavalt ekraani suurusele. | [Visuaalsed konfiguratsioonid](pos-screen-layouts.md) |  |
+| Platvormiülene | Programmi Store Commerce rakendust toetatakse veebis, Windowsis, iOS-is ja platvormides Android . | [Platvormid](dev-itpro/hybridapp.md) | |
 | Kaubamärgi kasutamine | Ekraani kujundaja võimaldab teil ekraanipaigutusi kohandada nii, et need vastaksid teie äritegevuse nõuetele. Lisaks saab töötaja rollide põhjal luua kujundusi, kujundusi, värve ja pilte ning seejärel saab neid kaubamärgi ühtsuse ja kasutus lihtsustamise jaoks jagada kõigi kasutajate vahel. | [Visuaalsed konfiguratsioonid](pos-screen-layouts.md) | [Video](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topoloogia | Toetatud on erinevad kaupluses olevad topologid, mis põhinevad võrgu saadavusel. | <p>[Topoloogia](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Teabegraafiline](dev-itpro/retail-in-store-topology.md)</p> | |
 | Mitme seadme haldus | Mitut kauplust üle kogu kaupluse saab hõlpsalt hallata commerce headquartersi kaudu. | [Aktiveerimine](set-up-activation-accounts-validate-devices-hq.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/commerce-mass-deployment-with-sccm-system-center-configuration-manager-october-6-2022) |
@@ -77,8 +77,8 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 | Toote otsing | Otsige tooteid nime järgi ja täpsustage otsingud, kasutades tooteatribuudid nagu kaubamärk, hind ja materjal. Seda võimsust kasutab Azure’i cotive otsing. | [Pilve powered otsing](cloud-powered-search-overview.md) | |
 | Leht Toote üksikasjad | Rikas toote üksikasjade leht võib sisaldada pilte, kirjeldust, toote atribuute ja soovitatud tooteid. Soovitused on soovituste teenuse toide. | | |
 | Toote võrdlus | Saate võrrelda mitut toodet ja aidata klientidel valida ühe ja lisada need kandesse. | | |
-| Lõpplaos | Saate hõlpsalt otsida teiste kaupluste kaubavarusid ja luua tellimusi. | [Otsing varudest](pos-inventory-lookup-operation.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Soovitused | Toodete üles müümine ja edasi müümine soovituste teenuse abil. Teenus kasutab patenteeritud tehnoloogiat soovituste soovitamiseks, mis põhinevad ostutrenditel ja omadustel, nagu näiteks uuesti saabunud, sarnane väljaminek ja hinnatud. Need soovitused on saadaval toote üksikasjade lehtedel, kliendi **üksikasjade** lehel ja kannete **lehel**. | [Soovitused](product-recommendations.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
+| Lõpplaos | Saate hõlpsalt otsida teiste kaupluste kaubavarusid ja luua tellimusi. | [Otsing varudest](pos-inventory-lookup-operation.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Soovitused | Toodete üles müümine ja edasi müümine soovituste teenuse abil. Teenus kasutab patenteeritud tehnoloogiat soovituste soovitamiseks, mis põhinevad ostutrenditel ja omadustel, nagu näiteks uuesti saabunud, sarnane väljaminek ja hinnatud. Need soovitused on saadaval toote üksikasjade lehtedel, kliendi **üksikasjade** lehel ja kannete **lehel** . | [Soovitused](product-recommendations.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Kliendisuhe
 
@@ -88,8 +88,8 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 | Kliendi atribuudid | Kliendi atribuutide raamistik võimaldab hõivata täiendavad kliendiga seotud andmed ärinõuete alusel. | [Atribuudid](dev-itpro/customer-attributes.md) | |
 | Kliendi üksikasjade leht | Rikas kliendi üksikasjade leht pakubkirjet kliendi suhtluse kohta kõigis kanalites. Need suhtlused hõlmavad oste, soovinimekirju ja boonuspunkte. | | |
 | Pilvepõhine kliendiotsing | Otsige kliente nime, telefoninumbri, meiliaadressi, kliendikaardi, aadressi jne järgi. | [Pilve powered otsing](pos-search-improvements.md#customer-search) | |
-| Püsikliendid ja preemiad | Kliendid saavad liituda püsikliendiprogrammiga ning teenida ja lunastada boonuspunkte läbi kanalite. | [Püsiklient](set-up-customer-loyalty-program.md) | |
-| Kliendisuhtlus | Hallake võtmekliente, kasutades kliendiraamatut ning jälgige tegevusi ja märkmeid kliendiprofiilil. Dynamics 365 Customer Insights integratsioon lubab kaupluse töötajatel saada vihjeid iga kliendi järgmise parima tegevuse kohta. | [Kliendisuhtlus](clienteling-overview.md#activities-and-notes) | |
+| Püsikliendid ja preemiad | Kliendid saavad liituda püsikliendiprogrammiga ning teenida ja lunastada boonuspunkte läbi kanalite. | [Püsiklient](set-up-customer-loyalty-program.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Kliendisuhtlus | Hallake võtmekliente, kasutades kliendiraamatut ning jälgige tegevusi ja märkmeid kliendiprofiilil. Dynamics 365 Customer Insights integratsioon lubab kaupluse töötajatel saada vihjeid iga kliendi järgmise parima tegevuse kohta. | [Kliendisuhtlus](clienteling-overview.md#activities-and-notes) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Hinnad ja allahindlused
 
@@ -132,8 +132,8 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 | Tellimuse atribuudid | Tellimuse atribuudi raamistik võimaldab täiendava tellimusega seotud teabe hõivamist ärinõuete alusel. | [Atribuudid](dev-itpro/order-attributes.md) | |
 | Otsetarne | Kaubad saab hankijalt otsetarnele kliendi aadressile märkida. Seda nimetatakse ka otsetarneks. | [Otsetarne](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Pakkumine | Kaupluse töötajad saavad luua klientidele pakkumisi ning määrata spetsiaalse hinna, käsitsi allahindlused ja pakkumise kehtivuse kuupäeva. | [Pakkumine](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Täitmine | Kauplused saavad komplekteeritud, pakkida ja saata tellimusi. Saatelehte saab lisada lähetusvalmis pakenditele. | [Täitmine](order-fulfillment-overview.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Hajutatud tellimuste haldamine | Store Commerce’i rakendus toetab nutikat tellimuse täitmise optimeerimist, kus äristrateegiaid saab konfigureerida äri olemuse, kliendi tüübi, tellimuse päritolu ja tellimuse tarneviisi alusel. | [Dom](dom.md) | |
+| Täitmine | Kauplused saavad komplekteeritud, pakkida ja saata tellimusi. Saatelehte saab lisada lähetusvalmis pakenditele. | [Täitmine](order-fulfillment-overview.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Video](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Hajutatud tellimuste haldamine | Store Commerce’i rakendus toetab nutikat tellimuse täitmise optimeerimist, kus äristrateegiaid saab konfigureerida äri olemuse, kliendi tüübi, tellimuse päritolu ja tellimuse tarneviisi alusel. | [DOM](dom.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Varud
 
@@ -141,12 +141,12 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 |---|---|---|---|
 | Jaotus kesklaost | Jaotage vabade varude jaotus jaotus jaotuskeskusest mitmesse kauplusse või ladu. | [Jaotus kesklaost](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Ristlaadimine | Jaotada sissetulevatel ostutellimustel lao jaotust mitmesse kauplusse või ladu. | [Ristlaadimine](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Sissetulevad varud | Laovarud saab hankijalt vastu võtta ostutellimuse kaudu või üleviimistellimuse kaudu muust laost. Looge sissetulev ostutellimus või üleviimistellimuse taotlus. | [Sissetulev](pos-inbound-inventory-operation.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Väljaminevad varud | Saate üleviimistellimuse kaudu lähetada varud teise lattu ja luua väljamineva üleviimistellimuse taotluse. | [Väljaminev](pos-outbound-inventory-operation.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Otsing varudest | Kontrollige kaupluste ja ladude toodete vaba kaubavaru ning kontrollige ladu, mis on saadaval lubaduse andmiseks (ATP) tulevastel kuupäevadel. | [Otsing varudest](pos-inventory-lookup-operation.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Varude korrigeerimine | Korrigeerige ladu kaupluse lattu või sellest väljas, et need vastaksid kindlatele ärinõuetele ilma müüki, sissetulekut või ülelugemist ilma. | [Varude korrigeerimine](work-with-store-inventory.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Laoinventuurid | Loendage füüsilised varud ja korrigeerige süsteemi raamatupidamislik laovaru nii, et need sobiksid sellega. | [Inventuur](work-with-store-inventory.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Lao liikumine | Teisaldage varud kaupluse asukohtade vahel. | [Liikumine](work-with-store-inventory.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Sissetulevad varud | Laovarud saab hankijalt vastu võtta ostutellimuse kaudu või üleviimistellimuse kaudu muust laost. Looge sissetulev ostutellimus või üleviimistellimuse taotlus. | [Sissetulev](pos-inbound-inventory-operation.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Väljaminevad varud | Saate üleviimistellimuse kaudu lähetada varud teise lattu ja luua väljamineva üleviimistellimuse taotluse. | [Väljaminev](pos-outbound-inventory-operation.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Otsing varudest | Kontrollige kaupluste ja ladude toodete vaba kaubavaru ning kontrollige ladu, mis on saadaval lubaduse andmiseks (ATP) tulevastel kuupäevadel. | [Otsing varudest](pos-inventory-lookup-operation.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Varude korrigeerimine | Korrigeerige ladu kaupluse lattu või sellest väljas, et need vastaksid kindlatele ärinõuetele ilma müüki, sissetulekut või ülelugemist ilma. | [Varude korrigeerimine](work-with-store-inventory.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Laoinventuurid | Loendage füüsilised varud ja korrigeerige süsteemi raamatupidamislik laovaru nii, et need sobiksid sellega. | [Inventuur](work-with-store-inventory.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Lao liikumine | Teisaldage varud kaupluse asukohtade vahel. | [Liikumine](work-with-store-inventory.md) | <p>[Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Finantsid
 
@@ -193,8 +193,8 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 |---|---|---|---|
 | Commerce Headquarters | Äriprotsesse lisades või muutes saab äri peakontori lahendusi kohandada. Commerce headquarters toetab metaandmete ja koodipõhise laiendusmudeli kasutamist kohandatud funktsioonide lisamiseks. Seda saab hõlpsalt integreerida väliste lahendustega. | [Ülevaade](dev-itpro/extend-customer-cdx-package.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-unlock-the-power-of-dynamics-365-commerce-commerce-extensibility-overview-february-23-2021) |
 | Peakontor | Extensible Lisamise API raamistikku saab kasutada äriloogika kohandamiseks ja lisamiseks. API-d, kus on nõudeohjureid ning eel triggeri ja päästikujärgseid laiendusmustreid. | [CsU](dev-itpro/retail-server-customer-consumer-api.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| Äri SDK | Commerce SDK hõlmab koodi, koodinäidiseid, malle ja tööriistu, mida on vaja funktsioonide laiendamiseks või kohandamiseks Dynamics 365 Commerce. SDK avaldatakse GitHub-is erinevates hoidlates (taasposeerimisel), sõltuvalt laienduskomponentidest. | [Sdk](dev-itpro/retail-sdk/sdk-github.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| Kassa | Rakendust Store Commerce saab rakenduse Commerce SDK laiendusfunktsiooni abil sõltumatult laiendada. Raamistik toetab kasutajakogemuse (UX), töövoogude ja äriloogika kohandamist. | [Pos](dev-itpro/pos-extension/pos-extension-overview.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Äri SDK | Commerce SDK hõlmab koodi, koodinäidiseid, malle ja tööriistu, mida on vaja funktsioonide laiendamiseks või kohandamiseks Dynamics 365 Commerce . SDK avaldatakse GitHub-is erinevates hoidlates (taasposeerimisel), sõltuvalt laienduskomponentidest. | [SDK](dev-itpro/retail-sdk/sdk-github.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Kassa | Rakendust Store Commerce saab rakenduse Commerce SDK laiendusfunktsiooni abil sõltumatult laiendada. Raamistik toetab kasutajakogemuse (UX), töövoogude ja äriloogika kohandamist. | [POS](dev-itpro/pos-extension/pos-extension-overview.md) | [Tech](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
 
 ## <a name="reporting"></a>Aruandlus
 
@@ -206,7 +206,7 @@ See artikkel annab ülevaate Store Commerce’i rakenduse võimalustest.
 
 | Võimalus | Kirjeldus | Dokumentatsioon | Lisasisu |
 |---|---|---|---|
-| Tegevusülevaated | Poe curated teenuse tervisekindluse ja jõudluse mõõdikutega on saadaval kliendi kordustellimuses Application Insights. Saadaval on täpsemad teatise- ja seirevõimalused. | | |
+| Tegevusülevaated | Poe curated teenuse tervisekindluse ja jõudluse mõõdikutega on saadaval kliendi kordustellimuses Application Insights . Saadaval on täpsemad teatise- ja seirevõimalused. | | |
 | Seisundikontroll | Kassaga ühendatud välisseadmete saadavust saab kontrollida tervisekontrolli toimingut käivitades. Üksikuid välisprobleeme saab seejärel parandada ja kontrollida. | [Seisundikontroll](pos-healthcheck.md) | [Video](https://www.youtube.com/watch?v=RfPDNmnqYvY) |
 
 ## <a name="globalization"></a>Globaliseerimine

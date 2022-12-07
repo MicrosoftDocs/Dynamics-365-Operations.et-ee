@@ -2,7 +2,7 @@
 title: Aruande komponentide korraldamine aruandekoosturis
 description: Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135875"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802684"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135875"
 
 Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida. Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
 
-Failide korraldamiseks saate aruandekoosturis kaustu, aruandeid, koosteüksusi ja muid objekte ümber nimetada. Ümbernimetatava objekti tüübist olenevalt võib teil olla vaja selle objekti seoseid värskendada.
+Saate failide korraldamiseks kaustu, aruandeid, koosteüksuseid ja muid aruandekujundaja objekte ümber nimetada. Ümbernimetatava objekti tüübist olenevalt võib teil olla vaja selle objekti seoseid värskendada.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aruande kujundaja kausta või koosteüksuse ümbernimetamine
-Saate aruandekoosturis kaustade, aruande-, rea-, veeru- ja aruandluspuu definitsioonide nime muuta.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Kausta ümbernimetamine või blokki loomine aruandekujundajas
+Aruandekujundajas saate kaustu, aruandedefinitsioone, readefinitsioone, veerudefinitsioone ja aruandluspuu määratlusi ümber nimetada.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Kausta või koosteüksuse ümbernimetamine aruandekoosturis
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Kausta ümbernimetamine või blokki loomine aruandekujundajas
 
-1. Kasutage aruandekoosturis ümbernimetatava kausta või objekti leidmiseks navigeerimispaani.
+1. Aruandekujundajas kasutage navigeerimispaani kausta või objekti leidmiseks, mida ümber nimetada.
 2. Paremklõpsake kausta või objekti ja seejärel klõpsake suvandit **Nimeta ümber**. Navigeerimispaani väli **Nimi** muutub aktiivseks.
-3. Sisestage uus nimi ja seejärel vajutage suvandit Sisesta.
+3. Sisestage uus nimi ja seejärel vajutage suvandit **Sisesta**.
 4. Kui koosteüksus on readefinitsioon, veeru definitsioon või aruandluspuu definitsioon, peate värskendama teisi sellega seotud koosteüksusi. Paremklõpsake 3. etapis ümbernimetatud koosteüksust, valige **Seosed** ja seejärel valige element loendist selle värskendamiseks.
 5. Korrake 4. etappi, kuni kõik seotud elemendid on värskendatud.
 
@@ -46,48 +46,48 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 
 ### <a name="create-a-report-group"></a>Aruandegrupi loomine
 
-1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2. Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp.](media/report-group.gif "Aruanderühm") tööriistaribal.
-3. Klõpsake vahekaarti **Aruandegrupp**. Eraldi aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul märkige ruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine** eraldi aruande definitsioonidest. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
-4. Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Aruandegrupid**.
+2. Klõpsake menüü **Fail** käsku Uus **aruandegrupi** &gt; **definitsioon,** et avada vaaturi aknas uus aruandegrupp. Teise võimalusena klõpsake aruandegrupi **nuppu** Aruandegrupp ![.](media/report-group.gif "Aruanderühm") tööriistaribal.
+3. Klõpsake vahekaardil **Aruandegrupp** . Selle aruande loomiseks üksikute aruandedefinitsioonide teabe alistamiseks märkige ruut Alista ettevõte, **üksikasjad ja kuupäevasätted üksikutest aruandemääratlustest** . Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
+4. Mitme aruande loomiseks, mis kuvavad aruandlusvaluutasid, märkige ruut **Kaasa kõik aruandlusvaluutad** . Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
 5. Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
 6. Uue aruandegrupi salvestamiseks klõpsake **Fail** &gt; **Salvesta**.
 
 ### <a name="modify-a-report-group"></a>Aruandegrupi muutmine
 
-1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Aruandegrupid**.
 2. Aruandegrupi muutmiseks topeltklõpsake.
-3. Tehke vahekaardil **Aruandegrupp** soovitud muudatused.
+3.  **Tehke vahekaardil** Aruandegrupp soovitud muudatused.
 4. Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks, Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta.](media/save.gif "Salvesta") tööriistaribal.
 
-> Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.
+> [NOTE] Kui olete aruandeid planeerinud nii, et need luuakse määratud ajavahemike järel, saate need sätted alistada ja luua kohe aruande.
 
 ### <a name="generate-a-report-group-report"></a>Aruandegrupi aruande loomine
 
-1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Aruandegrupid**.
 2. Avage loodav aruandegrupp.
-3. Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne.](media/generate-report.gif "Aruande loomine") aruannete loomiseks.
+3. Klõpsake aruande **loomise nuppu**  ![Aruande loomine.](media/generate-report.gif "Aruande loomine") aruannete loomiseks.
 
 ### <a name="delete-a-report-group"></a>Aruandegrupi kustutamine
 
-1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Aruandegrupid**.
 2. Paremklõpsake kustutamiseks aruandegruppi ja seejärel tehke valik **Kustuta**.
 3. Kui kuvatakse kinnitusteade, klõpsake valikut **Jah**.
 
-## <a name="report-group-tab-controls"></a>Vahekaardi Aruandegrupp juhtelemendid
-Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
+## <a name="report-group-tab-controls"></a>Aruandegrupi vahekaardi juhtelemendid
+Järgmises tabelis kirjeldatakse vahekaardi Aruandegrupp **juhtelemente** .
 
 <table>
 <thead>
 <tr>
-<th>Juhtelement</th>
+<th>Juhtklahv CTRL</th>
 <th>Kirjeldus</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest</td>
-<td>Märkige see ruut selle aruandegrupi aruannete individuaalsete aruande definitsioonide tühistamiseks ainult nende aruannete loomise puhul.</td>
+<td>Alista individuaalsetest aruande määratlustest ettevõtte, üksikasjade ja kuupäeva sätted</td>
+<td>Märkige see ruut, et alistada selles aruandegrupis üksikud aruandedefinitsioonid ainult nende aruannete loomiseks.</td>
 </tr>
 <tr>
 <td>Ettevõtte nimi</td>
@@ -113,7 +113,7 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 </tr>
 <tr>
 <td>Kõigi aruandlusvaluutade kaasamine</td>
-<td>Kui teie Microsoft Dynamicsi ERP-süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Aruannete vaatamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige valuuta.</td>
+<td>Kõik täiendavad aruandlusvaluutad, mis on konfigureeritud teie Microsoft Dynamics 365 Finantssüsteemis, on loetletud siin. Märkige see ruut, et luua näidatud valuutades täiendavad aruanded. Aruannete vaatamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige valuuta.</td>
 </tr>
 <tr>
 <td>Aruande definitsiooni ei salvestatud kuupäevateavet</td>

@@ -2,7 +2,7 @@
 title: Krediidihalduse parameetrite seadistus
 description: See artikkel kirjeldab valikuid, mida saab kasutada krediidihalduse konfigureerimiseks nii, et see vastaks teie äritegevuse nõuetele.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876350"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799541"
 ---
 # <a name="credit-management-parameters-setup"></a>Krediidihalduse parameetrite seadistus
 
@@ -44,19 +44,19 @@ Jaotises **Krediit** on neli kiirkaarti, kus saate muuta parameetreid, mis kontr
 
 ### <a name="credit-management-checkpoint"></a>Krediidihalduse kontrollpunkt
 
-Saate seadistada aja, mida kasutatakse müügitellimuste krediidiprobleemide kontrollimiseks. Kiirkaart **Krediidihalduse kontrollpunkt** tuvastab dokumendi sisestamise protsessid, mis sisaldavad krediidihalduse reeglite töötlemist. Saate kontrollida krediidi reegleid ka siis, kui teete kas müügitellimuse esialgset sisestamist või täielikku sisestamist. Valige märkeruudud, et määratleta sisestusprotsessid, mis peaksid panema tellimuse ootele, kui pärast krediidihalduse blokeerimise reeglite töötlemist leitakse probleem.
+Saate seadistada aja, mida kasutatakse müügitellimuste krediidiprobleemide kontrollimiseks. Kiirkaart **Krediidihalduse kontrollpunkt** tuvastab dokumendi sisestamise protsessid, mis sisaldavad krediidihalduse reeglite töötlemist. Saate kontrollida krediidi reegleid ka siis, kui teete kas müügitellimuse esialgset sisestamist või täielikku sisestamist. Märkige ruudud, et määrata sisestusprotsessid, mis peaksid tellimuse ootele panema, kui pärast krediidihalduse blokeerimisreeglite töötlemist leitakse probleem.
 
-Samuti saate määratleda ajapikenduse päevade arvu, enne kui krediidi reegleid uuesti kontrollitakse. Kuigi saate määrata, et kreeditihalduse reegleid kontrollitakse sisestamise ajal, ei kontrollita reegleid määratud arvu ajapikenduse päevade jooksul. Näiteks kinnitate müügitellimuse 1. päeval ja määrate kinnitamise etapiks kaks ajapikenduse päeva. Sel juhul ei kontrollita järgmise sisestamise etapis krediidi reegleid (näiteks saatelehe loomisel või tellimuse arve esitamisel) kuni 4. päevani. 4. päeval või pärast seda kontrollitakse reegleid sisestamisel uuesti ja ajapikenduse päevade arvu muudetakse järgmise sisestamise kontrollpunkti jaoks määratud väärtusele.
+Samuti saate määratleda ajapikenduse päevade arvu, enne kui krediidi reegleid uuesti kontrollitakse. Kuigi saate määrata, et kreeditihalduse reegleid kontrollitakse sisestamise ajal, ei kontrollita reegleid määratud arvu ajapikenduse päevade jooksul. Näiteks kinnitate müügitellimuse ühel päeval ja määrate kinnitussammide jaoks kaks ajapikenduspäeva. Sel juhul ei kontrollita kreeditreeglit järgmisel sisestussampäeval (nt saatelehe loomine või tellimuse arveldamine) kuni nelja päevani. Neljal või päeval pärast seda kontrollitakse reegleid sisestamisel uuesti ja ajapikenduspäevade arv muudetakse väärtuseks, mis on määratud järgmisele sisestuse kontrollpunktile.
 
 Kui te ei määra ajapikenduse päevade arvu, siis kontrollitakse krediidi reegleid igal sisestamise etapil, mis on seadistatud krediidihalduse reegleid käivitama. Kui vabastate müügitellimuse sisestamata ja käitate sama tellimuse töötlemise sammu uuesti, kontrollitakse krediidi reegleid uuesti. Näiteks pannakse tellimus pärast kinnitamist ootele ja te vabastate selle kas sisestamisega või ilma. Sellisel juhul pannakse tellimus uuesti ootele, kui selle uuesti kinnitate. Kasutage ajapikendust, kui tellimus peaks edasi liikuma järgmisesse töötluse etappi, ilma et seda jälle ootele pannakse.
 
 > [!Note]
 > Kui ühele sisestuse kontrollpunktile on sisestatud ajapikenduse päev, peavad kõigil sisestamiseks märgitud kontrollpunktidel olema ajapikenduspäevad.
 
-- Märkige ruut **Sisestamine**, et käitada krediidihalduse reegleid siis kui käivitatakse real näidatud sisestamise kontrollpunkt. Kui te märkeruutu ei märgi, kontrollitakse reegleid ainult üks kord kogu sisestamise protsessi jooksul.
-- Kui märgite ruudu **Sisestamine**, määrake ajapikenduse päevade arv, mis peaksid mööduma enne blokeerimise reeglite uuesti kontrollimist. Kui märkeruut **Sisestamine** on tühjendatud, ei saa te ajapikenduse päevi lisada.
-- Märkige ruut **Esialgne**, et käitada krediidihalduse reegleid siis kui käivitatakse real näidatud esialgse sisestamise kontrollpunkt. Enamikul juhtudel on müügitellimuse sisestamisel kuvatava dialoogikasti väli **Sisestamine** seadistatud väärtusele **Ei**.
-- Kui märgite ruudu **Sisestamine**, määrake ajapikenduse päevade arv, mis peaksid mööduma enne blokeerimise reeglite uuesti kontrollimist. Kui märkeruut **Sisestamine** on tühjendatud, ei saa te ajapikenduse päevi lisada.
+- Krediidihalduse **reeglite** käivitamiseks real kuvatava sisestuskontrollipunkti käivitamisel märkige ruut Sisestamine. Kui te ruutu ei märgi, kontrollitakse reegleid ainult üks kord kogu sisestusprotsessi jooksul.
+- Kui märgite ruudu **Sisestamine**, määrake ajapikenduspäevade arv, mis peab mööduma enne blokeerimisreeglite uuesti kontrollimist. Kui märkeruut Sisestamine on tühjendatud, ei saa ajapikenduspäevi **lisada**.
+- Krediidihalduse **reeglite käivitamiseks rea soovitud pro forma kontrollpunkti käivitamisel märkige ruut Pro forma** . Enamikul juhtudel on müügitellimuse sisestamisel kuvatava dialoogikasti väli **Sisestamine** seadistatud väärtusele **Ei**.
+- Kui märgite ruudu **Sisestamine**, määrake ajapikenduspäevade arv, mis peab mööduma enne blokeerimisreeglite uuesti kontrollimist. Kui märkeruut Sisestamine on tühjendatud, ei saa ajapikenduspäevi **lisada**.
 
 ### <a name="credit-management-statistics"></a>Krediidihalduse statistika
 
@@ -73,7 +73,7 @@ Kui te ei määra ajapikenduse päevade arvu, siis kontrollitakse krediidi reegl
 
 - Kreeditihalduses kuvatakse kliendi krediidilimiit kliendi valuutas. Peate määratlema krediidilimiidi vahetuskursi tüübi kliendi valuutas. Väljal **Krediidilimiiti vahetuskursi tüüp** valige vahetuskursi tüüp, mida tuleks kasutada esmase krediidilimiidi teisendamiseks kliendi krediidilimiidiks.
 - Seadke suvand **Luba krediidilimiitide käsitsi redigeerimine** väärtusele **Ei** et takistada kasutajatel muuta krediidilimiiti lehel **Klient**. Kui see valik on seadistatud väärtusele **Ei**, saab kliendi krediidilimiidi muudatusi teha ainult krediidilimiidi korrigeerimise kannete sisestamisega.
-- Kui krediidihalduse **blokeerimisreeglid on** märgitud, **eirake** varude reserveeringute ignoreerimiseks varude reserveeringuid. Sel juhul kontrollib süsteem rea kogust ja võimaldab kontrollpunkti ajapikenduse perioodid, sõltumata varude reserveeringu kogusest.
+- Kui krediidihalduse **blokeerimisreeglid on** märgitud, **eirake** varude reserveeringute ignoreerimiseks varude reserveeringuid. Sel juhul kontrollitakse koguseid ja lubatakse kontrollpunkti ajapikendusperioodid, sõltumata laovarude reserveeringu kogusest.
 - Kui krediidihaldus on lubatud, kasutatakse **krediidilimiidi** ületamisel teate sätet ainult vabas vormis arvete töötlemiseks. Kuigi teated lisatakse müügitellimustele alles siis, kui kliendid on ületanud krediidilimiidi, ei blokeeri nende teadete olemasolu kinnitust, komplekteerimislehtede ja saatelehtede printimist või arvete sisestamist.
 
     Krediidihaldus on vaikimisi lubatud, kuid te saate selle keelata. Kui see on lubatud, kasutate krediidihalduse blokeerimisreeglit ja kontrollpunkte, et tuvastada, millal kliendid on ületanud krediidilimiiti. Kui see on keelatud, saavad teated, mis lisatakse müügitellimustele krediidilimiidi ületamisel teate sätte põhjal, aidata teil tuvastada, kui kliendid on **ületanud** oma krediidilimiiti.

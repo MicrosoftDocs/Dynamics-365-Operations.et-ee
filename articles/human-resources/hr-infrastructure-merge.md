@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f79ef3ed5db7583eb44b99e49c010778ce8524d1
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: e68b28bfde35b51605aa0b653265da6261b69a90
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732762"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819238"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge"></a>Dynamics 365 Human Resources infrastruktuuri ühendamine 
 
@@ -28,16 +28,16 @@ ms.locfileid: "9732762"
 
 ## <a name="dynamics-human-resources-365"></a>Dynamicsi inimressursid 365
 
-Microsoft Dynamics 365 Human Resources pakub tööriistu, mis aitavad inimressursside töörühmadel organisatsioonilist alandust suurendada, töötajakogemust muuta ja optimeerida inimressursside programme, et luua töökoha, kus inimesed ja ettevõte saavad areneda. Lisateavet vt Dynamics 365 Human Resources teemast [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
+Microsoft Dynamics 365 Human Resources pakub tööriistu, mis aitavad inimressursside töörühmadel organisatsioonilist alandust suurendada, töötajakogemust muuta ja optimeerida inimressursside programme, et luua töökoha, kus inimesed ja ettevõte saavad areneda. Lisateavet vt Dynamics 365 Human Resources teemast [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/)
 
 - **Saate töötajakogemust muuta.** Säilitage tipptöötajad, volitades juhatajaid ja töötajaid ühendatud iseteeninduskogemuste kaudu, mis juhtida kaasamist ja kasvu.
 - **Optimeerige inimressursside programme.** Aidata vähendada tegevuskulusid ja luua töötajate ajalisi puhkusi ja puudumisi, aega, soodustusi ja kompensatsiooni halduskavasid.
-- **Organisatsioonilise alandsuse suurendamine.** Lubage inimressurssidel töötada arukusega, mida ettevõte vajab inimeste andmete Dataverse Microsoft Power Platform abil ja tsentraliseerituks ning laiendada hõlpsasti Dynamics 365 Human Resources.
+- **Organisatsioonilise alandsuse suurendamine.** Lubage inimressurssidel töötada arukusega, mida ettevõte nõuab, kasutades ja Dataverse  Microsoft Power Platform tsentraliseeritult inimeste andmeid ja laiendamist hõlpsasti laiendada Dynamics 365 Human Resources.
 - **Saate avastada tööjõuülevaated.** Saate andmepõhiste otsuste langetada läbi võime analüüsida ja visualiseerida mis tahes seadmes salvestatud rikaste armatuurlaudade andmeid.
 
-## <a name="human-resources-infrastructure-merge"></a>Inimressursside infrastruktuuri ühendamine
+## <a name="human-resources-infrastructure-merge"></a>Human Resources: taristu ühendamine
 
-Dynamics 365 Human Resources on eraldi rakendus, mis kasutab praegu erinevat infrastruktuuri kui teised finantside ja toimingute rakendused, nt Dynamics 365 Finance või Dynamics 365 Supply Chain Management. Infrastruktuuri ühendamine toob kaasa Dynamics 365 Human Resources samasse infrastruktuuri kui teised finantside ja toimingute rakendused.
+Dynamics 365 Human Resources on eraldi rakendus, mis kasutab praegu erinevat infrastruktuuri kui teised finantside ja toimingute rakendused, nagu Dynamics 365 Finance või Dynamics 365 Supply Chain Management. Infrastruktuuri ühendamine toob kaasa Dynamics 365 Human Resources samasse infrastruktuuri kui teised finantside ja toimingute rakendused.
 
 Lisateavet Inimressursside infrastruktuuri ühendamise kohta vt inimressursside [pakkumiste ühendamine](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers/). Vastuseid korduma kippuvatele küsimustele vt Inimressursside [infrastruktuuri ühendamise KKK-st](./hr-infrastructure-merge-faq.md).
 
@@ -47,8 +47,8 @@ Osana infrastruktuuri ühendamisest on kõik Inimressursside rakenduse võimalus
 
 Kliendi migreerimine ja klientide ühendamine on üksteisest erinev:
 
-- **Kliendi** migratsioon – automatiseeritud migreerimise tööriista kasutatakse kliendi andmebaasi "tõstmise ja vahetuse migreerimise" (liikumise) sooritamiseks Inimressursside infrastruktuurist finantside ja toimingute infrastruktuuri. Tulemuseks on uus finants- ja toimingute keskkond, mis kasutab kliendi Inimressursside andmebaasi. 
-- **Kliendi ühendamine** – See lisasamm pole Microsoft nõutav. Seda tehakse kliendi valikul ja kliendi oma ajaskaalal. Selle sammu jooksul teisaldatakse kliendi andmed olemasolevasse keskkonda, nt finants- või projektioperatsioonide keskkonda. Enamasti käsitsi ja seda saab teha andmehalduse raamistiku (DMF) andmeüksuste abil. 
+- **Kliendi** migratsioon– automatiseeritud migreerimise tööriista kasutatakse kliendi andmebaasi "tõstmise ja vahetuse migreerimise" (liikumise) sooritamiseks Inimressursside infrastruktuurist finantside ja toimingute infrastruktuuri. Tulemuseks on uus finants- ja toimingute keskkond, mis kasutab kliendi Inimressursside andmebaasi. 
+- **Kliendi ühendamine**  – See lisasamm pole Microsoft nõutav. Seda tehakse kliendi valikul ja kliendi oma ajaskaalal. Selle sammu jooksul teisaldatakse kliendi andmed olemasolevasse keskkonda, nt finants- või projektioperatsioonide keskkonda. Enamasti käsitsi ja seda saab teha andmehalduse raamistiku (DMF) andmeüksuste abil. 
 
 ## <a name="planning-a-human-resources-environment-migration"></a>Inimressursside keskkonna migreerimise plaanimine
 
@@ -74,7 +74,7 @@ Järgmised käsitsi sammud peavad olema lõpule viidud:
 
 - Looge migreerimiseks uus elutsükli teenuste projekt.
 - Vaadake kõik oma vanas keskkonnas olevad integratsioonid üle uude keskkonda, suunates integratsiooni uuele URL-ile/lõpp-punktile, põhinedes igal integratsiooni konfiguratsioonil.
-- Värskendage manustatud aruannete andmesalve Power BI.
+- Värskendage manustatud aruannete andmesalve Power BI .
 - Värskendage andmeüksuse loendit DMF-tööruumist.
 - Linkige spikri jaoks elutsükli teenustega.
 - Saate luua rahanduskalendrid.
@@ -85,11 +85,12 @@ Automaatse protsessi ajal viiakse lõpule järgmised tegevused ja need tuleb kin
 
     - Konfiguratsioonid
     - Turberollid (sh kohandatud rollid)
-    - Töövood
+    - Töövood (k.a teatised)
     - Isikupärastamised ja salvestatud vaated
     - Kanded
     - Kohandatud väljad
     - Manused
+    - Teatised
 
 - Andmehaldus – tooge oma andmebaas (BYOD).
 - Funktsioonihaldus – lubatud/keelatud funktsioonid.
@@ -100,7 +101,7 @@ Automaatse protsessi ajal viiakse lõpule järgmised tegevused ja need tuleb kin
 - Iga juriidilise isiku pearaamatulehe jaoks luuakse ja **lingitakse** automaatselt uus kontoplaan. Teie Inimressursside keskkonnas konfigureeritud finantsdimensioonid lisatakse automaatselt uude konto struktuuri ja seotakse pearaamatuga. 
 
 > [!NOTE]
-> Pearaamat on vajalik finantside ja toimingute infrastruktuuris Dynamics 365 finantstoote osana. Eraldi rakenduses olnud kohandatud dimensioonikontroller Dynamics 365 Human Resources ei ole saadaval. Inimressursside ühendatud infrastruktuur sõltub finantsloogikast, et näidata finantsdimensioone inimressursside **moodulis**. Kontoplaani ja finantsdimensioonide kohta leiate lisateavet [siit](../finance/general-ledger/plan-chart-of-accounts.md). 
+> Pearaamat on vajalik finantside ja toimingute infrastruktuuris Dynamics 365 finantstoote osana. Eraldi rakenduses olnud kohandatud dimensioonikontroller Dynamics 365 Human Resources ei ole saadaval. Inimressursside ühendatud infrastruktuur sõltub finantsloogikast, et näidata finantsdimensioone inimressursside **moodulis** . Kontoplaani ja finantsdimensioonide kohta leiate lisateavet [siit](../finance/general-ledger/plan-chart-of-accounts.md). 
 
 ## <a name="considerations"></a>Kaalutlused
 
@@ -112,5 +113,5 @@ Automaatse protsessi ajal viiakse lõpule järgmised tegevused ja need tuleb kin
 Litsentsimises ei ole järgmistes Dynamics 365 Human Resources valdkondades muudatusi: 
 
 - **Minimaalne litsentsi ostunõue**
-- **Tootmise litsentsid** ja sisendkausta keskkond – kui teil on olemas autonoomsed inimressursside litsentsid, mis annab abi ühele tootmiskeskkonnale ja ühele kaustakeskkonnale, on finantside ja toimingute infrastruktuuris saadaval sama litsentside arv lisakuluta.
-- **Lisainfolitsentsid** – kui olete ostnud autonoomse inimressursid rakenduse jaoks täiendavaid ruutlitsentsisid, on standardne kinnitamiskatse (box) keskkonnas finantside ja toimingute infrastruktuuris saadaval sama arv sisendkausta litsentse lisakuluta. 
+- **Tootmise litsentsid**  ja sisendkausta keskkond – kui teil on olemas autonoomsed inimressursside litsentsid, mis annab abi ühele tootmiskeskkonnale ja ühele kaustakeskkonnale, on finantside ja toimingute infrastruktuuris saadaval sama litsentside arv lisakuluta.
+- **Lisainfolitsentsid**  – kui olete ostnud autonoomse inimressursid rakenduse jaoks täiendavaid ruutlitsentsisid, on standardne kinnitamiskatse (box) keskkonnas finantside ja toimingute infrastruktuuris saadaval sama arv sisendkausta litsentse lisakuluta. 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785095"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799032"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või iganenud platvormifunktsioonid
 
@@ -38,14 +38,14 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 Ühe Dynamicsi ühe [platvormi töö panuse](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) osana on järgmised LCS-i funktsioonid mittetagastatud.
 
-| Funktsiooni nimi | AX Kasutatakse 2012-ga? | Kasutatakse finantside ja toimingute rakendustega? | Asendatud teise funktsiooniga? |
+| Funktsiooni nimi |  AX Kasutatakse 2012-ga? | Kasutatakse finantside ja toimingute rakendustega? | Asendatud teise funktsiooniga? |
 |--------------|--------------------|----------------------------------------|------------------------------|
 | Teated | Jah | Jah | Jah: üksikutel projekti ja keskkonna lehtedel on teatisi. |
 | Konfiguratsioonihaldur | Jah | Nr | Nr |
 | Crashi ja tõmmise analüüs | Jah | Nr | Nr |
 | Tagasiside ja vead | Jah | Jah | Nr |
 | Minu tellimus | Jah | Jah | Nr |
-| Office 365 | Jah | Jah | Jah: või Azure Active Directory Microsofti haldusportaal. |
+| Office 365 | Jah | Jah | Jah: Azure Active Directory  või Microsofti haldusportaal. |
 | Mõju analüüsid | Nr | Jah | Nr |
 | Kogu majandustegevuse mõju hindamine | Nr | Jah | Nr |
 | Teenusetaotlused | Nr | Jah | Jah: [iseteeninduse juurutused](../deployment/infrastructure-stack.md) |
@@ -71,10 +71,10 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Me eemaldame järgmise loendi cipher nii, et see vastaks meie praegustele turvaprotokollidele.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Asendatud teise funktsiooniga?**   | 31. jaanuari 2023 alguses saavad kliendid kasutada vaid meie [standardset salakirja](/power-platform/admin/server-cipher-tls-requirements). See muudatus mõjutab teie kliente ja servereid, mis suhtlevad meie serveritega, näiteks võib see mõjutada teie kolmanda osapoole integratsioone, mis ei ole seotud meie standardse sififiidiga. |
+| **Asendatud teise funktsiooniga?**   | Alates jaanuarist 2023 saavad kliendid kasutada ainult meie standardset [sififti](/power-platform/admin/server-cipher-tls-requirements). See muudatus mõjutab teie kliente ja servereid, mis suhtlevad meie serveritega, näiteks võib see mõjutada teie kolmanda osapoole integratsioone, mis ei ole seotud meie standardse sififiidiga. |
 | **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Pilve juurutused |
-| **Olek**                         | Aegunud. Kliendid peavad oma servereid uuendama enne 31. jaanuari 2023. Lisateavet TLS Cipher Suite’ tellimuse konfigureerimise kohta vt [transpordikihi turbe haldamine (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Olek**                         | Aegunud. Kliendid peavad oma servereid uuendama enne 2023. aasta jaanuari. Lisateavet TLS Cipher Suite’ tellimuse konfigureerimise kohta vt [transpordikihi turbe haldamine (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funktsiooni amortiseerumine kehtib juunil 2022
@@ -83,8 +83,8 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Finantsid ja toimingud (Dynamics 365) on mobiilsed rakenduse ja platvormid taunitav, et konsolideerida ühte mobiilset platvormi, mis on Power Apps. |
-| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantside ja toimingute rakenduse andmete üle saab luua integratsiooniga Power Platform. Üksikasjalikumat [teavet leiate mobiilikogemuste](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)[sisestamisest](../power-platform/build-mobile-experiences.md) ja loomisest. |
+| **Aegumise/eemaldamise põhjus** | Finantsid ja toimingud (Dynamics 365) on mobiilsed rakenduse ja platvormid taunitav, et konsolideerida see ühe mobiilse platvormiga Power Apps. |
+| **Asendatud teise funktsiooniga?**   | Jah, mobiilikogemusi finantside ja toimingute rakenduse andmete üle saab luua integratsiooniga Power Platform . Üksikasjalikumat [teavet leiate mobiilikogemuste](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)  [sisestamisest](../power-platform/build-mobile-experiences.md) ja loomisest. |
 | **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. Tugikuupäeva lõppkuupäev on mõeldud oktoober 2024. |
@@ -125,7 +125,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 | **Asendatud teise funktsiooniga?**   | Ei. Kliendid ja ISV-d peaksid XSLT-skriptimise asemel kaaluma XSLT-keelel põhinevate lahenduste taaskasutust. |
 | **Mõjutatud tootealad**         | Finance and Operations rakendused |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud <br><br>**Erand:** kliendid, kes kasutavad praegu XLST-skriptimist. Nad saavad seda tööd kuni versioonini 10.0.30 või uuema versiooni uuendamiseni jätkata. Varasemate versioonide puhul aegub erand 31. jaanuar 2023. Selle erandiga kliendid on saanud halduskeskuses saadaolevas teatekeskuses Microsoft 365 teatise. |
+| **Olek**                         | Aegunud <br><br>**Erand:**  kliendid, kes kasutavad praegu XLST-skriptimist. Nad saavad seda tööd kuni versioonini 10.0.30 või uuema versiooni uuendamiseni jätkata. Varasemate versioonide puhul aegub erand 31. jaanuar 2023. Selle erandiga kliendid on saanud halduskeskuses saadaolevas teatekeskuses Microsoft 365 teatise. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Funktsiooni eemaldamine jõustub 2021. aasta oktoobris
 
@@ -284,7 +284,7 @@ Finantside ja toimingute rakenduste objektide üksikasjaliku teabe leiate tehnil
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kehtib 2020. aasta detsembris, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele ja Dynamicsi elutsükli teenustele (LCS) on aegunud Internet Explorer ja pärast 2021. aastat ei toetata seda 11. augusti.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid ja LCS-i Internet Explorer, mis on mõeldud kasutamiseks 11 liidese kaudu. Pärast 2021. aasta augustit ei Internet Explorer toetata selliseid Dynamics 365 tooteid ja LCS-i. |
+| **Aegumise/eemaldamise põhjus** | Kehtib 2020. aasta detsembris, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele ja Dynamicsi elutsükli teenustele (LCS) on aegunud Internet Explorer ja pärast 2021. aastat ei toetata seda 11. augusti.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid ja LCS-i Internet Explorer , mis on mõeldud kasutamiseks 11 liidese kaudu. Pärast 2021.a. augustit Internet Explorer  11 ei toetata selliste Dynamics 365 toodete ja LCS-i puhul. |
 | **Asendatud teise funktsiooniga?**   | Soovitame klientide minna üle Microsoft Edge-le.|
 | **Mõjutatud tootealad**         | Kõik Dynamics 365 tooted ja LCS |
 | **Juurutamissuvand**              | Kõik|

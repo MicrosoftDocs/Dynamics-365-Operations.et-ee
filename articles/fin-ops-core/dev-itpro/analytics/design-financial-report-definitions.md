@@ -2,7 +2,7 @@
 title: Aruande definitsioonid finantsaruande koosturis
 description: See artikkel käsitleb aruande definitsioone.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291794"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802528"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Aruande definitsioonid finantsaruande koosturis
 
@@ -37,8 +37,8 @@ Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande lo
 Samas ei pruugi kande üksikasjad olenevalt andmete Microsoft Dynamics ERP süsteemis talletamise viisist aruannetes kättesaadavad olla.
 
 ## <a name="create-a-report-definition"></a>Aruande määratluse loomine
-1. Klõpsake aruande kujundaja menüüs **Fail** nuppu **Uus** ja seejärel valige **Aruande definitsioon**.
-2. Määrake sobiv teave vahekaartidel **Aruanne**, **Väljund ja jaotus**, **Päised ja jalused** ja **Sätted**.
+1. Aruandekujundajas klõpsake menüü **Fail** käsku Uus **ja** valige seejärel aruande **definitsioon**.
+2. Määrake kindlaks aruande, väljamineku **ja** jaotuse **,** päiste **ja jaluste** ning **sätete vahekaartide** asjakohane teave.
 
 ## <a name="contents-of-a-report-definition"></a>Aruande definitsiooni sisu
 Järgmises tabelis kirjeldatakse aruande definitsiooni vahekaarte ja seda, kuidas teavet kasutatakse.

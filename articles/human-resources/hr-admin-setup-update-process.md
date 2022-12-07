@@ -2,7 +2,7 @@
 title: Värskendamisprotsess
 description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520806"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819292"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
-_**Rakendub:** inimressursid autonoomsel infrastruktuuril_ 
+_**Rakendub:**  inimressursid autonoomsel infrastruktuuril_ 
 
 > [!NOTE]
 > Alates 2022. juulist ei saa uusi inimressursid keskkondi eraldi inimressursside infrastruktuuris Microsoft Dynamics ette luua ja uusi elutsükli teenuste (LCS) projekte ei saa selles luua. Kliendid saavad inimressursside keskkondi kasutusele võtta finantside ja toimingute infrastruktuuris. Lisateavet vt inimressursside ettevalmistamisest [finantside ja toimingute infrastruktuuris](hr-admin-setup-provision-fo.md).
@@ -41,7 +41,7 @@ Värskendusi antakse välja regulaarselt kõikides keskkondades. Rakenduse Human
 
 Rakenduse Human Resources värskendusi rakendatakse kõigile keskkondadele automaatselt. Human Resources pakub kahte tüüpi väljaandeid.
 
-- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenuse värskendused sisaldavad ka rakendatavaid platvormivärskendusi, kui need vabastatakse. Lisateavet platvormi väljalasete kohta vt platvormi [uuendustest "Mis on uut või muutunud"](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Värskendustel on etapiviisiline globaalne ümberpööramine üle piirkondade. Lisateavet uuenduste kohta vt teemast [Mis on uut või muutunud Dynamics 365 Human Resources](hr-admin-whats-new.md)?
+- **Teenuse värskendused**: teenuse uuendused sisaldavad kehtivaid platvormivärskendusi, kui need vabastatakse. Lisaks eranditel põhinevatele uuendustele toimuvad regulaarsed teenusevärskendused, mis järgnevad Dynamics 365 finantsplatvormi värskenduste üldisele saadavusele (GA). Lisateavet platvormi väljalasete kohta vt platvormi [uuendustest "Mis on uut või muutunud"](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Värskendustel on etapiviisiline globaalne ümberpööramine üle piirkondade. Lisateavet uuenduste kohta vt teemast [Mis on uut või muutunud Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Lahenduse Dataverse värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Dataverse. Need uuendused vabastatakse poole nädala uuendustega samasse piirkonda ja neil võtab aega umbes kuus nädalat kõikide andmekeskuste kaudu kopeerimiseks. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
 
@@ -55,15 +55,6 @@ Vajadusel pakub Inimressursid järgmist tüüpi parandusi.
 - **Erakorraline parandus**: ennetavad ja uuesti aktiivsed kiirparandused, mis on olemuselt eraldiseisvad, võivad sisaldada ainult konfiguratsiooni või koodi muudatusi, et lahendada avaldatud saidi probleeme, ja need võivad ilmneda kahenädalasest teenuseuuenduse väljaandest eraldi
 
 Väljaanded vaadatakse üle, testitakse ja kontrollitakse sisemises keskkonnas. Pärast järkude kinnitamist edastatakse need tootmisse.
-
-## <a name="release-cadence-exceptions-in-2021"></a>Erandid väljaandmise sageduses 2021. aastal
-
-Puhkuse arvestamiseks on 2021. aasta novembri ja detsembri väljastusgraafik järgmine.
-
-- Novembri väljastus: 1. november – 14. november
-- Detsembri väljastus: 29. november – 12. detsember
- 
-Kahenädalane väljaandmise sagedus jätkub tavapäraselt 10. jaanuaril 2022.
 
 ## <a name="communications"></a>Suhtlus
 

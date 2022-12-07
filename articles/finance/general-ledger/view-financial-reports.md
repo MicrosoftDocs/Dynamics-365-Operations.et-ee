@@ -2,7 +2,7 @@
 title: Finantsaruannete vaatamine
 description: See artikkel kirjeldab, kuidas vaadata ja uurida finantsaruannetes Microsoft Dynamics 365 Finantsid. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907888"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802387"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
@@ -31,7 +31,7 @@ See artikkel kirjeldab, kuidas vaadata ja uurida rahalisi aruandeid. See sisalda
 ## <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 
 ## <a name="open-a-financial-report"></a>Finantsaruande avamine
-Aruande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2015, koostatakse aruanne 31. juuli 2015 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
+Aruande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2020, koostatakse aruanne 31. juuli 2020 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
 
 ## <a name="drill-down-on-a-financial-report"></a>Finantsaruandesse süvitsiminek
 Finantsaruanded võivad sisaldada mitut üksikasjataset. Rahaline tase on esimene tase, mida finantsaruande avamisel näete. Konto tasemele minekuks valige andmed, millesse süvitsi minna. Näiteks müügi konto üksikasjade vaatamiseks valige müügi andmed, mida soovite uurida. Konto tasemelt saate minna süvitsi, et vaadata kandeid, mis moodustavad konto saldo. On kaks võimalust kannete vaatamiseks: aruandekanded ja kande tehingukanded.
@@ -46,12 +46,12 @@ Saate rakendada atribuudi- ja dimensioonifiltreid või muuta eelarvestsenaariumi
 
 -   Aruandele atribuudifiltrite rakendamiseks valige käsk **Lisa atribuudifilter**. Valige atribuudi tüüp, tippige atribuudi väärtus ja klõpsake siis **OK**. Näiteks kui valite atribuudi **Konto kategooria**, sisestage atribuudi väärtuseks **MÜÜK**. Atribuudifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
 -   Aruandele dimensioonifiltrite rakendamiseks valige **Lisa dimensioonifilter**. Valige dimensioon ja seejärel sisestage dimensiooni ID või valige loendist dimensioon. Dimensioonifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
--   Aruandes **Tegelik vs eelarve** stsenaariumi muutmiseks valige uus stsenaarium ja klõpsake siis nuppu **OK**. Kui valitud stsenaarium on erineva finantsaasta kohta, ei esitata tulemusi. Näiteks kui aruanne on loodud FY2015 jaoks ja praegune stsenaarium on FY2015 jaoks ja uus stsenaarium valitakse FY2016 jaoks, tulemusi ei näidata. Kui vajatakse uut stsenaariumi erineva finantsaasta kohta, looge stsenaariumiga seotud finantsaastale uus aruande versioon.
+-   Aruandes **Tegelik vs eelarve** stsenaariumi muutmiseks valige uus stsenaarium ja klõpsake siis nuppu **OK**. Kui valitud stsenaarium on erineva finantsaasta kohta, ei esitata tulemusi. Näiteks kui aruanne on loodud FY2015 jaoks ja praegune stsenaarium on FY2020 jaoks ja uus stsenaarium valitakse FY2016 jaoks, tulemusi ei näidata. Kui vajatakse uut stsenaariumi erineva finantsaasta kohta, looge stsenaariumiga seotud finantsaastale uus aruande versioon.
 
 Kui klõpsate **OK**, rakendatakse kõik valitud suvandid aruandele. Kui otsustate, et ei soovi valitud suvandeid rakendada, klõpsake käsku **Tühista**.
 
 ## <a name="update-a-financial-report"></a>Finantsaruande värskendamine
-Saate värskendada (uuendada) finantsaruannet nii, et seal oleks kuvatud kõige värskemad andmed selle perioodi ja aasta kohta, mille jaoks aruanne koostati. Näiteks kui värskendate finantsaruannet, mis koostati 2015. aasta oktoobri kohta, kajastab aruande kõiki uusi kandeid, mis 2015. aasta oktoobri kohta sisestati. Finantsaruande värskendamiseks klõpsake tegumiribal käsku **Värskenda**. Värskendatud aruanne on kättesaadaval vaid seda värskendanud inimesele. Selleks, et teised inimesed samu andmeid näeksid, tuleb aruanne avaldada.
+Saate värskendada (uuendada) finantsaruannet nii, et seal oleks kuvatud kõige värskemad andmed selle perioodi ja aasta kohta, mille jaoks aruanne koostati. Näiteks kui värskendate finantsaruannet, mis koostati 2020. aasta oktoobri kohta, kajastab aruande kõiki uusi kandeid, mis 2020. aasta oktoobri kohta sisestati. Finantsaruande värskendamiseks klõpsake tegumiribal käsku **Värskenda**. Värskendatud aruanne on kättesaadaval vaid seda värskendanud inimesele. Selleks, et teised inimesed samu andmeid näeksid, tuleb aruanne avaldada.
 
 ## <a name="publish-a-financial-report"></a>Finantsaruande avaldamine
 Pärast finantsaruande värskendamist saate selle avaldada. Siis saavad teised organisatsiooni inimesed seda vaadata. Aruande avaldamiseks klõpsake tegumiribal käsku **Avalda**.

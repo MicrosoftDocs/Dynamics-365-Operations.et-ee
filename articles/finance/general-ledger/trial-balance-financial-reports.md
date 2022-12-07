@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725201"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802603"
 ---
 # <a name="trial-balance-financial-reports"></a>Proovibilansi finantsaruanded
 
@@ -32,8 +32,8 @@ See artikkel kirjeldab proovibilansi vaikearuandeid. See kirjeldab ka nende arua
 
 Finantsaruandluses on saadaval kolm proovibilansi aruannet.
 
-| Vaikearuanne                                 | Selle funktsioon                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vaikearuanne                                 | Selle funktsioon                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Üksikasjalik proovibilanss – vaikimisi               | Pakub saldoteavet kõigi kontode puhul, hõlmates deebet- ja kreeditsaldosid ja nende saldode netoväärtust koos kande kuupäeva, kande ja töölehe kirjeldusega.                  |
 | Proovibilansi kokkuvõte – vaikimisi                | Pakub saldoteavet kõigi kontode puhul, hõlmates avamis- ja sulgemissaldosid ning deebet- ja kreeditsaldosid koos nende netoerinevusega.                                        |
 | Proovibilansi kokkuvõte aasta-aastalt – vaikimisi | Pakub saldoteavet kõigi kontode puhul, hõlmates avamis- ja sulgemissaldosid ning deebet- ja kreeditsaldosid koos nende netoerinevusega praeguse aasta ja möödunud aasta kohta. |
@@ -54,8 +54,8 @@ Proovibilansi finantsaruanded kasutavad järgmisi koosteüksusi.
 
 Rea määratlus Proovibilanss – vaikimisi sisaldab ühte rida, mis koondab kõiki põhikontosid. Seega saab igaüks luua aruande ilma muudatusi tegemata. Aruande vaatamisel saate iga konto üksikasjade kuvamiseks minna ühes reas süvitsi. Saate muuta readefinitsiooni nii, et see hõlmaks rohkem üksikasju. Suvandi Proovibilanss – vaikimisi readefinitsiooni muutmiseks nii, et see hõlmaks kõikide kontode ridu, toimige järgmiselt.
 
-1.  Klõpsake nuppu **Redigeeri** ja seejärel klõpsake suvandit **Sisesta read dimensioonidest**. Käsk **Sisesta read dimensioonidest** võimaldab teil valida dimensioonid, mida soovite readefinitsiooni kaasata. Selle readefinitsiooni puhul kasutate **Põhikontot**.
-2.  Veenduge, et **Põhikonto** sisaldab kõiki ampersande (&) ja seejärel klõpsake nuppu **OK**.
+1.  Klõpsake **nuppu** Redigeeri ja seejärel käsku **Lisa dimensioonidest read**. Käsuga **Lisa dimensioonide** read saate valida readefinitsioonis soovitud dimensioonid. Selle readefinitsiooni puhul kasutatakse **põhikontot**.
+2.  Veenduge, et **põhikonto sisaldab** kõiki ampersands (&) ja seejärel klõpsake **OK**.
 
 Readefinitsioon sisaldab nüüd kõiki teie vaikimisi juriidilise isiku põhikontosid.
 

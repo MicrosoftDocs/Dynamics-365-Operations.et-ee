@@ -2,7 +2,7 @@
 title: Hankija töövoog
 description: Muutke hankija teavet ja kasutage töövoogu selle kinnitamiseks.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735663"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799460"
 ---
 # <a name="vendor-workflow"></a>Hankija töövoog
 
@@ -38,7 +38,7 @@ Enne kui saate töövoo funktsiooni kasutada, peate selle lubama.
     - **Hülga muudatused** – hankijakirjet ei saa muuta. Import nurjub väljade puhul, mis on töövoos lubatud.
     - **Loo muudatusettepanekud** – muudetakse kõiki välju peale töövoos lubatud väljade. Nende väljade uued väärtused lisatakse hankijale pakutud muudatustena ja töövoog käivitatakse automaatselt.
 
-4. Valige hankija väljade loendist märkeruut **Luba** iga välja kohta, mis tuleb enne muudatuste tegemist kinnitada.
+4. Hankija väljade loendis märkige ruut **Luba iga** välja puhul, mis tuleb enne muudatuste tegemist heaks kiita.
 5. Avage **Ostureskontro \> Seadistus \> Ostureskontro töövood**.
 6. Valige **Uus**.
 7. Valige **Pakutud hankijamuudatuste töövoog**. 
@@ -46,7 +46,7 @@ Enne kui saate töövoo funktsiooni kasutada, peate selle lubama.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Hankijateabe muutmine ja muudatuste kinnitamine töövoogu
 
-Kui muudate välja, mis on töövoo jaoks lubatud, ilmub leht **Pakutud muudatused**. Sellel lehel kuvatakse välja algväärtus ning uus väärtus, mille sisestasite. Muudetud väljal taastatakse algne väärtus. Olekuteade teavitab teid, et teie muudatusi ei kinnitatud. 
+Kui muudate välja, mis on töövoo jaoks lubatud, ilmub leht **Pakutud muudatused**. Sellel lehel kuvatakse välja algväärtus ning uus väärtus, mille sisestasite. Muudetud väljal taastatakse algne väärtus. Olekuteade teavitab teid, et teie muudatusi pole esitatud. 
 
 Iga kord kui muudate välja, mis on töövoos lubatud, lisatakse see väli loendisse lehel **Pakutud muudatused**. Välja pakutud muudatuse tühistamiseks kasutage nuppu **Hülga** välja kõrval loendis. Kõikide muudatuste hülgamiseks kasutage nuppu **Hülga kõik muudatused** lehe allosas. Lehe sulgemiseks valige **OK**.
 

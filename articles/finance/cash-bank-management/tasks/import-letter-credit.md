@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779434"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803987"
 ---
 # <a name="import-letter-of-credit"></a>Akreditiivi importimine
 
@@ -42,13 +42,16 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 10. Klõpsake loendis valitud real olevat linki.
 11. Sisestage kuupäev väljale **Aruandluskuupäev.**
 12. **Sisestage kuupäev väljale Tarnekuupäev.**
-    * Märkus: pangadokumendi **tüübi** väli peaks olema **akreditiiviväli**.  
+
+>[!Note] 
+>Pangadokumendi **tüübi väli** peaks olema **akreditiiviväli**.  
+
 13. Klõpsake valikut **OK**.
 14. Sisestage või valige väärtus väljale **Kauba kood**.
 15. Otsige loendist ja valige soovitud kirje.
 16. Klõpsake loendis valitud real olevat linki.
 17. Laiendage jaotist **Rea üksikasjad**.
-18. Klõpsake vahekaardil **Tarne**.
+18. Klõpsake vahekaardil **Tarne** .
 19. **Sisestage kuupäev väljale Tarnekuupäev.**
 20. Väljale **Kinnitatud tarnekuupäev** sisestage kuupäev.
 21. Sisestage arv väljale **Ühiku hind**.
@@ -57,9 +60,9 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 23. Klõpsake **akreditiivi / sissenõude importimise**
 24. Sisestage **väljale Rakenduse** kuupäev kuupäev ja kellaaeg.
     * Kontrollige **, et pangakonto** väljal oleks vaikimisi aktiivne pangakonto, mis põhineb avalduse kuupäeval.  
-25. **Tippige väärtus väljale** Pangadokumendi number.
-26. **Sisestage sissetuleku kuupäev** ja kellaaeg väljale Sissetuleku kuupäev.
-27. Laiendage jaotist **Pank**.
+25.  **Tippige väärtus väljale** Pangadokumendi number.
+26.  **Sisestage sissetuleku kuupäev** ja kellaaeg väljale Sissetuleku kuupäev.
+27. Laiendage jaotist **Pank** .
 28. Sisestage **aegumiskuupäeva** väljale kuupäev ja kellaaeg.
 29. Laiendage jaotist **Panga** üksikasjad.
 30. Sisestage **või valige väärtus väljal** Nõustav pank.
@@ -79,7 +82,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 43. Klõpsake nuppu **Salvesta**.
 44. Klõpsake toimingupaanil valikut **Ost**.
 45. Klõpsake käsku **Kinnita**.
-    * Parandage akreditiivi ühiku hinna muutuse tõttu.  
+    * Akreditiivi muutmine ühiku hinna muudatuse tõttu  
 46. Tegevuspaanil klõpsake nuppu **Haldamine**.
 47. Klõpsake **akreditiivi / sissenõude importimine**
     * Parandage akreditiivi ühiku hinna muutuse tõttu.  
@@ -96,8 +99,8 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 ## <a name="post-packing-slip"></a>Saatelehe sisestamine
 1. Klõpsake toimingupaanil valikut **Vastuvõtt**.
 2. Klõpsake valikut **Toote sissetulek**.
-3. **Tippige PurchParmTable_Num** väärtus.
-    * Valige saadetise number, mis loodi viitega akreditiivile.  
+3.  **Tippige PurchParmTable_Num** väärtus väljale.
+    * Valige saadetise **number,** mis on loodud akreditiivi viitega.  
 4. Klõpsake loendis valitud real olevat linki.
 5. Sisestage **kuupäev väljale** Toote sissetuleku kuupäev.
 6. Klõpsake valikut **OK**.
@@ -105,10 +108,10 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 8. Sulgege leht.
 
 ## <a name="verify-import-letter-of-credit-status"></a>Akreditiivi importimise oleku kinnitamine
-1. Avage sularaha **- ja pangahaldus > Akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
+1. Avage sularaha **ja panga > akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
-    * Kinnitage akreditiivi importimise olek.     
+    * Akreditiivi **importimise oleku kontrollimine**     
 4. Sulgege leht.
 5. Sulgege leht.
 
@@ -130,11 +133,11 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 
 ## <a name="verify-import-letter-of-credit-status-and-printing"></a>Kinnitage akreditiivi importimise olek ja printimine
 
-1. Avage sularaha **- ja pangahaldus > Akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
+1. Avage sularaha **ja panga > akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
     * Kinnitage akreditiivi importimine.  
-    * Kontrolli: saadetise **olek Arveldatud** = **panga** süsteemiteenuse üksikasjad  
+    * Kinnita: saadetise  **olek Arveldatud** = **panga**  süsteemiteenuse üksikasjad  
 4. Klõpsake **käsku Vaata**.
 5. Klõpsake **käsku Prindi avaldus**.
 6. Klõpsake valikut **OK**.
@@ -152,10 +155,10 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 6. Väljale **Kuupäev** sisestage kuupäev.
 7. Täpsustage soovitud väärtusi väljal **Konto**.
 8. Klõpsake käsku **Tasakaalusta kanded**.
-9. Laiendage jaotist Kogusummad.
-10. **Valige suvand** väljal Näita.
+9. Laiendage **jaotist Kogusummad** .
+10.  **Valige suvand** väljal Näita.
     * Kontrollige, et **pangadokumendi number** ja **saadetise numbri väljad** on värskendatud.  
-11. Valige märkeruut **Märgi.**
+11.  **Märkige ruut** Märgi.
 12. Klõpsake valikut **OK**.
 13. Klõpsake vahekaarti Makse.
     * Kontrollige, et **pangadokumendi number** ja **saadetise numbri väljad** on värskendatud.  
@@ -164,15 +167,15 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 16. Sulgege leht.
 
 ## <a name="verify-import-letter-of-credit-status-after-invoice-paid"></a>Pärast arve tasumist kontrollige akreditiivi importimise olekut
-1. Avage sularaha **- ja pangahaldus > Akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
+1. Avage sularaha **ja panga > akreditiivid > Impordi akreditiivi ja sissenõude importimine**.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
-    * Kinnitage akreditiivi importimise olek.   
+    * Akreditiivi **importimise oleku kontrollimine**   
 4. Sulgege leht.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Kontrollige panga süsteemiteenuse limiiti ja tulususe aruannet
-1. Minge sularaha **- ja pangahalduse > päringute ja aruannete > või garantiikirjade kohta > panga teenuseid ja tulususaruannet**.
-2. Jaotise kaasamiseks laiendage kirjeid.
+1. Avage sularaha **- ja pangahalduse > päringud ja aruanded > akreditiivid või garantiikirjad > panga teenuseid ja tulususaruannet**.
+2. Jaotise kaasamiseks laiendage valikut **Kirjed**.
 3. Klõpsake käsku **Filtreeri**.
     * Määratlege **nõutava** pangakonto väli Kriteeriumid.  
 4. Sisestage või valige väärtus väljal **Kriteeriumid**.

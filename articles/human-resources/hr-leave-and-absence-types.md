@@ -2,7 +2,7 @@
 title: Puhkuste ja puudumiste tüüpide konfigureerimine
 description: Seadistage puhkuse tüübid, mida töötajad saavad rakenduses Dynamics 365 Human Resources valida.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323954"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805200"
 ---
 # <a name="configure-leave-and-absence-types"></a>Puhkuste ja puudumiste tüüpide konfigureerimine
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,22 +40,28 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 
 ## <a name="add-a-leave-type"></a>Puhkuse tüübi lisamine
 
-1. Valige puhkuse **ja puudumise** tööruumis vahekaart **Lingid**.
+1. Valige puhkuse **ja puudumise** tööruumis vahekaart **Lingid** .
 2. Jaotises **Seadistus** valige suvand **Puhkuste ja puudumiste tüübid**.
 3. Valige suvand **Uus**.
-4. Sisestage puhkuse tüübi nimi suvandis **Tüüp**, valige töövoog suvandist **Töövoo ID** ja sisestage kirjeldus suvandisse **Kirjeldus**.
+4. Sisestage puhkuse tüübi nimi jaotises **Tüüp**, sisestage kirjeldus jaotises **Kirjeldus** ja valige töövoo **ID väljal töövoo ID** . Puhkuse tüübi alusel valige taotluse tüüp väljalt **Taotluse** tüüp. Näiteks valige Suvand Kellaeg **või** **Puhkus**.
 5. Jaotises **Üldine** valige suvand **Puudub**, **Plaanipärane** või **Plaaniväline** ripploendis **Kategooria**.
 6. Valige tulukood ripploendist **Tulukood**.
-7. Jaotises **Põhjuse kood nõutav** valige, kas soovite nõuda põhjuse koodi. Kui soovite põhjuse koode nõuda, peate võib-olla need lisama. Jaotises **Põhjuse koodid** valige suvand **Lisa**, valige põhjuse kood ja seejärel valige selle kõrval märkeruut **Lubatud**.
-8. Jaotises **Valitud rollide juurdepääsu piiramine** valige, kas soovite juurdepääsu piirata. Seejärel valige turberollid jaotises **Selle puhkuse tüübi turberollid**. Turberollid määratletakse töövoos, mille valisite selles toimingus varem jaotises **Töövoo ID**.
-9. Valige jaotises **Kalendri värv**, millist värvi selle puhkusetüübi puhul puhkuste ja puudumiste kalendrites kuvada. 
-10. Valige jaotises **Peatamise suhted**, kas soovite, et see puhkusetüüp peataks mõne teise puhkusetüübi või et selle puhkusetüübi peataks mõni teine puhkusetüüp. Kui puhkusetaotlus esitatakse peatava puhkusetüübi kohta, siis luuakse peatatud puhkusetüübi kohta automaatselt puhkuse peatamise kanne. 
-11. Valige käsk **Salvesta**.
+7. Valige **jaotises Põhjuse kood**, kas soovite põhjuse koodi nõuda. Kui soovite põhjusekoode nõuda, peate need võib-olla lisama. Jaotises **Põhjuse koodid** valige suvand **Lisa**, valige põhjuse kood ja seejärel valige selle kõrval märkeruut **Lubatud**.
+8. Kui taotluse tüüp on **Puhkus, järgige** neid samme.
+
+      1. Jaotises **Avatud lõpetatud** valige, kas kasutajad peaksid saama luua avatud lõpuga lehed.
+      2. Kui **avatud lõpp** on lubatud, saate valida, kas töötajad peavad puhkuselt naasmise kohta esitama teate töösse naasmise kohta.
+      3. Kui töötajad peavad esitama tööle naasmise teatise, saate lubada töösse **tagasipöördumise teatise**. Kui **luba töölt tagastamise teatis** on lubatud, **siis** on automaatselt lubatud manus ja seda ei saa keelata.
+
+9. Kui kasutajad peaksid puhkusetaotluste loomisel või uuendamisel dokumente üles laadima, saate manuse nõutava **lubada**.
+10. Valige **jaotises Piira juurdepääsu valitud rollidele**, kas soovite juurdepääsu piirata. Seejärel valige suvandi **Turberollid selle puhkusetüübi** jaoks turberollid. Turberollid määratakse töövoos, mille valisite varem **selles protseduuris jaotises Töövoo ID** .
+11. Valige **jaotises Kalendri** värv selle puhkusetüübi puhkusel näidatav värv ja puudumiste kalendrid.
+11. Valige **peatamise seoses**, kas puhkuse tüüp peaks kas peatama mõne muu puhkusetüübi või peatama muu puhkusetüübiga. Kui puhkusetaotlus esitatakse peatava puhkusetüübi kohta, siis luuakse peatatud puhkusetüübi kohta automaatselt puhkuse peatamise kanne.
+12. Valige käsk **Salvesta**.
 
 ## <a name="configure-leave-type-rules"></a>Puhkuse tüübi reeglite konfigureerimine
 
-1. Seadistage puhkuse ja puudumise tüübi **ümardamisvalikud**. Valikud hõlmavad suvandeid **Puudub**, **Üles**, **Alla** ja **Lähim**. Saate määrata ka puhkuse tüübi ümardamise täpsuse.
-
+1. Seadistage puhkuse ja puudumise tüübi **ümardamisvalikud** . Valikud hõlmavad suvandeid **Puudub**, **Üles**, **Alla** ja **Lähim**. Saate määrata ka puhkuse tüübi ümardamise täpsuse.
 2. Määrake puhkuse tüübiks **Puhkuse parandused**. Kui valite selle valiku, kasutatakse tööpäevale langevate puhkepäevade arvu, et määrata kindlaks, kuidas puhkusetüübi jaoks vaba aega koguda. Näiteks kui jõulupüha langeb esmaspäevale, lahutab rakendus Human Resources lisandumiste töötlemisel puhkuse tüübist ühe päeva.
 
    Pühad määrate tööajakalendris. Lisateabe saamiseks vaata [Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 
 1. Valige lehel **Puhkus ja puudumine** vahekaart **Lingid** jaotises **Seadistamine** valik **Puhkuse ja puudumise tüübid**.
 
-2. Valige loendist puhkuse ja puudumise tüüp. Seejärel kasutage jaotises **Üldine** välja **Manus nõutud**, et määrata, kas manus tuleb üles laadida, kui töötaja esitab valitud puhkuse tüübile uue puhkuse taotluse. 
+2. Valige loendist **puhkuse ja puudumise** tüüp. Jaotises Üldine **kasutage** nõutavat manust, et määrata, kas manus tuleb üles laadida, **kui** töötaja esitab valitud puhkuse tüübile uue puhkuse taotluse. 
 
 Töötajad peavad manuse üles laadima, kui nad esitavad uue puhkusetaotluse, mille puhkusetüübi puhul on väli **Manus kohustuslik** lubatud. Puhkusetaotluse osana üleslaaditud manuse vaatamiseks saavad taotluse kinnitajad kasutada neile määratud tööüksuste valikut **Manused**. Kui puhkuse taotlusele pääseb juurde Microsoft Teams Human Resources rakenduse kaudu, saab suvandit **Kuva üksikasjad** kasutada selle üksikasjade ja manuste vaatamiseks.
 

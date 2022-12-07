@@ -2,7 +2,7 @@
 title: Voo sildi printimise plaanimine voo ajal
 description: See artikkel kirjeldab, kuidas seadistada ja kasutada funktsioone ülesandepõhise voo sildi printimiseks.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889453"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822358"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Voo sildi printimise plaanimine voo ajal
 
@@ -32,7 +32,6 @@ Voo siltide printimise konfigureerimine on keerukas ning põhineb täpsel konfig
 
 Selles artiklis kirjeldatud funktsioonide kasutamiseks peavad need olema teie süsteemi jaoks sisse lülitatud. Kasutage [Funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et lülitada sisse funktsioonid järgmises järjekorras:
 
-1. *Voo sildi printimine* – see funktsioon on vajalik voo protsessi meetodi lubamiseks voo sildi printimisel.
 1. *Üleorganisatsioonilise töö blokeerimine* - see funktsioon on vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada.)
 1. *Ülesandel põhineva voo sildi printimine* – see funktsioon on vajalik voo sildi printimise tükeldamiseks eraldi kande raames.
 

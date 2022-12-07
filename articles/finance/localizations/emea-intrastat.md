@@ -1,8 +1,8 @@
 ---
 title: Intrastati ülevaade
 description: Selles artiklis antakse teavet Euroopa Liidu (EL-i) riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse Intrastati aruandluse kohta.
-author: EvgenyPopovMBS
-ms.date: 01/13/2021
+author: mrolecki
+ms.date: 11/30/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom:
 - "28581"
 - intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: epopov
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 762de8a098c61bc0d717c038d6ca0ff6d649bff3
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894776"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815707"
 ---
 # <a name="intrastat-overview"></a>Intrastati ülevaade
 
@@ -58,14 +58,14 @@ Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.
 | Aadressi häälestamine | Saate seadistada riikide/regioonide ISO (Rahvusvahelise Standardiorganisatsiooni) koodid. |
 | Juriidiline isik | Saate seadistada impordi/ekspordi maksuvabastuse numbrid, impordi/ekspordi filiaali koodi laiendi ja juriidilisele isikule määratud Intrastati koodi. |
 | Toote kategooriahierarhia (müügihierarhia, hankehierarhia) | Saate määrata Intrastati kaubakoodid kategooriasõlmedele vahekaardil **Kaubakoodid** lehel **Kategooriahierarhia**. Kui määrate kaubakoodi peamisele kategooriasõlmele, kehtib see kood kõigile kategooria alamsõlmedele. Valitud kaubakoodid on saadaval vaates **Valitud** kui valite väljastatud toote üksikasjades ja müügitellimuse, ostutellimuse ja üleviimistellimuse ridadel kaubakoodi. |
-| Väljastatud toote üksikasjad | Saate seadistada järgmised väljastatud toodete väliskaubanduse andmed.<ul><li>**Kaubakood** – valige määratud tootekategooriatest toodud valitud kaupade loendist või Intrastati kaubakoodide tervikloendist.</li><li>**Statistiliste tasude protsent**</li><li>**Päritoluriik/-regioon** – saate valida vaikeriigi/-regiooni, kust kaup täielikult hangiti või kus see toodeti.</li><li>**Lähte-/sihtmaakond/-provints** – valige sihtmaakonna/-provintsi vaikeväärtus saabumiste puhul ja lähtemaakond/-provints lähetuste puhul.</li><li>**Netokaal (kg)**</li><li>**Välista** - luba sellel parameetril mitte üle kanda selle tootega kandeid Intrastati.</li></ul> |
+| Väljastatud toote üksikasjad | Saate seadistada järgmised väljastatud toodete väliskaubanduse andmed.<ul><li>**Kaubakood** – valige määratud tootekategooriatest toodud valitud kaupade loendist või Intrastati kaubakoodide tervikloendist.</li><li>**Statistiliste tasude protsent**</li><li>**Päritoluriik/-regioon** – saate valida vaikeriigi/-regiooni, kust kaup täielikult hangiti või kus see toodeti.</li><li>**Lähte-/sihtmaakond/-provints** – valige sihtmaakonna/-provintsi vaikeväärtus saabumiste puhul ja lähtemaakond/-provints lähetuste puhul.</li><li>**Netokaal (kg)**</li><li>**Jäta**  välja– luba sellel parameetril selle tootega kandeid Intrastati üle mitte kanda</li></ul> |
 | Kliendid | Saate seadistada kliendi tarneaadressi ELi riigis/regioonis. |
 | Hankijad | Saate seadistada hankija aadressi ELi riigis/regioonis. |
 | Mitmesugused tasud | Saate seadistada lisakulude koodi arve summale, statistilisele summale või mõlemale lisamiseks. Aktiveerige lehel **Tasukoodid** vahekaardil **Väliskaubandus** valik **Intrastati arve väärtus**, et kaasata tasusumma arve väärtusse, ja aktiveerige valik **Intrastati statistiline väärtus** tasusumma kaasamiseks statistilisse väärtusse.</br>Lisateabe saamiseks vaadake üle [kandekoodide ja lisakulude](#transaction-codes-and-miscellaneous-charges) näide. |
 | Elektrooniline aruandlus | Saate seadistada elektroonilise aruandluse konfiguratsioonid Intrastati andmete eksportimiseks elektroonilisse faili, mis on vastavate asutuste nõutavas vormingus, ja Intrastati andmete eelvaate kuvamiseks kasutajasõbralikus, loetavas vormingus (nt Microsoft Excelis). |
 | Ladustamine | Saate seostada hankijakontosid laokoodidega maksukohustuslase koodi lisamiseks üleviimistellimuse üleviimisel.</br>Lisateabe saamiseks vaadake üle üleviimistellimuse [näide](#transfer-order).|
 
-## <a name="setup"></a>Seadistus
+## <a name="setup"></a>Häälestus
 Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaja.
 
 ### <a name="set-up-all-required-intrastat-related-lists"></a>Kõigi vajalike Intrastatiga seotud loendite seadistamine
@@ -159,7 +159,7 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 #### <a name="preliminary-setup"></a>Esialgne seadistamine
 
 1. Minge organisatsiooni **haldusorganisatsiooni juriidiliste** > **isikutesse** > **ja** valige **DEMF**.
-2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**)
+2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**
 3. Minge **ostureskontro** > **hankijatele** > **kõigile hankijatele**.
 4. Valige ruudustikus DE-001 **·**.
 5. Valige kiirkaardil **Aadress** käsk **Redigeeri**.
@@ -171,9 +171,9 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 1. Avage **Maks** > **Seadistus** > **Väliskaubandus** > **Kandekoodid**.
 2. Valige ruudustikus **11**. Seejärel valige tegevuspaanil **kustutamisloend**.
 3. Valige toimingupaanil nupp **Uus**.
-4. Kiirkaardil Kandekoodid väljale **Kande** **kood sisestage** **11**.**·**
+4. Kiirkaardil Kandekoodid väljale **Kande** kood **sisestage** **11** . **·**
 5. Väljale Nimi **sisestage** otseost **/-müük**.
-6. **Valige jaotise Müük ja** ostud väljal **Arve summa** väärtus Arve **summa**.
+6.  **Valige jaotise Müük ja** ostud väljal **Arve summa** väärtus Arve **summa**.
 7. Valige väljal **Statistiline** summa väärtus **Arve summa**.
 8. Valige toimingupaanil nupp **Salvesta**.
 
@@ -182,7 +182,7 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 1. Minge ostureskontro kulude seadistuse **kulude koodi** > **.** > **·**
 2. Ruudustikus valige **Veos**.
 3. Valige Toimingupaanil nupp **Redigeeri**.
-4. Seadke väliskaubanduse kiirkaardil Intrastati arve väärtuse **ja** **Intrastati statistiliste väärtuste valikud** olekusse **Jah**.**·**
+4. Seadke väliskaubanduse kiirkaardil Intrastati arve väärtuse **ja**  **Intrastati statistiliste väärtuste valikud** olekusse **Jah** . **·**
 
 #### <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite häälestamine
 
@@ -198,8 +198,8 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 4. Valige nupp **OK**.
 5. Veenduge, **Päis** **Välis** **Kaubanduse** kiirkaardil **Kande kood** väljal oleks seatud väärtusele **11**.
 6. Valige **Read** vahekaardil **Müügi tellimuse ridade** väljal **Kaubakoodi** väärtuseks **D0003**. Sisestage väljale **Kogus** väärtus **10**.
-7. Väliskaubanduse **jaotise** rea üksikasjade **kiirkaardi** vahekaardil Väliskaubandus veenduge, **·** **et** kande koodi väli on automaatselt seatud.
-8. **Valige ostutellimuse ridade** kiirkaardi menüü **Finantsid jaotises** Tasud **suvand** Säilita **tasud**.
+7. Väliskaubanduse **jaotise** rea üksikasjade **kiirkaardi** vahekaardil Väliskaubandus veenduge, **·**  **et** kande koodi väli on automaatselt seatud.
+8.  **Valige ostutellimuse ridade** kiirkaardi menüü **Finantsid jaotises** Tasud **suvand** Säilita **tasud**.
 9. Valige väljal **Tasukood** suvand **VEOS**.
 10. Väljale Kulude **väärtus** sisestage **30**.
 11. Valige toimingupaanil nupp **Salvesta**. Seejärel sulgege leht.
@@ -207,7 +207,7 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 13. Valige toimingupaani vahekaardil **Arve** grupis **Loo** suvand **Arve**.
 14. Valige tegumiribal suvand **Vaike vorm**. Valige **Tellitud kogus** väljal **Ridade vaikekogus**. Seejärel valige **OK**.
 15. Sisestage **hankija arve päise** kiirkaardi jaotise **Arve ID** jaotisse **Number** väljale väärtus **00100**.
-16. **Valige jaotise Arve** kuupäevad väljal **Arve** **kuupäev 11/24/2021** (24. november 2021).
+16.  **Valige jaotise Arve** kuupäevad **väljal**  **Arve kuupäev 11/24/2021**  (24. november 2021).
 17. Valige arve postitamiseks toimingupaanilt **Postita**.
 
 ### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Hankija arve ülekandmine Intrastati töölehele
@@ -219,7 +219,7 @@ See stsenaarium kasutab **DEMF-i juriidilist** isikut.
 
    ![Rida, mis tähistab ostutellimust koos lisakuludega Intrastati lehel](media/intrastat_overview_1.png)
 
-5. Vaadake üle **Üldine** ostutellimuse vahekaart. Pange tähele **,** **·** **et arve väärtuse** **·** **väljal** kuvatakse arve summa ja arve kulude summa väljade summa ning väljal Statistiline väärtus kuvatakse statistika summa ja statistika **kulude summa väljade** summa.
+5. Vaadake üle **Üldine** ostutellimuse vahekaart. Pange tähele **,**  **·**  **et arve väärtuse**  **·**  **väljal** kuvatakse arve summa ja arve kulude summa väljade summa ning väljal Statistiline väärtus kuvatakse statistika summa ja statistika **kulude summa väljade** summa.
 
    ![Ostutellimuse üksikasjad koos lisakuludega Intrastati lehe vahekaardil Üldine](media/intrastat_overview_2.png)
 
@@ -230,7 +230,7 @@ Selles näites peab Saksamaa ettevõte teisaldama kaks kaubaühikut Saksamaa lao
 #### <a name="preliminary-setup"></a>Esialgne seadistamine
 
 1. Minge organisatsiooni **haldusorganisatsiooni juriidiliste** > **isikutesse** > **ja** valige **DEMF**.
-2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**)
+2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**
 3. Avage **Maks** > **Seadistus** > **Väliskaubandus** > **Väliskaubanduse parameetrid**.
 4. Veenduge, **et kaubakoodi** hierarhia kiirkaardil on kategooriahierarhia **väljal** seatud **Intrastat.**
 5. Minge **ostureskontro** > **hankijatele** > **kõigile hankijatele**.
@@ -244,19 +244,19 @@ Selles näites peab Saksamaa ettevõte teisaldama kaks kaubaühikut Saksamaa lao
 1. Avage **Maks** > **Seadistus** > **Väliskaubandus** > **Kandekoodid**.
 2. Valige ruudustikus **11**. Seejärel valige tegevuspaanil **kustutamisloend**.
 3. Valige toimingupaanil nupp **Uus**.
-4. Kiirkaardil Kandekoodid väljale **Kande** **kood sisestage** **11**.**·**
+4. Kiirkaardil Kandekoodid väljale **Kande** kood **sisestage** **11** . **·**
 5. Väljale Nimi **sisestage** otseost **/-müük**.
-6. Valige jaotise Üleviimistellimus väljal Arve summa **suvand Kogukulu** **.** **·**
+6. Valige jaotise Üleviimistellimus väljal Arve summa **suvand Kogukulu**  **.**  **·**
 7. Väljal Statistiline **summa** valige suvand **Kogukulu**.
 8. Valige toimingupaanil nupp **Salvesta**.
 9. Avage **Maks** > **Seadistus** > **Väliskaubandus** > **Väliskaubanduse parameetrid**.
-10. **Valige Intrastati** vahekaardi Kiirkaart **Üldine** väljal **Üleviimistellimus väärtus** **11**.
+10.  **Valige Intrastati** vahekaardi Kiirkaart **Üldine** väljal **Üleviimistellimus väärtus**  **11**.
 
 #### <a name="set-up-charges-for-an-item"></a>Kauba kulude seadistamine
 
 1. Avage **Tooteteabe haldus** > **Tooted** > **Väljastatud tooted**.
 2. Valige ruudustikus **D0001**.
-3. Sisestage **Intrastati** jaotise Väliskaubanduse **kiirkaardi** väljale Kulude **protsent** **väärtus 20**.
+3. Sisestage **Intrastati** jaotise Väliskaubanduse **kiirkaardi** väljale Kulude **protsent**  **väärtus 20**.
 
 #### <a name="change-the-site-address"></a>Muutke saidi aadressi
 
@@ -271,35 +271,35 @@ Selles näites peab Saksamaa ettevõte teisaldama kaks kaubaühikut Saksamaa lao
 9. Valige nupp **OK**.
 10. Avage **Laohaldus** > **Seadistus** > **Ladu** > **Laod**.
 11. Valige ruudustikus **21**.
-12. **Valige kiirkaardi** Üldine jaotise **Viide** väljal **Hankija konto väärtus** **DE-001**.
+12.  **Valige kiirkaardi** Üldine jaotise **Viide** väljal **Hankija konto väärtus**  **DE-001**.
 
 #### <a name="create-a-transfer-order"></a>Üleviimistellimuse loomine
 
 1. Minge varude **halduse väljaminevate** > **tellimuste üleviimistellimusele** > **·**.
 2. Valige toimingupaanil nupp **Uus**.
-3. **Valige vahekaardi** Read kiirkaardi **Üleviimistellimuse** päis **jaotise** **Ülevaade väljal Laost** **väärtus 11.** Valige väljal **Lattu** väärtus **21**.
+3.  **Valige vahekaardi** Read kiirkaardi **Üleviimistellimuse** päis **jaotise**  **Ülevaade väljal Laost**  **väärtus 11.** Valige väljal **Lattu** väärtus **21**.
 4. Valige kiirkaardi **Üleviimistellimuse** **read vahekaardil** Read suvand **Lisa**.
-5. Valige väljal **Kaubakood** väärtus **D0001**. Seejärel sisestage **väljale Üleviimiskogus** **2**.
-6. Väliskaubanduse **jaotise** rea üksikasjade **kiirkaardi** vahekaardil Väliskaubandus veenduge, **·** **et** kande koodi väli on automaatselt seatud.
+5. Valige väljal **Kaubakood** väärtus **D0001**. Seejärel sisestage **väljale Üleviimiskogus**  **2**.
+6. Väliskaubanduse **jaotise** rea üksikasjade **kiirkaardi** vahekaardil Väliskaubandus veenduge, **·**  **et** kande koodi väli on automaatselt seatud.
 7. Märkige tegevuspaani vahekaardil **Läheta** jaotises Operatsioonid **ruut** Lähetuse **üleviimistellimus**.
-8. Valige dialoogiboksi Saadetis vahekaardi **Ülevaade** väljal Uuendamine **suvand** **Kõik**.**·**
+8. Valige dialoogiboksi Saadetis vahekaardi **Ülevaade** väljal Uuendamine **suvand** **Kõik** . **·**
 9. Valige **OK** tellimuse lähetamiseks.
 10. Valige tegevuspaani vahekaardil **Võta** vastu grupis **Operatsioonid** suvand **Võta vastu**.
-11. **Valige dialoogiboksi** Vastuvõtu vahekaart **Ülevaade** väljal Uuendamine **suvand** **Kõik**.
+11.  **Valige dialoogiboksi** Vastuvõtu vahekaart **Ülevaade** väljal Uuendamine **suvand** **Kõik**.
 12. Valige **OK** tellimuse lähetamiseks.
 
 #### <a name="transfer-the-transfer-order-to-the-intrastat-journal"></a>Üleviimistellimuse ülekandmine Intrastati töölehele
 
 1. Avage **Maks** > **Deklaratsioonid** > **Väliskaubandus** > **Intrastat**.
 2. Valige tegevuste paanil käsk **Insener**.
-3. Määrake dialoogiboksis **Intrastat (ülekanne)** üleviimistellimuse **valikuks** **Jah** ja kõigi muude valikute väärtuseks **Ei**.
+3. Määrake dialoogiboksis **Intrastat (ülekanne**) **valiku Üleviimistellimus väärtuseks**  **Jah** ja kõigi muude valikute väärtuseks **Ei**.
 4. Tehingute ülekandmiseks valige **OK** ja vaadake Intrastati päevikut.
 
    ![Rida, mis tähistab üleviimistellimust Intrastati lehel](media/intrastat_overview_3.png)
 
 5.  Vaadake üle **üleviimistellimuse** vahekaart Üldine.
 
-    Pange tähele, et arve väärtuse **ja statistilise** väärtuse **jaotiste** väljad seatakse automaatselt. Väljade Arve summa ja **Statistiline** summa **väärtused põhinevad kandekoodide** lehel olevatel sätetel **.** Välja Kulude **protsent väärtus** **20** on lehel Väljastatud toode seatud **väärtus**. Välja Statistilised kulud **väärtus** on kulude kvantitatiivne avaldis (sest välja 107,24 väärtus on 20 protsenti 536,18). Välja Statistiline väärtus **väärtus on väljade Statistiline summa** ja Statistika kulude **summa** väärtuste **summa**.
+    Pange tähele, et arve väärtuse **ja statistilise** väärtuse **jaotiste** väljad seatakse automaatselt. Väljade Arve summa ja **Statistiline** summa **väärtused põhinevad kandekoodide** lehel olevatel sätetel **.**  Välja Kulude **protsent väärtus**  **20** on lehel Väljastatud toode seatud **väärtus**. Välja Statistilised kulud **väärtus** on kulude kvantitatiivne avaldis (sest välja 107,24 väärtus on 20 protsenti 536,18). Välja Statistiline väärtus **väärtus on väljade Statistiline summa** ja Statistika kulude **summa** väärtuste **summa** .
 
   ![Üleviimistellimuse üksikasjad intrastati lehe vahekaardil Üldine](media/intrastat_overview_4.png)
 
@@ -310,7 +310,7 @@ Selles näites peab Saksamaa ettevõte ostma 10 kaubaühikut Itaalia ettevõttes
 #### <a name="preliminary-setup"></a>Esialgne seadistamine
 
 1. Minge organisatsiooni **haldusorganisatsiooni juriidiliste** > **isikutesse** > **ja** valige **DEMF**.
-2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**)
+2. Aadresside **kiirkaardil** veenduge, et riigi **/regiooni välja väärtuseks** on **seatud DEU(Saksamaa).**
 3. Avage **Maks** > **Seadistus** > **Väliskaubandus** > **Väliskaubanduse parameetrid**.
 4. Valige vahekaardil **Intrastat** kiirkaardil **Üldine** väljal **Kande** **kood** väärtus **11**.
 5. Veenduge, **et kaubakoodi** hierarhia kiirkaardil on kategooriahierarhia **väljal** seatud **Intrastat.**
@@ -324,22 +324,22 @@ Selles näites peab Saksamaa ettevõte ostma 10 kaubaühikut Itaalia ettevõttes
 
 1. Minge organisatsiooni **halduse seadistusühikutesse** > **·** > **·** > **·**.
 2. Valige toimingupaanil nupp **Uus**.
-3. **Sisestage** väljale Ühik mõõtühiku nimi. Selle näite puhul sisestage **GRM**.
-4. Valige jaotise **Klassifikatsioon väljal** **Ühiku klass atribuut,** **mida ühik näitab.** Selle näite puhul valige **Mass**.
-5. **Väljal Ühikutesüsteem** valige mõõtmissüsteem, kuhu ühik kuulub. Näiteks valige meetermõõdu **ühikud**.
+3.  **Sisestage** väljale Ühik mõõtühiku nimi. Selle näite puhul sisestage **GRM**.
+4. Valige jaotise **Klassifikatsioon väljal**  **Ühiku klass atribuut,**  **mida ühik näitab.**  Selle näite puhul valige **Mass**.
+5.  **Väljal Ühikutesüsteem** valige mõõtmissüsteem, kuhu ühik kuulub. Näiteks valige meetermõõdu **ühikud**.
 
 #### <a name="set-up-unit-conversions"></a>Ühikuteisenduste häälestamine
 
 1. Minge organisatsiooni **halduse häälestusühikute** > **·** > **·** > **ühikuteisenduste loendisse.**
 2. Valige vahekaardil **Klassidevahelised teisendused** suvand **Uus**.
-3. Valige dialoogiakna **Ühiku** teisendus väljal **Toode väärtus** **F00007**.
+3. Valige dialoogiakna **Ühiku** teisendus väljal **Toode väärtus**  **F00007**.
 4. Valige väljal **Ühikust** väärtus **ea**.
-5. **Väljal Ühikuni** valige **GRM**.
+5.  **Väljal Ühikuni** valige **GRM**.
 6. Kontrollige, kas teisendusmäär **on 1 = 1**.
 7. Valige nupp **OK**.
 8. Avage **Tooteteabe haldus** > **Tooted** > **Väljastatud tooted**.
 9. Valige ruudustikus **F00007**.
-10. Valige kiirkaardi **Varud jaotise** **Ühik** väljal **Ühik suvand** GRM **.**
+10. Valige kiirkaardi **Varud jaotise**  **Ühik** väljal **Ühik suvand** GRM **.**
 11. Valige toimingupaanil nupp **Salvesta**.
 
 #### <a name="set-up-product-information"></a>Seadistage tooteteave
@@ -354,7 +354,7 @@ Selles näites peab Saksamaa ettevõte ostma 10 kaubaühikut Itaalia ettevõttes
 1. Minge jaotisse **Tooteteabe haldus** > **Seadistus** > **Kategooriad ja atribuudid** > **Kategooria hierarhiad**.
 2. Valige loendist **Intrastat**.
 3. Ruudustikus **valigekõlar**.
-4. Valige väliskaubanduse kiirkaardi väljal **Lisaühikud** **suvand GRM**.**·**
+4. Valige väliskaubanduse kiirkaardi väljal **Lisaühikud**  **suvand GRM** . **·**
 5. Valige toimingupaanil nupp **Salvesta**.
 
    Lisateavet vt mõõtühikute [haldamine](../../supply-chain/pim/tasks/manage-unit-measure.md).
@@ -367,12 +367,12 @@ Selles näites peab Saksamaa ettevõte ostma 10 kaubaühikut Itaalia ettevõttes
 4. Valige nupp **OK**.
 5. Veenduge, **Päis** **Välis** **Kaubanduse** kiirkaardil **Kande kood** väljal oleks seatud väärtusele **11**.
 6. Valige **Read** vahekaardil **Müügi tellimuse ridade** väljal **Kaubakoodi** väärtuseks **F00007**. Sisestage väljale **Kogus** väärtus **10**.
-7. Väliskaubanduse **jaotise** rea **üksikasjade** kiirkaardi vahekaardil Väliskaubandus veenduge, **·** **·** **et kande kood ja kauba väljad** seatakse automaatselt.
+7. Väliskaubanduse **jaotise** rea **üksikasjade** kiirkaardi vahekaardil Väliskaubandus veenduge, **·**  **·**  **et kande kood ja kauba väljad** seatakse automaatselt.
 8. Valige toimingupaanil vahekaardi **Ostmine** grupis **Tegevused** suvand **Kinnita**.
 9. Valige toimingupaani vahekaardil **Arve** grupis **Loo** suvand **Arve**.
 10. Valige tegumiribal suvand **Vaike vorm**. Valige **Tellitud kogus** väljal **Ridade vaikekogus**. Seejärel valige **OK**.
-11. Sisestage **hankija arve** päise kiirkaardi jaotise **Arve** ID väljale **Number** **väärtus VE-0010**.
-12. **Valige arve kuupäevade** **väljal Arve** **kuupäev 10/5/2021** (5. oktoober 2021).
+11. Sisestage **hankija arve** päise kiirkaardi jaotise **Arve** ID väljale **Number**  **väärtus VE-0010**.
+12.  **Valige arve kuupäevade**  **·**  **väljal Arve kuupäev 10/5/2021**  (5. oktoober 2021).
 13. Valige arve postitamiseks toimingupaanilt **Postita**.
 
 #### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Hankija arve ülekandmine Intrastati töölehele
@@ -387,6 +387,28 @@ Selles näites peab Saksamaa ettevõte ostma 10 kaubaühikut Itaalia ettevõttes
 5. Vaadake üle **Üldine** ostutellimuse vahekaart. Pange tähele, **et jaotises Ühik** seadistatakse **automaatselt** lisaühikute kogus **ja** lisaühiku väljad.
 
    ![Ostutellimuse üksikasjad intrastati lehe vahekaardil Üldine](media/intrastat_overview_6.png)
+   
+## <a name="list-of-countryregion-specific-articles"></a>Riigi-/regiooni kindlate artiklite loend
+Järgmises tabelis loetletakse saadaolevad riigi-/regiooniomased Intrastati artiklid.
+
+| Riik          | Link      |
+|------------------|-----------|
+| Austria          |[Austria Intrastat](emea-aut-intrastat.md)| 
+| Belgia          |[Belgia Intrastat](emea-bel-intrastat.md)|
+| Tšehhi Vabariik   |[Tšehhi Intrastat](emea-cze-intrastat.md)|
+| Taani          |[Taani Intrastat](emea-dnk-intrastat.md)|
+| Eesti          |[Eesti Intrastat](emea-est-intrastat.md)|
+| Soome          |[Soome Intrastat](emea-fin-intrastat.md)|
+| Prantsusmaa           |[Prantsuse Intrastat](emea-fra-intrastat.md)|
+| Saksamaa          |[Saksa Intrastat](emea-deu-intrastat.md)|
+| Ungari          |[Ungari Intrastat](emea-hun-intrastat.md)|
+| Itaalia            |[Itaalia Intrastat](emea-ita-intrastat.md)|
+| Läti           |[Läti Intrastat](emea-lva-intrastat.md)|
+| Leedu        |[Leedu Intrastat](emea-ltu-intrastat.md)|
+| Holland      |[Hollandi Intrastat](emea-nl-intrastat.md)|
+| Poola           |[Poola Intrastat](emea-pol-intrastat.md)|
+| Hispaania            |[Hispaania Intrastat](emea-esp-intrastat.md)|
+| Rootsi           |[Rootsi Intrastat](emea-swe-intrastat.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

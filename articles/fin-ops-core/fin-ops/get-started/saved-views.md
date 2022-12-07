@@ -2,7 +2,7 @@
 title: Salvestatud vaated
 description: See artikkel kirjeldab, kuidas kasutada salvestatud vaate funktsioone.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757217"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799487"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -55,7 +55,7 @@ Vaate valijal on kaks suurust.
  
 Kui valite vaate nime, avaneb vaate valija ja kuvatakse lehe jaoks saadaolevate vaadete loend.
 
-**Versioon 10.0.21 või uuem:** kui funktsioon **Täiustatud juriidilise isiku tugi salvestatud vaadete jaoks** on sisse lülitatud, kuvab vaatevalija saadaolevad vaated kahes jaotises. Esimeses jaotises kuvatakse praeguse juriidilise isiku põhised vaated ja teises kuvatakse kõigile juriidilistele isikutele saadaolevad vaated. Esimene jaotis on nähtav ainult siis, kui lehe jaoks on juriidilise isiku põhiseid vaateid.
+ **Kui salvestatud vaadete funktsiooni täiustatud** juriidilise isiku tugi on sisse lülitatud, näitab vaate valija kahes jaotises saadaolevaid vaateid. Esimeses jaotises kuvatakse praeguse juriidilise isiku põhised vaated ja teises kuvatakse kõigile juriidilistele isikutele saadaolevad vaated. Esimene jaotis on nähtav ainult siis, kui lehe jaoks on juriidilise isiku põhiseid vaateid.
 
 - **Standardne vaade** — **Standardne** vaade on lehe algkuju vaade, millele pole rakendatud ühtegi isikupärastamist.
 - **Isiklikud vaated** — tabalukkudeta vaated tähistavad teie isiklikke vaateid. Need on vaated, mille olete ise loonud või mille on teile andnud administraator.
@@ -81,7 +81,7 @@ Kui soovite neid muudatusi salvestada, toimige järgmiselt.
     1. Valige **Salvesta nimega**. 
     2. Sisestage paanil **Salvesta vaade nimega** nimi ja valikuliselt vaate kirjeldus.
     3. Kui soovite, et vaade oleks teie vaikevaade, tehke valik **Kinnita vaikevariandina**. Lisateavet vaikevaadete kohta vt jaotisest [Vaikevaate muutmine](#changing-the-default-view). 
-    4. **Versioon 10.0.21 või uuem:** kui funktsioon **Täiustatud juriidilise isiku tugi salvestatud vaadete jaoks** on sisse lülitatud, saate valida, kas soovite, et vaade oleks saadaval kõigile juriidilistele isikutele või ainult nende alamkogumile.
+    4.  **Kui salvestatud vaadete** funktsiooni täiustatud juriidilise isiku tugi on sisse lülitatud, saate valida, kas soovite, et see vaade oleks saadaval kõigile juriidilistele isikutele või ainult nende alamkogumile.
     5. Valige käsk **Salvesta**.
 
 ## <a name="changing-the-default-view"></a>Vaikevaate muutmine
@@ -90,7 +90,7 @@ Vaikevaade on vaade, mida süsteem püüab avada, kui esimest korda lehte avate.
 
 > [!NOTE]
 > - Põhifunktsioonis **Salvestatud vaated** on juriidiliste isikute üleselt ühtne globaalne vaikevaade. Vaikevaadet muutes avatakse see vaikimisi, sõltumata juriidilisest isikust, kellega seotud olete.
-> - **Versioon 10.0.21 või uuem:** kui funktsioon **Täiustatud juriidilise isiku tugi salvestatud vaadete jaoks** on sisse lülitatud, võib igal juriidilisel isikul lehe kohta olla oma vaikevaade.
+> -  **Kui salvestatud vaadete funktsiooni täiustatud** juriidilise isiku tugi on sisse lülitatud, võib igal juriidilisel isikul lehel olla oma vaikevaade.
 
 Lehe vaikevaate muutmiseks tehke järgmist.
 
@@ -101,13 +101,13 @@ Lehe vaikevaate muutmiseks tehke järgmist.
 Teine võimalus on muuta uue vaate loomisel (kasutades tegevust **Salvesta nimega**) uus vaade vaikevaateks, kasutades enne vaate salvestamist suvandit **Kinnita vaikeväärtusena**.
 
 > [!WARNING]
-> Mõnel juhul ei käivitu lehe esmakordsel avamisel vaikevaatega seostatud päring. Näiteks kui avate lehe läbi paani, jooksutatakse paani päring hoolimata vaikevaatega seostatud päringust. Lisaks, kui avate lehe, mille **standardsel** vaatel on juba määratletud päring, jooksutatakse algset päringut vaikevaate päringu asemel. Sellisel juhul kuvatakse vaate laadimisel teade. Kui vahetate vaateid pärast lehe laadimist, peaks vaate päringut saama ootuspäraselt käivitada. Versioonist 10.0.10 või hilisemast on teavitava sõnumiga kaasas manustatud tegevus, mis võimaldab laadida vaikevaate päringut otse.
+> Mõnel juhul ei käivitu lehe esmakordsel avamisel vaikevaatega seostatud päring. Näiteks kui avate lehe läbi paani, jooksutatakse paani päring hoolimata vaikevaatega seostatud päringust. Lisaks, kui avate lehe, mille **standardsel** vaatel on juba määratletud päring, jooksutatakse algset päringut vaikevaate päringu asemel. Sel juhul saate te teabeteate, kui vaade laaditakse manustatud toiminguga, mis võimaldab teil laadida vaikevaate päringu otse. Kui vahetate vaateid pärast lehe laadimist, peaks vaate päringut saama ootuspäraselt käivitada. 
 
 ## <a name="managing-personal-views"></a>Isiklike vaadete haldamine
 
 Dialoogiboks **Halda mu vaateid** pakub teile isiklike vaadete ja vaate valijas olevate vaadete järjekorra põhilisi haldamisvõimalusi. Selle lehe avamiseks valige vaate nimi, et avada vaate valija rippmenüü, klõpsake valikut **Veel** ja seejärel käsku **Halda mu vaateid**.
 
-**Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, **·** **kuvatakse** dialoogiboksi Minu vaadete haldamine jaotises Lehe saadaolevad vaated. Praeguse juriidilise isiku põhised vaated kuvatakse eraldi jaotises. Jaotis **Globaalsed vaated** kuvatakse alati, et saaksite lehe jaoks saadaolevaid vaateid hallata kõigis juriidilistes isikutes. 
+ **Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, **·**  **kuvatakse** dialoogiboksi Minu vaadete haldamine jaotises Lehe saadaolevad vaated. Praeguse juriidilise isiku põhised vaated kuvatakse eraldi jaotises. Jaotis **Globaalsed vaated** kuvatakse alati, et saaksite lehe jaoks saadaolevaid vaateid hallata kõigis juriidilistes isikutes. 
 
 Selle lehe jaoks saadaolevate vaadete loendi jaoks on olemas järgmised tegevused.
 
@@ -138,9 +138,9 @@ Vaate avaldamiseks tehke järgmist.
 
 1. Looge ja salvestage isiklik koopia vaatest, mida soovite avaldada. 
 2. Kui see vaade on laaditud, valige vaate nimi, et avada rippmenüüst vaate valija. 
-3. Valige nupp **Veel** ja seejärel käsk **Avalda**. **Avaneb** dialoogiaken Avaldamine.
+3. Valige nupp **Veel** ja seejärel käsk **Avalda**.  **Avaneb** dialoogiaken Avaldamine.
 4. Sisestage vaate nimi. Sisestatud nimi on nimi, mida selle vaate saanud kasutajad näevad oma vaate valijates. Lehekülje avaldatud vaadete nimed peavad olema kordumatud. Korduvad nimed lubatud isegi juhul, kui rollide või juriidiliste isikute loendid, millele vaated on rakendatud, on erinevad.
-5. Kui organisatsiooni **vaadete** tõlke tugi on sisse lülitatud, saate lisada oma vaate nimele tõlkeid nii paljudes keeltes, kui teie organisatsioon nõuab, klõpsates **·** **välja Nimi kõrval nuppu Tõlked**. Sel juhul kuvatakse vaate nimi kasutajatele nende praeguses keeles. Saate määrata ka vaikekeele, et määratleda tõlge, mis kuvatakse näidatakse kasutajatele, kes kasutavad keeli, mille jaoks pole tõlget olemas.
+5. Kui organisatsiooni **vaadete** tõlke tugi on sisse lülitatud, saate lisada oma vaate nimele tõlkeid nii paljudes keeltes, kui teie organisatsioon nõuab, klõpsates **·**  **välja Nimi kõrval nuppu Tõlked** . Sel juhul kuvatakse vaate nimi kasutajatele nende praeguses keeles. Saate määrata ka vaikekeele, et määratleda tõlge, mis kuvatakse näidatakse kasutajatele, kes kasutavad keeli, mille jaoks pole tõlget olemas.
 5. Valikuline: sisestage vaate kirjeldus, et seda vaadet nägevad kasutajad mõistaks vaate eesmärki paremini. 
 6. Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi vaateks muutmine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. Muudaetakse kõigi sihtkasutajate ühtset globaalset vaikevaadet. Kasutajad saavad endiselt muuta oma vaikevaadet pärast avaldamist.
 
@@ -163,7 +163,7 @@ Vaate avaldamiseks tehke järgmist.
     > Arvestage järgmise käitumisega, kui avaldate vaate kindlale juriidilisele isikule, kuid te ei avalda seda vaadet vaikevaatena.
     >
     > - Kui sisse on lülitatud ainult põhifunktsioon **Salvestatud vaated**, kuvab kasutaja vastava lehe vaatevalija algselt ainult määratud juriidiliste isikute vaate. Pärast vaate esmakordset laadimist kuvab lehe vaatevalija selle alati, sõltumata juriidilisest isikust.
-    > - **Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, näitab vaatevalija ainult kunagi määratud juriidiliste isikute vaadet.
+    > -  **Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, näitab vaatevalija ainult kunagi määratud juriidiliste isikute vaadet.
 
 11. Valige **Avalda**.
 
@@ -204,7 +204,7 @@ Lehe kõikide avaldatud vaadete loendi jaoks on olemas järgmised tegevused.
 
 ## <a name="managing-views-globally"></a>Vaadete globaalne haldamine
 
-Kuigi mõned halduse võimalused on igal leheküljel pinnaks, nagu selles **artiklis** **märgitud,** saavad süsteemi administraatorid ja salvestatud vaate administraatorid isikupärastamise lehe kaudu hallata süsteemi vaateid holistiliselt.**·** Lehel on eelkõige järgmised jaotised ja võimalused. 
+Kuigi mõned halduse võimalused on igal leheküljel pinnaks, nagu selles **artiklis**  **märgitud,**  saavad süsteemi administraatorid ja salvestatud vaate administraatorid isikupärastamise lehe kaudu hallata süsteemi vaateid holistiliselt. **·**  Lehel on eelkõige järgmised jaotised ja võimalused. 
 
 - **Avaldatud vaated** – jaotises on loetletud kõik teie organisatsiooni jaoks avaldatud vaated. Siin saate pärast sihtkohti kuvavate turberollide või juriidiliste isikute muutmist vaate uuesti avaldada. Saate neid vaateid ka eksportida, kustutada või avaldamise tühistada. Saate vaatest isikliku koopia loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite vaadet uuendada või saada selle sisust parema ülevaate. 
 - **Avaldamata vaated** — selles jaotises loetletakse kõik teie süsteemi organisatsiooni vaated, mis pole praegu avaldatud. Need vaated tulevad enamasti süsteemi läbi impordi valiku. Saate neid vaateid avaldada, eksportida või kustutada. Versioonis 10.0.12 lisatud tegevus **Kiiravaldamine** võimaldab avaldada ühe tegevuse raames mitu antud jaotise vaadet, kasutades olemasolevaid turberolli ja juriidilise isiku konfiguratsioone. Nende vaadete isiklike **koopiate** loomiseks saate kasutada tegevust Salvesta isikliku tegevusena, et nende sisu oleks võimalik paremini mõista.
@@ -223,7 +223,7 @@ Salvestatud vaadetega teadaolevate probleemide loendi leiate jaotisest [Koostevo
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kuidas lubada salvestatud vaateid minu keskkonnas?
 
 > [!NOTE]
-> **Salvestatud vaadete** funktsioon nõuab finantside ja toimingute rakenduste isikupärastamise süsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
+>  **Salvestatud vaadete** funktsioon nõuab finantside ja toimingute rakenduste isikupärastamise süsteemi lubamist. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
 
 Saate funktsiooni **Salvestatud vaade** sisse ja välja lülitada mis tahes keskkonna funktsioonihalduses. Kui see on sisse lülitatud, on salvestatud vaated kõigil järgnevatel kasutajaseanssidele kättesaadavad.
 
@@ -233,7 +233,7 @@ Kui vaated on lubatud, salvestatakse kõik kasutaja ja vormi olemasolevad isikup
 
 ### <a name="what-pages-support-views"></a>Millised lehed toetavad vaateid? 
 
-Vaated on saadaval enamikel, kuid mitte kõigil lehtedel. Vaateid saab praegu kasutada kõigil täisekraaniga lehtedel (v.a armatuurlaudad). Tööruumide toe vaatamiseks saate kasutada tööruumide **funktsiooni Salvestatud vaadete tuge**. Enamik mitte-täisekraanil lehekülgi, mis sisaldavad ripploendiid, otsinguid ja täiustatud eelvaateid, ei toeta praegu vaateid. Dialoogibokside toe kuvamine on saadaval dialoogide **funktsiooni Salvestatud vaadete toe** kaudu.
+Vaated on saadaval enamikel, kuid mitte kõigil lehtedel. Vaateid saab praegu kasutada kõigil täisekraaniga lehtedel (v.a armatuurlaudad). Tööruumide toe vaatamiseks saate kasutada tööruumide **funktsiooni Salvestatud vaadete tuge** . Enamik mitte-täisekraanil lehekülgi, mis sisaldavad ripploendiid, otsinguid ja täiustatud eelvaateid, ei toeta praegu vaateid. Dialoogibokside toe kuvamine on saadaval dialoogide **funktsiooni Salvestatud vaadete toe** kaudu.
 
 ### <a name="who-is-allowed-to-publish-views"></a>Kellel on lubatud vaateid avaldada?
 
@@ -260,7 +260,7 @@ Suurte vaate valijatega lehtedel (vaatamiseks saab salvestada nii isikupärastam
 Kui avaldate vaate kindlale juriidilisele isikule, kuid te ei avalda seda vaadet vaikevaatena, ilmneb järgmine käitumine.
 
 - Kui sisse on lülitatud ainult põhifunktsioon **Salvestatud vaated**, kuvab kasutaja vastava lehe vaatevalija algselt ainult määratud juriidiliste isikute vaate. Pärast vaate esmakordset laadimist kuvab lehe vaatevalija selle alati, sõltumata juriidilisest isikust. Käitumine ilmneb, kuna kasutajad saavad avaldatud vaate laadimisel selle isikliku koopia ja isiklikud vaated on globaalsed.
-- **Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, näitab vaatevalija ainult kunagi määratud juriidiliste isikute vaadet. Käitumine ilmneb, kuna funktsioon võimaldab vaateid (sh isiklikke vaateid) linkida kindlate juriidiliste isikutega.
+-  **Kui salvestatud vaadete funktsiooni** täiustatud juriidilise isiku tugi on sisse lülitatud, näitab vaatevalija ainult kunagi määratud juriidiliste isikute vaadet. Käitumine ilmneb, kuna funktsioon võimaldab vaateid (sh isiklikke vaateid) linkida kindlate juriidiliste isikutega.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

@@ -2,7 +2,7 @@
 title: Finantsaruannete vaatamine ja kujundamine
 description: See artikkel annab teile 365 finantsaruande vaatamise ja loomise Microsoft Dynamics kohta selgitusi.
 author: jcart1106
-ms.date: 10/02/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 92474e7b99af7d83b2089b6652558630c60824c1
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9273421"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799514"
 ---
 # <a name="view-and-design-financial-reports"></a>Finantsaruannete vaatamine ja kujundamine
 
@@ -51,30 +51,30 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
     > [!NOTE]
     > Teil palutakse korra klõpsatav aruandekujundaja alla laadida ja sisse logida. Kasutage sisselogimiseks oma identimisteavet.
 
-7. Muutke baasaastaks 2012 ja valige **Loo**. Kui aruanne on aruandekoosturis loodud, avatakse see uuel brauseri vahekaardil. Saate aruannet uurida kas brauseri vahekaardil või minna oma algse brauseri vahekaardile ja avada aruande sealt, valides selle loendist **Finantsaruanded**.
+7. Muutke baasaastaks 2021 ja valige **Loo**. Kui aruanne on aruandekoosturis loodud, avatakse see uuel brauseri vahekaardil. Saate aruannet uurida kas brauseri vahekaardil või minna oma algse brauseri vahekaardile ja avada aruande sealt, valides selle loendist **Finantsaruanded**.
 8. Valige avatud aruandes üks summadest, et minna aruande konto üksikasjadesse süvitsi.
 9. Kui olete konto üksikasjades, valige konto andmetega ja **minge süvitsi aruande kande tasemele**. Aruande kande tasemel näete selle aruande kujundusse kaasatud atribuute. Kandest ja kontost olenevalt võidakse kuvada mõni atribuut või kõik atribuudid.
 10. Sulgege aruande kande tasand.
-11. Valige sama või teine konto ja **avage kanded**. Kanded on filtritud valitud konto perioodi, aasta ja konto + dimensiooni kombinatsiooni järgi. Kannetest saate valida kande muu teabe uurimise.
-12. Sulgege kanded. Finantsaruandes saate andmeid vaadata kas eri perioodi ja aasta või eri rakendatud atribuutide ja dimensioonide järgi. Seda tehakse suvandit **Aruandevalikud** kasutades.
+11. Valige sama või teine konto ja **avage kanded**. Kanded on filtritud valitud konto perioodi, aasta ja konto + dimensiooni kombinatsiooni järgi. Kandekannetes **saate** valida kande kohta muu teabe otsimise.
+12. Suleb **kande kanded**. Finantsaruandes saate andmeid vaadata kas eri perioodi ja aasta või eri rakendatud atribuutide ja dimensioonide järgi. Seda tehakse suvandit **Aruandevalikud** kasutades.
 13. Valige suvand **Aruandevalikud**.
 14. Valige **Lisa dimensioonifilter** ja valige **Äriüksus**.
-15. Sisestage väljale 001 ja valige **OK**. Aruandes kuvatakse nüüd ainult äriüksuse 001 andmed. See on aruande isikupärastatud vaade ja pole saadaval teistele vaatamiseks.
+15. Sisestage **väljale 001** ja valige **OK**. Aruandes kuvatakse nüüd ainult äriüksuse 001 andmed. See on aruande isikupärastatud vaade ja pole saadaval teistele vaatamiseks.
 16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on rakendusse lisatud.
 17. Valige **Valuuta**, seejärel valige **EUR**. Aruanne kuvatakse nüüd eurodes. Aruande kujundusse kaasatud mis tahes valuutakoodid või -tähised kuvatakse nüüd rakendatud valuutas. Kui valuuta puhul pole ühtegi valuutatähist määratletud, siis valuuta tähist ei kuvata.
 18. Sulgege aruanne **Pearaamatu üksikasjad**.
 19. Sulgege **aruande kujundaja**.
 
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>2. harjutus: täiendavate konto atribuutide lisamine aruande kujundusse
-Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefinitsiooni kõiki kontosid hõlmama kui ka veeru definitsiooni konto atribuute hõlmama. Kui värskendused on lõpetatud, saate luua äsjaloodud aruande ja aruannet uurida. Alustame loendist Finantsaruanded.
+Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefinitsiooni kõiki kontosid hõlmama kui ka veeru definitsiooni konto atribuute hõlmama. Kui värskendused on lõpetatud, saate luua äsjaloodud aruande ja aruannet uurida. Me alustame finantsaruannete **loendist** .
 
-1. Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
+1. Avage **Finantsaruanded** pearaamatu osas **Päringud ja aruanded**.
 2. Valige rida aruande puhul, mille nimi on **Proovibilansi kokkuvõte – vaikimisi**.
 3. Valige suvand **Redigeeri**. **Proovibilansi kokkuvõte – vaikimisi** avaneb aruande kujundajas.
-4. Valige **Fail**, seejärel **Salvesta nimega** ja pange aruande nimeks Üksikasjalik proovibilanss atribuutidega.
+4. Valige **fail**, seejärel **salvestage nimega** ja nimetage aruande üksikasjalik **proovibilanss atribuutidega**.
 
     > [!NOTE]
-    > Märkus. Aruande loomisel mis tahes ajal aruande kujundajas värskendatakse finantsaruannete loendit.
+    > Kui aruandekujundajas luuakse uus aruanne, uuendatakse **finantsaruannete** loendit.
 
 5. Valige aruande definitsioonist readefinitsiooni ikoon, et avada **Proovibilanss – vaikimisi readefinitsioon**.
 6. Salvestage readefinitsioon kui **Üksikasjalik proovibilanss atribuutidega**.
@@ -107,17 +107,17 @@ Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefini
 26. Sulgege **aruande kujundaja**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. harjutus: mitmedimensioonilise aruande loomine aruandluspuu abil
-Selle harjutuse puhul muudate olemasolevat vaikearuannet. Saate luua aruandluspuu ja lisada aruande definitsiooni kulukeskuse/osakondade kasumiaruande loomiseks. Kui värskendused on lõpetatud, saate luua kulukeskuse/osakondade kasumiaruande ja uurida aruannet aruandluspuu abil. Alustame loendist Finantsaruanded.
+Selle harjutuse puhul muudate olemasolevat vaikearuannet. Loote aruandluspuu ja lisate aruande definitsioonile, et luua kulukeskus **/jaotuse tuluaruanne**. Kui uuendused on tehtud, saate luua kulukeskuse **/jaotuse tuluaruande** ja uurida aruannet aruandluspuu abil. Me alustame finantsaruannete **loendist** .
 
 1. Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
 2. Valige rida aruande puhul, mille nimi on **Kasumiaruanne – vaikimisi**.
 3. Valige suvand **Redigeeri**. **Kasumiaruanne – vaikimisi** avaneb aruande kujundajas.
 4. Osutage menüüs **Fail** suvandile **Uus** ja seejärel klõpsake suvandit **Aruandluspuu definitsioon**.
 5. Klõpsake menüüs **Redigeeri** suvandit **Lisa aruandlusüksused dimensioonidest**.
-6. Tühjendage märkeruudud kõikide dimensioonide, välja arvatud suvandi **Kulukeskus** puhul.
+6. Tühjendage kõikide dimensioonide märkeruudud, v.a **kulukeskus**.
 7. Klõpsake dimensiooni Kulukeskus puhul välja **Dimensioonist**, sisestage **007** ja seejärel vajutage tabeldusklahvi. Sisestage väljale **Dimensioonini** number **018**.
-8. **Salvesta** tulemuste puu nimega **Kulukeskused osakonniti.** Nüüd kui aruandluspuu on loodud, saate muuta aruandluspuud nii, et see sisaldaks uusi ümberarvestuse üksusi, turundust, toiminguid ja jaemüüki.
-9. Klõpsake menüüs **Aken** suvandit **Kulukeskused osakonniti**. (Kui aruandluspuu on suletud, valige see navigeerimispaani suvandi Aruandluspuu definitsioonid hulgast.)
+8. **Salvestage** tulemuseks saadav puu nimega Kulukeskused **jaotuse järgi**. Nüüd kui aruandluspuu on loodud, saate muuta aruandluspuud nii, et see sisaldaks uusi ümberarvestuse üksusi, turundust, toiminguid ja jaemüüki.
+9. Klõpsake menüüs **Aken** suvandit **Kulukeskused osakonniti**. (Kui aruandluspuu on suletud, valige see väljalt **Aruandluspuu definitsioonid** navigeerimispaanil.)
 10. Klõpsake üksust number kaks, **Kaubandusnäitused**, ja klõpsake ikooni **Sisesta aruandlusüksus**.
 11. Topeltklõpsake tühjal real üksuse veergu ja valige **USMF**.
 12. Sisestage veergudesse B ja C **Turundus**.
@@ -131,13 +131,13 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Saate luua aruandluspu
 20. Valige **Alanda aruandlusüksus**. Pange tähele, et üksus kuvatakse nüüd suvandi **Turundus** tütrena.
 21. Klõpsake üksust neli, **Turunduskampaania**, ja paremklõpsake.
 22. Valige **Alanda aruandlusüksus**.
-23. Klõpsake graafilisel kuval suvandit **Teenusetoimingud**. Vajutage ja hoidke vasakut hiirenuppu all, lohistades samas üksust suvandini **Toimingud**. Üksuse vabastamiseks ümberarvestusse Toimingud vabastage hiire vasak nupp. Korrake seda suvandite **Tootmine, Kvaliteedikontroll, Logistika, Hange ja Haldus** puhul.
+23. Klõpsake graafilisel kuval suvandit **Teenusetoimingud**. Vajutage ja hoidke vasakut hiirenuppu all, lohistades samas üksust suvandini **Toimingud**. Üksuse vabastamiseks ümberarvestusse Toimingud vabastage hiire vasak nupp. Korrake toimingut **tootmine**, **kvaliteedikontroll**, logistika **·**, hanked **·**  ja **haldus**.
 24. Muutke **Väljund**, **Ülem**, **Mall** ja **Võrgus** suvandi **Jaemüük** tütardeks, neid alandades või pukseerides.
 25. Salvestage tulemuseks saadud reorganisatsioon. Nüüd kui aruandluspuu on loodud ja korraldatud, saab selle aruande definitsiooni lisada.
 26. Valige menüüs **Aken** aruande definitsiooni avamiseks suvand **Kasumiaruanne – vaikimisi**.
 27. Klõpsake rippnoolt **Puu tüüp** ja valige suvand **Aruandluspuu**.
 28. Klõpsake puu rippnoolt ja valige suvand **Kulukeskused osakonniti**.
-29. Muutke baasaastaks **2012**, **salvestage** muudatused ja **looge** aruanne. Pärast aruande loomist ja avamist saate aruannet uurida.
+29. Muutke baasaastaks **2021**, **salvestage** muudatused ja **looge** aruanne. Pärast aruande loomist ja avamist saate aruannet uurida.
 30. Aruandlusüksuste kuvamiseks valige rippmenüüst **Aruandluspuu**. Teise võimalusena saate minna aruande reas süvitsi kõikide aruandluspuu üksuste saldode vaatamiseks.
 31. Sulgege **Kasumiaruanne – vaikimisi**.
 32. Sulgege **aruande kujundaja**.
@@ -145,11 +145,11 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Saate luua aruandluspu
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>4. harjutus: konsolideeritud aruande loomine organisatsiooni hierarhia abil
 Selle harjutuse puhul muudate olemasolevat vaikearuannet. Lisate organisatsiooni hierarhia aruande definitsiooni konsolideeritud kasumiaruande ja bilansi loomiseks. Kui värskendused on lõpetatud, saate luua konsolideeritud aruande ja uurida aruannet aruandluspuu abil. Alustame loendist Finantsaruanded.
 
-1. Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
+1. Avage **Finantsaruanded** pearaamatu osas **Päringud ja aruanded**.
 2. Valige rida aruande puhul, mille nimi on **Kõrvuti bilanss ja kasumiaruanne – vaikimisi**.
 3. Valige suvand **Redigeeri**. **Kõrvuti bilanss ja kasumiaruanne – vaikimisi** avaneb aruande kujundajas.
 4. Valige **Fail** &gt; **Salvesta nimega** ning pange aruande nimeks **Kõrvuti konsolideeritud bilanss ja kasumiaruanne**.
-5. Muutke baasaastaks 2012.
+5. Muutke baasaastaks 2021.
 6. Klõpsake puu tüübi rippnoolt ja valige suvand **Organisatsiooni hierarhiad**.
 7. Klõpsake puu tüübi rippnoolt ja valige suvand **Contoso Holdings**.
 8. Salvestage muudatused ja looge aruanne. Viipamisel valige kõik aruandlusüksused. Pärast aruande loomist ja avamist saate aruannet uurida.
@@ -162,16 +162,16 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Lisate organisatsiooni
 15. Sulgege **aruande kujundaja**.
 
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>5. harjutus: osakondade kõrvutamise aruande loomine
-Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruanne. Kasutate olemasolevat readefinitsiooni, kuid loote uue aruande definitisiooni ja uue veeru definitsiooni, mis kasutab dimensiooni filtreid. Alustame loendist Finantsaruanded.
+Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruanne. Kasutate olemasolevat readefinitsiooni, kuid loote uue aruande definitisiooni ja uue veeru definitsiooni, mis kasutab dimensiooni filtreid. Me alustame finantsaruannete **loendist** .
 
-1. Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
+1. Avage **Finantsaruanded** pearaamatu osas **Päringud ja aruanded**.
 2. Valige **Uus**. Aruande kujundaja avab tühja avatud aruande definitsiooni. Teie esimeseks ülesandeks on luua veeru definitsioon.
 3. Looge uus veeru definitsioon, klõpsates suvandit **Fail**, seejärel suvandit **Uus** ja seejärel suvandit **Veeru definitsioon**.
 4. Valige **veerus A** veeru tüübi puhul suvand **DESC**.
 5. Valige **veerus B** veeru tüübi puhul suvand **FD**.
 6. Topeltklõpsake väljal **Dimensioonifilter**.
 7. Topeltklõpsake aknas **Dimensioon** veergu **Osakond**.
-8. Klõpsake dialoogiboksi üksikus või vahemiku jaotises **kolmikpunkti** välja **Saatja** puhul osakondade loendi kuvamiseks.
+8. Dialoogi jaotises **Üksik või** Vahemik **klõpsake ellipsnuppu**  **väljal** Alates, et kuvada osakondade loend.
 9. Valige osakond **022** **Müük ja turundus** ja seejärel klõpsake nuppu **OK**.
 10. Korrake etappe 5 kuni 8 osakondade 23–25 puhul.
 11. Sisestage iga FD veeru puhul reale **Päis 2** järgmine osakonna kirjeldus.
@@ -185,7 +185,7 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 13. Valige menüüs **Aken** aruande definitsiooni avamiseks suvand **Uus aruande definitsioon**.
 14. Valige readefinitsiooniks **Kasumiaruanne – vaikimisi** ja veeru definitsiooniks **Kõrvuti osakonnad**.
 15. Salvestage aruande definitsioon kui **Kõrvuti osakondade kasumiaruanne**.
-16. Muutke baasaastaks **2012**.
+16. Muutke baasaastaks **2021**.
 17. Muutke üksikasjatase valikule **Rahaline, Konto ja Kanne**.
 18. **Salvesta** muudatused ja **loo**. Pärast aruande loomist ja avamist saate aruannet uurida.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715520"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804134"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Skontod ülemakseteks
 
@@ -53,7 +53,9 @@ Klient edastab makse 95,00 skontoperioodil. Makse tasakaalustatakse arve alusel,
 | Makse       | -95,00 | 0,00    |
 | Skonto | -10,50 | 0,00    |
 
-Makse ja tasakaalustuse kohta luuakse järgmised raamatupidamiskirjed. **Makse**
+Makse ja tasakaalustuse kohta luuakse järgmised raamatupidamiskirjed.
+
+**Makse**
 
 | Konto             | Deebetsumma | Kreeditsumma |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Klient edastab makse 95,00 skontoperioodil. Makse tasakaalustatakse arve alusel,
 | Makse       | -95,00 | -0,50   |
 | Skonto | -10,50 | 0,00    |
 
-Ülemakse summa 0,50 jääb makse avatud saldoks ning selle saab muu arvega tasakaalustada. Makse ja tasakaalustuse kohta luuakse järgmised raamatupidamiskirjed. **Makse**
+Ülemakse summa 0,50 jääb makse avatud saldoks ning selle saab muu arvega tasakaalustada. Makse ja tasakaalustuse kohta luuakse järgmised raamatupidamiskirjed. 
+
+**Makse**
 
 | Konto             | Deebetsumma | Kreeditsumma |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Klient edastab makse 95,00 skonto kuupäevaks. Makse tasakaalustatakse arve alus
 | Makse       | -95,00 | -0,00   |
 | Skonto | -10,00 | 0,00    |
 
-Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustatuks. **Makse**
+Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustatuks. 
+
+**Makse**
 
 | Konto             | Deebetsumma | Kreeditsumma |
 |---------------------|--------------|---------------|

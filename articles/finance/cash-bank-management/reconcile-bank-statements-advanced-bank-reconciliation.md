@@ -15,14 +15,14 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151340"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803906"
 ---
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine pangakonto täpsema vastavusseviimise abil
 
 [!include [banner](../includes/banner.md)]
 
@@ -37,7 +37,10 @@ Saate laadida üles pangaväljavõtte, mis sisaldab teavet ühe või mitme konto
 -   Ühe konto ühe pangaväljavõtte faili importimiseks määrake valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Ei** ja valige väljavõttega seotud pangakonto. Klõpsake valikut **Sirvi** seotud pangaväljavõtte faili valimiseks ja klõpsake siis käsku **Laadi üles**.
 -   Ühe pangaväljavõtte faili importimiseks mitme konto jaoks määrake valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** seotud pangaväljavõtte faili valimiseks ja klõpsake siis käsku **Laadi üles**.
 
-Kui mis tahes väljavõtet elektroonilises failis ei saa pangakontoga seostada või see on seostatud mitme pangakontoga tuvastatavaid välju kasutades, siis neid ei impordita. Siiski saab importida teisi väljavõtteid failis. Kasutaja saab seejärel teate, mis ütleb, et pangaväljavõtete importimine oli kindlate pangakontode puhul ebaedukas. Pange tähele, et pangaväljavõtte faili importival kasutajal peab olema juurdepääs juriidilisele isikule, et importida selle juriidilise isiku pangakontode väljavõtted. 
+Kui mis tahes väljavõtet elektroonilises failis ei saa pangakontoga seostada või see on seostatud mitme pangakontoga tuvastatavaid välju kasutades, siis neid ei impordita. Siiski saab importida teisi väljavõtteid failis. Kasutaja saab seejärel teate, mis ütleb, et pangaväljavõtete importimine oli kindlate pangakontode puhul ebaedukas. 
+
+>[!Note] 
+>Pangaväljavõtte faili importival kasutajal peab olema juurdepääs juriidilisele isikule, et importida selle juriidilise isiku pangakontode väljavõtted. 
 
 Saate kasutada ZIP-faili, et laadida mitu väljavõttefaili rakendusse Finance üles ühe protsessina. Mitme pangaväljavõtte faili importimiseks mitme konto kohta ühendage kõik pangaväljavõtte failid ühte zip-faili. Määrake dialoogiboksis **Pangaväljavõtete importimine** valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** pangaväljavõtte faile sisaldava zip-faili valimiseks ja klõpsake siis käsku **Laadi üles**. Importimisprotsess tuvastab zip-faili ja laeb iga sellesse kaasatud väljavõtte üles hoolimata pangakonto juriidilisest isikust.
 

@@ -1,6 +1,6 @@
 ---
 title: Käibemaksu konfigureerimine veebitellimuste jaoks
-description: See artikkel annab ülevaate käibemaksugrupi valikust eri võrgutellimuse tüüpide puhul Dynamics 365 Commerce.
+description: See artikkel annab ülevaate käibemaksugrupi valikust erinevate võrgutellimuse tüüpide puhul Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276712"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819265"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Käibemaksu konfigureerimine veebitellimuste jaoks
 
@@ -33,6 +33,8 @@ Võite soovida, et teie e-kaubanduse kanal toetaks selliseid valikuid nagu kohal
 ## <a name="destination-based-taxes-for-online-orders"></a>Võrgutellimuste sihtkohapõhised maksud
 
 Üldiselt määratleb kliendi aadressidele lähetatavate veebitellimuste maksud sihtkoht. Igal käibemaksugrupil on jaemüügi sihtkohapõhine maksukonfiguratsioon, kus teie ettevõte saab hierarhilisel kujul määratleda sihtkoha üksikasjad (nt maakond või regioon, maakond, maakond ja linn).
+
+Jaemüügi sihtkoha **maksu konfiguratsiooni leiate**  **maksumoodulist > kaudsete maksude > käibemaksu > käibemaksugruppide jaotises** .
 
 ### <a name="orders-delivered-to-customer-address"></a>Kliendi aadressile saadetud tellimused
 

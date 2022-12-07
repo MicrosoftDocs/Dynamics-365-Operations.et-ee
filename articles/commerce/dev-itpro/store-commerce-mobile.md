@@ -1,33 +1,34 @@
 ---
-title: Rakenduse Store Commerce mobiiliplatvormide jaoks
+title: Store Commerce’i rakendus mobiiliplatvormidele
 description: See artikkel kirjeldab, kuidas rakenduse Microsoft Dynamics 365 Commerce Store Commerce ja Android iOS kasutamist alustada.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9641679"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815779"
 ---
-# <a name="store-commerce-app-for-mobile-platforms"></a>Rakenduse Store Commerce mobiiliplatvormide jaoks
+# <a name="store-commerce-app-for-mobile-platforms"></a>Store Commerce’i rakendus mobiiliplatvormidele
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 See artikkel kirjeldab, kuidas alustada rakenduse Microsoft Dynamics 365 Commerce Store Commerce rakenduste ja Android iOS-iga.
 
-Mobiilirakendused Dynamics 365 Commerce ja Android iOS-i jaoks muudavad täieliku mobiilsete müügikoha (POS) seadmete kasutamise jaemüügikeskkonnas lihtsaks ja lihtsaks. Store Commerce’i mobiilirakendused tarnivad kõiki [store Commerce’i](store-commerce.md) rakenduse telefoni- ja tahvelarvutivormi faktoreid ja rakendusi. Store Commerce’i mobiilirakendused saab installida otse Developeri ja Developer Play rakenduskauplustest ning ei vaja arendajalt nende juurutamiseks või värskendamiseks uut rakendusepaketti. 
+Mobiilirakendused Dynamics 365 Commerce ja Android iOS-i jaoks muudavad täieliku mobiilsete müügikoha (POS) seadmete kasutamise jaemüügikeskkonnas lihtsaks ja lihtsaks. Store Commerce’i mobiilirakendused [tarnivad kõiki Rakenduse Store Commerce](store-commerce.md) Windowsi võimalusi ja rakendusi ning toimetavad hästi paljude iOS-i Android ja telefonide ning tahvelarvutite puhul. Store Commerce’i mobiilirakendused saab installida otse Developeri ja Developer Play rakenduskauplustest ning ei vaja arendajalt nende juurutamiseks või värskendamiseks uut rakendusepaketti. 
 
 Store Commerce’i mobiilirakendused säilitavad täieliku funktsionaalse paarsuse praeguste jaemüügi rakendustega. Lisaks hõlmab rakendus Store Commerce for iOS sihtotstarbelist riistvarajaama tuge, et iOS-i seadmed saaksid suhelda võrgumakseterminalide, kviitungiprinterite ja sularahasahtlitega ilma, et peaks juurutama ühise riistvarajaama. 
 
 > [!IMPORTANT]
-> Windowsi poe ärirakendused ja Android iOS on järgmise kassarakenduste loomiseks Dynamics 365 Commerce. Praegune Modern POS-i (MPOS) rakendus ja [jaemüügi rakenduste](hybridapp.md) mobiilirakendused on aegunud oktoober 2023. Microsoft soovitab kasutada store Commerce’i või Cloud POS-i (CPOS) kõigi uute kassa juurutuste puhul. Olemasolevad kliendid peaksid plaanima rakenduse Retail commerce üle kanda rakendusest Retail Commerce. Lisateavet MPOS-i ja jaemüügirakenduste amortiseerimisgraafiku kohta [vt kaupluse Dynamics 365 Commerce tehnoloogiapinu moderniseerimine](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Windowsi poe ärirakendused ja Android  iOS on järgmise loomise kassarakendused Dynamics 365 Commerce. Store Commerce’i rakendused pakuvad mitmeid parendusi oma eelkäijate ees, säilitades samas täieliku funktsionaalse ja funktsiooni paarsuse. Microsoft amortiseerib MPOS-i Android ja iOS Retail POS-i rakendusi 2023. aasta lõpus ning soovitab kasutada store Commerce’i või Cloud POS-i (CPOS) kõigi uute kassa juurutuste puhul. Olemasolevad kliendid peaksid plaanima jaemüügi rakendustest rakendusse Store Commerce üle kanda. Lisateavet vt jaotisest Modern POS-i [migreerimine poe ärisse](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Rakenduse arhitektuur
 
@@ -50,10 +51,10 @@ Rakenduse Store Commerce mobiilirakendused nõuavad Dynamics 365 Commerce, eriti
 
 Rakenduse Store Commerce mobiilirakendused saate installida otse kaupluste Commerce Store’ist või Kaupluste rakenduskauplusest. 
 
-- [Rakenduse Store Commerce rakendus <a0/& jaoks Android](https://aka.ms/storecommerceandroid)
-- Rakendus Store Commerce iOS-i jaoks (varsti saadaval)
+- [Rakenduse Store Commerce rakendus<a0/& jaoks Android](https://aka.ms/storecommerceandroid)
+- [Rakenduse Store Commerce iOS-i jaoks](https://aka.ms/storecommerceios)
 
-Rakenduse Android (.the) jaRakendusTe (.ipa) pakette saab elutsükli teenustes alla laadida ka ühiskasutuses varateegist Microsoft Dynamics. 
+Rakenduse Android (.the) jaRakendusTe (.ipa) pakette saab elutsükli teenustes alla laadida ka ühiskasutuses varateegist Microsoft Dynamics . 
 
 ## <a name="device-and-register-setup"></a>Seadme ja registri häälestus
 
@@ -63,11 +64,11 @@ Enne kassaaparaati aktiveerimist poe äri mobiilirakendustes peate häälestama 
 
 Uue seadme loomiseks ja häälestamiseks järgige neid samme.
 
-1. Minge commerce headquartersi rakenduse Retail ja **Commerce Channel häälestamise \> kassa häälestusseadmetesse \>\>**. 
-1. Looge uus seade ja valige **sõltuvalt juurutatud mobiilirakendusest kas Modern POS – või Modern POS Android** **– iOS**. 
+1. Minge commerce headquartersi rakenduse Retail ja **Commerce Channel häälestamise \> kassa häälestusseadmetesse \>  \>**. 
+1. Looge uus seade ja valige **sõltuvalt juurutatud mobiilirakendusest kas Modern POS Android**  **- või Modern POS - iOS** . 
 
     > [!NOTE] 
-    > Modern **POS-i ja Android** **Modern POS-i i iOS-i** rakendusetüüpe kasutatakse ka praeguste windowsi rakenduste juurutamiseks ja Android iOS-i jaoks. Pärast MPOS-i amortiseerimist uuendatakse nende rakendusetüüpide **sildid rakendustüüpideks Store Commerce – Android** ja **Modern POS - iOS**. 
+    > Modern **POS-i ja Android**  **Modern POS -iOS-i** rakendusetüüpe kasutatakse ka praeguste windowsi rakenduste juurutamiseks ja Android iOS-i jaoks. Pärast MPOS-i amortiseerimist uuendatakse nende rakendusetüüpide **sildid rakendustüüpidele Store Commerce - Android** and **Modern POS - iOS**. 
 
 ### <a name="register-setup"></a>Registri häälestus
 
@@ -75,7 +76,7 @@ Saate luua uue registri ja seostada selle loodud seadmega või seostada olemasol
 
 ### <a name="screen-layout-setup"></a>Ekraani paigutuse häälestus
 
-Kui te taasostute ekraani kavandi, mis sisaldub teie litsentsiga antud demoandmetes Dynamics 365 Commerce, valib Store Commerce rakendus automaatselt kaasatud klevandi, kui teie seadme ekraani eraldusvõime on vertikaalsuunas alla 480 &times; 853 pikslit. Kuid kui loote ekraani kavandi nullist või kui teie mobiilses seadmes kasutatakse tihendatud paigutusest suuremat eraldusvõimet, veenduge, et loote lahenduse ja seotud nupupaneelid, mis sobivad telefoni või tahvelarvutiga, mille plaanite juurutada. Lisateavet ekraani paigutuse konfiguratsioonide kohta vaadake kassa [kasutajaliidese visuaalsetest konfiguratsioonidest](../pos-screen-layouts.md). 
+Kui te taasostute ekraani kavandi, mis sisaldub teie litsentsiga antud demoandmetes Dynamics 365 Commerce , valib Store Commerce rakendus automaatselt kaasatud klevandi, kui teie seadme ekraani eraldusvõime on vertikaalsuunas alla 480 &times; 853 pikslit. Kuid kui loote ekraani kavandi nullist või kui teie mobiilses seadmes kasutatakse tihendatud paigutusest suuremat eraldusvõimet, veenduge, et loote lahenduse ja seotud nupupaneelid, mis sobivad telefoni või tahvelarvutiga, mille plaanite juurutada. Lisateavet ekraani paigutuse konfiguratsioonide kohta vaadake kassa [kasutajaliidese visuaalsetest konfiguratsioonidest](../pos-screen-layouts.md). 
 
 Kui seadmed ja registrid on commerce headquartersis konfigureeritud, **\> minge jaemüügi ja äri jaemüügi ja äri ID \>** jaotusgraafikutele ja käivitage registrite töö.
 
@@ -106,8 +107,8 @@ Järgmises tabelis võrreldakse Store Commerce’i rakenduse võimalusi Windowsi
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Rakendus Store Commerce](store-commerce.md)
+[Store Commerce’i rakendus](store-commerce.md)
 
-[Store Commerce'i ja Cloud POS-i vahel valimine](../mpos-or-cpos.md)
+[Store Commerce’i ja Cloud POS-i vahel valimine](../mpos-or-cpos.md)
 
 [Rakenduse Store Commerce häälestus- ja installiprobleemide tõrkeotsing](../troubleshoot/store-commerce-setup-installation.md)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715825"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804259"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
@@ -65,12 +65,13 @@ Ettemaksekonto peab olema määratletud vahekaardil **Ostutellimus** lehel **Var
 
 Poolelioleva koondkonto ostureskontro määratletakse profiilil **Hankija sisestus**. Vaike-sisestusreeglite määratlemiseks klõpsake suvandit **Ostureskonto \>Seadistus \> Ostureskonto parameetrid \>Pearaamat ja müügi vahekaart \> Sisestusreeglid ettemakse hankijaarvega**.
 
-**Ettemakse rakenduse poliitika** näitab, kas süsteem rakendab tasakaalustatud ettemaksuarved automaatselt käsitsi loodud lõpparvele. Andmeüksust kasutades loodud arved ei viita **Ettemakse rakenduse poliitikale**. Peate käsitsi rakendama tasakaalustatud ettemaksuarvet arvetel, mis loodi andmeüksust kasutades. Poliitika määratlemiseks minge jaotisesse **Ostureskontro \>Seadistus \> Ostureskontro parameetrid \> Pearaamat ja müügi vahekaart  \> Ettemakse rakenduspoliitika**. Kui väli **Ettemakse rakenduspoliitika** on seatud väärtusele **Automaatne**, märgitakse ettemaksuarve automaatselt lõpliku arvega tasakaalustamiseks. Kui väli on seatud olekusse **Teavitus**, kuvatakse lõpliku arve loomisel visuaalne viide, et ettemaksuarve on rakenduse jaoks saadaval.
+Ettemakse **rakenduse poliitika** näitab, kas tasakaalustatud ettemaksuarved rakendatakse automaatselt käsitsi loodud lõpparvele. Andmeüksust kasutades loodud arved ei viita **Ettemakse rakenduse poliitikale**. Peate käsitsi rakendama tasakaalustatud ettemaksuarvet arvetel, mis loodi andmeüksust kasutades. Poliitika määratlemiseks minge jaotisesse **Ostureskontro \>Seadistus \> Ostureskontro parameetrid \> Pearaamat ja müügi vahekaart  \> Ettemakse rakenduspoliitika**. Kui väli **Ettemakse rakenduspoliitika** on seatud väärtusele **Automaatne**, märgitakse ettemaksuarve automaatselt lõpliku arvega tasakaalustamiseks. Kui väli on seatud olekusse **Teavitus**, kuvatakse lõpliku arve loomisel visuaalne viide, et ettemaksuarve on rakenduse jaoks saadaval.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Ettemaksuarve teavet sisaldava ostutellimuse loomine
-Kui hankija ütleb teile, et nad nõuavad ettemakset ostutellimuses sisalduvate kaupade ja teenuste eest, peate määratlema nendega seotud ostutellimuse ettemakse väärtuse. Avage **Ostureskontro \> Üldine \> Ostutellimus \> Kõik ostutellimused** ja otsige üles hankija ostutellimus. Valige toimingupaanil vahekaart **Ost** ja seejärel valige **Ettemakse**. Sisestage ettemakse teave, sh kirjeldus, ettemakse väärtus, kas ettemakse on fikseeritud summa või protsent ning ettemakse kategooria ID. 
+Kui hankija ütleb teile, et nad nõuavad ettemakset ostutellimuses sisalduvate kaupade ja teenuste eest, peate määratlema nendega seotud ostutellimuse ettemakse väärtuse. Avage **Ostureskontro \> Üldine \> Ostutellimus \> Kõik ostutellimused** ja otsige üles hankija ostutellimus. Tegevuspaanil valige vahekaart **Ost** ja seejärel tehke valik **Ettemaks**. Sisestage ettemakse teave, sh kirjeldus, ettemakse väärtus, kas ettemakse on fikseeritud summa või protsent ning ettemakse kategooria ID. 
 
-Pange tähele, et ostutellimusele pole mitu ettemaksemääratlust lubatud. Kui teil on vaja lubada ostutellimusele mitu ettemakset, sisestage maksed, kasutades ettemaksuarve asemel maksetöölehte.
+> [!Note] 
+> Ostutellimusel pole mitu ettemaksemääratlust lubatud. Kui teil on vaja lubada ostutellimusele mitu ettemakset, sisestage maksed, kasutades ettemaksuarve asemel maksetöölehte.
 
 Ettemakse võib ostutellimuselt eemaldada, kui te ei ole juba makset sisestatud ettemaksuarve suhtes tasakaalustanud või sisestanud standardarve. Ettemakseteabe eemaldamiseks ostutellimusest valige **Ostureskonto \> Üldine \> Ostutellimused \> Kõik ostutellimused** ja otsige üles hankija ostutellimus. Valige toimingupaanil vahekaart **Ost** ja seejärel valige **Eemalda ettemakse**.
 
@@ -79,7 +80,7 @@ Hankija ettemaksuarve kirjendamiseks minge **Hankija arve** lehele, valides suva
 
 Hankija saldot ja ettemaksukontot uuendatakse (tavaliselt debiteeritakse) ettemaksuarve sisestamisel. Uuendatakse ka ostutellimuse ettemakse määratluses sisalduvat **Ettemakse avalduse** väärtust. Sisestatud ettemakse kande finantsdimensiooni vaikekirjed võetakse ostutellimuse päiseteabest.
 
-Kui finantsdimensioonide **lukustamine arve ridadel hankija ettemakse arve funktsioonil on** **funktsioonihalduse lehel sisse lülitatud, ei saa ettemakse päises** dimensioone või ridu värskendada. 
+Kui finantsdimensioonide **lukustamine arve ridadel hankija ettemakse arve funktsioonil on**  **funktsioonihalduse lehel sisse lülitatud, ei saa ettemakse päises** dimensioone või ridu värskendada. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Ettemaksuarve maksete sisestamine ja tasakaalustamine
 Järgmisena makstakse ettemaksuarve **Maksetöölehelt**. Maksetöölehtedele juurdepääsemiseks klõpsake **Ostureskonto \> Töölehted \> Maksed \> Maksetööleht**. Pärast makse tasakaalustuse sisestamist ettemaksuarvele uuendatakse ostutellimuse **Järelejäänud ettemakse avalduse** väärtus.

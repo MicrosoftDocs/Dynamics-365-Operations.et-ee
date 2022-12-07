@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7172dd56113de23d841fe59ed9785471e90ed1f
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: a5ef9aa6b67eb630713dd1f15b2ae49c358edae9
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779605"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804178"
 ---
 # <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide häälestus
 
@@ -32,14 +32,14 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
 
 
 ## <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide seadistamine
-1. Avage sularaha **ja panga > > parameetrite seadistus**.
-2. Klõpsake vahekaardile **Järelndekseeritud tšekid**.
-3. Märkige või tühjendage ruut **Luba järeldindekseeritud** tšekid.
-4. Märkige või tühjendage **ruut Sisesta töölehe kirjed, et sisestada aegunud** tšekid.
+1. Avage sularaha **- ja > halduse > parameetrid**.
+2. Klõpsake vahekaardile **Järelndekseeritud tšekid** .
+3. Märkige või tühjendage ruut **Luba pärast seda aegunud** tšekid.
+4. Märkige või tühjendage **ruut Sisesta töölehe kirjed aegunud tšekkide** jaoks.
 5. Määrake väljal **Kliiringukonto väljastatud** tšekkide jaoks soovitud väärtused.
 6. Määrake väljal **Kliiringukonto vastuvõetud tšekkide** jaoks soovitud väärtused.
 7. Väljale Peatööleht **kliiringukirjete** jaoks tippige väärtus.
-8. Sisestage **väärtus väljale Kandud üle sellele hankija maksetöölehele**.
+8. Sisestage **väärtus väljale Kandud üle sellele hankija maksetöölehele** .
 9. Määrake väljal **Kinnipeetava maksu kliiringukonto** soovitud väärtused.
 10. Klõpsake nuppu **Salvesta**.
 11. Sulgege leht.
@@ -47,18 +47,18 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
 13. Klõpsake valikut **Uus**.
 14. Väljale **Makseviis** sisestage väärtus.
 15. Valige järeldindeeritud **tšekkide tühjendamise sisestamise** suvand, et näidata tšeki summa sisestamist kliiringukontole.
-16. **Väljal Konto tüüp** valige **pank**.
+16.  **Väljal Konto tüüp** valige **pank**.
     * Maksemeetodi vastaskonto on pank.  
-17. **Määrake väljal Maksekonto** soovitud väärtused.
+17.  **Määrake väljal Maksekonto** soovitud väärtused.
     * Valige pangakonto, mida kasutatakse arvesumma mahaarvamiseks.  
 18. Klõpsake nuppu **Salvesta**.
 19. Sulgege leht.
 > [!NOTE]
 > Et saada pärast kuupäevaga dateeritud tšekki pangakontole sisestada, kui seansi kuupäev on tähtajakuupäevast suurem või sellega võrdne, peate lubama funktsiooni **Tähtaja kuupäeva kinnitamise maksetöölehe sisestamisel kuupäevaga dateeritud tšekkide** pangakontole. See funktsioon võimaldab teil sisestada maksetöölehti hankijatele või klientidele, kellel on dateeritud tšekid, kui seansi kuupäev on tähtaja kuupäevast suurem või sellega võrdne.
 > 
-> Makseviisi **seadistamisel** (Ostureskontro **> Makseseadistus >** makseviisid), **ärge täitke bridging-kontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
+> Kui seadistate **makseviisi**  (Ostureskontro **> Makse seadistus >** makseviisid), **ärge täitke bridging-kontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
 >  
-> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse makse töölehe sisestamisel järgmine tõrketeade, mille tähtaeg peab olema seansi kuupäevast väiksem või sellega võrdne, **kui vastaskonto tüüp on Pank**. Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.
+> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse maksetöölehe sisestamisel järgmine tõrketeade, et tähtaja kuupäev peab olema seansi kuupäevast väiksem või sellega võrdne, **kui vastaskonto tüüp on Pank**. Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.
 > See funktsioon on saadaval rakenduses versioonis 10.0.21 ja uuemas.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

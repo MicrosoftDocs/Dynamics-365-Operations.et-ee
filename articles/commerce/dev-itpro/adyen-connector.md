@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 58d88e023b73ce19331bd6f54644a62d8f6f35af
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9784988"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812082"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Dynamics 365 Payment Connector Adyeni jaoks – ülevaade
 
@@ -29,7 +29,7 @@ See artikkel annab Microsoft Dynamics Puhvri 365 Payment Connectori ülevaate Pu
 
 | Mõiste | Kirjeldus |
 |---|---|
-| Makse ülekandmine | Laiend, mis hõlbustab sidet Microsoft Dynamics 365 Commerce (ja seostatud komponente) ja makseteenuse vahel. Selles artiklis kirjeldatud ühendus rakendati standardse maksete tarkvara arenduskomplekti (SDK) abil. |
+| Makse ülekandmine | Laiend, mis hõlbustab sidet Microsoft Dynamics 365 Commerce  (ja seostatud komponente) ja makseteenuse vahel. Selles artiklis kirjeldatud ühendus rakendati standardse maksete tarkvara arenduskomplekti (SDK) abil. |
 | Kaart on olemas | Viitab maksekannetele, kus esitatakse füüsiline kaart ja mida kasutatakse makseterminali ühenduse kaudu Dynamics 365 müügipunktiga. |
 | Kaarti pole | Viitab maksekannetele, kus füüsiline kaart puudub, nt e-äri või kõnekeskuse stsenaariumid. Sellistes stsenaariumides sisestatakse maksega seotud teave käsitsi kas e-äri veebisaidile, Kõnekeskuse voole või müügi- või makseterminali. |
 
@@ -89,7 +89,7 @@ Allolevas loendis kirjeldatakse kassa iga versiooni jaoks toetatud minimaalseid 
 > [!NOTE]
 > Rnen võib välja vabastuse versiooni uuendused pärast seda, kui Microsoft on põhiversiooni testinud. Kuni põhiversiooni toetatakse, on korras, kui samas põhiversioonis on väiksemaid versioonivärskendusi. Need uuendused on tavaliselt väga sihitud parandused ja ei vasta täieliku uuestitestimiseks ribale, kuni sama põhiversiooni on eelnevalt testitud. Uuendused ei tohiks ületada dokumentatsioonis loetletud Omayen lisaversiooni maksimaalset versiooni. 
 >
-> Versioonist 53 varasema versiooni Värskendamiseks versioonist 53 nõuab kassa KB **4577957** commerce’i igakuiste värskenduste jaoks, versioonidest 10.0.11 kuni 10.0.14. Kui üks neist versioonidest on kasutuses ja ei sisalda kiirparandust, lubab makseterminali järeltäiendus makseid ainult NFC kaudu. Kiirparanduse rakendamine kassale lahendab selle probleemi. Kui kassaversioon on vanem kui versioon 10.0.11, siis esitatakse tugitaotlus, kus on esitatud nõue, et teenusest MPOS tuleb 4577957 KB **4577957** parandus.
+> Versioonist 53 varasemast Graneni versioonist versiooni 53 migreerimiseks tuleb commerce’i igakuiste uuenduste jaoks kasutada kassa KB **4577957** versioone 10.0.11 kuni 10.0.14. Kui üks neist versioonidest on kasutuses ja ei sisalda kiirparandust, lubab makseterminali järeltäiendus makseid ainult NFC kaudu. Kiirparanduse rakendamine kassale lahendab selle probleemi. Kui kassaversioon on vanem kui versioon 10.0.11, siis esitatakse tugitaotlus, kus on esitatud nõue, et kb **4577957** jaoks on teenusest väljas MPOS vaja parandust.
 > 
 > Versioonide 59p7 kuni 62p9 puhul taotleb kinkekaardi sularaha väljaminek PIN-kirjet kaks korda stsenaariumides, **kus** kinkekaart sisestatakse käsitsi. Seda probleemi ei taaskuvata, kui kinkekaart on läbi tõmmake. Asendatakse välja. 
 
@@ -140,7 +140,7 @@ Järgmises videos kirjeldatakse Terminen Miles SE1 makseterminali Android võima
 | Discover | Õiguse tasu | ✔ |  |  |
 | Diners   | Standardne | ✔ | ✔ | ✔ |
 | Dinsseažmail | Standardne | ✔ | ✔ | ✔ |
-| Jcb | Standardne | ✔ | ✔ | ✔ |
+| JCB | Standardne | ✔ | ✔ | ✔ |
 | Ametiühingutasu\* | Standardne | ✔ |  |  |
 | Ac deebet\* | Standardne | ✔ |  |  |
 
@@ -280,7 +280,7 @@ Oma kaardi mittekannete puhul toetab Sisestaja järgmisi riike. [Konkreetse riig
 | Taiwan |
 | Tansaania |
 | Tai |
-| Türgi |
+| Selle välja id |
 | Araabia Ühendemiraadid (AÜE) |
 | Ühendkuningriik |
 | Ameerika Ühendriigid, sh Puerto Rico  |

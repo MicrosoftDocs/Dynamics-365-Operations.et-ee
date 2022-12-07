@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1268e619d27a2e400c76bfa45fb932997ec88483
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 56d8f11d1bb53ef580e33ea43c84369c9e7fc0cc
+ms.sourcegitcommit: 0f33f7b7d34d4f9c31ae0faf06a7a5c04b0195a4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675987"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804896"
 ---
 # <a name="purchasing-policies-overview"></a>Ostupoliitikate ülevaade
 
@@ -114,7 +114,7 @@ Taotluse eesmärgi reegel on valikuline reegel, mis määrab konkreetsele juriid
 
 ### <a name="replenishment-category-access-policy-rule"></a>Täiendamise kategooria juurdepääsupoliitika reegel
 
-Täiendamise kategooria juurdepääsupoliitika reegel on valikuline reegel, mis määrab konkreetse juriidilise isiku taotluse nõude täitmiseks saadaolevad tooted, kui taotluse eesmärk on **täiendamine**.
+Täiendamise kategooria juurdepääsupoliitika **reegel on valikuline reegel, mis määrab tooted, mis on konkreetse juriidilise isiku taotluse nõudluse täitmiseks saadaval, kui taotluse eesmärk on varude mine**.
 
 ### <a name="replenishment-control-rule"></a>Täiendamise kontrollreegel
 

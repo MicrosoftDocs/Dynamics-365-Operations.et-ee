@@ -2,7 +2,7 @@
 title: Hankija sisestusreeglid
 description: Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272974"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799595"
 ---
 # <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
@@ -84,7 +84,7 @@ Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadista
 </tr>
 <tr class="even">
 <td><strong>Tasakaalusta konto</strong></td>
-<td>Valige likviidsuse planeerimisel kasutatud pearaamatu likviidsuskonto. See väli on saadaval ainult siis, kui on lubatud likviidsuse planeerimine.</td>
+<td>Valige likviidsuse planeerimisel kasutatud pearaamatu likviidsuskonto. See väli on saadaval ainult siis, kui likviidsuse prognoosimine on lubatud.</td>
 </tr>
 <tr class="odd">
 <td><strong>Käibemaksu ettemaksed</strong></td>
@@ -94,7 +94,7 @@ Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadista
 </tr>
 <tr class="even">
 <td><strong>Saabumine</strong></td>
-<td>Valige pearaamatukonto, kuhu sisestatakse teave kinnitamata hankija arvete kohta. Teave sisestatakse arveregistri töölehele. Näiteks kasutaja sisestab kõige põhilisema teabe hankija arvete kohta, nii nagu need on vastu võetud arveregistrisse. Arveregistri sisestamisel sisestatakse kanded sellele väljale ja väljale <strong>Vastaskonto</strong> sisestatud kontole. Kui arved kinnitatakse, kantakse võlg saabumiskontolt üle hankija summakontole.</td>
+<td>Valige pearaamatukonto, kuhu sisestatakse teave kinnitamata hankija arvete kohta. Teave sisestatakse arveregistri <strong>töölehele</strong>. Näiteks kasutaja sisestab kõige põhilisema teabe hankija arvete kohta, nii nagu need on vastu võetud arveregistrisse. Arveregistri sisestamisel sisestatakse kanded sellele väljale ja väljale <strong>Vastaskonto</strong> sisestatud kontole. Kui arved kinnitatakse, kantakse võlg saabumiskontolt üle hankija summakontole.</td>
 </tr>
 <tr class="odd">
 <td><strong>Vastaskonto</strong></td>
@@ -110,10 +110,10 @@ Valitud sisestusreeglitega kanded määravad, kas kanded tasakaalustatakse autom
 
 Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
-| Väli          | Kirjeldus                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Väli          | Kirjeldus             |
+|----------------|--------------------------------------------------------------------------|
 | **Tasakaalustus** | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see valik eemaldada, tuleb kanded käsitsi tasakaalustada, kasutades lehte **Avatud kannete tasakaalustamine**. |
-| **Tühista**     | Tehke see valik, kui soovite, et saaksite nende sisestusreeglitega kandeid tühistada.                                                                                                               |
+| **Tühista**     | Tehke see valik, kui soovite, et saaksite nende sisestusreeglitega kandeid tühistada.                              |
 | **Sulge**      | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.                                       |
 
 

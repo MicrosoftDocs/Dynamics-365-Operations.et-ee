@@ -1,6 +1,6 @@
 ---
 title: Puhkusetaotluste haldamine Teamsis
-description: See artikkel näitab, kuidas taotleda rakenduses aja mahak web Dynamics 365 Human Resources Microsoft Teams.
+description: See artikkel näitab, kuidas taotleda rakenduses aja mahaaega Dynamics 365 Human Resources  Microsoft Teams.
 author: twheeloc
 ms.date: 12/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 84f1190301e67b49535530f85784561b2e51a2df
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067027"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812155"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -158,7 +158,7 @@ Teamsi rakendus Dynamics 365 Human Resources toetab järgmisi keeli:
 | it-IT | itaalia (Itaalia) |
 | nl-NL | hollandi (Holland) |
 | pt-BR | portugali (Brasiilia) |
-| tr-TR | türgi (Türgi) |
+| tr-TR | Türgi (Jadžik) |
 | zh-CN | Hiina (lihtsustatud) |
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
@@ -219,9 +219,9 @@ Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahe
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Kasutaja tekstisisestuse Dynamics 365 Human Resources Microsoft Teams abil analüüsitakse aluseks olevat päringut/eesmärki mõista. Kasutajasisend, nt Otsingukonto Contoso, suunatakse ühte Microsofti kokuptiivne teenusest Language Understanding Nutikas Teenus (SOFT). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). See teave edastatakse siis [Microsoft'sAzure'i](https://azure.microsoft.com/services/bot-service/) raamistikule, Dynamics 365 Human Resources mis suhtleb andmetega ja toob kasutajapäringu jaoks soovitud teabe. 
+Kasutaja tekstisisestuse Dynamics 365 Human Resources  Microsoft Teams abil analüüsitakse aluseks olevat päringut/eesmärki mõista. Kasutajasisend, nt Otsingukonto Contoso, suunatakse ühte Microsofti kokuptiivne teenusest Language Understanding Nutikas Teenus (SOFT). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). See teave edastatakse siis [Microsoft'sAzure'i](https://azure.microsoft.com/services/bot-service/) raamistikule, Dynamics 365 Human Resources mis suhtleb andmetega ja toob kasutajapäringu jaoks soovitud teabe. 
 
-Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resourcesiga erinev vastavuse tase. Kui AJATEENUSEl Dynamics 365 Human Resources on juurdepääs ainult kasutajapäringutele ja see ei ole loodud ühenduseks kasutaja andmete või kontoga, Dynamics 365 Human Resources võib osa kasutaja ise sisestada kliendiandmeid, isikuandmeid või muid andmeid ja sellist päringu sisu sisaldava päringu, mille saab saataKOOSTE teenusesse ja Azure azure'i raamistikusse. 
+Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resourcesiga erinev vastavuse tase. Kui AJATEENUSEl Dynamics 365 Human Resources on juurdepääs ainult kasutajapäringutele ja see ei ole loodud ühenduseks kasutaja andmete või kontoga, Dynamics 365 Human Resources võib osa kasutaja ise sisestada kliendiandmeid, isikuandmeid või muid andmeid ja sellist päringu sisu sisaldava päringu, mille saab saataKOOSTE teenusesse ja Azure azure’i raamistikusse. 
 
 Kasutaja päringute ja teadete sisu säilitatakse KRÜPTO süsteemi maksimaalselt 30 päevaks, krüptitakse ülejäänud ajal ja seda ei kasutata koolitusel või teenuse täiustamisel. Lisateavet kognitiivsete teenuste kohta leiate [siit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
@@ -231,7 +231,7 @@ Microsoft Teamsi rakenduste administraatori sätete haldamiseks minge [Microsoft
 
 Rakenduse kasutamisel võivad Dynamics 365 Human Resources teatud kliendiandmed Microsoft Teams voogu väljapoole geograafilises piirkonnas, kus teie rentniku Inimressursid teenus juurutatakse.
 
-Dynamics 365 Human Resources edastab töötaja puhkusetaotluse ja töövoo ülesande üksikasjad sündmuste tabelisse Microsoft Azure ja .Microsoft Teams Neid andmeid võidakse säilitada teenuses Microsoft Azure Event Grid kuni 24 tundi ja töödelda Ameerika Ühendriikides, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Dynamics 365 Human Resources edastab töötaja puhkusetaotluse ja töövoo ülesande üksikasjad sündmuste tabelisse Microsoft Azure ja Microsoft Teams. Neid andmeid võidakse säilitada teenuses Microsoft Azure Event Grid kuni 24 tundi ja töödelda Ameerika Ühendriikides, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
 Vestlusrobotiga suhtlemisel rakenduses Human Resources võidakse vestluse sisu teenuses Azure Cosmos DB talletada ja edastada rakendusele Microsoft Teams. Neid andmeid võidakse talletada teenuses Azure Cosmos DB kuni 24 tundi ja töödelda väljaspool geograafilist piirkonda, kus teie rentniku teenus Human Resources on juurutatud, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  

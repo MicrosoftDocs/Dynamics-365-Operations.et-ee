@@ -2,7 +2,7 @@
 title: Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
 description: See artikkel kirjeldab 365 finantsi puhul Microsoft Dynamics tsentraliseeritud maksete tasakaalustamist.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151158"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804222"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
 
@@ -84,11 +84,11 @@ Kontsernisisese tasakaalustusprotsessi käigus loodud skontod sisestatakse kas a
 
 Ülemaksete, alamaksete ja sendierinevuse kõikumised määratakse ülemaksete makse juriidilise isiku põhjal ja alamaksete arve juriidilise isiku põhjal. Kasutatav sisestuskonto määratakse klientide puhul väljaga **Skonto haldamine** lehel **Müügireskontro parameetrid** ja hankijate puhul väljaga **Skonto haldamine** lehel **Ostureskontro parameetrid**.
 
--   Kui skonto haldussäte on Kindel või kui säte on Määramata ja vastav skonto on sisestatud teise ülemakse teise juriidilisse isikusse, kasutatakse kliendi skonto, hankija skonto või arvestusvaluuta sendierinevuste puhul automaatset kontot. Saate määrata need kontod lehel **Automaatsete kannete kontod**.
--   Kui skonto haldusseadistus on Määramata ja skonto sisestatakse ülemaksega samasse juriidilisse isikusse (makse juriidiline isik ja arve juriidiline isik on sama), korrigeeritakse skonto kontot. Nt kui arve 100,00-le koos saadaoleva skontoga 3,00 tasakaalustatakse maksega 98,00, korrigeeritakse skontot 1,00 võrra. Netoallahindlussumma on 2,00.
--   Kui skonto haldusseadistus on Määramata, sisestatakse skonto ülemaksega samasse juriidilisse isikusse ja ülemakse või alamakse tasakaalustatakse mitme arvega skontodega, korrigeeritakse viimase arve skonto kontot.
+-    **Kui** skonto administratsiooni säte on Konkreetne või **kui** säte on Määramata ja rakendatav skonto on sisestatud ülemaksest erinevale juriidilisele isikule, kasutatakse automaatset kontot Kliendi skonto, Hankija skonto või Sendierinevuse jaoks arvestusvaluutas. Saate määrata need kontod lehel **Automaatsete kannete kontod**.
+-    **Kui** skonto administratsiooni säte on Määramata ja skonto sisestatakse ülemaksega samasse juriidilisse isikusse (makse juriidiline isik ja arve juriidiline isik on samad), korrigeeritakse skonto kontot. Nt kui arve 100,00-le koos saadaoleva skontoga 3,00 tasakaalustatakse maksega 98,00, korrigeeritakse skontot 1,00 võrra. Netoallahindlussumma on 2,00.
+-    **Kui** skonto administratsiooni säte on Määramata, sisestatakse skonto ülemaksega samasse juriidilisse isikusse ja üle- või alamakse tasakaalustatakse mitme arvega skontoga, korrigeeritakse viimase arve skontokontot.
 
-Kui skonto haldusvalik on Määramata, rakenduvad määramata tasakaalustusreeglid ainult järgmistel juhtudel.
+Kui skonto administreerimisvalik **on Määramata**, kehtivad määramata makse tasakaalustusreeglid ainult järgmistes olukordades:
 -   Ülemakse.
 -   Ülemakse tasakaalustatakse ühe või rohkema arvega, millel on skonto.
 -   Skonto sisestatakse ülemaksega samasse juriidilisse isikusse.

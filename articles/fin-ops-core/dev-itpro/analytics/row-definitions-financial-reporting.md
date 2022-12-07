@@ -2,7 +2,7 @@
 title: Readefinitsioonid finantsaruande koosturis
 description: Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruandel iga rea sisu.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274689"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802441"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Readefinitsioonid finantsaruande koosturis
 
@@ -30,18 +30,18 @@ Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruande
 
 ## <a name="create-a-row-definition"></a>Readefinitsiooni loomine
 
-1. Klõpsake aruandekoosturis navigeerimispaanil suvandit **Readefinitsioonid**.
-2. Klõpsake menüüs **Fail** valikut **Uus** ja seejärel valikut **Readefinitsioon**. Lisateabe saamiseks iga lahtri sisu kohta vt osa [Readefinitsiooni lahtrite muutmine](modify-row-definition-cells-financial-reporting.md).
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Readefinitsioonid**.
+2. Klõpsake menüü **Fail** käsku Uus **ja** seejärel käsku **Readefinitsioon**. Lisateabe saamiseks iga lahtri sisu kohta vt osa [Readefinitsiooni lahtrite muutmine](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Readefinitsiooni avamine
-1. Klõpsake aruandekoosturis navigeerimispaanil suvandit **Readefinitsioonid**.
+1. Klõpsake navigeerimispaanil aruandekujundajas nuppu **Readefinitsioonid**.
 2. Avamiseks topeltklõpsake readefinitsiooni nime.
 3. Mis tahes readefinitsiooniga seostatud koosteüksuse vaatamiseks paremklõpsake readefinitsiooni ja seejärel valige **Seosed**.
 
 ## <a name="contents-of-a-row-definition"></a> Readefinitsiooni sisu
 Readefinitsioon võib sisaldada kuni 20 000 finantsdimensiooni rida ja võib sisaldada järgmist teavet.
 
-- Kirjeldav tekst, mis lisab aruandele tähenduse, luues jaotise päiseid, ridu ja tühikuid, nt **Sularaha** või **Kogutulu**
+- Kirjeldav tekst, mis lisab aruandele tähenduse jaotise päiste, ridade ja tühikute loomisega, nt **Sularaha või**  **Kogutulu**
 - Lingid finantsandmetele, mis võivad sisaldada dimensiooniväärtusi Microsoft Dynamics 365 Finantsid
 
     > [!NOTE]
@@ -71,10 +71,10 @@ Dimensioon on andmete ja väärtuste ühisosa. Aruandekoosturis saab andmeid ja 
 
 Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
 
-1. Klõpsake aruandekoosturis valikut **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
-2. Klõpsake menüüs **Redigeeri** suvandit **Sisesta read dimensioonidest**.
-3. Valige dialoogiboksist **Ridade lisamine dimensioonidest** real **Dimensioonid** readefinitsiooni teisaldatava dimensiooni lahter ja seejärel klõpsake valikut **Kõik &&&**.
-4. Readefinitsiooni piiramiseks dimensiooniväärtuste kindlasse vahemikku sisestage alguse dimensiooniväärtus lahtrisse **Dimensioonivahemiku algus** ja seejärel sisestage lõpu dimensiooniväärtus lahtrisse **Dimensioonivahemiku lõpp**. Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks.
+1. Aruandekujundajas klõpsake nuppu **Readefinitsioonid** ja avage muutmiseks readefinitsioon.
+2. Klõpsake menüü **Redigeeri** käsku Lisa **dimensioonidest read**.
+3.  **Valige dialoogiboksi Dimensioonidelt ridade** lisamine **reas Dimensioonid reas** readefinitsiooni ülekantava dimensiooni lahter ning klõpsake seejärel nuppu Kõik **&&>**.
+4. Readefinitsiooni **piiramiseks**  **teatud dimensiooniväärtuste vahemikuga sisestage algdimensiooni väärtus dimensioonivahemiku alguslahvi ja seejärel sisestage lõppdimensiooni väärtus dimensioonivahemiku lõpplahvi.**  Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks.
 
     > [!NOTE]
     > Kui dimensioonivahemikes on metamärke (\* ?), ei pruugi te olenevalt sellest, kuidas ERP andmebaas andmeid sordib, kõiki soovitud tulemusi saada.
@@ -94,9 +94,9 @@ Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
 
 Bilansi ümardamise korrigeerimiseks tehke järgmist.
 
-1. Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
-2. Klõpsake menüüs **Redigeeri** suvandit **Ümardusparandus**.
-3. Sisestage dialoogiboksi **Ümardamise korrigeerimised** järgmised väärtused.
+1. Aruandekujundajas klõpsake nuppu **Readefinitsioonid** ja avage muutmiseks readefinitsioon.
+2. Klõpsake menüü **Redigeeri** käsku Ümardamise **korrigeerimine**.
+3. Dialoogiboksis Ümardamise **korrigeerimised** sisestage järgmised väärtused:
 
     - **Ümardamise korrigeerimise rida** – bilansi tasakaalustamiseks korrigeeritava rea reakood.
     - **Koguvarade rida** – bilansis koguvarasid sisaldava rea reakood.
@@ -124,8 +124,8 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 <td><strong>Kirjatüübi loomine</strong></td>
 <td>
 <ol>
-<li>Klõpsake aruande kujundaja menüüs <strong>Vorming </strong>suvandit <strong>Laadid ja vorming</strong>.</li>
-<li>Klõpsake dialoogiboksis <strong>Laadid ja vormindamine</strong> suvandit <strong>Uus</strong> ning seejärel sisestage uuele laadile kordumatu nimi.</li>
+<li>Klõpsake aruandekujundaja menüü Vorming <strong>käsku</strong> Laadid <strong>ja vorming</strong>.</li>
+<li>Klõpsake dialoogiboksis <strong>Laadid ja</strong> vormindamine nuppu <strong>Uus</strong> ja sisestage uue laadi jaoks kordumatu nimi.</li>
 <li>Tehke fondivalikud ja seejärel klõpsake suvandit <strong>OK</strong>.</li>
 </ol>
 </td>
@@ -134,8 +134,8 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 <td><strong>Fondi laadi muutmine</strong></td>
 <td>
 <ol>
-<li>Klõpsake aruande kujundaja menüüs <strong>Vorming </strong>suvandit <strong>Laadid ja vorming</strong>.</li>
-<li>Valige muudetav laad dialoogiboksist <strong>Laadid ja vormindamine</strong> ja klõpsake seejärel suvandit <strong>Muuda</strong>.</li>
+<li>Klõpsake aruandekujundaja menüü Vorming <strong>käsku</strong> Laadid <strong>ja vorming</strong>.</li>
+<li>Valige laadid <strong>ja vormindamise</strong> dialoogiboksis laadid, mida soovite muuta ja seejärel klõpsake käsku <strong>Muuda</strong>.</li>
 <li>Tehke fondivalikud ja seejärel klõpsake suvandit <strong>OK</strong>.</li>
 </ol>
 </td>
@@ -144,7 +144,7 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 <td><strong>Kirjatüübi rakendamine</strong></td>
 <td>
 <ol>
-<li>Valige aruandekoosturi definitsioonis või veeru definitsioonis või päistes ja jalustes vähemalt üks lahter.</li>
+<li>Valige aruandekujundajas, definitsioonis või veeru definitsioonis või päistes ja jaluses üks või mitu lahtrit.</li>
 <li>Valige tööriistaribal olevast loendist <strong>Laad</strong> fondi laad.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 
 Readefinitsioonis määratud vorming alistab veeru- ja aruande definitsioonis määratud vormingu. Saate tekstivormingut muuta, kasutades vormindamise tööriistariba nuppe. Tegemist on Microsoft Windowsi standardsete juhtelementidega.
 
-1. Avage aruandekoosturis muudetav readefinitsioon.
+1. Avage aruandekujundajas readefinitsiooni muutmiseks.
 2. Valige vormindatavad lahtrid. Mitme lahtri valimiseks hoidke lahtri valimisel all klahvi Ctrl.
-3. Vormingu rakendamiseks klõpsake tööriistariba nuppu. Näiteks rea taandamiseks valige rida ja seejärel klõpsake tööriistariba ikooni **Suurenda taanet** ![Suurenda taanet.](media/indent.gif "Suurenda taanet") tööriistaribal.
+3. Vormingu rakendamiseks klõpsake tööriistariba nuppu. Näiteks rea taandamiseks valige rida ja klõpsake seejärel nuppu Suurenda **taanet** ![Suurenda taanet.](media/indent.gif "Suurenda taanet") tööriistaribal.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Veergude korrigeerimine aruannete kujundamisel
 
@@ -166,19 +166,19 @@ Nende veergude vaatamise lihtsustamiseks, mille kallal readefinitsioonis tööta
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Veeru laiuse muutmine vaatepaanil
 
-1. Avage aruande kujundajas muudetav readefinitsioon.
-2. Valige menüüs **Vorming** suvand **Veeru laius**.
-3. Sisestage dialoogiboksi **Veeru laius** väärtus ja klõpsake siis nuppu **OK**. Teine võimalus on lohistada veeru laiuse muutmiseks veeru päise lahtri paremat äärt.
+1. Avage aruandekujundajas readefinitsiooni muutmiseks.
+2. Valige menüü **Vorming** käsk **Veeru laius**.
+3. Dialoogiboksis Veeru **laius** sisestage väärtus ja seejärel klõpsake **OK**. Teine võimalus on lohistada veeru laiuse muutmiseks veeru päise lahtri paremat äärt.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Veergude peitmine vaatepaanil
 
-1. Avage aruande kujundajas muudetav readefinitsioon.
+1. Avage aruandekujundajas readefinitsiooni muutmiseks.
 2. Valige minimeeritav(ad) veerg (veerud).
 3. Paremklõpsake ja seejärel klõpsake suvandit **Peida**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Kõikide peidetud veergude kuvamine vaatepaanil
 
-1. Avage aruande kujundajas muudetav readefinitsioon.
+1. Avage aruandekujundajas readefinitsiooni muutmiseks.
 2. Paremklõpsake kuvatavat minimeeritud veergu ja klõpsake seejärel valikut **Kuva**.
 
 

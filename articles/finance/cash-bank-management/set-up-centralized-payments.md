@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715636"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804043"
 ---
 # <a name="set-up-centralized-payments"></a>Tsentraliseeritud maksete seadistamine
 
@@ -34,7 +34,10 @@ Järgige neid juhiseid, et ühes juriidilises isikus teiste organisatsiooni juri
 -   Kontsernisisese raamatupidamise seadistamine.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Organisatsiooni hierarhia seadistamine tsentraliseeritud maksetele
-Peate seadistama organisatsiooni hierarhia tsentraliseeritud maksetele. Sama organisatsiooni hierarhiat kasutatakse tsentraliseeritud tarnijamaksete ja tsentraliseeritud kliendimaksete töötlemiseks. **Märkus.** Tsentraliseeritud maksete puhul pole hierarhia struktuur oluline. Mis tahes hierarhia juriidiline isik saab hierarhias mõne muu juriidilise isiku nimel makseid töödelda. Lehel **Organisatsiooni hierarhiad** saate luua uue organisatsiooni hierarhia. Väljalt **Eesmärk** tuleb valida **Tsentraliseeritud maksed**. 
+Peate seadistama organisatsiooni hierarhia tsentraliseeritud maksetele. Sama organisatsiooni hierarhiat kasutatakse tsentraliseeritud tarnijamaksete ja tsentraliseeritud kliendimaksete töötlemiseks. 
+
+>[!Note] 
+>Tsentraliseeritud maksete puhul pole hierarhia struktuur oluline. Mis tahes hierarhia juriidiline isik saab hierarhias mõne muu juriidilise isiku nimel makseid töödelda. Lehel **Organisatsiooni hierarhiad** saate luua uue organisatsiooni hierarhia. Väljalt **Eesmärk** tuleb valida **Tsentraliseeritud maksed**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Kontsernisisese konto seadistamine tsentraliseeritud makseteks
 Kui praeguse juriidilise isiku maksekanded on teiste juriidiliste isikute arvetega tasakaalustatud, luuakse igale juriidilisele isikule sobivad võlakanded. Peate täpsustama juriidilise isiku, kus iga rakenduva skonto ja iga realiseeritud kasumi või kahjumi summad sisestatakse. Enne alustamist otsustage, millist juriidilist isikut hankija ja kliendi maksete töötlemiseks kasutatakse. Kui üks juriidiline isik töötleb hankija makseid, kuid teine juriidiline isik töötleb kliendi makseid, peate igale juriidilisele isikule lülituma. Lehel **Kontserni raamatupidamine** saate valida kontsernisisese seose kirje juriidilisele isikule, kelle nimel makseid töötlete. 
