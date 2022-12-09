@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715421"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804014"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Olekuga Tühi tšekkide loomine
 
@@ -35,7 +35,7 @@ Lehel **Tšekid** saate teha tšekkide hooldustoiminguid. Näiteks saate luua uu
 
 Lehe **Tšekid** avamiseks avage **Sularaha- ja pangahaldus \> Pangakontod \> Pangakontod** ning valige Tegumiribal vahekaardil **Maksete haldamine** grupis **Seostuv teave** üksus **Tšekid**. Teise variandina võite avada **Sularaha- ja pangahaldus \> Päringud ja aruanded \> Tšekid**.
 
-Seejärel valige olekuga **Tühi** tšeki loomiseks tegumiribal **Tühjade tšekkide loomine**. Kui süsteem loob tühja tšekki, on seotud pangakonto ajutiselt inaktiveeritud. See käitumismudel vähendab ohtu, et makse luuakse samaaegselt tühja tšeki loomisega. Kui töötlemine on lõpule viidud, aktiveeritakse seotud pangakonto uuesti.
+Seejärel valige olekuga **Tühi** tšekkide loomiseks toimingupaanil **Tühjade tšekkide loomine**. Ajal, mil tühje tšekke luuakse, on seotud pangakonto ajutiselt inaktiveeritud. See käitumismudel vähendab ohtu, et makse luuakse samaaegselt tühja tšeki loomisega. Kui töötlemine on lõpule viidud, aktiveeritakse seotud pangakonto uuesti.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

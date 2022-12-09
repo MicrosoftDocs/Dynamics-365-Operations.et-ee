@@ -1010,8 +1010,24 @@
                   href: manage-robots-txt-files.md
                 - name: URL-i ümbersuunamiste hulgiüleslaadimine
                   href: upload-bulk-redirects.md
-                - name: Jaekaubandusrentniku häälestamine Commerce'is
-                  href: set-up-B2C-tenant.md
+                - name: Jaerentniku häälestamine Commerce’is
+                  items:
+                    - name: Jaerentniku häälestamine
+                      href: set-up-B2C-tenant.md
+                    - name: Olemasoleva Azure AD jaerentniku loomine või linkimine
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Jaerakenduse loomine
+                      href: create-b2c-app.md
+                    - name: Kasutajavoo poliitikate loomine
+                      href: create-user-flow-policies.md
+                    - name: Suhtlusvõrkude identiteedipakkujate lisamine
+                      href: add-social-identity-providers.md
+                    - name: Commerce Headquartersi värskendamine Azure AD jaekaubanduslahenduste teabega
+                      href: update-hq-aad-b2c-info.md
+                    - name: Jaerentniku konfigureerimine saidikoosturis
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Jaekaubanduslahenduste lisateave
+                      href: additional-b2c-info.md
                 - name: Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
                   href: custom-pages-user-logins.md
                 - name: Identiteedikirjete ja kliendikontode automaatse linkimise lubamine
@@ -1570,6 +1586,8 @@
               items:
                 - name: QR-koodide loomine ja nende printimine kviitungitele Saudi Araabia jaoks
                   href: localizations/emea-sau-qr-code.md
+                - name: Lihtsustatud elektrooniliste arvete loomine ja esitamine Saudi Araabia jaoks
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Võrgutellimuste maksud on valesti arvutatud
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Vaikemakseteenusega seotud tellimuse sünkroonimise tõrge
+                - name: Asünkroonse tellimuse sünkroonimise probleemid
                   href: troubleshoot/synchronization-error.md
             - name: Maksete töötlemine
               items:

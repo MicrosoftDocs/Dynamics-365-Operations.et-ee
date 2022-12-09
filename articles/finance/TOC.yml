@@ -1606,11 +1606,13 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arvelduse kasutamise alustamine Poolas
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
+                        - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias – esimene etapp
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias – teine etapp
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arvelduse kasutuselevõtt Saudi Araabias
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
-                        - name: Itaalia SDI-ga FatturaPA otseintegratsiooni seadistamine
+                        - name: Itaalia SDI-ga FatturaPA otseintegratsiooni häälestamine
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
