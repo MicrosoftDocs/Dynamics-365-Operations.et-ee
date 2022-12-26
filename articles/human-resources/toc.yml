@@ -30,9 +30,11 @@
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (ühendatud taristu)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Mis on uut rakenduses Dynamics 365 Human Resources (iseseisvalt)?
+                - name: Mis on uut rakenduses Dynamics 365 Human Resources (autonoomne versioon)?
                   items:
-                    - name: Mis on uut rakenduse Dynamics 365 Human Resources (iseseisvalt) arhiivides 2021?
+                    - name: Mis on uut rakenduses Dynamics 365 Human Resources (autonoomne versioon) detsembris 2022?
+                      href: hr-whats-new-2022-12-12.md
+                    - name: Mis on uut rakenduse Dynamics 365 Human Resources (autonoomne versioon) arhiivides 2021?
                       href: hr-admin-whats-new.md
                     - name: 29. november 2021
                       href: hr-whats-new-2021-11-29.md
@@ -102,17 +104,19 @@
                   href: hr-admin-integration-choose-technology.md
                 - name: Ahendamise KKK
                   href: hr-admin-integration-throttling-faq.md
-                - name: Dataverse'i integratsiooni konfigureerimine
+                - name: Dataverse’iga integreerimise konfigureerimine
                   href: hr-admin-integration-common-data-service.md
                 - name: Dataverse'i tabelid
                   href: hr-developer-entities.md
                 - name: Dataverse’i virtuaalsete tabelite konfigureerimine
                   href: hr-admin-integration-common-data-service-virtual-entities.md
-                - name: Human Resources’i virtuaalsete tabelite KKK
+                - name: Rakenduse Human Resources virtuaalsete tabelite KKK
                   href: hr-admin-virtual-entity-faq.md
-                - name: Integratsiooni konfigureerimine Finance’iga
+                - name: Dataverse’iga integreerimise konfigureerimine
+                  href: hr-dataverse-integration.md
+                - name: Finance’iga integreerimise konfigureerimine
                   href: hr-admin-integration-finance.md
-                - name: Integratsiooni konfigureerimine Dayforce’iga
+                - name: Dayforce’iga integreerimise konfigureerimine
                   href: hr-admin-integration-dayforce.md
                 - name: Korduvate andmete ekspordi rakenduse loomine
                   href: hr-admin-integration-recurring-data-export.md
@@ -530,7 +534,7 @@
                       href: ../human-resources/hr-personnel-set-up-positions.md
                     - name: Kandidaatide palkamine värbamise kaudu
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                    - name: Olemasolevate töövõtjate palkamine värbamise kaudu
+                    - name: Olemasoleva töövõtja palkamine värbamise kaudu
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                     - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
                       href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
@@ -848,17 +852,17 @@
           items:
             - name: Andmete integratsioonitehnoloogia valimine
               href: hr-admin-integration-choose-technology.md
-            - name: Dataverse’i integratsiooni konfigureerimine
+            - name: Dataverse’iga integreerimise konfigureerimine
               href: hr-admin-integration-common-data-service.md
             - name: Dataverse’i virtuaalsete tabelite konfigureerimine
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Virtuaalsete tabelite integratsioonide turve
               href: hr-security-config.md
-            - name: Integratsiooni konfigureerimine Finance’iga
+            - name: Finance’iga integreerimise konfigureerimine
               href: hr-admin-integration-finance.md
             - name: Linkide loomine rakendusest Human Resources teise keskkonda
               href: configure-links.md
-            - name: Integratsiooni konfigureerimine Dayforce’iga
+            - name: Dayforce’iga integreerimise konfigureerimine
               href: hr-admin-integration-dayforce.md
             - name: Korduvate andmete ekspordi rakenduse loomine
               href: hr-admin-integration-recurring-data-export.md
@@ -876,7 +880,7 @@
           items:
             - name: Dataverse’i virtuaalsete tabelite päringute optimeerimine
               href: hr-developer-optimize-virtual-table-queries.md
-            - name: Human Resources’i virtuaalsete tabelite KKK
+            - name: Rakenduse Human Resources virtuaalsete tabelite KKK
               href: hr-admin-virtual-entity-faq.md
         - name: Üksuse API viide
           items:

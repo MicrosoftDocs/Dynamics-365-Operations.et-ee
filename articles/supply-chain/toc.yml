@@ -1809,6 +1809,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Tootmise planeerimine
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Praagi häälestamine toormaterjali nõuete arvutamiseks
+                  href: master-planning/scrap-calculations.md
                 - name: Piiratud kõlblikkusajaga toodete koondplaneerimine
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Piiramatu võimsusega planeerimine
@@ -2355,11 +2357,11 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Väljastatud toote loomine ühe ettevõtte jaoks
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Andmeüksuste kasutamine
+                - name: Toote andmeüksused
                   href: pim/data-entities.md
                 - name: Toote töötsükli olek
                   items:
-                    - name: Toote elutsükliolekute ülevaade
+                    - name: Toote töötsükli oleku ülevaade
                       href: pim/product-lifecycle.md
                     - name: Toote töötsükli uue oleku loomine
                       href: pim/tasks/new-product-lifecycle-state.md

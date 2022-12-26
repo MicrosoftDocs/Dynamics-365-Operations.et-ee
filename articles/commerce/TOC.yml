@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: Microsoft Clarity häälestamine Dynamics 365 Commerce’is
               href: set-up-clarity.md
+            - name: Tegevusülevaadete häälestamine
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Globalization Studio ülevaade
@@ -3056,6 +3058,12 @@
               items:
                 - name: E-kaubanduse arenduskeskkonna häälestamine 1. järgu Retail Serveri VM suhtes silumiseks
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Kaupluse rahandus
+              items:
+                - name: Probleemid Z-aruande andmete vastavusseviimisega
+                  href: troubleshoot/z-report-issues.md
+                - name: Väljavõtte sisestamise tõrked mittesaadaolevate varude või värskenduskonfliktide tõttu
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Finants- ja äritoimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

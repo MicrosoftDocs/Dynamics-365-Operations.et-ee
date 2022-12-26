@@ -1,200 +1,169 @@
 ---
 title: Aastalõpu tegevuste KKK
-description: Selles artiklis esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul.
+description: Selles artiklis käsitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata rahandusaasta sulgemise tegevuste korral.
 author: moaamer
-ms.date: 11/08/2022
+ms.date: 12/01/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 2e33c1dcbfa4da74f2e8acc6e29f04fda3abd185
+ms.sourcegitcommit: 9f3a60a583da21382a14f32ce146fc9ce03f2a09
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752744"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9853036"
 ---
 # <a name="year-end-activities-faq"></a>Aastalõpu tegevuste KKK 
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul. Selle artikli teave keskendub põhiliselt pearaamatu ja ostureskontro rahandusaasta sulgemistegevustele.
+Selles artiklis käsitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata rahandusaasta sulgemise tegevuste puhul. Selle artikli teave keskendub põhiliselt pearaamatu ja ostureskontro rahandusaasta sulgemise tegevustele.
 
-## <a name="general-ledger-year-end-enhancements"></a>Pearaamatu aastalõpu täiustused 
-Versioonis 10.0.20 avaldati aastalõpu sulgemise täiustus, mis lubatakse vaikimisi alates versioonist 10.0.25. Kui teie organisatsioon kasutab varasemat versiooni kui 10.0.25, soovitame lubada selle funktsiooni enne aastalõpu sulgemistoimingute alustamist. Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada funktsioonihalduse tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+## <a name="general-ledger-year-end-enhancements"></a>Pearaamatu aastalõpu täiustused
 
- - Moodul: Pearaamat
- - Funktsiooni nimi: Pearaamatu aastalõpu täiustused
+Microsoft Dynamics 365 Finance’i versioonis 10.0.20 võeti kasutusele aastalõpu sulgemise täiustus. See täiustus on vaikimisi lubatud alates versioonist 10.0.25 ja kohustuslik alates versioonist 10.0.29. Kui teie organisatsioon kasutab varasemat versiooni kui 10.0.25, soovitame lubada selle funktsiooni enne aastalõpu sulgemistoimingute alustamist. Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
 
-Rahandusaasta sulgemise mallide seadistamine on viidud uuele seadistuslehele **Aastalõpu sulgemise malli seadistus**. Olemasolev aastalõpu sulgemise leht muutub sarnaselt pearaamatu välisvaluuta ümberarvutamisega, kus loendit kuvatakse iga kord, kui aastalõpu sulgemist käitatakse või tagasi võetakse. Raamatupidaja saab käivitada aastalõpu sulgemise uuelt lehelt. 
+- **Moodul:** Pearaamat
+- **Funktsiooni nimi:** Pearaamatu aastalõpu täiustused
 
-Aastalõpu sulgemise tagasivõtmiseks valige vastava juriidilise isiku kõige hiljutisem rahandusaasta ja valige nupp **Aastalõpu sulgemise tagasivõtmine**. Tagasivõtmine kustutab eelmise aastalõpu sulgemise raamatupidamiskirjed ja ei käivita aastalõpu sulgemist automaatselt uuesti. 
+Rahandusaasta sulgemise mallide häälestamine on viidud uuele häälestuslehele **Aastalõpu sulgemise malli häälestus**. Olemasolev aastalõpu sulgemise leht muutub sarnaseks **pearaamatu välisvaluuta ümberarvutamise** lehega, kus kuvatakse loend iga kord, kui aastalõpu sulgemine käivitatakse või tühistatakse. Lehel ei kuvata ajaloolist teavet aastalõpu sulgemiste kohta, mis tehti enne funktsiooni lubamist. Raamatupidaja saab käivitada aastalõpu sulgemise uuelt lehelt.
 
-Saate käivitada aastalõpu sulgemise uuesti, taaskäivitades finantsaasta ja juriidilise isiku protsessi. Protsess jätkab pearaamatu parameetri sätte kasutamist määramaks, kas aastalõpu sulgemise uuesti käivitamine arvestab ainult uusi või muudetud kandeid või võtab eelmise sulgemise täielikult tagasi, käivitades protsessi kõigi kannete jaoks uuesti.  
+Aastalõpu sulgemise tagasivõtmiseks valige vastava juriidilise isiku kõige hiljutisem finantsaasta ja seejärel valige **Aastalõpu sulgemise tühistamine**. Tagasivõtmine kustutab eelmise aastalõpu sulgemise raamatupidamiskirjed ega käivita aastalõpu sulgemist automaatselt uuesti. Kui lubate funktsiooni **Pearaamatu aastalõpu täiustused** pärast aastalõpu sulgemist ja soovite ajaloolised aastalõpu tulemused tühistada, käivitage ajalooline aastalõpu sulgemine uuesti pärast seda, kui olete lubanud pearaamatu parameetri **Olemasolevate aastalõpu kirjete kustutamine aasta uuesti sulgemisel**.
 
-## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Pearaamat: kuidas ma tean, et me teeme aastalõpu sulgemise käivitamise ja mitte tagasivõtmise?
-Olen näinud, kuidas organisatsioon proovib aastalõpu sulgemist käivitada, kuid teeb selle asemel aastalõpu sulgemise tagasivõtmise. Kui aastalõpu sulgemine jõuab liiga kiiresti lõpule või aastalõpu sulgemine ei tekita algsaldosid, kontrollige sätet **Eelmise sulgemise tagasivõtmine** jaotises **Aastalõpu sulgemine** (**Pearaamat > Perioodi sulgemine > Aastalõpu sulgemine > Rahandusaasta sulgemise käivitamine**). 
+Aastalõpu sulgemise uuesti käivitamiseks taaskäivitage see protsess finantsaasta ja juriidilise isiku jaoks. Protsess jätkab pearaamatu parameetri sätte kasutamist määramaks, kas aastalõpu sulgemise uuesti käivitamine võtab arvesse ainult uusi või muudetud kandeid või kas see protsess käivitatakse uuesti kõigi kannete jaoks ja võtab seega eelmise sulgemise täielikult tagasi.
 
-[![Aastalõpu sulgemise käivitamine vs aastalõpu sulgemise tagasivõtmine.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+## <a name="general-ledger-the-general-ledger-year-end-enhancements-feature-is-enabled-why-cant-i-view-my-previous-year-closings-in-the-history-section-of-the-year-end-close-page"></a>Pearaamat: pearaamatu aastalõpu täiustuste funktsioon on lubatud. Miks ei saa ma vaadata oma eelmise aasta sulgemisi aastalõpu sulgemise lehe jaotises Ajalugu?
 
-Kui valik **Eelmise sulgemise tagasivõtmine** on määratud olekusse **Jah**, siis eelmine aastalõpu sulgemine tühistatakse. Tagasivõtmise käivitamisel kustutatakse kõik sulgemissaldo ja algsaldo kirjed, justkui aastalõpu sulgemist ei oleks kunagi käivitatud. Kanded kustutatakse. Aastalõpu sulgemist ei käivitata automaatselt uuesti. Peate ise protsessi uuesti käivitama, määrates valiku **Eelmise sulgemise tagasivõtmine** olekuks nüüd **Ei**. 
+Enne funktsiooni **Pearaamatu aastalõpu täiustused** lubamist jälgitakse viimase aastalõpu sulgemisprotsessi käituse kuupäeva ja kellaaega. See funktsioon ei jälginud iga aastalõpu sulgemise käitamise ajalugu. Seetõttu pole iga aastalõpu sulgemise käituse üksikasjad kuvamiseks saadaval. Pärast funktsiooni lubamist säilitatakse järgneva aastalõpu sulgemise protsessi teave. Kõigi aastalõpu sulgemisprotsesside kandeid, isegi neid, mis käitati enne funktsiooni lubamist, saab vaadata lehel **Pearaamatu kanded**. 
+
+## <a name="general-ledger-the-year-end-close-process-is-failing-because-of-the-following-error-the-year-end-close-cant-be-run-because-one-or-more-ledger-transactions-posted-into-the-fiscal-year-that-you-are-closing-were-settled-to-a-ledger-transaction-in-a-different-fiscal-year-what-does-this-error-mean"></a>Pearaamat: aastalõpu sulgemisprotsess nurjub järgmise tõrke tõttu: „Aastalõpu sulgemist ei saa käivitada, kuna üks või mitu pearaamatu tehingut, mis on sisestatud teie suletavasse finantsaastasse, arveldati pearaamatu tehinguga erineval finantsaastal.“ Mida see tõrge tähendab?
+
+Kuna funktsioon **Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel** on lubatud, jäetakse algsaldost välja ainult suletava finantsaasta tasakaalustatud pearaamatukanne. Sellise käitumise tõttu on deebet ja kreedit tasakaalust väljas. Lisateavet leiate artiklist [Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel](awareness-between-ledger-settlement-year-end-close.md).
+
+## <a name="general-ledger-reversal-of-the-year-end-close-process-is-failing-because-of-the-following-error-the-year-end-close-for-112022-cant-be-reversed-because-beginning-balance-transaction-have-been-ledger-settled-in-fiscal-year-112023-what-does-this-error-mean"></a>Pearaamat: aastalõpu sulgemisprotsessi tühistamine nurjub järgmise tõrke tõttu: „Aastalõpu sulgemist ei saa 1/1/2022 puhul tühistada, kuna algsaldo kanded on finantsaastal 1/1/2023 pearaamatus tasakaalustatud.“ Mida see tõrge tähendab?
+
+Kuna funktsioon **Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel** on lubatud, pole aastalõpu töötlemise tühistamine lubatud juhul, kui avamiskanded on tasakaalustatud uuel finantsaastal. Enne 1. jaanuari 2022 aastalõpu sulgemist tühistage pearaamatu tasakaalustus uuel finantsaastal 2023. Teise võimalusena sulgege aasta 1. jaanuari 2022 seisuga uuesti, kuid ainult uute korrigeerimiskirjete jaoks. Aasta uuesti sulgemiseks ainult korrigeerimiste jaoks keelake pearaamat parameeter **Olemasolevate aastalõpu kirjete kustutamine aasta uuesti sulgemisel**.
+
+## <a name="general-ledger-why-isnt-the-ledger-settlement-automation-processing-decembers-ledger-settlement-transactions"></a>Pearaamat: miks ei töötle pearaamatu tasakaalustamise automaatika detsembri pearaamatu tasakaalustuskandeid?
+
+Funktsioon **Pearaamatu tasakaalustuste automatiseerimine** käivitab automatiseerimise selliste kannete jaoks, mille kuupäev on vahemikus finantsaasta esimesest päevast kuni selle toimingu tegemise päevani. 31. detsembril lõppeva finantsaasta korral on võimalik, et peate toimingu teostamise kuupäeva ise korrigeerima, tagamaks, et see käivitatakse detsembris. Automatiseerimine on häälestatud käivituma näiteks iga kuu esimesel päeval. Sel juhul käivitatakse automaatika 1. detsembril 2022 ja on seejärel ajastatud käivituma 1. jaanuaril 2023. Soovitame 1. jaanuari 2023 käivituskorra ära vahetada nii, et automaatika käivitatakse hoopis 31. detsembril 2022. See muudatus tagab, et 2. detsembrist kuni 31. detsembrini tehtud kanded võetakse automaatseks tasakaalustamiseks arvesse.
+
+## <a name="general-ledger-whats-the-difference-between-the-reverse-year-end-close-action-and-the-delete-existing-year-end-entries-when-reclosing-parameter-for-year-end-close"></a>Pearaamat: mis vahe on aastalõpu tühistamise toimingul ja olemasolevate aastalõpu kirjete uuesti sulgemise parameetril aastalõpu sulgemise jaoks?
+
+Kasutajates võib tekitada segadust ja küsimusi see, mille poolest erinevad omavahel toiming **Aastalõpu sulgemise tühistamine** ja pearaamatu parameeter **Olemasolevate aastalõpu kirjete kustutamine aasta uuesti sulgemisel** (**Pearaamat \> Pearaamatu seadistamine \> Üldised pearaamatu parameetrid**).
+
+Aastalõpu sulgemise protsessi käivitamisel valige toiming **Aastalõpu sulgemise tühistamine**, kui soovite kustutada kõik sulgemissaldo ja algsaldo kirjed nii, nagu poleks aastalõpu sulgemist üldse käivitatud. Sel juhul kanded kustutatakse. Aastalõpu sulgemist ei käivitata automaatselt uuesti. Aastalõpu sulgemise käivitamiseks valige toiming **Aastalõpu sulgemise käivitamine**.
+
+Pearaamatu parameetrit **Olemasolevate aastalõpu kirjete kustutamine aasta uuesti sulgemisel** kasutatakse üksnes juhul, kui käivitate (mitte ei tühista) aastalõpu sulgemise. Kui parameetri olekuks on määratud **Jah**, kustutatakse kõik sulgemissaldo ja algsaldo kirjed ning aastalõpu sulgemine käivitatakse uuesti. Seda varianti kasutatakse siis, kui organisatsioon soovib sisestada kõik kanded (sh pärast eelmist aastalõpu sulgemist tehtud korrigeerimised) sulgemissaldo ja algsaldo kirjete ühte raamatupidamise kirjesse. Kui parameetri olekuks on määratud **Ei**, jäävad kõik sulgemissaldo ja algsaldo kirjed alles. Neid ei kustutata. Selle asemel luuakse uus sulgemissaldo ja algsaldo kirje ainult delta- või uute kannete jaoks, mis on sisestatud pärast selle finantsaasta viimast aastalõpu sulgemist.
 
 > [!NOTE]
-> Sulgemissaldo kirje luuakse suletavas aastas valikuliselt. See juhtub ainult siis, kui pearaamatu parameeter **Sulgemiskannete loomine ülekande ajal** on määratud olekusse **Jah**. Algsaldo kirje luuakse alati, kuna see on järgmise aasta algne saldo.  
- 
-## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Pearaamat: mille poolest erinevad pearaamatu aastalõpu sulgemise parameetrid Tagasivõtmine ja Kustutamine?
-Parameetri **Eelmise sulgemise tagasivõtmine**, mis asub dialoogiboksis **Aastalõpu sulgemine**, ja pearaamatus asuva parameetri **Aasta lõpetamise kannete kustutamine ülekandmisel** (**Pearaamat > Perioodi sulgemine > Aastalõpu sulgemine > Rahandusaasta sulgemise käivitamine**) eristamine võib tekitada segadust.  
+> Sulgemissaldo kirje luuakse suletavas aastas. See juhtub ainult siis, kui pearaamatu parameeter **Sulgemiskannete loomine ülekande ajal** on määratud olekusse **Jah**. Algsaldo kirje luuakse alati, kuna see on järgmise aasta algne saldo.
 
-[![Pearaamatu aastalõpu sulgemise parameetrite Tagasivõtmine ja Kustutamine erinevus.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+## <a name="general-ledger-what-is-the-difference-between-close-all-and-close-single-options-on-the-transfer-profit-and-loss-dimension-section-of-the-year-end-close-process"></a>Pearaamat: mis vahe on aastalõpu sulgemisprotsessi jaotises „Kasumi ja kahjumi dimensioonide ülekandmine“ käskudel „Sule kõik“ ja „Sule üksik“?
 
-Aastalõpu sulgemise protsessi käivitamisel valige rippdialoogis **Eelmise sulgemise tagasivõtmine**, et kustutada kõik sulgemissaldo ja algsaldo kirjed, justkui aastalõpu sulgemist poleks käivitatud. Kanded kustutatakse. Aastalõpu sulgemist ei käivitata automaatselt uuesti. Aastalõpu sulgemise käivitamiseks peate selle protsessi uuesti algatama, määrates valiku **Eelmise sulgemise tagasivõtmine** olekuks nüüd **Ei** (**Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid**). 
+Käsk **Sule kõik** säilitab algsed finantsdimensiooni väärtused sisestatud kannetest ja kasutab neid jaotamata kasumi konto jaoks algsaldode loomiseks. Iga unikaalse finantsdimensiooni väärtuste unikaalse kombinatsiooni jaoks luuakse eraldi jaotamata kasumi algsaldod. Valiku **Sule üksik** tegemisel võetakse kõik selle finantsdimensiooniga sisestatud kanded kokku jaotamata kasumi algsaldosse valiku **Sule üksik** tegemise järel kuvatavale väljale sisestatud dimensiooniväärtuse jaoks. 
 
-[![Pearaamatu parameetri seadistamine.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+Oletagem näiteks, et kõik finantsaasta kanded sisestati kontostruktuuriga Põhikonto – osakond. Malli finantsdimensioonis Osakond valitakse variant **Sule üksik** ja dimensiooniväärtusena sisestatakse 100. Kui kõigi osakondadesse 200, 300 ja 400 sisestatud kannete kogutulu on 100 000 dollarit, luuakse jaotamata kasumi jaoks üks algsaldo – 100. Kui teete valiku **Sule üksik** ja jätate finantsdimensiooni väärtuse tühjaks, sisestatakse kõik kanded jaotamata kasumisse nii, et dimensiooni väärtus jääb tühjaks.
 
-Pearaamatu parameetrit **Aasta lõpetamise kannete kustutamine ülekandmisel** kasutatakse ainult siis, kui käivitatakse (mitte ei võeta tagasi) aastalõpu sulgemine (valiku **Eelmise sulgemise tagasivõtmine** on määratud olekusse **Ei**). Kui selle parameetri olekuks on määratud **Jah**, kustutatakse kõik sulgemissaldo ja algsaldo kirjed ning aastalõpu sulgemine käivitatakse uuesti. Seda protsessi kasutatakse siis, kui organisatsioon soovib sisestada kõik kanded (sh pärast eelmist aastalõpu sulgemist tehtud korrigeerimised) sulgemissaldo ja algsaldo kirjete ühte raamatupidamise kirjesse. 
+## <a name="general-ledger-when-i-select-close-single-option-on-the-transfer-profit-and-loss-dimension-section-of-the-year-end-close-process-will-my-detailed-transactional-information-be-lost"></a>Pearaamat: kui valida aastalõpu sulgemisprotsessi akna jaotises „Kasumi ja kahjumi dimensioonide ülekandmine“ variant „Sule üksik“, kas minu üksikasjalik kandeteave läheb kaotsi?
 
-Kui see valik on määratud olekusse **Ei**, jäävad kõik sulgemissaldo ja algsaldo kirjed alles. Neid ei kustutata. Selle asemel luuakse uus sulgemissaldo ja algsaldo kirje ainult delta või uute kannete jaoks, mis on sisestatud pärast selle rahandusaasta viimast aastalõpu sulgemist.  
+Käskudega **Sule kõik** ja **Sule üksik** saab määrata, millised kasumi- ja kahjumikontodele sisestatud kannete finantsdimensioonid kantakse üle jaotamata kasumi põhikontole. Ajaloolisi üksikasjalike sisestusi kasumi- ja kahjumikontodele see ei mõjuta ning need jäävad üksikasjalikuks. Valik mõjutab üksikasjataset, mis kantakse üle jaotamata kasumi kontodele uue aasta algsaldona. 
 
-> [!NOTE]
-> Sulgemissaldo kirje luuakse suletavas aastas. See juhtub ainult siis, kui pearaamatu parameeter **Sulgemiskannete loomine ülekande ajal** on määratud olekusse **Jah**. Algsaldo kirje luuakse alati, kuna see on järgmise aasta algne saldo. 
+## <a name="general-ledger-the-year-end-close-process-is-failing-because-the-reporting-currency-for-the-year-does-not-balance-what-does-this-mean"></a>Pearaamat: aastalõpu sulgemisprotsess nurjub, kuna aasta aruandlusvaluutat ei saa tasakaalustada. Mida see tähendab?
 
-## <a name="general-ledger-what-can-be-changed-to-enhance-performance-of-year-end-processing"></a>Pearaamat: mida saab muuta, et aastalõpu töötlemise jõudlus oleks tõhusam? 
-Aastalõpu sulgemise jõudluse parendamiseks saate teha mitmeid muudatusi. Soovitame teil neid ettepandud muudatusi hinnata ning otsustada, kas iga muudatus on teie organisatsiooni jaoks sobiv.  
+See tõrge võib ilmneda pärast funktsiooni **Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel** (nn teadlikkusfunktsiooni) lubamist. Kui see funktsioon on lubatud, ei kaasata tasakaalustatud pearaamatukandeid enam pearaamatu aastalõpu sulgemise käitamisel järgmise finantsaasta algsaldosse. Kui pearaamatu jaoks on määratletud aruandlusvaluuta, võib tasakaalustatud pearaamatukannete välistamine tekitada klientidele aastalõpu sulgemisel probleeme.   
+Pearaamatu tasakaalustamine tehakse ainult arvestusvaluutas.  Kui pearaamatukanded on tasakaalustatud, tagab kinnitamine ainult selle, et arvestusvaluuta deebetid on arvestusvaluuta kreedititega võrdsed. Nende pearaamatukannete aruandlusvaluuta summasid ei kinnitata ja on võimalik, et nende korral deebet = kreedit ei kehti.  Lisaks ei arvuta ega sisesta pearaamatu tasakaalustamine kasumit/kahjumit automaatselt aruandlusvaluutas.  Nende piirangute tõttu peab kasumi-/kahjumikanne pearaamatu tasakaalustamisel olema aruandlusvaluutas.  Kui pearaamatu tasakaalustamisse ei kaasata kasumit/kahjumit, põhjustab aastalõpu sulgemine teate tasakaalu puudumise kohta.  Lisateavet leiate artiklist [Teadlikkus pearaamatu tasakaalustusfunktsiooni ja aruandlusvaluuta vahel on tasakaalust väljas](reporting-currency-yec.md).
+
+## <a name="general-ledger-what-can-be-changed-to-help-enhance-the-performance-of-year-end-processing"></a>Pearaamat: mida saab muuta, et aastalõpu töötlemise jõudlus oleks tõhusam?
+
+Aastalõpu sulgemise jõudluse parendamiseks saate teha mitu muudatust. Soovitame teil neid ettepandud muudatusi hinnata ning otsustada, kas need on teie organisatsiooni jaoks sobivad.
+
+### <a name="optimize-year-end-close-service"></a>Aastalõpu sulgemise optimeerimise teenus
+
+Teenus **Aastalõpu sulgemise optimeerimine** annab Microsoft Dynamics 365 Finance’i klientidele võimaluse aastalõpu sulgemist kiirendada, kolides aeganõudva aastalõpu töötlemise üle mikroteenusesse. Tõhusa aastalõpu sulgemise kaudu säästetud aeg aitab igal Finance’i meeskonnal nõutavatele korrigeerimistele õigeaegselt reageerida ja finantsaruanded genereerida. Aastalõpu sulgemise töötlemine mikroteenuses vabastab väärtuslikke ressursse muudeks tegevusteks. Töötlemise ülendamine minimeerib SQL Serveri koormust ja annab klientide võimaluse aastalõpu sulgemise töötlemist kiirendada.
+
+Teenus **Aastalõpu sulgemise optimeerimine** on saadaval versioonis 10.0.31, et rohkem kliente saaksid uut teenust kasutada juba 2022. aasta lõpu jaoks. Lisaks on teenus tagasiulatuvalt kasutusele võetud ka versioonides 10.0.30 ja 10.0.29. Lisateavet leiate artiklist [Aastalõpu sulgemise optimeerimine](optimize-year-end-close.md).
 
 ### <a name="dimension-sets"></a>Dimensioonikogumid
-Aastalõpu sulgemisel käivitamisel luuakse iga dimensioonikogumi saldo uuesti ja see mõjutab otseselt jõudlust. Mõned organisatsioonid loovad dimensioonikogumeid tarbetult, kuna neid on ühel hetkel kasutatud või võidakse ühel hetkel kasutada.  Need tarbetud dimensioonikogumid luuakse aastalõpu sulgemise käigus siiski uuesti ja see aeglustab protsessi. Võtke aega, et oma dimensioonikogumid üle vaadata, ja kustutage kõik tarbetud dimensioonikogumid.
 
-Mittevajalikud dimensioonikogumid mõjutavad ka pakett-tööd **BudgetDimensionFocusInitializeBalance** (**Pearaamat > Kontoplaan > Dimensioonid > Finantsdimensioonikogumid**).
+Aastalõpu sulgemise käivitamisel luuakse iga dimensioonikogumi saldo uuesti. Selline käitumine mõjutab otseselt jõudlust. Mõned organisatsioonid loovad dimensioonikogumeid tarbetult, kuna neid on ühel hetkel kasutatud või võidakse ühel hetkel kasutada. Kuna need tarbetud dimensioonikogumid luuakse aastalõpu sulgemise käigus uuesti, aeglustab see protsessi. Võtke aega, et oma dimensioonikogumid üle vaadata, ja kustutage kõik, mida pole vaja.
 
-[![Finantsdimensioonikomplektid.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+Mittevajalikud dimensioonikogumid mõjutavad ka pakett-tööd **BudgetDimensionFocusInitializeBalance** (**Pearaamat \> Kontoplaan \> Dimensioonid \> Finantsdimensioonikogumid**).
+
+[![Finantsdimensioonikogumid.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Aastalõpu sulgemise malli konfigureerimine
+
 Aastalõpu sulgemise mall võimaldab organisatsioonil valida finantsdimensiooni taseme, mida hoitakse kasumi- ja kahjumisaldode ülekandmisel jaotamata kasumisse. Sätted võimaldavad organisatsioonil saldode jaotamata kasumisse teisaldamisel hoida alles üksikasjalikke finantsdimensioone (**Sule kõik**) või summeerida summad ühele dimensiooniväärtusele (**Sule üks**). Selle saab määratleda iga finantsdimensiooni jaoks. Lisateavet nende sätete kohta vt artiklist [Aastalõpu sulgemine](year-end-close.md).
 
 Soovitame teil hinnata oma organisatsiooni vajadusi ja jõudluse täiustamiseks sulgeda võimaluse korral nii palju dimensioone kui võimalik, kasutades aastalõpu suvandit **Sule üks**. Sulgedes ühele dimensiooniväärtusele (mis võib olla ka tühi väärtus), arvutab süsteem jaotamata kasumi konto kirjete saldode määratlemisel vähem üksikasju.
 
-## <a name="degenerate-dimensions"></a>Dimensioonide degenereerimine
+### <a name="degenerate-dimensions"></a>Dimensioonide degenereerimine
 
-Dimensiooni degenereerimisega on eraldiseisev või teiste dimensioonidega koos taaskasutamine peaaegu olematu. Dimensioonide degenereerimist on kahte tüüpi. Esimene tüüp on eraldiseisvalt degenereeriv dimensioon. Tavaliselt kuvatakse seda tüüpi degenereerivat dimensiooni ainult ühel kandel või väikesel hulgal kannetel. Teine tüüp on dimensioon, mis degenereerib vähemalt ühe lisadimensiooniga, millel on sama potentsiaal võimalike genereeritavate permutatsioonide põhjal. Degenereeriv dimensioon võib märkimisväärselt mõjutada aastalõpu sulgemise protsessi jõudlust. Jõudlusprobleemide vähendamiseks määratlege kõik degenereerivad dimensioonid aastalõpu sulgemise seadistuses olekusse **Sule üks** eelmises jaotises kirjeldatud viisil.
-
-## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Pearaamat: mida perioodi sulgemine, aastalõpu sulgemine teeb?
- 
-[![Perioodi sulgemine, aastalõpu sulgemine.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
-
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Finantsdimensioonide komplektide uuestiloomise jõudlustäiustused
-Versioonile 10.0.16 lisatud uus funktsioon parendab aastalõpu sulgemise ja konsolideerimise protsesside jõudlust. Funktsiooni nimeks on Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks. See funktsioon muudab dimensioonikogumite uuesti loomise viisi nii, et need luuakse uuesti ainult asjakohase ajavahemiku jaoks. Eelmistes versioonides loodi dimensioonikogumid uuesti kõigi kuupäevade jaoks. Näiteks kui sulgete aasta 2020, loob süsteem uuesti ainult 2020. rahandusaasta kannete saldod. Kui käivitate konsolideerimise kuupäevavahemikule 1. november 2020 kuni 30. november 2020, loob süsteem uuesti saldod ainult selle kuupäevavahemiku jaoks.
-
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada funktsioonihalduse tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
- 
-- Moodul: Pearaamat
-- Funktsiooni nimi: Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks
+Dimensiooni degenereerimisega on eraldiseisev või teiste dimensioonidega koos taaskasutamine peaaegu olematu. Dimensioonide degenereerimist on kahte tüüpi. Esimene tüüp on eraldiseisvalt degenereeriv dimensioon. Tavaliselt kuvatakse seda tüüpi degenereerivat dimensiooni ainult ühel kandel või väikesel hulgal kannetel. Teine tüüp on dimensioon, mis degenereerib vähemalt ühe lisadimensiooniga, millel on sama potentsiaal võimalike genereeritavate permutatsioonide põhjal. Degenereeriv dimensioon võib märkimisväärselt mõjutada aastalõpu sulgemise protsessi jõudlust. Jõudlusprobleemide vähendamiseks määratlege kõik degenereerivad dimensioonid aastalõpu sulgemise häälestuses eelmises jaotises kirjeldatud viisil olekus **Sule üks**.
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2022. aastal?
 
 #### <a name="update-to-all-1099-forms"></a>Kõigi 1099-vormide värskendus
+
 2022. maksuaasta jaoks on kõigisse 1099-vormidesse tehtud järgmised muudatused.
 
-  - 2021. aastal oli 1099-vormides aasta fikseeritud. Alates 2022. aastast lisab aasta aruanne. 
+- 2021. aastal oli 1099-vormides aasta fikseeritud. Alates 2022. aastast lisab aasta aruanne.
 
 #### <a name="1099-misc"></a>1099-LISA
+
 2022. maksuaasta jaoks on vormis 1099-LISA tehtud järgmised värskendused.
 
- - Väli 13: näitab nüüd välismaiste kontode maksukuulekuse seaduse (FATCA) esitamisnõuet. 
- - Väli 14: kasutatakse nüüd liigsete kuldse langevarju maksete aruandluseks. 
- - Väli 15: kasutatakse nüüd mittekvalifitseeruvate edasilükatud hüvitise (NQDC) plaanide alusel tehtud makse aruandluseks. 
- - Väli 16: kasutatakse nüüd riigi kinnipeetavate maksude aruandluseks.
- - Väli 17: kasutatakse nüüd maksja riiginumbri aruandluseks.
- - Väli 18: kasutatakse nüüd riigitulu aruandluseks. 
+- Väli 13: näitab nüüd välismaiste kontode maksukuulekuse seaduse (FATCA) esitamisnõuet.
+- Väli 14: kasutatakse nüüd liigsete kuldse langevarju maksete aruandluseks.
+- Väli 15: kasutatakse nüüd mittekvalifitseeruvate edasilükatud hüvitise (NQDC) plaanide alusel tehtud makse aruandluseks.
+- Väli 16: kasutatakse nüüd riigi kinnipeetavate maksude aruandluseks.
+- Väli 17: kasutatakse nüüd maksja riiginumbri aruandluseks.
+- Väli 18: kasutatakse nüüd riigitulu aruandluseks.
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2021. aastal?
+## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Ostureskontro: 1099 – kuidas muuta välja 1099 ja selle väärtusi hankija jaoks, kes ei jälginud aasta vältel 1099 teavet?
 
-2021. aastal on vorme DIV, NEC ja MISC pisut muudetud ning lisatud täiendavaid välju.
+Kasutage funktsiooni **Uuenda 1099** varem makstud arvekannete läbivaatamiseks ja määrake 1099 andmed asjakohasel viisil ümber, võttes aluseks lehe **Hankija** vahekaardi **Maks 1099** sätted. Funktsiooni **Uuenda 1099** kasutamiseks minge lehele **Ostureskontro \> Hankijad \> Kõik hankijad**, valige soovitud hankija ja seejärel valige toimingupaani vahekaardil **Hankija** nupp **Uuenda 1099**.
 
-#### <a name="div-new-box2e-2f"></a>DIV: uus väli 2e, 2f
- 
-- Väli 2e. Näitab lahtri 1a summa osa, mis on jaotise 897 omandatav tulu USA kinnisvara intresside likvideerimisel (USRPI).  
-- Väli 2f. Näitab lahtri 2a summa osa, mis on jaotise 897 omandatav tulu USRPI likvideerimisel. Pidage meeles, et väljad 2e ja 2f kehtivad ainult välismaalastele ja üksustele, kelle sissetulekud säilitatavad selle olemuse otsestele või kaudsetele omanikele või kasusaajatele edastamisel või jaotamisel. Üldiselt käsitletakse seda faktiliselt Ameerika Ühendriikides asuva valdkonna või ettevõttega seonduvalt. Vaadake oma maksudeklaratsiooni juhiseid. 
- 
-#### <a name="nec-new-box-2"></a>NEC: uus väli 2 
- 
-Kui ruut 2 on märgitud, teatage vähemalt 5000 $ väärtuses tarbekaupadest, mis müüdi teile edasimüügiks, ostu-müügi, sissemaksu-komisjonitasu või muul alusel. Üldiselt peate teatama kõigist nende toodete müügist saadud tuludest Graafikus C (Vorm 1040). 
- 
-Samas on muudetud NEC-vormi suurust. Printimisel on kolm vormi lehe kohta. 
- 
-#### <a name="misc-new-box-11"></a>MISC: uus väli 11 
- 
-Väljal 11 kuvatakse kala edasimüügiks ostetud toote eest makstud summa mis tahes isikule, kes tegutseb kala püüdmise valdkonnas. Vaadake oma maksudeklaratsiooni juhiseid selle tulu esitamiseks. 
- 
-#### <a name="electronic-filing"></a>Elektrooniline esitamine 
-Elektroonilise esitamise kohta lisateabe saamiseks vt [Elektroonilise esitamise nõuete väljaanne](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+## <a name="can-i-run-the-update-1099-functionality-for-all-my-vendors-at-once"></a>Kas funktsiooni Uuenda 1099 saab käitada kõigi hankijate jaoks korraga?
 
-Vormingu spetsifikatsioonide ja kirje paigutuste värskendamine 2021 e-aruande jaoks 
-- Jaot. 2 Väljastaja A-kirje. 
-- Summakoodid – suurendati Välja asukoht 28–45, Pikkus 18-le. 
- 
-#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Jaot. 2 Väljastaja A-kirje, Maksete esitamiseks Vormil 1099-DIV: 
-- Summa tüüp – lisati Jaotis 897 tavalised dividendid ja lisati Summakood H. 
-- Summa tüüp – lisati Jaotis 897 kapitalitulu ja lisati Summakood H. 
- 
-#### <a name="sec-3-payee-b-record"></a>Jaot. 3 Makse saaja B-kirje 
-- Üldteabe kirjed – värskendati kolmandat loetelupunkti 16 kuni 18 väljad Maksesumma. 
-- Välja pealkiri Makse H – uuendati Välja paigutus 247–258, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Välja pealkiri Makse J – uuendati Välja paigutus 259–270, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Väli Tühi uuendati Välja asukohale 271–286. 
-- Välismaa näidik uuendati Välja asukohale 287. 
-- Esimese makse saaja nime rea välja uuendati Välja asukohale 288–327. 
-- Teise makse saaja nime rea välja uuendati Välja asukohale 328–367. 
-- Kirje paigutuse asukohad, Vorm 1099-MISC – kustutati Välja asukoht 548 ja Välja pealkirja FATCA esitamise nõude näidik. 
-- Kirje paigutuse asukohad, Vorm 1099-NEC – uuendati 545–546 väärtusele Tühi, uuendati väli 547 väärtusele Otsemüügi Indikaator, uuendati Pikkus ja Kirjeldus ning Kommentaarid 548–722 väärtusele Tühi. 
- 
-#### <a name="sec-4-end-of-issuer-c-record"></a>Jaot. 4 Väljastaja lõpp C-kirje 
-- Välja pealkiri Makse H – uuendati Välja paigutus 304–321, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Välja pealkiri Makse J – uuendati Välja paigutus 322–339, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Välja pealkiri 340–499 – uuendati pikkust 160-ni. 
- 
-#### <a name="sec-5-state-totals-k-record"></a>Jaot. 5 Osariigi kogusummad K-kirje 
-- Välja pealkiri Makse H – uuendati Välja paigutus 304–321, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Välja pealkiri Makse J – uuendati Välja paigutus 322–339, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
-- Välja pealkiri 340–499 – uuendati pikkust 160-ni.  
+Lehel **1099 teabe värskendamine mitme hankija jaoks** saate värskendada 1099 välja ühe hankija kirjel. Seejärel saate kanded sellelt 1099 väljalt pärineva teabega värskendada. Lehe avamiseks valige **Ostureskontro \> Perioodiline ülesanne \> Maks 1099**. Lehele juurdepääsuks peab teile olema määratud turbeõigus **Mitme hankija välja 1099 ja kannete värskendamine**.
 
-## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Ostureskontro: 1099 – kuidas muuta välja 1099 ja selle väärtusi hankijal, kes ei jälginud aasta vältel 1099 teavet?
-Kasutage funktsiooni Uuenda 1099 (**Ostureskontro > Hankijad>Kõik hankijad > Valige hankija > Hankija vahekaart lindil > Uuenda 1099**), et sirvida läbida varem makstud arve kanded, et määrata 1099-andmed uuesti ja õigesti vastavalt vahekaardi **Maks 1099** sätetele lehel **Hankija**.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Ostureskontro: 1099 – „Arvutab üle olemasolevad 1099 summad“ vs. „Uuenda kõik“ utiliidis Uuenda 1099.
 
-## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Kas saan käivitada funktsiooni Uuenda 1099 kõigi hankijate jaoks korraga?
-Ei. Uuenda 1099 protseduur tehakse ühele hankijale korraga. Kui teie organisatsioon vajab seda nõuet, siis andke oma hääl ettepanekule [Hankija 1099 andmete uuendamise pakktöötlus](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
+Märkeruut **Arvutab üle olemasolevad 1099 summad** lähtestab 1099 summa kokku tasutud väärtustele, kui seda kasutatakse koos märkeruuduga **Uuenda kõik**.
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Ostureskontro: 1099 – „Olemasolevate 1099 summade uuesti arvutamine“ vs. „Kõikide uuendamine“ utiliidis Uuenda 1099.
-Märkeruut **Olemasolevate 1099 summade uuesti arvutamine** lähtestab 1099 summa kokku tasustatud väärtustele, kui seda kasutatakse koos märkeruuduga **Kõikide uuendamine**. 
+[![Maksu 1099 kanded: enne uuendamisprotseduuri käivitamist.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
-[![Maksu 1099 kanded: enne uuendamisprotseduuri käivitamist.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+Märkeruut **Arvutab üle olemasolevad 1099 summad** tuleb mängu üksnes siis, kui arvel on osalisi 1099 väärtusi või kui arvet on vormil „Maks 1099“ muudetud. Oletagem näiteks, et teil on arve väärtusega 1000.00 $, kuid kasutaja sisestab arvele käsitsi 1099-summa väärtuses 500.00 $.
 
-Märkeruut **Olemasolevate 1099 summade uuesti arvutamine** tuleb mängu alles siis, kui arvel on osalisi 1099 väärtusi või seda muudeti Maksu 1099 vormil. Oletagem näiteks, et teil on arve väärtusega 1000.00 $, kuid kasutaja tipib käsitsi 1099-summa 500.00 $ suurusele arvele.
+[![Maksu 1099 kanded: märkeruutude „Uuenda kõik“ ja „Arvutab üle olemasolevad 1099 summad“ korraga märkimine.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
-[![Maksu 1099 kanded: valikute Kõikide uuendamine ja Olemasolevate 1099 summade uuesti arvutamine korraga märkimine.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
-
-Selle tasumisel on 500.00 $ tasutud 1099-summa. Kui teete ümberarvutamisprotseduuri, muudab süsteem 1099-summa väärtuseks 1000.00 $, mis on tasutud kogusumma.
+Selle arve tasumisel on 500.00 $ tasutud 1099-summa. Kui teete ümberarvutamisprotseduuri, muudetakse 1099-summa väärtuseks 1000.00 $, mis on tasutud kogusumma.
 
 [![Maksu 1099 kanded: pärast 1099-protseduuri käivitamist.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Ostureskontro: 1099 – 1099-kannete käsitsi loomine
-Organisatsioonil võib olla vaja luua käsitsi 1099-kandeid, mis pole arvega seostatud. 1099 kannete käsitsi lisamiseks valige **Ostureskontro > Perioodilised ülesanded > Maks 1099 > 1099-te hankija tasakaalustus**. Valige nupp **Käsitsi 1099 kanded**. 
 
-Käsitsi loodud 1099 kandeid ei uuendata utiliidis **Uuenda 1099** protsessiga **Kõikide uuendamine** ega protsessiga **Olemasolevate 1099 summade uuesti arvutamine**.
+Organisatsioonil võib olla vaja luua käsitsi 1099-kandeid, mis pole arvega seostatud. 1099 kannete käsitsi lisamiseks valige **Ostureskontro \> Perioodilised ülesanded \> Maks 1099 \> 1099-te hankija tasakaalustus**. Valige nupp **Manuaalsed 1099 kanded**.
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Ostureskontro: 1099 – kas Dynamics 365 Finance toetab 1096 vormi? 
+Käsitsi loodud 1099 kandeid ei uuendata utiliidis **Uuenda 1099** protsessiga **Uuenda kõik** ega protsessiga **Arvutab üle olemasolevad 1099 summad**.
+
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Ostureskontro: 1099 – kas Dynamics 365 Finance toetab 1096 vormi?
 
 Dynamics 365 Finance ei prindi 1096 aastakokkuvõtte ja USA teabetagastuste edastamise vormi.
 
-## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Ostureskontro: 1099 – kas on uusi funktsioone, mis toetavad 1099-aruandlust avalikus sektoris? 
+## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Ostureskontro: 1099 – kas on uusi funktsioone, mis toetavad 1099-aruandlust avalikus sektoris?
+
 Lisatud on uus avaliku sektori funktsioon **1099-teabe uuendamine põhikonto järgi**, mille saate lubada **funktsioonihalduse** tööruumis. See funktsioon võimaldab arvestuse jaotuses seostada hankija 1099-väärtused põhikonto järgi, mitte hankija kirje vaikekonto järgi.
 
 Lisateavet vt teemast [Hankijate häälestamine aruande 1099 jaoks](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
